@@ -1,0 +1,46 @@
+{
+  "rows": [
+    {
+      "id": "cb961792556000326d19f00f99798a92",
+      "name": "20629_地面_拆砸.mp4",
+      "root": "baba",
+      "rel": "7老人/20629_地面_拆砸.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\7老人\\20629_地面_拆砸.mp4",
+      "duration": 95.038,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\cb961792556000326d19f00f99798a92.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "e9454d3052ab6aeaa5fcb7055e3469ff",
+      "name": "20654_城市_空镜.mp4",
+      "root": "baba",
+      "rel": "7老人/20654_城市_空镜.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\7老人\\20654_城市_空镜.mp4",
+      "duration": 5.572,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\e9454d3052ab6aeaa5fcb7055e3469ff.jpg",
+      "start": 1.393,
+      "end": 5.393,
+      "ratio": 0.5625
+    },
+    {
+      "id": "2c008c8d066ce62e796b1c57640ac200",
+      "name": "20724_人物_口播.mp4",
+      "root": "baba",
+      "rel": "7老人/20724_人物_口播.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\7老人\\20724_人物_口播.mp4",
+      "duration": 14.977,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\2c008c8d066ce62e796b1c57640ac200.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    }
+  ],
+  "errors": [
+    {
+      "id": "6724b332be62544b4d2ec8c6bf6f8a6f",
+      "reason": "非9:16"
+    }
+  ]
+}

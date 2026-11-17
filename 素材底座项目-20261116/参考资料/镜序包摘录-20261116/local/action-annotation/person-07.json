@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "purpose": "用户确认人物检索方向，仅具体预览片段",
+  "rows": [
+    {
+      "sample_id": "V1",
+      "source": {
+        "id": "08df39f7e2833ba59b9fa50e7beecc74",
+        "root": "xiaoq",
+        "rel": "武汉理工大学/人物出镜/32523_人物_小区场景.MOV",
+        "name": "32523_人物_小区场景.MOV",
+        "start": 0,
+        "end": 8
+      },
+      "person_identity": "阿明",
+      "person_targets": [
+        {
+          "description": "本预览片段的主要人物；不包含其他同框人物",
+          "identity": "阿明",
+          "confirmed_by": "当前用户"
+        }
+      ],
+      "confirmed_label": "用户确认适合当前文案",
+      "confirmed_by": "当前用户",
+      "confirmed_at": "2026-11-16T16:29:12.292417+08:00",
+      "confirmation_evidence": "V1和v3适合，主要人物是阿明 v2不是",
+      "apply_to_directory": false,
+      "product_identity": "未核验",
+      "label_note": "仅0–8秒主要人物。V2不认定全体同框人物均不是阿明，也不作全库禁用。",
+      "current_copy": "他就是全武汉女人都想嫁的旧房改造大王",
+      "current_copy_suitable": true,
+      "adopted": false
+    },
+    {
+      "sample_id": "V2",
+      "source": {
+        "id": "844dec0c826dc1e0870a4f6c15f21050",
+        "root": "xiaoq",
+        "rel": "二印小区厨卫/人物出镜/20577_人物_小区场景.MOV",
+        "name": "20577_人物_小区场景.MOV",
+        "start": 0,
+        "end": 8
+      },
+      "person_identity": "不是阿明",
+      "person_targets": [
+        {
+          "description": "本预览片段的主要人物；不包含其他同框人物",
+          "identity": "不是阿明",
+          "confirmed_by": "当前用户"
+        }
+      ],
+      "confirmed_label": "用户确认主要人物不是阿明；不作为阿明出镜候选",
+      "confirmed_by": "当前用户",
+      "confirmed_at": "2026-11-16T16:29:12.292417+08:00",
+      "confirmation_evidence": "V1和v3适合，主要人物是阿明 v2不是",
+      "apply_to_directory": false,
+      "product_identity": "未核验",
+      "label_note": "仅0–8秒主要人物。V2不认定全体同框人物均不是阿明，也不作全库禁用。",
+      "current_copy": "他就是全武汉女人都想嫁的旧房改造大王",
+      "current_copy_suitable": null,
+      "adopted": false
+    },
+    {
+      "sample_id": "V3",
+      "source": {
+        "id": "cccbc086c8b2fea531fb0dd2bd034fb2",
+        "root": "xiaoq",
+        "rel": "博学仕府（地面液态陶泥）/人物出镜/17887_人物_小区场景.MOV",
+        "name": "17887_人物_小区场景.MOV",
+        "start": 0,
+        "end": 8
+      },
+      "person_identity": "阿明",
+      "person_targets": [
+        {
+          "description": "本预览片段的主要人物；不包含其他同框人物",
+          "identity": "阿明",
+          "confirmed_by": "当前用户"
+        }
+      ],
+      "confirmed_label": "用户确认适合当前文案",
+      "confirmed_by": "当前用户",
+      "confirmed_at": "2026-11-16T16:29:12.292417+08:00",
+      "confirmation_evidence": "V1和v3适合，主要人物是阿明 v2不是",
+      "apply_to_directory": false,
+      "product_identity": "未核验",
+      "label_note": "仅0–8秒主要人物。V2不认定全体同框人物均不是阿明，也不作全库禁用。",
+      "current_copy": "他就是全武汉女人都想嫁的旧房改造大王",
+      "current_copy_suitable": true,
+      "adopted": false
+    }
+  ]
+}

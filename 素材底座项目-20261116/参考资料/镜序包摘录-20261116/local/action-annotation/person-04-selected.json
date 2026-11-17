@@ -1,0 +1,29 @@
+{
+  "rows": [
+    {
+      "id": "1c3742d1e5fd0e1d51ffd7ddc2b052b9",
+      "name": "19910_人物_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "常青花园四小区/人物出镜/19910_人物_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\常青花园四小区\\人物出镜\\19910_人物_小区场景.MOV",
+      "duration": 13.335,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\1c3742d1e5fd0e1d51ffd7ddc2b052b9.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "c0989918dfc4340174e9ede6d31cf89e",
+      "name": "IMG_0996.MOV",
+      "root": "xiaoq",
+      "rel": "翠提春晓/批刮陶泥/IMG_0996.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\翠提春晓\\批刮陶泥\\IMG_0996.MOV",
+      "duration": 10.536667,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\c0989918dfc4340174e9ede6d31cf89e.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    }
+  ],
+  "errors": []
+}

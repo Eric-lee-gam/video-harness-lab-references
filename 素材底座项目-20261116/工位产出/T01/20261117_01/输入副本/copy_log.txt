@@ -1,0 +1,6 @@
+start 2026-11-17T11:06:49
+inventory exists: False path=C:\Users\leega\AppData\Local\Temp\share-video-inventory-20261114\36-gongxiang.csv
+INVENTORY MISSING: 36-gongxiang.csv not found
+copied catalog.sqlite3 -> catalog.sqlite3 size=14934016 seconds=0.01
+copied AI剪辑检索索引.jsonl -> 标注库_小区全库_AI剪辑检索索引.jsonl size=55868403 seconds=4.80
+copied AI剪辑检索索引.jsonl -> 标注库_测试阿明搅拌_AI剪辑检索索引.jsonl size=1529988 seconds=0.15

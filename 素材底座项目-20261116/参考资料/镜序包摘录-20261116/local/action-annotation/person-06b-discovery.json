@@ -1,0 +1,53 @@
+{
+  "rows": [
+    {
+      "id": "21d6820dacba58e345650203a144f2b1",
+      "name": "24285_人物_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "江岸2卫＋厨房/小明哥出镜/24285_人物_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\江岸2卫＋厨房\\小明哥出镜\\24285_人物_小区场景.MOV",
+      "duration": 10.166667,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\21d6820dacba58e345650203a144f2b1.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "ae389fac1fe4316ab1d8565a48557d16",
+      "name": "18258_人物_小区场景.mp4",
+      "root": "xiaoq",
+      "rel": "蔡甸小区全屋/人物出镜/18258_人物_小区场景.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\蔡甸小区全屋\\人物出镜\\18258_人物_小区场景.mp4",
+      "duration": 21.188333,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\ae389fac1fe4316ab1d8565a48557d16.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "eb4eb676e272e8b7effb40ba3b9b7971",
+      "name": "31182_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "武昌江景房/卫生间加口播/续/31182_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\武昌江景房\\卫生间加口播\\续\\31182_小区场景.MOV",
+      "duration": 101.77,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\eb4eb676e272e8b7effb40ba3b9b7971.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "02fbbeeddd76ac1344bde48b2419eba1",
+      "name": "26543_人物_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "美术院/人物出镜1/26543_人物_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\美术院\\人物出镜1\\26543_人物_小区场景.MOV",
+      "duration": 8.766667,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\02fbbeeddd76ac1344bde48b2419eba1.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    }
+  ],
+  "errors": []
+}

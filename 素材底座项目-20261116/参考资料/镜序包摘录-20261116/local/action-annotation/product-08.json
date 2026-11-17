@@ -1,0 +1,71 @@
+{
+  "version": 2,
+  "purpose": "较长取料与罩面人工确认样本，非训练完成",
+  "rows": [
+    {
+      "sample_id": "P25",
+      "source": {
+        "id": "4ccc65df7eeac0bb2297a1cecacea261",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\博学仕府（地面液态陶泥）\\施工\\18092_小区场景.MOV",
+        "rel": "博学仕府（地面液态陶泥）/施工/18092_小区场景.MOV",
+        "root": "xiaoq",
+        "name": "18092_小区场景.MOV",
+        "start": 0,
+        "end": 4.5
+      },
+      "clip": "clips/P25.mp4",
+      "clip_sha256": "a0f4dd010a6523f1a3640f100fc6c21b74c36fad2a548929b4c4a8bac78cbc9c",
+      "suggested_action": "取料",
+      "confirmed_label": "用户确认：微陶泥纯取料",
+      "status": "已人工确认",
+      "product_identity": "微陶泥（用户确认，仅本段）",
+      "apply_to_directory": false,
+      "benchmark_eligible": false,
+      "label_scope": "仅所列完整时间范围",
+      "related_sample": "P9同原片延长范围，不算新独立来源",
+      "confirmed_action": "纯取料",
+      "confirmed_at": "2026-11-13T11:39:18.010177+08:00",
+      "confirmed_by": "当前用户",
+      "confirmation_evidence": "P25是微陶泥纯取料，P26是微陶泥罩面，整段都可以。先按这两段记录，不要套用整个目录",
+      "full_range_confirmed": true
+    },
+    {
+      "sample_id": "P26",
+      "source": {
+        "id": "f29ecd7161dff8c5d9328f678b2228db",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\中南新宛东区九栋（上罩面）\\上罩面\\34397_小区场景.MOV",
+        "rel": "中南新宛东区九栋（上罩面）/上罩面/34397_小区场景.MOV",
+        "root": "xiaoq",
+        "name": "34397_小区场景.MOV",
+        "start": 2,
+        "end": 8
+      },
+      "clip": "clips/P26.mp4",
+      "clip_sha256": "67a8561c30b07e83a5bdc48e2c8c5ab7795b6d2e4c42b126f89d6b4c5de39162",
+      "suggested_action": "滚涂罩面",
+      "confirmed_label": "用户确认：微陶泥罩面",
+      "status": "已人工确认",
+      "product_identity": "微陶泥（用户确认，仅本段）",
+      "apply_to_directory": false,
+      "benchmark_eligible": false,
+      "label_scope": "仅所列完整时间范围",
+      "related_sample": "新来源目录，项目与工序待核实",
+      "confirmed_action": "罩面",
+      "confirmed_at": "2026-11-13T11:39:18.010177+08:00",
+      "confirmed_by": "当前用户",
+      "confirmation_evidence": "P25是微陶泥纯取料，P26是微陶泥罩面，整段都可以。先按这两段记录，不要套用整个目录",
+      "full_range_confirmed": true
+    }
+  ],
+  "updated": "2026-11-13T11:39:18.010177+08:00",
+  "history": [
+    {
+      "at": "2026-11-13T11:39:18.010177+08:00",
+      "samples": [
+        "P25",
+        "P26"
+      ],
+      "evidence": "P25是微陶泥纯取料，P26是微陶泥罩面，整段都可以。先按这两段记录，不要套用整个目录"
+    }
+  ]
+}

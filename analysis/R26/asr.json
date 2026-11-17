@@ -1,0 +1,833 @@
+{
+  "schema_version": 1,
+  "reference_id": "R26",
+  "status": "local_asr_complete_unverified",
+  "source_audio": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\audio.wav",
+  "model": "C:\\Users\\leega\\.cache\\huggingface\\hub\\models--Systran--faster-whisper-small\\snapshots\\536b0662742c02347bc0e980a01041f333bce120",
+  "device": "cpu",
+  "compute_type": "int8",
+  "language": "zh",
+  "language_probability": 1,
+  "duration": 22.0575,
+  "vad_filter": false,
+  "word_timestamps": true,
+  "human_listening_verified": false,
+  "elapsed_seconds": 7.036,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 2.96,
+      "text": "反正以后北京的家家户户都不会去找装修公司",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.24,
+          "word": "反",
+          "probability": 0.9924017190933228
+        },
+        {
+          "start": 0.24,
+          "end": 0.38,
+          "word": "正",
+          "probability": 0.9996047616004944
+        },
+        {
+          "start": 0.38,
+          "end": 0.52,
+          "word": "以",
+          "probability": 0.9886703491210938
+        },
+        {
+          "start": 0.52,
+          "end": 0.64,
+          "word": "后",
+          "probability": 0.5310553908348083
+        },
+        {
+          "start": 0.64,
+          "end": 0.78,
+          "word": "北",
+          "probability": 0.9042220115661621
+        },
+        {
+          "start": 0.78,
+          "end": 0.92,
+          "word": "京",
+          "probability": 0.9995077848434448
+        },
+        {
+          "start": 0.92,
+          "end": 1.02,
+          "word": "的",
+          "probability": 0.9983848333358765
+        },
+        {
+          "start": 1.02,
+          "end": 1.16,
+          "word": "家",
+          "probability": 0.9405001997947693
+        },
+        {
+          "start": 1.16,
+          "end": 1.3,
+          "word": "家",
+          "probability": 0.9898008704185486
+        },
+        {
+          "start": 1.3,
+          "end": 1.46,
+          "word": "户",
+          "probability": 0.9788224995136261
+        },
+        {
+          "start": 1.46,
+          "end": 1.62,
+          "word": "户",
+          "probability": 0.9997840523719788
+        },
+        {
+          "start": 1.62,
+          "end": 1.76,
+          "word": "都",
+          "probability": 0.9941332936286926
+        },
+        {
+          "start": 1.76,
+          "end": 1.94,
+          "word": "不会",
+          "probability": 0.9817885756492615
+        },
+        {
+          "start": 1.94,
+          "end": 2.06,
+          "word": "去",
+          "probability": 0.9937455654144287
+        },
+        {
+          "start": 2.06,
+          "end": 2.2,
+          "word": "找",
+          "probability": 0.9988889098167419
+        },
+        {
+          "start": 2.2,
+          "end": 2.38,
+          "word": "装",
+          "probability": 0.9614975452423096
+        },
+        {
+          "start": 2.38,
+          "end": 2.54,
+          "word": "修",
+          "probability": 0.9998278021812439
+        },
+        {
+          "start": 2.54,
+          "end": 2.72,
+          "word": "公",
+          "probability": 0.9763799905776978
+        },
+        {
+          "start": 2.72,
+          "end": 2.96,
+          "word": "司",
+          "probability": 0.9963696002960205
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 2.96,
+      "end": 5.28,
+      "text": "现在每家每户的业主在找高总",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 2.96,
+          "end": 3.48,
+          "word": "现在",
+          "probability": 0.8477576971054077
+        },
+        {
+          "start": 3.48,
+          "end": 3.74,
+          "word": "每",
+          "probability": 0.8834337592124939
+        },
+        {
+          "start": 3.74,
+          "end": 3.88,
+          "word": "家",
+          "probability": 0.9961565136909485
+        },
+        {
+          "start": 3.88,
+          "end": 4.02,
+          "word": "每",
+          "probability": 0.5877187252044678
+        },
+        {
+          "start": 4.02,
+          "end": 4.14,
+          "word": "户",
+          "probability": 0.9996428489685059
+        },
+        {
+          "start": 4.14,
+          "end": 4.24,
+          "word": "的",
+          "probability": 0.9937667846679688
+        },
+        {
+          "start": 4.24,
+          "end": 4.38,
+          "word": "业",
+          "probability": 0.9720038175582886
+        },
+        {
+          "start": 4.38,
+          "end": 4.54,
+          "word": "主",
+          "probability": 0.9917761087417603
+        },
+        {
+          "start": 4.54,
+          "end": 4.7,
+          "word": "在",
+          "probability": 0.9864037036895752
+        },
+        {
+          "start": 4.7,
+          "end": 4.88,
+          "word": "找",
+          "probability": 0.9996036887168884
+        },
+        {
+          "start": 4.88,
+          "end": 5.06,
+          "word": "高",
+          "probability": 0.9935086965560913
+        },
+        {
+          "start": 5.06,
+          "end": 5.28,
+          "word": "总",
+          "probability": 0.9671357870101929
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 5.28,
+      "end": 7.52,
+      "text": "做这个随意批刮的环保金刚泥",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 5.28,
+          "end": 5.68,
+          "word": "做",
+          "probability": 0.870836615562439
+        },
+        {
+          "start": 5.68,
+          "end": 5.88,
+          "word": "这个",
+          "probability": 0.9253398180007935
+        },
+        {
+          "start": 5.88,
+          "end": 6.04,
+          "word": "随",
+          "probability": 0.9933748543262482
+        },
+        {
+          "start": 6.04,
+          "end": 6.18,
+          "word": "意",
+          "probability": 0.9235963225364685
+        },
+        {
+          "start": 6.18,
+          "end": 6.32,
+          "word": "批",
+          "probability": 0.6632767766714096
+        },
+        {
+          "start": 6.32,
+          "end": 6.48,
+          "word": "刮",
+          "probability": 0.9232648015022278
+        },
+        {
+          "start": 6.48,
+          "end": 6.58,
+          "word": "的",
+          "probability": 0.987179696559906
+        },
+        {
+          "start": 6.58,
+          "end": 6.76,
+          "word": "环",
+          "probability": 0.978766143321991
+        },
+        {
+          "start": 6.76,
+          "end": 6.96,
+          "word": "保",
+          "probability": 0.968388020992279
+        },
+        {
+          "start": 6.96,
+          "end": 7.1,
+          "word": "金",
+          "probability": 0.9868468642234802
+        },
+        {
+          "start": 7.1,
+          "end": 7.26,
+          "word": "刚",
+          "probability": 0.6124570965766907
+        },
+        {
+          "start": 7.26,
+          "end": 7.52,
+          "word": "泥",
+          "probability": 0.8872836232185364
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 7.52,
+      "end": 9.04,
+      "text": "材料一桶25公斤",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 7.52,
+          "end": 7.84,
+          "word": "材",
+          "probability": 0.9252523183822632
+        },
+        {
+          "start": 7.84,
+          "end": 8.0,
+          "word": "料",
+          "probability": 0.9998773336410522
+        },
+        {
+          "start": 8.0,
+          "end": 8.14,
+          "word": "一",
+          "probability": 0.9834620952606201
+        },
+        {
+          "start": 8.14,
+          "end": 8.28,
+          "word": "桶",
+          "probability": 0.9469058215618134
+        },
+        {
+          "start": 8.28,
+          "end": 8.58,
+          "word": "25",
+          "probability": 0.9490900039672852
+        },
+        {
+          "start": 8.58,
+          "end": 8.82,
+          "word": "公",
+          "probability": 0.8565691709518433
+        },
+        {
+          "start": 8.82,
+          "end": 9.04,
+          "word": "斤",
+          "probability": 0.9960175454616547
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 9.04,
+      "end": 10.94,
+      "text": "可以批刮15-20个平方",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 9.04,
+          "end": 9.42,
+          "word": "可以",
+          "probability": 0.8665463328361511
+        },
+        {
+          "start": 9.42,
+          "end": 9.62,
+          "word": "批",
+          "probability": 0.9931453466415405
+        },
+        {
+          "start": 9.62,
+          "end": 9.8,
+          "word": "刮",
+          "probability": 0.9987400770187378
+        },
+        {
+          "start": 9.8,
+          "end": 10.08,
+          "word": "15",
+          "probability": 0.9710915088653564
+        },
+        {
+          "start": 10.08,
+          "end": 10.22,
+          "word": "-",
+          "probability": 0.17580945789813995
+        },
+        {
+          "start": 10.22,
+          "end": 10.46,
+          "word": "20",
+          "probability": 0.996330201625824
+        },
+        {
+          "start": 10.46,
+          "end": 10.56,
+          "word": "个",
+          "probability": 0.9898349642753601
+        },
+        {
+          "start": 10.56,
+          "end": 10.74,
+          "word": "平",
+          "probability": 0.9609906077384949
+        },
+        {
+          "start": 10.74,
+          "end": 10.94,
+          "word": "方",
+          "probability": 0.9964554309844971
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 10.94,
+      "end": 12.4,
+      "text": "材料出厂就调好了",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 10.94,
+          "end": 11.34,
+          "word": "材",
+          "probability": 0.9357120990753174
+        },
+        {
+          "start": 11.34,
+          "end": 11.48,
+          "word": "料",
+          "probability": 0.9999494552612305
+        },
+        {
+          "start": 11.48,
+          "end": 11.62,
+          "word": "出",
+          "probability": 0.9967941641807556
+        },
+        {
+          "start": 11.62,
+          "end": 11.78,
+          "word": "厂",
+          "probability": 0.958460658788681
+        },
+        {
+          "start": 11.78,
+          "end": 11.9,
+          "word": "就",
+          "probability": 0.9954631924629211
+        },
+        {
+          "start": 11.9,
+          "end": 12.1,
+          "word": "调",
+          "probability": 0.9898276031017303
+        },
+        {
+          "start": 12.1,
+          "end": 12.4,
+          "word": "好了",
+          "probability": 0.9848518967628479
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 12.4,
+      "end": 13.6,
+      "text": "打开桶直接刷",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 12.4,
+          "end": 12.8,
+          "word": "打",
+          "probability": 0.9619205594062805
+        },
+        {
+          "start": 12.8,
+          "end": 12.94,
+          "word": "开",
+          "probability": 0.9986340403556824
+        },
+        {
+          "start": 12.94,
+          "end": 13.08,
+          "word": "桶",
+          "probability": 0.9753139019012451
+        },
+        {
+          "start": 13.08,
+          "end": 13.28,
+          "word": "直接",
+          "probability": 0.9883155822753906
+        },
+        {
+          "start": 13.28,
+          "end": 13.6,
+          "word": "刷",
+          "probability": 0.9970763921737671
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 13.6,
+      "end": 14.98,
+      "text": "刮完的墙面地面",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 13.6,
+          "end": 14.04,
+          "word": "刮",
+          "probability": 0.9616418182849884
+        },
+        {
+          "start": 14.04,
+          "end": 14.16,
+          "word": "完",
+          "probability": 0.8711372017860413
+        },
+        {
+          "start": 14.16,
+          "end": 14.26,
+          "word": "的",
+          "probability": 0.9718780517578125
+        },
+        {
+          "start": 14.26,
+          "end": 14.42,
+          "word": "墙",
+          "probability": 0.977358341217041
+        },
+        {
+          "start": 14.42,
+          "end": 14.6,
+          "word": "面",
+          "probability": 0.9979771971702576
+        },
+        {
+          "start": 14.6,
+          "end": 14.74,
+          "word": "地",
+          "probability": 0.9636160135269165
+        },
+        {
+          "start": 14.74,
+          "end": 14.98,
+          "word": "面",
+          "probability": 0.9997387528419495
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 14.98,
+      "end": 16.62,
+      "text": "像磁砖一样光滑平整",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 14.98,
+          "end": 15.32,
+          "word": "像",
+          "probability": 0.9545795917510986
+        },
+        {
+          "start": 15.32,
+          "end": 15.52,
+          "word": "磁",
+          "probability": 0.8429136276245117
+        },
+        {
+          "start": 15.52,
+          "end": 15.64,
+          "word": "砖",
+          "probability": 0.9645764529705048
+        },
+        {
+          "start": 15.64,
+          "end": 15.78,
+          "word": "一",
+          "probability": 0.9975889921188354
+        },
+        {
+          "start": 15.78,
+          "end": 15.86,
+          "word": "样",
+          "probability": 0.9990757703781128
+        },
+        {
+          "start": 15.86,
+          "end": 16.0,
+          "word": "光",
+          "probability": 0.9956896901130676
+        },
+        {
+          "start": 16.0,
+          "end": 16.18,
+          "word": "滑",
+          "probability": 0.997561901807785
+        },
+        {
+          "start": 16.18,
+          "end": 16.36,
+          "word": "平",
+          "probability": 0.9861206412315369
+        },
+        {
+          "start": 16.36,
+          "end": 16.62,
+          "word": "整",
+          "probability": 0.9882627129554749
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 16.62,
+      "end": 17.62,
+      "text": "防水抗冻",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 16.62,
+          "end": 16.98,
+          "word": "防",
+          "probability": 0.9308772683143616
+        },
+        {
+          "start": 16.98,
+          "end": 17.2,
+          "word": "水",
+          "probability": 0.9982571005821228
+        },
+        {
+          "start": 17.2,
+          "end": 17.4,
+          "word": "抗",
+          "probability": 0.879266619682312
+        },
+        {
+          "start": 17.4,
+          "end": 17.62,
+          "word": "冻",
+          "probability": 0.8054082691669464
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 17.62,
+      "end": 18.68,
+      "text": "高墙耐磨",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 17.62,
+          "end": 18.02,
+          "word": "高",
+          "probability": 0.6989860534667969
+        },
+        {
+          "start": 18.02,
+          "end": 18.24,
+          "word": "墙",
+          "probability": 0.8239841461181641
+        },
+        {
+          "start": 18.24,
+          "end": 18.4,
+          "word": "耐",
+          "probability": 0.9505554139614105
+        },
+        {
+          "start": 18.4,
+          "end": 18.68,
+          "word": "磨",
+          "probability": 0.9791933596134186
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 18.68,
+      "end": 20.52,
+      "text": "如果你喜欢这种翻新工艺",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 18.68,
+          "end": 19.08,
+          "word": "如果你",
+          "probability": 0.5193077921867371
+        },
+        {
+          "start": 19.08,
+          "end": 19.42,
+          "word": "喜欢",
+          "probability": 0.8540330529212952
+        },
+        {
+          "start": 19.42,
+          "end": 19.62,
+          "word": "这",
+          "probability": 0.9975420236587524
+        },
+        {
+          "start": 19.62,
+          "end": 19.74,
+          "word": "种",
+          "probability": 0.9997215867042542
+        },
+        {
+          "start": 19.74,
+          "end": 19.94,
+          "word": "翻",
+          "probability": 0.7962071895599365
+        },
+        {
+          "start": 19.94,
+          "end": 20.08,
+          "word": "新",
+          "probability": 0.7710759043693542
+        },
+        {
+          "start": 20.08,
+          "end": 20.26,
+          "word": "工",
+          "probability": 0.9659411907196045
+        },
+        {
+          "start": 20.26,
+          "end": 20.52,
+          "word": "艺",
+          "probability": 0.9938425421714783
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 20.52,
+      "end": 21.88,
+      "text": "可以给我点个小爱心吗",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 20.52,
+          "end": 20.82,
+          "word": "可以",
+          "probability": 0.903349757194519
+        },
+        {
+          "start": 20.82,
+          "end": 21.02,
+          "word": "给我",
+          "probability": 0.9901922941207886
+        },
+        {
+          "start": 21.02,
+          "end": 21.16,
+          "word": "点",
+          "probability": 0.9974806904792786
+        },
+        {
+          "start": 21.16,
+          "end": 21.24,
+          "word": "个",
+          "probability": 0.969226598739624
+        },
+        {
+          "start": 21.24,
+          "end": 21.38,
+          "word": "小",
+          "probability": 0.9968189001083374
+        },
+        {
+          "start": 21.38,
+          "end": 21.5,
+          "word": "爱",
+          "probability": 0.8053708076477051
+        },
+        {
+          "start": 21.5,
+          "end": 21.7,
+          "word": "心",
+          "probability": 0.9985271692276001
+        },
+        {
+          "start": 21.7,
+          "end": 21.88,
+          "word": "吗",
+          "probability": 0.6044703722000122
+        }
+      ]
+    }
+  ],
+  "raw_text": "反正以后北京的家家户户都不会去找装修公司现在每家每户的业主在找高总做这个随意批刮的环保金刚泥材料一桶25公斤可以批刮15-20个平方材料出厂就调好了打开桶直接刷刮完的墙面地面像磁砖一样光滑平整防水抗冻高墙耐磨如果你喜欢这种翻新工艺可以给我点个小爱心吗",
+  "limitations": [
+    "Raw machine transcription, not a verified transcript.",
+    "Mixed speech/music, accents, place names and prices can be wrong.",
+    "ASR timestamps are approximate and are not edit points."
+  ]
+}

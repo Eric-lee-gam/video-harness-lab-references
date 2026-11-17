@@ -1,0 +1,94 @@
+{
+  "rows": [
+    {
+      "id": "5cc71a6e1775962a6910318e3a201aab",
+      "name": "20637_地面_口播.mp4",
+      "root": "baba",
+      "rel": "7老人/20637_地面_口播.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\7老人\\20637_地面_口播.mp4",
+      "duration": 19.9,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\5cc71a6e1775962a6910318e3a201aab.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "82a14661a6b1fdeb8e69db5b563dccf7",
+      "name": "20645_展厅_口播.mp4",
+      "root": "baba",
+      "rel": "7老人/20645_展厅_口播.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\7老人\\20645_展厅_口播.mp4",
+      "duration": 15.092,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\82a14661a6b1fdeb8e69db5b563dccf7.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "ee5f357a1aaef3c6272ed8ef28b627ac",
+      "name": "20661_人物_口播.mp4",
+      "root": "baba",
+      "rel": "7老人/20661_人物_口播.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\7老人\\20661_人物_口播.mp4",
+      "duration": 11.467,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\ee5f357a1aaef3c6272ed8ef28b627ac.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "5ad956cfdcb64553055fe88f5912dba0",
+      "name": "20677_地面_清洁施工.mp4",
+      "root": "baba",
+      "rel": "7老人/20677_地面_清洁施工.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\7老人\\20677_地面_清洁施工.mp4",
+      "duration": 14.141,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\5ad956cfdcb64553055fe88f5912dba0.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "b823bad7458d3944a11d3c2642eae074",
+      "name": "20713_地面_口播.mp4",
+      "root": "baba",
+      "rel": "7老人/20713_地面_口播.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\7老人\\20713_地面_口播.mp4",
+      "duration": 9.984,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\b823bad7458d3944a11d3c2642eae074.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "3a4c2487d37c697dceda5a13a9349e87",
+      "name": "20734_城市_口播.mp4",
+      "root": "baba",
+      "rel": "7老人/20734_城市_口播.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\7老人\\20734_城市_口播.mp4",
+      "duration": 18.134,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\3a4c2487d37c697dceda5a13a9349e87.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "8ff55dffa6ead2256caeaf732777bef3",
+      "name": "@走自己的路 几位阿姨组团到那拉提大草原，为游客表演《最炫民族风》，听听看看，有点样没？😀😀 1080P.mp4",
+      "root": "baba",
+      "rel": "7老人/新建文件夹 (2)/@走自己的路 几位阿姨组团到那拉提大草原，为游客表演《最炫民族风》，听听看看，有点样没？😀😀 1080P.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\7老人\\新建文件夹 (2)\\@走自己的路 几位阿姨组团到那拉提大草原，为游客表演《最炫民族风》，听听看看，有点样没？😀😀 1080P.mp4",
+      "duration": 81.734,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\8ff55dffa6ead2256caeaf732777bef3.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    }
+  ],
+  "errors": [
+    {
+      "id": "52383fa66ab1066b81060e2904264eba",
+      "reason": "非9:16"
+    }
+  ]
+}

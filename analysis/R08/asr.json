@@ -1,0 +1,931 @@
+{
+  "schema_version": 1,
+  "reference_id": "R08",
+  "status": "local_asr_complete_unverified",
+  "source_audio": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R08\\audio.wav",
+  "model": "C:\\Users\\leega\\.cache\\huggingface\\hub\\models--Systran--faster-whisper-small\\snapshots\\536b0662742c02347bc0e980a01041f333bce120",
+  "device": "cpu",
+  "compute_type": "int8",
+  "language": "zh",
+  "language_probability": 1,
+  "duration": 24.9368125,
+  "vad_filter": false,
+  "word_timestamps": true,
+  "human_listening_verified": false,
+  "elapsed_seconds": 7.414,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 1.72,
+      "text": "乐山68岁的张阿姨",
+      "avg_logprob": -0.14879064720410567,
+      "no_speech_prob": 0.011151803657412529,
+      "compression_ratio": 1.235474006116208,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.26,
+          "word": "乐",
+          "probability": 0.2623441815376282
+        },
+        {
+          "start": 0.26,
+          "end": 0.42,
+          "word": "山",
+          "probability": 0.9768385887145996
+        },
+        {
+          "start": 0.42,
+          "end": 0.72,
+          "word": "68",
+          "probability": 0.889744758605957
+        },
+        {
+          "start": 0.72,
+          "end": 0.94,
+          "word": "岁",
+          "probability": 0.9962952435016632
+        },
+        {
+          "start": 0.94,
+          "end": 1.02,
+          "word": "的",
+          "probability": 0.9951424598693848
+        },
+        {
+          "start": 1.02,
+          "end": 1.18,
+          "word": "张",
+          "probability": 0.9817688465118408
+        },
+        {
+          "start": 1.18,
+          "end": 1.34,
+          "word": "阿",
+          "probability": 0.9865708947181702
+        },
+        {
+          "start": 1.34,
+          "end": 1.72,
+          "word": "姨",
+          "probability": 0.9758011996746063
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 1.72,
+      "end": 2.56,
+      "text": "做梦都想不到",
+      "avg_logprob": -0.14879064720410567,
+      "no_speech_prob": 0.011151803657412529,
+      "compression_ratio": 1.235474006116208,
+      "words": [
+        {
+          "start": 1.72,
+          "end": 1.92,
+          "word": "做",
+          "probability": 0.793960452079773
+        },
+        {
+          "start": 1.92,
+          "end": 2.08,
+          "word": "梦",
+          "probability": 0.9988469183444977
+        },
+        {
+          "start": 2.08,
+          "end": 2.2,
+          "word": "都",
+          "probability": 0.9876817464828491
+        },
+        {
+          "start": 2.2,
+          "end": 2.32,
+          "word": "想",
+          "probability": 0.9945999383926392
+        },
+        {
+          "start": 2.32,
+          "end": 2.56,
+          "word": "不到",
+          "probability": 0.9950475692749023
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 2.56,
+      "end": 4.54,
+      "text": "儿子撑他们出去旅游这几天",
+      "avg_logprob": -0.14879064720410567,
+      "no_speech_prob": 0.011151803657412529,
+      "compression_ratio": 1.235474006116208,
+      "words": [
+        {
+          "start": 2.56,
+          "end": 3.02,
+          "word": "儿",
+          "probability": 0.9126366376876831
+        },
+        {
+          "start": 3.02,
+          "end": 3.2,
+          "word": "子",
+          "probability": 0.9998315572738647
+        },
+        {
+          "start": 3.2,
+          "end": 3.32,
+          "word": "撑",
+          "probability": 0.7578994333744049
+        },
+        {
+          "start": 3.32,
+          "end": 3.52,
+          "word": "他们",
+          "probability": 0.9432915449142456
+        },
+        {
+          "start": 3.52,
+          "end": 3.68,
+          "word": "出去",
+          "probability": 0.9932706952095032
+        },
+        {
+          "start": 3.68,
+          "end": 3.92,
+          "word": "旅",
+          "probability": 0.9978562295436859
+        },
+        {
+          "start": 3.92,
+          "end": 4.1,
+          "word": "游",
+          "probability": 0.9982710182666779
+        },
+        {
+          "start": 4.1,
+          "end": 4.22,
+          "word": "这",
+          "probability": 0.9559260010719299
+        },
+        {
+          "start": 4.22,
+          "end": 4.36,
+          "word": "几",
+          "probability": 0.9995546638965607
+        },
+        {
+          "start": 4.36,
+          "end": 4.54,
+          "word": "天",
+          "probability": 0.997961163520813
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 4.54,
+      "end": 5.94,
+      "text": "只花了三天时间",
+      "avg_logprob": -0.14879064720410567,
+      "no_speech_prob": 0.011151803657412529,
+      "compression_ratio": 1.235474006116208,
+      "words": [
+        {
+          "start": 4.54,
+          "end": 4.9,
+          "word": "只",
+          "probability": 0.9897652864456177
+        },
+        {
+          "start": 4.9,
+          "end": 5.06,
+          "word": "花",
+          "probability": 0.9986853003501892
+        },
+        {
+          "start": 5.06,
+          "end": 5.16,
+          "word": "了",
+          "probability": 0.9967170357704163
+        },
+        {
+          "start": 5.16,
+          "end": 5.32,
+          "word": "三",
+          "probability": 0.8810560703277588
+        },
+        {
+          "start": 5.32,
+          "end": 5.5,
+          "word": "天",
+          "probability": 0.9983758926391602
+        },
+        {
+          "start": 5.5,
+          "end": 5.94,
+          "word": "时间",
+          "probability": 0.9887672066688538
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 5.94,
+      "end": 7.4,
+      "text": "找乐老刘翻新团队",
+      "avg_logprob": -0.14879064720410567,
+      "no_speech_prob": 0.011151803657412529,
+      "compression_ratio": 1.235474006116208,
+      "words": [
+        {
+          "start": 5.94,
+          "end": 6.22,
+          "word": "找",
+          "probability": 0.9701822400093079
+        },
+        {
+          "start": 6.22,
+          "end": 6.4,
+          "word": "乐",
+          "probability": 0.8099226951599121
+        },
+        {
+          "start": 6.4,
+          "end": 6.54,
+          "word": "老",
+          "probability": 0.9704989790916443
+        },
+        {
+          "start": 6.54,
+          "end": 6.68,
+          "word": "刘",
+          "probability": 0.7546603977680206
+        },
+        {
+          "start": 6.68,
+          "end": 6.88,
+          "word": "翻",
+          "probability": 0.6288130879402161
+        },
+        {
+          "start": 6.88,
+          "end": 7.02,
+          "word": "新",
+          "probability": 0.9229836463928223
+        },
+        {
+          "start": 7.02,
+          "end": 7.18,
+          "word": "团",
+          "probability": 0.9981799721717834
+        },
+        {
+          "start": 7.18,
+          "end": 7.4,
+          "word": "队",
+          "probability": 0.999666839838028
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 7.4,
+      "end": 9.18,
+      "text": "就将他们住了30年的老房",
+      "avg_logprob": -0.14879064720410567,
+      "no_speech_prob": 0.011151803657412529,
+      "compression_ratio": 1.235474006116208,
+      "words": [
+        {
+          "start": 7.4,
+          "end": 7.64,
+          "word": "就",
+          "probability": 0.9943817257881165
+        },
+        {
+          "start": 7.64,
+          "end": 7.78,
+          "word": "将",
+          "probability": 0.9737198352813721
+        },
+        {
+          "start": 7.78,
+          "end": 8.0,
+          "word": "他们",
+          "probability": 0.9871904253959656
+        },
+        {
+          "start": 8.0,
+          "end": 8.14,
+          "word": "住",
+          "probability": 0.9731758832931519
+        },
+        {
+          "start": 8.14,
+          "end": 8.26,
+          "word": "了",
+          "probability": 0.9922025203704834
+        },
+        {
+          "start": 8.26,
+          "end": 8.52,
+          "word": "30",
+          "probability": 0.8031996488571167
+        },
+        {
+          "start": 8.52,
+          "end": 8.76,
+          "word": "年的",
+          "probability": 0.9497455954551697
+        },
+        {
+          "start": 8.76,
+          "end": 8.98,
+          "word": "老",
+          "probability": 0.9968352913856506
+        },
+        {
+          "start": 8.98,
+          "end": 9.18,
+          "word": "房",
+          "probability": 0.9972854852676392
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 9.18,
+      "end": 10.58,
+      "text": "变得亮亮堂堂",
+      "avg_logprob": -0.14879064720410567,
+      "no_speech_prob": 0.011151803657412529,
+      "compression_ratio": 1.235474006116208,
+      "words": [
+        {
+          "start": 9.18,
+          "end": 9.58,
+          "word": "变",
+          "probability": 0.9671217799186707
+        },
+        {
+          "start": 9.58,
+          "end": 9.72,
+          "word": "得",
+          "probability": 0.9049223065376282
+        },
+        {
+          "start": 9.72,
+          "end": 9.9,
+          "word": "亮",
+          "probability": 0.8042386770248413
+        },
+        {
+          "start": 9.9,
+          "end": 10.08,
+          "word": "亮",
+          "probability": 0.9875640273094177
+        },
+        {
+          "start": 10.08,
+          "end": 10.28,
+          "word": "堂",
+          "probability": 0.8744272887706757
+        },
+        {
+          "start": 10.28,
+          "end": 10.58,
+          "word": "堂",
+          "probability": 0.9996619820594788
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 10.58,
+      "end": 11.74,
+      "text": "万把快就搞定",
+      "avg_logprob": -0.14879064720410567,
+      "no_speech_prob": 0.011151803657412529,
+      "compression_ratio": 1.235474006116208,
+      "words": [
+        {
+          "start": 10.58,
+          "end": 10.86,
+          "word": "万",
+          "probability": 0.9586530327796936
+        },
+        {
+          "start": 10.86,
+          "end": 11.12,
+          "word": "把",
+          "probability": 0.8798046112060547
+        },
+        {
+          "start": 11.12,
+          "end": 11.28,
+          "word": "快",
+          "probability": 0.5469261407852173
+        },
+        {
+          "start": 11.28,
+          "end": 11.42,
+          "word": "就",
+          "probability": 0.9807524085044861
+        },
+        {
+          "start": 11.42,
+          "end": 11.56,
+          "word": "搞",
+          "probability": 0.9981092214584351
+        },
+        {
+          "start": 11.56,
+          "end": 11.74,
+          "word": "定",
+          "probability": 0.9996070265769958
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 11.74,
+      "end": 13.12,
+      "text": "最重要的是不用搬家",
+      "avg_logprob": -0.14879064720410567,
+      "no_speech_prob": 0.011151803657412529,
+      "compression_ratio": 1.235474006116208,
+      "words": [
+        {
+          "start": 11.74,
+          "end": 12.1,
+          "word": "最",
+          "probability": 0.9901652932167053
+        },
+        {
+          "start": 12.1,
+          "end": 12.32,
+          "word": "重要",
+          "probability": 0.9983046054840088
+        },
+        {
+          "start": 12.32,
+          "end": 12.54,
+          "word": "的是",
+          "probability": 0.9711132049560547
+        },
+        {
+          "start": 12.54,
+          "end": 12.72,
+          "word": "不用",
+          "probability": 0.9934397339820862
+        },
+        {
+          "start": 12.72,
+          "end": 12.94,
+          "word": "搬",
+          "probability": 0.992992103099823
+        },
+        {
+          "start": 12.94,
+          "end": 13.12,
+          "word": "家",
+          "probability": 0.9972558617591858
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 13.12,
+      "end": 14.94,
+      "text": "从家具 地板保护",
+      "avg_logprob": -0.14879064720410567,
+      "no_speech_prob": 0.011151803657412529,
+      "compression_ratio": 1.235474006116208,
+      "words": [
+        {
+          "start": 13.12,
+          "end": 13.62,
+          "word": "从",
+          "probability": 0.9916015267372131
+        },
+        {
+          "start": 13.62,
+          "end": 13.86,
+          "word": "家",
+          "probability": 0.9828976988792419
+        },
+        {
+          "start": 13.86,
+          "end": 14.1,
+          "word": "具",
+          "probability": 0.9508577585220337
+        },
+        {
+          "start": 14.24,
+          "end": 14.34,
+          "word": " 地",
+          "probability": 0.9989821314811707
+        },
+        {
+          "start": 14.34,
+          "end": 14.52,
+          "word": "板",
+          "probability": 0.9937790036201477
+        },
+        {
+          "start": 14.52,
+          "end": 14.72,
+          "word": "保",
+          "probability": 0.9282338619232178
+        },
+        {
+          "start": 14.72,
+          "end": 14.94,
+          "word": "护",
+          "probability": 0.99916011095047
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 14.94,
+      "end": 16.14,
+      "text": "到产修救墙",
+      "avg_logprob": -0.14879064720410567,
+      "no_speech_prob": 0.011151803657412529,
+      "compression_ratio": 1.235474006116208,
+      "words": [
+        {
+          "start": 14.94,
+          "end": 15.32,
+          "word": "到",
+          "probability": 0.15061689913272858
+        },
+        {
+          "start": 15.32,
+          "end": 15.54,
+          "word": "产",
+          "probability": 0.994264155626297
+        },
+        {
+          "start": 15.54,
+          "end": 15.76,
+          "word": "修",
+          "probability": 0.9074976742267609
+        },
+        {
+          "start": 15.76,
+          "end": 15.9,
+          "word": "救",
+          "probability": 0.31061336398124695
+        },
+        {
+          "start": 15.9,
+          "end": 16.14,
+          "word": "墙",
+          "probability": 0.9903035461902618
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 16.14,
+      "end": 17.42,
+      "text": "刷上环保材料",
+      "avg_logprob": -0.14879064720410567,
+      "no_speech_prob": 0.011151803657412529,
+      "compression_ratio": 1.235474006116208,
+      "words": [
+        {
+          "start": 16.14,
+          "end": 16.5,
+          "word": "刷",
+          "probability": 0.8419568836688995
+        },
+        {
+          "start": 16.5,
+          "end": 16.64,
+          "word": "上",
+          "probability": 0.9976933598518372
+        },
+        {
+          "start": 16.64,
+          "end": 16.82,
+          "word": "环",
+          "probability": 0.9805004298686981
+        },
+        {
+          "start": 16.82,
+          "end": 17.06,
+          "word": "保",
+          "probability": 0.9721943140029907
+        },
+        {
+          "start": 17.06,
+          "end": 17.24,
+          "word": "材",
+          "probability": 0.9796840846538544
+        },
+        {
+          "start": 17.24,
+          "end": 17.42,
+          "word": "料",
+          "probability": 0.9998754262924194
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 17.42,
+      "end": 19.26,
+      "text": "最后连卫生都打扫干净",
+      "avg_logprob": -0.14879064720410567,
+      "no_speech_prob": 0.011151803657412529,
+      "compression_ratio": 1.235474006116208,
+      "words": [
+        {
+          "start": 17.42,
+          "end": 17.74,
+          "word": "最",
+          "probability": 0.9860579371452332
+        },
+        {
+          "start": 17.74,
+          "end": 17.92,
+          "word": "后",
+          "probability": 0.9998918771743774
+        },
+        {
+          "start": 17.92,
+          "end": 18.08,
+          "word": "连",
+          "probability": 0.9880325794219971
+        },
+        {
+          "start": 18.08,
+          "end": 18.22,
+          "word": "卫",
+          "probability": 0.9912695288658142
+        },
+        {
+          "start": 18.22,
+          "end": 18.4,
+          "word": "生",
+          "probability": 0.9976981282234192
+        },
+        {
+          "start": 18.4,
+          "end": 18.52,
+          "word": "都",
+          "probability": 0.9969316720962524
+        },
+        {
+          "start": 18.52,
+          "end": 18.66,
+          "word": "打",
+          "probability": 0.9590622782707214
+        },
+        {
+          "start": 18.66,
+          "end": 18.78,
+          "word": "扫",
+          "probability": 0.9436851739883423
+        },
+        {
+          "start": 18.78,
+          "end": 18.94,
+          "word": "干",
+          "probability": 0.9901461005210876
+        },
+        {
+          "start": 18.94,
+          "end": 19.26,
+          "word": "净",
+          "probability": 0.9977965652942657
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 19.26,
+      "end": 20.66,
+      "text": "全程不用您动一下手",
+      "avg_logprob": -0.14879064720410567,
+      "no_speech_prob": 0.011151803657412529,
+      "compression_ratio": 1.235474006116208,
+      "words": [
+        {
+          "start": 19.26,
+          "end": 19.48,
+          "word": "全",
+          "probability": 0.9872167706489563
+        },
+        {
+          "start": 19.48,
+          "end": 19.68,
+          "word": "程",
+          "probability": 0.9376774430274963
+        },
+        {
+          "start": 19.68,
+          "end": 19.86,
+          "word": "不用",
+          "probability": 0.9989666938781738
+        },
+        {
+          "start": 19.86,
+          "end": 20.06,
+          "word": "您",
+          "probability": 0.8229364156723022
+        },
+        {
+          "start": 20.06,
+          "end": 20.24,
+          "word": "动",
+          "probability": 0.9763702750205994
+        },
+        {
+          "start": 20.24,
+          "end": 20.38,
+          "word": "一下",
+          "probability": 0.9701140522956848
+        },
+        {
+          "start": 20.38,
+          "end": 20.66,
+          "word": "手",
+          "probability": 0.9997492432594299
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 20.66,
+      "end": 22.14,
+      "text": "如果您刷到这条视频",
+      "avg_logprob": -0.14879064720410567,
+      "no_speech_prob": 0.011151803657412529,
+      "compression_ratio": 1.235474006116208,
+      "words": [
+        {
+          "start": 20.66,
+          "end": 21.02,
+          "word": "如果",
+          "probability": 0.9633966684341431
+        },
+        {
+          "start": 21.02,
+          "end": 21.22,
+          "word": "您",
+          "probability": 0.9970740079879761
+        },
+        {
+          "start": 21.22,
+          "end": 21.42,
+          "word": "刷",
+          "probability": 0.9986040890216827
+        },
+        {
+          "start": 21.42,
+          "end": 21.56,
+          "word": "到",
+          "probability": 0.9908515810966492
+        },
+        {
+          "start": 21.56,
+          "end": 21.68,
+          "word": "这",
+          "probability": 0.9926679730415344
+        },
+        {
+          "start": 21.68,
+          "end": 21.8,
+          "word": "条",
+          "probability": 0.9917146563529968
+        },
+        {
+          "start": 21.8,
+          "end": 21.94,
+          "word": "视",
+          "probability": 0.9943504929542542
+        },
+        {
+          "start": 21.94,
+          "end": 22.14,
+          "word": "频",
+          "probability": 0.9984205961227417
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": 22.14,
+      "end": 23.6,
+      "text": "点个小爱心支持一下",
+      "avg_logprob": -0.14879064720410567,
+      "no_speech_prob": 0.011151803657412529,
+      "compression_ratio": 1.235474006116208,
+      "words": [
+        {
+          "start": 22.14,
+          "end": 22.46,
+          "word": "点",
+          "probability": 0.9934861063957214
+        },
+        {
+          "start": 22.46,
+          "end": 22.58,
+          "word": "个",
+          "probability": 0.9954692125320435
+        },
+        {
+          "start": 22.58,
+          "end": 22.74,
+          "word": "小",
+          "probability": 0.9940817952156067
+        },
+        {
+          "start": 22.74,
+          "end": 22.88,
+          "word": "爱",
+          "probability": 0.7894982099533081
+        },
+        {
+          "start": 22.88,
+          "end": 23.06,
+          "word": "心",
+          "probability": 0.9859775304794312
+        },
+        {
+          "start": 23.06,
+          "end": 23.3,
+          "word": "支持",
+          "probability": 0.9537349343299866
+        },
+        {
+          "start": 23.3,
+          "end": 23.6,
+          "word": "一下",
+          "probability": 0.9892112016677856
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": 23.6,
+      "end": 24.74,
+      "text": "总有一天会用上",
+      "avg_logprob": -0.14879064720410567,
+      "no_speech_prob": 0.011151803657412529,
+      "compression_ratio": 1.235474006116208,
+      "words": [
+        {
+          "start": 23.6,
+          "end": 23.96,
+          "word": "总",
+          "probability": 0.9396136999130249
+        },
+        {
+          "start": 23.96,
+          "end": 24.14,
+          "word": "有一",
+          "probability": 0.9942536950111389
+        },
+        {
+          "start": 24.14,
+          "end": 24.34,
+          "word": "天",
+          "probability": 0.9995835423469543
+        },
+        {
+          "start": 24.34,
+          "end": 24.48,
+          "word": "会",
+          "probability": 0.9968229532241821
+        },
+        {
+          "start": 24.48,
+          "end": 24.62,
+          "word": "用",
+          "probability": 0.995027482509613
+        },
+        {
+          "start": 24.62,
+          "end": 24.74,
+          "word": "上",
+          "probability": 0.982835054397583
+        }
+      ]
+    }
+  ],
+  "raw_text": "乐山68岁的张阿姨做梦都想不到儿子撑他们出去旅游这几天只花了三天时间找乐老刘翻新团队就将他们住了30年的老房变得亮亮堂堂万把快就搞定最重要的是不用搬家从家具 地板保护到产修救墙刷上环保材料最后连卫生都打扫干净全程不用您动一下手如果您刷到这条视频点个小爱心支持一下总有一天会用上",
+  "limitations": [
+    "Raw machine transcription, not a verified transcript.",
+    "Mixed speech/music, accents, place names and prices can be wrong.",
+    "ASR timestamps are approximate and are not edit points."
+  ]
+}

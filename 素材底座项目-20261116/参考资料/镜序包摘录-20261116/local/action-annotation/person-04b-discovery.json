@@ -1,0 +1,101 @@
+{
+  "rows": [
+    {
+      "id": "1c3742d1e5fd0e1d51ffd7ddc2b052b9",
+      "name": "19910_人物_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "常青花园四小区/人物出镜/19910_人物_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\常青花园四小区\\人物出镜\\19910_人物_小区场景.MOV",
+      "duration": 13.335,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\1c3742d1e5fd0e1d51ffd7ddc2b052b9.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "367add5866b77b19f81cc919618f3842",
+      "name": "19708_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "常青花园四小区/前后展示/19708_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\常青花园四小区\\前后展示\\19708_小区场景.MOV",
+      "duration": 8.503333,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\367add5866b77b19f81cc919618f3842.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "236364fa2cf45d929a7390377b55cc58",
+      "name": "20094_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "常青花园四小区/施工视频/20094_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\常青花园四小区\\施工视频\\20094_小区场景.MOV",
+      "duration": 13.736667,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\236364fa2cf45d929a7390377b55cc58.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "3ea7714d304375d8b168fdd276268f83",
+      "name": "20245_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "常青花园四小区/施工视频/20245_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\常青花园四小区\\施工视频\\20245_小区场景.MOV",
+      "duration": 15.075,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\3ea7714d304375d8b168fdd276268f83.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "fcb24fea8c5f2cd08a58692004e425d8",
+      "name": "IMG_0928.MOV",
+      "root": "xiaoq",
+      "rel": "翠提春晓/批刮陶泥/IMG_0928.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\翠提春晓\\批刮陶泥\\IMG_0928.MOV",
+      "duration": 19.706667,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\fcb24fea8c5f2cd08a58692004e425d8.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "3be176c82221bc2fe922930d326d2d3e",
+      "name": "IMG_0958.MOV",
+      "root": "xiaoq",
+      "rel": "翠提春晓/批刮陶泥/IMG_0958.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\翠提春晓\\批刮陶泥\\IMG_0958.MOV",
+      "duration": 6.735,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\3be176c82221bc2fe922930d326d2d3e.jpg",
+      "start": 1.68375,
+      "end": 5.68375,
+      "ratio": 0.5625
+    },
+    {
+      "id": "160bd97dd9c157c96b8550e516749e86",
+      "name": "IMG_0980.MOV",
+      "root": "xiaoq",
+      "rel": "翠提春晓/批刮陶泥/IMG_0980.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\翠提春晓\\批刮陶泥\\IMG_0980.MOV",
+      "duration": 17.74,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\160bd97dd9c157c96b8550e516749e86.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "c0989918dfc4340174e9ede6d31cf89e",
+      "name": "IMG_0996.MOV",
+      "root": "xiaoq",
+      "rel": "翠提春晓/批刮陶泥/IMG_0996.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\翠提春晓\\批刮陶泥\\IMG_0996.MOV",
+      "duration": 10.536667,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\c0989918dfc4340174e9ede6d31cf89e.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    }
+  ],
+  "errors": []
+}

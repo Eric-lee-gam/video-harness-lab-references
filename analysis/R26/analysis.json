@@ -1,0 +1,1222 @@
+{
+  "id": "R26",
+  "source_name": "2911935082.mov",
+  "duration": 22.067,
+  "status": "completed_with_gaps",
+  "coverage": {
+    "visual_sampling_interval_seconds": 0.5,
+    "visual_reviewed": true,
+    "audio_asr": true,
+    "human_full_listening": false,
+    "full_playback": false
+  },
+  "summary": "北京反装修公司冲突→墙面施工与金刚泥指认→25公斤/15–20平方材料说法→开桶墙面批刮→空房/生活结果→功能字幕→人物点赞。金刚泥与微陶泥、不同覆盖面积不能默认同款。",
+  "opening": {
+    "start": 0,
+    "end": 5.433,
+    "observation": "北京沙发封面后墙面施工，家家户户不会找装修公司/找高总字幕",
+    "inference": "行业冲突和规模夸张必须限定为片内话术；北京只是文字定位，需实际业务核验"
+  },
+  "ending": {
+    "start": 18.733,
+    "end": 22.067,
+    "observation": "窗边蹲姿讲话切沙发抬脚动作，字幕喜欢工艺/小爱心",
+    "inference": "动作型人物收尾增强人物记忆，但有效业主线索尚未验证"
+  },
+  "shots": [
+    {
+      "index": 1,
+      "start": 0,
+      "end": 0.25,
+      "observation": "黑衣男子坐深色沙发，封面文字与北京字",
+      "visible_text": "北京／北京旧房翻新／瓷砖不拆不砸换新家",
+      "script_relation": "ASR0-2.96同城反装修公司句；首帧与后施工素材关系未核验",
+      "purpose": "城市封面",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0001.jpg"
+      ]
+    },
+    {
+      "index": 2,
+      "start": 0.25,
+      "end": 3.3,
+      "observation": "黑衣男子使用黄色长工具在墙面上下批刮，采样中工具与墙面位置变化",
+      "visible_text": "反正以后北京的家家户户都不会去找装修公司了",
+      "script_relation": "ASR对应；不是实际市场采用数据",
+      "purpose": "长施工动作承载冲突",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0002.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0005.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0007.jpg"
+      ]
+    },
+    {
+      "index": 3,
+      "start": 3.3,
+      "end": 5.433,
+      "observation": "纹身手臂男子用红色工具在墙面批刮，近角度与室内走道",
+      "visible_text": "现在每家每户的业主在找高总",
+      "script_relation": "ASR2.96-5.28；未证明高总身份和客户规模",
+      "purpose": "人物/工艺承接",
+      "cut": "约3.3秒补镜头，3.0黄工具、3.5红工具；场景检测合并",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0008.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0010.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0011.jpg"
+      ]
+    },
+    {
+      "index": 4,
+      "start": 5.433,
+      "end": 7.567,
+      "observation": "纹身女工站梯上在拱顶表面用抹刀作业",
+      "visible_text": "做这个随意批刮的环保金刚泥",
+      "script_relation": "ASR5.28-7.52；可见批刮动作，环保和材料身份需证据",
+      "purpose": "材料与工艺指认",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0012.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0014.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0016.jpg"
+      ]
+    },
+    {
+      "index": 5,
+      "start": 7.567,
+      "end": 9.133,
+      "observation": "材料桶近景，两人用工具从桶中取浅色膏体",
+      "visible_text": "材料一桶25公斤",
+      "script_relation": "ASR7.52-9.04；无秤重与标签全文",
+      "purpose": "材料规格表达",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0017.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0018.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0019.jpg"
+      ]
+    },
+    {
+      "index": 6,
+      "start": 9.133,
+      "end": 11.1,
+      "observation": "墙面近景，工具在污损基层边缘批刮浅色层",
+      "visible_text": "可以批刮15-20个平方",
+      "script_relation": "ASR9.04-10.94；局部施工不证明整桶面积，材料名为本片金刚泥",
+      "purpose": "用量说法配施工",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0020.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0022.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0023.jpg"
+      ]
+    },
+    {
+      "index": 7,
+      "start": 11.1,
+      "end": 12.567,
+      "observation": "手用工具在桶内搅动浅色膏体，桶口有内衬",
+      "visible_text": "材料出厂就调好了",
+      "script_relation": "ASR10.94-12.4；当前膏体不能证明出厂配方状态",
+      "purpose": "材料形态",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0024.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0025.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0026.jpg"
+      ]
+    },
+    {
+      "index": 8,
+      "start": 12.567,
+      "end": 13.7,
+      "observation": "工人用大抹刀在墙面批刮浅色层",
+      "visible_text": "打开桶直接刷",
+      "script_relation": "ASR12.4-13.6；字幕“刷”与可见抹刀“批刮”用词需核对",
+      "purpose": "开桶后工艺",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0027.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0028.jpg"
+      ]
+    },
+    {
+      "index": 9,
+      "start": 13.7,
+      "end": 15.067,
+      "observation": "灰衣男子在拱顶边缘铺展浅色层",
+      "visible_text": "刮完的墙面地面",
+      "script_relation": "ASR13.6-14.98；图为顶/墙操作，未直接展示地面",
+      "purpose": "施工部位对应疑点",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0029.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0030.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0031.jpg"
+      ]
+    },
+    {
+      "index": 10,
+      "start": 15.067,
+      "end": 16.7,
+      "observation": "未摆家具的大窗成品房间，浅色墙地面",
+      "visible_text": "像瓷砖一样光滑平整",
+      "script_relation": "ASR14.98-16.62；视觉外观支持浅色连续表面，不证明量化平整",
+      "purpose": "结果外观",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0032.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0033.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0034.jpg"
+      ]
+    },
+    {
+      "index": 11,
+      "start": 16.7,
+      "end": 17.733,
+      "observation": "浅色成品客厅，人物坐粉色座椅看电视",
+      "visible_text": "防水抗冻",
+      "script_relation": "ASR16.62-17.62；室内生活图不能证明冻融防水性能",
+      "purpose": "功能句错配/缺证据",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0035.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0036.jpg"
+      ]
+    },
+    {
+      "index": 12,
+      "start": 17.733,
+      "end": 18.733,
+      "observation": "白衣男子用长柄圆盘工具在顶面操作",
+      "visible_text": "高强耐磨",
+      "script_relation": "ASR“高墙”；施工打磨图不等于耐磨试验",
+      "purpose": "性能表达配动作",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0037.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0038.jpg"
+      ]
+    },
+    {
+      "index": 13,
+      "start": 18.733,
+      "end": 20.567,
+      "observation": "黑外套男子蹲在窗边浅色地面向镜头伸手",
+      "visible_text": "如果你也喜欢这种翻新工艺",
+      "script_relation": "ASR18.68-20.52",
+      "purpose": "互动起句",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0039.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0041.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0042.jpg"
+      ]
+    },
+    {
+      "index": 14,
+      "start": 20.567,
+      "end": 22.067,
+      "observation": "黑外套男子靠坐沙发，抬脚掌面向镜头",
+      "visible_text": "可以给我点个小爱心吗",
+      "script_relation": "ASR20.52-21.88；人物动作与点赞句关系是编辑判断",
+      "purpose": "人设互动收尾",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0043.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0044.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline\\frame_0045.jpg"
+      ]
+    }
+  ],
+  "structure": "反装修公司钩子→高总/金刚泥→25公斤/15–20平方→桶内材料/墙面批刮→墙顶施工→外观→防水抗冻/耐磨字幕→点赞。",
+  "comparison": {
+    "observation": "没有明确同位旧新对照；15.067空房与16.7带粉座椅客厅不同场景，不推定同户。",
+    "verified_same_space": false,
+    "uncertainty": "未取得原始同户项目映射；成品与施工画面不能证明同一空间或施工周期。"
+  },
+  "sound": {
+    "asr_path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\asr.json",
+    "observation": null,
+    "uncertainty": "本地机器识别，未人工全轨试听；声音类别、曲名、BPM及声画卡点未经听辨，不作结论。",
+    "machine_alignment_evidence": [
+      {
+        "candidate_cut": 0.25,
+        "segment_start": 0.0,
+        "segment_end": 2.96,
+        "raw_asr_text": "反正以后北京的家家户户都不会去找装修公司"
+      },
+      {
+        "candidate_cut": 3.3,
+        "segment_start": 2.96,
+        "segment_end": 5.28,
+        "raw_asr_text": "现在每家每户的业主在找高总"
+      },
+      {
+        "candidate_cut": 5.433,
+        "segment_start": 5.28,
+        "segment_end": 7.52,
+        "raw_asr_text": "做这个随意批刮的环保金刚泥"
+      },
+      {
+        "candidate_cut": 7.567,
+        "segment_start": 7.52,
+        "segment_end": 9.04,
+        "raw_asr_text": "材料一桶25公斤"
+      },
+      {
+        "candidate_cut": 9.133,
+        "segment_start": 9.04,
+        "segment_end": 10.94,
+        "raw_asr_text": "可以批刮15-20个平方"
+      },
+      {
+        "candidate_cut": 11.1,
+        "segment_start": 10.94,
+        "segment_end": 12.4,
+        "raw_asr_text": "材料出厂就调好了"
+      },
+      {
+        "candidate_cut": 12.567,
+        "segment_start": 12.4,
+        "segment_end": 13.6,
+        "raw_asr_text": "打开桶直接刷"
+      },
+      {
+        "candidate_cut": 13.7,
+        "segment_start": 13.6,
+        "segment_end": 14.98,
+        "raw_asr_text": "刮完的墙面地面"
+      },
+      {
+        "candidate_cut": 15.067,
+        "segment_start": 14.98,
+        "segment_end": 16.62,
+        "raw_asr_text": "像磁砖一样光滑平整"
+      },
+      {
+        "candidate_cut": 16.7,
+        "segment_start": 16.62,
+        "segment_end": 17.62,
+        "raw_asr_text": "防水抗冻"
+      },
+      {
+        "candidate_cut": 17.733,
+        "segment_start": 17.62,
+        "segment_end": 18.68,
+        "raw_asr_text": "高墙耐磨"
+      },
+      {
+        "candidate_cut": 18.733,
+        "segment_start": 18.68,
+        "segment_end": 20.52,
+        "raw_asr_text": "如果你喜欢这种翻新工艺"
+      },
+      {
+        "candidate_cut": 20.567,
+        "segment_start": 20.52,
+        "segment_end": 21.88,
+        "raw_asr_text": "可以给我点个小爱心吗"
+      }
+    ],
+    "alignment_note": "只比较机器ASR句段与候选画面切点的时间重合，不证明无停顿、声音桥接自然、节拍卡点或音效同步。"
+  },
+  "applicability": [
+    "适合金刚泥材料的真实工艺介绍，需要独立材料身份和用量条件。",
+    "25公斤/15–20平方口径按该片保存，不能自动换成微陶泥或其他文案25/20/50平方。",
+    "性能句需匹配真实测试素材，客厅或顶面打磨不能代替防水抗冻、耐磨证据。"
+  ],
+  "uncertainties": [
+    "机器ASR有材料名、地名和同音字误识；保留原文，可见字幕另记，不把字幕当听到的声音。",
+    "0.5秒采样可能遗漏短镜头、动作和字幕；切点为候选或约值，非全片实播逐帧审核。",
+    "价格、工期、性能和占比仅为参考片表达，未核实业务适用性。",
+    "无平台原始效果数据，不能证明这些特征导致爆款。"
+  ],
+  "rule_candidates": [
+    {
+      "agent": "文案",
+      "rule": "材料名、桶重、覆盖面积绑定成同一条需核实规格",
+      "example_time": "5.433-11.1",
+      "condition": "确认金刚泥产品型号、涂覆厚度、基层与耗损条件",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "分镜",
+      "rule": "墙面地面句要分别用对应施工部位，避免只用顶面镜头",
+      "example_time": "13.7-15.067",
+      "condition": "素材分类明确顶面/墙面/地面",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "素材",
+      "rule": "材料桶与取料动作核身份，防水抗冻另取测试素材",
+      "example_time": "7.567-12.567；16.7-17.733",
+      "condition": "品牌型号和测试条件有原始记录",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "配音",
+      "rule": "先核听“金刚泥、高强耐磨、直接刷”等词并核工艺用词",
+      "example_time": "5.28-7.52；12.4-13.6；17.62-18.68",
+      "condition": "不按ASR高墙错字或字幕语义自行断言操作",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "剪辑",
+      "rule": "长动作镜头内部的场景检测误合并要按工具和人物变化复核",
+      "example_time": "0.25-5.433",
+      "condition": "通过连续回放验证黄色工具→红色工具的精确切点",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "审核",
+      "rule": "成品客厅不能给防水抗冻盖证明，打磨施工不当耐磨检测",
+      "example_time": "16.7-18.733",
+      "condition": "确有对应性能原始测试才可发布新片",
+      "evidence_level": "inference"
+    }
+  ],
+  "asr_review": {
+    "reliability": "low_for_exact_wording",
+    "human_verified": false,
+    "visible_subtitle_disagreements": [
+      "高墙耐磨→字幕高强耐磨"
+    ],
+    "note": "数字和材料口径仍未人听或查原始标签，字幕单独保留。"
+  },
+  "asr_segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 2.96,
+      "text": "反正以后北京的家家户户都不会去找装修公司",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.24,
+          "word": "反",
+          "probability": 0.9924017190933228
+        },
+        {
+          "start": 0.24,
+          "end": 0.38,
+          "word": "正",
+          "probability": 0.9996047616004944
+        },
+        {
+          "start": 0.38,
+          "end": 0.52,
+          "word": "以",
+          "probability": 0.9886703491210938
+        },
+        {
+          "start": 0.52,
+          "end": 0.64,
+          "word": "后",
+          "probability": 0.5310553908348083
+        },
+        {
+          "start": 0.64,
+          "end": 0.78,
+          "word": "北",
+          "probability": 0.9042220115661621
+        },
+        {
+          "start": 0.78,
+          "end": 0.92,
+          "word": "京",
+          "probability": 0.9995077848434448
+        },
+        {
+          "start": 0.92,
+          "end": 1.02,
+          "word": "的",
+          "probability": 0.9983848333358765
+        },
+        {
+          "start": 1.02,
+          "end": 1.16,
+          "word": "家",
+          "probability": 0.9405001997947693
+        },
+        {
+          "start": 1.16,
+          "end": 1.3,
+          "word": "家",
+          "probability": 0.9898008704185486
+        },
+        {
+          "start": 1.3,
+          "end": 1.46,
+          "word": "户",
+          "probability": 0.9788224995136261
+        },
+        {
+          "start": 1.46,
+          "end": 1.62,
+          "word": "户",
+          "probability": 0.9997840523719788
+        },
+        {
+          "start": 1.62,
+          "end": 1.76,
+          "word": "都",
+          "probability": 0.9941332936286926
+        },
+        {
+          "start": 1.76,
+          "end": 1.94,
+          "word": "不会",
+          "probability": 0.9817885756492615
+        },
+        {
+          "start": 1.94,
+          "end": 2.06,
+          "word": "去",
+          "probability": 0.9937455654144287
+        },
+        {
+          "start": 2.06,
+          "end": 2.2,
+          "word": "找",
+          "probability": 0.9988889098167419
+        },
+        {
+          "start": 2.2,
+          "end": 2.38,
+          "word": "装",
+          "probability": 0.9614975452423096
+        },
+        {
+          "start": 2.38,
+          "end": 2.54,
+          "word": "修",
+          "probability": 0.9998278021812439
+        },
+        {
+          "start": 2.54,
+          "end": 2.72,
+          "word": "公",
+          "probability": 0.9763799905776978
+        },
+        {
+          "start": 2.72,
+          "end": 2.96,
+          "word": "司",
+          "probability": 0.9963696002960205
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 2.96,
+      "end": 5.28,
+      "text": "现在每家每户的业主在找高总",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 2.96,
+          "end": 3.48,
+          "word": "现在",
+          "probability": 0.8477576971054077
+        },
+        {
+          "start": 3.48,
+          "end": 3.74,
+          "word": "每",
+          "probability": 0.8834337592124939
+        },
+        {
+          "start": 3.74,
+          "end": 3.88,
+          "word": "家",
+          "probability": 0.9961565136909485
+        },
+        {
+          "start": 3.88,
+          "end": 4.02,
+          "word": "每",
+          "probability": 0.5877187252044678
+        },
+        {
+          "start": 4.02,
+          "end": 4.14,
+          "word": "户",
+          "probability": 0.9996428489685059
+        },
+        {
+          "start": 4.14,
+          "end": 4.24,
+          "word": "的",
+          "probability": 0.9937667846679688
+        },
+        {
+          "start": 4.24,
+          "end": 4.38,
+          "word": "业",
+          "probability": 0.9720038175582886
+        },
+        {
+          "start": 4.38,
+          "end": 4.54,
+          "word": "主",
+          "probability": 0.9917761087417603
+        },
+        {
+          "start": 4.54,
+          "end": 4.7,
+          "word": "在",
+          "probability": 0.9864037036895752
+        },
+        {
+          "start": 4.7,
+          "end": 4.88,
+          "word": "找",
+          "probability": 0.9996036887168884
+        },
+        {
+          "start": 4.88,
+          "end": 5.06,
+          "word": "高",
+          "probability": 0.9935086965560913
+        },
+        {
+          "start": 5.06,
+          "end": 5.28,
+          "word": "总",
+          "probability": 0.9671357870101929
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 5.28,
+      "end": 7.52,
+      "text": "做这个随意批刮的环保金刚泥",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 5.28,
+          "end": 5.68,
+          "word": "做",
+          "probability": 0.870836615562439
+        },
+        {
+          "start": 5.68,
+          "end": 5.88,
+          "word": "这个",
+          "probability": 0.9253398180007935
+        },
+        {
+          "start": 5.88,
+          "end": 6.04,
+          "word": "随",
+          "probability": 0.9933748543262482
+        },
+        {
+          "start": 6.04,
+          "end": 6.18,
+          "word": "意",
+          "probability": 0.9235963225364685
+        },
+        {
+          "start": 6.18,
+          "end": 6.32,
+          "word": "批",
+          "probability": 0.6632767766714096
+        },
+        {
+          "start": 6.32,
+          "end": 6.48,
+          "word": "刮",
+          "probability": 0.9232648015022278
+        },
+        {
+          "start": 6.48,
+          "end": 6.58,
+          "word": "的",
+          "probability": 0.987179696559906
+        },
+        {
+          "start": 6.58,
+          "end": 6.76,
+          "word": "环",
+          "probability": 0.978766143321991
+        },
+        {
+          "start": 6.76,
+          "end": 6.96,
+          "word": "保",
+          "probability": 0.968388020992279
+        },
+        {
+          "start": 6.96,
+          "end": 7.1,
+          "word": "金",
+          "probability": 0.9868468642234802
+        },
+        {
+          "start": 7.1,
+          "end": 7.26,
+          "word": "刚",
+          "probability": 0.6124570965766907
+        },
+        {
+          "start": 7.26,
+          "end": 7.52,
+          "word": "泥",
+          "probability": 0.8872836232185364
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 7.52,
+      "end": 9.04,
+      "text": "材料一桶25公斤",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 7.52,
+          "end": 7.84,
+          "word": "材",
+          "probability": 0.9252523183822632
+        },
+        {
+          "start": 7.84,
+          "end": 8.0,
+          "word": "料",
+          "probability": 0.9998773336410522
+        },
+        {
+          "start": 8.0,
+          "end": 8.14,
+          "word": "一",
+          "probability": 0.9834620952606201
+        },
+        {
+          "start": 8.14,
+          "end": 8.28,
+          "word": "桶",
+          "probability": 0.9469058215618134
+        },
+        {
+          "start": 8.28,
+          "end": 8.58,
+          "word": "25",
+          "probability": 0.9490900039672852
+        },
+        {
+          "start": 8.58,
+          "end": 8.82,
+          "word": "公",
+          "probability": 0.8565691709518433
+        },
+        {
+          "start": 8.82,
+          "end": 9.04,
+          "word": "斤",
+          "probability": 0.9960175454616547
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 9.04,
+      "end": 10.94,
+      "text": "可以批刮15-20个平方",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 9.04,
+          "end": 9.42,
+          "word": "可以",
+          "probability": 0.8665463328361511
+        },
+        {
+          "start": 9.42,
+          "end": 9.62,
+          "word": "批",
+          "probability": 0.9931453466415405
+        },
+        {
+          "start": 9.62,
+          "end": 9.8,
+          "word": "刮",
+          "probability": 0.9987400770187378
+        },
+        {
+          "start": 9.8,
+          "end": 10.08,
+          "word": "15",
+          "probability": 0.9710915088653564
+        },
+        {
+          "start": 10.08,
+          "end": 10.22,
+          "word": "-",
+          "probability": 0.17580945789813995
+        },
+        {
+          "start": 10.22,
+          "end": 10.46,
+          "word": "20",
+          "probability": 0.996330201625824
+        },
+        {
+          "start": 10.46,
+          "end": 10.56,
+          "word": "个",
+          "probability": 0.9898349642753601
+        },
+        {
+          "start": 10.56,
+          "end": 10.74,
+          "word": "平",
+          "probability": 0.9609906077384949
+        },
+        {
+          "start": 10.74,
+          "end": 10.94,
+          "word": "方",
+          "probability": 0.9964554309844971
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 10.94,
+      "end": 12.4,
+      "text": "材料出厂就调好了",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 10.94,
+          "end": 11.34,
+          "word": "材",
+          "probability": 0.9357120990753174
+        },
+        {
+          "start": 11.34,
+          "end": 11.48,
+          "word": "料",
+          "probability": 0.9999494552612305
+        },
+        {
+          "start": 11.48,
+          "end": 11.62,
+          "word": "出",
+          "probability": 0.9967941641807556
+        },
+        {
+          "start": 11.62,
+          "end": 11.78,
+          "word": "厂",
+          "probability": 0.958460658788681
+        },
+        {
+          "start": 11.78,
+          "end": 11.9,
+          "word": "就",
+          "probability": 0.9954631924629211
+        },
+        {
+          "start": 11.9,
+          "end": 12.1,
+          "word": "调",
+          "probability": 0.9898276031017303
+        },
+        {
+          "start": 12.1,
+          "end": 12.4,
+          "word": "好了",
+          "probability": 0.9848518967628479
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 12.4,
+      "end": 13.6,
+      "text": "打开桶直接刷",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 12.4,
+          "end": 12.8,
+          "word": "打",
+          "probability": 0.9619205594062805
+        },
+        {
+          "start": 12.8,
+          "end": 12.94,
+          "word": "开",
+          "probability": 0.9986340403556824
+        },
+        {
+          "start": 12.94,
+          "end": 13.08,
+          "word": "桶",
+          "probability": 0.9753139019012451
+        },
+        {
+          "start": 13.08,
+          "end": 13.28,
+          "word": "直接",
+          "probability": 0.9883155822753906
+        },
+        {
+          "start": 13.28,
+          "end": 13.6,
+          "word": "刷",
+          "probability": 0.9970763921737671
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 13.6,
+      "end": 14.98,
+      "text": "刮完的墙面地面",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 13.6,
+          "end": 14.04,
+          "word": "刮",
+          "probability": 0.9616418182849884
+        },
+        {
+          "start": 14.04,
+          "end": 14.16,
+          "word": "完",
+          "probability": 0.8711372017860413
+        },
+        {
+          "start": 14.16,
+          "end": 14.26,
+          "word": "的",
+          "probability": 0.9718780517578125
+        },
+        {
+          "start": 14.26,
+          "end": 14.42,
+          "word": "墙",
+          "probability": 0.977358341217041
+        },
+        {
+          "start": 14.42,
+          "end": 14.6,
+          "word": "面",
+          "probability": 0.9979771971702576
+        },
+        {
+          "start": 14.6,
+          "end": 14.74,
+          "word": "地",
+          "probability": 0.9636160135269165
+        },
+        {
+          "start": 14.74,
+          "end": 14.98,
+          "word": "面",
+          "probability": 0.9997387528419495
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 14.98,
+      "end": 16.62,
+      "text": "像磁砖一样光滑平整",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 14.98,
+          "end": 15.32,
+          "word": "像",
+          "probability": 0.9545795917510986
+        },
+        {
+          "start": 15.32,
+          "end": 15.52,
+          "word": "磁",
+          "probability": 0.8429136276245117
+        },
+        {
+          "start": 15.52,
+          "end": 15.64,
+          "word": "砖",
+          "probability": 0.9645764529705048
+        },
+        {
+          "start": 15.64,
+          "end": 15.78,
+          "word": "一",
+          "probability": 0.9975889921188354
+        },
+        {
+          "start": 15.78,
+          "end": 15.86,
+          "word": "样",
+          "probability": 0.9990757703781128
+        },
+        {
+          "start": 15.86,
+          "end": 16.0,
+          "word": "光",
+          "probability": 0.9956896901130676
+        },
+        {
+          "start": 16.0,
+          "end": 16.18,
+          "word": "滑",
+          "probability": 0.997561901807785
+        },
+        {
+          "start": 16.18,
+          "end": 16.36,
+          "word": "平",
+          "probability": 0.9861206412315369
+        },
+        {
+          "start": 16.36,
+          "end": 16.62,
+          "word": "整",
+          "probability": 0.9882627129554749
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 16.62,
+      "end": 17.62,
+      "text": "防水抗冻",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 16.62,
+          "end": 16.98,
+          "word": "防",
+          "probability": 0.9308772683143616
+        },
+        {
+          "start": 16.98,
+          "end": 17.2,
+          "word": "水",
+          "probability": 0.9982571005821228
+        },
+        {
+          "start": 17.2,
+          "end": 17.4,
+          "word": "抗",
+          "probability": 0.879266619682312
+        },
+        {
+          "start": 17.4,
+          "end": 17.62,
+          "word": "冻",
+          "probability": 0.8054082691669464
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 17.62,
+      "end": 18.68,
+      "text": "高墙耐磨",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 17.62,
+          "end": 18.02,
+          "word": "高",
+          "probability": 0.6989860534667969
+        },
+        {
+          "start": 18.02,
+          "end": 18.24,
+          "word": "墙",
+          "probability": 0.8239841461181641
+        },
+        {
+          "start": 18.24,
+          "end": 18.4,
+          "word": "耐",
+          "probability": 0.9505554139614105
+        },
+        {
+          "start": 18.4,
+          "end": 18.68,
+          "word": "磨",
+          "probability": 0.9791933596134186
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 18.68,
+      "end": 20.52,
+      "text": "如果你喜欢这种翻新工艺",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 18.68,
+          "end": 19.08,
+          "word": "如果你",
+          "probability": 0.5193077921867371
+        },
+        {
+          "start": 19.08,
+          "end": 19.42,
+          "word": "喜欢",
+          "probability": 0.8540330529212952
+        },
+        {
+          "start": 19.42,
+          "end": 19.62,
+          "word": "这",
+          "probability": 0.9975420236587524
+        },
+        {
+          "start": 19.62,
+          "end": 19.74,
+          "word": "种",
+          "probability": 0.9997215867042542
+        },
+        {
+          "start": 19.74,
+          "end": 19.94,
+          "word": "翻",
+          "probability": 0.7962071895599365
+        },
+        {
+          "start": 19.94,
+          "end": 20.08,
+          "word": "新",
+          "probability": 0.7710759043693542
+        },
+        {
+          "start": 20.08,
+          "end": 20.26,
+          "word": "工",
+          "probability": 0.9659411907196045
+        },
+        {
+          "start": 20.26,
+          "end": 20.52,
+          "word": "艺",
+          "probability": 0.9938425421714783
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 20.52,
+      "end": 21.88,
+      "text": "可以给我点个小爱心吗",
+      "avg_logprob": -0.11609850353316258,
+      "no_speech_prob": 0.0014224608894437551,
+      "compression_ratio": 1.2448275862068965,
+      "words": [
+        {
+          "start": 20.52,
+          "end": 20.82,
+          "word": "可以",
+          "probability": 0.903349757194519
+        },
+        {
+          "start": 20.82,
+          "end": 21.02,
+          "word": "给我",
+          "probability": 0.9901922941207886
+        },
+        {
+          "start": 21.02,
+          "end": 21.16,
+          "word": "点",
+          "probability": 0.9974806904792786
+        },
+        {
+          "start": 21.16,
+          "end": 21.24,
+          "word": "个",
+          "probability": 0.969226598739624
+        },
+        {
+          "start": 21.24,
+          "end": 21.38,
+          "word": "小",
+          "probability": 0.9968189001083374
+        },
+        {
+          "start": 21.38,
+          "end": 21.5,
+          "word": "爱",
+          "probability": 0.8053708076477051
+        },
+        {
+          "start": 21.5,
+          "end": 21.7,
+          "word": "心",
+          "probability": 0.9985271692276001
+        },
+        {
+          "start": 21.7,
+          "end": 21.88,
+          "word": "吗",
+          "probability": 0.6044703722000122
+        }
+      ]
+    }
+  ],
+  "timing_summary": {
+    "recorded_segment_count": 14,
+    "median_seconds": 1.533,
+    "min_seconds": 0.25,
+    "max_seconds": 3.05,
+    "boundary_status": "候选检测加采样观察修订，非逐帧实播核验；语义分段不等于镜头数"
+  },
+  "evidence_path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\evidence.json",
+  "updated_at": "2026-10-01T13:19:16.064109+08:00"
+}

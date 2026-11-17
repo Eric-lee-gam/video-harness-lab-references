@@ -1,0 +1,26 @@
+.sb-columns{display:grid;grid-template-columns:minmax(220px,.8fr) minmax(270px,1.2fr);gap:20px}.sb-columns>section{min-width:0}.sb-task{border:1px solid var(--line);border-radius:8px;padding:12px;margin:10px 0}.sb-task.selected{border-color:var(--accent)}.sb-task button{margin:4px 0}.sb-result{display:block;text-align:left;width:100%;margin:6px 0}.sb-result small{display:block;overflow-wrap:anywhere;color:var(--muted)}#sb-results{max-height:340px;overflow:auto}#sb-player{width:100%;max-height:320px;background:#050807}#sb-source{margin:24px 0;padding:16px;border:1px solid var(--line)}#sb-source-info{overflow-wrap:anywhere}.sb-candidate{border-bottom:1px solid var(--line);padding:12px 0}.sb-links label{display:flex;gap:8px;align-items:center;font-size:12px}.sb-links input{width:auto}.sb-active .wf-layout{grid-template-columns:minmax(0,1fr) 280px}.sb-active .wf-editor{padding:16px}.sb-active .wf-preview{top:10px}.sb-active .composition{max-width:none}#sb-status button{margin:8px}.sb-task textarea{min-height:70px}@media(max-width:1150px){.sb-active .wf-layout{grid-template-columns:1fr}.sb-active .wf-preview{position:static;max-width:340px;margin:auto}}@media(max-width:700px){.sb-columns{grid-template-columns:1fr}}
+
+#sb-clip-filters[hidden]{display:none}#sb-candidates{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}#sb-candidates video{height:140px;width:100%;object-fit:contain}#sb-candidates strong{overflow-wrap:anywhere}#sb-candidates button{font-size:11px;padding:7px}#sb-candidates label{font-size:11px}.button-row{flex-wrap:wrap}@media(max-width:700px){#sb-candidates{grid-template-columns:1fr}}
+#sb-candidate-dialog{max-width:640px;width:calc(100% - 48px);max-height:85vh;overflow:auto;color:var(--text,#eee);background:#192124;border:1px solid var(--line,#455);border-radius:12px;padding:24px}#sb-candidate-dialog::backdrop{background:#000a}#sb-candidate-dialog button{margin:8px 8px 0 0}#sb-global-issues{border:1px solid var(--line);padding:10px 14px;border-radius:8px;margin:10px 0}#sb-global-issues summary{cursor:pointer}#sb-global-issues>div{max-height:240px;overflow:auto}
+/* 第四步使用完整窗口，候选与成片共享右侧空间。 */
+.composition.sb-studio{max-width:none;margin:16px auto;padding:0 20px 50px}
+.sb-studio>.section-head{display:none}
+.sb-studio .wf-steps{margin:10px 0 16px}
+.sb-studio .wf-layout{grid-template-columns:minmax(560px,1.65fr) minmax(320px,1fr);gap:18px}
+.sb-studio .wf-editor{padding:14px}
+.sb-studio .sb-columns{grid-template-columns:minmax(220px,.85fr) minmax(270px,1.15fr);gap:16px}
+.sb-studio .sb-columns>section:first-child{position:sticky;top:12px;align-self:start}
+.sb-studio #sb-tasks{height:calc(100dvh - 210px);min-height:300px;overflow:auto;padding-right:8px;padding-bottom:16px;scrollbar-gutter:stable;overscroll-behavior:contain}
+.sb-studio #sb-results{height:calc(100vh - 490px);min-height:180px;max-height:none;overflow:auto}
+.sb-studio .wf-preview{top:12px;max-height:calc(100vh - 105px);overflow:auto;min-width:0}
+.sb-preview-tabs{display:flex;gap:8px;position:sticky;top:0;background:var(--panel);padding:10px 0;z-index:2}
+.sb-preview-tabs button{flex:1}
+.sb-studio #sb-source{margin:0;padding:12px}
+.sb-studio #sb-player{height:clamp(220px,43vh,520px);max-height:none;object-fit:contain}
+.sb-studio #wf-frame{max-height:52vh;width:auto;max-width:100%;margin:auto;aspect-ratio:9/16}
+.sb-studio #sb-tools{margin:0 0 10px;padding:10px;border:1px solid var(--line);border-radius:8px}
+.sb-studio #sb-status{font-size:12px;padding:8px}
+.sb-studio #sb-panel-4 h3{margin:8px 0}
+#sb-source[hidden],#sb-film-pane[hidden],#sb-preview-tabs[hidden]{display:none!important}
+@media(max-width:950px){.sb-studio .wf-layout{grid-template-columns:minmax(420px,1.3fr) minmax(270px,1fr)}.sb-studio .sb-columns{grid-template-columns:minmax(160px,.8fr) minmax(220px,1.2fr)}}
+@media(max-width:740px){.sb-studio .wf-layout{display:flex;flex-direction:column}.sb-studio .wf-preview{position:static;max-height:none;width:100%}.sb-studio .wf-editor{width:100%;box-sizing:border-box}.sb-studio .sb-columns{grid-template-columns:1fr 1fr}.sb-studio #sb-tasks{height:400px}.sb-studio #sb-results{height:220px}}

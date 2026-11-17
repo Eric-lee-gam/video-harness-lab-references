@@ -1,0 +1,58 @@
+{
+  "updated": "2026-11-13T10:09:14+08:00",
+  "confirmed": 24,
+  "tentative": 2,
+  "counts": [
+    {
+      "category": "覆膜保护",
+      "positive": 3,
+      "negative": 1,
+      "tentative": 2,
+      "positive_gap_to_10": 7,
+      "negative_gap_to_10": 9
+    },
+    {
+      "category": "滚涂",
+      "positive": 2,
+      "negative": 2,
+      "tentative": 0,
+      "positive_gap_to_10": 8,
+      "negative_gap_to_10": 8
+    },
+    {
+      "category": "批刮",
+      "positive": 2,
+      "negative": 2,
+      "tentative": 0,
+      "positive_gap_to_10": 8,
+      "negative_gap_to_10": 8
+    },
+    {
+      "category": "打磨",
+      "positive": 2,
+      "negative": 2,
+      "tentative": 0,
+      "positive_gap_to_10": 8,
+      "negative_gap_to_10": 8
+    },
+    {
+      "category": "拆除",
+      "positive": 3,
+      "negative": 1,
+      "tentative": 0,
+      "positive_gap_to_10": 7,
+      "negative_gap_to_10": 9
+    },
+    {
+      "category": "清洁",
+      "positive": 3,
+      "negative": 1,
+      "tentative": 0,
+      "positive_gap_to_10": 7,
+      "negative_gap_to_10": 9
+    }
+  ],
+  "note": "10正10负仅按大类的初步扩样目标，不代表各对象已覆盖；不同对象标签不可互换。项目目录未全部核验，不能宣称已完成跨项目独立测试。",
+  "blind_test_started": false,
+  "production_model_changed": false
+}

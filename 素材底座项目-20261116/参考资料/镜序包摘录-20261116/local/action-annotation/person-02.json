@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "created": "2026-11-13",
+  "purpose": "不同场景人物人工核实；多人同框分别标注，不由目录推断身份",
+  "rows": [
+    {
+      "sample_id": "R03",
+      "category": "人物核实",
+      "query": "请用户确认画面主体是否阿明；其他人物或看不清保持待核实",
+      "source": {
+        "id": "c50fce1d7c874f30a0008fb4b419fbd0",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\长鑫家园（上门谈单）\\34187_小区场景.MOV",
+        "rel": "长鑫家园（上门谈单）/34187_小区场景.MOV",
+        "root": "xiaoq",
+        "name": "34187_小区场景.MOV",
+        "start": 2,
+        "end": 6
+      },
+      "project_guess": "长鑫家园（上门谈单）",
+      "project_confirmed": false,
+      "suggested_label": "待确认",
+      "suggestion_reason": "身份必须由用户逐段确认，不凭服装或目录自动推定",
+      "confirmed_label": "用户确认：阿明",
+      "status": "已逐人确认",
+      "clip": "clips/R03.mp4",
+      "clip_sha256": "a37a6f693b05af23c65ff79d497789b0beeba9b17ce9f246eef29ea23a21d05a",
+      "duration": 4.004,
+      "benchmark_eligible": false,
+      "split": "口径确认集，禁止进入盲测",
+      "product_identity": "未核验",
+      "quality_note": "三时间点检查、完整解码通过；身份不由助手推断",
+      "person_identity": "阿明",
+      "apply_to_directory": false,
+      "label_scope": "仅所列时间段内指定人物，不推广同框其他人",
+      "person_targets": [
+        {
+          "description": "室外白衣讲述者",
+          "identity": "阿明",
+          "confirmed_by": "当前用户"
+        }
+      ],
+      "confirmed_at": "2026-11-13T11:50:39.405858+08:00",
+      "confirmed_by": "当前用户",
+      "confirmation_evidence": "R03是阿明，R04前景紫衣是阿明，后方没穿上衣的是其他人物"
+    },
+    {
+      "sample_id": "R04",
+      "category": "人物核实",
+      "query": "请用户确认画面主体是否阿明；其他人物或看不清保持待核实",
+      "source": {
+        "id": "0e994a1d2837bd1069fd397553b62816",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\常青花园四小区\\人物出镜\\19758_人物_小区场景.MOV",
+        "rel": "常青花园四小区/人物出镜/19758_人物_小区场景.MOV",
+        "root": "xiaoq",
+        "name": "19758_人物_小区场景.MOV",
+        "start": 2,
+        "end": 6
+      },
+      "project_guess": "常青花园四小区",
+      "project_confirmed": false,
+      "suggested_label": "待确认",
+      "suggestion_reason": "身份必须由用户逐段确认，不凭服装或目录自动推定",
+      "confirmed_label": "用户确认：前景紫衣阿明；后方未穿上衣其他人物",
+      "status": "已逐人确认",
+      "clip": "clips/R04.mp4",
+      "clip_sha256": "3af83544220fe33c4fb08df9c09b343d0e91b4452d237c6301d82636d6b6a5e9",
+      "duration": 4.004,
+      "benchmark_eligible": false,
+      "split": "口径确认集，禁止进入盲测",
+      "product_identity": "未核验",
+      "quality_note": "三时间点检查、完整解码通过；身份不由助手推断",
+      "person_identity": null,
+      "apply_to_directory": false,
+      "label_scope": "仅所列时间段内指定人物，不推广同框其他人",
+      "person_targets": [
+        {
+          "description": "前景紫衣人物",
+          "identity": "阿明",
+          "confirmed_by": "当前用户"
+        },
+        {
+          "description": "后方未穿上衣的人物",
+          "identity": "其他人物",
+          "confirmed_by": "当前用户"
+        }
+      ],
+      "confirmed_at": "2026-11-13T11:50:39.405858+08:00",
+      "confirmed_by": "当前用户",
+      "confirmation_evidence": "R03是阿明，R04前景紫衣是阿明，后方没穿上衣的是其他人物"
+    }
+  ],
+  "updated": "2026-11-13T11:50:39.405858+08:00",
+  "history": [
+    {
+      "at": "2026-11-13T11:50:39.405858+08:00",
+      "evidence": "R03是阿明，R04前景紫衣是阿明，后方没穿上衣的是其他人物"
+    }
+  ]
+}

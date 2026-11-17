@@ -1,0 +1,826 @@
+{
+  "schema_version": 1,
+  "reference_id": "R21",
+  "status": "local_asr_complete_unverified",
+  "source_audio": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R21\\audio.wav",
+  "model": "C:\\Users\\leega\\.cache\\huggingface\\hub\\models--Systran--faster-whisper-small\\snapshots\\536b0662742c02347bc0e980a01041f333bce120",
+  "device": "cpu",
+  "compute_type": "int8",
+  "language": "zh",
+  "language_probability": 1,
+  "duration": 20.0141875,
+  "vad_filter": false,
+  "word_timestamps": true,
+  "human_listening_verified": false,
+  "elapsed_seconds": 4.97,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 1.64,
+      "text": "再过一两个月你会发现",
+      "avg_logprob": -0.21959938755575217,
+      "no_speech_prob": 0.20466186106204987,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.18,
+          "word": "再",
+          "probability": 0.46215033531188965
+        },
+        {
+          "start": 0.18,
+          "end": 0.3,
+          "word": "过",
+          "probability": 0.5931044816970825
+        },
+        {
+          "start": 0.3,
+          "end": 0.42,
+          "word": "一",
+          "probability": 0.8816092610359192
+        },
+        {
+          "start": 0.42,
+          "end": 0.56,
+          "word": "两",
+          "probability": 0.9898356795310974
+        },
+        {
+          "start": 0.56,
+          "end": 0.66,
+          "word": "个",
+          "probability": 0.9985398054122925
+        },
+        {
+          "start": 0.66,
+          "end": 0.78,
+          "word": "月",
+          "probability": 0.9975583553314209
+        },
+        {
+          "start": 0.78,
+          "end": 0.9,
+          "word": "你",
+          "probability": 0.9159829020500183
+        },
+        {
+          "start": 0.9,
+          "end": 1.0,
+          "word": "会",
+          "probability": 0.9976481795310974
+        },
+        {
+          "start": 1.0,
+          "end": 1.16,
+          "word": "发",
+          "probability": 0.9981065988540649
+        },
+        {
+          "start": 1.16,
+          "end": 1.64,
+          "word": "现",
+          "probability": 0.99736088514328
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 1.64,
+      "end": 3.84,
+      "text": "越来越多人的家里厨房卫生间翻新",
+      "avg_logprob": -0.21959938755575217,
+      "no_speech_prob": 0.20466186106204987,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 1.64,
+          "end": 1.8,
+          "word": "越",
+          "probability": 0.9089071750640869
+        },
+        {
+          "start": 1.8,
+          "end": 1.92,
+          "word": "来",
+          "probability": 0.9994646906852722
+        },
+        {
+          "start": 1.92,
+          "end": 2.02,
+          "word": "越",
+          "probability": 0.9893484115600586
+        },
+        {
+          "start": 2.02,
+          "end": 2.16,
+          "word": "多",
+          "probability": 0.9975908994674683
+        },
+        {
+          "start": 2.16,
+          "end": 2.28,
+          "word": "人",
+          "probability": 0.997050404548645
+        },
+        {
+          "start": 2.28,
+          "end": 2.4,
+          "word": "的",
+          "probability": 0.9557410478591919
+        },
+        {
+          "start": 2.4,
+          "end": 2.6,
+          "word": "家",
+          "probability": 0.9851055145263672
+        },
+        {
+          "start": 2.6,
+          "end": 2.74,
+          "word": "里",
+          "probability": 0.9967523813247681
+        },
+        {
+          "start": 2.74,
+          "end": 2.92,
+          "word": "厨",
+          "probability": 0.9846958220005035
+        },
+        {
+          "start": 2.92,
+          "end": 3.06,
+          "word": "房",
+          "probability": 0.9990637898445129
+        },
+        {
+          "start": 3.06,
+          "end": 3.18,
+          "word": "卫",
+          "probability": 0.9919971525669098
+        },
+        {
+          "start": 3.18,
+          "end": 3.32,
+          "word": "生",
+          "probability": 0.9949807524681091
+        },
+        {
+          "start": 3.32,
+          "end": 3.46,
+          "word": "间",
+          "probability": 0.9611994624137878
+        },
+        {
+          "start": 3.46,
+          "end": 3.66,
+          "word": "翻",
+          "probability": 0.4086695611476898
+        },
+        {
+          "start": 3.66,
+          "end": 3.84,
+          "word": "新",
+          "probability": 0.6650193929672241
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 3.84,
+      "end": 5.24,
+      "text": "都流行用这个威桃泥了",
+      "avg_logprob": -0.21959938755575217,
+      "no_speech_prob": 0.20466186106204987,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 3.84,
+          "end": 3.98,
+          "word": "都",
+          "probability": 0.9450124502182007
+        },
+        {
+          "start": 3.98,
+          "end": 4.12,
+          "word": "流",
+          "probability": 0.9852612614631653
+        },
+        {
+          "start": 4.12,
+          "end": 4.28,
+          "word": "行",
+          "probability": 0.9924885034561157
+        },
+        {
+          "start": 4.28,
+          "end": 4.42,
+          "word": "用",
+          "probability": 0.9868153929710388
+        },
+        {
+          "start": 4.42,
+          "end": 4.58,
+          "word": "这个",
+          "probability": 0.9521336555480957
+        },
+        {
+          "start": 4.58,
+          "end": 4.74,
+          "word": "威",
+          "probability": 0.5675781667232513
+        },
+        {
+          "start": 4.74,
+          "end": 4.88,
+          "word": "桃",
+          "probability": 0.7563916146755219
+        },
+        {
+          "start": 4.88,
+          "end": 5.02,
+          "word": "泥",
+          "probability": 0.8773655593395233
+        },
+        {
+          "start": 5.02,
+          "end": 5.24,
+          "word": "了",
+          "probability": 0.869249165058136
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 5.24,
+      "end": 6.34,
+      "text": "也叫金刚桃泥",
+      "avg_logprob": -0.21959938755575217,
+      "no_speech_prob": 0.20466186106204987,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 5.24,
+          "end": 5.46,
+          "word": "也",
+          "probability": 0.945601761341095
+        },
+        {
+          "start": 5.46,
+          "end": 5.6,
+          "word": "叫",
+          "probability": 0.8628195524215698
+        },
+        {
+          "start": 5.6,
+          "end": 5.76,
+          "word": "金",
+          "probability": 0.9367385506629944
+        },
+        {
+          "start": 5.76,
+          "end": 5.9,
+          "word": "刚",
+          "probability": 0.678834855556488
+        },
+        {
+          "start": 5.9,
+          "end": 6.08,
+          "word": "桃",
+          "probability": 0.9672213196754456
+        },
+        {
+          "start": 6.08,
+          "end": 6.34,
+          "word": "泥",
+          "probability": 0.9995137453079224
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 6.34,
+      "end": 7.2,
+      "text": "不拆不砸",
+      "avg_logprob": -0.21959938755575217,
+      "no_speech_prob": 0.20466186106204987,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 6.34,
+          "end": 6.7,
+          "word": "不",
+          "probability": 0.5438054800033569
+        },
+        {
+          "start": 6.7,
+          "end": 6.84,
+          "word": "拆",
+          "probability": 0.9949998557567596
+        },
+        {
+          "start": 6.84,
+          "end": 7.0,
+          "word": "不",
+          "probability": 0.9624902606010437
+        },
+        {
+          "start": 7.0,
+          "end": 7.2,
+          "word": "砸",
+          "probability": 0.7656944692134857
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 7.2,
+      "end": 8.56,
+      "text": "整个卫生间改造",
+      "avg_logprob": -0.21959938755575217,
+      "no_speech_prob": 0.20466186106204987,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 7.2,
+          "end": 7.7,
+          "word": "整",
+          "probability": 0.9457594156265259
+        },
+        {
+          "start": 7.7,
+          "end": 7.82,
+          "word": "个",
+          "probability": 0.9977917671203613
+        },
+        {
+          "start": 7.82,
+          "end": 7.92,
+          "word": "卫",
+          "probability": 0.9993491768836975
+        },
+        {
+          "start": 7.92,
+          "end": 8.08,
+          "word": "生",
+          "probability": 0.9996570348739624
+        },
+        {
+          "start": 8.08,
+          "end": 8.24,
+          "word": "间",
+          "probability": 0.9791434407234192
+        },
+        {
+          "start": 8.24,
+          "end": 8.4,
+          "word": "改",
+          "probability": 0.9977928400039673
+        },
+        {
+          "start": 8.4,
+          "end": 8.56,
+          "word": "造",
+          "probability": 0.9948627352714539
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 8.56,
+      "end": 10.02,
+      "text": "只需要三天就可以完成",
+      "avg_logprob": -0.21959938755575217,
+      "no_speech_prob": 0.20466186106204987,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 8.56,
+          "end": 8.78,
+          "word": "只",
+          "probability": 0.9828830361366272
+        },
+        {
+          "start": 8.78,
+          "end": 9.0,
+          "word": "需要",
+          "probability": 0.9924013614654541
+        },
+        {
+          "start": 9.0,
+          "end": 9.2,
+          "word": "三",
+          "probability": 0.9128756523132324
+        },
+        {
+          "start": 9.2,
+          "end": 9.38,
+          "word": "天",
+          "probability": 0.999681830406189
+        },
+        {
+          "start": 9.38,
+          "end": 9.66,
+          "word": "就可以",
+          "probability": 0.9906732439994812
+        },
+        {
+          "start": 9.66,
+          "end": 10.02,
+          "word": "完成",
+          "probability": 0.9994687438011169
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 10.02,
+      "end": 11.26,
+      "text": "皮瓜三道五毫",
+      "avg_logprob": -0.21959938755575217,
+      "no_speech_prob": 0.20466186106204987,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 10.02,
+          "end": 10.48,
+          "word": "皮",
+          "probability": 0.2980041205883026
+        },
+        {
+          "start": 10.48,
+          "end": 10.6,
+          "word": "瓜",
+          "probability": 0.669804036617279
+        },
+        {
+          "start": 10.6,
+          "end": 10.78,
+          "word": "三",
+          "probability": 0.5608724355697632
+        },
+        {
+          "start": 10.78,
+          "end": 10.9,
+          "word": "道",
+          "probability": 0.6344507336616516
+        },
+        {
+          "start": 10.9,
+          "end": 11.12,
+          "word": "五",
+          "probability": 0.923682689666748
+        },
+        {
+          "start": 11.12,
+          "end": 11.26,
+          "word": "毫",
+          "probability": 0.9882689118385315
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 11.26,
+      "end": 12.08,
+      "text": "可耐水防美",
+      "avg_logprob": -0.21959938755575217,
+      "no_speech_prob": 0.20466186106204987,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 11.26,
+          "end": 11.44,
+          "word": "可",
+          "probability": 0.23333780467510223
+        },
+        {
+          "start": 11.44,
+          "end": 11.54,
+          "word": "耐",
+          "probability": 0.9101032316684723
+        },
+        {
+          "start": 11.54,
+          "end": 11.68,
+          "word": "水",
+          "probability": 0.9994551539421082
+        },
+        {
+          "start": 11.68,
+          "end": 11.86,
+          "word": "防",
+          "probability": 0.4980717897415161
+        },
+        {
+          "start": 11.86,
+          "end": 12.08,
+          "word": "美",
+          "probability": 0.8060066103935242
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 12.08,
+      "end": 13.78,
+      "text": "还省了一大笔拆除费用",
+      "avg_logprob": -0.21959938755575217,
+      "no_speech_prob": 0.20466186106204987,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 12.08,
+          "end": 12.42,
+          "word": "还",
+          "probability": 0.9441685676574707
+        },
+        {
+          "start": 12.42,
+          "end": 12.56,
+          "word": "省",
+          "probability": 0.8388022482395172
+        },
+        {
+          "start": 12.56,
+          "end": 12.64,
+          "word": "了",
+          "probability": 0.987133264541626
+        },
+        {
+          "start": 12.64,
+          "end": 12.74,
+          "word": "一",
+          "probability": 0.994492769241333
+        },
+        {
+          "start": 12.74,
+          "end": 12.86,
+          "word": "大",
+          "probability": 0.9960277080535889
+        },
+        {
+          "start": 12.86,
+          "end": 13.04,
+          "word": "笔",
+          "probability": 0.9939281344413757
+        },
+        {
+          "start": 13.04,
+          "end": 13.2,
+          "word": "拆",
+          "probability": 0.9732935428619385
+        },
+        {
+          "start": 13.2,
+          "end": 13.36,
+          "word": "除",
+          "probability": 0.8319756984710693
+        },
+        {
+          "start": 13.36,
+          "end": 13.54,
+          "word": "费",
+          "probability": 0.9984068274497986
+        },
+        {
+          "start": 13.54,
+          "end": 13.78,
+          "word": "用",
+          "probability": 0.9965102076530457
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 13.78,
+      "end": 15.18,
+      "text": "关键是无缝液体",
+      "avg_logprob": -0.21959938755575217,
+      "no_speech_prob": 0.20466186106204987,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 13.78,
+          "end": 14.18,
+          "word": "关",
+          "probability": 0.9847634434700012
+        },
+        {
+          "start": 14.18,
+          "end": 14.34,
+          "word": "键",
+          "probability": 0.9986076951026917
+        },
+        {
+          "start": 14.34,
+          "end": 14.52,
+          "word": "是",
+          "probability": 0.9855625629425049
+        },
+        {
+          "start": 14.52,
+          "end": 14.72,
+          "word": "无",
+          "probability": 0.9583064913749695
+        },
+        {
+          "start": 14.72,
+          "end": 14.86,
+          "word": "缝",
+          "probability": 0.9961984753608704
+        },
+        {
+          "start": 14.86,
+          "end": 15.02,
+          "word": "液",
+          "probability": 0.6804303377866745
+        },
+        {
+          "start": 15.02,
+          "end": 15.18,
+          "word": "体",
+          "probability": 0.9985069632530212
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 15.18,
+      "end": 16.4,
+      "text": "效果高级又便宜",
+      "avg_logprob": -0.21959938755575217,
+      "no_speech_prob": 0.20466186106204987,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 15.18,
+          "end": 15.36,
+          "word": "效",
+          "probability": 0.9959335923194885
+        },
+        {
+          "start": 15.36,
+          "end": 15.56,
+          "word": "果",
+          "probability": 0.9995716214179993
+        },
+        {
+          "start": 15.56,
+          "end": 15.72,
+          "word": "高",
+          "probability": 0.9963384866714478
+        },
+        {
+          "start": 15.72,
+          "end": 15.88,
+          "word": "级",
+          "probability": 0.9528761208057404
+        },
+        {
+          "start": 15.88,
+          "end": 15.96,
+          "word": "又",
+          "probability": 0.8115537762641907
+        },
+        {
+          "start": 15.96,
+          "end": 16.16,
+          "word": "便",
+          "probability": 0.9976493716239929
+        },
+        {
+          "start": 16.16,
+          "end": 16.4,
+          "word": "宜",
+          "probability": 0.9997215867042542
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 16.4,
+      "end": 18.28,
+      "text": "如果你喜欢这种翻新工艺",
+      "avg_logprob": -0.21959938755575217,
+      "no_speech_prob": 0.20466186106204987,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 16.4,
+          "end": 16.8,
+          "word": "如果你",
+          "probability": 0.8358619809150696
+        },
+        {
+          "start": 16.8,
+          "end": 17.14,
+          "word": "喜欢",
+          "probability": 0.9972677230834961
+        },
+        {
+          "start": 17.14,
+          "end": 17.36,
+          "word": "这",
+          "probability": 0.9962286949157715
+        },
+        {
+          "start": 17.36,
+          "end": 17.48,
+          "word": "种",
+          "probability": 0.9996628761291504
+        },
+        {
+          "start": 17.48,
+          "end": 17.66,
+          "word": "翻",
+          "probability": 0.9843761920928955
+        },
+        {
+          "start": 17.66,
+          "end": 17.8,
+          "word": "新",
+          "probability": 0.9963502883911133
+        },
+        {
+          "start": 17.8,
+          "end": 17.98,
+          "word": "工",
+          "probability": 0.9721847772598267
+        },
+        {
+          "start": 17.98,
+          "end": 18.28,
+          "word": "艺",
+          "probability": 0.9920501112937927
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 18.28,
+      "end": 19.84,
+      "text": "可以给我点个小爱心吗",
+      "avg_logprob": -0.21959938755575217,
+      "no_speech_prob": 0.20466186106204987,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 18.28,
+          "end": 18.78,
+          "word": "可以",
+          "probability": 0.9777547717094421
+        },
+        {
+          "start": 18.78,
+          "end": 19.0,
+          "word": "给我",
+          "probability": 0.99652498960495
+        },
+        {
+          "start": 19.0,
+          "end": 19.12,
+          "word": "点",
+          "probability": 0.9987624883651733
+        },
+        {
+          "start": 19.12,
+          "end": 19.22,
+          "word": "个",
+          "probability": 0.9757766127586365
+        },
+        {
+          "start": 19.22,
+          "end": 19.34,
+          "word": "小",
+          "probability": 0.9978823065757751
+        },
+        {
+          "start": 19.34,
+          "end": 19.48,
+          "word": "爱",
+          "probability": 0.8026862144470215
+        },
+        {
+          "start": 19.48,
+          "end": 19.66,
+          "word": "心",
+          "probability": 0.9991439580917358
+        },
+        {
+          "start": 19.66,
+          "end": 19.84,
+          "word": "吗",
+          "probability": 0.7786558866500854
+        }
+      ]
+    }
+  ],
+  "raw_text": "再过一两个月你会发现越来越多人的家里厨房卫生间翻新都流行用这个威桃泥了也叫金刚桃泥不拆不砸整个卫生间改造只需要三天就可以完成皮瓜三道五毫可耐水防美还省了一大笔拆除费用关键是无缝液体效果高级又便宜如果你喜欢这种翻新工艺可以给我点个小爱心吗",
+  "limitations": [
+    "Raw machine transcription, not a verified transcript.",
+    "Mixed speech/music, accents, place names and prices can be wrong.",
+    "ASR timestamps are approximate and are not edit points."
+  ]
+}

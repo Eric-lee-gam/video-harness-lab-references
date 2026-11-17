@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "created": "2026-11-12",
+  "purpose": "施工动作人工标注口径确认；不是训练完成，不是正式选片",
+  "rows": [
+    {
+      "sample_id": "F5",
+      "category": "清洁",
+      "query": "正在用抹布擦拭地面清洁",
+      "source": {
+        "id": "8272401b8a761588aeb17a96a07b47f7",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\9清洁\\20975_地面_批刮施工.mp4",
+        "rel": "9清洁/20975_地面_批刮施工.mp4",
+        "root": "baba",
+        "name": "20975_地面_批刮施工.mp4",
+        "start": 0.2,
+        "end": 2.2
+      },
+      "project_guess": "来源项目未知（分类库）",
+      "project_confirmed": false,
+      "suggested_label": "待确认",
+      "suggestion_reason": "核查手持抹布实际擦拭地面的连续动作；真实项目未知",
+      "confirmed_label": "正例",
+      "status": "用户已确认",
+      "clip": "clips/F5.mp4",
+      "clip_sha256": "2c75d8bf5ea33426407afbb0e540a661f4874a897cf35c7ed5b5503e37ca86fa",
+      "duration": 2.0,
+      "benchmark_eligible": false,
+      "split": "口径确认集，禁止进入盲测",
+      "product_identity": "未核验",
+      "quality_note": "分类库来源，真实项目未核验；仅标注用途，不进入跨项目盲测。",
+      "confirmed_by": "当前用户",
+      "confirmed_at": "2026-11-13T10:15:42+08:00",
+      "confirmation_evidence": "F5：正例",
+      "confirmed_action": "抹布擦地面",
+      "label_scope": "仅抹布擦地面；真实项目尚未核实"
+    },
+    {
+      "sample_id": "F6",
+      "category": "清洁",
+      "query": "正在用抹布擦拭地面清洁",
+      "source": {
+        "id": "4604804989b68dab57e0d0a41087ca64",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\9清洁\\开荒保洁\\21004_地面_清洁施工.mp4",
+        "rel": "9清洁/开荒保洁/21004_地面_清洁施工.mp4",
+        "root": "baba",
+        "name": "21004_地面_清洁施工.mp4",
+        "start": 2,
+        "end": 5
+      },
+      "project_guess": "来源项目未知（分类库）",
+      "project_confirmed": false,
+      "suggested_label": "待确认",
+      "suggestion_reason": "用户纠正：实际为拖地，不是此前助手所写刷洗",
+      "confirmed_label": "反例",
+      "status": "用户已确认",
+      "clip": "clips/F6.mp4",
+      "clip_sha256": "ad04515a63f38f691733a00db2456bf23767471633c831f2283cc5854309e9e7",
+      "duration": 3.0,
+      "benchmark_eligible": false,
+      "split": "口径确认集，禁止进入盲测",
+      "product_identity": "未核验",
+      "quality_note": "分类库来源，真实项目未核验；仅标注用途，不进入跨项目盲测。",
+      "confirmed_by": "当前用户",
+      "confirmed_at": "2026-11-13T10:18:41+08:00",
+      "confirmation_evidence": "F6：反例。F6明显是拖地",
+      "observed_action": "拖地",
+      "confirmed_reason": "画面是拖地，不符合用抹布擦地面的具体要求",
+      "label_scope": "仅针对抹布擦地面要求的反例；不得泛化为地面清洁反例"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-13T10:15:42+08:00",
+      "sample_id": "F5",
+      "before_label": null,
+      "after_label": "正例",
+      "evidence": "F5：正例"
+    },
+    {
+      "time": "2026-11-13T10:18:41+08:00",
+      "sample_id": "F6",
+      "before_label": null,
+      "after_label": "反例",
+      "evidence": "F6：反例。F6明显是拖地",
+      "correction": "助手先前称刷洗不准确，用户纠正为拖地"
+    }
+  ],
+  "updated": "2026-11-13T10:18:41+08:00"
+}

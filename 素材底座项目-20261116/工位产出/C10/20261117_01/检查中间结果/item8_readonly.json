@@ -1,0 +1,319 @@
+{
+  "item": 8,
+  "writes_n": 29,
+  "ok_writes_n": 11,
+  "bad_writes": [],
+  "unknown_writes": [
+    {
+      "file": "02c_diff36_33.py",
+      "line": 65,
+      "op": "replace",
+      "target": "",
+      "src": "confirmed-",
+      "raw": "x.replace('confirmed-', '')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "_annotate_conflicts.py",
+      "line": 10,
+      "op": "write_text",
+      "target": null,
+      "raw": "p.write_text(json.dumps(c, ensure_ascii=False, indent=2), encoding='utf-8')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "_fix_lib.py",
+      "line": 6,
+      "op": "replace",
+      "target": "\"\\\\\\\\192.168.110.36\\\\共享本公司\\\\\"",
+      "src": "r\"\\\\192.168.110.36\\共享本公司\\\"",
+      "raw": "t.replace('r\"\\\\\\\\192.168.110.36\\\\共享本公司\\\\\"', '\"\\\\\\\\\\\\\\\\192.168.110.36\\\\\\\\共享本公司\\\\\\\\\"')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "_fix_lib.py",
+      "line": 24,
+      "op": "replace",
+      "target": "        \"\\\\\" + \"\\\\192.168.110.36\\\\共享本公司\\\\\",\n",
+      "src": "        r\"\\192.168.110.36\\共享本公司\\\",\n",
+      "raw": "text.replace('        r\"\\\\192.168.110.36\\\\共享本公司\\\\\",\\n', '        \"\\\\\\\\\" + \"\\\\\\\\192.168.110.36\\\\\\\\共享本公司\\\\\\\\\",\\n')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "_fix_lib.py",
+      "line": 52,
+      "op": "write_text",
+      "target": null,
+      "raw": "p.write_text('\\n'.join(lines) + '\\n', encoding='utf-8')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "_fix_verify.py",
+      "line": 9,
+      "op": "write_text",
+      "target": null,
+      "raw": "p.write_text(t.replace(old, new), encoding='utf-8')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "_fix_verify.py",
+      "line": 9,
+      "op": "replace",
+      "target": null,
+      "src": null,
+      "raw": "t.replace(old, new)",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "t10_coarse.py",
+      "line": 409,
+      "op": "replace",
+      "target": "/",
+      "src": "|",
+      "raw": "rec['字段'].replace('|', '/')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "t10_coarse.py",
+      "line": 409,
+      "op": "replace",
+      "target": "/",
+      "src": "|",
+      "raw": "extra.replace('|', '/')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "t10_facts.py",
+      "line": 169,
+      "op": "replace",
+      "target": "",
+      "src": "confirmed-",
+      "raw": "rid.replace('confirmed-', '')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "t10_lib.py",
+      "line": 41,
+      "op": "replace",
+      "target": null,
+      "src": "/",
+      "raw": "s.replace('/', BS)",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "t10_lib.py",
+      "line": 122,
+      "op": "mkdir",
+      "target": null,
+      "raw": "path.parent.mkdir(parents=True, exist_ok=True)",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "t10_lib.py",
+      "line": 130,
+      "op": "mkdir",
+      "target": null,
+      "raw": "path.parent.mkdir(parents=True, exist_ok=True)",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "t10_lib.py",
+      "line": 131,
+      "op": "write_text",
+      "target": null,
+      "raw": "path.write_text(json.dumps(obj, ensure_ascii=False, indent=2, default=str), encoding='utf-8')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "t10_lib.py",
+      "line": 37,
+      "op": "replace",
+      "target": null,
+      "src": "/",
+      "raw": "s[2:].replace('/', BS)",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "t10_lib.py",
+      "line": 43,
+      "op": "replace",
+      "target": null,
+      "src": null,
+      "raw": "s.replace(BS + BS, BS)",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "t10_lib.py",
+      "line": 39,
+      "op": "replace",
+      "target": null,
+      "src": null,
+      "raw": "rest.replace(BS + BS, BS)",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "t10_post.py",
+      "line": 188,
+      "op": "replace",
+      "target": "/",
+      "src": "\\",
+      "raw": "src.replace('\\\\', '/')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    }
+  ],
+  "ok_writes_sample": [
+    {
+      "file": "01_inspect_inputs.py",
+      "line": 180,
+      "op": "write_text",
+      "target": null,
+      "raw": "dest.write_text('\\n'.join(report), encoding='utf-8')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "02a_learning.py",
+      "line": 160,
+      "op": "write_text",
+      "target": null,
+      "raw": "OUT.write_text('\\n'.join(lines), encoding='utf-8')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "02b_confirmed_vs_snapshot.py",
+      "line": 160,
+      "op": "write_text",
+      "target": null,
+      "raw": "out.write_text('\\n'.join(lines), encoding='utf-8')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "02f_jsonl_and_batches.py",
+      "line": 96,
+      "op": "write_text",
+      "target": null,
+      "raw": "dest.write_text('\\n'.join(lines), encoding='utf-8')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "t10_coarse.py",
+      "line": 412,
+      "op": "write_text",
+      "target": null,
+      "raw": "(L.OUT / '统计' / '粗标层字段取值统计.md').write_text('\\n'.join(md), encoding='utf-8')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "t10_write_report.py",
+      "line": 232,
+      "op": "write_text",
+      "target": null,
+      "raw": "(OUT / '回报.md').write_text(report, encoding='utf-8')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "write_config.py",
+      "line": 59,
+      "op": "mkdir",
+      "target": null,
+      "raw": "dest.parent.mkdir(parents=True, exist_ok=True)",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "write_config.py",
+      "line": 60,
+      "op": "write_text",
+      "target": null,
+      "raw": "dest.write_text(text, encoding='utf-8')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false
+    },
+    {
+      "file": "t10_write_report.py",
+      "line": 87,
+      "op": "write_text",
+      "target": null,
+      "raw": "(ISSUES / '20261117_T10_主库清单CSV未找到.md').write_text(issue1, encoding='utf-8')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false,
+      "note": "表达式看起来落在产出/片段库"
+    },
+    {
+      "file": "t10_write_report.py",
+      "line": 88,
+      "op": "write_text",
+      "target": null,
+      "raw": "(ISSUES / '20261117_T10_对照表人物不能用.md').write_text(issue2, encoding='utf-8')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false,
+      "note": "表达式看起来落在产出/片段库"
+    },
+    {
+      "file": "t10_write_report.py",
+      "line": 89,
+      "op": "write_text",
+      "target": null,
+      "raw": "(ISSUES / '20261117_T10_二印小区文件夹确认与V2.md').write_text(issue3, encoding='utf-8')",
+      "dest_is_project": false,
+      "dest_is_share": false,
+      "dest_is_jx": false,
+      "note": "表达式看起来落在产出/片段库"
+    }
+  ],
+  "pass": true,
+  "wrote_share_or_jx": false,
+  "read_gpt_pilot": false,
+  "manual_review": "AST 里 18 条“去向不明”几乎全是 str.replace / 变量 Path.write_text。逐文件核对后，真实写文件都落在项目文件夹：片段库、工位产出\\T10\\20261117_01、问题反馈。write_config.py 写 片段库\\配置\\路径与库名.json 和本批 T10 配置；t10_write_report.py 写三份问题单和回报.md；t10_lib.write_jsonl/write_json 的调用方指向 CLIPLIB 或 L.OUT；_fix_lib.py / _fix_verify.py / _annotate_conflicts.py 只改 T10 自己的脚本或统计文件。脚本里没有 shutil.copy；共享盘/镜序包上没有写出目标。未发现读 local\\gpt-pilot\\（回报和写回报脚本只写了“没有打开”）。"
+}

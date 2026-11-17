@@ -1,0 +1,166 @@
+=== copied action-annotation json ===
+aming-source-rule-index.json	1202786
+batch-01.before-A-confirmation.json	14142
+batch-01.before-BC-confirmation.json	15372
+batch-01.before-DE-confirmation.json	16920
+batch-01.before-F-confirmation.json	19284
+batch-01.json	19970
+batch-02-discovery-input.json	3591
+batch-02-discovery.json	11223
+batch-02.before-A34-review.json	7512
+batch-02.before-BC-confirmation.json	8562
+batch-02.json	10158
+batch-03-discovery-input.json	7216
+batch-03-discovery.json	21902
+batch-03.before-A56-confirmation.json	11047
+batch-03.before-D56-confirmation.json	12689
+batch-03.before-E34-confirmation.json	13441
+batch-03.before-F34-confirmation.json	14535
+batch-03.json	16335
+batch-03b-discovery-input.json	7291
+batch-03b-discovery.json	21115
+batch-04-discovery-input.json	10874
+batch-04-discovery.json	32250
+batch-04.before-F5-confirmation.json	2595
+batch-04.before-F6-confirmation.json	3097
+batch-04.json	3750
+discovery.json	9910
+identity-product-directory-candidates.json	71549
+P24-boundary-proposal.json	3369
+P24-boundary.before-confirmation.json	2166
+person-01-discovery-input.json	88
+person-01-discovery.json	1229
+person-01.before-confirmation.json	3008
+person-01.json	3729
+person-01b-discovery-input.json	88
+person-01b-discovery.json	1199
+person-02-discovery-all.json	1824
+person-02-discovery-input.json	132
+person-02-discovery.json	1244
+person-02.before-confirmation.json	3428
+person-02.json	4297
+person-03-discovery-input.json	88
+person-03-discovery.json	1214
+person-03.before-confirmation.json	3306
+person-03.json	4608
+person-04-discovery-input.json	176
+person-04-discovery.json	2458
+person-04-selected.json	1206
+person-04.before-confirmation.json	3443
+person-04.json	4465
+person-04b-discovery-input.json	352
+person-04b-discovery.json	4656
+person-05-discovery-input.json	176
+person-05-discovery.json	1744
+person-05-selected.json	665
+person-05.before-R09-confirmation.json	1876
+person-05.json	2884
+person-05b-discovery-input.json	352
+person-05b-discovery.json	4302
+person-05c-discovery-input.json	528
+person-05c-discovery.json	6091
+person-05d-discovery-input.json	176
+person-05d-discovery.json	2613
+person-06-discovery-input.json	352
+person-06-discovery.json	4719
+person-06-search-audit.json	3677
+person-06-target.json	513
+person-06b-discovery-input.json	176
+person-06b-discovery.json	2476
+person-07.json	3650
+person-coverage.json	3168
+person-usage-restrictions.json	1419
+product-01-discovery-input.json	1163
+product-01-discovery.json	3669
+product-01.before-P12-confirmation.json	8272
+product-01.before-P34-confirmation.json	10831
+product-01.before-P56-confirmation.json	13424
+product-01.json	15492
+product-02-discovery-input.json	1163
+product-02-discovery.json	3675
+product-02.before-P1112-confirmation.json	13492
+product-02.before-P78-confirmation.json	8752
+product-02.before-P910-confirmation.json	11304
+product-02.json	15082
+product-03-discovery-input.json	803
+product-03-discovery.json	1994
+product-03.before-P1314-confirmation.json	4212
+product-03.before-P15-confirmation.json	5407
+product-03.json	6149
+product-04-discovery-input.json	88
+product-04-discovery.json	1324
+product-04.before-P17-confirmation.json	2973
+product-04.json	3885
+product-05-discovery-input.json	132
+product-05-discovery.json	2147
+product-05.before-P1920-confirmation.json	4888
+product-05.json	6127
+product-06-discovery-input.json	176
+product-06-discovery.json	1506
+product-06.before-P2122-confirmation.json	3268
+product-06.json	5036
+product-07-discovery-all.json	2362
+product-07-discovery-input.json	176
+product-07-discovery.json	1185
+product-07.before-P2324-confirmation.json	3095
+product-07.before-P24-segments-confirmation.json	4505
+product-07.json	5093
+product-08-discovery-input.json	264
+product-08-discovery.json	3739
+product-08-long-input.json	1026
+product-08.before-P2526-confirmation.json	2015
+product-08.json	3131
+product-08b-discovery-input.json	440
+product-08b-discovery.json	6316
+sample-coverage.before-P15.json	1424
+sample-coverage.json	2333
+scraping-label-rule.json	658
+split-policy.json	2014
+
+=== coverage files at aa top ===
+person-coverage.json	3168
+sample-coverage.before-P15.json	1424
+sample-coverage.json	2333
+
+=== SQLITE learning.sqlite3 tables: ['adoptions', 'feedback', 'rule_events', 'rules', 'runs'] ===
+  adoptions: 240 rows; cols: id, created, project_id, task_id, run_id, candidate_id, action, payload
+  feedback: 127 rows; cols: id, created, run_id, candidate_id, reviewer, verdict, reason_code, reason
+  rule_events: 40 rows; cols: id, created, rule_id, status, reviewer, before_payload, after_payload
+  rules: 54 rows; cols: id, created, feedback_id, status, reviewer, payload
+  runs: 253 rows; cols: id, created, payload, result
+
+=== SQLITE catalog.sqlite3 tables: ['assets', 'categories', 'clips', 'events', 'imports', 'jobs', 'projects'] ===
+  assets: 43295 rows; cols: id, root, rel, name, size, stamp, meta, error, available
+  categories: 2 rows; cols: name
+  clips: 6 rows; cols: id, asset_id, path, data, created
+  events: 48 rows; cols: id, created, payload
+  imports: 110 rows; cols: id, name, path, kind, meta
+  jobs: 366 rows; cols: id, kind, status, progress, message, result, created
+  projects: 24 rows; cols: id, name, data, updated
+
+=== learning.rules breakdown ===
+  status=approved count=37
+  status=pending count=17
+  kind=confirmed status=approved count=36
+  kind=other status=approved count=1
+  kind=other status=pending count=17
+  confirmed ids (36): ['confirmed-P1', 'confirmed-P10', 'confirmed-P11', 'confirmed-P12', 'confirmed-P13', 'confirmed-P14', 'confirmed-P15', 'confirmed-P17', 'confirmed-P19', 'confirmed-P2', 'confirmed-P20', 'confirmed-P21', 'confirmed-P22', 'confirmed-P23', 'confirmed-P24', 'confirmed-P25', 'confirmed-P26', 'confirmed-P3', 'confirmed-P4', 'confirmed-P5', 'confirmed-P6', 'confirmed-P7', 'confirmed-P8', 'confirmed-P9', 'confirmed-R01', 'confirmed-R02', 'confirmed-R03', 'confirmed-R04', 'confirmed-R05', 'confirmed-R06', 'confirmed-R07', 'confirmed-R08', 'confirmed-R09', 'confirmed-V1', 'confirmed-V2', 'confirmed-V3']
+  feedback=127
+  adoptions=240
+  runs=253
+  rule_events=40
+  feedback verdict=suitable 14
+  feedback verdict=unreviewed 1
+  feedback verdict=unsuitable 112
+adoptions keys id, created, project_id, task_id, run_id, candidate_id, action, payload
+{'id': 'ea1abaff96fc46f9916b8eba8bd542fa', 'created': '2026-11-11T08:30:48.098779+00:00', 'project_id': 'c620044f2a804044b575aabe6f47517d', 'task_id': 'c9406700-9a85-4565-ad76-8a148651bee9', 'run_id': 'ffe0540386df40228993956e39a0ae7c', 'candidate_id': '23e2aee054f9bd66123cf75b', 'action': 'adopted', 'payload': '{"asset_id": "caab17912fe6ce21192d83acf06204b6", "name": "20630_人物_口播.mp4", "rel": "7老人/20630_人物_口播.mp4", "root": "baba", "path": "\\\\\\\\192.168.110.36\\\\共享本公司\\\\史上最完整共享\\\\扒扒\\\\7老人\\\\20630_人物_口播.mp4", "start": 11.46, "end": 13.66, "source_duration": 23.035, "reason": "中文图文模型匹配抽帧；相似度不是正确率，需看完整选段确认", "ai_run_id": "ffe0540386df40228993956e39a0ae7c", "ai_candidate_id": "23e2aee054f9bd66123cf75b", "ai_project_id": "c620044f2a804044b575aabe6f47517d", "available_end": 13.66, "task_ids": ["c9406700-9a85-4565-ad76-8a148651bee9"], "fallback": false, "fallback_confirmed": false, "timeline_start": 0}'}
+runs keys id, created, payload, result
+runs sample keys done
+
+=== catalog roots ===
+assets keys id, root, rel, name, size, stamp, meta, error, available
+{'id': '4937e1133bca19103d01ea5ee85e36d5', 'root': 'xiaoq', 'rel': '1新的未分类/SKP沙湖公寓/上门/IMG_2800.MOV', 'name': 'IMG_2800.MOV', 'size': 8416072, 'stamp': '1786346938000000000', 'meta': '{"duration": 5.268333, "width": 1920, "height": 1080, "codec": "hevc", "video_index": 0, "audio_index": 1, "pixel": "yuv420p", "transfer": "bt709", "fps": "31600/527", "audio": true, "audio_codec": "aac", "rotation": -90}', 'error': None, 'available': 1}
+  root=baba 22622
+  root=chengdu 104
+  root=suzhou 54
+  root=xiaoq 20515

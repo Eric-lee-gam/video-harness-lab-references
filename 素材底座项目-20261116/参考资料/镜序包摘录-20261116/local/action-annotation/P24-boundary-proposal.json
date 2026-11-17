@@ -1,0 +1,82 @@
+{
+  "version": 2,
+  "purpose": "P24混合动作分段提案，非新增独立项目样本",
+  "method": "每0.25秒抽帧核查后提出保守区间，未声称精确动作转换帧",
+  "rows": [
+    {
+      "sample_id": "P24-A",
+      "parent_sample": "P24",
+      "source": {
+        "id": "c20a703613be13deddbe8d3f71e8b007",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\江岸2卫＋厨房\\第一遍陶泥\\24224_小区场景.MOV",
+        "rel": "江岸2卫＋厨房/第一遍陶泥/24224_小区场景.MOV",
+        "root": "xiaoq",
+        "name": "24224_小区场景.MOV",
+        "start": 2,
+        "end": 2.9
+      },
+      "parent_clip_start": 0,
+      "parent_clip_end": 0.9,
+      "suggested_action": "取料",
+      "confirmed_label": "用户确认：微陶泥取料",
+      "status": "分段与动作已人工确认",
+      "clip": "clips/P24-A-boundary-preview.mp4",
+      "clip_sha256": "77da210f2624dad160ecff91cc85b0cd37419a814c91ce2f01aee391c63e2db1",
+      "duration": 0.901,
+      "benchmark_eligible": false,
+      "apply_to_directory": false,
+      "confirmed_action": "取料",
+      "product_identity": "微陶泥（P24已确认）",
+      "confirmed_at": "2026-11-13T11:24:45.822110+08:00",
+      "confirmed_by": "当前用户",
+      "confirmation_evidence": "都能",
+      "confirmation_context": "针对P24-A取料原片2.00—2.90秒、P24-B批刮原片3.50—5.00秒的预览确认",
+      "label_scope": "仅所列来源时间段",
+      "independent_source_sample": false
+    },
+    {
+      "sample_id": "P24-B",
+      "parent_sample": "P24",
+      "source": {
+        "id": "c20a703613be13deddbe8d3f71e8b007",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\江岸2卫＋厨房\\第一遍陶泥\\24224_小区场景.MOV",
+        "rel": "江岸2卫＋厨房/第一遍陶泥/24224_小区场景.MOV",
+        "root": "xiaoq",
+        "name": "24224_小区场景.MOV",
+        "start": 3.5,
+        "end": 5
+      },
+      "parent_clip_start": 1.5,
+      "parent_clip_end": 3,
+      "suggested_action": "批刮",
+      "confirmed_label": "用户确认：微陶泥批刮",
+      "status": "分段与动作已人工确认",
+      "clip": "clips/P24-B-boundary-preview.mp4",
+      "clip_sha256": "f4e2a873f40247a7433339946266c1fc34ff3c2331d4645fa919ba4d3ea1f664",
+      "duration": 1.502,
+      "benchmark_eligible": false,
+      "apply_to_directory": false,
+      "confirmed_action": "批刮",
+      "product_identity": "微陶泥（P24已确认）",
+      "confirmed_at": "2026-11-13T11:24:45.822110+08:00",
+      "confirmed_by": "当前用户",
+      "confirmation_evidence": "都能",
+      "confirmation_context": "针对P24-A取料原片2.00—2.90秒、P24-B批刮原片3.50—5.00秒的预览确认",
+      "label_scope": "仅所列来源时间段",
+      "independent_source_sample": false
+    }
+  ],
+  "transition_excluded": {
+    "parent_clip_start": 0.9,
+    "parent_clip_end": 1.5
+  },
+  "parent_confirmed_label_unchanged": true,
+  "updated": "2026-11-13T11:24:45.822110+08:00",
+  "history": [
+    {
+      "at": "2026-11-13T11:24:45.822110+08:00",
+      "event": "用户确认两段均能作为所示动作片段",
+      "evidence": "都能"
+    }
+  ]
+}

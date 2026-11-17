@@ -1,0 +1,38 @@
+{
+  "rows": [
+    {
+      "id": "012256615ba2d3dab89090356da2d6b1",
+      "name": "03326_地面_批刮施工.MOV",
+      "root": "baba",
+      "rel": "10材料/1.微岩石/拍摄/金银湖别墅无机水洗石/03326_地面_批刮施工.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\10材料\\1.微岩石\\拍摄\\金银湖别墅无机水洗石\\03326_地面_批刮施工.MOV",
+      "duration": 10.4,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\012256615ba2d3dab89090356da2d6b1.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "1eef32fcc1c895a6931e9d51d03ba28d",
+      "name": "02009_墙面_批刮施工.MOV",
+      "root": "baba",
+      "rel": "10材料/1.微岩石/拍摄/f天下外墙/02009_墙面_批刮施工.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\10材料\\1.微岩石\\拍摄\\f天下外墙\\02009_墙面_批刮施工.MOV",
+      "duration": 11.566667,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\1eef32fcc1c895a6931e9d51d03ba28d.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    }
+  ],
+  "errors": [
+    {
+      "id": "9c89c5929663d7891ce5eadbc81e1869",
+      "reason": "非9:16"
+    },
+    {
+      "id": "39b1ab3e442b8ebffe173341d451e618",
+      "reason": "非9:16"
+    }
+  ]
+}

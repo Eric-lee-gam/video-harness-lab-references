@@ -1,0 +1,75 @@
+=== ALL BATCHES ===
+batch-01.json n=12 status={'用户已确认': 12} labels={'正例': 6, '反例': 6} ids=['A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'D1', 'D2', 'E1', 'E2', 'F1', 'F2']
+batch-02.json n=6 status={'用户倾向反例，未定案': 2, '用户已确认': 4} labels={'': 2, '正例': 2, '反例': 2} ids=['A3', 'A4', 'B3', 'B4', 'C3', 'C4']
+batch-03.json n=8 status={'用户已确认': 8} labels={'正例': 7, '反例': 1} ids=['A5', 'A6', 'D5', 'D6', 'E3', 'E4', 'F3', 'F4']
+batch-04.json n=2 status={'用户已确认': 2} labels={'正例': 1, '反例': 1} ids=['F5', 'F6']
+product-01.json n=6 status={'用户已确认': 6} labels={'用户已确认项目与片段工序': 2, '用户已确认产品与画面状态': 2, '用户已确认微陶泥施工正例': 2} ids=['P1', 'P2', 'P3', 'P4', 'P5', 'P6']
+product-02.json n=6 status={'用户已确认': 6} labels={'用户确认：铲除，不算微陶泥施工': 1, '用户确认：微陶泥施工正例': 1, '用户确认：微陶泥取料': 1, '用户确认：微陶泥批刮覆盖': 3} ids=['P7', 'P8', 'P9', 'P10', 'P11', 'P12']
+product-03.json n=3 status={'已人工确认': 3} labels={'用户确认：不是微陶泥批刮施工': 2, '用户确认：微陶泥材料桶展示，不算批刮施工': 1} ids=['P13', 'P14', 'P15']
+product-04.json n=2 status={'暂不展示：抽帧为桶内材料，未满足批刮对照筛选要求': 1, '已人工确认': 1} labels={'': 1, '用户确认：微陶泥，非批刮动作': 1} ids=['P16', 'P17']
+product-05.json n=3 status={'待人工确认': 1, '已人工确认': 2} labels={'': 1, '用户确认：微陶泥墙面批刮': 2} ids=['P18', 'P19', 'P20']
+product-06.json n=2 status={'已人工确认：业务不适用': 2} labels={'用户确认：水洗石批刮，与当前视频业务无关': 2} ids=['P21', 'P22']
+product-07.json n=2 status={'已人工确认': 2} labels={'用户确认：微陶泥批刮': 1, '用户确认：微陶泥批刮＋取料（混合动作）': 1} ids=['P23', 'P24']
+product-08.json n=2 status={'已人工确认': 2} labels={'用户确认：微陶泥纯取料': 1, '用户确认：微陶泥罩面': 1} ids=['P25', 'P26']
+person-01.json n=2 status={'已人工确认': 2} labels={'用户确认：阿明': 1, '用户确认：其他人物': 1} ids=['R01', 'R02']
+person-02.json n=2 status={'已逐人确认': 2} labels={'用户确认：阿明': 1, '用户确认：前景紫衣阿明；后方未穿上衣其他人物': 1} ids=['R03', 'R04']
+person-03.json n=2 status={'已逐人确认': 2} labels={'用户确认：阿明': 1, '用户确认：前景紫色马甲阿明；右后方靠墙其他人物': 1} ids=['R05', 'R06']
+person-04.json n=2 status={'已逐人确认': 2} labels={'用户确认：阿明': 1, '用户确认：不是阿明，是师傅（具体姓名未知）': 1} ids=['R07', 'R08']
+person-05.json n=1 status={'已确认：出镜禁用': 1} labels={'用户确认：非阿明；该人物出镜素材禁用': 1} ids=['R09']
+person-07.json n=3 status={'None': 3} labels={'用户确认适合当前文案': 2, '用户确认主要人物不是阿明；不作为阿明出镜候选': 1} ids=['V1', 'V2', 'V3']
+P24-boundary-proposal.json n=2 status={'分段与动作已人工确认': 2} labels={'用户确认：微陶泥取料': 1, '用户确认：微陶泥批刮': 1} ids=['P24-A', 'P24-B']
+
+=== 小区索引 n=20507 ===
+keys={"id": 20507, "source_path": 20507, "project": 20507, "source_folder": 20507, "duration_seconds": 20507, "description": 20507, "description_evidence": 20507, "representative_frames": 20507, "directory_limits": 20507, "existing_selection_eligible": 20507, "existing_state": 20507, "usage_limits": 20507, "privacy": 20507, "indexed_segments": 20507, "unverified_segments": 20507, "whole_video_intent": 20507, "intent_evidence": 20507, "audio_status": 20507, "speech_evidence": 20507, "timeline": 20507, "material": 20507, "小区材料质感复核": 19754, "微陶泥施工标注": 2904, "人工确认片段": 5, "画质排除区间": 14}
+list directory_limits filled=20507 sum=268 avg=0.01 item_keys=[]
+list indexed_segments filled=20507 sum=177 avg=0.01 item_keys=['category', 'start', 'end', 'action', 'tags', 'preview', 'basis', 'privacy', 'limits']
+list unverified_segments filled=20507 sum=3034 avg=0.15 item_keys=['category', 'start', 'end', 'action', 'tags', 'evidence', 'privacy', 'limits', '画质复筛', '禁用区间']
+list speech_evidence filled=20507 sum=30046 avg=1.47 item_keys=['start', 'end', 'text']
+list timeline filled=20507 sum=39756 avg=1.94 item_keys=['start', 'end', 'description', 'frame_times', 'evidence', 'basis', 'speech_indices', 'explicit_edit_cues', '镜头精确描述', '区间复筛', '复筛依据', '原机器描述', '工具', '基层', '基层材料', '材料类目', '工序', '罩面材料品名', '可按微陶泥选用', '可按微陶泥批刮选用', '场景']
+list usage_limits filled=940 sum=2544 avg=2.71 item_keys=[]
+list 人工确认片段 filled=5 sum=6 avg=1.20 item_keys=['start', 'end', 'source', '翻新前可见问题', '材料', '地面材料', '选镜限制', '人物']
+list 画质排除区间 filled=14 sum=22 avg=1.57 item_keys=['start', 'end', '依据', '原因', '处理', '命中秒']
+path_examples={"source_path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\1新的未分类\\SKP沙湖公寓\\上门\\IMG_2800.MOV", "source_folder": "1新的未分类\\SKP沙湖公寓\\上门", "representative_frames": "小区全库/数据/代表帧/c9/c9533ca4e18976d8.jpg"}
+first={"id": "c9533ca4e18976d8", "source_path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\1新的未分类\\SKP沙湖公寓\\上门\\IMG_2800.MOV", "project": "1新的未分类", "source_folder": "1新的未分类\\SKP沙湖公寓\\上门", "duration_seconds": 5.268, "description": "男子在户外行走，穿好马甲，背景建筑清晰，动作自然。", "description_evidence": "全时段画面与可辨同期声机器归纳", "representative_frames": "小区全库/数据/代表帧/c9/c9533ca4e18976d8.jpg", "directory_limits": "LIST n=0", "existing_selection_eligible": null, "existing_state": null, "usage_limits": null, "privacy": null, "indexed_segments": "LIST n=0", "unverified_segments": "LIST n=0", "whole_video_intent": "男子在户外行走，穿好马甲，背景建筑清晰，动作自然。", "intent_evidence": "全时段画面与可辨同期声机器归纳", "audio_status": "机器转写", "speech_evidence": "LIST n=2", "timeline": "LIST n=1", "material": "DICT {\"category\": null, \"status\": \"未辨明\", \"candidates\": [], \"evidence\": [], \"frame_review\": {\"sampled_windows_screened\": 1, \"sampled_frames_screened\": 6, \"ocr_candidates\": [], \"source_frame_ocr_candidates\":", "小区材料质感复核": "DICT {\"状态\": \"未检出用料动作\", \"质感选段\": [], \"待核区间\": []}"}
+first.speech_evidence[0]={"start": 0.6, "end": 2.94, "text": "不挂了。"}
+first.timeline[0]={"start": 0.0, "end": 5.268, "description": "男子在户外行走，从背对镜头到侧身，动作自然，背景建筑清晰。", "frame_times": [0, 0.933, 1.868, 2.802, 3.737, 4.67], "evidence": "小区全库/数据/整段证据/c9/c9533ca4e18976d8-0000.jpg", "basis": "连续时序抽样，模型候选", "speech_indices": [0, 1]}
+
+=== 测试阿明搅拌索引 n=643 ===
+keys={"id": 643, "source_path": 643, "project": 643, "source_folder": 643, "kind": 643, "duration_seconds": 643, "usage_limits": 643, "note": 643, "description": 643, "whole_video_intent": 635, "intent_evidence": 635, "audio_status": 635, "speech_evidence": 635, "timeline": 635, "indexed_segments": 635, "unverified_segments": 635, "material": 643, "preview": 6, "人工确认片段": 7, "微陶泥施工标注": 34}
+list usage_limits filled=643 sum=643 avg=1.00 item_keys=[]
+list speech_evidence filled=635 sum=1462 avg=2.30 item_keys=['start', 'end', 'text']
+list timeline filled=635 sum=1352 avg=2.13 item_keys=['start', 'end', 'description', 'frame_times', 'evidence', 'basis', 'speech_indices', 'explicit_edit_cues']
+list indexed_segments filled=635 sum=13 avg=0.02 item_keys=['id', 'source_path', 'start', 'end', 'category', 'tags', 'action', 'preview', 'basis']
+list unverified_segments filled=635 sum=0 avg=0.00 item_keys=[]
+list 人工确认片段 filled=7 sum=8 avg=1.14 item_keys=['start', 'end', 'source', '材料', '人物']
+path_examples={"source_path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\测试\\3.23拍摄\\00241_拍摄.MOV", "source_folder": "测试\\3.23拍摄", "note": "测试阿明搅拌/分册/测试-01#^src-4c20afa5ec65ced4"}
+first={"id": "4c20afa5ec65ced4", "source_path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\测试\\3.23拍摄\\00241_拍摄.MOV", "project": "测试", "source_folder": "测试\\3.23拍摄", "kind": "视频", "duration_seconds": 10.302, "usage_limits": "LIST n=1", "note": "测试阿明搅拌/分册/测试-01#^src-4c20afa5ec65ced4", "description": "手部擦拭墙面，从左上角向右下角移动，清洁过程持续进行。", "whole_video_intent": "手部擦拭墙面，从左上角向右下角移动，清洁过程持续进行。", "intent_evidence": "全时段画面与可辨同期声机器归纳", "audio_status": "机器转写", "speech_evidence": "LIST n=3", "timeline": "LIST n=1", "indexed_segments": "LIST n=0", "unverified_segments": "LIST n=0", "material": "DICT {\"category\": null, \"status\": \"未辨明\", \"candidates\": [], \"evidence\": [], \"frame_review\": {\"sampled_windows_screened\": 1, \"sampled_frames_screened\": 12, \"ocr_candidates\": [], \"source_frame_ocr_candidates\""}
+first.speech_evidence[0]={"start": 0.18, "end": 1.4, "text": "还吃的吗？"}
+first.timeline[0]={"start": 0.0, "end": 10.302, "description": "手部擦拭墙面，从左上角开始，逐步向右下角移动，画面呈现清洁过程。", "frame_times": [0, 0.933, 1.867, 2.8, 3.733, 4.668, 5.602, 6.535, 7.468, 8.402, 9.335, 10.268], "evidence": "测试阿明搅拌/数据/整段证据/4c/4c20afa5ec65ced4-0000.jpg", "basis": "连续时序抽样，模型候选", "speech_indices": [0, 1, 2]}
+
+=== 施工镜头 n=21652 ===
+keys={"id": 21652, "source_path": 21652, "材料依据": 21652, "start": 21652, "end": 21652, "工序": 21652, "画面": 21652, "状态": 21652, "证据": 21652, "可按微陶泥选用": 21652, "工序复核": 4136, "材料类目": 4209, "镜头精确描述": 4136, "工具": 65, "基层": 65, "基层材料": 322, "罩面材料品名": 65, "可按微陶泥批刮选用": 322, "场景": 270, "画质排除": 2, "复核编号": 465, "质感复核": 83, "选镜结论": 401, "具名桶内搅拌证据": 1}
+path_examples={"source_path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\2其他\\其他材料\\瓷釉\\改色\\13914_材料_小区场景.MP4", "证据": "小区全库/数据/整段证据/98/982542760fa7c648-0002.jpg"}
+first={"id": "982542760fa7c648", "source_path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\2其他\\其他材料\\瓷釉\\改色\\13914_材料_小区场景.MP4", "材料依据": "未辨明", "start": 24.0, "end": 36.0, "工序": "批刮摊料", "画面": "男子在墙面上涂抹涂料，从左至右，从上至下，逐步完成墙面处理。", "状态": "排除微陶泥：滚筒施工", "证据": "小区全库/数据/整段证据/98/982542760fa7c648-0002.jpg", "可按微陶泥选用": false, "工序复核": "滚涂", "材料类目": "瓷釉改色或底漆", "镜头精确描述": "滚筒施工；瓷釉改色或底漆待分辨。"}
+
+=== 按用途检索 n=3211 ===
+keys={"id": 3211, "path": 3211, "project": 177, "category": 3211, "start": 3211, "end": 3211, "action": 3211, "basis": 177, "preview": 177, "limits": 3211, "privacy": 3211, "source_state": 3211, "tags": 3211, "tier": 3211, "source_relative": 3211, "whole_video_intent": 3211, "intent_evidence": 3211, "evidence": 3034}
+list limits filled=232 sum=529 avg=2.28 item_keys=[]
+path_examples={"path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\珞珈山花园小区\\人物出镜2\\25971_人物_小区场景.MOV", "preview": "\\\\192.168.110.36\\obsidian\\素材标注\\小区全库\\用途\\动作预览\\c10f3eef195b6b8a.mp4", "source_relative": "珞珈山花园小区\\人物出镜2\\25971_人物_小区场景.MOV"}
+first={"id": "c10f3eef195b6b8a", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\珞珈山花园小区\\人物出镜2\\25971_人物_小区场景.MOV", "project": "珞珈山花园小区", "category": "人物与动作转场", "start": 8.9, "end": 10.5, "action": "紫衣人物从窗边转向镜头，手掌从半身景别迅速靠近，约 10 秒遮满画面后移开。可借遮挡接下一镜。", "basis": "末段每秒四帧目视复核，附标注区间原速无声预览", "preview": "\\\\192.168.110.36\\obsidian\\素材标注\\小区全库\\用途\\动作预览\\c10f3eef195b6b8a.mp4", "limits": "LIST n=1", "privacy": null, "source_state": null, "tags": "DICT {\"主体/运镜方向\": [\"遮满画面\"], \"景别线索\": [], \"动作线索\": []}", "tier": "片段索引", "source_relative": "珞珈山花园小区\\人物出镜2\\25971_人物_小区场景.MOV", "whole_video_intent": "男子在卫生间内转身，画面由远及近，同步语音提及“影料有”。", "intent_evidence": "全时段画面与可辨同期声机器归纳"}
+
+=== 本轮看片精标 n=34 ===
+keys={"id": 34, "path": 34, "project": 34, "category": 34, "start": 34, "end": 34, "action": 34, "basis": 34, "preview": 34, "limits": 34, "privacy": 34, "source_state": 34}
+list limits filled=34 sum=34 avg=1.00 item_keys=[]
+path_examples={"path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\珞珈山花园小区\\人物出镜2\\25971_人物_小区场景.MOV", "preview": "\\\\192.168.110.36\\obsidian\\素材标注\\小区全库\\用途\\动作预览\\c10f3eef195b6b8a.mp4"}
+first={"id": "c10f3eef195b6b8a", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\珞珈山花园小区\\人物出镜2\\25971_人物_小区场景.MOV", "project": "珞珈山花园小区", "category": "人物与动作转场", "start": 8.9, "end": 10.5, "action": "紫衣人物从窗边转向镜头，手掌从半身景别迅速靠近，约 10 秒遮满画面后移开。可借遮挡接下一镜。", "basis": "末段每秒四帧目视复核，附标注区间原速无声预览", "preview": "\\\\192.168.110.36\\obsidian\\素材标注\\小区全库\\用途\\动作预览\\c10f3eef195b6b8a.mp4", "limits": "LIST n=1", "privacy": null, "source_state": null}
+
+=== 机器片段复核 n=13576 ===
+keys={"key": 13576, "code": 13576, "description": 13576}
+path_examples={}
+first={"key": "0002d1de6831bffb_15_295", "code": "B", "description": "画面中人物在移动，从左向右，从静止到动作，最后是挥手。"}
+
+=== 目视纠正 n=41 ===
+keys={"id": 41, "description": 41, "basis": 41}
+path_examples={}
+first={"id": "9cbfec64f209a7f8", "description": "较暗的卧室，床、衣柜与窗户依次入画。", "basis": "本轮目视复核四帧"}

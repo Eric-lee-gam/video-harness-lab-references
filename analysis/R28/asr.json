@@ -1,0 +1,965 @@
+{
+  "schema_version": 1,
+  "reference_id": "R28",
+  "status": "local_asr_complete_unverified",
+  "source_audio": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R28\\audio.wav",
+  "model": "C:\\Users\\leega\\.cache\\huggingface\\hub\\models--Systran--faster-whisper-small\\snapshots\\536b0662742c02347bc0e980a01041f333bce120",
+  "device": "cpu",
+  "compute_type": "int8",
+  "language": "zh",
+  "language_probability": 1,
+  "duration": 23.520375,
+  "vad_filter": false,
+  "word_timestamps": true,
+  "human_listening_verified": false,
+  "elapsed_seconds": 7.698,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 2.52,
+      "text": "恐怕以後蘇州的磁磚師傅就要失業了",
+      "avg_logprob": -0.14244911698054294,
+      "no_speech_prob": 0.00782955251634121,
+      "compression_ratio": 1.2874617737003058,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.3,
+          "word": "恐",
+          "probability": 0.9842660427093506
+        },
+        {
+          "start": 0.3,
+          "end": 0.46,
+          "word": "怕",
+          "probability": 0.99935382604599
+        },
+        {
+          "start": 0.46,
+          "end": 0.54,
+          "word": "以",
+          "probability": 0.9959636926651001
+        },
+        {
+          "start": 0.54,
+          "end": 0.68,
+          "word": "後",
+          "probability": 0.3817138671875
+        },
+        {
+          "start": 0.68,
+          "end": 0.92,
+          "word": "蘇",
+          "probability": 0.9751076698303223
+        },
+        {
+          "start": 0.92,
+          "end": 1.02,
+          "word": "州",
+          "probability": 0.9926900267601013
+        },
+        {
+          "start": 1.02,
+          "end": 1.12,
+          "word": "的",
+          "probability": 0.9879854321479797
+        },
+        {
+          "start": 1.12,
+          "end": 1.28,
+          "word": "磁",
+          "probability": 0.7757410407066345
+        },
+        {
+          "start": 1.28,
+          "end": 1.42,
+          "word": "磚",
+          "probability": 0.9906852642695109
+        },
+        {
+          "start": 1.42,
+          "end": 1.58,
+          "word": "師",
+          "probability": 0.9899572730064392
+        },
+        {
+          "start": 1.58,
+          "end": 1.72,
+          "word": "傅",
+          "probability": 0.9897423982620239
+        },
+        {
+          "start": 1.72,
+          "end": 1.86,
+          "word": "就",
+          "probability": 0.9805166125297546
+        },
+        {
+          "start": 1.86,
+          "end": 1.98,
+          "word": "要",
+          "probability": 0.9962877035140991
+        },
+        {
+          "start": 1.98,
+          "end": 2.16,
+          "word": "失",
+          "probability": 0.9918690919876099
+        },
+        {
+          "start": 2.16,
+          "end": 2.36,
+          "word": "業",
+          "probability": 0.9983207583427429
+        },
+        {
+          "start": 2.36,
+          "end": 2.52,
+          "word": "了",
+          "probability": 0.9957177042961121
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 2.52,
+      "end": 6.26,
+      "text": "現在越來越多的蘇州業主都在找蘇州老胡做微桃泥翻新工藝",
+      "avg_logprob": -0.14244911698054294,
+      "no_speech_prob": 0.00782955251634121,
+      "compression_ratio": 1.2874617737003058,
+      "words": [
+        {
+          "start": 2.52,
+          "end": 2.94,
+          "word": "現在",
+          "probability": 0.9544976949691772
+        },
+        {
+          "start": 2.94,
+          "end": 3.12,
+          "word": "越",
+          "probability": 0.9544755816459656
+        },
+        {
+          "start": 3.12,
+          "end": 3.22,
+          "word": "來",
+          "probability": 0.9986144304275513
+        },
+        {
+          "start": 3.22,
+          "end": 3.32,
+          "word": "越",
+          "probability": 0.9983423948287964
+        },
+        {
+          "start": 3.32,
+          "end": 3.42,
+          "word": "多",
+          "probability": 0.9991846680641174
+        },
+        {
+          "start": 3.42,
+          "end": 3.54,
+          "word": "的",
+          "probability": 0.9934051632881165
+        },
+        {
+          "start": 3.54,
+          "end": 3.68,
+          "word": "蘇",
+          "probability": 0.9973236620426178
+        },
+        {
+          "start": 3.68,
+          "end": 3.82,
+          "word": "州",
+          "probability": 0.9985748529434204
+        },
+        {
+          "start": 3.82,
+          "end": 3.92,
+          "word": "業",
+          "probability": 0.9703702330589294
+        },
+        {
+          "start": 3.92,
+          "end": 4.08,
+          "word": "主",
+          "probability": 0.9972898960113525
+        },
+        {
+          "start": 4.08,
+          "end": 4.22,
+          "word": "都",
+          "probability": 0.9926815629005432
+        },
+        {
+          "start": 4.22,
+          "end": 4.34,
+          "word": "在",
+          "probability": 0.9928452372550964
+        },
+        {
+          "start": 4.34,
+          "end": 4.46,
+          "word": "找",
+          "probability": 0.9985829591751099
+        },
+        {
+          "start": 4.46,
+          "end": 4.62,
+          "word": "蘇",
+          "probability": 0.9967650473117828
+        },
+        {
+          "start": 4.62,
+          "end": 4.76,
+          "word": "州",
+          "probability": 0.997847318649292
+        },
+        {
+          "start": 4.76,
+          "end": 4.9,
+          "word": "老",
+          "probability": 0.9968408346176147
+        },
+        {
+          "start": 4.9,
+          "end": 5.06,
+          "word": "胡",
+          "probability": 0.6580246686935425
+        },
+        {
+          "start": 5.06,
+          "end": 5.24,
+          "word": "做",
+          "probability": 0.9663962125778198
+        },
+        {
+          "start": 5.24,
+          "end": 5.38,
+          "word": "微",
+          "probability": 0.37777671217918396
+        },
+        {
+          "start": 5.38,
+          "end": 5.48,
+          "word": "桃",
+          "probability": 0.8569389581680298
+        },
+        {
+          "start": 5.48,
+          "end": 5.6,
+          "word": "泥",
+          "probability": 0.9086240231990814
+        },
+        {
+          "start": 5.6,
+          "end": 5.78,
+          "word": "翻",
+          "probability": 0.7418050169944763
+        },
+        {
+          "start": 5.78,
+          "end": 5.9,
+          "word": "新",
+          "probability": 0.8310700058937073
+        },
+        {
+          "start": 5.9,
+          "end": 6.06,
+          "word": "工",
+          "probability": 0.9901853799819946
+        },
+        {
+          "start": 6.06,
+          "end": 6.26,
+          "word": "藝",
+          "probability": 0.9773646593093872
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 6.26,
+      "end": 7.34,
+      "text": "磁磚不拆不雜",
+      "avg_logprob": -0.14244911698054294,
+      "no_speech_prob": 0.00782955251634121,
+      "compression_ratio": 1.2874617737003058,
+      "words": [
+        {
+          "start": 6.26,
+          "end": 6.58,
+          "word": "磁",
+          "probability": 0.9772060314814249
+        },
+        {
+          "start": 6.58,
+          "end": 6.7,
+          "word": "磚",
+          "probability": 0.9992237289746603
+        },
+        {
+          "start": 6.7,
+          "end": 6.86,
+          "word": "不",
+          "probability": 0.9851891994476318
+        },
+        {
+          "start": 6.86,
+          "end": 6.98,
+          "word": "拆",
+          "probability": 0.9861470758914948
+        },
+        {
+          "start": 6.98,
+          "end": 7.14,
+          "word": "不",
+          "probability": 0.9934412240982056
+        },
+        {
+          "start": 7.14,
+          "end": 7.34,
+          "word": "雜",
+          "probability": 0.6798273921012878
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 7.34,
+      "end": 8.74,
+      "text": "直接覆蓋微桃泥",
+      "avg_logprob": -0.14244911698054294,
+      "no_speech_prob": 0.00782955251634121,
+      "compression_ratio": 1.2874617737003058,
+      "words": [
+        {
+          "start": 7.34,
+          "end": 7.9,
+          "word": "直接",
+          "probability": 0.9340012669563293
+        },
+        {
+          "start": 7.9,
+          "end": 8.06,
+          "word": "覆",
+          "probability": 0.9895102083683014
+        },
+        {
+          "start": 8.06,
+          "end": 8.18,
+          "word": "蓋",
+          "probability": 0.9935232996940613
+        },
+        {
+          "start": 8.18,
+          "end": 8.32,
+          "word": "微",
+          "probability": 0.9773865938186646
+        },
+        {
+          "start": 8.32,
+          "end": 8.46,
+          "word": "桃",
+          "probability": 0.9948757290840149
+        },
+        {
+          "start": 8.46,
+          "end": 8.74,
+          "word": "泥",
+          "probability": 0.9998638331890106
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 8.74,
+      "end": 10.04,
+      "text": "做完效果一體無縫",
+      "avg_logprob": -0.14244911698054294,
+      "no_speech_prob": 0.00782955251634121,
+      "compression_ratio": 1.2874617737003058,
+      "words": [
+        {
+          "start": 8.74,
+          "end": 9.12,
+          "word": "做",
+          "probability": 0.8802523016929626
+        },
+        {
+          "start": 9.12,
+          "end": 9.26,
+          "word": "完",
+          "probability": 0.6350873708724976
+        },
+        {
+          "start": 9.26,
+          "end": 9.38,
+          "word": "效",
+          "probability": 0.9953872561454773
+        },
+        {
+          "start": 9.38,
+          "end": 9.54,
+          "word": "果",
+          "probability": 0.9999014139175415
+        },
+        {
+          "start": 9.54,
+          "end": 9.64,
+          "word": "一",
+          "probability": 0.9616486430168152
+        },
+        {
+          "start": 9.64,
+          "end": 9.76,
+          "word": "體",
+          "probability": 0.9751819968223572
+        },
+        {
+          "start": 9.76,
+          "end": 9.9,
+          "word": "無",
+          "probability": 0.963100016117096
+        },
+        {
+          "start": 9.9,
+          "end": 10.04,
+          "word": "縫",
+          "probability": 0.7639106810092926
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 10.04,
+      "end": 12.36,
+      "text": "還省下了一大筆拆出搬運垃圾的費用",
+      "avg_logprob": -0.14244911698054294,
+      "no_speech_prob": 0.00782955251634121,
+      "compression_ratio": 1.2874617737003058,
+      "words": [
+        {
+          "start": 10.04,
+          "end": 10.32,
+          "word": "還",
+          "probability": 0.8671532273292542
+        },
+        {
+          "start": 10.32,
+          "end": 10.48,
+          "word": "省",
+          "probability": 0.9027975499629974
+        },
+        {
+          "start": 10.48,
+          "end": 10.62,
+          "word": "下",
+          "probability": 0.8639816045761108
+        },
+        {
+          "start": 10.62,
+          "end": 10.7,
+          "word": "了",
+          "probability": 0.9914476871490479
+        },
+        {
+          "start": 10.7,
+          "end": 10.78,
+          "word": "一",
+          "probability": 0.9628453254699707
+        },
+        {
+          "start": 10.78,
+          "end": 10.9,
+          "word": "大",
+          "probability": 0.9973155856132507
+        },
+        {
+          "start": 10.9,
+          "end": 11.06,
+          "word": "筆",
+          "probability": 0.9941864013671875
+        },
+        {
+          "start": 11.06,
+          "end": 11.2,
+          "word": "拆",
+          "probability": 0.9986450672149658
+        },
+        {
+          "start": 11.2,
+          "end": 11.36,
+          "word": "出",
+          "probability": 0.5208637714385986
+        },
+        {
+          "start": 11.36,
+          "end": 11.5,
+          "word": "搬",
+          "probability": 0.8471228182315826
+        },
+        {
+          "start": 11.5,
+          "end": 11.6,
+          "word": "運",
+          "probability": 0.9486995339393616
+        },
+        {
+          "start": 11.6,
+          "end": 11.76,
+          "word": "垃",
+          "probability": 0.7882463335990906
+        },
+        {
+          "start": 11.76,
+          "end": 11.88,
+          "word": "圾",
+          "probability": 0.9732706248760223
+        },
+        {
+          "start": 11.88,
+          "end": 11.96,
+          "word": "的",
+          "probability": 0.9968582391738892
+        },
+        {
+          "start": 11.96,
+          "end": 12.12,
+          "word": "費",
+          "probability": 0.9974052309989929
+        },
+        {
+          "start": 12.12,
+          "end": 12.36,
+          "word": "用",
+          "probability": 0.999937891960144
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 12.36,
+      "end": 14.24,
+      "text": "光人工費就省下好幾萬",
+      "avg_logprob": -0.14244911698054294,
+      "no_speech_prob": 0.00782955251634121,
+      "compression_ratio": 1.2874617737003058,
+      "words": [
+        {
+          "start": 12.36,
+          "end": 12.74,
+          "word": "光",
+          "probability": 0.4704809784889221
+        },
+        {
+          "start": 12.74,
+          "end": 12.88,
+          "word": "人",
+          "probability": 0.9105268120765686
+        },
+        {
+          "start": 12.88,
+          "end": 13.0,
+          "word": "工",
+          "probability": 0.9238349795341492
+        },
+        {
+          "start": 13.0,
+          "end": 13.2,
+          "word": "費",
+          "probability": 0.9652457237243652
+        },
+        {
+          "start": 13.2,
+          "end": 13.42,
+          "word": "就",
+          "probability": 0.9937823414802551
+        },
+        {
+          "start": 13.42,
+          "end": 13.58,
+          "word": "省",
+          "probability": 0.9987596273422241
+        },
+        {
+          "start": 13.58,
+          "end": 13.76,
+          "word": "下",
+          "probability": 0.9971994161605835
+        },
+        {
+          "start": 13.76,
+          "end": 13.88,
+          "word": "好",
+          "probability": 0.9931116104125977
+        },
+        {
+          "start": 13.88,
+          "end": 14.08,
+          "word": "幾",
+          "probability": 0.9991703033447266
+        },
+        {
+          "start": 14.08,
+          "end": 14.24,
+          "word": "萬",
+          "probability": 0.9969366788864136
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 14.24,
+      "end": 16.1,
+      "text": "關鍵是7天完工就能入住",
+      "avg_logprob": -0.14244911698054294,
+      "no_speech_prob": 0.00782955251634121,
+      "compression_ratio": 1.2874617737003058,
+      "words": [
+        {
+          "start": 14.24,
+          "end": 14.72,
+          "word": "關",
+          "probability": 0.9652469754219055
+        },
+        {
+          "start": 14.72,
+          "end": 14.86,
+          "word": "鍵",
+          "probability": 0.9990268349647522
+        },
+        {
+          "start": 14.86,
+          "end": 14.96,
+          "word": "是",
+          "probability": 0.9974143505096436
+        },
+        {
+          "start": 14.96,
+          "end": 15.14,
+          "word": "7",
+          "probability": 0.4047428369522095
+        },
+        {
+          "start": 15.14,
+          "end": 15.26,
+          "word": "天",
+          "probability": 0.9980545043945312
+        },
+        {
+          "start": 15.26,
+          "end": 15.36,
+          "word": "完",
+          "probability": 0.9800233840942383
+        },
+        {
+          "start": 15.36,
+          "end": 15.56,
+          "word": "工",
+          "probability": 0.9996381998062134
+        },
+        {
+          "start": 15.56,
+          "end": 15.68,
+          "word": "就",
+          "probability": 0.9842608571052551
+        },
+        {
+          "start": 15.68,
+          "end": 15.8,
+          "word": "能",
+          "probability": 0.9998714923858643
+        },
+        {
+          "start": 15.8,
+          "end": 15.92,
+          "word": "入",
+          "probability": 0.9965051412582397
+        },
+        {
+          "start": 15.92,
+          "end": 16.1,
+          "word": "住",
+          "probability": 0.9225650429725647
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 16.1,
+      "end": 17.2,
+      "text": "不僅防霉防潮",
+      "avg_logprob": -0.14244911698054294,
+      "no_speech_prob": 0.00782955251634121,
+      "compression_ratio": 1.2874617737003058,
+      "words": [
+        {
+          "start": 16.1,
+          "end": 16.42,
+          "word": "不",
+          "probability": 0.845622718334198
+        },
+        {
+          "start": 16.42,
+          "end": 16.54,
+          "word": "僅",
+          "probability": 0.9887493550777435
+        },
+        {
+          "start": 16.54,
+          "end": 16.64,
+          "word": "防",
+          "probability": 0.6958360075950623
+        },
+        {
+          "start": 16.64,
+          "end": 16.76,
+          "word": "霉",
+          "probability": 0.5492706932127476
+        },
+        {
+          "start": 16.76,
+          "end": 16.9,
+          "word": "防",
+          "probability": 0.9940857887268066
+        },
+        {
+          "start": 16.9,
+          "end": 17.2,
+          "word": "潮",
+          "probability": 0.9926965534687042
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 17.2,
+      "end": 18.16,
+      "text": "還耐磨耐瓜",
+      "avg_logprob": -0.14244911698054294,
+      "no_speech_prob": 0.00782955251634121,
+      "compression_ratio": 1.2874617737003058,
+      "words": [
+        {
+          "start": 17.2,
+          "end": 17.58,
+          "word": "還",
+          "probability": 0.7492362856864929
+        },
+        {
+          "start": 17.58,
+          "end": 17.7,
+          "word": "耐",
+          "probability": 0.9117463827133179
+        },
+        {
+          "start": 17.7,
+          "end": 17.84,
+          "word": "磨",
+          "probability": 0.981145828962326
+        },
+        {
+          "start": 17.84,
+          "end": 17.98,
+          "word": "耐",
+          "probability": 0.995427817106247
+        },
+        {
+          "start": 17.98,
+          "end": 18.16,
+          "word": "瓜",
+          "probability": 0.6158586144447327
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 18.16,
+      "end": 19.94,
+      "text": "用上幾十年都沒問題",
+      "avg_logprob": -0.14244911698054294,
+      "no_speech_prob": 0.00782955251634121,
+      "compression_ratio": 1.2874617737003058,
+      "words": [
+        {
+          "start": 18.16,
+          "end": 18.64,
+          "word": "用",
+          "probability": 0.9795761108398438
+        },
+        {
+          "start": 18.64,
+          "end": 18.78,
+          "word": "上",
+          "probability": 0.9987474679946899
+        },
+        {
+          "start": 18.78,
+          "end": 18.94,
+          "word": "幾",
+          "probability": 0.9921544194221497
+        },
+        {
+          "start": 18.94,
+          "end": 19.1,
+          "word": "十",
+          "probability": 0.9884704351425171
+        },
+        {
+          "start": 19.1,
+          "end": 19.28,
+          "word": "年",
+          "probability": 0.9993740916252136
+        },
+        {
+          "start": 19.28,
+          "end": 19.48,
+          "word": "都",
+          "probability": 0.9959406852722168
+        },
+        {
+          "start": 19.48,
+          "end": 19.6,
+          "word": "沒",
+          "probability": 0.985885500907898
+        },
+        {
+          "start": 19.6,
+          "end": 19.94,
+          "word": "問題",
+          "probability": 0.9994250535964966
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 20.439999999999998,
+      "end": 22.0,
+      "text": "如果你喜歡這種翻新方式",
+      "avg_logprob": -0.14244911698054294,
+      "no_speech_prob": 0.00782955251634121,
+      "compression_ratio": 1.2874617737003058,
+      "words": [
+        {
+          "start": 20.439999999999998,
+          "end": 20.72,
+          "word": "如果你",
+          "probability": 0.5410800576210022
+        },
+        {
+          "start": 20.72,
+          "end": 21.0,
+          "word": "喜歡",
+          "probability": 0.6329029202461243
+        },
+        {
+          "start": 21.0,
+          "end": 21.22,
+          "word": "這種",
+          "probability": 0.9980362057685852
+        },
+        {
+          "start": 21.22,
+          "end": 21.46,
+          "word": "翻",
+          "probability": 0.9724595546722412
+        },
+        {
+          "start": 21.46,
+          "end": 21.58,
+          "word": "新",
+          "probability": 0.9927991628646851
+        },
+        {
+          "start": 21.58,
+          "end": 21.76,
+          "word": "方",
+          "probability": 0.9975014328956604
+        },
+        {
+          "start": 21.76,
+          "end": 22.0,
+          "word": "式",
+          "probability": 0.9926605224609375
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 22.0,
+      "end": 23.34,
+      "text": "可以給我點個小愛心嗎",
+      "avg_logprob": -0.14244911698054294,
+      "no_speech_prob": 0.00782955251634121,
+      "compression_ratio": 1.2874617737003058,
+      "words": [
+        {
+          "start": 22.0,
+          "end": 22.42,
+          "word": "可以",
+          "probability": 0.9758012294769287
+        },
+        {
+          "start": 22.42,
+          "end": 22.52,
+          "word": "給",
+          "probability": 0.9919348955154419
+        },
+        {
+          "start": 22.52,
+          "end": 22.62,
+          "word": "我",
+          "probability": 0.9976561069488525
+        },
+        {
+          "start": 22.62,
+          "end": 22.72,
+          "word": "點",
+          "probability": 0.9984492063522339
+        },
+        {
+          "start": 22.72,
+          "end": 22.8,
+          "word": "個",
+          "probability": 0.9879139065742493
+        },
+        {
+          "start": 22.8,
+          "end": 22.92,
+          "word": "小",
+          "probability": 0.9979224801063538
+        },
+        {
+          "start": 22.92,
+          "end": 23.06,
+          "word": "愛",
+          "probability": 0.683138906955719
+        },
+        {
+          "start": 23.06,
+          "end": 23.2,
+          "word": "心",
+          "probability": 0.998710036277771
+        },
+        {
+          "start": 23.2,
+          "end": 23.34,
+          "word": "嗎",
+          "probability": 0.9308052062988281
+        }
+      ]
+    }
+  ],
+  "raw_text": "恐怕以後蘇州的磁磚師傅就要失業了現在越來越多的蘇州業主都在找蘇州老胡做微桃泥翻新工藝磁磚不拆不雜直接覆蓋微桃泥做完效果一體無縫還省下了一大筆拆出搬運垃圾的費用光人工費就省下好幾萬關鍵是7天完工就能入住不僅防霉防潮還耐磨耐瓜用上幾十年都沒問題如果你喜歡這種翻新方式可以給我點個小愛心嗎",
+  "limitations": [
+    "Raw machine transcription, not a verified transcript.",
+    "Mixed speech/music, accents, place names and prices can be wrong.",
+    "ASR timestamps are approximate and are not edit points."
+  ]
+}

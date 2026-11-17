@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "rule_id": "R09-person-no-production",
+      "reference_sample": "R09",
+      "reference_source": {
+        "id": "28e1f1da6707350efc9a7a67776984ea",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\汉阳月印府(6.7全屋)\\美女人设\\21951_人物_小区场景.MOV",
+        "rel": "汉阳月印府(6.7全屋)/美女人设/21951_人物_小区场景.MOV",
+        "root": "xiaoq",
+        "name": "21951_人物_小区场景.MOV",
+        "start": 2,
+        "end": 6
+      },
+      "decision": "禁止使用该人物出镜素材",
+      "evidence": "R09不是阿明，另外说一点这个女生离职了不能使用他出境的素材",
+      "confirmed_by": "当前用户",
+      "confirmed_at": "2026-11-13T13:43:01.435239+08:00",
+      "apply_to_directory": false,
+      "known_confirmed_ranges": [
+        {
+          "source_id": "28e1f1da6707350efc9a7a67776984ea",
+          "start": 2,
+          "end": 6
+        }
+      ],
+      "other_appearances": "待人工核实；不以外貌自动扩展身份",
+      "assistant_candidate_use": "不再推荐为可用素材",
+      "production_tool_enforcement": "未接入正式工具；不得声称已全库拦截",
+      "training_use": "不自动用于训练，保留排除记录"
+    }
+  ],
+  "updated": "2026-11-13T13:43:01.435239+08:00"
+}

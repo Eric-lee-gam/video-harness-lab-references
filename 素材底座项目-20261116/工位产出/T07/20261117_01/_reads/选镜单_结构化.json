@@ -1,0 +1,2128 @@
+[
+  {
+    "para": "第50段",
+    "para_no": 50,
+    "section": "垂直陶泥",
+    "n_videos": 6,
+    "video_ids": [
+      "R02",
+      "R05",
+      "R14",
+      "R17",
+      "R22",
+      "R24"
+    ],
+    "original": "再过三个月，你会发现武汉家家户户卫生间翻新都不会再砸瓷砖了，都在找武汉阿明做卫生间不拆不砸微陶泥翻新工艺，三天时间就能打造一个极简风卫生间，不用打扫瓷砖缝，耐水防霉硬度高，省了拆砸费，还不用买瓷砖，如果你也喜欢这种工艺，请帮我点个免费的小爱心。",
+    "aliases": "",
+    "sentences": [
+      {
+        "sent_no": 1,
+        "text": "再过三个月",
+        "have": "6/6",
+        "n_shots": 1.0,
+        "seconds": 1.1,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 2
+          },
+          {
+            "type": "施工·滚涂",
+            "count": 2
+          },
+          {
+            "type": "演示·弯折样板/揭薄层",
+            "count": 1
+          },
+          {
+            "type": "团队上门/搬料搬物",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 2、施工·滚涂 2、演示·弯折样板/揭薄层 1、团队上门/搬料搬物 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 2,
+        "text": "你会发现武汉家家户户卫生间翻新都不会再砸瓷砖了",
+        "have": "6/6",
+        "n_shots": 3.0,
+        "seconds": 3.8,
+        "shot_types": [
+          {
+            "type": "拆砸/贴砖",
+            "count": 3
+          },
+          {
+            "type": "施工·批刮覆盖",
+            "count": 3
+          },
+          {
+            "type": "老楼/城市外景",
+            "count": 2
+          },
+          {
+            "type": "成品空间",
+            "count": 2
+          },
+          {
+            "type": "施工·滚涂",
+            "count": 2
+          },
+          {
+            "type": "演示·弯折样板/揭薄层",
+            "count": 1
+          },
+          {
+            "type": "旧→新同镜转场",
+            "count": 1
+          },
+          {
+            "type": "手摸/手指成品",
+            "count": 1
+          },
+          {
+            "type": "保洁/清扫",
+            "count": 1
+          },
+          {
+            "type": "旧房旧态",
+            "count": 1
+          }
+        ],
+        "shot_raw": "拆砸/贴砖 3、施工·批刮覆盖 3、老楼/城市外景 2、成品空间 2、施工·滚涂 2、演示·弯折样板/揭薄层 1、旧→新同镜转场 1、手摸/手指成品 1、保洁/清扫 1、旧房旧态 1；另有 1 条是和第 1 句在同一个镜头里说完",
+        "shot_note": "另有 1 条是和第 1 句在同一个镜头里说完"
+      },
+      {
+        "sent_no": 3,
+        "text": "都在找武汉阿明做卫生间不拆不砸微陶泥翻新工艺",
+        "have": "6/6",
+        "n_shots": 3.0,
+        "seconds": 3.7,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 5
+          },
+          {
+            "type": "握手/与客户沟通",
+            "count": 4
+          },
+          {
+            "type": "成品空间",
+            "count": 3
+          },
+          {
+            "type": "施工现场·其他",
+            "count": 2
+          },
+          {
+            "type": "施工·滚涂",
+            "count": 2
+          },
+          {
+            "type": "材料桶",
+            "count": 1
+          },
+          {
+            "type": "人物在现场",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 5、握手/与客户沟通 4、成品空间 3、施工现场·其他 2、施工·滚涂 2、材料桶 1、人物在现场 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 4,
+        "text": "三天时间就能打造一个极简风卫生间",
+        "have": "6/6",
+        "n_shots": 2.0,
+        "seconds": 2.7,
+        "shot_types": [
+          {
+            "type": "成品空间",
+            "count": 3
+          },
+          {
+            "type": "施工·批刮覆盖",
+            "count": 3
+          },
+          {
+            "type": "人物对镜头",
+            "count": 2
+          },
+          {
+            "type": "量房/水电/安装",
+            "count": 2
+          },
+          {
+            "type": "人物在现场",
+            "count": 1
+          },
+          {
+            "type": "施工现场·其他",
+            "count": 1
+          },
+          {
+            "type": "手摸/手指成品",
+            "count": 1
+          }
+        ],
+        "shot_raw": "成品空间 3、施工·批刮覆盖 3、人物对镜头 2、量房/水电/安装 2、人物在现场 1、施工现场·其他 1、手摸/手指成品 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 5,
+        "text": "不用打扫瓷砖缝",
+        "have": "6/6",
+        "n_shots": 1.0,
+        "seconds": 1.2,
+        "shot_types": [
+          {
+            "type": "成品日常清洁",
+            "count": 4
+          },
+          {
+            "type": "成品空间",
+            "count": 1
+          },
+          {
+            "type": "旧房旧态",
+            "count": 1
+          }
+        ],
+        "shot_raw": "成品日常清洁 4、成品空间 1、旧房旧态 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 6,
+        "text": "耐水防霉硬度高",
+        "have": "5/6",
+        "n_shots": 1.0,
+        "seconds": 1.3,
+        "shot_types": [
+          {
+            "type": "演示·喷水冲洗",
+            "count": 3
+          },
+          {
+            "type": "手摸/手指成品",
+            "count": 2
+          },
+          {
+            "type": "演示·刮擦/擦污",
+            "count": 1
+          }
+        ],
+        "shot_raw": "演示·喷水冲洗 3、手摸/手指成品 2、演示·刮擦/擦污 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 7,
+        "text": "省了拆砸费",
+        "have": "5/6",
+        "n_shots": 1.0,
+        "seconds": 1.0,
+        "shot_types": [
+          {
+            "type": "拆砸/贴砖",
+            "count": 3
+          },
+          {
+            "type": "其他（模糊画面",
+            "count": null
+          },
+          {
+            "type": "叠大字等）",
+            "count": 1
+          },
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "拆砸/贴砖 3、其他（模糊画面、叠大字等） 1、施工·批刮覆盖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 8,
+        "text": "还不用买瓷砖",
+        "have": "6/6",
+        "n_shots": 1.0,
+        "seconds": 1.0,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 3
+          },
+          {
+            "type": "成品空间",
+            "count": 1
+          },
+          {
+            "type": "其他（模糊画面",
+            "count": null
+          },
+          {
+            "type": "叠大字等）",
+            "count": 1
+          },
+          {
+            "type": "拆砸/贴砖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 3、成品空间 1、其他（模糊画面、叠大字等） 1、拆砸/贴砖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 9,
+        "text": "如果你也喜欢这种工艺",
+        "have": "6/6",
+        "n_shots": 1.5,
+        "seconds": 1.8,
+        "shot_types": [
+          {
+            "type": "成品空间",
+            "count": 5
+          },
+          {
+            "type": "旧房旧态",
+            "count": 1
+          },
+          {
+            "type": "手摸/手指成品",
+            "count": 1
+          },
+          {
+            "type": "成品里的人",
+            "count": 1
+          },
+          {
+            "type": "施工·滚涂",
+            "count": 1
+          }
+        ],
+        "shot_raw": "成品空间 5、旧房旧态 1、手摸/手指成品 1、成品里的人 1、施工·滚涂 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 10,
+        "text": "请帮我点个免费的小爱心",
+        "have": "6/6",
+        "n_shots": 1.0,
+        "seconds": 1.7,
+        "shot_types": [
+          {
+            "type": "人物对镜头",
+            "count": 5
+          },
+          {
+            "type": "团队上门/搬料搬物",
+            "count": 1
+          },
+          {
+            "type": "成品空间",
+            "count": 1
+          }
+        ],
+        "shot_raw": "人物对镜头 5、团队上门/搬料搬物 1、成品空间 1",
+        "shot_note": ""
+      }
+    ],
+    "first_shot": "施工·批刮覆盖 2、施工·滚涂 2、演示·弯折样板/揭薄层 1、团队上门/搬料搬物 1",
+    "last_shot": "人物对镜头 4、团队上门/搬料搬物 1、成品空间 1",
+    "unmatched_shots": [],
+    "overview": {
+      "section": "垂直陶泥",
+      "start": "再过三个月，你会发现武汉家家户户…",
+      "videos": "6 条（R02、R05、R14、R17、R22、R24）",
+      "shots_range": "11–21",
+      "dur_range": "17–21",
+      "shot_median": "1.12"
+    }
+  },
+  {
+    "para": "第46段",
+    "para_no": 46,
+    "section": "垂直陶泥",
+    "n_videos": 3,
+    "video_ids": [
+      "R03",
+      "R19",
+      "R27"
+    ],
+    "original": "为什么现在武汉越来越多的卫生间厨房翻新改造不用瓷砖，因为费时费力又费钱，来看这边就是这款微陶泥，高硬度耐摩擦，不拆不砸瓷砖地板上直接批刮，没有瓷砖缝，回南天也不用怕，最主要的是高级又便宜，如果你也喜欢这种翻新工艺，可以给我点个小爱心吗？",
+    "aliases": "",
+    "sentences": [
+      {
+        "sent_no": 1,
+        "text": "为什么现在武汉越来越多的卫生间厨房翻新改造不用瓷砖",
+        "have": "3/3",
+        "n_shots": 3.0,
+        "seconds": 4.2,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 6
+          },
+          {
+            "type": "施工·滚涂",
+            "count": 2
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 6、施工·滚涂 2",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 2,
+        "text": "因为费时费力又费钱",
+        "have": "3/3",
+        "n_shots": 1.0,
+        "seconds": 1.7,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 4
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 4",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 3,
+        "text": "来看这边就是这款微陶泥",
+        "have": "3/3",
+        "n_shots": 1.0,
+        "seconds": 1.5,
+        "shot_types": [
+          {
+            "type": "材料桶",
+            "count": 2
+          },
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "材料桶 2、施工·批刮覆盖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 4,
+        "text": "高硬度耐摩擦",
+        "have": "3/3",
+        "n_shots": 1.0,
+        "seconds": 1.8,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 3
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 3",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 5,
+        "text": "不拆不砸瓷砖地板上直接批刮",
+        "have": "3/3",
+        "n_shots": 2.0,
+        "seconds": 2.6,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 6
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 6",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 6,
+        "text": "没有瓷砖缝",
+        "have": "3/3",
+        "n_shots": 1.0,
+        "seconds": 1.0,
+        "shot_types": [
+          {
+            "type": "成品空间",
+            "count": 3
+          },
+          {
+            "type": "人物在现场",
+            "count": 1
+          }
+        ],
+        "shot_raw": "成品空间 3、人物在现场 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 7,
+        "text": "回南天也不用怕",
+        "have": "3/3",
+        "n_shots": 1.0,
+        "seconds": 2.0,
+        "shot_types": [
+          {
+            "type": "演示·喷水冲洗",
+            "count": 2
+          }
+        ],
+        "shot_raw": "演示·喷水冲洗 2；另有 1 条是和第 6 句在同一个镜头里说完",
+        "shot_note": "另有 1 条是和第 6 句在同一个镜头里说完"
+      },
+      {
+        "sent_no": 8,
+        "text": "最主要的是高级又便宜",
+        "have": "3/3",
+        "n_shots": 1.0,
+        "seconds": 1.0,
+        "shot_types": [
+          {
+            "type": "成品空间",
+            "count": 1
+          },
+          {
+            "type": "人物在现场",
+            "count": 1
+          },
+          {
+            "type": "成品里的人",
+            "count": 1
+          }
+        ],
+        "shot_raw": "成品空间 1、人物在现场 1、成品里的人 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 9,
+        "text": "如果你也喜欢这种翻新工艺",
+        "have": "3/3",
+        "n_shots": 1.0,
+        "seconds": 1.9,
+        "shot_types": [
+          {
+            "type": "成品空间",
+            "count": 1
+          },
+          {
+            "type": "团队上门/搬料搬物",
+            "count": 1
+          },
+          {
+            "type": "人物对镜头",
+            "count": 1
+          }
+        ],
+        "shot_raw": "成品空间 1、团队上门/搬料搬物 1、人物对镜头 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 10,
+        "text": "可以给我点个小爱心吗",
+        "have": "3/3",
+        "n_shots": 1.0,
+        "seconds": 1.9,
+        "shot_types": [
+          {
+            "type": "人物对镜头",
+            "count": 1
+          },
+          {
+            "type": "人物在现场",
+            "count": 1
+          }
+        ],
+        "shot_raw": "人物对镜头 1、人物在现场 1；另有 1 条是和第 9 句在同一个镜头里说完",
+        "shot_note": "另有 1 条是和第 9 句在同一个镜头里说完"
+      }
+    ],
+    "first_shot": "施工·滚涂 2、施工·批刮覆盖 1",
+    "last_shot": "人物对镜头 1、团队上门/搬料搬物 1、人物在现场 1",
+    "unmatched_shots": [],
+    "overview": {
+      "section": "垂直陶泥",
+      "start": "为什么现在武汉越来越多的卫生间厨…",
+      "videos": "3 条（R03、R19、R27）",
+      "shots_range": "12–14",
+      "dur_range": "18–20",
+      "shot_median": "1.50"
+    }
+  },
+  {
+    "para": "第71段",
+    "para_no": 71,
+    "section": "垂直陶泥",
+    "n_videos": 3,
+    "video_ids": [
+      "R11",
+      "R16",
+      "R28"
+    ],
+    "original": "恐怕以后武汉的瓷砖师傅就要失业了。现在越来越多的武汉业主都在找阿明做微陶泥翻新工艺，瓷砖不拆不砸，直接覆盖微陶泥。做完效果一体无缝，还省下了一大笔拆除搬运垃圾的费用，光人工费就省下好几万。关键是七天完工就能入住，不仅防霉防潮还耐磨耐刮，用上几十年都没问题。如果你也喜欢这种翻新方式，可以给我点个小爱心吗？",
+    "aliases": "第97段、第109段（同一段的不同版本，算作同一段）。",
+    "sentences": [
+      {
+        "sent_no": 1,
+        "text": "恐怕以后武汉的瓷砖师傅就要失业了",
+        "have": "3/3",
+        "n_shots": 1.5,
+        "seconds": 2.7,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 3
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 3；另有 1 条是和第 3 句在同一个镜头里说完",
+        "shot_note": "另有 1 条是和第 3 句在同一个镜头里说完"
+      },
+      {
+        "sent_no": 2,
+        "text": "现在越来越多的武汉业主都在找阿明做微陶泥翻新工艺",
+        "have": "3/3",
+        "n_shots": 2.0,
+        "seconds": 3.8,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 3
+          },
+          {
+            "type": "握手/与客户沟通",
+            "count": 2
+          },
+          {
+            "type": "材料桶",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 3、握手/与客户沟通 2、材料桶 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 3,
+        "text": "瓷砖不拆不砸",
+        "have": "3/3",
+        "n_shots": 1.0,
+        "seconds": 1.5,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 3
+          },
+          {
+            "type": "保洁/清扫",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 3、保洁/清扫 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 4,
+        "text": "直接覆盖微陶泥",
+        "have": "3/3",
+        "n_shots": 1.0,
+        "seconds": 1.3,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 3
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 3",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 5,
+        "text": "做完效果一体无缝",
+        "have": "3/3",
+        "n_shots": 1.0,
+        "seconds": 1.4,
+        "shot_types": [
+          {
+            "type": "成品空间",
+            "count": 3
+          }
+        ],
+        "shot_raw": "成品空间 3",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 6,
+        "text": "还省下了一大笔拆除搬运垃圾的费用",
+        "have": "3/3",
+        "n_shots": 2.0,
+        "seconds": 2.6,
+        "shot_types": [
+          {
+            "type": "手摸/手指成品",
+            "count": 2
+          },
+          {
+            "type": "施工现场·其他",
+            "count": 1
+          },
+          {
+            "type": "成品空间",
+            "count": 1
+          },
+          {
+            "type": "团队上门/搬料搬物",
+            "count": 1
+          },
+          {
+            "type": "拆砸/贴砖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "手摸/手指成品 2、施工现场·其他 1、成品空间 1、团队上门/搬料搬物 1、拆砸/贴砖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 7,
+        "text": "光人工费就省下好几万",
+        "have": "3/3",
+        "n_shots": 1.0,
+        "seconds": 1.9,
+        "shot_types": [
+          {
+            "type": "人物对镜头",
+            "count": 2
+          },
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          },
+          {
+            "type": "拆砸/贴砖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "人物对镜头 2、施工·批刮覆盖 1、拆砸/贴砖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 8,
+        "text": "关键是七天完工就能入住",
+        "have": "3/3",
+        "n_shots": 1.5,
+        "seconds": 2.5,
+        "shot_types": [
+          {
+            "type": "人物在现场",
+            "count": 1
+          },
+          {
+            "type": "成品里的人",
+            "count": 1
+          },
+          {
+            "type": "手摸/手指成品",
+            "count": 1
+          }
+        ],
+        "shot_raw": "人物在现场 1、成品里的人 1、手摸/手指成品 1；另有 1 条是和第 7 句在同一个镜头里说完",
+        "shot_note": "另有 1 条是和第 7 句在同一个镜头里说完"
+      },
+      {
+        "sent_no": 9,
+        "text": "不仅防霉防潮还耐磨耐刮",
+        "have": "3/3",
+        "n_shots": 2.0,
+        "seconds": 2.2,
+        "shot_types": [
+          {
+            "type": "演示·刮擦/擦污",
+            "count": 1
+          },
+          {
+            "type": "手摸/手指成品",
+            "count": 1
+          },
+          {
+            "type": "施工现场·其他",
+            "count": 1
+          },
+          {
+            "type": "成品空间",
+            "count": 1
+          },
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "演示·刮擦/擦污 1、手摸/手指成品 1、施工现场·其他 1、成品空间 1、施工·批刮覆盖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 10,
+        "text": "用上几十年都没问题",
+        "have": "3/3",
+        "n_shots": 1.0,
+        "seconds": 1.8,
+        "shot_types": [
+          {
+            "type": "成品里的人",
+            "count": 1
+          },
+          {
+            "type": "人物在现场",
+            "count": 1
+          },
+          {
+            "type": "成品空间",
+            "count": 1
+          }
+        ],
+        "shot_raw": "成品里的人 1、人物在现场 1、成品空间 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 11,
+        "text": "如果你也喜欢这种翻新方式",
+        "have": "3/3",
+        "n_shots": 1.5,
+        "seconds": 2.7,
+        "shot_types": [
+          {
+            "type": "旧房旧态",
+            "count": 1
+          },
+          {
+            "type": "成品空间",
+            "count": 1
+          },
+          {
+            "type": "握手/与客户沟通",
+            "count": 1
+          }
+        ],
+        "shot_raw": "旧房旧态 1、成品空间 1、握手/与客户沟通 1；另有 1 条是和第 12 句在同一个镜头里说完",
+        "shot_note": "另有 1 条是和第 12 句在同一个镜头里说完"
+      },
+      {
+        "sent_no": 12,
+        "text": "可以给我点个小爱心吗",
+        "have": "3/3",
+        "n_shots": 1.0,
+        "seconds": 2.3,
+        "shot_types": [
+          {
+            "type": "人物对镜头",
+            "count": 1
+          },
+          {
+            "type": "握手/与客户沟通",
+            "count": 1
+          }
+        ],
+        "shot_raw": "人物对镜头 1、握手/与客户沟通 1；另有 1 条是和第 11 句在同一个镜头里说完",
+        "shot_note": "另有 1 条是和第 11 句在同一个镜头里说完"
+      }
+    ],
+    "first_shot": "施工·批刮覆盖 3",
+    "last_shot": "握手/与客户沟通 2、人物对镜头 1",
+    "unmatched_shots": [],
+    "overview": {
+      "section": "垂直陶泥",
+      "start": "恐怕以后武汉的瓷砖师傅就要失业了…",
+      "videos": "3 条（R11、R16、R28）",
+      "shots_range": "14–17",
+      "dur_range": "24–25",
+      "shot_median": "1.54"
+    }
+  },
+  {
+    "para": "第30段",
+    "para_no": 30,
+    "section": "同城标签",
+    "n_videos": 2,
+    "video_ids": [
+      "R23",
+      "R30"
+    ],
+    "original": "他就是全武汉女人都想嫁的旧房改造大王，其他装修公司张口就要十几万，他却坚持免费上门量房，现场给出合理报价，花个几千到2万就能把你家的老房子从这样改成这样，他装的房子不仅美观大气，用的也都是环保材料，大人小孩都可以放心住。如果你看到这条视频，请给我点一个小爱心，以后一定用得上。",
+    "aliases": "",
+    "sentences": [
+      {
+        "sent_no": 1,
+        "text": "他就是全武汉女人都想嫁的旧房改造大王",
+        "have": "2/2",
+        "n_shots": 1.5,
+        "seconds": 3.0,
+        "shot_types": [
+          {
+            "type": "人物在现场",
+            "count": 2
+          },
+          {
+            "type": "人物对镜头",
+            "count": 1
+          }
+        ],
+        "shot_raw": "人物在现场 2、人物对镜头 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 2,
+        "text": "其他装修公司张口就要十几万",
+        "have": "2/2",
+        "n_shots": 2.5,
+        "seconds": 2.2,
+        "shot_types": [
+          {
+            "type": "其他（模糊画面",
+            "count": null
+          },
+          {
+            "type": "叠大字等）",
+            "count": 5
+          }
+        ],
+        "shot_raw": "其他（模糊画面、叠大字等） 5",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 3,
+        "text": "他却坚持免费上门量房",
+        "have": "2/2",
+        "n_shots": 2.0,
+        "seconds": 2.0,
+        "shot_types": [
+          {
+            "type": "量房/水电/安装",
+            "count": 2
+          },
+          {
+            "type": "握手/与客户沟通",
+            "count": 1
+          },
+          {
+            "type": "团队上门/搬料搬物",
+            "count": 1
+          }
+        ],
+        "shot_raw": "量房/水电/安装 2、握手/与客户沟通 1、团队上门/搬料搬物 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 4,
+        "text": "现场给出合理报价",
+        "have": "2/2",
+        "n_shots": 1.5,
+        "seconds": 1.4,
+        "shot_types": [
+          {
+            "type": "握手/与客户沟通",
+            "count": 3
+          }
+        ],
+        "shot_raw": "握手/与客户沟通 3",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 5,
+        "text": "花个几千到2万就能把你家的老房子从这样改成这样",
+        "have": "2/2",
+        "n_shots": 4.0,
+        "seconds": 3.8,
+        "shot_types": [
+          {
+            "type": "旧房旧态",
+            "count": 3
+          },
+          {
+            "type": "成品空间",
+            "count": 2
+          },
+          {
+            "type": "铲修旧墙/旧顶",
+            "count": 1
+          },
+          {
+            "type": "人物在现场",
+            "count": 1
+          },
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "旧房旧态 3、成品空间 2、铲修旧墙/旧顶 1、人物在现场 1、施工·批刮覆盖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 6,
+        "text": "他装的房子不仅美观大气",
+        "have": "2/2",
+        "n_shots": 1.5,
+        "seconds": 1.9,
+        "shot_types": [
+          {
+            "type": "成品空间",
+            "count": 1
+          },
+          {
+            "type": "人物在现场",
+            "count": 1
+          },
+          {
+            "type": "手摸/手指成品",
+            "count": 1
+          }
+        ],
+        "shot_raw": "成品空间 1、人物在现场 1、手摸/手指成品 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 7,
+        "text": "用的也都是环保材料",
+        "have": "2/2",
+        "n_shots": 1.5,
+        "seconds": 1.5,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 2
+          },
+          {
+            "type": "团队上门/搬料搬物",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 2、团队上门/搬料搬物 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 8,
+        "text": "大人小孩都可以放心住",
+        "have": "2/2",
+        "n_shots": 1.5,
+        "seconds": 1.8,
+        "shot_types": [
+          {
+            "type": "成品里的人",
+            "count": 2
+          },
+          {
+            "type": "握手/与客户沟通",
+            "count": 1
+          }
+        ],
+        "shot_raw": "成品里的人 2、握手/与客户沟通 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 9,
+        "text": "如果你看到这条视频",
+        "have": "2/2",
+        "n_shots": 1.5,
+        "seconds": 1.5,
+        "shot_types": [
+          {
+            "type": "握手/与客户沟通",
+            "count": 2
+          },
+          {
+            "type": "人物在现场",
+            "count": 1
+          }
+        ],
+        "shot_raw": "握手/与客户沟通 2、人物在现场 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 10,
+        "text": "请给我点一个小爱心",
+        "have": "2/2",
+        "n_shots": 1.0,
+        "seconds": 1.5,
+        "shot_types": [
+          {
+            "type": "人物对镜头",
+            "count": 1
+          },
+          {
+            "type": "握手/与客户沟通",
+            "count": 1
+          }
+        ],
+        "shot_raw": "人物对镜头 1、握手/与客户沟通 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 11,
+        "text": "以后一定用得上",
+        "have": "2/2",
+        "n_shots": 1.0,
+        "seconds": 1.3,
+        "shot_types": [
+          {
+            "type": "人物对镜头",
+            "count": 1
+          },
+          {
+            "type": "人物在现场",
+            "count": 1
+          }
+        ],
+        "shot_raw": "人物对镜头 1、人物在现场 1",
+        "shot_note": ""
+      }
+    ],
+    "first_shot": "人物对镜头 2",
+    "last_shot": "人物对镜头 1、人物在现场 1",
+    "unmatched_shots": [],
+    "overview": {
+      "section": "同城标签",
+      "start": "他就是全武汉女人都想嫁的旧房改造…",
+      "videos": "2 条（R23、R30）",
+      "shots_range": "17–23",
+      "dur_range": "23–23",
+      "shot_median": "1.14"
+    }
+  },
+  {
+    "para": "第63段",
+    "para_no": 63,
+    "section": "垂直陶泥",
+    "n_videos": 2,
+    "video_ids": [
+      "R12",
+      "R21"
+    ],
+    "original": "再过一两个月你会发现，武汉越来越多的厨房卫生间翻新都流行用这个微陶泥了，也叫金刚陶泥，不拆不砸，整个卫生间改造只需要七天就可以完成，批刮三到五毫可耐水防霉，还省了一大笔拆除费用，关键是无缝一体效果高级又便宜，如果你也喜欢这种翻新工艺，可以给我点个小爱心吗？",
+    "aliases": "第49段、第74段（同一段的不同版本，算作同一段）。",
+    "sentences": [
+      {
+        "sent_no": 1,
+        "text": "再过一两个月你会发现",
+        "have": "2/2",
+        "n_shots": 1.0,
+        "seconds": 1.4,
+        "shot_types": [
+          {
+            "type": "旧房旧态",
+            "count": 1
+          },
+          {
+            "type": "人物在现场",
+            "count": 1
+          }
+        ],
+        "shot_raw": "旧房旧态 1、人物在现场 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 2,
+        "text": "武汉越来越多的厨房卫生间翻新都流行用这个微陶泥了",
+        "have": "2/2",
+        "n_shots": 3.0,
+        "seconds": 3.9,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 5
+          },
+          {
+            "type": "成品里的人",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 5、成品里的人 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 3,
+        "text": "也叫金刚陶泥",
+        "have": "2/2",
+        "n_shots": 1.5,
+        "seconds": 1.6,
+        "shot_types": [
+          {
+            "type": "材料桶",
+            "count": 1
+          },
+          {
+            "type": "成品日常清洁",
+            "count": 1
+          },
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "材料桶 1、成品日常清洁 1、施工·批刮覆盖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 4,
+        "text": "不拆不砸，整个卫生间改造只需要七天就可以完成",
+        "have": "2/2",
+        "n_shots": 2.5,
+        "seconds": 3.3,
+        "shot_types": [
+          {
+            "type": "成品空间",
+            "count": 3
+          },
+          {
+            "type": "施工·批刮覆盖",
+            "count": 2
+          }
+        ],
+        "shot_raw": "成品空间 3、施工·批刮覆盖 2",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 5,
+        "text": "批刮三到五毫可耐水防霉",
+        "have": "2/2",
+        "n_shots": 1.5,
+        "seconds": 1.9,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 2
+          },
+          {
+            "type": "演示·喷水冲洗",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 2、演示·喷水冲洗 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 6,
+        "text": "还省了一大笔拆除费用",
+        "have": "2/2",
+        "n_shots": 1.0,
+        "seconds": 1.8,
+        "shot_types": [
+          {
+            "type": "拆砸/贴砖",
+            "count": 1
+          },
+          {
+            "type": "手摸/手指成品",
+            "count": 1
+          }
+        ],
+        "shot_raw": "拆砸/贴砖 1、手摸/手指成品 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 7,
+        "text": "关键是无缝一体效果高级又便宜",
+        "have": "2/2",
+        "n_shots": 1.5,
+        "seconds": 2.6,
+        "shot_types": [
+          {
+            "type": "成品空间",
+            "count": 3
+          }
+        ],
+        "shot_raw": "成品空间 3",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 8,
+        "text": "如果你也喜欢这种翻新工艺",
+        "have": "2/2",
+        "n_shots": 1.0,
+        "seconds": 1.5,
+        "shot_types": [
+          {
+            "type": "人物对镜头",
+            "count": 1
+          },
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "人物对镜头 1、施工·批刮覆盖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 9,
+        "text": "可以给我点个小爱心吗",
+        "have": "2/2",
+        "n_shots": 1.0,
+        "seconds": 2.0,
+        "shot_types": [
+          {
+            "type": "握手/与客户沟通",
+            "count": 1
+          },
+          {
+            "type": "人物对镜头",
+            "count": 1
+          }
+        ],
+        "shot_raw": "握手/与客户沟通 1、人物对镜头 1",
+        "shot_note": ""
+      }
+    ],
+    "first_shot": "旧房旧态 1、人物在现场 1",
+    "last_shot": "握手/与客户沟通 1、人物对镜头 1",
+    "unmatched_shots": [],
+    "overview": {
+      "section": "垂直陶泥",
+      "start": "再过一两个月你会发现，武汉越来越…",
+      "videos": "2 条（R12、R21）",
+      "shots_range": "13–16",
+      "dur_range": "20–20",
+      "shot_median": "1.29"
+    }
+  },
+  {
+    "para": "第54段",
+    "para_no": 54,
+    "section": "垂直陶泥",
+    "n_videos": 1,
+    "video_ids": [
+      "R18"
+    ],
+    "original": "现在翻新一个卫生间真的太简单了，不拆不砸只需要3天就能完成，轻松打造无缝一体极简风，在原来的老旧瓷砖上直接覆盖这款微陶泥，不仅省事省力，而且还省了一大笔拆除运垃圾的费用，刮完的墙面地面极简又高级，韧性超高，不开裂，耐磨耐刮擦，环保材料，无甲醛，无VOC三天完工即可使用。有需要请直接找武汉阿明，价格也很亲民。",
+    "aliases": "第106段（同一段的不同版本，算作同一段）。",
+    "sentences": [
+      {
+        "sent_no": 1,
+        "text": "现在翻新一个卫生间真的太简单了",
+        "have": "1/1",
+        "n_shots": 4.0,
+        "seconds": 3.7,
+        "shot_types": [
+          {
+            "type": "施工·滚涂",
+            "count": 2
+          },
+          {
+            "type": "旧房旧态",
+            "count": 1
+          },
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·滚涂 2、旧房旧态 1、施工·批刮覆盖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 2,
+        "text": "不拆不砸只需要3天就能完成",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.5,
+        "shot_types": [
+          {
+            "type": "成品空间",
+            "count": 1
+          }
+        ],
+        "shot_raw": "成品空间 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 3,
+        "text": "轻松打造无缝一体极简风",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 2.0,
+        "shot_types": [
+          {
+            "type": "成品空间",
+            "count": 1
+          }
+        ],
+        "shot_raw": "成品空间 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 4,
+        "text": "在原来的老旧瓷砖上直接覆盖这款微陶泥",
+        "have": "1/1",
+        "n_shots": 2.0,
+        "seconds": 3.5,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 2
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 2",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 5,
+        "text": "不仅省事省力",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 0.6,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 6,
+        "text": "而且还省了一大笔拆除运垃圾的费用",
+        "have": "1/1",
+        "n_shots": 2.0,
+        "seconds": 2.4,
+        "shot_types": [
+          {
+            "type": "成品空间",
+            "count": 1
+          },
+          {
+            "type": "拆砸/贴砖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "成品空间 1、拆砸/贴砖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 7,
+        "text": "刮完的墙面地面极简又高级",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 2.2,
+        "shot_types": [
+          {
+            "type": "成品空间",
+            "count": 1
+          }
+        ],
+        "shot_raw": "成品空间 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 8,
+        "text": "韧性超高，不开裂",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.6,
+        "shot_types": [
+          {
+            "type": "演示·弯折样板/揭薄层",
+            "count": 1
+          }
+        ],
+        "shot_raw": "演示·弯折样板/揭薄层 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 9,
+        "text": "耐磨耐刮擦",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.0,
+        "shot_types": [
+          {
+            "type": "演示·刮擦/擦污",
+            "count": 1
+          }
+        ],
+        "shot_raw": "演示·刮擦/擦污 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 10,
+        "text": "环保材料，无甲醛",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.8,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 11,
+        "text": "无VOC三天完工即可使用",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.7,
+        "shot_types": [
+          {
+            "type": "成品空间",
+            "count": 1
+          }
+        ],
+        "shot_raw": "成品空间 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 12,
+        "text": "有需要请直接找武汉阿明",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 2.0,
+        "shot_types": [
+          {
+            "type": "人物对镜头",
+            "count": 1
+          }
+        ],
+        "shot_raw": "人物对镜头 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 13,
+        "text": "价格也很亲民",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.1,
+        "shot_types": [
+          {
+            "type": "团队上门/搬料搬物",
+            "count": 1
+          }
+        ],
+        "shot_raw": "团队上门/搬料搬物 1",
+        "shot_note": ""
+      }
+    ],
+    "first_shot": "旧房旧态 1",
+    "last_shot": "团队上门/搬料搬物 1",
+    "unmatched_shots": [],
+    "overview": {
+      "section": "垂直陶泥",
+      "start": "现在翻新一个卫生间真的太简单了，…",
+      "videos": "1 条（R18）",
+      "shots_range": "18–18",
+      "dur_range": "25–25",
+      "shot_median": "1.50"
+    }
+  },
+  {
+    "para": "第62段",
+    "para_no": 62,
+    "section": "垂直陶泥",
+    "n_videos": 1,
+    "video_ids": [
+      "R20"
+    ],
+    "original": "在武汉，过不了多久你会看到，越来越多的武汉业主翻新都不砸瓷砖了，都找武汉刘姐做不拆不砸微陶泥翻新工艺，像这样的瓷砖直接覆盖我们这款微陶泥，做完效果一体无缝，不仅防霉防潮，污渍还超好清理，我们的改造团队一站式服务，用上20年都妥妥的。如果您对我们的施工工艺感兴趣，记得给我点赞关注一下。",
+    "aliases": "第76段（同一段的不同版本，算作同一段）。",
+    "sentences": [
+      {
+        "sent_no": 1,
+        "text": "在武汉，过不了多久你会看到",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 2.3,
+        "shot_types": [
+          {
+            "type": "握手/与客户沟通",
+            "count": 1
+          }
+        ],
+        "shot_raw": "握手/与客户沟通 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 2,
+        "text": "越来越多的武汉业主翻新都不砸瓷砖了",
+        "have": "1/1",
+        "n_shots": 2.0,
+        "seconds": 2.6,
+        "shot_types": [
+          {
+            "type": "施工现场·其他",
+            "count": 2
+          }
+        ],
+        "shot_raw": "施工现场·其他 2",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 3,
+        "text": "都找武汉刘姐做不拆不砸微陶泥翻新工艺",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 3.1,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 4,
+        "text": "像这样的瓷砖直接覆盖我们这款微陶泥",
+        "have": "1/1",
+        "n_shots": 2.0,
+        "seconds": 3.0,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          },
+          {
+            "type": "材料桶",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 1、材料桶 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 5,
+        "text": "做完效果一体无缝",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.5,
+        "shot_types": [
+          {
+            "type": "手摸/手指成品",
+            "count": 1
+          }
+        ],
+        "shot_raw": "手摸/手指成品 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 6,
+        "text": "不仅防霉防潮",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.2,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 7,
+        "text": "污渍还超好清理",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.3,
+        "shot_types": [
+          {
+            "type": "演示·喷水冲洗",
+            "count": 1
+          }
+        ],
+        "shot_raw": "演示·喷水冲洗 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 8,
+        "text": "我们的改造团队一站式服务",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.8,
+        "shot_types": [
+          {
+            "type": "人物在现场",
+            "count": 1
+          }
+        ],
+        "shot_raw": "人物在现场 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 9,
+        "text": "用上20年都妥妥的",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.5,
+        "shot_types": [
+          {
+            "type": "成品空间",
+            "count": 1
+          }
+        ],
+        "shot_raw": "成品空间 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 10,
+        "text": "如果您对我们的施工工艺感兴趣",
+        "have": "0/1",
+        "n_shots": null,
+        "seconds": null,
+        "shot_types": [],
+        "shot_raw": "用这段的爆款都没说这句",
+        "shot_note": "用这段的爆款都没说这句"
+      },
+      {
+        "sent_no": 11,
+        "text": "记得给我点赞关注一下",
+        "have": "0/1",
+        "n_shots": null,
+        "seconds": null,
+        "shot_types": [],
+        "shot_raw": "用这段的爆款都没说这句",
+        "shot_note": "用这段的爆款都没说这句"
+      }
+    ],
+    "first_shot": "握手/与客户沟通 1",
+    "last_shot": "人物在现场 1",
+    "unmatched_shots": [],
+    "overview": {
+      "section": "垂直陶泥",
+      "start": "在武汉，过不了多久你会看到，越来…",
+      "videos": "1 条（R20）",
+      "shots_range": "14–14",
+      "dur_range": "24–24",
+      "shot_median": "1.67"
+    }
+  },
+  {
+    "para": "第65段",
+    "para_no": 65,
+    "section": "垂直陶泥",
+    "n_videos": 1,
+    "video_ids": [
+      "R01"
+    ],
+    "original": "在武汉90%的人还不知道，不拆不砸，不到一万块钱，快速翻新厨房和卫生间，就是这款微陶泥，在原瓷砖地板上直接覆盖批刮，省一大笔拆除运垃圾费用不是问题，关键是只需要七天就能改造完一个卫生间，三天翻新一个老厨房，刮完的墙面地面无缝一体极简又高级，韧性超高还不开裂，油渍污渍超好打理！如果你也喜欢这种翻新工艺，请给我点个小爱心。",
+    "aliases": "",
+    "sentences": [
+      {
+        "sent_no": 1,
+        "text": "在武汉90%的人还不知道",
+        "have": "1/1",
+        "n_shots": 2.0,
+        "seconds": 2.4,
+        "shot_types": [
+          {
+            "type": "握手/与客户沟通",
+            "count": 1
+          },
+          {
+            "type": "人物在现场",
+            "count": 1
+          }
+        ],
+        "shot_raw": "握手/与客户沟通 1、人物在现场 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 2,
+        "text": "不拆不砸，不到一万块钱",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 0.6,
+        "shot_types": [
+          {
+            "type": "拆砸/贴砖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "拆砸/贴砖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 3,
+        "text": "快速翻新厨房和卫生间",
+        "have": "1/1",
+        "n_shots": 4.0,
+        "seconds": 7.6,
+        "shot_types": [
+          {
+            "type": "人物对镜头",
+            "count": 2
+          },
+          {
+            "type": "成品空间",
+            "count": 2
+          }
+        ],
+        "shot_raw": "人物对镜头 2、成品空间 2",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 4,
+        "text": "就是这款微陶泥",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.2,
+        "shot_types": [
+          {
+            "type": "施工现场·其他",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工现场·其他 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 5,
+        "text": "在原瓷砖地板上直接覆盖批刮",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.3,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 6,
+        "text": "省一大笔拆除运垃圾费用不是问题",
+        "have": "1/1",
+        "n_shots": 3.0,
+        "seconds": 3.6,
+        "shot_types": [
+          {
+            "type": "拆砸/贴砖",
+            "count": 2
+          },
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "拆砸/贴砖 2、施工·批刮覆盖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 7,
+        "text": "关键是只需要七天就能改造完一个卫生间",
+        "have": "1/1",
+        "n_shots": 2.0,
+        "seconds": 2.8,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          },
+          {
+            "type": "成品空间",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 1、成品空间 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 8,
+        "text": "三天翻新一个老厨房",
+        "have": "1/1",
+        "n_shots": 2.0,
+        "seconds": 1.6,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          },
+          {
+            "type": "成品空间",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 1、成品空间 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 9,
+        "text": "刮完的墙面地面无缝一体极简又高级",
+        "have": "1/1",
+        "n_shots": 2.0,
+        "seconds": 2.9,
+        "shot_types": [
+          {
+            "type": "成品空间",
+            "count": 2
+          }
+        ],
+        "shot_raw": "成品空间 2",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 10,
+        "text": "韧性超高还不开裂",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.7,
+        "shot_types": [
+          {
+            "type": "演示·弯折样板/揭薄层",
+            "count": 1
+          }
+        ],
+        "shot_raw": "演示·弯折样板/揭薄层 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 11,
+        "text": "油渍污渍超好打理",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.7,
+        "shot_types": [
+          {
+            "type": "演示·刮擦/擦污",
+            "count": 1
+          }
+        ],
+        "shot_raw": "演示·刮擦/擦污 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 12,
+        "text": "如果你也喜欢这种翻新工艺",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 2.2,
+        "shot_types": [
+          {
+            "type": "旧→新同镜转场",
+            "count": 1
+          }
+        ],
+        "shot_raw": "旧→新同镜转场 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 13,
+        "text": "请给我点个小爱心",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.2,
+        "shot_types": [
+          {
+            "type": "人物对镜头",
+            "count": 1
+          }
+        ],
+        "shot_raw": "人物对镜头 1",
+        "shot_note": ""
+      }
+    ],
+    "first_shot": "人物对镜头 1",
+    "last_shot": "人物对镜头 1",
+    "unmatched_shots": [],
+    "overview": {
+      "section": "垂直陶泥",
+      "start": "在武汉90%的人还不知道，不拆不…",
+      "videos": "1 条（R01）",
+      "shots_range": "22–22",
+      "dur_range": "31–31",
+      "shot_median": "1.17"
+    }
+  },
+  {
+    "para": "第74段",
+    "para_no": 74,
+    "section": "垂直陶泥",
+    "n_videos": 1,
+    "video_ids": [
+      "R15"
+    ],
+    "original": "再过三月你会发现，武汉厨房卫生间翻新别再花冤枉钱了，现在武汉越来越多人翻新都流行用这个微陶泥了，也叫金刚陶泥，不拆不砸，整个卫生间改造只需要三天就可以完成，批刮三到五毫可耐水防霉，还省了一大笔拆除费用，关键是无缝一体效果高级又便宜，如果你也喜欢这种翻新工艺，可以给我点个小爱心吗？",
+    "aliases": "第49段、第63段（同一段的不同版本，算作同一段）。",
+    "sentences": [
+      {
+        "sent_no": 1,
+        "text": "再过三月你会发现",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.7,
+        "shot_types": [
+          {
+            "type": "人物在现场",
+            "count": 1
+          }
+        ],
+        "shot_raw": "人物在现场 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 2,
+        "text": "武汉厨房卫生间翻新别再花冤枉钱了",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.1,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 3,
+        "text": "现在武汉越来越多人翻新都流行用这个微陶泥了",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.1,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 4,
+        "text": "也叫金刚陶泥",
+        "have": "1/1",
+        "n_shots": 2.0,
+        "seconds": 3.0,
+        "shot_types": [
+          {
+            "type": "成品空间",
+            "count": 1
+          },
+          {
+            "type": "成品日常清洁",
+            "count": 1
+          }
+        ],
+        "shot_raw": "成品空间 1、成品日常清洁 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 5,
+        "text": "不拆不砸，整个卫生间改造只需要三天就可以完成",
+        "have": "1/1",
+        "n_shots": 3.0,
+        "seconds": 3.2,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          },
+          {
+            "type": "旧房旧态",
+            "count": 1
+          },
+          {
+            "type": "成品空间",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 1、旧房旧态 1、成品空间 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 6,
+        "text": "批刮三到五毫可耐水防霉",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 2.0,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 7,
+        "text": "还省了一大笔拆除费用",
+        "have": "1/1",
+        "n_shots": 2.0,
+        "seconds": 2.8,
+        "shot_types": [
+          {
+            "type": "手摸/手指成品",
+            "count": 1
+          },
+          {
+            "type": "人物在现场",
+            "count": 1
+          }
+        ],
+        "shot_raw": "手摸/手指成品 1、人物在现场 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 8,
+        "text": "关键是无缝一体效果高级又便宜",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 2.1,
+        "shot_types": [
+          {
+            "type": "成品空间",
+            "count": 1
+          }
+        ],
+        "shot_raw": "成品空间 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 9,
+        "text": "如果你也喜欢这种翻新工艺",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 1.0,
+        "shot_types": [
+          {
+            "type": "施工·批刮覆盖",
+            "count": 1
+          }
+        ],
+        "shot_raw": "施工·批刮覆盖 1",
+        "shot_note": ""
+      },
+      {
+        "sent_no": 10,
+        "text": "可以给我点个小爱心吗",
+        "have": "1/1",
+        "n_shots": 1.0,
+        "seconds": 2.5,
+        "shot_types": [
+          {
+            "type": "人物对镜头",
+            "count": 1
+          }
+        ],
+        "shot_raw": "人物对镜头 1",
+        "shot_note": ""
+      }
+    ],
+    "first_shot": "人物在现场 1",
+    "last_shot": "人物对镜头 1",
+    "unmatched_shots": [],
+    "overview": {
+      "section": "垂直陶泥",
+      "start": "再过三月你会发现，武汉厨房卫生间…",
+      "videos": "1 条（R15）",
+      "shots_range": "14–14",
+      "dur_range": "21–21",
+      "shot_median": "1.29"
+    }
+  }
+]

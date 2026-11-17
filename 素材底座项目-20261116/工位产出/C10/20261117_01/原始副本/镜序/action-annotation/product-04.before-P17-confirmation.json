@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "created": "2026-11-13",
+  "purpose": "施工动作人工标注口径确认；不是训练完成，不是正式选片",
+  "rows": [
+    {
+      "sample_id": "P16",
+      "category": "产品核实",
+      "query": "该项目是否使用微陶泥，以及此片段是否直接展示微陶泥施工",
+      "source": {
+        "id": "986f57f8e85fe933b092a1a7e5d9dfe2",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\嘉贝乐-厨卫换新视频素材\\厨卫焕新视频素材\\04.批刮G200\\23540_小区_批刮施工.MOV",
+        "rel": "嘉贝乐-厨卫换新视频素材/厨卫焕新视频素材/04.批刮G200/23540_小区_批刮施工.MOV",
+        "root": "xiaoq",
+        "name": "23540_小区_批刮施工.MOV",
+        "start": 2,
+        "end": 5
+      },
+      "project_guess": "嘉贝乐-厨卫换新视频素材",
+      "project_confirmed": false,
+      "suggested_label": "待确认",
+      "suggestion_reason": "产品身份与施工动作分别确认，不凭目录名或服装确认",
+      "confirmed_label": null,
+      "status": "暂不展示：抽帧为桶内材料，未满足批刮对照筛选要求",
+      "clip": "clips/P16.mp4",
+      "clip_sha256": "686b23c8398bf841de8a344eb9b609d9b55da6642765c7ffce3b9d93283cba88",
+      "duration": 3.003,
+      "benchmark_eligible": false,
+      "split": "口径确认集，禁止进入盲测",
+      "product_identity": "未核验",
+      "quality_note": "待用户核查画面与动作",
+      "apply_to_directory": false,
+      "label_scope": "仅所列来源时间段"
+    },
+    {
+      "sample_id": "P17",
+      "category": "产品核实",
+      "query": "画面是否为批刮？材料是否微陶泥？非微陶泥时请说明材料名称，不能确定则待核实。",
+      "source": {
+        "id": "0131657ceb69c229c36b92b9285aa255",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\展厅\\墙面批刮\\33906_小区_批刮施工.MP4",
+        "rel": "展厅/墙面批刮/33906_小区_批刮施工.MP4",
+        "root": "xiaoq",
+        "name": "33906_小区_批刮施工.MP4",
+        "start": 2,
+        "end": 5
+      },
+      "project_guess": "展厅",
+      "project_confirmed": false,
+      "suggested_label": "待确认",
+      "suggestion_reason": "产品身份与施工动作分别确认，不凭目录名或服装确认",
+      "confirmed_label": null,
+      "status": "待人工确认",
+      "clip": "clips/P17.mp4",
+      "clip_sha256": "76c07dc53fbe68ea5b45127ac6f7099d4c4295d09e1bbef746ecfaa8484b54d0",
+      "duration": 3.003,
+      "benchmark_eligible": false,
+      "split": "口径确认集，禁止进入盲测",
+      "product_identity": "未核验",
+      "quality_note": "待用户核查画面与动作",
+      "apply_to_directory": false,
+      "label_scope": "仅所列来源时间段"
+    }
+  ]
+}

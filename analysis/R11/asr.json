@@ -1,0 +1,971 @@
+{
+  "schema_version": 1,
+  "reference_id": "R11",
+  "status": "local_asr_complete_unverified",
+  "source_audio": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R11\\audio.wav",
+  "model": "C:\\Users\\leega\\.cache\\huggingface\\hub\\models--Systran--faster-whisper-small\\snapshots\\536b0662742c02347bc0e980a01041f333bce120",
+  "device": "cpu",
+  "compute_type": "int8",
+  "language": "zh",
+  "language_probability": 1,
+  "duration": 25.3083125,
+  "vad_filter": false,
+  "word_timestamps": true,
+  "human_listening_verified": false,
+  "elapsed_seconds": 6.53,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 2.62,
+      "text": "恐怕以後武漢的磁磚師傅就要失業了",
+      "avg_logprob": -0.19847101018284308,
+      "no_speech_prob": 0.0018699013162404299,
+      "compression_ratio": 1.2934131736526946,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.24,
+          "word": "恐",
+          "probability": 0.9896472096443176
+        },
+        {
+          "start": 0.24,
+          "end": 0.44,
+          "word": "怕",
+          "probability": 0.9993707537651062
+        },
+        {
+          "start": 0.44,
+          "end": 0.54,
+          "word": "以",
+          "probability": 0.9906257390975952
+        },
+        {
+          "start": 0.54,
+          "end": 0.68,
+          "word": "後",
+          "probability": 0.4216564893722534
+        },
+        {
+          "start": 0.68,
+          "end": 0.88,
+          "word": "武",
+          "probability": 0.9726860523223877
+        },
+        {
+          "start": 0.88,
+          "end": 1.02,
+          "word": "漢",
+          "probability": 0.9949204921722412
+        },
+        {
+          "start": 1.02,
+          "end": 1.1,
+          "word": "的",
+          "probability": 0.9848988652229309
+        },
+        {
+          "start": 1.1,
+          "end": 1.28,
+          "word": "磁",
+          "probability": 0.8675656716028849
+        },
+        {
+          "start": 1.28,
+          "end": 1.44,
+          "word": "磚",
+          "probability": 0.9929781158765157
+        },
+        {
+          "start": 1.44,
+          "end": 1.62,
+          "word": "師",
+          "probability": 0.9832252264022827
+        },
+        {
+          "start": 1.62,
+          "end": 1.76,
+          "word": "傅",
+          "probability": 0.9848629832267761
+        },
+        {
+          "start": 1.76,
+          "end": 1.9,
+          "word": "就",
+          "probability": 0.9803542494773865
+        },
+        {
+          "start": 1.9,
+          "end": 2.0,
+          "word": "要",
+          "probability": 0.9928619265556335
+        },
+        {
+          "start": 2.0,
+          "end": 2.22,
+          "word": "失",
+          "probability": 0.9920057654380798
+        },
+        {
+          "start": 2.22,
+          "end": 2.44,
+          "word": "業",
+          "probability": 0.9967394471168518
+        },
+        {
+          "start": 2.44,
+          "end": 2.62,
+          "word": "了",
+          "probability": 0.9931650757789612
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 2.62,
+      "end": 6.46,
+      "text": "現在越來越多的武漢業主都在找阿明做威陶尼翻新工藝",
+      "avg_logprob": -0.19847101018284308,
+      "no_speech_prob": 0.0018699013162404299,
+      "compression_ratio": 1.2934131736526946,
+      "words": [
+        {
+          "start": 2.62,
+          "end": 3.08,
+          "word": "現在",
+          "probability": 0.9712708592414856
+        },
+        {
+          "start": 3.08,
+          "end": 3.28,
+          "word": "越",
+          "probability": 0.9541091918945312
+        },
+        {
+          "start": 3.28,
+          "end": 3.38,
+          "word": "來",
+          "probability": 0.9984620809555054
+        },
+        {
+          "start": 3.38,
+          "end": 3.5,
+          "word": "越",
+          "probability": 0.9985557198524475
+        },
+        {
+          "start": 3.5,
+          "end": 3.6,
+          "word": "多",
+          "probability": 0.9995697140693665
+        },
+        {
+          "start": 3.6,
+          "end": 3.7,
+          "word": "的",
+          "probability": 0.9961555600166321
+        },
+        {
+          "start": 3.7,
+          "end": 3.88,
+          "word": "武",
+          "probability": 0.9988651275634766
+        },
+        {
+          "start": 3.88,
+          "end": 4.04,
+          "word": "漢",
+          "probability": 0.9998680055141449
+        },
+        {
+          "start": 4.04,
+          "end": 4.2,
+          "word": "業",
+          "probability": 0.9845426678657532
+        },
+        {
+          "start": 4.2,
+          "end": 4.4,
+          "word": "主",
+          "probability": 0.9964097142219543
+        },
+        {
+          "start": 4.4,
+          "end": 4.54,
+          "word": "都",
+          "probability": 0.9875988364219666
+        },
+        {
+          "start": 4.54,
+          "end": 4.66,
+          "word": "在",
+          "probability": 0.9851014614105225
+        },
+        {
+          "start": 4.66,
+          "end": 4.82,
+          "word": "找",
+          "probability": 0.9969801306724548
+        },
+        {
+          "start": 4.82,
+          "end": 4.98,
+          "word": "阿",
+          "probability": 0.9876509308815002
+        },
+        {
+          "start": 4.98,
+          "end": 5.1,
+          "word": "明",
+          "probability": 0.5123217105865479
+        },
+        {
+          "start": 5.1,
+          "end": 5.28,
+          "word": "做",
+          "probability": 0.9389791488647461
+        },
+        {
+          "start": 5.28,
+          "end": 5.42,
+          "word": "威",
+          "probability": 0.7200522124767303
+        },
+        {
+          "start": 5.42,
+          "end": 5.56,
+          "word": "陶",
+          "probability": 0.7871704697608948
+        },
+        {
+          "start": 5.56,
+          "end": 5.7,
+          "word": "尼",
+          "probability": 0.8484305143356323
+        },
+        {
+          "start": 5.7,
+          "end": 5.88,
+          "word": "翻",
+          "probability": 0.8011863827705383
+        },
+        {
+          "start": 5.88,
+          "end": 6.02,
+          "word": "新",
+          "probability": 0.8266396522521973
+        },
+        {
+          "start": 6.02,
+          "end": 6.18,
+          "word": "工",
+          "probability": 0.9451585412025452
+        },
+        {
+          "start": 6.18,
+          "end": 6.46,
+          "word": "藝",
+          "probability": 0.9926061630249023
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 6.46,
+      "end": 7.56,
+      "text": "磁磚不拆不砸",
+      "avg_logprob": -0.19847101018284308,
+      "no_speech_prob": 0.0018699013162404299,
+      "compression_ratio": 1.2934131736526946,
+      "words": [
+        {
+          "start": 6.46,
+          "end": 6.8,
+          "word": "磁",
+          "probability": 0.9919446110725403
+        },
+        {
+          "start": 6.8,
+          "end": 6.96,
+          "word": "磚",
+          "probability": 0.9995654026667277
+        },
+        {
+          "start": 6.96,
+          "end": 7.12,
+          "word": "不",
+          "probability": 0.9810164570808411
+        },
+        {
+          "start": 7.12,
+          "end": 7.24,
+          "word": "拆",
+          "probability": 0.9919949173927307
+        },
+        {
+          "start": 7.24,
+          "end": 7.4,
+          "word": "不",
+          "probability": 0.9956050515174866
+        },
+        {
+          "start": 7.4,
+          "end": 7.56,
+          "word": "砸",
+          "probability": 0.7948364615440369
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 7.56,
+      "end": 9.56,
+      "text": "直接覆蓋我們的威陶尼",
+      "avg_logprob": -0.19847101018284308,
+      "no_speech_prob": 0.0018699013162404299,
+      "compression_ratio": 1.2934131736526946,
+      "words": [
+        {
+          "start": 7.56,
+          "end": 8.2,
+          "word": "直接",
+          "probability": 0.9369259476661682
+        },
+        {
+          "start": 8.2,
+          "end": 8.4,
+          "word": "覆",
+          "probability": 0.9938323497772217
+        },
+        {
+          "start": 8.4,
+          "end": 8.54,
+          "word": "蓋",
+          "probability": 0.9988513588905334
+        },
+        {
+          "start": 8.54,
+          "end": 8.7,
+          "word": "我們的",
+          "probability": 0.9715179800987244
+        },
+        {
+          "start": 8.7,
+          "end": 8.92,
+          "word": "威",
+          "probability": 0.9932980239391327
+        },
+        {
+          "start": 8.92,
+          "end": 9.1,
+          "word": "陶",
+          "probability": 0.9989954233169556
+        },
+        {
+          "start": 9.1,
+          "end": 9.56,
+          "word": "尼",
+          "probability": 0.9777891635894775
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 9.56,
+      "end": 10.82,
+      "text": "做玩笑唯一體無風",
+      "avg_logprob": -0.19847101018284308,
+      "no_speech_prob": 0.0018699013162404299,
+      "compression_ratio": 1.2934131736526946,
+      "words": [
+        {
+          "start": 9.56,
+          "end": 9.78,
+          "word": "做",
+          "probability": 0.860714316368103
+        },
+        {
+          "start": 9.78,
+          "end": 9.94,
+          "word": "玩",
+          "probability": 0.8063974976539612
+        },
+        {
+          "start": 9.94,
+          "end": 10.08,
+          "word": "笑",
+          "probability": 0.37257838249206543
+        },
+        {
+          "start": 10.08,
+          "end": 10.26,
+          "word": "唯",
+          "probability": 0.678155928850174
+        },
+        {
+          "start": 10.26,
+          "end": 10.36,
+          "word": "一",
+          "probability": 0.9964407086372375
+        },
+        {
+          "start": 10.36,
+          "end": 10.5,
+          "word": "體",
+          "probability": 0.9915459752082825
+        },
+        {
+          "start": 10.5,
+          "end": 10.68,
+          "word": "無",
+          "probability": 0.969063937664032
+        },
+        {
+          "start": 10.68,
+          "end": 10.82,
+          "word": "風",
+          "probability": 0.3403158485889435
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 10.82,
+      "end": 13.38,
+      "text": "還省下了一大筆拆除搬運垃圾的費用",
+      "avg_logprob": -0.19847101018284308,
+      "no_speech_prob": 0.0018699013162404299,
+      "compression_ratio": 1.2934131736526946,
+      "words": [
+        {
+          "start": 10.82,
+          "end": 11.26,
+          "word": "還",
+          "probability": 0.903214156627655
+        },
+        {
+          "start": 11.26,
+          "end": 11.4,
+          "word": "省",
+          "probability": 0.7834136486053467
+        },
+        {
+          "start": 11.4,
+          "end": 11.54,
+          "word": "下",
+          "probability": 0.9563264846801758
+        },
+        {
+          "start": 11.54,
+          "end": 11.64,
+          "word": "了",
+          "probability": 0.9872094392776489
+        },
+        {
+          "start": 11.64,
+          "end": 11.7,
+          "word": "一",
+          "probability": 0.971045970916748
+        },
+        {
+          "start": 11.7,
+          "end": 11.86,
+          "word": "大",
+          "probability": 0.9962688684463501
+        },
+        {
+          "start": 11.86,
+          "end": 12.04,
+          "word": "筆",
+          "probability": 0.9932409226894379
+        },
+        {
+          "start": 12.04,
+          "end": 12.18,
+          "word": "拆",
+          "probability": 0.9984031915664673
+        },
+        {
+          "start": 12.18,
+          "end": 12.32,
+          "word": "除",
+          "probability": 0.6156764030456543
+        },
+        {
+          "start": 12.32,
+          "end": 12.48,
+          "word": "搬",
+          "probability": 0.636669784784317
+        },
+        {
+          "start": 12.48,
+          "end": 12.58,
+          "word": "運",
+          "probability": 0.9425223469734192
+        },
+        {
+          "start": 12.58,
+          "end": 12.74,
+          "word": "垃",
+          "probability": 0.8501622378826141
+        },
+        {
+          "start": 12.74,
+          "end": 12.86,
+          "word": "圾",
+          "probability": 0.9780699014663696
+        },
+        {
+          "start": 12.86,
+          "end": 12.96,
+          "word": "的",
+          "probability": 0.9963052272796631
+        },
+        {
+          "start": 12.96,
+          "end": 13.14,
+          "word": "費",
+          "probability": 0.996432900428772
+        },
+        {
+          "start": 13.14,
+          "end": 13.38,
+          "word": "用",
+          "probability": 0.9983362555503845
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 13.38,
+      "end": 15.42,
+      "text": "光人工費就省下好幾萬",
+      "avg_logprob": -0.19847101018284308,
+      "no_speech_prob": 0.0018699013162404299,
+      "compression_ratio": 1.2934131736526946,
+      "words": [
+        {
+          "start": 13.38,
+          "end": 13.82,
+          "word": "光",
+          "probability": 0.982412576675415
+        },
+        {
+          "start": 13.82,
+          "end": 13.98,
+          "word": "人",
+          "probability": 0.9563143849372864
+        },
+        {
+          "start": 13.98,
+          "end": 14.12,
+          "word": "工",
+          "probability": 0.9248272776603699
+        },
+        {
+          "start": 14.12,
+          "end": 14.34,
+          "word": "費",
+          "probability": 0.9796121716499329
+        },
+        {
+          "start": 14.34,
+          "end": 14.56,
+          "word": "就",
+          "probability": 0.9877533316612244
+        },
+        {
+          "start": 14.56,
+          "end": 14.74,
+          "word": "省",
+          "probability": 0.9985909759998322
+        },
+        {
+          "start": 14.74,
+          "end": 14.94,
+          "word": "下",
+          "probability": 0.9982251524925232
+        },
+        {
+          "start": 14.94,
+          "end": 15.08,
+          "word": "好",
+          "probability": 0.9894473552703857
+        },
+        {
+          "start": 15.08,
+          "end": 15.26,
+          "word": "幾",
+          "probability": 0.9988908171653748
+        },
+        {
+          "start": 15.26,
+          "end": 15.42,
+          "word": "萬",
+          "probability": 0.990047812461853
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 15.42,
+      "end": 17.2,
+      "text": "關鍵是七天完工就能入住",
+      "avg_logprob": -0.19847101018284308,
+      "no_speech_prob": 0.0018699013162404299,
+      "compression_ratio": 1.2934131736526946,
+      "words": [
+        {
+          "start": 15.42,
+          "end": 15.7,
+          "word": "關",
+          "probability": 0.9242448210716248
+        },
+        {
+          "start": 15.7,
+          "end": 15.86,
+          "word": "鍵",
+          "probability": 0.9996159970760345
+        },
+        {
+          "start": 15.86,
+          "end": 15.98,
+          "word": "是",
+          "probability": 0.996380627155304
+        },
+        {
+          "start": 15.98,
+          "end": 16.16,
+          "word": "七",
+          "probability": 0.5551609992980957
+        },
+        {
+          "start": 16.16,
+          "end": 16.28,
+          "word": "天",
+          "probability": 0.9989989399909973
+        },
+        {
+          "start": 16.28,
+          "end": 16.4,
+          "word": "完",
+          "probability": 0.8835824131965637
+        },
+        {
+          "start": 16.4,
+          "end": 16.6,
+          "word": "工",
+          "probability": 0.9998326301574707
+        },
+        {
+          "start": 16.6,
+          "end": 16.74,
+          "word": "就",
+          "probability": 0.9544066190719604
+        },
+        {
+          "start": 16.74,
+          "end": 16.86,
+          "word": "能",
+          "probability": 0.999742329120636
+        },
+        {
+          "start": 16.86,
+          "end": 17.02,
+          "word": "入",
+          "probability": 0.9961697459220886
+        },
+        {
+          "start": 17.02,
+          "end": 17.2,
+          "word": "住",
+          "probability": 0.8782719373703003
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 17.2,
+      "end": 18.76,
+      "text": "不僅防霉防潮",
+      "avg_logprob": -0.19847101018284308,
+      "no_speech_prob": 0.0018699013162404299,
+      "compression_ratio": 1.2934131736526946,
+      "words": [
+        {
+          "start": 17.2,
+          "end": 17.7,
+          "word": "不",
+          "probability": 0.9250859618186951
+        },
+        {
+          "start": 17.7,
+          "end": 17.82,
+          "word": "僅",
+          "probability": 0.9854709804058075
+        },
+        {
+          "start": 17.82,
+          "end": 17.94,
+          "word": "防",
+          "probability": 0.8844977021217346
+        },
+        {
+          "start": 17.94,
+          "end": 18.06,
+          "word": "霉",
+          "probability": 0.6589756608009338
+        },
+        {
+          "start": 18.06,
+          "end": 18.22,
+          "word": "防",
+          "probability": 0.9838590025901794
+        },
+        {
+          "start": 18.22,
+          "end": 18.76,
+          "word": "潮",
+          "probability": 0.9879984259605408
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 18.76,
+      "end": 19.6,
+      "text": "還耐沒耐刮",
+      "avg_logprob": -0.19847101018284308,
+      "no_speech_prob": 0.0018699013162404299,
+      "compression_ratio": 1.2934131736526946,
+      "words": [
+        {
+          "start": 18.76,
+          "end": 18.98,
+          "word": "還",
+          "probability": 0.5741905570030212
+        },
+        {
+          "start": 18.98,
+          "end": 19.06,
+          "word": "耐",
+          "probability": 0.7259425520896912
+        },
+        {
+          "start": 19.06,
+          "end": 19.2,
+          "word": "沒",
+          "probability": 0.3100089430809021
+        },
+        {
+          "start": 19.2,
+          "end": 19.4,
+          "word": "耐",
+          "probability": 0.9897096157073975
+        },
+        {
+          "start": 19.4,
+          "end": 19.6,
+          "word": "刮",
+          "probability": 0.7112252712249756
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 19.6,
+      "end": 21.3,
+      "text": "用上幾十年都沒問題",
+      "avg_logprob": -0.19847101018284308,
+      "no_speech_prob": 0.0018699013162404299,
+      "compression_ratio": 1.2934131736526946,
+      "words": [
+        {
+          "start": 19.6,
+          "end": 20.1,
+          "word": "用",
+          "probability": 0.8221313953399658
+        },
+        {
+          "start": 20.1,
+          "end": 20.26,
+          "word": "上",
+          "probability": 0.9949880838394165
+        },
+        {
+          "start": 20.26,
+          "end": 20.42,
+          "word": "幾",
+          "probability": 0.9954604506492615
+        },
+        {
+          "start": 20.42,
+          "end": 20.56,
+          "word": "十",
+          "probability": 0.9966949224472046
+        },
+        {
+          "start": 20.56,
+          "end": 20.7,
+          "word": "年",
+          "probability": 0.999247670173645
+        },
+        {
+          "start": 20.7,
+          "end": 20.8,
+          "word": "都",
+          "probability": 0.998449444770813
+        },
+        {
+          "start": 20.8,
+          "end": 20.92,
+          "word": "沒",
+          "probability": 0.9759593605995178
+        },
+        {
+          "start": 20.92,
+          "end": 21.3,
+          "word": "問題",
+          "probability": 0.9994139671325684
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 21.64,
+      "end": 23.4,
+      "text": "如果你也喜歡這種翻新方式",
+      "avg_logprob": -0.19847101018284308,
+      "no_speech_prob": 0.0018699013162404299,
+      "compression_ratio": 1.2934131736526946,
+      "words": [
+        {
+          "start": 21.64,
+          "end": 21.96,
+          "word": "如果你",
+          "probability": 0.35603412985801697
+        },
+        {
+          "start": 21.96,
+          "end": 22.14,
+          "word": "也",
+          "probability": 0.8804411292076111
+        },
+        {
+          "start": 22.14,
+          "end": 22.36,
+          "word": "喜歡",
+          "probability": 0.9974836707115173
+        },
+        {
+          "start": 22.36,
+          "end": 22.56,
+          "word": "這種",
+          "probability": 0.9974147081375122
+        },
+        {
+          "start": 22.56,
+          "end": 22.82,
+          "word": "翻",
+          "probability": 0.9890720844268799
+        },
+        {
+          "start": 22.82,
+          "end": 22.96,
+          "word": "新",
+          "probability": 0.998091995716095
+        },
+        {
+          "start": 22.96,
+          "end": 23.14,
+          "word": "方",
+          "probability": 0.9951871633529663
+        },
+        {
+          "start": 23.14,
+          "end": 23.4,
+          "word": "式",
+          "probability": 0.9943333864212036
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 23.4,
+      "end": 25.16,
+      "text": "可以給阿明點個小愛心嗎",
+      "avg_logprob": -0.19847101018284308,
+      "no_speech_prob": 0.0018699013162404299,
+      "compression_ratio": 1.2934131736526946,
+      "words": [
+        {
+          "start": 23.4,
+          "end": 23.86,
+          "word": "可以",
+          "probability": 0.9805984497070312
+        },
+        {
+          "start": 23.86,
+          "end": 24.02,
+          "word": "給",
+          "probability": 0.9961597919464111
+        },
+        {
+          "start": 24.02,
+          "end": 24.18,
+          "word": "阿",
+          "probability": 0.9984311461448669
+        },
+        {
+          "start": 24.18,
+          "end": 24.34,
+          "word": "明",
+          "probability": 0.9991235136985779
+        },
+        {
+          "start": 24.34,
+          "end": 24.48,
+          "word": "點",
+          "probability": 0.9988718628883362
+        },
+        {
+          "start": 24.48,
+          "end": 24.58,
+          "word": "個",
+          "probability": 0.9903000593185425
+        },
+        {
+          "start": 24.58,
+          "end": 24.72,
+          "word": "小",
+          "probability": 0.9972009658813477
+        },
+        {
+          "start": 24.72,
+          "end": 24.86,
+          "word": "愛",
+          "probability": 0.8763710856437683
+        },
+        {
+          "start": 24.86,
+          "end": 25.02,
+          "word": "心",
+          "probability": 0.9975747466087341
+        },
+        {
+          "start": 25.02,
+          "end": 25.16,
+          "word": "嗎",
+          "probability": 0.8870900273323059
+        }
+      ]
+    }
+  ],
+  "raw_text": "恐怕以後武漢的磁磚師傅就要失業了現在越來越多的武漢業主都在找阿明做威陶尼翻新工藝磁磚不拆不砸直接覆蓋我們的威陶尼做玩笑唯一體無風還省下了一大筆拆除搬運垃圾的費用光人工費就省下好幾萬關鍵是七天完工就能入住不僅防霉防潮還耐沒耐刮用上幾十年都沒問題如果你也喜歡這種翻新方式可以給阿明點個小愛心嗎",
+  "limitations": [
+    "Raw machine transcription, not a verified transcript.",
+    "Mixed speech/music, accents, place names and prices can be wrong.",
+    "ASR timestamps are approximate and are not edit points."
+  ]
+}

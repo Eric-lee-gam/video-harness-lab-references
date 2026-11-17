@@ -1,0 +1,1420 @@
+{
+  "id": "R30",
+  "source_name": "430987935.mov",
+  "duration": 22.615,
+  "status": "completed_with_gaps",
+  "coverage": {
+    "visual_sampling_interval_seconds": 0.5,
+    "visual_reviewed": true,
+    "audio_asr": true,
+    "human_full_listening": false,
+    "full_playback": false
+  },
+  "summary": "兰州“全城女人想嫁”人物花束开头，用其他公司十几万与免费量房/几千至两万对比，穿插施工成品与亲子生活，结尾小爱心。",
+  "opening": {
+    "start": 0,
+    "end": 1.7,
+    "observation": "棕T男子户外持花束和红提袋，首帧叠地域卡",
+    "inference": "花束人设钩子"
+  },
+  "ending": {
+    "start": 21.4,
+    "end": 22.615,
+    "observation": "紫马甲男户外指向楼与树，转身走动",
+    "inference": "收口"
+  },
+  "shots": [
+    {
+      "index": 1,
+      "start": 0,
+      "end": 1.7,
+      "observation": "棕T男子户外持花束和红提袋，首帧叠地域卡",
+      "visible_text": "兰州；兰州旧房翻新；瓷砖不拆不砸换新家；极简风；她就是全兰州女人",
+      "script_relation": "实际画面男子，字幕写她；开头性别代词与人物不一致",
+      "purpose": "花束人设钩子",
+      "cut": "候选切点1.7秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0001.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0003.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0004.jpg"
+      ]
+    },
+    {
+      "index": 2,
+      "start": 1.7,
+      "end": 3.8,
+      "observation": "男子持花走入楼旁，转身露出后背",
+      "visible_text": "都想嫁的；旧房改造大王",
+      "script_relation": "夸张社会认同无事实凭据",
+      "purpose": "完成钩子",
+      "cut": "候选切点3.8秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0005.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0007.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0008.jpg"
+      ]
+    },
+    {
+      "index": 3,
+      "start": 3.8,
+      "end": 4.9,
+      "observation": "模糊室内两人桌边交流",
+      "visible_text": "其他装修公司",
+      "script_relation": "刻意模糊不能确认公司/身份",
+      "purpose": "竞品对照引入",
+      "cut": "候选切点4.9秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0009.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0010.jpg"
+      ]
+    },
+    {
+      "index": 4,
+      "start": 4.9,
+      "end": 5.4,
+      "observation": "模糊手/设备附近一排纸币",
+      "visible_text": "其他装修公司；张口就要十几万",
+      "script_relation": "现金意象不证明报价",
+      "purpose": "高价意象",
+      "cut": "候选切点5.4秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0011.jpg"
+      ]
+    },
+    {
+      "index": 5,
+      "start": 5.4,
+      "end": 6.067,
+      "observation": "模糊桌上多排纸币，黄色十几万放大字",
+      "visible_text": "张口就要十几万；十几万",
+      "script_relation": "费用数字未核",
+      "purpose": "强化价格反差",
+      "cut": "候选切点6.067秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0012.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0013.jpg"
+      ]
+    },
+    {
+      "index": 6,
+      "start": 6.067,
+      "end": 6.867,
+      "observation": "两黑衣新材联服装男子在老楼街巷行走",
+      "visible_text": "他却坚持免费上门量房",
+      "script_relation": "出勤行为可见，不证明免费政策",
+      "purpose": "服务进入",
+      "cut": "候选切点6.867秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0014.jpg"
+      ]
+    },
+    {
+      "index": 7,
+      "start": 6.867,
+      "end": 8.067,
+      "observation": "黑衣男子在旧厨房抬起量尺/工具指向柜墙",
+      "visible_text": "他却坚持免费上门量房；免费上门",
+      "script_relation": "现场测量意象相符，是否免费未核",
+      "purpose": "量房动作",
+      "cut": "候选切点8.067秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0015.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0016.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0017.jpg"
+      ]
+    },
+    {
+      "index": 8,
+      "start": 8.067,
+      "end": 8.8,
+      "observation": "一女子与黑衣男子站窗边抬头看上方",
+      "visible_text": "现场给出合理报价",
+      "script_relation": "检视空间不是报价凭证",
+      "purpose": "客户沟通",
+      "cut": "候选切点8.8秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0018.jpg"
+      ]
+    },
+    {
+      "index": 9,
+      "start": 8.8,
+      "end": 9.467,
+      "observation": "紫马甲两男桌边持纸交流，前景一人拿手机",
+      "visible_text": "现场给出合理报价",
+      "script_relation": "纸张不可读，合理性待具体范围",
+      "purpose": "报价沟通意象",
+      "cut": "候选切点9.467秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0019.jpg"
+      ]
+    },
+    {
+      "index": 10,
+      "start": 9.467,
+      "end": 10.733,
+      "observation": "黑衣男蹲在旧厨房触碰有砖格的地面，穿鞋套",
+      "visible_text": "花个几千到两万",
+      "script_relation": "价格不由地面检查证实",
+      "purpose": "范围/价格主张",
+      "cut": "候选切点10.733秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0020.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0021.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0022.jpg"
+      ]
+    },
+    {
+      "index": 11,
+      "start": 10.733,
+      "end": 12.033,
+      "observation": "居住客厅旧地板、沙发与物件，镜頭面向阳台",
+      "visible_text": "就能把你家的老房子",
+      "script_relation": "真实居住状态可见但不确认费用范围",
+      "purpose": "旧空间",
+      "cut": "候选切点12.033秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0023.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0024.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0025.jpg"
+      ]
+    },
+    {
+      "index": 12,
+      "start": 12.033,
+      "end": 12.8,
+      "observation": "卫生间黑衣工人站桶处理墙面，旧砖下半墙可见",
+      "visible_text": "从这样改成这样",
+      "script_relation": "施工阶段用于前态，不是同机位前后",
+      "purpose": "工艺过渡",
+      "cut": "候选切点12.8秒；人工补漏，精度限0.5秒采样区间",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0026.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R30-12.500.png"
+      ]
+    },
+    {
+      "index": 13,
+      "start": 12.8,
+      "end": 13.233,
+      "observation": "浅色成品浴室、台盆、坐便器与黑花洒",
+      "visible_text": "从这样改成这样",
+      "script_relation": "同户未证；人工补出施工→成品切换",
+      "purpose": "结果揭示",
+      "cut": "候选切点13.233秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0027.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R30-12.850.png"
+      ]
+    },
+    {
+      "index": 14,
+      "start": 13.233,
+      "end": 14.033,
+      "observation": "完成灯带房间，黑衣男走过堆有家具/包装的区域",
+      "visible_text": "他装的房子不仅美观大气",
+      "script_relation": "亮色风格可见，美观为评价",
+      "purpose": "成品补镜",
+      "cut": "候选切点14.033秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0028.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0029.jpg"
+      ]
+    },
+    {
+      "index": 15,
+      "start": 14.033,
+      "end": 15.2,
+      "observation": "主观手指向石纹岛台/餐台，顶部椭圆灯带",
+      "visible_text": "他装的房子不仅美观大气",
+      "script_relation": "更换空间形态，不能当连续漫游",
+      "purpose": "美观结果",
+      "cut": "候选切点15.2秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0030.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0031.jpg"
+      ]
+    },
+    {
+      "index": 16,
+      "start": 15.2,
+      "end": 16.1,
+      "observation": "新材联黑衣男在街巷提两桶材料",
+      "visible_text": "用的也都是环保材料",
+      "script_relation": "桶外观不证明环保",
+      "purpose": "材料声称引入",
+      "cut": "候选切点16.1秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0032.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0033.jpg"
+      ]
+    },
+    {
+      "index": 17,
+      "start": 16.1,
+      "end": 16.833,
+      "observation": "手戴手套抹白色墙料特写，环保材料放大字",
+      "visible_text": "用的也都是环保材料；环保材料",
+      "script_relation": "施工不证明成分环保指标",
+      "purpose": "材料动作",
+      "cut": "候选切点16.833秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0034.jpg"
+      ]
+    },
+    {
+      "index": 18,
+      "start": 16.833,
+      "end": 17.667,
+      "observation": "黑衣男向儿童展示纸张，后方为施工卫生间",
+      "visible_text": "大人小孩都可以放心住",
+      "script_relation": "儿童入镜不是入住安全证明；纸张不可读",
+      "purpose": "安心生活声称",
+      "cut": "候选切点17.667秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0035.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0036.jpg"
+      ]
+    },
+    {
+      "index": 19,
+      "start": 17.667,
+      "end": 18.567,
+      "observation": "粉衣儿童在室内悬绳上玩耍，家具和拱形装饰",
+      "visible_text": "大人小孩都可以放心住",
+      "script_relation": "生活画面不证明环保检测",
+      "purpose": "生活结果",
+      "cut": "候选切点18.567秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0037.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0038.jpg"
+      ]
+    },
+    {
+      "index": 20,
+      "start": 18.567,
+      "end": 19.267,
+      "observation": "女子从门口走向黑衣工作人员",
+      "visible_text": "如果你看到这条视频",
+      "script_relation": "上门沟通意象",
+      "purpose": "转互动",
+      "cut": "候选切点19.267秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0039.jpg"
+      ]
+    },
+    {
+      "index": 21,
+      "start": 19.267,
+      "end": 20.033,
+      "observation": "女子在厨房看两黑衣男子指向上方柜体",
+      "visible_text": "如果你看到这条视频",
+      "script_relation": "跨角度服务展示",
+      "purpose": "服务密度",
+      "cut": "候选切点20.033秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0040.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0041.jpg"
+      ]
+    },
+    {
+      "index": 22,
+      "start": 20.033,
+      "end": 21.4,
+      "observation": "团队与两位年长者桌边看纸，红心图标叠加",
+      "visible_text": "请给我点一个小爱心",
+      "script_relation": "资料不可读，红心为互动视觉",
+      "purpose": "请求点赞",
+      "cut": "候选切点21.4秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0042.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0043.jpg"
+      ]
+    },
+    {
+      "index": 23,
+      "start": 21.4,
+      "end": 22.615,
+      "observation": "紫马甲男户外指向楼与树，转身走动",
+      "visible_text": "以后一定用得上",
+      "script_relation": "结束延后需求提醒，地点不能自证兰州",
+      "purpose": "收口",
+      "cut": "候选切点22.615秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0044.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0045.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\timeline\\frame_0046.jpg"
+      ]
+    }
+  ],
+  "structure": "花束夸张人物→模糊竞品现金→团队免费量房报价→几千至两万→旧空间/施工/成品→环保与孩子→服务人物→点赞。价格对照段约0.5至1.1秒短切，动作+结果交替；未核声音节奏。",
+  "comparison": {
+    "observation": "12.033–13.233含施工到成品的漏检变化，人工约12.8秒补分；旧卫生间与成品未有固定机位或工程映射，不确认真实前后同户。",
+    "verified_same_space": false,
+    "uncertainty": "未取得原始同户项目映射；成品与施工画面不能证明同一空间或施工周期。"
+  },
+  "sound": {
+    "asr_path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\asr.json",
+    "observation": null,
+    "uncertainty": "本地机器识别，未人工全轨试听；声音类别、曲名、BPM及声画卡点未经听辨，不作结论。",
+    "asr_caption_discrepancies": [
+      "ASR它/架/粮房，画面她/嫁/量房；画面“她就是”本身与男主有代词差异。",
+      "ASR完整转写的几千到两万，与字幕范围一致，仅记录参考声称。"
+    ],
+    "machine_alignment_evidence": [
+      {
+        "candidate_cut": 1.7,
+        "segment_start": 0.0,
+        "segment_end": 3.7,
+        "raw_asr_text": "它就是全兰州女人都想架的旧房改造大王"
+      },
+      {
+        "candidate_cut": 3.8,
+        "segment_start": 3.7,
+        "segment_end": 5.92,
+        "raw_asr_text": "其他装修公司张口就要十几万"
+      },
+      {
+        "candidate_cut": 4.9,
+        "segment_start": 3.7,
+        "segment_end": 5.92,
+        "raw_asr_text": "其他装修公司张口就要十几万"
+      },
+      {
+        "candidate_cut": 5.4,
+        "segment_start": 3.7,
+        "segment_end": 5.92,
+        "raw_asr_text": "其他装修公司张口就要十几万"
+      },
+      {
+        "candidate_cut": 6.067,
+        "segment_start": 5.92,
+        "segment_end": 7.96,
+        "raw_asr_text": "它却坚持免费上门粮房"
+      },
+      {
+        "candidate_cut": 6.867,
+        "segment_start": 5.92,
+        "segment_end": 7.96,
+        "raw_asr_text": "它却坚持免费上门粮房"
+      },
+      {
+        "candidate_cut": 8.067,
+        "segment_start": 7.96,
+        "segment_end": 9.4,
+        "raw_asr_text": "现场给出合理报价"
+      },
+      {
+        "candidate_cut": 8.8,
+        "segment_start": 7.96,
+        "segment_end": 9.4,
+        "raw_asr_text": "现场给出合理报价"
+      },
+      {
+        "candidate_cut": 9.467,
+        "segment_start": 9.4,
+        "segment_end": 10.6,
+        "raw_asr_text": "花个几千到两万"
+      },
+      {
+        "candidate_cut": 10.733,
+        "segment_start": 10.6,
+        "segment_end": 13.08,
+        "raw_asr_text": "就能把你家的老房子从这样改成这样"
+      },
+      {
+        "candidate_cut": 12.033,
+        "segment_start": 10.6,
+        "segment_end": 13.08,
+        "raw_asr_text": "就能把你家的老房子从这样改成这样"
+      },
+      {
+        "candidate_cut": 12.8,
+        "segment_start": 10.6,
+        "segment_end": 13.08,
+        "raw_asr_text": "就能把你家的老房子从这样改成这样"
+      },
+      {
+        "candidate_cut": 13.233,
+        "segment_start": 13.08,
+        "segment_end": 15.12,
+        "raw_asr_text": "它装的房子不仅美观大气"
+      },
+      {
+        "candidate_cut": 14.033,
+        "segment_start": 13.08,
+        "segment_end": 15.12,
+        "raw_asr_text": "它装的房子不仅美观大气"
+      },
+      {
+        "candidate_cut": 15.2,
+        "segment_start": 15.12,
+        "segment_end": 16.74,
+        "raw_asr_text": "用的也都是环保材料"
+      },
+      {
+        "candidate_cut": 16.1,
+        "segment_start": 15.12,
+        "segment_end": 16.74,
+        "raw_asr_text": "用的也都是环保材料"
+      },
+      {
+        "candidate_cut": 16.833,
+        "segment_start": 16.74,
+        "segment_end": 18.48,
+        "raw_asr_text": "大人小孩都可以放心住"
+      },
+      {
+        "candidate_cut": 17.667,
+        "segment_start": 16.74,
+        "segment_end": 18.48,
+        "raw_asr_text": "大人小孩都可以放心住"
+      },
+      {
+        "candidate_cut": 18.567,
+        "segment_start": 18.48,
+        "segment_end": 19.88,
+        "raw_asr_text": "如果你看到这条视频"
+      },
+      {
+        "candidate_cut": 19.267,
+        "segment_start": 18.48,
+        "segment_end": 19.88,
+        "raw_asr_text": "如果你看到这条视频"
+      },
+      {
+        "candidate_cut": 20.033,
+        "segment_start": 19.88,
+        "segment_end": 21.28,
+        "raw_asr_text": "请给我点一个小爱心"
+      },
+      {
+        "candidate_cut": 21.4,
+        "segment_start": 21.28,
+        "segment_end": 22.46,
+        "raw_asr_text": "以后一定用得上"
+      }
+    ],
+    "alignment_note": "只比较机器ASR句段与候选画面切点的时间重合，不证明无停顿、声音桥接自然、节拍卡点或音效同步。"
+  },
+  "applicability": [
+    "同城旧房翻新工艺介绍；仅借鉴叙事与取景，不照搬未核实的性能、报价或工期"
+  ],
+  "uncertainties": [
+    "机器ASR有材料名、地名和同音字误识；保留原文，可见字幕另记，不把字幕当听到的声音。",
+    "0.5秒采样可能遗漏短镜头、动作和字幕；切点为候选或约值，非全片实播逐帧审核。",
+    "价格、工期、性能和占比仅为参考片表达，未核实业务适用性。",
+    "无平台原始效果数据，不能证明这些特征导致爆款。",
+    "补帧使用select>=请求时刻的第一源帧；请求时间不是逐帧测定切点。"
+  ],
+  "rule_candidates": [
+    {
+      "agent": "ScriptAgent",
+      "rule": "人物夸张开头要检查性别代词与画面一致",
+      "example_time": "R30 0.00–1.700",
+      "condition": "字幕她而画面为男子",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "ReviewAgent",
+      "rule": "模糊现金意象不能充当竞品报价证据",
+      "example_time": "R30 3.800–6.067",
+      "condition": "有竞争报价比较",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "ShotAgent",
+      "rule": "儿童生活镜只作场景，不替代环保材料检测",
+      "example_time": "R30 16.833–18.567",
+      "condition": "涉及儿童可入住/环保声称",
+      "evidence_level": "inference"
+    }
+  ],
+  "visual_review_receipt": {
+    "all_contact_pages_reviewed": [
+      "contacts-01.jpg",
+      "contacts-02.jpg",
+      "contacts-03.jpg"
+    ],
+    "shots_contact_reviewed": true,
+    "continuous_playback_verified": false
+  },
+  "supplemental_visual_evidence": [
+    {
+      "id": "R30",
+      "requested_time": 12.5,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R30-12.500.png",
+      "exists": true,
+      "note": "select选择>=请求时间的第一解码帧；边界仍为近似"
+    },
+    {
+      "id": "R30",
+      "requested_time": 12.85,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R30-12.850.png",
+      "exists": true,
+      "note": "select选择>=请求时间的第一解码帧；边界仍为近似"
+    }
+  ],
+  "asr_segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 3.7,
+      "text": "它就是全兰州女人都想架的旧房改造大王",
+      "avg_logprob": -0.13283356012038464,
+      "no_speech_prob": 0.042729075998067856,
+      "compression_ratio": 1.27,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.26,
+          "word": "它",
+          "probability": 0.5531097650527954
+        },
+        {
+          "start": 0.26,
+          "end": 0.52,
+          "word": "就是",
+          "probability": 0.975686252117157
+        },
+        {
+          "start": 0.52,
+          "end": 0.76,
+          "word": "全",
+          "probability": 0.8503730893135071
+        },
+        {
+          "start": 0.76,
+          "end": 0.98,
+          "word": "兰",
+          "probability": 0.7443642616271973
+        },
+        {
+          "start": 0.98,
+          "end": 1.18,
+          "word": "州",
+          "probability": 0.9249138832092285
+        },
+        {
+          "start": 1.18,
+          "end": 1.38,
+          "word": "女",
+          "probability": 0.9786544442176819
+        },
+        {
+          "start": 1.38,
+          "end": 1.58,
+          "word": "人",
+          "probability": 0.9929452538490295
+        },
+        {
+          "start": 1.58,
+          "end": 1.76,
+          "word": "都",
+          "probability": 0.9934282898902893
+        },
+        {
+          "start": 1.76,
+          "end": 2.0,
+          "word": "想",
+          "probability": 0.993583619594574
+        },
+        {
+          "start": 2.0,
+          "end": 2.24,
+          "word": "架",
+          "probability": 0.7827946543693542
+        },
+        {
+          "start": 2.24,
+          "end": 2.4,
+          "word": "的",
+          "probability": 0.9877598881721497
+        },
+        {
+          "start": 2.4,
+          "end": 2.66,
+          "word": "旧",
+          "probability": 0.7266526967287064
+        },
+        {
+          "start": 2.66,
+          "end": 2.94,
+          "word": "房",
+          "probability": 0.9498346447944641
+        },
+        {
+          "start": 2.94,
+          "end": 3.18,
+          "word": "改",
+          "probability": 0.9832624197006226
+        },
+        {
+          "start": 3.18,
+          "end": 3.36,
+          "word": "造",
+          "probability": 0.9979721903800964
+        },
+        {
+          "start": 3.36,
+          "end": 3.52,
+          "word": "大",
+          "probability": 0.9899936318397522
+        },
+        {
+          "start": 3.52,
+          "end": 3.7,
+          "word": "王",
+          "probability": 0.9930282235145569
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 3.7,
+      "end": 5.92,
+      "text": "其他装修公司张口就要十几万",
+      "avg_logprob": -0.13283356012038464,
+      "no_speech_prob": 0.042729075998067856,
+      "compression_ratio": 1.27,
+      "words": [
+        {
+          "start": 3.7,
+          "end": 3.96,
+          "word": "其",
+          "probability": 0.8979557156562805
+        },
+        {
+          "start": 3.96,
+          "end": 4.1,
+          "word": "他",
+          "probability": 0.9087505340576172
+        },
+        {
+          "start": 4.1,
+          "end": 4.26,
+          "word": "装",
+          "probability": 0.936844140291214
+        },
+        {
+          "start": 4.26,
+          "end": 4.36,
+          "word": "修",
+          "probability": 0.9998944103717804
+        },
+        {
+          "start": 4.36,
+          "end": 4.52,
+          "word": "公",
+          "probability": 0.9942597150802612
+        },
+        {
+          "start": 4.52,
+          "end": 4.76,
+          "word": "司",
+          "probability": 0.9995185136795044
+        },
+        {
+          "start": 4.76,
+          "end": 5.02,
+          "word": "张",
+          "probability": 0.7671030163764954
+        },
+        {
+          "start": 5.02,
+          "end": 5.24,
+          "word": "口",
+          "probability": 0.9947525262832642
+        },
+        {
+          "start": 5.24,
+          "end": 5.36,
+          "word": "就",
+          "probability": 0.9617008566856384
+        },
+        {
+          "start": 5.36,
+          "end": 5.46,
+          "word": "要",
+          "probability": 0.9885030388832092
+        },
+        {
+          "start": 5.46,
+          "end": 5.66,
+          "word": "十",
+          "probability": 0.9245032668113708
+        },
+        {
+          "start": 5.66,
+          "end": 5.8,
+          "word": "几",
+          "probability": 0.9876330196857452
+        },
+        {
+          "start": 5.8,
+          "end": 5.92,
+          "word": "万",
+          "probability": 0.9958971738815308
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 5.92,
+      "end": 7.96,
+      "text": "它却坚持免费上门粮房",
+      "avg_logprob": -0.13283356012038464,
+      "no_speech_prob": 0.042729075998067856,
+      "compression_ratio": 1.27,
+      "words": [
+        {
+          "start": 5.92,
+          "end": 6.2,
+          "word": "它",
+          "probability": 0.3450284004211426
+        },
+        {
+          "start": 6.2,
+          "end": 6.4,
+          "word": "却",
+          "probability": 0.9920042157173157
+        },
+        {
+          "start": 6.4,
+          "end": 6.58,
+          "word": "坚",
+          "probability": 0.992144912481308
+        },
+        {
+          "start": 6.58,
+          "end": 6.76,
+          "word": "持",
+          "probability": 0.9986370205879211
+        },
+        {
+          "start": 6.76,
+          "end": 7.0,
+          "word": "免",
+          "probability": 0.9917604625225067
+        },
+        {
+          "start": 7.0,
+          "end": 7.2,
+          "word": "费",
+          "probability": 0.9996258020401001
+        },
+        {
+          "start": 7.2,
+          "end": 7.38,
+          "word": "上",
+          "probability": 0.9966291785240173
+        },
+        {
+          "start": 7.38,
+          "end": 7.56,
+          "word": "门",
+          "probability": 0.998259037733078
+        },
+        {
+          "start": 7.56,
+          "end": 7.7,
+          "word": "粮",
+          "probability": 0.6742384135723114
+        },
+        {
+          "start": 7.7,
+          "end": 7.96,
+          "word": "房",
+          "probability": 0.9834184050559998
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 7.96,
+      "end": 9.4,
+      "text": "现场给出合理报价",
+      "avg_logprob": -0.13283356012038464,
+      "no_speech_prob": 0.042729075998067856,
+      "compression_ratio": 1.27,
+      "words": [
+        {
+          "start": 7.96,
+          "end": 8.26,
+          "word": "现",
+          "probability": 0.8790673017501831
+        },
+        {
+          "start": 8.26,
+          "end": 8.48,
+          "word": "场",
+          "probability": 0.9913409352302551
+        },
+        {
+          "start": 8.48,
+          "end": 8.6,
+          "word": "给",
+          "probability": 0.9922041893005371
+        },
+        {
+          "start": 8.6,
+          "end": 8.76,
+          "word": "出",
+          "probability": 0.9986190795898438
+        },
+        {
+          "start": 8.76,
+          "end": 8.92,
+          "word": "合",
+          "probability": 0.9634244441986084
+        },
+        {
+          "start": 8.92,
+          "end": 9.04,
+          "word": "理",
+          "probability": 0.9925137162208557
+        },
+        {
+          "start": 9.04,
+          "end": 9.14,
+          "word": "报",
+          "probability": 0.9338130354881287
+        },
+        {
+          "start": 9.14,
+          "end": 9.4,
+          "word": "价",
+          "probability": 0.9837191104888916
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 9.4,
+      "end": 10.6,
+      "text": "花个几千到两万",
+      "avg_logprob": -0.13283356012038464,
+      "no_speech_prob": 0.042729075998067856,
+      "compression_ratio": 1.27,
+      "words": [
+        {
+          "start": 9.4,
+          "end": 9.58,
+          "word": "花",
+          "probability": 0.9803518652915955
+        },
+        {
+          "start": 9.58,
+          "end": 9.76,
+          "word": "个",
+          "probability": 0.9184156060218811
+        },
+        {
+          "start": 9.76,
+          "end": 9.9,
+          "word": "几",
+          "probability": 0.9990235865116119
+        },
+        {
+          "start": 9.9,
+          "end": 10.06,
+          "word": "千",
+          "probability": 0.9986853003501892
+        },
+        {
+          "start": 10.06,
+          "end": 10.2,
+          "word": "到",
+          "probability": 0.9743354320526123
+        },
+        {
+          "start": 10.2,
+          "end": 10.4,
+          "word": "两",
+          "probability": 0.9041007161140442
+        },
+        {
+          "start": 10.4,
+          "end": 10.6,
+          "word": "万",
+          "probability": 0.9993220567703247
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 10.6,
+      "end": 13.08,
+      "text": "就能把你家的老房子从这样改成这样",
+      "avg_logprob": -0.13283356012038464,
+      "no_speech_prob": 0.042729075998067856,
+      "compression_ratio": 1.27,
+      "words": [
+        {
+          "start": 10.6,
+          "end": 10.78,
+          "word": "就",
+          "probability": 0.9602967500686646
+        },
+        {
+          "start": 10.78,
+          "end": 10.9,
+          "word": "能",
+          "probability": 0.9990478157997131
+        },
+        {
+          "start": 10.9,
+          "end": 11.04,
+          "word": "把",
+          "probability": 0.9975548386573792
+        },
+        {
+          "start": 11.04,
+          "end": 11.2,
+          "word": "你",
+          "probability": 0.9960837364196777
+        },
+        {
+          "start": 11.2,
+          "end": 11.34,
+          "word": "家",
+          "probability": 0.9951536655426025
+        },
+        {
+          "start": 11.34,
+          "end": 11.44,
+          "word": "的",
+          "probability": 0.9847437739372253
+        },
+        {
+          "start": 11.44,
+          "end": 11.56,
+          "word": "老",
+          "probability": 0.998737633228302
+        },
+        {
+          "start": 11.56,
+          "end": 11.76,
+          "word": "房",
+          "probability": 0.9984090924263
+        },
+        {
+          "start": 11.76,
+          "end": 11.96,
+          "word": "子",
+          "probability": 0.9995230436325073
+        },
+        {
+          "start": 11.96,
+          "end": 12.18,
+          "word": "从",
+          "probability": 0.9803553819656372
+        },
+        {
+          "start": 12.18,
+          "end": 12.46,
+          "word": "这样",
+          "probability": 0.995624840259552
+        },
+        {
+          "start": 12.46,
+          "end": 12.66,
+          "word": "改",
+          "probability": 0.9872376918792725
+        },
+        {
+          "start": 12.66,
+          "end": 12.82,
+          "word": "成",
+          "probability": 0.9991666078567505
+        },
+        {
+          "start": 12.82,
+          "end": 13.08,
+          "word": "这样",
+          "probability": 0.997068464756012
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 13.08,
+      "end": 15.12,
+      "text": "它装的房子不仅美观大气",
+      "avg_logprob": -0.13283356012038464,
+      "no_speech_prob": 0.042729075998067856,
+      "compression_ratio": 1.27,
+      "words": [
+        {
+          "start": 13.08,
+          "end": 13.38,
+          "word": "它",
+          "probability": 0.5122097134590149
+        },
+        {
+          "start": 13.38,
+          "end": 13.54,
+          "word": "装",
+          "probability": 0.9959496259689331
+        },
+        {
+          "start": 13.54,
+          "end": 13.64,
+          "word": "的",
+          "probability": 0.9969801306724548
+        },
+        {
+          "start": 13.64,
+          "end": 13.78,
+          "word": "房",
+          "probability": 0.998711347579956
+        },
+        {
+          "start": 13.78,
+          "end": 13.96,
+          "word": "子",
+          "probability": 0.9978869557380676
+        },
+        {
+          "start": 13.96,
+          "end": 14.12,
+          "word": "不",
+          "probability": 0.9885469675064087
+        },
+        {
+          "start": 14.12,
+          "end": 14.28,
+          "word": "仅",
+          "probability": 0.9925525188446045
+        },
+        {
+          "start": 14.28,
+          "end": 14.46,
+          "word": "美",
+          "probability": 0.6183173060417175
+        },
+        {
+          "start": 14.46,
+          "end": 14.66,
+          "word": "观",
+          "probability": 0.9494079351425171
+        },
+        {
+          "start": 14.66,
+          "end": 14.88,
+          "word": "大",
+          "probability": 0.9801738262176514
+        },
+        {
+          "start": 14.88,
+          "end": 15.12,
+          "word": "气",
+          "probability": 0.8566628694534302
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 15.12,
+      "end": 16.74,
+      "text": "用的也都是环保材料",
+      "avg_logprob": -0.13283356012038464,
+      "no_speech_prob": 0.042729075998067856,
+      "compression_ratio": 1.27,
+      "words": [
+        {
+          "start": 15.12,
+          "end": 15.38,
+          "word": "用",
+          "probability": 0.947335422039032
+        },
+        {
+          "start": 15.38,
+          "end": 15.6,
+          "word": "的",
+          "probability": 0.9890304207801819
+        },
+        {
+          "start": 15.6,
+          "end": 15.8,
+          "word": "也",
+          "probability": 0.9595345258712769
+        },
+        {
+          "start": 15.8,
+          "end": 16.0,
+          "word": "都是",
+          "probability": 0.9949702620506287
+        },
+        {
+          "start": 16.0,
+          "end": 16.22,
+          "word": "环",
+          "probability": 0.9900075197219849
+        },
+        {
+          "start": 16.22,
+          "end": 16.4,
+          "word": "保",
+          "probability": 0.9815892577171326
+        },
+        {
+          "start": 16.4,
+          "end": 16.58,
+          "word": "材",
+          "probability": 0.9949510395526886
+        },
+        {
+          "start": 16.58,
+          "end": 16.74,
+          "word": "料",
+          "probability": 0.9998940229415894
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 16.74,
+      "end": 18.48,
+      "text": "大人小孩都可以放心住",
+      "avg_logprob": -0.13283356012038464,
+      "no_speech_prob": 0.042729075998067856,
+      "compression_ratio": 1.27,
+      "words": [
+        {
+          "start": 16.74,
+          "end": 16.92,
+          "word": "大",
+          "probability": 0.9626550674438477
+        },
+        {
+          "start": 16.92,
+          "end": 17.1,
+          "word": "人",
+          "probability": 0.999259889125824
+        },
+        {
+          "start": 17.1,
+          "end": 17.3,
+          "word": "小",
+          "probability": 0.8597373962402344
+        },
+        {
+          "start": 17.3,
+          "end": 17.52,
+          "word": "孩",
+          "probability": 0.995381772518158
+        },
+        {
+          "start": 17.52,
+          "end": 17.74,
+          "word": "都",
+          "probability": 0.9555811285972595
+        },
+        {
+          "start": 17.74,
+          "end": 17.96,
+          "word": "可以",
+          "probability": 0.9977091550827026
+        },
+        {
+          "start": 17.96,
+          "end": 18.24,
+          "word": "放心",
+          "probability": 0.9929366707801819
+        },
+        {
+          "start": 18.24,
+          "end": 18.48,
+          "word": "住",
+          "probability": 0.9906170964241028
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 18.48,
+      "end": 19.88,
+      "text": "如果你看到这条视频",
+      "avg_logprob": -0.13283356012038464,
+      "no_speech_prob": 0.042729075998067856,
+      "compression_ratio": 1.27,
+      "words": [
+        {
+          "start": 18.48,
+          "end": 18.74,
+          "word": "如果",
+          "probability": 0.9810865521430969
+        },
+        {
+          "start": 18.74,
+          "end": 19.1,
+          "word": "你看",
+          "probability": 0.9945076107978821
+        },
+        {
+          "start": 19.1,
+          "end": 19.26,
+          "word": "到",
+          "probability": 0.9921408891677856
+        },
+        {
+          "start": 19.26,
+          "end": 19.38,
+          "word": "这",
+          "probability": 0.9870977997779846
+        },
+        {
+          "start": 19.38,
+          "end": 19.5,
+          "word": "条",
+          "probability": 0.9929541945457458
+        },
+        {
+          "start": 19.5,
+          "end": 19.64,
+          "word": "视",
+          "probability": 0.9965466856956482
+        },
+        {
+          "start": 19.64,
+          "end": 19.88,
+          "word": "频",
+          "probability": 0.9990952014923096
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 19.88,
+      "end": 21.28,
+      "text": "请给我点一个小爱心",
+      "avg_logprob": -0.13283356012038464,
+      "no_speech_prob": 0.042729075998067856,
+      "compression_ratio": 1.27,
+      "words": [
+        {
+          "start": 19.88,
+          "end": 20.16,
+          "word": "请",
+          "probability": 0.990648090839386
+        },
+        {
+          "start": 20.16,
+          "end": 20.44,
+          "word": "给我",
+          "probability": 0.9955949187278748
+        },
+        {
+          "start": 20.44,
+          "end": 20.62,
+          "word": "点",
+          "probability": 0.9984240531921387
+        },
+        {
+          "start": 20.62,
+          "end": 20.78,
+          "word": "一个",
+          "probability": 0.9860857725143433
+        },
+        {
+          "start": 20.78,
+          "end": 20.96,
+          "word": "小",
+          "probability": 0.9931561350822449
+        },
+        {
+          "start": 20.96,
+          "end": 21.08,
+          "word": "爱",
+          "probability": 0.612843930721283
+        },
+        {
+          "start": 21.08,
+          "end": 21.28,
+          "word": "心",
+          "probability": 0.966021716594696
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 21.28,
+      "end": 22.46,
+      "text": "以后一定用得上",
+      "avg_logprob": -0.13283356012038464,
+      "no_speech_prob": 0.042729075998067856,
+      "compression_ratio": 1.27,
+      "words": [
+        {
+          "start": 21.28,
+          "end": 21.52,
+          "word": "以",
+          "probability": 0.936117947101593
+        },
+        {
+          "start": 21.52,
+          "end": 21.68,
+          "word": "后",
+          "probability": 0.9987068176269531
+        },
+        {
+          "start": 21.68,
+          "end": 21.98,
+          "word": "一定",
+          "probability": 0.9910703897476196
+        },
+        {
+          "start": 21.98,
+          "end": 22.24,
+          "word": "用",
+          "probability": 0.993327260017395
+        },
+        {
+          "start": 22.24,
+          "end": 22.34,
+          "word": "得",
+          "probability": 0.9079194068908691
+        },
+        {
+          "start": 22.34,
+          "end": 22.46,
+          "word": "上",
+          "probability": 0.9974390268325806
+        }
+      ]
+    }
+  ],
+  "timing_summary": {
+    "recorded_segment_count": 23,
+    "median_seconds": 0.834,
+    "min_seconds": 0.433,
+    "max_seconds": 2.1,
+    "boundary_status": "候选检测加采样观察修订，非逐帧实播核验；语义分段不等于镜头数"
+  },
+  "evidence_path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\evidence.json",
+  "updated_at": "2026-10-01T13:19:16.093450+08:00"
+}

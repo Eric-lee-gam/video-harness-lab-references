@@ -1,0 +1,77 @@
+{
+  "rows": [
+    {
+      "id": "8396663f27d1c50887fc0c1223362084",
+      "name": "34192_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "中南新宛东区九栋（上罩面）/1/34192_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\中南新宛东区九栋（上罩面）\\1\\34192_小区场景.MOV",
+      "duration": 20.003333,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\8396663f27d1c50887fc0c1223362084.jpg",
+      "start": 2,
+      "end": 8,
+      "ratio": 0.5625
+    },
+    {
+      "id": "c014b75189e479591587904c16d1930c",
+      "name": "34210_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "中南新宛东区九栋（上罩面）/1/34210_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\中南新宛东区九栋（上罩面）\\1\\34210_小区场景.MOV",
+      "duration": 12.26,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\c014b75189e479591587904c16d1930c.jpg",
+      "start": 2,
+      "end": 8,
+      "ratio": 0.5625
+    },
+    {
+      "id": "c3de5ec99609c2be89304d574a55f902",
+      "name": "34225_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "中南新宛东区九栋（上罩面）/1/34225_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\中南新宛东区九栋（上罩面）\\1\\34225_小区场景.MOV",
+      "duration": 6.106667,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\c3de5ec99609c2be89304d574a55f902.jpg",
+      "start": 1.52666675,
+      "end": 6.106667,
+      "ratio": 0.5625
+    },
+    {
+      "id": "fea4c6d6780015ed251e9c3aa5e69ea5",
+      "name": "18090_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "博学仕府（地面液态陶泥）/施工/18090_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\博学仕府（地面液态陶泥）\\施工\\18090_小区场景.MOV",
+      "duration": 12.858333,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\fea4c6d6780015ed251e9c3aa5e69ea5.jpg",
+      "start": 2,
+      "end": 8,
+      "ratio": 0.5625
+    },
+    {
+      "id": "f8e1e41bb5a65cd070a9b35b26cc106a",
+      "name": "18093_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "博学仕府（地面液态陶泥）/施工/18093_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\博学仕府（地面液态陶泥）\\施工\\18093_小区场景.MOV",
+      "duration": 38.321667,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\f8e1e41bb5a65cd070a9b35b26cc106a.jpg",
+      "start": 2,
+      "end": 8,
+      "ratio": 0.5625
+    },
+    {
+      "id": "13aaed626537cda242182f372e7565dc",
+      "name": "18096_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "博学仕府（地面液态陶泥）/施工/18096_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\博学仕府（地面液态陶泥）\\施工\\18096_小区场景.MOV",
+      "duration": 44.016667,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\13aaed626537cda242182f372e7565dc.jpg",
+      "start": 2,
+      "end": 8,
+      "ratio": 0.5625
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,44 @@
+{
+  "reference_id": "R26",
+  "source": "C:\\Users\\leega\\Desktop\\爆款视频模板库\\2911935082.mov",
+  "source_sha256": "4c7ddc7aa0f68220064fe416533a3d678a419e72a92bc7b1a1fc864e22f166ad",
+  "source_size_bytes": 4351675,
+  "source_modified_ns": 1790830373685384600,
+  "manifest_matches": true,
+  "source_guard_after": true,
+  "source_read_only": true,
+  "uploaded": false,
+  "started_at": "2026-10-01T13:01:12.258413+08:00",
+  "completed_at": "2026-10-01T13:01:16.486657+08:00",
+  "full_audio_video_decode": {
+    "status": "passed",
+    "exit_code": 0,
+    "method": "ffmpeg -xerror decode all video/audio streams to null",
+    "log": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\decode.log"
+  },
+  "audio_extraction": {
+    "sample_rate": 16000,
+    "channels": 1,
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\audio.wav"
+  },
+  "shot_candidates": {
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\shots.json",
+    "count": 13,
+    "human_boundary_verified": false,
+    "detector_script": "C:\\Users\\leega\\.codex\\skills\\video-shot-analysis-feishu\\scripts\\extract_shots.py",
+    "script_sha256": "3c350b61de81aafc030865eb4cda3461acf8a1dbf1e37192eca16931cb773eb1",
+    "threshold": 0.22,
+    "min_gap": 0.25
+  },
+  "timeline": {
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\timeline.json",
+    "frame_count": 45,
+    "interval_seconds": 0.5,
+    "covers_continuous_playback": false
+  },
+  "limitations": [
+    "Full decode proves structural readability, not human watching/listening.",
+    "Scene detection boundaries are candidates and can miss cuts or oversegment.",
+    "Timeline images sample frames and cannot alone prove motion or sound."
+  ]
+}

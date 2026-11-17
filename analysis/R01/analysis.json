@@ -1,0 +1,1649 @@
+{
+  "id": "R01",
+  "source_name": "1249906767.mov",
+  "duration": 30.881,
+  "status": "completed_with_gaps",
+  "coverage": {
+    "visual_sampling_interval_seconds": 0.5,
+    "visual_reviewed": true,
+    "audio_asr": true,
+    "human_full_listening": false,
+    "full_playback": false
+  },
+  "summary": "真人价格钩子→同城现场→低拆改方案→施工/效果→功能演示→点赞。拆砸反例出现在“不拆不砸”附近，功能演示与工期承诺的证据强度不同。",
+  "opening": {
+    "start": 0,
+    "end": 4.8,
+    "observation": "真人户外手势，价格和厨卫范围字幕；首帧有城市封面",
+    "inference": "先给成本和服务范围，再交代现场，适用于真人同城方案介绍"
+  },
+  "ending": {
+    "start": 27.467,
+    "end": 30.881,
+    "observation": "旧/新卫生间后返回人物，字幕请求点赞并配心形贴图",
+    "inference": "视觉结果之后回到人物完成互动，未形成留资CTA"
+  },
+  "shots": [
+    {
+      "index": 1,
+      "start": 0,
+      "end": 4.8,
+      "observation": "室外白衣男子向镜头抬手，后方楼房；首帧另有人像贴图和封面字",
+      "visible_text": "坐标 宜昌／不到1万块钱／翻新一个厨房和卫生间",
+      "script_relation": "ASR 0-2.18价格与范围；2.54-4.68现场介绍",
+      "purpose": "价格与现场人物建立开头",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0001.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0006.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0010.jpg"
+      ]
+    },
+    {
+      "index": 2,
+      "start": 4.8,
+      "end": 6.1,
+      "observation": "室内白衣男子与一名年长女子同框",
+      "visible_text": "在宜昌90%的人还不知道",
+      "script_relation": "对应ASR占比说法，但同框不证明客户或亲属关系",
+      "purpose": "从户外转入现场关系",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0011.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0012.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0013.jpg"
+      ]
+    },
+    {
+      "index": 3,
+      "start": 6.1,
+      "end": 7.233,
+      "observation": "棕衣男子蹲在浅色地面旁",
+      "visible_text": "在宜昌90%的人还不知道",
+      "script_relation": "句子跨切镜延续",
+      "purpose": "现场讲解承接",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0014.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0015.jpg"
+      ]
+    },
+    {
+      "index": 4,
+      "start": 7.233,
+      "end": 7.867,
+      "observation": "男子持工具拆墙，碎料落在地面",
+      "visible_text": "不拆不砸",
+      "script_relation": "否定文案搭拆砸画面，是反例；不能当直改证明",
+      "purpose": "短反例制造方案对照",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0016.jpg"
+      ]
+    },
+    {
+      "index": 5,
+      "start": 7.867,
+      "end": 8.733,
+      "observation": "黑衣男子在施工空间正对镜头，后方有人施工",
+      "visible_text": "不到1万块钱／快速翻新厨房和卫生间",
+      "script_relation": "价格口播与人物说明对应，画面无价格证明",
+      "purpose": "回到方案",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0017.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0018.jpg"
+      ]
+    },
+    {
+      "index": 6,
+      "start": 8.733,
+      "end": 9.733,
+      "observation": "浅色成品厨房全景，橱柜水槽及窗",
+      "visible_text": "快速翻新厨房和卫生间",
+      "script_relation": "厨房类别对应",
+      "purpose": "预览结果",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0019.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0020.jpg"
+      ]
+    },
+    {
+      "index": 7,
+      "start": 9.733,
+      "end": 10.633,
+      "observation": "浅色成品卫生间，浴缸与窗",
+      "visible_text": "快速翻新厨房和卫生间／就是这款微陶泥",
+      "script_relation": "卫生间类别对应；材料身份单靠成品不可验证",
+      "purpose": "第二结果类别",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0021.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0022.jpg"
+      ]
+    },
+    {
+      "index": 8,
+      "start": 10.633,
+      "end": 11.833,
+      "observation": "工人坐在浅色小房间地上，旁边桶和工具",
+      "visible_text": "就是这款微陶泥",
+      "script_relation": "施工示意；不凭桶或浅墙证明材料",
+      "purpose": "转入施工",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0023.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0024.jpg"
+      ]
+    },
+    {
+      "index": 9,
+      "start": 11.833,
+      "end": 13.1,
+      "observation": "戴手套工人在可见砖缝地面批刮浅色层",
+      "visible_text": "在原瓷砖地板上直接覆盖",
+      "script_relation": "直接支持覆盖动作，可见原砖与工具",
+      "purpose": "方案操作证据",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0025.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0026.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0027.jpg"
+      ]
+    },
+    {
+      "index": 10,
+      "start": 13.1,
+      "end": 14.767,
+      "observation": "窗边大面积浅色面层，手拿抹刀",
+      "visible_text": "批刮省一大笔",
+      "script_relation": "批刮支持操作；节省金额无直接证据",
+      "purpose": "继续施工过程",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0028.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0029.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0030.jpg"
+      ]
+    },
+    {
+      "index": 11,
+      "start": 14.767,
+      "end": 15.533,
+      "observation": "戴防护帽口罩工人在砖墙边操作，地面碎料",
+      "visible_text": "拆除运垃圾费用不是问题",
+      "script_relation": "拆改反例；不是清运费用凭据",
+      "purpose": "反例成本场景",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0031.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0032.jpg"
+      ]
+    },
+    {
+      "index": 12,
+      "start": 15.533,
+      "end": 16.667,
+      "observation": "地面堆积碎料，人物弯腰持工具",
+      "visible_text": "拆除运垃圾费用不是问题",
+      "script_relation": "支持拆改扰动示意，不证明成本",
+      "purpose": "强调替代路径",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0033.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0034.jpg"
+      ]
+    },
+    {
+      "index": 13,
+      "start": 16.667,
+      "end": 17.8,
+      "observation": "工具在面层上批刮，近景见手臂",
+      "visible_text": "关键是只需要3天",
+      "script_relation": "施工画面不证明三天工期",
+      "purpose": "工期句引入",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0035.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0036.jpg"
+      ]
+    },
+    {
+      "index": 14,
+      "start": 17.8,
+      "end": 19.5,
+      "observation": "浅色成品卫生间；过渡帧有人物叠影",
+      "visible_text": "就能改造完一个卫生间",
+      "script_relation": "结果类别匹配；不是同户三天证据",
+      "purpose": "施工向结果的叠化候选",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0037.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0038.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0039.jpg"
+      ]
+    },
+    {
+      "index": 15,
+      "start": 19.5,
+      "end": 20.35,
+      "observation": "蓝色旧地砖上覆盖浅色层",
+      "visible_text": "两天翻新一个老厨房",
+      "script_relation": "操作示意；空间用途与工期未独立确认",
+      "purpose": "第二施工示意",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0040.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0041.jpg"
+      ]
+    },
+    {
+      "index": 16,
+      "start": 20.35,
+      "end": 21.133,
+      "observation": "浅色成品厨房，窗与抽油烟机",
+      "visible_text": "两天翻新一个老厨房",
+      "script_relation": "厨房对应，跨源同户待核验",
+      "purpose": "第二结果",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0042.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0043.jpg"
+      ]
+    },
+    {
+      "index": 17,
+      "start": 21.133,
+      "end": 22.133,
+      "observation": "空房浅墙面地面全景",
+      "visible_text": "刮完的墙面地面一体无缝",
+      "script_relation": "外观支持整体浅色，无缝需细节核验",
+      "purpose": "整体空间",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0044.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0045.jpg"
+      ]
+    },
+    {
+      "index": 18,
+      "start": 22.133,
+      "end": 24.067,
+      "observation": "现代卫生间镜柜马桶淋浴区",
+      "visible_text": "极简又高级／韧性超强",
+      "script_relation": "美观可见；韧性不是成品空镜能证明",
+      "purpose": "成品观感",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0046.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0048.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0049.jpg"
+      ]
+    },
+    {
+      "index": 19,
+      "start": 24.067,
+      "end": 25.8,
+      "observation": "双手弯折薄样板",
+      "visible_text": "韧性超强／还不开裂起皮",
+      "script_relation": "可见弯折，长期不起皮不能由一次演示推出",
+      "purpose": "对应功能的操作演示",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0050.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0051.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0052.jpg"
+      ]
+    },
+    {
+      "index": 20,
+      "start": 25.8,
+      "end": 27.467,
+      "observation": "手用纸巾擦去浅色表面黄色污迹",
+      "visible_text": "油渍污渍超好打理",
+      "script_relation": "可见污迹减少；污物类型与持久性能待确认",
+      "purpose": "清洁功能演示",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0053.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0054.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0055.jpg"
+      ]
+    },
+    {
+      "index": 21,
+      "start": 27.467,
+      "end": 29.633,
+      "observation": "有旧房翻新牌子的瓷砖卫生间→现代成品卫生间，见叠影",
+      "visible_text": "如果你也喜欢这种翻新工艺",
+      "script_relation": "前后呈现，但窗门锚点无法据此确认同户",
+      "purpose": "对比与行动铺垫",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0056.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0058.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0060.jpg"
+      ]
+    },
+    {
+      "index": 22,
+      "start": 29.633,
+      "end": 30.881,
+      "observation": "白衣男子在施工现场面向镜头，心形贴图",
+      "visible_text": "请给我点个小爱心",
+      "script_relation": "ASR点赞与手势/贴图对应",
+      "purpose": "低门槛互动结尾",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0061.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\timeline\\frame_0062.jpg"
+      ]
+    }
+  ],
+  "structure": "价格/服务范围→现场→方案→操作→工期/结果→功能→点赞；成品先于施工出现，并非单一旧-施工-新顺序。",
+  "comparison": {
+    "observation": "27.467-29.633呈现旧/新卫生间；8.733之后另有多套成品厨卫，未建立同户配对。",
+    "verified_same_space": false,
+    "uncertainty": "未取得原始同户项目映射；成品与施工画面不能证明同一空间或施工周期。"
+  },
+  "sound": {
+    "asr_path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\asr.json",
+    "observation": null,
+    "uncertainty": "本地机器识别，未人工全轨试听；声音类别、曲名、BPM及声画卡点未经听辨，不作结论。",
+    "machine_alignment_evidence": [
+      {
+        "candidate_cut": 4.8,
+        "segment_start": 4.68,
+        "segment_end": 6.76,
+        "raw_asr_text": "在一厂百分之九十的人还不知道"
+      },
+      {
+        "candidate_cut": 6.1,
+        "segment_start": 4.68,
+        "segment_end": 6.76,
+        "raw_asr_text": "在一厂百分之九十的人还不知道"
+      },
+      {
+        "candidate_cut": 7.233,
+        "segment_start": 6.76,
+        "segment_end": 10.14,
+        "raw_asr_text": "不拆不砸不到一万块钱快速翻新厨房和卫生间"
+      },
+      {
+        "candidate_cut": 7.867,
+        "segment_start": 6.76,
+        "segment_end": 10.14,
+        "raw_asr_text": "不拆不砸不到一万块钱快速翻新厨房和卫生间"
+      },
+      {
+        "candidate_cut": 8.733,
+        "segment_start": 6.76,
+        "segment_end": 10.14,
+        "raw_asr_text": "不拆不砸不到一万块钱快速翻新厨房和卫生间"
+      },
+      {
+        "candidate_cut": 9.733,
+        "segment_start": 6.76,
+        "segment_end": 10.14,
+        "raw_asr_text": "不拆不砸不到一万块钱快速翻新厨房和卫生间"
+      },
+      {
+        "candidate_cut": 10.633,
+        "segment_start": 10.14,
+        "segment_end": 11.36,
+        "raw_asr_text": "就是这款卫陶泥"
+      },
+      {
+        "candidate_cut": 11.833,
+        "segment_start": 11.36,
+        "segment_end": 13.82,
+        "raw_asr_text": "在原刺砖地板上直接覆盖皮刮"
+      },
+      {
+        "candidate_cut": 13.1,
+        "segment_start": 11.36,
+        "segment_end": 13.82,
+        "raw_asr_text": "在原刺砖地板上直接覆盖皮刮"
+      },
+      {
+        "candidate_cut": 14.767,
+        "segment_start": 13.82,
+        "segment_end": 16.34,
+        "raw_asr_text": "省一大笔拆除运垃圾费用不是问题"
+      },
+      {
+        "candidate_cut": 15.533,
+        "segment_start": 13.82,
+        "segment_end": 16.34,
+        "raw_asr_text": "省一大笔拆除运垃圾费用不是问题"
+      },
+      {
+        "candidate_cut": 16.667,
+        "segment_start": 16.34,
+        "segment_end": 19.28,
+        "raw_asr_text": "关键是只需要三天就能改造完一个卫生间"
+      },
+      {
+        "candidate_cut": 17.8,
+        "segment_start": 16.34,
+        "segment_end": 19.28,
+        "raw_asr_text": "关键是只需要三天就能改造完一个卫生间"
+      },
+      {
+        "candidate_cut": 19.5,
+        "segment_start": 19.28,
+        "segment_end": 20.92,
+        "raw_asr_text": "两天翻新一个老厨房"
+      },
+      {
+        "candidate_cut": 20.35,
+        "segment_start": 19.28,
+        "segment_end": 20.92,
+        "raw_asr_text": "两天翻新一个老厨房"
+      },
+      {
+        "candidate_cut": 21.133,
+        "segment_start": 20.92,
+        "segment_end": 23.7,
+        "raw_asr_text": "刮完的墙面地面一体无缝 极减又高级"
+      },
+      {
+        "candidate_cut": 22.133,
+        "segment_start": 20.92,
+        "segment_end": 23.7,
+        "raw_asr_text": "刮完的墙面地面一体无缝 极减又高级"
+      },
+      {
+        "candidate_cut": 24.067,
+        "segment_start": 23.7,
+        "segment_end": 25.54,
+        "raw_asr_text": "任性超强还不开裂起皮"
+      },
+      {
+        "candidate_cut": 25.8,
+        "segment_start": 25.54,
+        "segment_end": 27.1,
+        "raw_asr_text": "油字污字超好打理"
+      },
+      {
+        "candidate_cut": 29.633,
+        "segment_start": 29.26,
+        "segment_end": 30.7,
+        "raw_asr_text": "请给我点个小爱心"
+      }
+    ],
+    "alignment_note": "只比较机器ASR句段与候选画面切点的时间重合，不证明无停顿、声音桥接自然、节拍卡点或音效同步。"
+  },
+  "applicability": [
+    "有真实现场讲解人物和厨卫覆盖操作时可借鉴。",
+    "价格、占比、工期必须另行核实；不能照抄90%、1万元和2/3天。",
+    "弯折与擦拭演示可作特定样板操作证据，需记录材料身份与测试条件。"
+  ],
+  "uncertainties": [
+    "机器ASR有材料名、地名和同音字误识；保留原文，可见字幕另记，不把字幕当听到的声音。",
+    "0.5秒采样可能遗漏短镜头、动作和字幕；切点为候选或约值，非全片实播逐帧审核。",
+    "价格、工期、性能和占比仅为参考片表达，未核实业务适用性。",
+    "无平台原始效果数据，不能证明这些特征导致爆款。"
+  ],
+  "rule_candidates": [
+    {
+      "agent": "文案",
+      "rule": "先以价格与改造范围成句给出钩子，再介绍现场",
+      "example_time": "0-4.8",
+      "condition": "价格和范围经业务核验",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "分镜",
+      "rule": "工艺句使用原砖可见的批刮近景",
+      "example_time": "11.833-13.1",
+      "condition": "原砖、工具动作和覆盖层在同镜可见",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "素材",
+      "rule": "功能句分别检索弯折与擦拭动作，避免成品空镜代替",
+      "example_time": "24.067-27.467",
+      "condition": "同材料且有测试记录",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "剪辑",
+      "rule": "拆砸只可用作明确反例并立即回到正向方案",
+      "example_time": "7.233-8.733",
+      "condition": "否定上下文清楚，需实播核验未造成误解",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "审核",
+      "rule": "同框人物不自动解释为业主，同类成品不自动解释为同户结果",
+      "example_time": "4.8-6.1；27.467-29.633",
+      "condition": "人物关系及项目映射待提供",
+      "evidence_level": "inference"
+    }
+  ],
+  "asr_segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 2.18,
+      "text": "不到一万块钱翻新一个厨房和卫生间",
+      "avg_logprob": -0.24212457939635876,
+      "no_speech_prob": 0.018368743360042572,
+      "compression_ratio": 1.3869209809264305,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.2,
+          "word": "不到",
+          "probability": 0.9109510183334351
+        },
+        {
+          "start": 0.2,
+          "end": 0.4,
+          "word": "一",
+          "probability": 0.37444135546684265
+        },
+        {
+          "start": 0.4,
+          "end": 0.48,
+          "word": "万",
+          "probability": 0.7430936694145203
+        },
+        {
+          "start": 0.48,
+          "end": 0.62,
+          "word": "块",
+          "probability": 0.9780809283256531
+        },
+        {
+          "start": 0.62,
+          "end": 0.8,
+          "word": "钱",
+          "probability": 0.964015781879425
+        },
+        {
+          "start": 0.8,
+          "end": 1.0,
+          "word": "翻",
+          "probability": 0.8401769399642944
+        },
+        {
+          "start": 1.0,
+          "end": 1.14,
+          "word": "新",
+          "probability": 0.9760176539421082
+        },
+        {
+          "start": 1.14,
+          "end": 1.34,
+          "word": "一个",
+          "probability": 0.9883905649185181
+        },
+        {
+          "start": 1.34,
+          "end": 1.5,
+          "word": "厨",
+          "probability": 0.9934066534042358
+        },
+        {
+          "start": 1.5,
+          "end": 1.66,
+          "word": "房",
+          "probability": 0.9996439218521118
+        },
+        {
+          "start": 1.66,
+          "end": 1.82,
+          "word": "和",
+          "probability": 0.965851902961731
+        },
+        {
+          "start": 1.82,
+          "end": 1.92,
+          "word": "卫",
+          "probability": 0.5847382619976997
+        },
+        {
+          "start": 1.92,
+          "end": 2.02,
+          "word": "生",
+          "probability": 0.7515849471092224
+        },
+        {
+          "start": 2.02,
+          "end": 2.18,
+          "word": "间",
+          "probability": 0.9930827617645264
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 2.5399999999999996,
+      "end": 4.68,
+      "text": "大家好 今天我们来翻这套",
+      "avg_logprob": -0.24212457939635876,
+      "no_speech_prob": 0.018368743360042572,
+      "compression_ratio": 1.3869209809264305,
+      "words": [
+        {
+          "start": 2.5399999999999996,
+          "end": 2.86,
+          "word": "大家好",
+          "probability": 0.7715221047401428
+        },
+        {
+          "start": 3.1,
+          "end": 3.3,
+          "word": " 今天",
+          "probability": 0.9970201849937439
+        },
+        {
+          "start": 3.3,
+          "end": 3.72,
+          "word": "我们",
+          "probability": 0.8884738087654114
+        },
+        {
+          "start": 3.72,
+          "end": 3.92,
+          "word": "来",
+          "probability": 0.9968093037605286
+        },
+        {
+          "start": 3.92,
+          "end": 4.3,
+          "word": "翻",
+          "probability": 0.9191794395446777
+        },
+        {
+          "start": 4.3,
+          "end": 4.5,
+          "word": "这",
+          "probability": 0.9748543500900269
+        },
+        {
+          "start": 4.5,
+          "end": 4.68,
+          "word": "套",
+          "probability": 0.9992598295211792
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 4.68,
+      "end": 6.76,
+      "text": "在一厂百分之九十的人还不知道",
+      "avg_logprob": -0.24212457939635876,
+      "no_speech_prob": 0.018368743360042572,
+      "compression_ratio": 1.3869209809264305,
+      "words": [
+        {
+          "start": 4.68,
+          "end": 5.18,
+          "word": "在",
+          "probability": 0.8877344727516174
+        },
+        {
+          "start": 5.18,
+          "end": 5.34,
+          "word": "一",
+          "probability": 0.917159914970398
+        },
+        {
+          "start": 5.34,
+          "end": 5.44,
+          "word": "厂",
+          "probability": 0.3957594335079193
+        },
+        {
+          "start": 5.44,
+          "end": 5.58,
+          "word": "百",
+          "probability": 0.268382728099823
+        },
+        {
+          "start": 5.58,
+          "end": 5.72,
+          "word": "分",
+          "probability": 0.9987899661064148
+        },
+        {
+          "start": 5.72,
+          "end": 5.82,
+          "word": "之",
+          "probability": 0.9933038353919983
+        },
+        {
+          "start": 5.82,
+          "end": 5.96,
+          "word": "九",
+          "probability": 0.9582491517066956
+        },
+        {
+          "start": 5.96,
+          "end": 6.14,
+          "word": "十",
+          "probability": 0.9910934567451477
+        },
+        {
+          "start": 6.14,
+          "end": 6.24,
+          "word": "的人",
+          "probability": 0.9671397805213928
+        },
+        {
+          "start": 6.24,
+          "end": 6.46,
+          "word": "还",
+          "probability": 0.9837120175361633
+        },
+        {
+          "start": 6.46,
+          "end": 6.76,
+          "word": "不知道",
+          "probability": 0.9974184036254883
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 6.76,
+      "end": 10.14,
+      "text": "不拆不砸不到一万块钱快速翻新厨房和卫生间",
+      "avg_logprob": -0.24212457939635876,
+      "no_speech_prob": 0.018368743360042572,
+      "compression_ratio": 1.3869209809264305,
+      "words": [
+        {
+          "start": 6.76,
+          "end": 7.28,
+          "word": "不",
+          "probability": 0.9564846158027649
+        },
+        {
+          "start": 7.28,
+          "end": 7.4,
+          "word": "拆",
+          "probability": 0.9797222316265106
+        },
+        {
+          "start": 7.4,
+          "end": 7.54,
+          "word": "不",
+          "probability": 0.8609323501586914
+        },
+        {
+          "start": 7.54,
+          "end": 7.62,
+          "word": "砸",
+          "probability": 0.6697997748851776
+        },
+        {
+          "start": 7.62,
+          "end": 7.8,
+          "word": "不到",
+          "probability": 0.9406759738922119
+        },
+        {
+          "start": 7.8,
+          "end": 8.0,
+          "word": "一",
+          "probability": 0.9773120880126953
+        },
+        {
+          "start": 8.0,
+          "end": 8.12,
+          "word": "万",
+          "probability": 0.9994850158691406
+        },
+        {
+          "start": 8.12,
+          "end": 8.26,
+          "word": "块",
+          "probability": 0.9973368048667908
+        },
+        {
+          "start": 8.26,
+          "end": 8.46,
+          "word": "钱",
+          "probability": 0.8902937173843384
+        },
+        {
+          "start": 8.46,
+          "end": 8.66,
+          "word": "快",
+          "probability": 0.9401660561561584
+        },
+        {
+          "start": 8.66,
+          "end": 8.8,
+          "word": "速",
+          "probability": 0.9995535016059875
+        },
+        {
+          "start": 8.8,
+          "end": 8.96,
+          "word": "翻",
+          "probability": 0.9684352278709412
+        },
+        {
+          "start": 8.96,
+          "end": 9.12,
+          "word": "新",
+          "probability": 0.9982224106788635
+        },
+        {
+          "start": 9.12,
+          "end": 9.28,
+          "word": "厨",
+          "probability": 0.9987061023712158
+        },
+        {
+          "start": 9.28,
+          "end": 9.48,
+          "word": "房",
+          "probability": 0.9999321699142456
+        },
+        {
+          "start": 9.48,
+          "end": 9.64,
+          "word": "和",
+          "probability": 0.997258186340332
+        },
+        {
+          "start": 9.64,
+          "end": 9.76,
+          "word": "卫",
+          "probability": 0.9987985193729401
+        },
+        {
+          "start": 9.76,
+          "end": 9.94,
+          "word": "生",
+          "probability": 0.9997417330741882
+        },
+        {
+          "start": 9.94,
+          "end": 10.14,
+          "word": "间",
+          "probability": 0.9711172580718994
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 10.14,
+      "end": 11.36,
+      "text": "就是这款卫陶泥",
+      "avg_logprob": -0.24212457939635876,
+      "no_speech_prob": 0.018368743360042572,
+      "compression_ratio": 1.3869209809264305,
+      "words": [
+        {
+          "start": 10.14,
+          "end": 10.56,
+          "word": "就是",
+          "probability": 0.9422746896743774
+        },
+        {
+          "start": 10.56,
+          "end": 10.74,
+          "word": "这",
+          "probability": 0.9950321912765503
+        },
+        {
+          "start": 10.74,
+          "end": 10.84,
+          "word": "款",
+          "probability": 0.9973920583724976
+        },
+        {
+          "start": 10.84,
+          "end": 10.98,
+          "word": "卫",
+          "probability": 0.582677997648716
+        },
+        {
+          "start": 10.98,
+          "end": 11.16,
+          "word": "陶",
+          "probability": 0.7704261839389801
+        },
+        {
+          "start": 11.16,
+          "end": 11.36,
+          "word": "泥",
+          "probability": 0.971675455570221
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 11.36,
+      "end": 13.82,
+      "text": "在原刺砖地板上直接覆盖皮刮",
+      "avg_logprob": -0.24212457939635876,
+      "no_speech_prob": 0.018368743360042572,
+      "compression_ratio": 1.3869209809264305,
+      "words": [
+        {
+          "start": 11.36,
+          "end": 11.88,
+          "word": "在",
+          "probability": 0.969545304775238
+        },
+        {
+          "start": 11.88,
+          "end": 12.04,
+          "word": "原",
+          "probability": 0.9446995258331299
+        },
+        {
+          "start": 12.04,
+          "end": 12.18,
+          "word": "刺",
+          "probability": 0.7108158022165298
+        },
+        {
+          "start": 12.18,
+          "end": 12.32,
+          "word": "砖",
+          "probability": 0.8271752297878265
+        },
+        {
+          "start": 12.32,
+          "end": 12.48,
+          "word": "地",
+          "probability": 0.9832596778869629
+        },
+        {
+          "start": 12.48,
+          "end": 12.64,
+          "word": "板",
+          "probability": 0.9969103932380676
+        },
+        {
+          "start": 12.64,
+          "end": 12.8,
+          "word": "上",
+          "probability": 0.9949836730957031
+        },
+        {
+          "start": 12.8,
+          "end": 13.04,
+          "word": "直接",
+          "probability": 0.9828419089317322
+        },
+        {
+          "start": 13.04,
+          "end": 13.26,
+          "word": "覆",
+          "probability": 0.9808319509029388
+        },
+        {
+          "start": 13.26,
+          "end": 13.42,
+          "word": "盖",
+          "probability": 0.9979747831821442
+        },
+        {
+          "start": 13.42,
+          "end": 13.6,
+          "word": "皮",
+          "probability": 0.9677180647850037
+        },
+        {
+          "start": 13.6,
+          "end": 13.82,
+          "word": "刮",
+          "probability": 0.7826550602912903
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 13.82,
+      "end": 16.34,
+      "text": "省一大笔拆除运垃圾费用不是问题",
+      "avg_logprob": -0.24212457939635876,
+      "no_speech_prob": 0.018368743360042572,
+      "compression_ratio": 1.3869209809264305,
+      "words": [
+        {
+          "start": 13.82,
+          "end": 14.4,
+          "word": "省",
+          "probability": 0.9366821646690369
+        },
+        {
+          "start": 14.4,
+          "end": 14.52,
+          "word": "一",
+          "probability": 0.906585156917572
+        },
+        {
+          "start": 14.52,
+          "end": 14.66,
+          "word": "大",
+          "probability": 0.9918081164360046
+        },
+        {
+          "start": 14.66,
+          "end": 14.78,
+          "word": "笔",
+          "probability": 0.9921754896640778
+        },
+        {
+          "start": 14.78,
+          "end": 14.92,
+          "word": "拆",
+          "probability": 0.9979548156261444
+        },
+        {
+          "start": 14.92,
+          "end": 15.08,
+          "word": "除",
+          "probability": 0.9522609114646912
+        },
+        {
+          "start": 15.08,
+          "end": 15.2,
+          "word": "运",
+          "probability": 0.8757525682449341
+        },
+        {
+          "start": 15.2,
+          "end": 15.34,
+          "word": "垃",
+          "probability": 0.8860886096954346
+        },
+        {
+          "start": 15.34,
+          "end": 15.48,
+          "word": "圾",
+          "probability": 0.9954858124256134
+        },
+        {
+          "start": 15.48,
+          "end": 15.64,
+          "word": "费",
+          "probability": 0.9914301931858063
+        },
+        {
+          "start": 15.64,
+          "end": 15.78,
+          "word": "用",
+          "probability": 0.9960147142410278
+        },
+        {
+          "start": 15.78,
+          "end": 15.96,
+          "word": "不是",
+          "probability": 0.9279295802116394
+        },
+        {
+          "start": 15.96,
+          "end": 16.34,
+          "word": "问题",
+          "probability": 0.9991437196731567
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 16.34,
+      "end": 19.28,
+      "text": "关键是只需要三天就能改造完一个卫生间",
+      "avg_logprob": -0.24212457939635876,
+      "no_speech_prob": 0.018368743360042572,
+      "compression_ratio": 1.3869209809264305,
+      "words": [
+        {
+          "start": 16.34,
+          "end": 16.82,
+          "word": "关",
+          "probability": 0.9828563332557678
+        },
+        {
+          "start": 16.82,
+          "end": 16.96,
+          "word": "键",
+          "probability": 0.9992314577102661
+        },
+        {
+          "start": 16.96,
+          "end": 17.08,
+          "word": "是",
+          "probability": 0.9957860112190247
+        },
+        {
+          "start": 17.08,
+          "end": 17.22,
+          "word": "只",
+          "probability": 0.9925522804260254
+        },
+        {
+          "start": 17.22,
+          "end": 17.42,
+          "word": "需要",
+          "probability": 0.9892172813415527
+        },
+        {
+          "start": 17.42,
+          "end": 17.64,
+          "word": "三",
+          "probability": 0.948083758354187
+        },
+        {
+          "start": 17.64,
+          "end": 17.86,
+          "word": "天",
+          "probability": 0.9995391368865967
+        },
+        {
+          "start": 17.86,
+          "end": 18.04,
+          "word": "就",
+          "probability": 0.5000537037849426
+        },
+        {
+          "start": 18.04,
+          "end": 18.16,
+          "word": "能",
+          "probability": 0.9976389408111572
+        },
+        {
+          "start": 18.16,
+          "end": 18.28,
+          "word": "改",
+          "probability": 0.9978936314582825
+        },
+        {
+          "start": 18.28,
+          "end": 18.38,
+          "word": "造",
+          "probability": 0.9987202882766724
+        },
+        {
+          "start": 18.38,
+          "end": 18.54,
+          "word": "完",
+          "probability": 0.9299605488777161
+        },
+        {
+          "start": 18.54,
+          "end": 18.7,
+          "word": "一个",
+          "probability": 0.9460039734840393
+        },
+        {
+          "start": 18.7,
+          "end": 18.86,
+          "word": "卫",
+          "probability": 0.9994783699512482
+        },
+        {
+          "start": 18.86,
+          "end": 19.04,
+          "word": "生",
+          "probability": 0.9995102882385254
+        },
+        {
+          "start": 19.04,
+          "end": 19.28,
+          "word": "间",
+          "probability": 0.9986633062362671
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 19.28,
+      "end": 20.92,
+      "text": "两天翻新一个老厨房",
+      "avg_logprob": -0.24212457939635876,
+      "no_speech_prob": 0.018368743360042572,
+      "compression_ratio": 1.3869209809264305,
+      "words": [
+        {
+          "start": 19.28,
+          "end": 19.74,
+          "word": "两",
+          "probability": 0.9785183668136597
+        },
+        {
+          "start": 19.74,
+          "end": 19.9,
+          "word": "天",
+          "probability": 0.9997642636299133
+        },
+        {
+          "start": 19.9,
+          "end": 20.06,
+          "word": "翻",
+          "probability": 0.9885513186454773
+        },
+        {
+          "start": 20.06,
+          "end": 20.2,
+          "word": "新",
+          "probability": 0.9988788962364197
+        },
+        {
+          "start": 20.2,
+          "end": 20.32,
+          "word": "一个",
+          "probability": 0.9906648397445679
+        },
+        {
+          "start": 20.32,
+          "end": 20.48,
+          "word": "老",
+          "probability": 0.9882580637931824
+        },
+        {
+          "start": 20.48,
+          "end": 20.64,
+          "word": "厨",
+          "probability": 0.9987344443798065
+        },
+        {
+          "start": 20.64,
+          "end": 20.92,
+          "word": "房",
+          "probability": 0.9998844861984253
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 20.92,
+      "end": 23.7,
+      "text": "刮完的墙面地面一体无缝 极减又高级",
+      "avg_logprob": -0.24212457939635876,
+      "no_speech_prob": 0.018368743360042572,
+      "compression_ratio": 1.3869209809264305,
+      "words": [
+        {
+          "start": 20.92,
+          "end": 21.32,
+          "word": "刮",
+          "probability": 0.9970346987247467
+        },
+        {
+          "start": 21.32,
+          "end": 21.48,
+          "word": "完",
+          "probability": 0.8931604623794556
+        },
+        {
+          "start": 21.48,
+          "end": 21.58,
+          "word": "的",
+          "probability": 0.9534687995910645
+        },
+        {
+          "start": 21.58,
+          "end": 21.74,
+          "word": "墙",
+          "probability": 0.9885508716106415
+        },
+        {
+          "start": 21.74,
+          "end": 21.94,
+          "word": "面",
+          "probability": 0.9943764209747314
+        },
+        {
+          "start": 21.94,
+          "end": 22.06,
+          "word": "地",
+          "probability": 0.8978819847106934
+        },
+        {
+          "start": 22.06,
+          "end": 22.18,
+          "word": "面",
+          "probability": 0.9997228980064392
+        },
+        {
+          "start": 22.18,
+          "end": 22.34,
+          "word": "一",
+          "probability": 0.8617690205574036
+        },
+        {
+          "start": 22.34,
+          "end": 22.48,
+          "word": "体",
+          "probability": 0.9845882058143616
+        },
+        {
+          "start": 22.48,
+          "end": 22.66,
+          "word": "无",
+          "probability": 0.9171810746192932
+        },
+        {
+          "start": 22.66,
+          "end": 22.76,
+          "word": "缝",
+          "probability": 0.9903747141361237
+        },
+        {
+          "start": 22.98,
+          "end": 23.06,
+          "word": " 极",
+          "probability": 0.6474268585443497
+        },
+        {
+          "start": 23.06,
+          "end": 23.18,
+          "word": "减",
+          "probability": 0.749899297952652
+        },
+        {
+          "start": 23.18,
+          "end": 23.3,
+          "word": "又",
+          "probability": 0.9889082312583923
+        },
+        {
+          "start": 23.3,
+          "end": 23.48,
+          "word": "高",
+          "probability": 0.995832622051239
+        },
+        {
+          "start": 23.48,
+          "end": 23.7,
+          "word": "级",
+          "probability": 0.9842820465564728
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 23.7,
+      "end": 25.54,
+      "text": "任性超强还不开裂起皮",
+      "avg_logprob": -0.24212457939635876,
+      "no_speech_prob": 0.018368743360042572,
+      "compression_ratio": 1.3869209809264305,
+      "words": [
+        {
+          "start": 23.7,
+          "end": 24.08,
+          "word": "任",
+          "probability": 0.8773586750030518
+        },
+        {
+          "start": 24.08,
+          "end": 24.22,
+          "word": "性",
+          "probability": 0.9971856474876404
+        },
+        {
+          "start": 24.22,
+          "end": 24.44,
+          "word": "超",
+          "probability": 0.9885579347610474
+        },
+        {
+          "start": 24.44,
+          "end": 24.6,
+          "word": "强",
+          "probability": 0.9966821372509003
+        },
+        {
+          "start": 24.6,
+          "end": 24.74,
+          "word": "还",
+          "probability": 0.8112620115280151
+        },
+        {
+          "start": 24.74,
+          "end": 24.84,
+          "word": "不",
+          "probability": 0.9982361793518066
+        },
+        {
+          "start": 24.84,
+          "end": 25.0,
+          "word": "开",
+          "probability": 0.983717679977417
+        },
+        {
+          "start": 25.0,
+          "end": 25.1,
+          "word": "裂",
+          "probability": 0.9559007883071899
+        },
+        {
+          "start": 25.1,
+          "end": 25.28,
+          "word": "起",
+          "probability": 0.4585776627063751
+        },
+        {
+          "start": 25.28,
+          "end": 25.54,
+          "word": "皮",
+          "probability": 0.9928487539291382
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 25.54,
+      "end": 27.1,
+      "text": "油字污字超好打理",
+      "avg_logprob": -0.24212457939635876,
+      "no_speech_prob": 0.018368743360042572,
+      "compression_ratio": 1.3869209809264305,
+      "words": [
+        {
+          "start": 25.54,
+          "end": 26.0,
+          "word": "油",
+          "probability": 0.923255205154419
+        },
+        {
+          "start": 26.0,
+          "end": 26.16,
+          "word": "字",
+          "probability": 0.3545427918434143
+        },
+        {
+          "start": 26.16,
+          "end": 26.3,
+          "word": "污",
+          "probability": 0.6699677556753159
+        },
+        {
+          "start": 26.3,
+          "end": 26.42,
+          "word": "字",
+          "probability": 0.9117001891136169
+        },
+        {
+          "start": 26.42,
+          "end": 26.6,
+          "word": "超",
+          "probability": 0.937740683555603
+        },
+        {
+          "start": 26.6,
+          "end": 26.76,
+          "word": "好",
+          "probability": 0.9961029291152954
+        },
+        {
+          "start": 26.76,
+          "end": 26.92,
+          "word": "打",
+          "probability": 0.7459448575973511
+        },
+        {
+          "start": 26.92,
+          "end": 27.1,
+          "word": "理",
+          "probability": 0.9540801048278809
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 27.48,
+      "end": 29.26,
+      "text": "如果你也喜欢这种翻新工艺",
+      "avg_logprob": -0.24212457939635876,
+      "no_speech_prob": 0.018368743360042572,
+      "compression_ratio": 1.3869209809264305,
+      "words": [
+        {
+          "start": 27.48,
+          "end": 27.8,
+          "word": "如果你",
+          "probability": 0.5510053634643555
+        },
+        {
+          "start": 27.8,
+          "end": 27.96,
+          "word": "也",
+          "probability": 0.9686939716339111
+        },
+        {
+          "start": 27.96,
+          "end": 28.18,
+          "word": "喜欢",
+          "probability": 0.9987354874610901
+        },
+        {
+          "start": 28.18,
+          "end": 28.38,
+          "word": "这",
+          "probability": 0.995870053768158
+        },
+        {
+          "start": 28.38,
+          "end": 28.5,
+          "word": "种",
+          "probability": 0.9992268085479736
+        },
+        {
+          "start": 28.5,
+          "end": 28.68,
+          "word": "翻",
+          "probability": 0.9617311954498291
+        },
+        {
+          "start": 28.68,
+          "end": 28.84,
+          "word": "新",
+          "probability": 0.9981354475021362
+        },
+        {
+          "start": 28.84,
+          "end": 29.02,
+          "word": "工",
+          "probability": 0.8858638405799866
+        },
+        {
+          "start": 29.02,
+          "end": 29.26,
+          "word": "艺",
+          "probability": 0.9917185008525848
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 29.26,
+      "end": 30.7,
+      "text": "请给我点个小爱心",
+      "avg_logprob": -0.34120217263698577,
+      "no_speech_prob": 0.1162106841802597,
+      "compression_ratio": 0.6857142857142857,
+      "words": [
+        {
+          "start": 29.26,
+          "end": 29.8,
+          "word": "请",
+          "probability": 0.6899223923683167
+        },
+        {
+          "start": 29.8,
+          "end": 29.96,
+          "word": "给我",
+          "probability": 0.992084801197052
+        },
+        {
+          "start": 29.96,
+          "end": 30.14,
+          "word": "点",
+          "probability": 0.9973063468933105
+        },
+        {
+          "start": 30.14,
+          "end": 30.24,
+          "word": "个",
+          "probability": 0.9258718490600586
+        },
+        {
+          "start": 30.24,
+          "end": 30.38,
+          "word": "小",
+          "probability": 0.9935977458953857
+        },
+        {
+          "start": 30.38,
+          "end": 30.52,
+          "word": "爱",
+          "probability": 0.8941165804862976
+        },
+        {
+          "start": 30.52,
+          "end": 30.7,
+          "word": "心",
+          "probability": 0.9826512932777405
+        }
+      ]
+    }
+  ],
+  "evidence_path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\evidence.json",
+  "updated_at": "2026-10-01T13:19:15.880667+08:00",
+  "timing_summary": {
+    "recorded_segment_count": 22,
+    "median_seconds": 1.167,
+    "min_seconds": 0.634,
+    "max_seconds": 4.8,
+    "boundary_status": "候选检测加采样观察修订，非逐帧实播核验；语义分段不等于镜头数"
+  }
+}

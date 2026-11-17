@@ -1,0 +1,454 @@
+=== approved rules full ===
+approved count=37
+APPROVED id=25a3252a97b149a7806cbb6771d09190 reviewer=小山 created=2026-11-11T08:50:37.195830+00:00
+  scalars={"text": "而且不管你是厨房翻新", "context": "全屋墙面7天就可以搞定，而且不管你是厨房翻新，还是卫生间翻新", "asset_id": "d05554bcdfc0a1d67f68e781810691a4", "start": 9.467, "end": 11.707, "scope": "project", "project_id": "c620044f2a804044b575aabe6f47517d", "action": "prefer", "reason": "", "reason_code": "", "description": "相似字幕优先推荐该源片段"}
+APPROVED id=confirmed-R01 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "8dbee2c08ff99cb523c79d1ff43ff386", "start": 2.0, "end": 6.0, "confirmed_by": "当前用户", "evidence": "R01是阿明，R02是其他人物。先按这两段记录，不要套用整个目录", "sample_id": "R01", "person_identity": "阿明", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：阿明", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-01.json", "source_record_hash": "dbd183c4317e19249145b499fe85c0fdbd4d5807c655f05a90507301213e7e3d", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=["阿明"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-R02 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "ec7811dd02f80d607d4ade7683da72c9", "start": 2.0, "end": 6.0, "confirmed_by": "当前用户", "evidence": "R01是阿明，R02是其他人物。先按这两段记录，不要套用整个目录", "sample_id": "R02", "person_identity": "其他人物", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：其他人物", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-01.json", "source_record_hash": "dbd183c4317e19249145b499fe85c0fdbd4d5807c655f05a90507301213e7e3d", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=[]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-R03 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "c50fce1d7c874f30a0008fb4b419fbd0", "start": 2.0, "end": 6.0, "confirmed_by": "当前用户", "evidence": "R03是阿明，R04前景紫衣是阿明，后方没穿上衣的是其他人物", "sample_id": "R03", "person_identity": "阿明", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：阿明", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-02.json", "source_record_hash": "8f54c5f2d44154197ecec6b3ad69cdc5a0c02ed2f4696a95f3fc57529a496432", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=["阿明"]
+  person_targets=[{"description": "室外白衣讲述者", "identity": "阿明", "confirmed_by": "当前用户"}]
+  action_segments=[]
+APPROVED id=confirmed-R04 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "0e994a1d2837bd1069fd397553b62816", "start": 2.0, "end": 6.0, "confirmed_by": "当前用户", "evidence": "R03是阿明，R04前景紫衣是阿明，后方没穿上衣的是其他人物", "sample_id": "R04", "person_identity": null, "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：前景紫衣阿明；后方未穿上衣其他人物", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-02.json", "source_record_hash": "8f54c5f2d44154197ecec6b3ad69cdc5a0c02ed2f4696a95f3fc57529a496432", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=["阿明"]
+  person_targets=[{"description": "前景紫衣人物", "identity": "阿明", "confirmed_by": "当前用户"}, {"description": "后方未穿上衣的人物", "identity": "其他人物", "confirmed_by": "当前用户"}]
+  action_segments=[]
+APPROVED id=confirmed-R05 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "c6eb8134b11a584256423d6a036fda71", "start": 2.0, "end": 6.0, "confirmed_by": "当前用户", "evidence": "R05是阿明，R06前景紫色马甲是阿明，右后方靠墙的是其他人物。先按这几个人物记录，不要套用整个目录", "sample_id": "R05", "person_identity": "阿明", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：阿明", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-03.json", "source_record_hash": "7a1314f899a0eab6c25db94153bc279fc550d44b0b82f38f01eb3d116845db2d", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=["阿明"]
+  person_targets=[{"description": "室内黑外套讲述者", "identity": "阿明", "confirmed_by": "当前用户", "confirmed_at": "2026-11-13T11:53:21.958061+08:00"}]
+  action_segments=[]
+APPROVED id=confirmed-R06 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "ccdb51ab3e8100c69ab96a0b5ee94848", "start": 2.0, "end": 6.0, "confirmed_by": "当前用户", "evidence": "R05是阿明，R06前景紫色马甲是阿明，右后方靠墙的是其他人物。先按这几个人物记录，不要套用整个目录", "sample_id": "R06", "person_identity": null, "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：前景紫色马甲阿明；右后方靠墙其他人物", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-03.json", "source_record_hash": "7a1314f899a0eab6c25db94153bc279fc550d44b0b82f38f01eb3d116845db2d", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=["阿明"]
+  person_targets=[{"description": "前景紫色马甲讲述者", "identity": "阿明", "confirmed_by": "当前用户", "confirmed_at": "2026-11-13T11:53:21.958061+08:00"}, {"description": "右后方靠墙人物", "identity": "其他人物", "confirmed_by": "当前用户", "confirmed_at": "2026-11-13T11:53:21.958061+08:00"}]
+  action_segments=[]
+APPROVED id=confirmed-R07 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "1c3742d1e5fd0e1d51ffd7ddc2b052b9", "start": 2.0, "end": 6.0, "confirmed_by": "当前用户", "evidence": "R07是阿明，R08不是阿明，是师傅", "sample_id": "R07", "person_identity": "阿明", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：阿明", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-04.json", "source_record_hash": "9be42dcf946fff8ea663c4744d3f69bd1c1f5b1e299fa8d8417d89771c1e3c33", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=["阿明"]
+  person_targets=[{"description": "蹲着讲述的人物，较远景、低头转向镜头", "identity": "阿明", "role": null, "confirmed_by": "当前用户", "confirmed_at": "2026-11-13T13:36:34.059022+08:00"}]
+  action_segments=[]
+APPROVED id=confirmed-R08 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "c0989918dfc4340174e9ede6d31cf89e", "start": 2.0, "end": 6.0, "confirmed_by": "当前用户", "evidence": "R07是阿明，R08不是阿明，是师傅", "sample_id": "R08", "person_identity": "其他人物", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：不是阿明，是师傅（具体姓名未知）", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-04.json", "source_record_hash": "9be42dcf946fff8ea663c4744d3f69bd1c1f5b1e299fa8d8417d89771c1e3c33", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=[]
+  person_targets=[{"description": "弯腰施工的人物，主要为侧脸与低头", "identity": "其他人物", "role": "师傅", "confirmed_by": "当前用户", "confirmed_at": "2026-11-13T13:36:34.059022+08:00"}]
+  action_segments=[]
+APPROVED id=confirmed-R09 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "28e1f1da6707350efc9a7a67776984ea", "start": 2.0, "end": 6.0, "confirmed_by": "当前用户", "evidence": "R09不是阿明，另外说一点这个女生离职了不能使用他出境的素材", "sample_id": "R09", "person_identity": "其他人物", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：非阿明；该人物出镜素材禁用", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-05.json", "source_record_hash": "c154796de657cae3831947aa9477c3a53438bb4dd22449ef342f2b1bab344bfd", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=[]
+  person_targets=[{"description": "室内戴眼镜、浅色上衣的正面讲述者", "identity": "其他人物", "production_use": "禁止", "confirmed_by": "当前用户"}]
+  action_segments=[]
+APPROVED id=confirmed-P1 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "cb4899d0a9e5eee34933d459560ccb85", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "P1、P2项目都是施工微陶泥，但是p1是滚涂罩面属于第一道工序，篇画面才是微陶泥施工。先按这两段记录，不要直接套到整个目录，继续带我看P3、P4，等我确认后再记录，流程图同步更新。", "sample_id": "P1", "person_identity": null, "product_identity": "项目使用微陶泥（用户确认）；当前工序单独记录", "confirmed_action": "滚涂罩面", "description": "用户已确认项目与片段工序", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-01.json", "source_record_hash": "0a2858ef23a7d20ed86f7a613ab3e90ea68505f010df57e8e76db48ee96c473f", "apply_to_directory": false, "usable": true, "context": "滚涂罩面，不作为直接微陶泥施工画面"}
+  identities=["微陶泥"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P2 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "bb4e94fb087a08be8c2be335136395e0", "start": 1.25, "end": 4.25, "confirmed_by": "当前用户", "evidence": "P1、P2项目都是施工微陶泥，但是p1是滚涂罩面属于第一道工序，篇画面才是微陶泥施工。先按这两段记录，不要直接套到整个目录，继续带我看P3、P4，等我确认后再记录，流程图同步更新。", "sample_id": "P2", "person_identity": null, "product_identity": "项目使用微陶泥（用户确认）；当前工序单独记录", "confirmed_action": "微陶泥施工", "description": "用户已确认项目与片段工序", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-01.json", "source_record_hash": "0a2858ef23a7d20ed86f7a613ab3e90ea68505f010df57e8e76db48ee96c473f", "apply_to_directory": false, "usable": true, "context": "直接展示微陶泥施工"}
+  identities=["微陶泥"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P3 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "eef0d4e719b28bc2875bfeb6c5c81f7b", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "P3不是微陶泥，也不是工序，p4是微陶泥，展示施工了一半的卫生间，这里师傅在弄别的东西没有施工", "sample_id": "P3", "person_identity": null, "product_identity": "本片段不是微陶泥（用户确认）", "confirmed_action": "非施工工序", "description": "用户已确认产品与画面状态", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-01.json", "source_record_hash": "0a2858ef23a7d20ed86f7a613ab3e90ea68505f010df57e8e76db48ee96c473f", "apply_to_directory": false, "usable": true, "context": "不是微陶泥，也不是施工工序"}
+  identities=[]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P4 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "cb7f3af4f44a0ee9621d214c630400f8", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "P3不是微陶泥，也不是工序，p4是微陶泥，展示施工了一半的卫生间，这里师傅在弄别的东西没有施工", "sample_id": "P4", "person_identity": null, "product_identity": "微陶泥（用户确认）", "confirmed_action": "施工中途现场展示，非正在施工", "description": "用户已确认产品与画面状态", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-01.json", "source_record_hash": "0a2858ef23a7d20ed86f7a613ab3e90ea68505f010df57e8e76db48ee96c473f", "apply_to_directory": false, "usable": true, "context": "施工了一半的卫生间现场；师傅在弄别的东西，当前没有施工"}
+  identities=["微陶泥"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P5 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "56966c1966071ad0c20cfaa561cb07b2", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "都是微陶泥，都在施工中，动作是批刮覆盖", "sample_id": "P5", "person_identity": null, "product_identity": "微陶泥（用户确认）", "confirmed_action": "批刮覆盖", "description": "用户已确认微陶泥施工正例", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-01.json", "source_record_hash": "0a2858ef23a7d20ed86f7a613ab3e90ea68505f010df57e8e76db48ee96c473f", "apply_to_directory": false, "usable": true, "context": "正在进行微陶泥批刮覆盖施工"}
+  identities=["微陶泥"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P6 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "0f939c041c39388ba3db921eaef312d2", "start": 0.92625, "end": 3.705, "confirmed_by": "当前用户", "evidence": "都是微陶泥，都在施工中，动作是批刮覆盖", "sample_id": "P6", "person_identity": null, "product_identity": "微陶泥（用户确认）", "confirmed_action": "批刮覆盖", "description": "用户已确认微陶泥施工正例", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-01.json", "source_record_hash": "0a2858ef23a7d20ed86f7a613ab3e90ea68505f010df57e8e76db48ee96c473f", "apply_to_directory": false, "usable": true, "context": "正在进行微陶泥批刮覆盖施工"}
+  identities=["微陶泥"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P7 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "62c387ebe0f7aaf27fbaa0cae30acddf", "start": 0.23375, "end": 0.935, "confirmed_by": "当前用户", "evidence": "P7是铲除，不算微陶泥施工；P8是微陶泥施工，动作是批刮覆盖。先按这两段记录，不要套用整个目录，继续带我看P9、P10，等我确认后再记录，流程图同步更新。", "sample_id": "P7", "person_identity": null, "product_identity": "当前片段不证明微陶泥产品身份", "confirmed_action": "铲除", "description": "用户确认：铲除，不算微陶泥施工", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-02.json", "source_record_hash": "41fb7a9dbb8eac6398847e2519fa73d377c4528b1d90de352f43553579bb36cc", "apply_to_directory": false, "usable": true, "context": "铲除，不是微陶泥施工画面"}
+  identities=[]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P8 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "5f612578dab814de8b291302c4331813", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "P7是铲除，不算微陶泥施工；P8是微陶泥施工，动作是批刮覆盖。先按这两段记录，不要套用整个目录，继续带我看P9、P10，等我确认后再记录，流程图同步更新。", "sample_id": "P8", "person_identity": null, "product_identity": "微陶泥（用户确认）", "confirmed_action": "批刮覆盖", "description": "用户确认：微陶泥施工正例", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-02.json", "source_record_hash": "41fb7a9dbb8eac6398847e2519fa73d377c4528b1d90de352f43553579bb36cc", "apply_to_directory": false, "usable": true, "context": "正在进行微陶泥批刮覆盖施工"}
+  identities=["微陶泥"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P9 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "4ccc65df7eeac0bb2297a1cecacea261", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "P9是微陶泥取料，P10是微陶泥批刮覆盖。先按这两段记录，不要套用整个目录，继续带我看P11、P12，等我确认后再记录，流程图同步更新。", "sample_id": "P9", "person_identity": null, "product_identity": "微陶泥（用户确认）", "confirmed_action": "取料", "description": "用户确认：微陶泥取料", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-02.json", "source_record_hash": "41fb7a9dbb8eac6398847e2519fa73d377c4528b1d90de352f43553579bb36cc", "apply_to_directory": false, "usable": true, "context": "微陶泥取料"}
+  identities=["微陶泥"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P10 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "00112a93268fec08a946d0f600927b01", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "P9是微陶泥取料，P10是微陶泥批刮覆盖。先按这两段记录，不要套用整个目录，继续带我看P11、P12，等我确认后再记录，流程图同步更新。", "sample_id": "P10", "person_identity": null, "product_identity": "微陶泥（用户确认）", "confirmed_action": "批刮覆盖", "description": "用户确认：微陶泥批刮覆盖", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-02.json", "source_record_hash": "41fb7a9dbb8eac6398847e2519fa73d377c4528b1d90de352f43553579bb36cc", "apply_to_directory": false, "usable": true, "context": "微陶泥批刮覆盖"}
+  identities=["微陶泥"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P11 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "e240f56322363b6d299b0bcf6b81368c", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "p12，P11是微陶泥批刮覆盖。先按这两段记录，不要套用整个目录，继续", "sample_id": "P11", "person_identity": null, "product_identity": "微陶泥（用户确认）", "confirmed_action": "批刮覆盖", "description": "用户确认：微陶泥批刮覆盖", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-02.json", "source_record_hash": "41fb7a9dbb8eac6398847e2519fa73d377c4528b1d90de352f43553579bb36cc", "apply_to_directory": false, "usable": true, "context": "正在进行微陶泥批刮覆盖施工"}
+  identities=["微陶泥"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P12 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "d6bf362c5e4016e2807bd10c94a59799", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "p12，P11是微陶泥批刮覆盖。先按这两段记录，不要套用整个目录，继续", "sample_id": "P12", "person_identity": null, "product_identity": "微陶泥（用户确认）", "confirmed_action": "批刮覆盖", "description": "用户确认：微陶泥批刮覆盖", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-02.json", "source_record_hash": "41fb7a9dbb8eac6398847e2519fa73d377c4528b1d90de352f43553579bb36cc", "apply_to_directory": false, "usable": true, "context": "正在进行微陶泥批刮覆盖施工"}
+  identities=["微陶泥"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P13 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "1a240d931daed37bb85e8a7cbbf4ab67", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "P13、P14都不算微陶泥批刮施工，先按这两段记录，不要套用整个目录。", "sample_id": "P13", "person_identity": null, "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：不是微陶泥批刮施工", "reason": "仅否定微陶泥批刮施工；其他具体动作、产品身份及其他工序未确认。", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-03.json", "source_record_hash": "b30d467e1e5a18207ee944fdd9e352b29c21712f3bcfbc2e93709cd8aa251006", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=[]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P14 reviewer=当前用户 created=2026-11-16T07:30:51.569087+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "19d3d6830cd40e61264f9df7f874bfdc", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "P13、P14都不算微陶泥批刮施工，先按这两段记录，不要套用整个目录。", "sample_id": "P14", "person_identity": null, "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：不是微陶泥批刮施工", "reason": "仅否定微陶泥批刮施工；其他具体动作、产品身份及其他工序未确认。", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-03.json", "source_record_hash": "b30d467e1e5a18207ee944fdd9e352b29c21712f3bcfbc2e93709cd8aa251006", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=[]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P15 reviewer=当前用户 created=2026-11-16T07:30:51.578491+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "45adfaf57617e007dee31e5ab3600eb4", "start": 1.65583325, "end": 4.65583325, "confirmed_by": "当前用户", "evidence": "P15是微陶泥材料桶展示，不算批刮施工。先按这一段记录，不要套用整个目录。", "sample_id": "P15", "person_identity": null, "product_identity": "微陶泥（用户确认，仅本段）", "confirmed_action": "材料桶展示", "description": "用户确认：微陶泥材料桶展示，不算批刮施工", "reason": "材料展示不能作为批刮施工的动作正例", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-03.json", "source_record_hash": "b30d467e1e5a18207ee944fdd9e352b29c21712f3bcfbc2e93709cd8aa251006", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=["微陶泥"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P17 reviewer=当前用户 created=2026-11-16T07:30:51.578491+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "0131657ceb69c229c36b92b9285aa255", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "P17第一确实的微陶泥，第二但不是在批刮，批刮指的是在墙面地面基础上的批刮的动作", "sample_id": "P17", "person_identity": null, "product_identity": "微陶泥（用户确认，仅本段）", "confirmed_action": "非批刮；具体其他动作未确认", "description": "用户确认：微陶泥，非批刮动作", "reason": "微陶泥材料正例、批刮动作反例；不能作为非微陶泥材料反例", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-04.json", "source_record_hash": "395d43a39ca0dfa5f235cf7a82dd22341817a6f91c8c399afb3c985c2d5742a2", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=["微陶泥"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P19 reviewer=当前用户 created=2026-11-16T07:30:51.578491+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "4642f6f545d374686fcdc4ce3d09f29a", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "都符合，材料也是微陶泥", "sample_id": "P19", "person_identity": null, "product_identity": "微陶泥（用户确认，仅本段）", "confirmed_action": "墙面基面上的批刮", "description": "用户确认：微陶泥墙面批刮", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-05.json", "source_record_hash": "810fbba6b7f7170a3aeed1f1d13db2b022f6512776fee3277f12a9200f25bd31", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=["微陶泥"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P20 reviewer=当前用户 created=2026-11-16T07:30:51.578491+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "dd6bb5b40938ab256cdb37571afe7c05", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "都符合，材料也是微陶泥", "sample_id": "P20", "person_identity": null, "product_identity": "微陶泥（用户确认，仅本段）", "confirmed_action": "墙面基面上的批刮", "description": "用户确认：微陶泥墙面批刮", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-05.json", "source_record_hash": "810fbba6b7f7170a3aeed1f1d13db2b022f6512776fee3277f12a9200f25bd31", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=["微陶泥"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P21 reviewer=当前用户 created=2026-11-16T07:30:51.578491+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "012256615ba2d3dab89090356da2d6b1", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "sample_id": "P21", "person_identity": null, "product_identity": "水洗石", "confirmed_action": "基面批刮", "description": "用户确认：水洗石批刮，与当前视频业务无关", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-06.json", "source_record_hash": "eb24b2358f7bd9acc23e72e1c158b0bbd27b9968d125d0897e10e010d7914b73", "apply_to_directory": false, "usable": false, "context": ""}
+  identities=[]
+  evidence=["是属于批刮动作？材料不是微陶泥，是其他材料叫水洗石", "我们是用不到这个材料的", "跟我们现在视频是无关的"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P22 reviewer=当前用户 created=2026-11-16T07:30:51.578491+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "1eef32fcc1c895a6931e9d51d03ba28d", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "sample_id": "P22", "person_identity": null, "product_identity": "水洗石", "confirmed_action": "基面批刮", "description": "用户确认：水洗石批刮，与当前视频业务无关", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-06.json", "source_record_hash": "eb24b2358f7bd9acc23e72e1c158b0bbd27b9968d125d0897e10e010d7914b73", "apply_to_directory": false, "usable": false, "context": ""}
+  identities=[]
+  evidence=["是属于批刮动作？材料不是微陶泥，是其他材料叫水洗石", "我们是用不到这个材料的", "跟我们现在视频是无关的"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P23 reviewer=当前用户 created=2026-11-16T07:30:51.578491+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "ec7811dd02f80d607d4ade7683da72c9", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "都是微陶泥，P23是批刮，P24是批刮、取料都有", "sample_id": "P23", "person_identity": null, "product_identity": "微陶泥（用户确认，仅本段）", "confirmed_action": "批刮", "description": "用户确认：微陶泥批刮", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-07.json", "source_record_hash": "d16756d8d0b5d648a35182dae9cd29ad52c8b644c1aed199fd7aad68f3cff10e", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=["微陶泥"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P24 reviewer=当前用户 created=2026-11-16T07:30:51.578491+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "c20a703613be13deddbe8d3f71e8b007", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "都是微陶泥，P23是批刮，P24是批刮、取料都有", "sample_id": "P24", "person_identity": null, "product_identity": "微陶泥（用户确认，仅本段）", "confirmed_action": "批刮＋取料（混合动作）", "description": "用户确认：微陶泥批刮＋取料（混合动作）", "reason": "整段保留批刮＋取料混合标签；已确认两段动作区间，中间过渡不纳入；不计新增独立来源", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-07.json", "source_record_hash": "d16756d8d0b5d648a35182dae9cd29ad52c8b644c1aed199fd7aad68f3cff10e", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=["微陶泥"]
+  person_targets=[]
+  action_segments=[{"sample_id": "P24-A", "source_start": 2, "source_end": 2.9, "action": "取料", "status": "已人工确认"}, {"sample_id": "P24-B", "source_start": 3.5, "source_end": 5, "action": "批刮", "status": "已人工确认"}]
+APPROVED id=confirmed-P25 reviewer=当前用户 created=2026-11-16T07:30:51.578491+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "4ccc65df7eeac0bb2297a1cecacea261", "start": 0.0, "end": 4.5, "confirmed_by": "当前用户", "evidence": "P25是微陶泥纯取料，P26是微陶泥罩面，整段都可以。先按这两段记录，不要套用整个目录", "sample_id": "P25", "person_identity": null, "product_identity": "微陶泥（用户确认，仅本段）", "confirmed_action": "纯取料", "description": "用户确认：微陶泥纯取料", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-08.json", "source_record_hash": "7e17b52a52111eac1069a54f79c22187a7c94ebbd81d0979f0b22340e88913a2", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=["微陶泥"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-P26 reviewer=当前用户 created=2026-11-16T07:30:51.578491+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "f29ecd7161dff8c5d9328f678b2228db", "start": 2.0, "end": 8.0, "confirmed_by": "当前用户", "evidence": "P25是微陶泥纯取料，P26是微陶泥罩面，整段都可以。先按这两段记录，不要套用整个目录", "sample_id": "P26", "person_identity": null, "product_identity": "微陶泥（用户确认，仅本段）", "confirmed_action": "罩面", "description": "用户确认：微陶泥罩面", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-08.json", "source_record_hash": "7e17b52a52111eac1069a54f79c22187a7c94ebbd81d0979f0b22340e88913a2", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=["微陶泥"]
+  person_targets=[]
+  action_segments=[]
+APPROVED id=confirmed-V1 reviewer=当前用户 created=2026-11-16T08:29:12.304996+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "08df39f7e2833ba59b9fa50e7beecc74", "start": 0.0, "end": 8.0, "confirmed_by": "当前用户", "evidence": "V1和v3适合，主要人物是阿明 v2不是", "sample_id": "V1", "person_identity": "阿明", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认适合当前文案", "reason": "仅0–8秒主要人物。V2不认定全体同框人物均不是阿明，也不作全库禁用。", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-07.json", "source_record_hash": "7c741f75f719e3540aff5f955f56bf702a2766da607630624d66f61c1cd8f0e9", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=["阿明"]
+  person_targets=[{"description": "本预览片段的主要人物；不包含其他同框人物", "identity": "阿明", "confirmed_by": "当前用户"}]
+  action_segments=[]
+APPROVED id=confirmed-V2 reviewer=当前用户 created=2026-11-16T08:29:12.304996+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "844dec0c826dc1e0870a4f6c15f21050", "start": 0.0, "end": 8.0, "confirmed_by": "当前用户", "evidence": "V1和v3适合，主要人物是阿明 v2不是", "sample_id": "V2", "person_identity": "不是阿明", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认主要人物不是阿明；不作为阿明出镜候选", "reason": "仅0–8秒主要人物。V2不认定全体同框人物均不是阿明，也不作全库禁用。", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-07.json", "source_record_hash": "7c741f75f719e3540aff5f955f56bf702a2766da607630624d66f61c1cd8f0e9", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=[]
+  person_targets=[{"description": "本预览片段的主要人物；不包含其他同框人物", "identity": "不是阿明", "confirmed_by": "当前用户"}]
+  action_segments=[]
+APPROVED id=confirmed-V3 reviewer=当前用户 created=2026-11-16T08:29:12.304996+00:00
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "cccbc086c8b2fea531fb0dd2bd034fb2", "start": 0.0, "end": 8.0, "confirmed_by": "当前用户", "evidence": "V1和v3适合，主要人物是阿明 v2不是", "sample_id": "V3", "person_identity": "阿明", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认适合当前文案", "reason": "仅0–8秒主要人物。V2不认定全体同框人物均不是阿明，也不作全库禁用。", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-07.json", "source_record_hash": "7c741f75f719e3540aff5f955f56bf702a2766da607630624d66f61c1cd8f0e9", "apply_to_directory": false, "usable": true, "context": ""}
+  identities=["阿明"]
+  person_targets=[{"description": "本预览片段的主要人物；不包含其他同框人物", "identity": "阿明", "confirmed_by": "当前用户"}]
+  action_segments=[]
+
+=== rule ids starting confirmed- ===
+MATCH id=confirmed-R01 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-R02 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-R03 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-R04 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-R05 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-R06 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-R07 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-R08 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-R09 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P1 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P2 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P3 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P4 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P5 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P6 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P7 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P8 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P9 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P10 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P11 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P12 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P13 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P14 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P15 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P17 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P19 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P20 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P21 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P22 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P23 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P24 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P25 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-P26 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-V1 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-V2 status=approved reviewer=当前用户 payload_id=None
+MATCH id=confirmed-V3 status=approved reviewer=当前用户 payload_id=None
+
+=== any confirmed- substring ===
+HIT id=confirmed-R01 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-R02 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-R03 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-R04 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-R05 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-R06 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-R07 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-R08 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-R09 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P1 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P2 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P3 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P4 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P5 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P6 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P7 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P8 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P9 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P10 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P11 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P12 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P13 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P14 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P15 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P17 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P19 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P20 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P21 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P22 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P23 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P24 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P25 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-P26 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-V1 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-V2 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+HIT id=confirmed-V3 status=approved keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context']
+
+=== identity-evidence.json type/keys ===
+type=dict
+keys=['source', 'segments']
+field source=learning.sqlite3的已审核事实快照；正式检索每轮读数据库，停用立即影响下一轮
+list field segments n=33
+evidence items n=33
+item keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+EV[0] id=confirmed-P1 asset=cb4899d0a9e5eee34933d459560ccb85 start=2.0 end=5.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "cb4899d0a9e5eee34933d459560ccb85", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "P1、P2项目都是施工微陶泥，但是p1是滚涂罩面属于第一道工序，篇画面才是微陶泥施工。先按这两段记录，不要直接套到整个目录，继续带我看P3、P4，等我确认后再记录，流程图同步更新。", "sample_id": "P1", "person_identity": null, "product_identity": "项目使用微陶泥（用户确认）；当前工序单独记录", "confirmed_action": "滚涂罩面", "description": "用户已确认项目与片段工序", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Docum
+EV[1] id=confirmed-P10 asset=00112a93268fec08a946d0f600927b01 start=2.0 end=5.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "00112a93268fec08a946d0f600927b01", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "P9是微陶泥取料，P10是微陶泥批刮覆盖。先按这两段记录，不要套用整个目录，继续带我看P11、P12，等我确认后再记录，流程图同步更新。", "sample_id": "P10", "person_identity": null, "product_identity": "微陶泥（用户确认）", "confirmed_action": "批刮覆盖", "description": "用户确认：微陶泥批刮覆盖", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\
+EV[2] id=confirmed-P11 asset=e240f56322363b6d299b0bcf6b81368c start=2.0 end=5.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "e240f56322363b6d299b0bcf6b81368c", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "p12，P11是微陶泥批刮覆盖。先按这两段记录，不要套用整个目录，继续", "sample_id": "P11", "person_identity": null, "product_identity": "微陶泥（用户确认）", "confirmed_action": "批刮覆盖", "description": "用户确认：微陶泥批刮覆盖", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-02.js
+EV[3] id=confirmed-P12 asset=d6bf362c5e4016e2807bd10c94a59799 start=2.0 end=5.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "d6bf362c5e4016e2807bd10c94a59799", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "p12，P11是微陶泥批刮覆盖。先按这两段记录，不要套用整个目录，继续", "sample_id": "P12", "person_identity": null, "product_identity": "微陶泥（用户确认）", "confirmed_action": "批刮覆盖", "description": "用户确认：微陶泥批刮覆盖", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-02.js
+EV[4] id=confirmed-P13 asset=1a240d931daed37bb85e8a7cbbf4ab67 start=2.0 end=5.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "1a240d931daed37bb85e8a7cbbf4ab67", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "P13、P14都不算微陶泥批刮施工，先按这两段记录，不要套用整个目录。", "sample_id": "P13", "person_identity": null, "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：不是微陶泥批刮施工", "reason": "仅否定微陶泥批刮施工；其他具体动作、产品身份及其他工序未确认。", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-
+EV[5] id=confirmed-P14 asset=19d3d6830cd40e61264f9df7f874bfdc start=2.0 end=5.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "19d3d6830cd40e61264f9df7f874bfdc", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "P13、P14都不算微陶泥批刮施工，先按这两段记录，不要套用整个目录。", "sample_id": "P14", "person_identity": null, "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：不是微陶泥批刮施工", "reason": "仅否定微陶泥批刮施工；其他具体动作、产品身份及其他工序未确认。", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-
+EV[6] id=confirmed-P15 asset=45adfaf57617e007dee31e5ab3600eb4 start=1.65583325 end=4.65583325 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "45adfaf57617e007dee31e5ab3600eb4", "start": 1.65583325, "end": 4.65583325, "confirmed_by": "当前用户", "evidence": "P15是微陶泥材料桶展示，不算批刮施工。先按这一段记录，不要套用整个目录。", "sample_id": "P15", "person_identity": null, "product_identity": "微陶泥（用户确认，仅本段）", "confirmed_action": "材料桶展示", "description": "用户确认：微陶泥材料桶展示，不算批刮施工", "reason": "材料展示不能作为批刮施工的动作正例", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测
+EV[7] id=confirmed-P17 asset=0131657ceb69c229c36b92b9285aa255 start=2.0 end=5.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "0131657ceb69c229c36b92b9285aa255", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "P17第一确实的微陶泥，第二但不是在批刮，批刮指的是在墙面地面基础上的批刮的动作", "sample_id": "P17", "person_identity": null, "product_identity": "微陶泥（用户确认，仅本段）", "confirmed_action": "非批刮；具体其他动作未确认", "description": "用户确认：微陶泥，非批刮动作", "reason": "微陶泥材料正例、批刮动作反例；不能作为非微陶泥材料反例", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及
+EV[8] id=confirmed-P19 asset=4642f6f545d374686fcdc4ce3d09f29a start=2.0 end=5.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "4642f6f545d374686fcdc4ce3d09f29a", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "都符合，材料也是微陶泥", "sample_id": "P19", "person_identity": null, "product_identity": "微陶泥（用户确认，仅本段）", "confirmed_action": "墙面基面上的批刮", "description": "用户确认：微陶泥墙面批刮", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-05.json", "source_rec
+EV[9] id=confirmed-P2 asset=bb4e94fb087a08be8c2be335136395e0 start=1.25 end=4.25 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "bb4e94fb087a08be8c2be335136395e0", "start": 1.25, "end": 4.25, "confirmed_by": "当前用户", "evidence": "P1、P2项目都是施工微陶泥，但是p1是滚涂罩面属于第一道工序，篇画面才是微陶泥施工。先按这两段记录，不要直接套到整个目录，继续带我看P3、P4，等我确认后再记录，流程图同步更新。", "sample_id": "P2", "person_identity": null, "product_identity": "项目使用微陶泥（用户确认）；当前工序单独记录", "confirmed_action": "微陶泥施工", "description": "用户已确认项目与片段工序", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Do
+EV[10] id=confirmed-P20 asset=dd6bb5b40938ab256cdb37571afe7c05 start=2.0 end=5.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "dd6bb5b40938ab256cdb37571afe7c05", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "都符合，材料也是微陶泥", "sample_id": "P20", "person_identity": null, "product_identity": "微陶泥（用户确认，仅本段）", "confirmed_action": "墙面基面上的批刮", "description": "用户确认：微陶泥墙面批刮", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-05.json", "source_rec
+EV[11] id=confirmed-P21 asset=012256615ba2d3dab89090356da2d6b1 start=2.0 end=5.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "012256615ba2d3dab89090356da2d6b1", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "sample_id": "P21", "person_identity": null, "product_identity": "水洗石", "confirmed_action": "基面批刮", "description": "用户确认：水洗石批刮，与当前视频业务无关", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-06.json", "source_record_hash": "eb24b2358f7bd9acc23e7
+EV[12] id=confirmed-P22 asset=1eef32fcc1c895a6931e9d51d03ba28d start=2.0 end=5.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "1eef32fcc1c895a6931e9d51d03ba28d", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "sample_id": "P22", "person_identity": null, "product_identity": "水洗石", "confirmed_action": "基面批刮", "description": "用户确认：水洗石批刮，与当前视频业务无关", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-06.json", "source_record_hash": "eb24b2358f7bd9acc23e7
+EV[13] id=confirmed-P23 asset=ec7811dd02f80d607d4ade7683da72c9 start=2.0 end=5.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "ec7811dd02f80d607d4ade7683da72c9", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "都是微陶泥，P23是批刮，P24是批刮、取料都有", "sample_id": "P23", "person_identity": null, "product_identity": "微陶泥（用户确认，仅本段）", "confirmed_action": "批刮", "description": "用户确认：微陶泥批刮", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-07.json", "sourc
+EV[14] id=confirmed-P24 asset=c20a703613be13deddbe8d3f71e8b007 start=2.0 end=5.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "c20a703613be13deddbe8d3f71e8b007", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "都是微陶泥，P23是批刮，P24是批刮、取料都有", "sample_id": "P24", "person_identity": null, "product_identity": "微陶泥（用户确认，仅本段）", "confirmed_action": "批刮＋取料（混合动作）", "description": "用户确认：微陶泥批刮＋取料（混合动作）", "reason": "整段保留批刮＋取料混合标签；已确认两段动作区间，中间过渡不纳入；不计新增独立来源", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及
+EV[15] id=confirmed-P25 asset=4ccc65df7eeac0bb2297a1cecacea261 start=0.0 end=4.5 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "4ccc65df7eeac0bb2297a1cecacea261", "start": 0.0, "end": 4.5, "confirmed_by": "当前用户", "evidence": "P25是微陶泥纯取料，P26是微陶泥罩面，整段都可以。先按这两段记录，不要套用整个目录", "sample_id": "P25", "person_identity": null, "product_identity": "微陶泥（用户确认，仅本段）", "confirmed_action": "纯取料", "description": "用户确认：微陶泥纯取料", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\pro
+EV[16] id=confirmed-P26 asset=f29ecd7161dff8c5d9328f678b2228db start=2.0 end=8.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "f29ecd7161dff8c5d9328f678b2228db", "start": 2.0, "end": 8.0, "confirmed_by": "当前用户", "evidence": "P25是微陶泥纯取料，P26是微陶泥罩面，整段都可以。先按这两段记录，不要套用整个目录", "sample_id": "P26", "person_identity": null, "product_identity": "微陶泥（用户确认，仅本段）", "confirmed_action": "罩面", "description": "用户确认：微陶泥罩面", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\produ
+EV[17] id=confirmed-P3 asset=eef0d4e719b28bc2875bfeb6c5c81f7b start=2.0 end=5.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "eef0d4e719b28bc2875bfeb6c5c81f7b", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "P3不是微陶泥，也不是工序，p4是微陶泥，展示施工了一半的卫生间，这里师傅在弄别的东西没有施工", "sample_id": "P3", "person_identity": null, "product_identity": "本片段不是微陶泥（用户确认）", "confirmed_action": "非施工工序", "description": "用户已确认产品与画面状态", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotati
+EV[18] id=confirmed-P4 asset=cb7f3af4f44a0ee9621d214c630400f8 start=2.0 end=5.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "cb7f3af4f44a0ee9621d214c630400f8", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "P3不是微陶泥，也不是工序，p4是微陶泥，展示施工了一半的卫生间，这里师傅在弄别的东西没有施工", "sample_id": "P4", "person_identity": null, "product_identity": "微陶泥（用户确认）", "confirmed_action": "施工中途现场展示，非正在施工", "description": "用户已确认产品与画面状态", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-anno
+EV[19] id=confirmed-P5 asset=56966c1966071ad0c20cfaa561cb07b2 start=2.0 end=5.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "56966c1966071ad0c20cfaa561cb07b2", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "都是微陶泥，都在施工中，动作是批刮覆盖", "sample_id": "P5", "person_identity": null, "product_identity": "微陶泥（用户确认）", "confirmed_action": "批刮覆盖", "description": "用户已确认微陶泥施工正例", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-01.json", "source_reco
+EV[20] id=confirmed-P6 asset=0f939c041c39388ba3db921eaef312d2 start=0.92625 end=3.705 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "0f939c041c39388ba3db921eaef312d2", "start": 0.92625, "end": 3.705, "confirmed_by": "当前用户", "evidence": "都是微陶泥，都在施工中，动作是批刮覆盖", "sample_id": "P6", "person_identity": null, "product_identity": "微陶泥（用户确认）", "confirmed_action": "批刮覆盖", "description": "用户已确认微陶泥施工正例", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-01.json", "sourc
+EV[21] id=confirmed-P7 asset=62c387ebe0f7aaf27fbaa0cae30acddf start=0.23375 end=0.935 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "62c387ebe0f7aaf27fbaa0cae30acddf", "start": 0.23375, "end": 0.935, "confirmed_by": "当前用户", "evidence": "P7是铲除，不算微陶泥施工；P8是微陶泥施工，动作是批刮覆盖。先按这两段记录，不要套用整个目录，继续带我看P9、P10，等我确认后再记录，流程图同步更新。", "sample_id": "P7", "person_identity": null, "product_identity": "当前片段不证明微陶泥产品身份", "confirmed_action": "铲除", "description": "用户确认：铲除，不算微陶泥施工", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\
+EV[22] id=confirmed-P8 asset=5f612578dab814de8b291302c4331813 start=2.0 end=5.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "5f612578dab814de8b291302c4331813", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "P7是铲除，不算微陶泥施工；P8是微陶泥施工，动作是批刮覆盖。先按这两段记录，不要套用整个目录，继续带我看P9、P10，等我确认后再记录，流程图同步更新。", "sample_id": "P8", "person_identity": null, "product_identity": "微陶泥（用户确认）", "confirmed_action": "批刮覆盖", "description": "用户确认：微陶泥施工正例", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘
+EV[23] id=confirmed-P9 asset=4ccc65df7eeac0bb2297a1cecacea261 start=2.0 end=5.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "4ccc65df7eeac0bb2297a1cecacea261", "start": 2.0, "end": 5.0, "confirmed_by": "当前用户", "evidence": "P9是微陶泥取料，P10是微陶泥批刮覆盖。先按这两段记录，不要套用整个目录，继续带我看P11、P12，等我确认后再记录，流程图同步更新。", "sample_id": "P9", "person_identity": null, "product_identity": "微陶泥（用户确认）", "confirmed_action": "取料", "description": "用户确认：微陶泥取料", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\acti
+EV[24] id=confirmed-R01 asset=8dbee2c08ff99cb523c79d1ff43ff386 start=2.0 end=6.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "8dbee2c08ff99cb523c79d1ff43ff386", "start": 2.0, "end": 6.0, "confirmed_by": "当前用户", "evidence": "R01是阿明，R02是其他人物。先按这两段记录，不要套用整个目录", "sample_id": "R01", "person_identity": "阿明", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：阿明", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-01.json", "source_reco
+EV[25] id=confirmed-R02 asset=ec7811dd02f80d607d4ade7683da72c9 start=2.0 end=6.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "ec7811dd02f80d607d4ade7683da72c9", "start": 2.0, "end": 6.0, "confirmed_by": "当前用户", "evidence": "R01是阿明，R02是其他人物。先按这两段记录，不要套用整个目录", "sample_id": "R02", "person_identity": "其他人物", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：其他人物", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-01.json", "source_
+EV[26] id=confirmed-R03 asset=c50fce1d7c874f30a0008fb4b419fbd0 start=2.0 end=6.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "c50fce1d7c874f30a0008fb4b419fbd0", "start": 2.0, "end": 6.0, "confirmed_by": "当前用户", "evidence": "R03是阿明，R04前景紫衣是阿明，后方没穿上衣的是其他人物", "sample_id": "R03", "person_identity": "阿明", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：阿明", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-02.json", "source_record
+EV[27] id=confirmed-R04 asset=0e994a1d2837bd1069fd397553b62816 start=2.0 end=6.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "0e994a1d2837bd1069fd397553b62816", "start": 2.0, "end": 6.0, "confirmed_by": "当前用户", "evidence": "R03是阿明，R04前景紫衣是阿明，后方没穿上衣的是其他人物", "sample_id": "R04", "person_identity": null, "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：前景紫衣阿明；后方未穿上衣其他人物", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-02.json",
+EV[28] id=confirmed-R05 asset=c6eb8134b11a584256423d6a036fda71 start=2.0 end=6.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "c6eb8134b11a584256423d6a036fda71", "start": 2.0, "end": 6.0, "confirmed_by": "当前用户", "evidence": "R05是阿明，R06前景紫色马甲是阿明，右后方靠墙的是其他人物。先按这几个人物记录，不要套用整个目录", "sample_id": "R05", "person_identity": "阿明", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：阿明", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-03.j
+EV[29] id=confirmed-R06 asset=ccdb51ab3e8100c69ab96a0b5ee94848 start=2.0 end=6.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "ccdb51ab3e8100c69ab96a0b5ee94848", "start": 2.0, "end": 6.0, "confirmed_by": "当前用户", "evidence": "R05是阿明，R06前景紫色马甲是阿明，右后方靠墙的是其他人物。先按这几个人物记录，不要套用整个目录", "sample_id": "R06", "person_identity": null, "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：前景紫色马甲阿明；右后方靠墙其他人物", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotat
+EV[30] id=confirmed-R07 asset=1c3742d1e5fd0e1d51ffd7ddc2b052b9 start=2.0 end=6.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "1c3742d1e5fd0e1d51ffd7ddc2b052b9", "start": 2.0, "end": 6.0, "confirmed_by": "当前用户", "evidence": "R07是阿明，R08不是阿明，是师傅", "sample_id": "R07", "person_identity": "阿明", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：阿明", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-04.json", "source_record_hash": "9be
+EV[31] id=confirmed-R08 asset=c0989918dfc4340174e9ede6d31cf89e start=2.0 end=6.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "c0989918dfc4340174e9ede6d31cf89e", "start": 2.0, "end": 6.0, "confirmed_by": "当前用户", "evidence": "R07是阿明，R08不是阿明，是师傅", "sample_id": "R08", "person_identity": "其他人物", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：不是阿明，是师傅（具体姓名未知）", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-04.json", "source_re
+EV[32] id=confirmed-R09 asset=28e1f1da6707350efc9a7a67776984ea start=2.0 end=6.0 keys=['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+  scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "28e1f1da6707350efc9a7a67776984ea", "start": 2.0, "end": 6.0, "confirmed_by": "当前用户", "evidence": "R09不是阿明，另外说一点这个女生离职了不能使用他出境的素材", "sample_id": "R09", "person_identity": "其他人物", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认：非阿明；该人物出镜素材禁用", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-05.json", "
+
+=== compare approved-by-当前用户 vs evidence ===
+approved 当前用户=36 evidence=33 approved total=37
+unique ev asset-span=33 unique cu asset-span=36
+cu ids:
+  confirmed-R01
+  confirmed-R02
+  confirmed-R03
+  confirmed-R04
+  confirmed-R05
+  confirmed-R06
+  confirmed-R07
+  confirmed-R08
+  confirmed-R09
+  confirmed-P1
+  confirmed-P2
+  confirmed-P3
+  confirmed-P4
+  confirmed-P5
+  confirmed-P6
+  confirmed-P7
+  confirmed-P8
+  confirmed-P9
+  confirmed-P10
+  confirmed-P11
+  confirmed-P12
+  confirmed-P13
+  confirmed-P14
+  confirmed-P15
+  confirmed-P17
+  confirmed-P19
+  confirmed-P20
+  confirmed-P21
+  confirmed-P22
+  confirmed-P23
+  confirmed-P24
+  confirmed-P25
+  confirmed-P26
+  confirmed-V1
+  confirmed-V2
+  confirmed-V3
+ev ids:
+  confirmed-P1
+  confirmed-P10
+  confirmed-P11
+  confirmed-P12
+  confirmed-P13
+  confirmed-P14
+  confirmed-P15
+  confirmed-P17
+  confirmed-P19
+  confirmed-P2
+  confirmed-P20
+  confirmed-P21
+  confirmed-P22
+  confirmed-P23
+  confirmed-P24
+  confirmed-P25
+  confirmed-P26
+  confirmed-P3
+  confirmed-P4
+  confirmed-P5
+  confirmed-P6
+  confirmed-P7
+  confirmed-P8
+  confirmed-P9
+  confirmed-R01
+  confirmed-R02
+  confirmed-R03
+  confirmed-R04
+  confirmed-R05
+  confirmed-R06
+  confirmed-R07
+  confirmed-R08
+  confirmed-R09
+in approved-当前用户 but not evidence: 3
+  ONLY_CU id=confirmed-V1 key=('08df39f7e2833ba59b9fa50e7beecc74', 0.0, 8.0) scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "08df39f7e2833ba59b9fa50e7beecc74", "start": 0.0, "end": 8.0, "confirmed_by": "当前用户", "evidence": "V1和v3适合，主要人物是阿明 v2不是", "sample_id": "V1", "person_identity": "阿明", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认适合当前文案", "reason": "仅0–8秒主要人物。V2不认定全体同框人物均不是阿明，也不作全库禁用。", "reason_code": "confirme
+  ONLY_CU id=confirmed-V2 key=('844dec0c826dc1e0870a4f6c15f21050', 0.0, 8.0) scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "844dec0c826dc1e0870a4f6c15f21050", "start": 0.0, "end": 8.0, "confirmed_by": "当前用户", "evidence": "V1和v3适合，主要人物是阿明 v2不是", "sample_id": "V2", "person_identity": "不是阿明", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认主要人物不是阿明；不作为阿明出镜候选", "reason": "仅0–8秒主要人物。V2不认定全体同框人物均不是阿明，也不作全库禁用。", "reason_co
+  ONLY_CU id=confirmed-V3 key=('cccbc086c8b2fea531fb0dd2bd034fb2', 0.0, 8.0) scalars={"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "cccbc086c8b2fea531fb0dd2bd034fb2", "start": 0.0, "end": 8.0, "confirmed_by": "当前用户", "evidence": "V1和v3适合，主要人物是阿明 v2不是", "sample_id": "V3", "person_identity": "阿明", "product_identity": "未核验", "confirmed_action": null, "description": "用户确认适合当前文案", "reason": "仅0–8秒主要人物。V2不认定全体同框人物均不是阿明，也不作全库禁用。", "reason_code": "confirme
+in evidence but not approved-当前用户: 0
+
+payload.id / kind / type distribution for approved 当前用户
+  rule=confirmed-R01 payload.id=None kind=fact type=None label=None text=用户确认：阿明
+  rule=confirmed-R02 payload.id=None kind=fact type=None label=None text=用户确认：其他人物
+  rule=confirmed-R03 payload.id=None kind=fact type=None label=None text=用户确认：阿明
+  rule=confirmed-R04 payload.id=None kind=fact type=None label=None text=用户确认：前景紫衣阿明；后方未穿上衣其他人物
+  rule=confirmed-R05 payload.id=None kind=fact type=None label=None text=用户确认：阿明
+  rule=confirmed-R06 payload.id=None kind=fact type=None label=None text=用户确认：前景紫色马甲阿明；右后方靠墙其他人物
+  rule=confirmed-R07 payload.id=None kind=fact type=None label=None text=用户确认：阿明
+  rule=confirmed-R08 payload.id=None kind=fact type=None label=None text=用户确认：不是阿明，是师傅（具体姓名未知）
+  rule=confirmed-R09 payload.id=None kind=fact type=None label=None text=用户确认：非阿明；该人物出镜素材禁用
+  rule=confirmed-P1 payload.id=None kind=fact type=None label=None text=用户已确认项目与片段工序
+  rule=confirmed-P2 payload.id=None kind=fact type=None label=None text=用户已确认项目与片段工序
+  rule=confirmed-P3 payload.id=None kind=fact type=None label=None text=用户已确认产品与画面状态
+  rule=confirmed-P4 payload.id=None kind=fact type=None label=None text=用户已确认产品与画面状态
+  rule=confirmed-P5 payload.id=None kind=fact type=None label=None text=用户已确认微陶泥施工正例
+  rule=confirmed-P6 payload.id=None kind=fact type=None label=None text=用户已确认微陶泥施工正例
+  rule=confirmed-P7 payload.id=None kind=fact type=None label=None text=用户确认：铲除，不算微陶泥施工
+  rule=confirmed-P8 payload.id=None kind=fact type=None label=None text=用户确认：微陶泥施工正例
+  rule=confirmed-P9 payload.id=None kind=fact type=None label=None text=用户确认：微陶泥取料
+  rule=confirmed-P10 payload.id=None kind=fact type=None label=None text=用户确认：微陶泥批刮覆盖
+  rule=confirmed-P11 payload.id=None kind=fact type=None label=None text=用户确认：微陶泥批刮覆盖
+  rule=confirmed-P12 payload.id=None kind=fact type=None label=None text=用户确认：微陶泥批刮覆盖
+  rule=confirmed-P13 payload.id=None kind=fact type=None label=None text=用户确认：不是微陶泥批刮施工
+  rule=confirmed-P14 payload.id=None kind=fact type=None label=None text=用户确认：不是微陶泥批刮施工
+  rule=confirmed-P15 payload.id=None kind=fact type=None label=None text=用户确认：微陶泥材料桶展示，不算批刮施工
+  rule=confirmed-P17 payload.id=None kind=fact type=None label=None text=用户确认：微陶泥，非批刮动作
+  rule=confirmed-P19 payload.id=None kind=fact type=None label=None text=用户确认：微陶泥墙面批刮
+  rule=confirmed-P20 payload.id=None kind=fact type=None label=None text=用户确认：微陶泥墙面批刮
+  rule=confirmed-P21 payload.id=None kind=fact type=None label=None text=用户确认：水洗石批刮，与当前视频业务无关
+  rule=confirmed-P22 payload.id=None kind=fact type=None label=None text=用户确认：水洗石批刮，与当前视频业务无关
+  rule=confirmed-P23 payload.id=None kind=fact type=None label=None text=用户确认：微陶泥批刮
+  rule=confirmed-P24 payload.id=None kind=fact type=None label=None text=用户确认：微陶泥批刮＋取料（混合动作）
+  rule=confirmed-P25 payload.id=None kind=fact type=None label=None text=用户确认：微陶泥纯取料
+  rule=confirmed-P26 payload.id=None kind=fact type=None label=None text=用户确认：微陶泥罩面
+  rule=confirmed-V1 payload.id=None kind=fact type=None label=None text=用户确认适合当前文案
+  rule=confirmed-V2 payload.id=None kind=fact type=None label=None text=用户确认主要人物不是阿明；不作为阿明出镜候选
+  rule=confirmed-V3 payload.id=None kind=fact type=None label=None text=用户确认适合当前文案

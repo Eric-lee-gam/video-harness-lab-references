@@ -1,0 +1,835 @@
+{
+  "schema_version": 1,
+  "reference_id": "R23",
+  "status": "local_asr_complete_unverified",
+  "source_audio": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R23\\audio.wav",
+  "model": "C:\\Users\\leega\\.cache\\huggingface\\hub\\models--Systran--faster-whisper-small\\snapshots\\536b0662742c02347bc0e980a01041f333bce120",
+  "device": "cpu",
+  "compute_type": "int8",
+  "language": "zh",
+  "language_probability": 1,
+  "duration": 23.2185,
+  "vad_filter": false,
+  "word_timestamps": true,
+  "human_listening_verified": false,
+  "elapsed_seconds": 6.093,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 3.88,
+      "text": "它就是全重庆女人都想嫁的就房改造大王",
+      "avg_logprob": -0.13364782520368987,
+      "no_speech_prob": 0.12168142199516296,
+      "compression_ratio": 1.2458471760797343,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.24,
+          "word": "它",
+          "probability": 0.31615886092185974
+        },
+        {
+          "start": 0.24,
+          "end": 0.5,
+          "word": "就是",
+          "probability": 0.9859210848808289
+        },
+        {
+          "start": 0.5,
+          "end": 0.92,
+          "word": "全",
+          "probability": 0.8635668158531189
+        },
+        {
+          "start": 0.92,
+          "end": 1.16,
+          "word": "重",
+          "probability": 0.9409043192863464
+        },
+        {
+          "start": 1.16,
+          "end": 1.34,
+          "word": "庆",
+          "probability": 0.7841882407665253
+        },
+        {
+          "start": 1.34,
+          "end": 1.56,
+          "word": "女",
+          "probability": 0.9745841026306152
+        },
+        {
+          "start": 1.56,
+          "end": 1.74,
+          "word": "人",
+          "probability": 0.9951558113098145
+        },
+        {
+          "start": 1.74,
+          "end": 1.92,
+          "word": "都",
+          "probability": 0.9929875731468201
+        },
+        {
+          "start": 1.92,
+          "end": 2.14,
+          "word": "想",
+          "probability": 0.9961642026901245
+        },
+        {
+          "start": 2.14,
+          "end": 2.36,
+          "word": "嫁",
+          "probability": 0.838370680809021
+        },
+        {
+          "start": 2.36,
+          "end": 2.56,
+          "word": "的",
+          "probability": 0.9958233833312988
+        },
+        {
+          "start": 2.56,
+          "end": 2.78,
+          "word": "就",
+          "probability": 0.23622816801071167
+        },
+        {
+          "start": 2.78,
+          "end": 3.08,
+          "word": "房",
+          "probability": 0.9604964256286621
+        },
+        {
+          "start": 3.08,
+          "end": 3.32,
+          "word": "改",
+          "probability": 0.9919305443763733
+        },
+        {
+          "start": 3.32,
+          "end": 3.5,
+          "word": "造",
+          "probability": 0.9971113204956055
+        },
+        {
+          "start": 3.5,
+          "end": 3.68,
+          "word": "大",
+          "probability": 0.9904153347015381
+        },
+        {
+          "start": 3.68,
+          "end": 3.88,
+          "word": "王",
+          "probability": 0.9944441914558411
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 3.88,
+      "end": 6.08,
+      "text": "其他中修公司张口就要十几万",
+      "avg_logprob": -0.13364782520368987,
+      "no_speech_prob": 0.12168142199516296,
+      "compression_ratio": 1.2458471760797343,
+      "words": [
+        {
+          "start": 3.88,
+          "end": 4.12,
+          "word": "其",
+          "probability": 0.8192789554595947
+        },
+        {
+          "start": 4.12,
+          "end": 4.3,
+          "word": "他",
+          "probability": 0.9276865124702454
+        },
+        {
+          "start": 4.3,
+          "end": 4.44,
+          "word": "中",
+          "probability": 0.7312955856323242
+        },
+        {
+          "start": 4.44,
+          "end": 4.6,
+          "word": "修",
+          "probability": 0.9682263731956482
+        },
+        {
+          "start": 4.6,
+          "end": 4.76,
+          "word": "公",
+          "probability": 0.9977868795394897
+        },
+        {
+          "start": 4.76,
+          "end": 4.98,
+          "word": "司",
+          "probability": 0.9995964169502258
+        },
+        {
+          "start": 4.98,
+          "end": 5.18,
+          "word": "张",
+          "probability": 0.6792351007461548
+        },
+        {
+          "start": 5.18,
+          "end": 5.42,
+          "word": "口",
+          "probability": 0.9983950257301331
+        },
+        {
+          "start": 5.42,
+          "end": 5.56,
+          "word": "就",
+          "probability": 0.9302440881729126
+        },
+        {
+          "start": 5.56,
+          "end": 5.68,
+          "word": "要",
+          "probability": 0.9878270030021667
+        },
+        {
+          "start": 5.68,
+          "end": 5.82,
+          "word": "十",
+          "probability": 0.9135412573814392
+        },
+        {
+          "start": 5.82,
+          "end": 5.96,
+          "word": "几",
+          "probability": 0.9905255734920502
+        },
+        {
+          "start": 5.96,
+          "end": 6.08,
+          "word": "万",
+          "probability": 0.9187306761741638
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 6.08,
+      "end": 8.16,
+      "text": "它却坚持免费上门粮房",
+      "avg_logprob": -0.13364782520368987,
+      "no_speech_prob": 0.12168142199516296,
+      "compression_ratio": 1.2458471760797343,
+      "words": [
+        {
+          "start": 6.08,
+          "end": 6.32,
+          "word": "它",
+          "probability": 0.45614075660705566
+        },
+        {
+          "start": 6.32,
+          "end": 6.5,
+          "word": "却",
+          "probability": 0.9941883087158203
+        },
+        {
+          "start": 6.5,
+          "end": 6.7,
+          "word": "坚",
+          "probability": 0.9941688776016235
+        },
+        {
+          "start": 6.7,
+          "end": 6.9,
+          "word": "持",
+          "probability": 0.9995129108428955
+        },
+        {
+          "start": 6.9,
+          "end": 7.16,
+          "word": "免",
+          "probability": 0.992362916469574
+        },
+        {
+          "start": 7.16,
+          "end": 7.42,
+          "word": "费",
+          "probability": 0.9993299245834351
+        },
+        {
+          "start": 7.42,
+          "end": 7.62,
+          "word": "上",
+          "probability": 0.9962295889854431
+        },
+        {
+          "start": 7.62,
+          "end": 7.78,
+          "word": "门",
+          "probability": 0.9985611736774445
+        },
+        {
+          "start": 7.78,
+          "end": 7.92,
+          "word": "粮",
+          "probability": 0.624326080083847
+        },
+        {
+          "start": 7.92,
+          "end": 8.16,
+          "word": "房",
+          "probability": 0.9868380427360535
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 8.16,
+      "end": 9.68,
+      "text": "现场给出合理报价",
+      "avg_logprob": -0.13364782520368987,
+      "no_speech_prob": 0.12168142199516296,
+      "compression_ratio": 1.2458471760797343,
+      "words": [
+        {
+          "start": 8.16,
+          "end": 8.48,
+          "word": "现",
+          "probability": 0.744858980178833
+        },
+        {
+          "start": 8.48,
+          "end": 8.74,
+          "word": "场",
+          "probability": 0.9914761185646057
+        },
+        {
+          "start": 8.74,
+          "end": 8.88,
+          "word": "给",
+          "probability": 0.9933366775512695
+        },
+        {
+          "start": 8.88,
+          "end": 9.04,
+          "word": "出",
+          "probability": 0.9990610480308533
+        },
+        {
+          "start": 9.04,
+          "end": 9.22,
+          "word": "合",
+          "probability": 0.9704155921936035
+        },
+        {
+          "start": 9.22,
+          "end": 9.34,
+          "word": "理",
+          "probability": 0.9911292791366577
+        },
+        {
+          "start": 9.34,
+          "end": 9.46,
+          "word": "报",
+          "probability": 0.8773746490478516
+        },
+        {
+          "start": 9.46,
+          "end": 9.68,
+          "word": "价",
+          "probability": 0.9871298968791962
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 9.68,
+      "end": 13.22,
+      "text": "花个万百块都能把你家的老房子从这样改成那样",
+      "avg_logprob": -0.13364782520368987,
+      "no_speech_prob": 0.12168142199516296,
+      "compression_ratio": 1.2458471760797343,
+      "words": [
+        {
+          "start": 9.68,
+          "end": 9.92,
+          "word": "花",
+          "probability": 0.9887340068817139
+        },
+        {
+          "start": 9.92,
+          "end": 10.06,
+          "word": "个",
+          "probability": 0.970573902130127
+        },
+        {
+          "start": 10.06,
+          "end": 10.2,
+          "word": "万",
+          "probability": 0.9697406888008118
+        },
+        {
+          "start": 10.2,
+          "end": 10.42,
+          "word": "百",
+          "probability": 0.9923742413520813
+        },
+        {
+          "start": 10.42,
+          "end": 10.6,
+          "word": "块",
+          "probability": 0.9906430840492249
+        },
+        {
+          "start": 10.6,
+          "end": 10.78,
+          "word": "都",
+          "probability": 0.9936459064483643
+        },
+        {
+          "start": 10.78,
+          "end": 10.88,
+          "word": "能",
+          "probability": 0.9989427924156189
+        },
+        {
+          "start": 10.88,
+          "end": 11.02,
+          "word": "把",
+          "probability": 0.9969090819358826
+        },
+        {
+          "start": 11.02,
+          "end": 11.22,
+          "word": "你",
+          "probability": 0.9967231154441833
+        },
+        {
+          "start": 11.22,
+          "end": 11.38,
+          "word": "家",
+          "probability": 0.9993390440940857
+        },
+        {
+          "start": 11.38,
+          "end": 11.5,
+          "word": "的",
+          "probability": 0.9958426356315613
+        },
+        {
+          "start": 11.5,
+          "end": 11.68,
+          "word": "老",
+          "probability": 0.9979211688041687
+        },
+        {
+          "start": 11.68,
+          "end": 11.92,
+          "word": "房",
+          "probability": 0.9976903200149536
+        },
+        {
+          "start": 11.92,
+          "end": 12.12,
+          "word": "子",
+          "probability": 0.9995593428611755
+        },
+        {
+          "start": 12.12,
+          "end": 12.26,
+          "word": "从",
+          "probability": 0.9881427884101868
+        },
+        {
+          "start": 12.26,
+          "end": 12.56,
+          "word": "这样",
+          "probability": 0.9944934844970703
+        },
+        {
+          "start": 12.56,
+          "end": 12.8,
+          "word": "改",
+          "probability": 0.994671642780304
+        },
+        {
+          "start": 12.8,
+          "end": 12.92,
+          "word": "成",
+          "probability": 0.9982830286026001
+        },
+        {
+          "start": 12.92,
+          "end": 13.1,
+          "word": "那",
+          "probability": 0.8939633369445801
+        },
+        {
+          "start": 13.1,
+          "end": 13.22,
+          "word": "样",
+          "probability": 0.9989901185035706
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 13.22,
+      "end": 15.22,
+      "text": "它装的房子不仅美观大气",
+      "avg_logprob": -0.13364782520368987,
+      "no_speech_prob": 0.12168142199516296,
+      "compression_ratio": 1.2458471760797343,
+      "words": [
+        {
+          "start": 13.22,
+          "end": 13.48,
+          "word": "它",
+          "probability": 0.7355855107307434
+        },
+        {
+          "start": 13.48,
+          "end": 13.66,
+          "word": "装",
+          "probability": 0.9819590449333191
+        },
+        {
+          "start": 13.66,
+          "end": 13.78,
+          "word": "的",
+          "probability": 0.9920896291732788
+        },
+        {
+          "start": 13.78,
+          "end": 13.92,
+          "word": "房",
+          "probability": 0.9983828067779541
+        },
+        {
+          "start": 13.92,
+          "end": 14.1,
+          "word": "子",
+          "probability": 0.9988778233528137
+        },
+        {
+          "start": 14.1,
+          "end": 14.24,
+          "word": "不",
+          "probability": 0.9973646998405457
+        },
+        {
+          "start": 14.24,
+          "end": 14.4,
+          "word": "仅",
+          "probability": 0.9913232326507568
+        },
+        {
+          "start": 14.4,
+          "end": 14.58,
+          "word": "美",
+          "probability": 0.6522532105445862
+        },
+        {
+          "start": 14.58,
+          "end": 14.78,
+          "word": "观",
+          "probability": 0.9489651322364807
+        },
+        {
+          "start": 14.78,
+          "end": 14.98,
+          "word": "大",
+          "probability": 0.9861558079719543
+        },
+        {
+          "start": 14.98,
+          "end": 15.22,
+          "word": "气",
+          "probability": 0.4822506904602051
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 15.22,
+      "end": 16.68,
+      "text": "用的也都是环保材料",
+      "avg_logprob": -0.13364782520368987,
+      "no_speech_prob": 0.12168142199516296,
+      "compression_ratio": 1.2458471760797343,
+      "words": [
+        {
+          "start": 15.22,
+          "end": 15.46,
+          "word": "用",
+          "probability": 0.9707358479499817
+        },
+        {
+          "start": 15.46,
+          "end": 15.62,
+          "word": "的",
+          "probability": 0.9835757613182068
+        },
+        {
+          "start": 15.62,
+          "end": 15.74,
+          "word": "也",
+          "probability": 0.9969623684883118
+        },
+        {
+          "start": 15.74,
+          "end": 15.94,
+          "word": "都是",
+          "probability": 0.9964635968208313
+        },
+        {
+          "start": 15.94,
+          "end": 16.14,
+          "word": "环",
+          "probability": 0.9886629581451416
+        },
+        {
+          "start": 16.14,
+          "end": 16.34,
+          "word": "保",
+          "probability": 0.982570230960846
+        },
+        {
+          "start": 16.34,
+          "end": 16.52,
+          "word": "材",
+          "probability": 0.9927487969398499
+        },
+        {
+          "start": 16.52,
+          "end": 16.68,
+          "word": "料",
+          "probability": 0.9999139308929443
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 16.68,
+      "end": 18.42,
+      "text": "大人小孩都可以放心住",
+      "avg_logprob": -0.13364782520368987,
+      "no_speech_prob": 0.12168142199516296,
+      "compression_ratio": 1.2458471760797343,
+      "words": [
+        {
+          "start": 16.68,
+          "end": 16.9,
+          "word": "大",
+          "probability": 0.9663122892379761
+        },
+        {
+          "start": 16.9,
+          "end": 17.1,
+          "word": "人",
+          "probability": 0.9993158578872681
+        },
+        {
+          "start": 17.1,
+          "end": 17.28,
+          "word": "小",
+          "probability": 0.8430961966514587
+        },
+        {
+          "start": 17.28,
+          "end": 17.48,
+          "word": "孩",
+          "probability": 0.9932202100753784
+        },
+        {
+          "start": 17.48,
+          "end": 17.68,
+          "word": "都",
+          "probability": 0.9377157092094421
+        },
+        {
+          "start": 17.68,
+          "end": 17.96,
+          "word": "可以",
+          "probability": 0.9978220462799072
+        },
+        {
+          "start": 17.96,
+          "end": 18.16,
+          "word": "放心",
+          "probability": 0.966105580329895
+        },
+        {
+          "start": 18.16,
+          "end": 18.42,
+          "word": "住",
+          "probability": 0.9788438081741333
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 18.42,
+      "end": 20.0,
+      "text": "如果你看到这条视频",
+      "avg_logprob": -0.13364782520368987,
+      "no_speech_prob": 0.12168142199516296,
+      "compression_ratio": 1.2458471760797343,
+      "words": [
+        {
+          "start": 18.42,
+          "end": 18.74,
+          "word": "如果",
+          "probability": 0.9690362811088562
+        },
+        {
+          "start": 18.74,
+          "end": 19.12,
+          "word": "你看",
+          "probability": 0.9956440925598145
+        },
+        {
+          "start": 19.12,
+          "end": 19.26,
+          "word": "到",
+          "probability": 0.9924986958503723
+        },
+        {
+          "start": 19.26,
+          "end": 19.42,
+          "word": "这",
+          "probability": 0.9924640655517578
+        },
+        {
+          "start": 19.42,
+          "end": 19.58,
+          "word": "条",
+          "probability": 0.989055871963501
+        },
+        {
+          "start": 19.58,
+          "end": 19.78,
+          "word": "视",
+          "probability": 0.995157778263092
+        },
+        {
+          "start": 19.78,
+          "end": 20.0,
+          "word": "频",
+          "probability": 0.999367892742157
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 20.0,
+      "end": 21.64,
+      "text": "请给我点一个小爱心",
+      "avg_logprob": -0.13364782520368987,
+      "no_speech_prob": 0.12168142199516296,
+      "compression_ratio": 1.2458471760797343,
+      "words": [
+        {
+          "start": 20.0,
+          "end": 20.28,
+          "word": "请",
+          "probability": 0.9862568974494934
+        },
+        {
+          "start": 20.28,
+          "end": 20.56,
+          "word": "给我",
+          "probability": 0.9966161847114563
+        },
+        {
+          "start": 20.56,
+          "end": 20.78,
+          "word": "点",
+          "probability": 0.9986897110939026
+        },
+        {
+          "start": 20.78,
+          "end": 20.98,
+          "word": "一个",
+          "probability": 0.9905750751495361
+        },
+        {
+          "start": 20.98,
+          "end": 21.24,
+          "word": "小",
+          "probability": 0.9865320324897766
+        },
+        {
+          "start": 21.24,
+          "end": 21.42,
+          "word": "爱",
+          "probability": 0.8030716180801392
+        },
+        {
+          "start": 21.42,
+          "end": 21.64,
+          "word": "心",
+          "probability": 0.9967668056488037
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 21.64,
+      "end": 22.92,
+      "text": "以后一定用得上",
+      "avg_logprob": -0.13364782520368987,
+      "no_speech_prob": 0.12168142199516296,
+      "compression_ratio": 1.2458471760797343,
+      "words": [
+        {
+          "start": 21.64,
+          "end": 21.88,
+          "word": "以",
+          "probability": 0.8051401376724243
+        },
+        {
+          "start": 21.88,
+          "end": 22.04,
+          "word": "后",
+          "probability": 0.9989803433418274
+        },
+        {
+          "start": 22.04,
+          "end": 22.4,
+          "word": "一定",
+          "probability": 0.9934505224227905
+        },
+        {
+          "start": 22.4,
+          "end": 22.68,
+          "word": "用",
+          "probability": 0.9940967559814453
+        },
+        {
+          "start": 22.68,
+          "end": 22.76,
+          "word": "得",
+          "probability": 0.8898394107818604
+        },
+        {
+          "start": 22.76,
+          "end": 22.92,
+          "word": "上",
+          "probability": 0.9982705116271973
+        }
+      ]
+    }
+  ],
+  "raw_text": "它就是全重庆女人都想嫁的就房改造大王其他中修公司张口就要十几万它却坚持免费上门粮房现场给出合理报价花个万百块都能把你家的老房子从这样改成那样它装的房子不仅美观大气用的也都是环保材料大人小孩都可以放心住如果你看到这条视频请给我点一个小爱心以后一定用得上",
+  "limitations": [
+    "Raw machine transcription, not a verified transcript.",
+    "Mixed speech/music, accents, place names and prices can be wrong.",
+    "ASR timestamps are approximate and are not edit points."
+  ]
+}

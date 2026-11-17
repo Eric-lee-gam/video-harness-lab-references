@@ -1,0 +1,83 @@
+facts=493
+by 来源文件:
+   177  小区全库/数据/AI剪辑检索索引.jsonl#indexed_segments
+    61  出镜文件夹确认图/对照表.md#明细
+    50  试标50段/审核结果_李康_20261116.json+_对应表.csv
+    41  小区全库/数据/目视纠正.jsonl
+    37  出镜文件夹确认图/对照表.md
+    36  local/cutframe/ai/learning.sqlite3#rules
+    34  小区全库/数据/本轮看片精标.jsonl
+    13  测试阿明搅拌/数据/AI剪辑检索索引.jsonl#indexed_segments
+    12  local/action-annotation/batch-01.json
+     8  local/action-annotation/batch-03.json
+     8  测试阿明搅拌/数据/AI剪辑检索索引.jsonl#人工确认片段
+     6  local/action-annotation/batch-02.json
+     6  小区全库/数据/AI剪辑检索索引.jsonl#人工确认片段
+     2  local/action-annotation/batch-04.json
+     2  local/action-annotation/P24-boundary-proposal.json
+by 样例类别:
+   190  标注库精标indexed_segments
+    61  李康按文件夹确认-逐格
+    50  试标50段
+    41  目视纠正
+    37  李康按文件夹确认
+    36  逐段事实
+    34  本轮看片精标
+    28  施工动作
+    14  标注库人工确认片段
+     2  两动作分段
+级别={'片段级': 456, '文件夹级': 37} 范围={'范围内': 459, '范围外': 34} 目录={'小区': 438, '扒扒': 12, None: 22, '测试': 6, '阿明': 9, '搅拌': 6}
+状态={'已确认': 226, '暂定': 2, '人工核对': 265} 反例={False: 447, True: 46}
+无起止秒标记或空=138 片段级=456 片段级无起止=101
+field 主库相对路径: missing_key=0 empty=0
+field 原片ID: missing_key=0 empty=61
+field 起秒: missing_key=0 empty=137
+field 止秒: missing_key=0 empty=138
+field 内容: missing_key=0 empty=0
+field 来源文件: missing_key=0 empty=0
+field 来源条目标识: missing_key=0 empty=0
+field 确认人: missing_key=0 empty=265
+field 确认时间: missing_key=0 empty=279
+
+bans=3 clues=2098 evals=367
+ban sources:
+  {"来源文件": "local/action-annotation/person-usage-restrictions.json", "来源条目标识": "R09-person-no-production", "确认人": "当前用户", "主库相对路径": "史上最完整共享\\拍摄\\小区\\汉阳月印府(6.7全屋)\\美女人设\\21951_人物_小区场景.MOV", "内容": null}
+  FULL keys ['类型', '规则ID', '主库相对路径', '原片ID', '镜序素材ID', '起秒', '止秒', '禁用原文', '决定原文', '确认人', '确认时间', '适用范围', 'apply_to_directory', 'known_confirmed_ranges', 'other_appearances', '生产工具拦截', '镜序拦截说明', '来源文件', '来源条目标识', '范围', '目录', '定位到文件', '完整规则原文', '原片ID说明', '标注库ID']
+  {"类型": "人物禁用", "规则ID": "R09-person-no-production", "主库相对路径": "史上最完整共享\\拍摄\\小区\\汉阳月印府(6.7全屋)\\美女人设\\21951_人物_小区场景.MOV", "原片ID": "4e642c6e4f2b241d", "镜序素材ID": "28e1f1da6707350efc9a7a67776984ea", "起秒": 2, "止秒": 6, "禁用原文": "R09不是阿明，另外说一点这个女生离职了不能使用他出境的素材", "决定原文": "禁止使用该人物出镜素材", "确认人": "当前用户", "确认时间": "2026-11-13T13:43:01.435239+08:00", "适用范围": "仅已知已确认时段，不自动按外貌扩展", "apply_to_directory": false, "known_confirmed_ranges": [{"source_id": "28e1f1da6707350efc9a7a67776984ea", "start": 2, "end": 6}], "other_appearances": "待人工核实；不以外貌自动扩展身份", "生产工具拦截": "未接入正式工具；不得声称已全库拦截", "镜序拦截说明": "镜序自己还没把它接进拦截。未接入正式工具；不得声称已全库拦截", "来源文件": "local/action-annotation/person-usage-restrictions.json", "来源条目标识": "R09-person-no-production", "范围": "范围内", "目录": "小区", "定位到文件": true, "完整规则原文": {"rule_id": "R09-person-no-production", "reference_sample": "R09", "reference_source": {"id": "28e1f1da6707350efc9a7a67776984ea", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\汉阳月印府(6.7全屋)\\美女人设\\21951_人物_小区场景.MOV", "rel": "汉阳月印府(6.7全屋)/美女人设/21951_人物_小区场景.MOV", "root": "xiaoq", "name": "21951_人物_小区场景.MOV", "start": 2, "end": 6}, "decision": "禁止使用该人物出镜素材", "evidence": "R09不是阿明，另外说一点这个女生离职了不能使用他出境的素材", "confirmed_by": "当前用户", "confirmed_at": "2026-11-13T13:43:01.435239+08:00", "apply_to_directory": false, "known_confirmed_ranges": [{"source_id": "28e1f1da6707350efc9a7a67776984ea", "start": 2, "end": 6}], "other_appearances": "待人工核实；不以外貌自动扩展身份", "assistant_candidate_use": "不再推荐为可用素材", "production_tool_enforcement": "未接入正式工
+  {"来源文件": "出镜文件夹确认图/对照表.md", "来源条目标识": "sheet_05.jpg", "确认人": "李康", "主库相对路径": "史上最完整共享\\拍摄\\招商\\嘉贝乐工厂\\口播", "内容": null}
+  FULL keys ['类型', '规则ID', '主库相对路径', '原片ID', '镜序素材ID', '起秒', '止秒', '禁用原文', '确认人', '确认时间', '来源文件', '来源条目标识', '范围', '目录', '定位到文件', '确认级别', '说明', '原片ID说明']
+  {"类型": "素材禁用或人物禁用（文件夹级）", "规则ID": "sheet_05.jpg:拍摄\\招商\\嘉贝乐工厂\\口播", "主库相对路径": "史上最完整共享\\拍摄\\招商\\嘉贝乐工厂\\口播", "原片ID": null, "镜序素材ID": null, "起秒": null, "止秒": null, "禁用原文": "**全部不是阿明，而且这张图里出现的人物不能用**（李康看图确认，2026-11-16）。已作为禁用写入《专有词表》第四节", "确认人": "李康", "确认时间": "2026-11-16", "来源文件": "出镜文件夹确认图/对照表.md", "来源条目标识": "sheet_05.jpg", "范围": "范围外", "目录": null, "定位到文件": false, "确认级别": "文件夹级", "说明": "来自李康按文件夹看图确认，不是镜序拦截规则；发现后写入禁用表并上报", "原片ID说明": "T01 原片表已出现，本条仍未对上原片 ID"}
+  {"来源文件": "出镜文件夹确认图/对照表.md", "来源条目标识": "sheet_10.jpg", "确认人": "李康", "主库相对路径": "史上最完整共享\\拍摄\\小区\\汉黄社区(阿姨不要用)\\人物出镜", "内容": null}
+  FULL keys ['类型', '规则ID', '主库相对路径', '原片ID', '镜序素材ID', '起秒', '止秒', '禁用原文', '确认人', '确认时间', '来源文件', '来源条目标识', '范围', '目录', '定位到文件', '确认级别', '说明', '原片ID说明']
+  {"类型": "素材禁用或人物禁用（文件夹级）", "规则ID": "sheet_10.jpg:拍摄\\小区\\汉黄社区(阿姨不要用)\\人物出镜", "主库相对路径": "史上最完整共享\\拍摄\\小区\\汉黄社区(阿姨不要用)\\人物出镜", "原片ID": null, "镜序素材ID": null, "起秒": null, "止秒": null, "禁用原文": "**是阿明**（李康看完全部拼图后统一确认“其他都是阿明”，2026-11-16）。依据是抽到的这些帧，文件夹里其余视频没有逐条看。目录写的“阿姨不要用”照旧有效。", "确认人": "李康", "确认时间": "2026-11-16", "来源文件": "出镜文件夹确认图/对照表.md", "来源条目标识": "sheet_10.jpg", "范围": "范围内", "目录": "小区", "定位到文件": false, "确认级别": "文件夹级", "说明": "来自李康按文件夹看图确认，不是镜序拦截规则；发现后写入禁用表并上报", "原片ID说明": "T01 原片表已出现，本条仍未对上原片 ID"}
+evals kinds Counter({'采用': 240, '评价': 127})
+eval keys ['类型', '评价或采用ID', '创建时间', '文案', '文案上下文', '主库相对路径', '原片ID', '镜序素材ID', '起秒', '止秒', '合适与否', '原因代码', '原因', '评价人', '检索ID', '候选ID', '范围', '目录', '定位到文件', '定位依据', '来源文件', '来源条目标识', '转出成功', '转不出原因', '候选原文摘录', '原片ID说明', '标注库ID']
+clue keys ['类型', '主库相对路径', '原片ID', '镜序素材ID', '起秒', '止秒', '内容', '来源规则原文', '主要讲解者', '未逐片核实', '核实标记', '范围说明', '确认级别', '来源文件', '来源条目标识', '范围', '目录', '定位到文件', '原片ID说明', '标注库ID']
+clue 来源 Counter({'local/action-annotation/aming-source-rule-index.json': 2098})
+
+==== official batch/product/person status ====
+batch-01.json: n=12 status={'用户已确认': 12} ids=['A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'D1', 'D2', 'E1', 'E2', 'F1', 'F2']
+batch-02.json: n=6 status={'用户倾向反例，未定案': 2, '用户已确认': 4} ids=['A3', 'A4', 'B3', 'B4', 'C3', 'C4']
+batch-03.json: n=8 status={'用户已确认': 8} ids=['A5', 'A6', 'D5', 'D6', 'E3', 'E4', 'F3', 'F4']
+batch-04.json: n=2 status={'用户已确认': 2} ids=['F5', 'F6']
+P24-boundary-proposal.json: n=2 status={'分段与动作已人工确认': 2} ids=['P24-A', 'P24-B']
+person-01.json: n=2 status={'已人工确认': 2} ids=['R01', 'R02']
+person-02.json: n=2 status={'已逐人确认': 2} ids=['R03', 'R04']
+person-03.json: n=2 status={'已逐人确认': 2} ids=['R05', 'R06']
+person-04-selected.json: n=2 status={None: 2} ids=[None, None]
+person-04.json: n=2 status={'已逐人确认': 2} ids=['R07', 'R08']
+person-05-selected.json: n=1 status={None: 1} ids=[None]
+person-05.json: n=1 status={'已确认：出镜禁用': 1} ids=['R09']
+person-06-search-audit.json: no rows, keys=['updated', 'requested', 'examined_files', 'portrait_reviewed_files', 'result', 'limitations', 'excluded_known_sample', 'reviewed_sources', 'errors', 'fuller_check', 'training_started', 'blind_test_started', 'production_model_changed']
+person-06-target.json: no rows, keys=['id', 'name', 'root', 'rel', 'path', 'duration', 'image', 'start', 'end', 'ratio']
+person-07.json: n=3 status={None: 3} ids=['V1', 'V2', 'V3']
+person-usage-restrictions.json: no rows, keys=['version', 'rules', 'updated']
+product-01.json: n=6 status={'用户已确认': 6} ids=['P1', 'P2', 'P3', 'P4', 'P5', 'P6']
+product-02.json: n=6 status={'用户已确认': 6} ids=['P7', 'P8', 'P9', 'P10', 'P11', 'P12']
+product-03.json: n=3 status={'已人工确认': 3} ids=['P13', 'P14', 'P15']
+product-04.json: n=2 status={'暂不展示：抽帧为桶内材料，未满足批刮对照筛选要求': 1, '已人工确认': 1} ids=['P16', 'P17']
+product-05.json: n=3 status={'待人工确认': 1, '已人工确认': 2} ids=['P18', 'P19', 'P20']
+product-06.json: n=2 status={'已人工确认：业务不适用': 2} ids=['P21', 'P22']
+product-07.json: n=2 status={'已人工确认': 2} ids=['P23', 'P24']
+product-08-long-input.json: no rows, keys=<class 'list'>
+product-08.json: n=2 status={'已人工确认': 2} ids=['P25', 'P26']

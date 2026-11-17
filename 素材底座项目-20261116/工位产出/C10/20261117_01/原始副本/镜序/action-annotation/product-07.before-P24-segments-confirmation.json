@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "created": "2026-11-13",
+  "purpose": "施工动作人工标注口径确认；不是训练完成，不是正式选片",
+  "rows": [
+    {
+      "sample_id": "P23",
+      "category": "产品核实",
+      "query": "请确认微陶泥身份及实际动作；若取料与批刮混合，请标混合，不能强行当纯取料反例。",
+      "source": {
+        "id": "ec7811dd02f80d607d4ade7683da72c9",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\翠提春晓\\批刮陶泥\\IMG_0949.MOV",
+        "rel": "翠提春晓/批刮陶泥/IMG_0949.MOV",
+        "root": "xiaoq",
+        "name": "IMG_0949.MOV",
+        "start": 2,
+        "end": 5
+      },
+      "project_guess": "翠提春晓",
+      "project_confirmed": false,
+      "suggested_label": "待确认",
+      "suggestion_reason": "产品身份与施工动作分别确认，不凭目录名或服装确认",
+      "confirmed_label": "用户确认：微陶泥批刮",
+      "status": "已人工确认",
+      "clip": "clips/P23.mp4",
+      "clip_sha256": "c3eb6ca6d35f5200d78f2cdc6d75ca8870fee4164b7ef7704031055c44bfa2ce",
+      "duration": 3.003,
+      "benchmark_eligible": false,
+      "split": "口径确认集，禁止进入盲测",
+      "product_identity": "微陶泥（用户确认，仅本段）",
+      "quality_note": "用户已确认材料与动作",
+      "apply_to_directory": false,
+      "label_scope": "仅所列来源时间段",
+      "review_note": "四时间点抽查，P23工具在墙面移动；P24桶旁操作后伸向基面，可能混合动作，待用户判断",
+      "confirmed_action": "批刮",
+      "confirmed_actions": [
+        "批刮"
+      ],
+      "mixed_actions": false,
+      "micro_clay_scraping_application_visible": true,
+      "confirmed_at": "2026-11-13T11:20:29.137799+08:00",
+      "confirmed_by": "当前用户",
+      "confirmation_evidence": "都是微陶泥，P23是批刮，P24是批刮、取料都有"
+    },
+    {
+      "sample_id": "P24",
+      "category": "产品核实",
+      "query": "请确认微陶泥身份及实际动作；若取料与批刮混合，请标混合，不能强行当纯取料反例。",
+      "source": {
+        "id": "c20a703613be13deddbe8d3f71e8b007",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\江岸2卫＋厨房\\第一遍陶泥\\24224_小区场景.MOV",
+        "rel": "江岸2卫＋厨房/第一遍陶泥/24224_小区场景.MOV",
+        "root": "xiaoq",
+        "name": "24224_小区场景.MOV",
+        "start": 2,
+        "end": 5
+      },
+      "project_guess": "江岸2卫＋厨房",
+      "project_confirmed": false,
+      "suggested_label": "待确认",
+      "suggestion_reason": "产品身份与施工动作分别确认，不凭目录名或服装确认",
+      "confirmed_label": "用户确认：微陶泥批刮＋取料（混合动作）",
+      "status": "已人工确认",
+      "clip": "clips/P24.mp4",
+      "clip_sha256": "1c5db7ba6abffab77fa66287835f7290e5d07877e82fcd5643b06350e776d384",
+      "duration": 3.003,
+      "benchmark_eligible": false,
+      "split": "口径确认集，禁止进入盲测",
+      "product_identity": "微陶泥（用户确认，仅本段）",
+      "quality_note": "用户已确认材料与动作",
+      "apply_to_directory": false,
+      "label_scope": "仅所列来源时间段",
+      "review_note": "四时间点抽查，P23工具在墙面移动；P24桶旁操作后伸向基面，可能混合动作，待用户判断",
+      "confirmed_action": "批刮＋取料（混合动作）",
+      "confirmed_actions": [
+        "批刮",
+        "取料"
+      ],
+      "mixed_actions": true,
+      "micro_clay_scraping_application_visible": true,
+      "confirmed_at": "2026-11-13T11:20:29.137799+08:00",
+      "confirmed_by": "当前用户",
+      "confirmation_evidence": "都是微陶泥，P23是批刮，P24是批刮、取料都有",
+      "action_segments": null,
+      "label_note": "确认包含两种动作，但各动作边界尚未标注；不得作为纯取料样本或批刮反例，也不表示整段持续批刮"
+    }
+  ],
+  "updated": "2026-11-13T11:20:29.137799+08:00",
+  "history": [
+    {
+      "at": "2026-11-13T11:20:29.137799+08:00",
+      "samples": [
+        "P23",
+        "P24"
+      ],
+      "evidence": "都是微陶泥，P23是批刮，P24是批刮、取料都有"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+﻿镜头序号,起止时间码,时长,frame_path,概述,叙事作用,景别,画面元素,镜头运动,转场/剪辑,字幕/台词,声音/音乐,情绪/节奏,视觉风格,倒推生成分镜提示词,倒推生成视频提示词,备注/置信度
+1,00:00:00.000 - 00:00:01.875,1.88,D:\codex-work\codex-company\video-harness-lab\references\analysis\R19\frames\shot_001.jpg,,,,,,,,,,,,,
+2,00:00:01.875 - 00:00:03.875,2.0,D:\codex-work\codex-company\video-harness-lab\references\analysis\R19\frames\shot_002.jpg,,,,,,,,,,,,,
+3,00:00:03.875 - 00:00:05.417,1.54,D:\codex-work\codex-company\video-harness-lab\references\analysis\R19\frames\shot_003.jpg,,,,,,,,,,,,,
+4,00:00:05.417 - 00:00:06.292,0.88,D:\codex-work\codex-company\video-harness-lab\references\analysis\R19\frames\shot_004.jpg,,,,,,,,,,,,,
+5,00:00:06.292 - 00:00:07.417,1.12,D:\codex-work\codex-company\video-harness-lab\references\analysis\R19\frames\shot_005.jpg,,,,,,,,,,,,,
+6,00:00:07.417 - 00:00:08.792,1.38,D:\codex-work\codex-company\video-harness-lab\references\analysis\R19\frames\shot_006.jpg,,,,,,,,,,,,,
+7,00:00:08.792 - 00:00:09.583,0.79,D:\codex-work\codex-company\video-harness-lab\references\analysis\R19\frames\shot_007.jpg,,,,,,,,,,,,,
+8,00:00:09.583 - 00:00:11.458,1.88,D:\codex-work\codex-company\video-harness-lab\references\analysis\R19\frames\shot_008.jpg,,,,,,,,,,,,,
+9,00:00:11.458 - 00:00:13.458,2.0,D:\codex-work\codex-company\video-harness-lab\references\analysis\R19\frames\shot_009.jpg,,,,,,,,,,,,,
+10,00:00:13.458 - 00:00:15.083,1.62,D:\codex-work\codex-company\video-harness-lab\references\analysis\R19\frames\shot_010.jpg,,,,,,,,,,,,,
+11,00:00:15.083 - 00:00:18.436,3.35,D:\codex-work\codex-company\video-harness-lab\references\analysis\R19\frames\shot_011.jpg,,,,,,,,,,,,,

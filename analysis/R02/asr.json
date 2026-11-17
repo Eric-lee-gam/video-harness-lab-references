@@ -1,0 +1,815 @@
+{
+  "schema_version": 1,
+  "reference_id": "R02",
+  "status": "local_asr_complete_unverified",
+  "source_audio": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R02\\audio.wav",
+  "model": "C:\\Users\\leega\\.cache\\huggingface\\hub\\models--Systran--faster-whisper-small\\snapshots\\536b0662742c02347bc0e980a01041f333bce120",
+  "device": "cpu",
+  "compute_type": "int8",
+  "language": "zh",
+  "language_probability": 1,
+  "duration": 20.8965,
+  "vad_filter": false,
+  "word_timestamps": true,
+  "human_listening_verified": false,
+  "elapsed_seconds": 7.057,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 1.68,
+      "text": "在过三个月里会发现",
+      "avg_logprob": -0.2828337420298401,
+      "no_speech_prob": 0.0703662633895874,
+      "compression_ratio": 1.3488372093023255,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.24,
+          "word": "在",
+          "probability": 0.2900005578994751
+        },
+        {
+          "start": 0.24,
+          "end": 0.48,
+          "word": "过",
+          "probability": 0.3049502372741699
+        },
+        {
+          "start": 0.48,
+          "end": 0.68,
+          "word": "三",
+          "probability": 0.8491116166114807
+        },
+        {
+          "start": 0.68,
+          "end": 0.84,
+          "word": "个",
+          "probability": 0.966663122177124
+        },
+        {
+          "start": 0.84,
+          "end": 0.96,
+          "word": "月",
+          "probability": 0.997928261756897
+        },
+        {
+          "start": 0.96,
+          "end": 1.08,
+          "word": "里",
+          "probability": 0.7994847893714905
+        },
+        {
+          "start": 1.08,
+          "end": 1.22,
+          "word": "会",
+          "probability": 0.9714034795761108
+        },
+        {
+          "start": 1.22,
+          "end": 1.4,
+          "word": "发",
+          "probability": 0.9970557689666748
+        },
+        {
+          "start": 1.4,
+          "end": 1.68,
+          "word": "现",
+          "probability": 0.9936754107475281
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 1.68,
+      "end": 3.72,
+      "text": "乌寒家家虎虎卫生间发新",
+      "avg_logprob": -0.2828337420298401,
+      "no_speech_prob": 0.0703662633895874,
+      "compression_ratio": 1.3488372093023255,
+      "words": [
+        {
+          "start": 1.68,
+          "end": 2.0,
+          "word": "乌",
+          "probability": 0.6703127473592758
+        },
+        {
+          "start": 2.0,
+          "end": 2.22,
+          "word": "寒",
+          "probability": 0.6504667848348618
+        },
+        {
+          "start": 2.22,
+          "end": 2.44,
+          "word": "家",
+          "probability": 0.8551170825958252
+        },
+        {
+          "start": 2.44,
+          "end": 2.62,
+          "word": "家",
+          "probability": 0.9921584129333496
+        },
+        {
+          "start": 2.62,
+          "end": 2.84,
+          "word": "虎",
+          "probability": 0.8757233023643494
+        },
+        {
+          "start": 2.84,
+          "end": 2.98,
+          "word": "虎",
+          "probability": 0.9905113577842712
+        },
+        {
+          "start": 2.98,
+          "end": 3.12,
+          "word": "卫",
+          "probability": 0.6875486969947815
+        },
+        {
+          "start": 3.12,
+          "end": 3.3,
+          "word": "生",
+          "probability": 0.9616081714630127
+        },
+        {
+          "start": 3.3,
+          "end": 3.38,
+          "word": "间",
+          "probability": 0.9111605882644653
+        },
+        {
+          "start": 3.38,
+          "end": 3.56,
+          "word": "发",
+          "probability": 0.6904780864715576
+        },
+        {
+          "start": 3.56,
+          "end": 3.72,
+          "word": "新",
+          "probability": 0.21885095536708832
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 3.72,
+      "end": 5.24,
+      "text": "都不会再找磁砖了",
+      "avg_logprob": -0.2828337420298401,
+      "no_speech_prob": 0.0703662633895874,
+      "compression_ratio": 1.3488372093023255,
+      "words": [
+        {
+          "start": 3.72,
+          "end": 3.96,
+          "word": "都",
+          "probability": 0.8561405539512634
+        },
+        {
+          "start": 3.96,
+          "end": 4.28,
+          "word": "不会",
+          "probability": 0.9890439510345459
+        },
+        {
+          "start": 4.28,
+          "end": 4.46,
+          "word": "再",
+          "probability": 0.9528909921646118
+        },
+        {
+          "start": 4.46,
+          "end": 4.62,
+          "word": "找",
+          "probability": 0.58772873878479
+        },
+        {
+          "start": 4.62,
+          "end": 4.86,
+          "word": "磁",
+          "probability": 0.6884119609991709
+        },
+        {
+          "start": 4.86,
+          "end": 5.06,
+          "word": "砖",
+          "probability": 0.9538858234882355
+        },
+        {
+          "start": 5.06,
+          "end": 5.24,
+          "word": "了",
+          "probability": 0.24171608686447144
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 5.24,
+      "end": 7.04,
+      "text": "都得找乌寒阿敏走卫生间",
+      "avg_logprob": -0.2828337420298401,
+      "no_speech_prob": 0.0703662633895874,
+      "compression_ratio": 1.3488372093023255,
+      "words": [
+        {
+          "start": 5.24,
+          "end": 5.38,
+          "word": "都",
+          "probability": 0.5854685306549072
+        },
+        {
+          "start": 5.38,
+          "end": 5.54,
+          "word": "得",
+          "probability": 0.3668553829193115
+        },
+        {
+          "start": 5.54,
+          "end": 5.66,
+          "word": "找",
+          "probability": 0.9222396612167358
+        },
+        {
+          "start": 5.66,
+          "end": 5.86,
+          "word": "乌",
+          "probability": 0.5905936136841774
+        },
+        {
+          "start": 5.86,
+          "end": 6.02,
+          "word": "寒",
+          "probability": 0.9877025485038757
+        },
+        {
+          "start": 6.02,
+          "end": 6.2,
+          "word": "阿",
+          "probability": 0.9641100764274597
+        },
+        {
+          "start": 6.2,
+          "end": 6.46,
+          "word": "敏",
+          "probability": 0.7607581913471222
+        },
+        {
+          "start": 6.46,
+          "end": 6.62,
+          "word": "走",
+          "probability": 0.47588565945625305
+        },
+        {
+          "start": 6.62,
+          "end": 6.74,
+          "word": "卫",
+          "probability": 0.961113303899765
+        },
+        {
+          "start": 6.74,
+          "end": 6.86,
+          "word": "生",
+          "probability": 0.997779905796051
+        },
+        {
+          "start": 6.86,
+          "end": 7.04,
+          "word": "间",
+          "probability": 0.9968898892402649
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 7.04,
+      "end": 7.92,
+      "text": "独车不炸",
+      "avg_logprob": -0.2828337420298401,
+      "no_speech_prob": 0.0703662633895874,
+      "compression_ratio": 1.3488372093023255,
+      "words": [
+        {
+          "start": 7.04,
+          "end": 7.26,
+          "word": "独",
+          "probability": 0.6202085614204407
+        },
+        {
+          "start": 7.26,
+          "end": 7.52,
+          "word": "车",
+          "probability": 0.6478082239627838
+        },
+        {
+          "start": 7.52,
+          "end": 7.66,
+          "word": "不",
+          "probability": 0.7649598717689514
+        },
+        {
+          "start": 7.66,
+          "end": 7.92,
+          "word": "炸",
+          "probability": 0.6113937273621559
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 7.92,
+      "end": 8.98,
+      "text": "胃草里翻新工仪",
+      "avg_logprob": -0.2828337420298401,
+      "no_speech_prob": 0.0703662633895874,
+      "compression_ratio": 1.3488372093023255,
+      "words": [
+        {
+          "start": 7.92,
+          "end": 8.1,
+          "word": "胃",
+          "probability": 0.5709053575992584
+        },
+        {
+          "start": 8.1,
+          "end": 8.28,
+          "word": "草",
+          "probability": 0.6490134596824646
+        },
+        {
+          "start": 8.28,
+          "end": 8.4,
+          "word": "里",
+          "probability": 0.812846839427948
+        },
+        {
+          "start": 8.4,
+          "end": 8.56,
+          "word": "翻",
+          "probability": 0.4934479892253876
+        },
+        {
+          "start": 8.56,
+          "end": 8.68,
+          "word": "新",
+          "probability": 0.8887391686439514
+        },
+        {
+          "start": 8.68,
+          "end": 8.82,
+          "word": "工",
+          "probability": 0.7322152853012085
+        },
+        {
+          "start": 8.82,
+          "end": 8.98,
+          "word": "仪",
+          "probability": 0.7512101531028748
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 8.98,
+      "end": 11.66,
+      "text": "三天时间就能大招一个温馨风卫生间",
+      "avg_logprob": -0.2828337420298401,
+      "no_speech_prob": 0.0703662633895874,
+      "compression_ratio": 1.3488372093023255,
+      "words": [
+        {
+          "start": 8.98,
+          "end": 9.28,
+          "word": "三",
+          "probability": 0.9416908025741577
+        },
+        {
+          "start": 9.28,
+          "end": 9.46,
+          "word": "天",
+          "probability": 0.9981898665428162
+        },
+        {
+          "start": 9.46,
+          "end": 9.7,
+          "word": "时间",
+          "probability": 0.9896941184997559
+        },
+        {
+          "start": 9.7,
+          "end": 9.92,
+          "word": "就",
+          "probability": 0.9350504875183105
+        },
+        {
+          "start": 9.92,
+          "end": 10.06,
+          "word": "能",
+          "probability": 0.998522937297821
+        },
+        {
+          "start": 10.06,
+          "end": 10.22,
+          "word": "大",
+          "probability": 0.39215928316116333
+        },
+        {
+          "start": 10.22,
+          "end": 10.38,
+          "word": "招",
+          "probability": 0.8761848509311676
+        },
+        {
+          "start": 10.38,
+          "end": 10.56,
+          "word": "一个",
+          "probability": 0.9841769933700562
+        },
+        {
+          "start": 10.56,
+          "end": 10.82,
+          "word": "温",
+          "probability": 0.9808394908905029
+        },
+        {
+          "start": 10.82,
+          "end": 11.02,
+          "word": "馨",
+          "probability": 0.8501532971858978
+        },
+        {
+          "start": 11.02,
+          "end": 11.16,
+          "word": "风",
+          "probability": 0.791813313961029
+        },
+        {
+          "start": 11.16,
+          "end": 11.32,
+          "word": "卫",
+          "probability": 0.9631221890449524
+        },
+        {
+          "start": 11.32,
+          "end": 11.5,
+          "word": "生",
+          "probability": 0.9981170892715454
+        },
+        {
+          "start": 11.5,
+          "end": 11.66,
+          "word": "间",
+          "probability": 0.9850960373878479
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 11.66,
+      "end": 12.96,
+      "text": "不用大扫磁砖缝",
+      "avg_logprob": -0.2828337420298401,
+      "no_speech_prob": 0.0703662633895874,
+      "compression_ratio": 1.3488372093023255,
+      "words": [
+        {
+          "start": 11.66,
+          "end": 11.92,
+          "word": "不用",
+          "probability": 0.9365933537483215
+        },
+        {
+          "start": 11.92,
+          "end": 12.18,
+          "word": "大",
+          "probability": 0.9792689681053162
+        },
+        {
+          "start": 12.18,
+          "end": 12.36,
+          "word": "扫",
+          "probability": 0.7528649270534515
+        },
+        {
+          "start": 12.36,
+          "end": 12.56,
+          "word": "磁",
+          "probability": 0.945358415444692
+        },
+        {
+          "start": 12.56,
+          "end": 12.74,
+          "word": "砖",
+          "probability": 0.9931924939155579
+        },
+        {
+          "start": 12.74,
+          "end": 12.96,
+          "word": "缝",
+          "probability": 0.7623339891433716
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 12.96,
+      "end": 14.6,
+      "text": "来水放美银刀膏",
+      "avg_logprob": -0.2828337420298401,
+      "no_speech_prob": 0.0703662633895874,
+      "compression_ratio": 1.3488372093023255,
+      "words": [
+        {
+          "start": 12.96,
+          "end": 13.26,
+          "word": "来",
+          "probability": 0.6696197390556335
+        },
+        {
+          "start": 13.26,
+          "end": 13.48,
+          "word": "水",
+          "probability": 0.8519402742385864
+        },
+        {
+          "start": 13.48,
+          "end": 13.74,
+          "word": "放",
+          "probability": 0.5834134221076965
+        },
+        {
+          "start": 13.74,
+          "end": 13.96,
+          "word": "美",
+          "probability": 0.9360806345939636
+        },
+        {
+          "start": 13.96,
+          "end": 14.14,
+          "word": "银",
+          "probability": 0.7126096487045288
+        },
+        {
+          "start": 14.14,
+          "end": 14.32,
+          "word": "刀",
+          "probability": 0.9907755255699158
+        },
+        {
+          "start": 14.32,
+          "end": 14.6,
+          "word": "膏",
+          "probability": 0.7731732726097107
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 14.6,
+      "end": 15.7,
+      "text": "生的拆炸肥",
+      "avg_logprob": -0.2828337420298401,
+      "no_speech_prob": 0.0703662633895874,
+      "compression_ratio": 1.3488372093023255,
+      "words": [
+        {
+          "start": 14.6,
+          "end": 14.84,
+          "word": "生",
+          "probability": 0.3709331154823303
+        },
+        {
+          "start": 14.84,
+          "end": 15.04,
+          "word": "的",
+          "probability": 0.8509706258773804
+        },
+        {
+          "start": 15.04,
+          "end": 15.24,
+          "word": "拆",
+          "probability": 0.6458982974290848
+        },
+        {
+          "start": 15.24,
+          "end": 15.4,
+          "word": "炸",
+          "probability": 0.6859132945537567
+        },
+        {
+          "start": 15.4,
+          "end": 15.7,
+          "word": "肥",
+          "probability": 0.9974861443042755
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 15.7,
+      "end": 16.76,
+      "text": "还不用卖磁砖",
+      "avg_logprob": -0.2828337420298401,
+      "no_speech_prob": 0.0703662633895874,
+      "compression_ratio": 1.3488372093023255,
+      "words": [
+        {
+          "start": 15.7,
+          "end": 15.82,
+          "word": "还",
+          "probability": 0.9923445582389832
+        },
+        {
+          "start": 15.82,
+          "end": 16.04,
+          "word": "不用",
+          "probability": 0.9959123730659485
+        },
+        {
+          "start": 16.04,
+          "end": 16.24,
+          "word": "卖",
+          "probability": 0.9602216482162476
+        },
+        {
+          "start": 16.24,
+          "end": 16.44,
+          "word": "磁",
+          "probability": 0.9836877584457397
+        },
+        {
+          "start": 16.44,
+          "end": 16.76,
+          "word": "砖",
+          "probability": 0.9955823719501495
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 16.76,
+      "end": 18.78,
+      "text": "如果聂阿爷喜欢这种翻新工仪",
+      "avg_logprob": -0.2828337420298401,
+      "no_speech_prob": 0.0703662633895874,
+      "compression_ratio": 1.3488372093023255,
+      "words": [
+        {
+          "start": 16.76,
+          "end": 16.96,
+          "word": "如果",
+          "probability": 0.9244236946105957
+        },
+        {
+          "start": 16.96,
+          "end": 17.22,
+          "word": "聂",
+          "probability": 0.28028779849410057
+        },
+        {
+          "start": 17.22,
+          "end": 17.32,
+          "word": "阿",
+          "probability": 0.43926873803138733
+        },
+        {
+          "start": 17.32,
+          "end": 17.44,
+          "word": "爷",
+          "probability": 0.8190158605575562
+        },
+        {
+          "start": 17.44,
+          "end": 17.66,
+          "word": "喜欢",
+          "probability": 0.6741255521774292
+        },
+        {
+          "start": 17.66,
+          "end": 17.88,
+          "word": "这",
+          "probability": 0.9469026923179626
+        },
+        {
+          "start": 17.88,
+          "end": 18.0,
+          "word": "种",
+          "probability": 0.9920740127563477
+        },
+        {
+          "start": 18.0,
+          "end": 18.2,
+          "word": "翻",
+          "probability": 0.8299477696418762
+        },
+        {
+          "start": 18.2,
+          "end": 18.34,
+          "word": "新",
+          "probability": 0.9887326955795288
+        },
+        {
+          "start": 18.34,
+          "end": 18.48,
+          "word": "工",
+          "probability": 0.306090772151947
+        },
+        {
+          "start": 18.48,
+          "end": 18.78,
+          "word": "仪",
+          "probability": 0.9818413257598877
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 18.78,
+      "end": 20.68,
+      "text": "请帮我垫一个免费的小白心",
+      "avg_logprob": -0.2828337420298401,
+      "no_speech_prob": 0.0703662633895874,
+      "compression_ratio": 1.3488372093023255,
+      "words": [
+        {
+          "start": 18.78,
+          "end": 18.96,
+          "word": "请",
+          "probability": 0.902971088886261
+        },
+        {
+          "start": 18.96,
+          "end": 19.16,
+          "word": "帮",
+          "probability": 0.9549846351146698
+        },
+        {
+          "start": 19.16,
+          "end": 19.28,
+          "word": "我",
+          "probability": 0.9925863146781921
+        },
+        {
+          "start": 19.28,
+          "end": 19.44,
+          "word": "垫",
+          "probability": 0.6884844899177551
+        },
+        {
+          "start": 19.44,
+          "end": 19.62,
+          "word": "一个",
+          "probability": 0.9869588017463684
+        },
+        {
+          "start": 19.62,
+          "end": 19.84,
+          "word": "免",
+          "probability": 0.7696348428726196
+        },
+        {
+          "start": 19.84,
+          "end": 20.04,
+          "word": "费",
+          "probability": 0.9940114915370941
+        },
+        {
+          "start": 20.04,
+          "end": 20.16,
+          "word": "的",
+          "probability": 0.9834180474281311
+        },
+        {
+          "start": 20.16,
+          "end": 20.3,
+          "word": "小",
+          "probability": 0.8159195184707642
+        },
+        {
+          "start": 20.3,
+          "end": 20.48,
+          "word": "白",
+          "probability": 0.503031849861145
+        },
+        {
+          "start": 20.48,
+          "end": 20.68,
+          "word": "心",
+          "probability": 0.7382534146308899
+        }
+      ]
+    }
+  ],
+  "raw_text": "在过三个月里会发现乌寒家家虎虎卫生间发新都不会再找磁砖了都得找乌寒阿敏走卫生间独车不炸胃草里翻新工仪三天时间就能大招一个温馨风卫生间不用大扫磁砖缝来水放美银刀膏生的拆炸肥还不用卖磁砖如果聂阿爷喜欢这种翻新工仪请帮我垫一个免费的小白心",
+  "limitations": [
+    "Raw machine transcription, not a verified transcript.",
+    "Mixed speech/music, accents, place names and prices can be wrong.",
+    "ASR timestamps are approximate and are not edit points."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "reference_id": "R33",
+  "source": "C:\\Users\\leega\\Desktop\\爆款视频模板库\\67288224.mov",
+  "source_sha256": "579ef2b9163272770f00ff3e1c115706f8e1a26ea68c9883bea975bb6c69565c",
+  "source_size_bytes": 1995373,
+  "source_modified_ns": 1790830368680177200,
+  "manifest_matches": true,
+  "source_guard_after": true,
+  "source_read_only": true,
+  "uploaded": false,
+  "started_at": "2026-10-01T13:04:37.024380+08:00",
+  "completed_at": "2026-10-01T13:04:39.573971+08:00",
+  "full_audio_video_decode": {
+    "status": "passed",
+    "exit_code": 0,
+    "method": "ffmpeg -xerror decode all video/audio streams to null",
+    "log": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R33\\decode.log"
+  },
+  "audio_extraction": {
+    "sample_rate": 16000,
+    "channels": 1,
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R33\\audio.wav"
+  },
+  "shot_candidates": {
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R33\\shots.json",
+    "count": 17,
+    "human_boundary_verified": false,
+    "detector_script": "C:\\Users\\leega\\.codex\\skills\\video-shot-analysis-feishu\\scripts\\extract_shots.py",
+    "script_sha256": "3c350b61de81aafc030865eb4cda3461acf8a1dbf1e37192eca16931cb773eb1",
+    "threshold": 0.22,
+    "min_gap": 0.25
+  },
+  "timeline": {
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R33\\timeline.json",
+    "frame_count": 48,
+    "interval_seconds": 0.5,
+    "covers_continuous_playback": false
+  },
+  "limitations": [
+    "Full decode proves structural readability, not human watching/listening.",
+    "Scene detection boundaries are candidates and can miss cuts or oversegment.",
+    "Timeline images sample frames and cannot alone prove motion or sound.",
+    "Some near-EOF candidate midpoint frames use an explicitly recorded earlier seek; do not infer exact last-shot contents from those JPEGs."
+  ],
+  "representative_frame_sampling_adjustments": [
+    {
+      "frame_path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R33\\frames\\shot_017.jpg",
+      "requested_seconds": 23.962336,
+      "used_seek_seconds": 23.762336,
+      "reason": "ffmpeg seek near EOF returned success with no frame; nearby earlier frame used, not exact midpoint evidence"
+    }
+  ]
+}

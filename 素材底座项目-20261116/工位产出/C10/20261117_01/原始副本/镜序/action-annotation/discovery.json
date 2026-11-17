@@ -1,0 +1,218 @@
+{
+  "rows": [
+    {
+      "id": "594a85323b5f25939da19360db268985",
+      "name": "23525_瓷砖_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "嘉贝乐-厨卫换新视频素材/厨卫焕新视频素材/02.打磨瓷砖釉面/23525_瓷砖_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\嘉贝乐-厨卫换新视频素材\\厨卫焕新视频素材\\02.打磨瓷砖釉面\\23525_瓷砖_小区场景.MOV",
+      "duration": 14.478333,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\594a85323b5f25939da19360db268985.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "b0e9c2680f05f69d400b19ee0fe17b9b",
+      "name": "20262_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "常青花园四小区/施工视频/打磨/20262_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\常青花园四小区\\施工视频\\打磨\\20262_小区场景.MOV",
+      "duration": 3.366667,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\b0e9c2680f05f69d400b19ee0fe17b9b.jpg",
+      "start": 0.84166675,
+      "end": 3.366667,
+      "ratio": 0.5625
+    },
+    {
+      "id": "e024f1c78719324f6e124d77f9c86d50",
+      "name": "33572_小区_拆砸施工.MOV",
+      "root": "xiaoq",
+      "rel": "优活城/施工/铲墙皮/33572_小区_拆砸施工.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\优活城\\施工\\铲墙皮\\33572_小区_拆砸施工.MOV",
+      "duration": 6.6,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\e024f1c78719324f6e124d77f9c86d50.jpg",
+      "start": 1.65,
+      "end": 4.65,
+      "ratio": 0.5625
+    },
+    {
+      "id": "d204e237e1b5dadd66293ecc5c3862e6",
+      "name": "20961_卫生间_瓷砖抛光.mp4",
+      "root": "baba",
+      "rel": "9清洁/20961_卫生间_瓷砖抛光.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\9清洁\\20961_卫生间_瓷砖抛光.mp4",
+      "duration": 30.211,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\d204e237e1b5dadd66293ecc5c3862e6.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "6947ebe98ecc9502ef90f7fdd6595e9f",
+      "name": "20962_墙面_防水施工.mp4",
+      "root": "baba",
+      "rel": "9清洁/20962_墙面_防水施工.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\9清洁\\20962_墙面_防水施工.mp4",
+      "duration": 344.8,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\6947ebe98ecc9502ef90f7fdd6595e9f.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "9b422507c9eb6ac7f0b90fb7b5ee95a0",
+      "name": "20963_地面_拆砸.mp4",
+      "root": "baba",
+      "rel": "9清洁/20963_地面_拆砸.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\9清洁\\20963_地面_拆砸.mp4",
+      "duration": 141.034,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\9b422507c9eb6ac7f0b90fb7b5ee95a0.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "35b753649fe1d3ffd35fbc78ca661a31",
+      "name": "20964_全屋_拆砸.mp4",
+      "root": "baba",
+      "rel": "9清洁/20964_全屋_拆砸.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\9清洁\\20964_全屋_拆砸.mp4",
+      "duration": 46.5,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\35b753649fe1d3ffd35fbc78ca661a31.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "56cea281792a8f1e26f20ffa814678fe",
+      "name": "20965_全屋_批刮施工.mp4",
+      "root": "baba",
+      "rel": "9清洁/20965_全屋_批刮施工.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\9清洁\\20965_全屋_批刮施工.mp4",
+      "duration": 19.067,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\56cea281792a8f1e26f20ffa814678fe.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "65c36fd5d4c0435d014a320fccb661fe",
+      "name": "20966_门窗_微陶泥展示.mp4",
+      "root": "baba",
+      "rel": "9清洁/20966_门窗_微陶泥展示.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\9清洁\\20966_门窗_微陶泥展示.mp4",
+      "duration": 62.334,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\65c36fd5d4c0435d014a320fccb661fe.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "bc6665e527e49fc4f52b2c8be30e80af",
+      "name": "20967_地面_清洁施工.mp4",
+      "root": "baba",
+      "rel": "9清洁/20967_地面_清洁施工.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\9清洁\\20967_地面_清洁施工.mp4",
+      "duration": 107.734,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\bc6665e527e49fc4f52b2c8be30e80af.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "ea3f8e325987f220990867ccb87b9ed8",
+      "name": "20968_墙面_批刮施工.mp4",
+      "root": "baba",
+      "rel": "9清洁/20968_墙面_批刮施工.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\9清洁\\20968_墙面_批刮施工.mp4",
+      "duration": 27.61,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\ea3f8e325987f220990867ccb87b9ed8.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "6772c67d427da40a2b95b77613240002",
+      "name": "20969_展厅_微陶泥展示.mp4",
+      "root": "baba",
+      "rel": "9清洁/20969_展厅_微陶泥展示.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\9清洁\\20969_展厅_微陶泥展示.mp4",
+      "duration": 120.2,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\6772c67d427da40a2b95b77613240002.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "e6fee26966a9b7a40b405c6562a8cb27",
+      "name": "20970_地面_批刮施工.mp4",
+      "root": "baba",
+      "rel": "9清洁/20970_地面_批刮施工.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\9清洁\\20970_地面_批刮施工.mp4",
+      "duration": 34.304,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\e6fee26966a9b7a40b405c6562a8cb27.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "0dd74fe048719ef563a54ee6a239c413",
+      "name": "20971_墙面_家具保护.mp4",
+      "root": "baba",
+      "rel": "9清洁/20971_墙面_家具保护.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\9清洁\\20971_墙面_家具保护.mp4",
+      "duration": 41.5,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\0dd74fe048719ef563a54ee6a239c413.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "a78287fc09bd01a4b687fa18bbcd1c42",
+      "name": "20972_墙面_微陶泥展示.mp4",
+      "root": "baba",
+      "rel": "9清洁/20972_墙面_微陶泥展示.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\9清洁\\20972_墙面_微陶泥展示.mp4",
+      "duration": 41.834,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\a78287fc09bd01a4b687fa18bbcd1c42.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "2c04a8c82cf842729664858a4db3d55e",
+      "name": "20973_墙面_家具保护.mp4",
+      "root": "baba",
+      "rel": "9清洁/20973_墙面_家具保护.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\9清洁\\20973_墙面_家具保护.mp4",
+      "duration": 77.234,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\2c04a8c82cf842729664858a4db3d55e.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "c456fe63654143d0e3ecf3e9368f08e3",
+      "name": "20974_地面_清洁施工.mp4",
+      "root": "baba",
+      "rel": "9清洁/20974_地面_清洁施工.mp4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\9清洁\\20974_地面_清洁施工.mp4",
+      "duration": 173.667,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\c456fe63654143d0e3ecf3e9368f08e3.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    }
+  ],
+  "errors": [
+    {
+      "id": "b63fb780e54ef62a2e04afc53cc3c732",
+      "reason": "非9:16"
+    },
+    {
+      "id": "412404b4883dd218931c56d218e09a2f",
+      "reason": "非9:16"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "created": "2026-11-13",
+  "purpose": "人物身份人工核实，不是模型人脸识别结论，不自动进入训练",
+  "rows": [
+    {
+      "sample_id": "R01",
+      "category": "人物核实",
+      "query": "请用户确认画面主体是否阿明；其他人物或看不清保持待核实",
+      "source": {
+        "id": "8dbee2c08ff99cb523c79d1ff43ff386",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\二印小区厨卫\\人物出镜\\20573_人物_小区场景.MOV",
+        "rel": "二印小区厨卫/人物出镜/20573_人物_小区场景.MOV",
+        "root": "xiaoq",
+        "name": "20573_人物_小区场景.MOV",
+        "start": 2,
+        "end": 6
+      },
+      "project_guess": "二印小区厨卫",
+      "project_confirmed": false,
+      "suggested_label": "待确认",
+      "suggestion_reason": "身份必须由用户逐段确认，不凭服装或目录自动推定",
+      "confirmed_label": null,
+      "status": "人物身份待用户确认",
+      "clip": "clips/R01.mp4",
+      "clip_sha256": "260925c34d298fd167bdb3b4bc64597886cb437eb59d5e1f2a78f21d420086c5",
+      "duration": 4.004,
+      "benchmark_eligible": false,
+      "split": "口径确认集，禁止进入盲测",
+      "product_identity": "未核验",
+      "quality_note": "正面讲述",
+      "person_identity": null,
+      "apply_to_directory": false,
+      "label_scope": "仅所列时间段内的画面主体",
+      "related_sample": null
+    },
+    {
+      "sample_id": "R02",
+      "category": "人物核实",
+      "query": "请用户确认画面主体是否阿明；其他人物或看不清保持待核实",
+      "source": {
+        "id": "ec7811dd02f80d607d4ade7683da72c9",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\翠提春晓\\批刮陶泥\\IMG_0949.MOV",
+        "rel": "翠提春晓/批刮陶泥/IMG_0949.MOV",
+        "root": "xiaoq",
+        "name": "IMG_0949.MOV",
+        "start": 2,
+        "end": 6
+      },
+      "project_guess": "翠提春晓",
+      "project_confirmed": false,
+      "suggested_label": "待确认",
+      "suggestion_reason": "身份必须由用户逐段确认，不凭服装或目录自动推定",
+      "confirmed_label": null,
+      "status": "人物身份待用户确认",
+      "clip": "clips/R02.mp4",
+      "clip_sha256": "2664ce208c8d825a8e3a59926c638498d57d97fe597240cb74afabb97c1400f9",
+      "duration": 4.004,
+      "benchmark_eligible": false,
+      "split": "口径确认集，禁止进入盲测",
+      "product_identity": "未核验",
+      "quality_note": "侧脸施工；若不能确定身份则保留待核实",
+      "person_identity": null,
+      "apply_to_directory": false,
+      "label_scope": "仅所列时间段内的画面主体",
+      "related_sample": "与P23同原片，动作已确认不等于身份已确认；本次时间范围较长"
+    }
+  ]
+}

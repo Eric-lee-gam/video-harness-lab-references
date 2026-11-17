@@ -1,0 +1,41 @@
+{
+  "rows": [
+    {
+      "id": "0e994a1d2837bd1069fd397553b62816",
+      "name": "19758_人物_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "常青花园四小区/人物出镜/19758_人物_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\常青花园四小区\\人物出镜\\19758_人物_小区场景.MOV",
+      "duration": 10.07,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\0e994a1d2837bd1069fd397553b62816.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "c50fce1d7c874f30a0008fb4b419fbd0",
+      "name": "34187_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "长鑫家园（上门谈单）/34187_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\长鑫家园（上门谈单）\\34187_小区场景.MOV",
+      "duration": 18.256667,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\c50fce1d7c874f30a0008fb4b419fbd0.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "ccdb51ab3e8100c69ab96a0b5ee94848",
+      "name": "IMG_2801.MOV",
+      "root": "xiaoq",
+      "rel": "1新的未分类/SKP沙湖公寓/上门/IMG_2801.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\1新的未分类\\SKP沙湖公寓\\上门\\IMG_2801.MOV",
+      "duration": 28.673333,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\ccdb51ab3e8100c69ab96a0b5ee94848.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    }
+  ],
+  "errors": []
+}

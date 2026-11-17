@@ -1,0 +1,1493 @@
+{
+  "id": "R04",
+  "source_name": "2194334006.mov",
+  "duration": 26.261,
+  "status": "completed_with_gaps",
+  "coverage": {
+    "visual_sampling_interval_seconds": 0.5,
+    "visual_reviewed": true,
+    "audio_asr": true,
+    "human_full_listening": false,
+    "full_playback": false
+  },
+  "summary": "业主第一人称“在小区火了”搭极简成品体验；随后按施工步骤和生活问题推进，穿插弯折、吸尘、擦污和耐擦动作，结尾开门入室。不是同城真人点赞模板。",
+  "opening": {
+    "start": 0,
+    "end": 3.125,
+    "observation": "品牌短封面、客厅和窗边生活人物，字幕第一人称小区/邻居",
+    "inference": "先给生活结果和他人评价口吻；评价与人物身份待提供"
+  },
+  "ending": {
+    "start": 24.25,
+    "end": 26.261,
+    "observation": "开门露出成品空间，字幕7天完工即可入住",
+    "inference": "用生活动作结束，无点赞/咨询CTA；可以作为结果型结尾候选"
+  },
+  "shots": [
+    {
+      "index": 1,
+      "start": 0,
+      "end": 1.583,
+      "observation": "0.00为微陶泥品牌封面；0.50为浅色客厅、电视和懒人沙发",
+      "visible_text": "微陶泥／我好像在我家小区火了",
+      "script_relation": "第一人称口吻不证明拍摄者是业主",
+      "purpose": "先结果与社会认同钩子",
+      "cut": "首封面切点在0-0.50未逐帧定",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0001.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0003.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0004.jpg"
+      ]
+    },
+    {
+      "index": 2,
+      "start": 1.583,
+      "end": 2.25,
+      "observation": "卧室女子背对镜头坐在窗边台面前",
+      "visible_text": "邻居说我真会装",
+      "script_relation": "未见邻居评价，属文案主张",
+      "purpose": "生活方式",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0005.jpg"
+      ]
+    },
+    {
+      "index": 3,
+      "start": 2.25,
+      "end": 3.125,
+      "observation": "同卧室侧视，女子坐在窗边",
+      "visible_text": "邻居说我真会装",
+      "script_relation": "生活感延续，无邻居证据",
+      "purpose": "成品体验",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0006.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0007.jpg"
+      ]
+    },
+    {
+      "index": 4,
+      "start": 3.125,
+      "end": 4.917,
+      "observation": "人物站在机械设备上，地面碎砖",
+      "visible_text": "地面瓷砖不用敲了",
+      "script_relation": "拆改画面是反例但没有红叉，须核验是否让否定失焦",
+      "purpose": "旧方法反例",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0008.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0009.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0010.jpg"
+      ]
+    },
+    {
+      "index": 5,
+      "start": 4.917,
+      "end": 6.083,
+      "observation": "两人在大房间使用长柄滚筒涂地面",
+      "visible_text": "先滚涂底漆",
+      "script_relation": "工具动作与步骤相符；底漆身份待原始资料",
+      "purpose": "第一工序",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0011.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0012.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0013.jpg"
+      ]
+    },
+    {
+      "index": 6,
+      "start": 6.083,
+      "end": 7.125,
+      "observation": "手套手用抹刀摊开浅色料",
+      "visible_text": "然后直接壁刮",
+      "script_relation": "画面为地面批刮，可见文本疑有“壁刮”，不静默改声",
+      "purpose": "第二工序",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0014.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0015.jpg"
+      ]
+    },
+    {
+      "index": 7,
+      "start": 7.125,
+      "end": 8.917,
+      "observation": "双手弯折浅色样板，粉色台面",
+      "visible_text": "我们不会开裂的微陶泥",
+      "script_relation": "可见弯折，不证明所有现场或长期不开裂",
+      "purpose": "功能演示",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0016.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0017.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0018.jpg"
+      ]
+    },
+    {
+      "index": 8,
+      "start": 8.917,
+      "end": 9.875,
+      "observation": "浅色一体空间，台盆及客厅",
+      "visible_text": "一体无缝的效果太好看了",
+      "script_relation": "外观与审美句相符，非材料技术检测",
+      "purpose": "结果总览",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0019.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0020.jpg"
+      ]
+    },
+    {
+      "index": 9,
+      "start": 9.875,
+      "end": 10.917,
+      "observation": "长发女子在极简客厅，抬手示意",
+      "visible_text": "一体无缝的效果太好看了",
+      "script_relation": "人物姿态作为体验示意，身份待确认",
+      "purpose": "人进入结果",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0021.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0022.jpg"
+      ]
+    },
+    {
+      "index": 10,
+      "start": 10.917,
+      "end": 12.208,
+      "observation": "木纹地面与墙边深色线条近景",
+      "visible_text": "丑陋的踢脚线没了",
+      "script_relation": "画面仍有深色边线，需要明确定义和同位改造证据",
+      "purpose": "边缘细节及文案冲突",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0023.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0024.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0025.jpg"
+      ]
+    },
+    {
+      "index": 11,
+      "start": 12.208,
+      "end": 13.583,
+      "observation": "女子站在浅色浴缸卫生间",
+      "visible_text": "我的洗手间再也没有",
+      "script_relation": "卫生间类别对应",
+      "purpose": "生活痛点引入",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0026.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0027.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0028.jpg"
+      ]
+    },
+    {
+      "index": 12,
+      "start": 13.583,
+      "end": 14.833,
+      "observation": "旧黄色瓷砖污迹，手和刷具",
+      "visible_text": "发黄发霉的瓷砖",
+      "script_relation": "可见发黄/污迹，是否霉菌未检验",
+      "purpose": "旧状反例",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0029.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0030.jpg"
+      ]
+    },
+    {
+      "index": 13,
+      "start": 14.833,
+      "end": 16.292,
+      "observation": "人在客厅推立式清洁设备",
+      "visible_text": "日常打扫扫地机溜个弯就行",
+      "script_relation": "可见手持设备，不是自主扫地机器人",
+      "purpose": "清洁便捷示意",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0031.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0032.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0033.jpg"
+      ]
+    },
+    {
+      "index": 14,
+      "start": 16.292,
+      "end": 17.25,
+      "observation": "带绿光的手持清洁头靠墙移动",
+      "visible_text": "日常打扫扫地机溜个弯就行",
+      "script_relation": "延续人工清洁，设备类别要核验",
+      "purpose": "操作细节",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0034.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0035.jpg"
+      ]
+    },
+    {
+      "index": 15,
+      "start": 17.25,
+      "end": 18.833,
+      "observation": "绿布擦拭浅色台面/地面污迹，污迹减少",
+      "visible_text": "污渍轻松解决",
+      "script_relation": "有操作与结果序列，污物成分未证",
+      "purpose": "清洁功能演示",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0036.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0037.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0038.jpg"
+      ]
+    },
+    {
+      "index": 16,
+      "start": 18.833,
+      "end": 19.833,
+      "observation": "手持小工具在浅墙上摩擦",
+      "visible_text": "耐擦耐磨",
+      "script_relation": "可见接触，磨损结果与次数未证",
+      "purpose": "耐擦演示候选",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0039.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0040.jpg"
+      ]
+    },
+    {
+      "index": 17,
+      "start": 19.833,
+      "end": 20.792,
+      "observation": "手臂和手势近景，背景建筑施工杂物",
+      "visible_text": "墙地一体无缝更显大",
+      "script_relation": "同句搭施工反例，空间同源未证；响指声未听",
+      "purpose": "动作转换候选",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0041.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0042.jpg"
+      ]
+    },
+    {
+      "index": 18,
+      "start": 20.792,
+      "end": 21.542,
+      "observation": "玻璃栏板后成品双层挑高空间",
+      "visible_text": "墙地一体无缝更显大",
+      "script_relation": "观感支持开阔，面积没有增长证明",
+      "purpose": "结果揭示",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0043.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0044.jpg"
+      ]
+    },
+    {
+      "index": 19,
+      "start": 21.542,
+      "end": 22.875,
+      "observation": "手套工人在地面批刮",
+      "visible_text": "无甲醛无VOC",
+      "script_relation": "普通工艺不能证明排放指标",
+      "purpose": "环境卖点证据缺口",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0045.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0046.jpg"
+      ]
+    },
+    {
+      "index": 20,
+      "start": 22.875,
+      "end": 24.25,
+      "observation": "另一地面批刮近景",
+      "visible_text": "施工全程无异味",
+      "script_relation": "画面无法验证气味",
+      "purpose": "施工示意",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0047.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0048.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0049.jpg"
+      ]
+    },
+    {
+      "index": 21,
+      "start": 24.25,
+      "end": 26.261,
+      "observation": "手开门，看到明亮成品厨房客厅，最后空镜",
+      "visible_text": "7天完工即可入住",
+      "script_relation": "开门是入住表达，不能证明七天和可入住条件",
+      "purpose": "成品开门收尾",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0050.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0052.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\timeline\\frame_0053.jpg"
+      ]
+    }
+  ],
+  "structure": "结果生活方式→拆改反例→滚涂/批刮→样板弯折→成品细节→清洁/耐擦→空间变化→环境主张→开门入住。",
+  "comparison": {
+    "observation": "拆砸、旧黄砖、施工与极简成品多处交错；未提供项目配对，不应解读为同一户全过程。",
+    "verified_same_space": false,
+    "uncertainty": "未取得原始同户项目映射；成品与施工画面不能证明同一空间或施工周期。"
+  },
+  "sound": {
+    "asr_path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\asr.json",
+    "observation": null,
+    "uncertainty": "本地机器识别，未人工全轨试听；声音类别、曲名、BPM及声画卡点未经听辨，不作结论。",
+    "machine_alignment_evidence": [
+      {
+        "candidate_cut": 1.583,
+        "segment_start": 1.48,
+        "segment_end": 2.96,
+        "raw_asr_text": "鄰居說我真會裝"
+      },
+      {
+        "candidate_cut": 2.25,
+        "segment_start": 1.48,
+        "segment_end": 2.96,
+        "raw_asr_text": "鄰居說我真會裝"
+      },
+      {
+        "candidate_cut": 3.125,
+        "segment_start": 2.96,
+        "segment_end": 4.76,
+        "raw_asr_text": "地面磁磚不用敲了"
+      },
+      {
+        "candidate_cut": 4.917,
+        "segment_start": 4.76,
+        "segment_end": 5.94,
+        "raw_asr_text": "先滾土底漆"
+      },
+      {
+        "candidate_cut": 6.083,
+        "segment_start": 5.94,
+        "segment_end": 7.06,
+        "raw_asr_text": "然後直接披刮"
+      },
+      {
+        "candidate_cut": 7.125,
+        "segment_start": 7.06,
+        "segment_end": 8.76,
+        "raw_asr_text": "我們不會開裂的微陶泥"
+      },
+      {
+        "candidate_cut": 8.917,
+        "segment_start": 8.76,
+        "segment_end": 10.7,
+        "raw_asr_text": "液體無縫的效果太好看了"
+      },
+      {
+        "candidate_cut": 9.875,
+        "segment_start": 8.76,
+        "segment_end": 10.7,
+        "raw_asr_text": "液體無縫的效果太好看了"
+      },
+      {
+        "candidate_cut": 10.917,
+        "segment_start": 10.7,
+        "segment_end": 12.1,
+        "raw_asr_text": "醜陋的踢腳鮮眉了"
+      },
+      {
+        "candidate_cut": 12.208,
+        "segment_start": 12.1,
+        "segment_end": 13.34,
+        "raw_asr_text": "我的洗手間再也沒有"
+      },
+      {
+        "candidate_cut": 13.583,
+        "segment_start": 13.34,
+        "segment_end": 14.64,
+        "raw_asr_text": "發黃發眉的磁磚"
+      },
+      {
+        "candidate_cut": 14.833,
+        "segment_start": 14.64,
+        "segment_end": 16.1,
+        "raw_asr_text": "日常打掃掃地機"
+      },
+      {
+        "candidate_cut": 16.292,
+        "segment_start": 16.1,
+        "segment_end": 17.12,
+        "raw_asr_text": "有個彎就行"
+      },
+      {
+        "candidate_cut": 17.25,
+        "segment_start": 17.12,
+        "segment_end": 18.5,
+        "raw_asr_text": "物質輕鬆解決"
+      },
+      {
+        "candidate_cut": 18.833,
+        "segment_start": 18.5,
+        "segment_end": 19.62,
+        "raw_asr_text": "耐擦耐磨"
+      },
+      {
+        "candidate_cut": 19.833,
+        "segment_start": 19.62,
+        "segment_end": 21.38,
+        "raw_asr_text": "強力液體無縫更顯大"
+      },
+      {
+        "candidate_cut": 20.792,
+        "segment_start": 19.62,
+        "segment_end": 21.38,
+        "raw_asr_text": "強力液體無縫更顯大"
+      },
+      {
+        "candidate_cut": 21.542,
+        "segment_start": 21.38,
+        "segment_end": 22.58,
+        "raw_asr_text": "無甲泉無VOC"
+      },
+      {
+        "candidate_cut": 22.875,
+        "segment_start": 22.58,
+        "segment_end": 24.08,
+        "raw_asr_text": "施工全程無異味"
+      },
+      {
+        "candidate_cut": 24.25,
+        "segment_start": 24.08,
+        "segment_end": 25.64,
+        "raw_asr_text": "七天廊工即可入住"
+      }
+    ],
+    "alignment_note": "只比较机器ASR句段与候选画面切点的时间重合，不证明无停顿、声音桥接自然、节拍卡点或音效同步。"
+  },
+  "applicability": [
+    "适用于室内全屋风格和使用体验主题，需要明确第一人称主体。",
+    "生活方式片可不加点赞尾巴；不能认定互动弱。",
+    "有清洁演示可借鉴功能对应，但排放与工期需文件证据。"
+  ],
+  "uncertainties": [
+    "机器ASR有材料名、地名和同音字误识；保留原文，可见字幕另记，不把字幕当听到的声音。",
+    "0.5秒采样可能遗漏短镜头、动作和字幕；切点为候选或约值，非全片实播逐帧审核。",
+    "价格、工期、性能和占比仅为参考片表达，未核实业务适用性。",
+    "无平台原始效果数据，不能证明这些特征导致爆款。"
+  ],
+  "rule_candidates": [
+    {
+      "agent": "文案",
+      "rule": "业主第一人称须有真实授权与案例主体",
+      "example_time": "0-3.125",
+      "condition": "身份/邻居评价已证，或改为清楚的服务示意",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "分镜",
+      "rule": "底漆→批刮等步骤用对应动作按顺序排列",
+      "example_time": "4.917-7.125",
+      "condition": "原始工序和材料一致",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "素材",
+      "rule": "细节镜头核查边缘线和设备类别，不仅看画面干净",
+      "example_time": "10.917-12.208；14.833-17.25",
+      "condition": "明确踢脚线和扫地机定义",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "审核",
+      "rule": "施工空镜不能证明无甲醛、无VOC、无异味",
+      "example_time": "21.542-24.25",
+      "condition": "取得检测报告和使用条件",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "剪辑",
+      "rule": "结束方式按叙事选择：开门露出成品也可收尾",
+      "example_time": "24.25-26.261",
+      "condition": "结果型生活主题，后续新片检验",
+      "evidence_level": "inference"
+    }
+  ],
+  "asr_segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 1.48,
+      "text": "我好像在我家小去火了",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.22,
+          "word": "我",
+          "probability": 0.7660902142524719
+        },
+        {
+          "start": 0.22,
+          "end": 0.44,
+          "word": "好像",
+          "probability": 0.9866742491722107
+        },
+        {
+          "start": 0.44,
+          "end": 0.66,
+          "word": "在",
+          "probability": 0.9864034652709961
+        },
+        {
+          "start": 0.66,
+          "end": 0.74,
+          "word": "我",
+          "probability": 0.9892176389694214
+        },
+        {
+          "start": 0.74,
+          "end": 0.86,
+          "word": "家",
+          "probability": 0.9989620447158813
+        },
+        {
+          "start": 0.86,
+          "end": 1.02,
+          "word": "小",
+          "probability": 0.9767182469367981
+        },
+        {
+          "start": 1.02,
+          "end": 1.16,
+          "word": "去",
+          "probability": 0.3857690393924713
+        },
+        {
+          "start": 1.16,
+          "end": 1.34,
+          "word": "火",
+          "probability": 0.28779059648513794
+        },
+        {
+          "start": 1.34,
+          "end": 1.48,
+          "word": "了",
+          "probability": 0.9145867824554443
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 1.48,
+      "end": 2.96,
+      "text": "鄰居說我真會裝",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 1.48,
+          "end": 1.66,
+          "word": "鄰",
+          "probability": 0.8562123477458954
+        },
+        {
+          "start": 1.66,
+          "end": 1.84,
+          "word": "居",
+          "probability": 0.9995523989200592
+        },
+        {
+          "start": 1.84,
+          "end": 2.08,
+          "word": "說",
+          "probability": 0.5258479714393616
+        },
+        {
+          "start": 2.08,
+          "end": 2.44,
+          "word": "我",
+          "probability": 0.766566812992096
+        },
+        {
+          "start": 2.44,
+          "end": 2.58,
+          "word": "真",
+          "probability": 0.324756920337677
+        },
+        {
+          "start": 2.58,
+          "end": 2.72,
+          "word": "會",
+          "probability": 0.9587850570678711
+        },
+        {
+          "start": 2.72,
+          "end": 2.96,
+          "word": "裝",
+          "probability": 0.9738338589668274
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 2.96,
+      "end": 4.76,
+      "text": "地面磁磚不用敲了",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 2.96,
+          "end": 3.2,
+          "word": "地",
+          "probability": 0.5485337972640991
+        },
+        {
+          "start": 3.2,
+          "end": 3.42,
+          "word": "面",
+          "probability": 0.9970853924751282
+        },
+        {
+          "start": 3.42,
+          "end": 3.62,
+          "word": "磁",
+          "probability": 0.8694696426391602
+        },
+        {
+          "start": 3.62,
+          "end": 3.82,
+          "word": "磚",
+          "probability": 0.997420052687327
+        },
+        {
+          "start": 3.82,
+          "end": 4.18,
+          "word": "不用",
+          "probability": 0.9763249158859253
+        },
+        {
+          "start": 4.18,
+          "end": 4.52,
+          "word": "敲",
+          "probability": 0.9891882836818695
+        },
+        {
+          "start": 4.52,
+          "end": 4.76,
+          "word": "了",
+          "probability": 0.9437474608421326
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 4.76,
+      "end": 5.94,
+      "text": "先滾土底漆",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 4.76,
+          "end": 5.04,
+          "word": "先",
+          "probability": 0.4903024435043335
+        },
+        {
+          "start": 5.04,
+          "end": 5.28,
+          "word": "滾",
+          "probability": 0.9986867904663086
+        },
+        {
+          "start": 5.28,
+          "end": 5.46,
+          "word": "土",
+          "probability": 0.47861993312835693
+        },
+        {
+          "start": 5.46,
+          "end": 5.64,
+          "word": "底",
+          "probability": 0.6743322610855103
+        },
+        {
+          "start": 5.64,
+          "end": 5.94,
+          "word": "漆",
+          "probability": 0.8561641871929169
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 5.94,
+      "end": 7.06,
+      "text": "然後直接披刮",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 5.94,
+          "end": 6.24,
+          "word": "然後",
+          "probability": 0.955220103263855
+        },
+        {
+          "start": 6.24,
+          "end": 6.6,
+          "word": "直接",
+          "probability": 0.9934149980545044
+        },
+        {
+          "start": 6.6,
+          "end": 6.84,
+          "word": "披",
+          "probability": 0.6175496280193329
+        },
+        {
+          "start": 6.84,
+          "end": 7.06,
+          "word": "刮",
+          "probability": 0.7922593951225281
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 7.06,
+      "end": 8.76,
+      "text": "我們不會開裂的微陶泥",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 7.06,
+          "end": 7.34,
+          "word": "我們",
+          "probability": 0.9792107939720154
+        },
+        {
+          "start": 7.34,
+          "end": 7.62,
+          "word": "不會",
+          "probability": 0.9950284361839294
+        },
+        {
+          "start": 7.62,
+          "end": 7.84,
+          "word": "開",
+          "probability": 0.9869726300239563
+        },
+        {
+          "start": 7.84,
+          "end": 8.0,
+          "word": "裂",
+          "probability": 0.9168940186500549
+        },
+        {
+          "start": 8.0,
+          "end": 8.1,
+          "word": "的",
+          "probability": 0.9488185048103333
+        },
+        {
+          "start": 8.1,
+          "end": 8.24,
+          "word": "微",
+          "probability": 0.5970234274864197
+        },
+        {
+          "start": 8.24,
+          "end": 8.46,
+          "word": "陶",
+          "probability": 0.8133277297019958
+        },
+        {
+          "start": 8.46,
+          "end": 8.76,
+          "word": "泥",
+          "probability": 0.9934625625610352
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 8.76,
+      "end": 10.7,
+      "text": "液體無縫的效果太好看了",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 8.76,
+          "end": 9.0,
+          "word": "液",
+          "probability": 0.7279229164123535
+        },
+        {
+          "start": 9.0,
+          "end": 9.14,
+          "word": "體",
+          "probability": 0.9974864721298218
+        },
+        {
+          "start": 9.14,
+          "end": 9.28,
+          "word": "無",
+          "probability": 0.8576036691665649
+        },
+        {
+          "start": 9.28,
+          "end": 9.4,
+          "word": "縫",
+          "probability": 0.991064727306366
+        },
+        {
+          "start": 9.4,
+          "end": 9.5,
+          "word": "的",
+          "probability": 0.9914959669113159
+        },
+        {
+          "start": 9.5,
+          "end": 9.68,
+          "word": "效",
+          "probability": 0.9991757273674011
+        },
+        {
+          "start": 9.68,
+          "end": 9.88,
+          "word": "果",
+          "probability": 0.999829888343811
+        },
+        {
+          "start": 9.88,
+          "end": 10.08,
+          "word": "太",
+          "probability": 0.9860120415687561
+        },
+        {
+          "start": 10.08,
+          "end": 10.24,
+          "word": "好",
+          "probability": 0.9898129105567932
+        },
+        {
+          "start": 10.24,
+          "end": 10.48,
+          "word": "看",
+          "probability": 0.9990731477737427
+        },
+        {
+          "start": 10.48,
+          "end": 10.7,
+          "word": "了",
+          "probability": 0.9970645308494568
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 10.7,
+      "end": 12.1,
+      "text": "醜陋的踢腳鮮眉了",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 10.7,
+          "end": 11.04,
+          "word": "醜",
+          "probability": 0.9733425974845886
+        },
+        {
+          "start": 11.04,
+          "end": 11.18,
+          "word": "陋",
+          "probability": 0.9818408191204071
+        },
+        {
+          "start": 11.18,
+          "end": 11.28,
+          "word": "的",
+          "probability": 0.926018476486206
+        },
+        {
+          "start": 11.28,
+          "end": 11.44,
+          "word": "踢",
+          "probability": 0.9259685277938843
+        },
+        {
+          "start": 11.44,
+          "end": 11.58,
+          "word": "腳",
+          "probability": 0.9319541454315186
+        },
+        {
+          "start": 11.58,
+          "end": 11.74,
+          "word": "鮮",
+          "probability": 0.6954614818096161
+        },
+        {
+          "start": 11.74,
+          "end": 11.92,
+          "word": "眉",
+          "probability": 0.7078803926706314
+        },
+        {
+          "start": 11.92,
+          "end": 12.1,
+          "word": "了",
+          "probability": 0.9868736863136292
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 12.1,
+      "end": 13.34,
+      "text": "我的洗手間再也沒有",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 12.1,
+          "end": 12.32,
+          "word": "我的",
+          "probability": 0.9845643043518066
+        },
+        {
+          "start": 12.32,
+          "end": 12.5,
+          "word": "洗",
+          "probability": 0.9808195233345032
+        },
+        {
+          "start": 12.5,
+          "end": 12.64,
+          "word": "手",
+          "probability": 0.999693751335144
+        },
+        {
+          "start": 12.64,
+          "end": 12.82,
+          "word": "間",
+          "probability": 0.9986762404441833
+        },
+        {
+          "start": 12.82,
+          "end": 13.08,
+          "word": "再",
+          "probability": 0.9745030403137207
+        },
+        {
+          "start": 13.08,
+          "end": 13.22,
+          "word": "也",
+          "probability": 0.9974777102470398
+        },
+        {
+          "start": 13.22,
+          "end": 13.34,
+          "word": "沒有",
+          "probability": 0.9906082153320312
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 13.34,
+      "end": 14.64,
+      "text": "發黃發眉的磁磚",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 13.34,
+          "end": 13.66,
+          "word": "發",
+          "probability": 0.9720245599746704
+        },
+        {
+          "start": 13.66,
+          "end": 13.84,
+          "word": "黃",
+          "probability": 0.9133421182632446
+        },
+        {
+          "start": 13.84,
+          "end": 13.98,
+          "word": "發",
+          "probability": 0.9776899218559265
+        },
+        {
+          "start": 13.98,
+          "end": 14.12,
+          "word": "眉",
+          "probability": 0.6573556810617447
+        },
+        {
+          "start": 14.12,
+          "end": 14.22,
+          "word": "的",
+          "probability": 0.9929739236831665
+        },
+        {
+          "start": 14.22,
+          "end": 14.42,
+          "word": "磁",
+          "probability": 0.9990508357683817
+        },
+        {
+          "start": 14.42,
+          "end": 14.64,
+          "word": "磚",
+          "probability": 0.9996264576911926
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 14.64,
+      "end": 16.1,
+      "text": "日常打掃掃地機",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 14.64,
+          "end": 14.98,
+          "word": "日",
+          "probability": 0.9520613551139832
+        },
+        {
+          "start": 14.98,
+          "end": 15.14,
+          "word": "常",
+          "probability": 0.9981527924537659
+        },
+        {
+          "start": 15.14,
+          "end": 15.3,
+          "word": "打",
+          "probability": 0.9400280117988586
+        },
+        {
+          "start": 15.3,
+          "end": 15.46,
+          "word": "掃",
+          "probability": 0.9823451340198517
+        },
+        {
+          "start": 15.46,
+          "end": 15.64,
+          "word": "掃",
+          "probability": 0.7536164820194244
+        },
+        {
+          "start": 15.64,
+          "end": 15.8,
+          "word": "地",
+          "probability": 0.9321200847625732
+        },
+        {
+          "start": 15.8,
+          "end": 16.1,
+          "word": "機",
+          "probability": 0.6327627301216125
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 16.1,
+      "end": 17.12,
+      "text": "有個彎就行",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 16.1,
+          "end": 16.44,
+          "word": "有",
+          "probability": 0.9043727517127991
+        },
+        {
+          "start": 16.44,
+          "end": 16.56,
+          "word": "個",
+          "probability": 0.9941943287849426
+        },
+        {
+          "start": 16.56,
+          "end": 16.7,
+          "word": "彎",
+          "probability": 0.9598705768585205
+        },
+        {
+          "start": 16.7,
+          "end": 16.84,
+          "word": "就",
+          "probability": 0.9885364770889282
+        },
+        {
+          "start": 16.84,
+          "end": 17.12,
+          "word": "行",
+          "probability": 0.9927003979682922
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 17.12,
+      "end": 18.5,
+      "text": "物質輕鬆解決",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 17.12,
+          "end": 17.4,
+          "word": "物",
+          "probability": 0.06376466155052185
+        },
+        {
+          "start": 17.4,
+          "end": 17.58,
+          "word": "質",
+          "probability": 0.6814138293266296
+        },
+        {
+          "start": 17.58,
+          "end": 17.82,
+          "word": "輕",
+          "probability": 0.9920006990432739
+        },
+        {
+          "start": 17.82,
+          "end": 18.0,
+          "word": "鬆",
+          "probability": 0.9962445795536041
+        },
+        {
+          "start": 18.0,
+          "end": 18.2,
+          "word": "解",
+          "probability": 0.9960294961929321
+        },
+        {
+          "start": 18.2,
+          "end": 18.5,
+          "word": "決",
+          "probability": 0.9480043649673462
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 18.5,
+      "end": 19.62,
+      "text": "耐擦耐磨",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 18.5,
+          "end": 19.02,
+          "word": "耐",
+          "probability": 0.8988624215126038
+        },
+        {
+          "start": 19.02,
+          "end": 19.18,
+          "word": "擦",
+          "probability": 0.9957126080989838
+        },
+        {
+          "start": 19.18,
+          "end": 19.38,
+          "word": "耐",
+          "probability": 0.9926347136497498
+        },
+        {
+          "start": 19.38,
+          "end": 19.62,
+          "word": "磨",
+          "probability": 0.9742652475833893
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 19.62,
+      "end": 21.38,
+      "text": "強力液體無縫更顯大",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 19.62,
+          "end": 19.98,
+          "word": "強",
+          "probability": 0.9711847305297852
+        },
+        {
+          "start": 19.98,
+          "end": 20.18,
+          "word": "力",
+          "probability": 0.8006963133811951
+        },
+        {
+          "start": 20.18,
+          "end": 20.3,
+          "word": "液",
+          "probability": 0.9892330765724182
+        },
+        {
+          "start": 20.3,
+          "end": 20.44,
+          "word": "體",
+          "probability": 0.9987475872039795
+        },
+        {
+          "start": 20.44,
+          "end": 20.62,
+          "word": "無",
+          "probability": 0.9967897534370422
+        },
+        {
+          "start": 20.62,
+          "end": 20.76,
+          "word": "縫",
+          "probability": 0.999773383140564
+        },
+        {
+          "start": 20.76,
+          "end": 20.9,
+          "word": "更",
+          "probability": 0.9973700046539307
+        },
+        {
+          "start": 20.9,
+          "end": 21.14,
+          "word": "顯",
+          "probability": 0.9257819056510925
+        },
+        {
+          "start": 21.14,
+          "end": 21.38,
+          "word": "大",
+          "probability": 0.9512064456939697
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": 21.38,
+      "end": 22.58,
+      "text": "無甲泉無VOC",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 21.38,
+          "end": 21.62,
+          "word": "無",
+          "probability": 0.687376856803894
+        },
+        {
+          "start": 21.62,
+          "end": 21.78,
+          "word": "甲",
+          "probability": 0.9342641234397888
+        },
+        {
+          "start": 21.78,
+          "end": 21.98,
+          "word": "泉",
+          "probability": 0.7973329722881317
+        },
+        {
+          "start": 21.98,
+          "end": 22.14,
+          "word": "無",
+          "probability": 0.9836320877075195
+        },
+        {
+          "start": 22.14,
+          "end": 22.26,
+          "word": "V",
+          "probability": 0.35112088918685913
+        },
+        {
+          "start": 22.26,
+          "end": 22.58,
+          "word": "OC",
+          "probability": 0.6190559267997742
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": 22.58,
+      "end": 24.08,
+      "text": "施工全程無異味",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 22.58,
+          "end": 22.98,
+          "word": "施",
+          "probability": 0.9243362843990326
+        },
+        {
+          "start": 22.98,
+          "end": 23.12,
+          "word": "工",
+          "probability": 0.9832994341850281
+        },
+        {
+          "start": 23.12,
+          "end": 23.34,
+          "word": "全",
+          "probability": 0.9700945019721985
+        },
+        {
+          "start": 23.34,
+          "end": 23.52,
+          "word": "程",
+          "probability": 0.9287440180778503
+        },
+        {
+          "start": 23.52,
+          "end": 23.7,
+          "word": "無",
+          "probability": 0.9935137033462524
+        },
+        {
+          "start": 23.7,
+          "end": 23.88,
+          "word": "異",
+          "probability": 0.9718945324420929
+        },
+        {
+          "start": 23.88,
+          "end": 24.08,
+          "word": "味",
+          "probability": 0.558702826499939
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start": 24.08,
+      "end": 25.64,
+      "text": "七天廊工即可入住",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 24.08,
+          "end": 24.34,
+          "word": "七",
+          "probability": 0.16779568791389465
+        },
+        {
+          "start": 24.34,
+          "end": 24.46,
+          "word": "天",
+          "probability": 0.9908705353736877
+        },
+        {
+          "start": 24.46,
+          "end": 24.62,
+          "word": "廊",
+          "probability": 0.41843073815107346
+        },
+        {
+          "start": 24.62,
+          "end": 24.84,
+          "word": "工",
+          "probability": 0.802668035030365
+        },
+        {
+          "start": 24.84,
+          "end": 25.12,
+          "word": "即",
+          "probability": 0.9283457398414612
+        },
+        {
+          "start": 25.12,
+          "end": 25.28,
+          "word": "可",
+          "probability": 0.9993341565132141
+        },
+        {
+          "start": 25.28,
+          "end": 25.46,
+          "word": "入",
+          "probability": 0.9988239407539368
+        },
+        {
+          "start": 25.46,
+          "end": 25.64,
+          "word": "住",
+          "probability": 0.6302000284194946
+        }
+      ]
+    }
+  ],
+  "evidence_path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\evidence.json",
+  "updated_at": "2026-10-01T13:19:15.905184+08:00",
+  "timing_summary": {
+    "recorded_segment_count": 21,
+    "median_seconds": 1.25,
+    "min_seconds": 0.667,
+    "max_seconds": 2.011,
+    "boundary_status": "候选检测加采样观察修订，非逐帧实播核验；语义分段不等于镜头数"
+  }
+}

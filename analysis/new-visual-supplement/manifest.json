@@ -1,0 +1,93 @@
+[
+  {
+    "id": "R27",
+    "requested_time": 0.04,
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R27-0.040.png",
+    "exists": true,
+    "note": "select选择>=请求时间的第一解码帧；边界仍为近似"
+  },
+  {
+    "id": "R27",
+    "requested_time": 0.25,
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R27-0.250.png",
+    "exists": true,
+    "note": "select选择>=请求时间的第一解码帧；边界仍为近似"
+  },
+  {
+    "id": "R27",
+    "requested_time": 1.25,
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R27-1.250.png",
+    "exists": true,
+    "note": "select选择>=请求时间的第一解码帧；边界仍为近似"
+  },
+  {
+    "id": "R29",
+    "requested_time": 0.04,
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R29-0.040.png",
+    "exists": true,
+    "note": "select选择>=请求时间的第一解码帧；边界仍为近似"
+  },
+  {
+    "id": "R30",
+    "requested_time": 12.5,
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R30-12.500.png",
+    "exists": true,
+    "note": "select选择>=请求时间的第一解码帧；边界仍为近似"
+  },
+  {
+    "id": "R30",
+    "requested_time": 12.85,
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R30-12.850.png",
+    "exists": true,
+    "note": "select选择>=请求时间的第一解码帧；边界仍为近似"
+  },
+  {
+    "id": "R31",
+    "requested_time": 9.25,
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R31-9.250.png",
+    "exists": true,
+    "note": "select选择>=请求时间的第一解码帧；边界仍为近似"
+  },
+  {
+    "id": "R31",
+    "requested_time": 9.4,
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R31-9.400.png",
+    "exists": true,
+    "note": "select选择>=请求时间的第一解码帧；边界仍为近似"
+  },
+  {
+    "id": "R32",
+    "requested_time": 3.7,
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R32-3.700.png",
+    "exists": true,
+    "note": "select选择>=请求时间的第一解码帧；边界仍为近似"
+  },
+  {
+    "id": "R32",
+    "requested_time": 3.9,
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R32-3.900.png",
+    "exists": true,
+    "note": "select选择>=请求时间的第一解码帧；边界仍为近似"
+  },
+  {
+    "id": "R32",
+    "requested_time": 9.25,
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R32-9.250.png",
+    "exists": true,
+    "note": "select选择>=请求时间的第一解码帧；边界仍为近似"
+  },
+  {
+    "id": "R32",
+    "requested_time": 9.4,
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R32-9.400.png",
+    "exists": true,
+    "note": "select选择>=请求时间的第一解码帧；边界仍为近似"
+  },
+  {
+    "id": "R33",
+    "requested_time": 23.917,
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R33-23.917.png",
+    "exists": true,
+    "note": "select选择>=请求时间的第一解码帧；边界仍为近似"
+  }
+]

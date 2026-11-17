@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "created": "2026-11-12",
+  "purpose": "施工动作人工标注口径确认；不是训练完成，不是正式选片",
+  "rows": [
+    {
+      "sample_id": "F5",
+      "category": "清洁",
+      "query": "正在用抹布擦拭地面清洁",
+      "source": {
+        "id": "8272401b8a761588aeb17a96a07b47f7",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\9清洁\\20975_地面_批刮施工.mp4",
+        "rel": "9清洁/20975_地面_批刮施工.mp4",
+        "root": "baba",
+        "name": "20975_地面_批刮施工.mp4",
+        "start": 0.2,
+        "end": 2.2
+      },
+      "project_guess": "来源项目未知（分类库）",
+      "project_confirmed": false,
+      "suggested_label": "待确认",
+      "suggestion_reason": "核查手持抹布实际擦拭地面的连续动作；真实项目未知",
+      "confirmed_label": null,
+      "status": "待人工确认",
+      "clip": "clips/F5.mp4",
+      "clip_sha256": "2c75d8bf5ea33426407afbb0e540a661f4874a897cf35c7ed5b5503e37ca86fa",
+      "duration": 2.0,
+      "benchmark_eligible": false,
+      "split": "口径确认集，禁止进入盲测",
+      "product_identity": "未核验",
+      "quality_note": "分类库来源，真实项目未核验；仅标注用途，不进入跨项目盲测。"
+    },
+    {
+      "sample_id": "F6",
+      "category": "清洁",
+      "query": "正在用抹布擦拭地面清洁",
+      "source": {
+        "id": "4604804989b68dab57e0d0a41087ca64",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\9清洁\\开荒保洁\\21004_地面_清洁施工.mp4",
+        "rel": "9清洁/开荒保洁/21004_地面_清洁施工.mp4",
+        "root": "baba",
+        "name": "21004_地面_清洁施工.mp4",
+        "start": 2,
+        "end": 5
+      },
+      "project_guess": "来源项目未知（分类库）",
+      "project_confirmed": false,
+      "suggested_label": "待确认",
+      "suggestion_reason": "易混淆反例候选：长柄刷刷洗地面不能自动当成抹布擦地面",
+      "confirmed_label": null,
+      "status": "待人工确认",
+      "clip": "clips/F6.mp4",
+      "clip_sha256": "ad04515a63f38f691733a00db2456bf23767471633c831f2283cc5854309e9e7",
+      "duration": 3.0,
+      "benchmark_eligible": false,
+      "split": "口径确认集，禁止进入盲测",
+      "product_identity": "未核验",
+      "quality_note": "分类库来源，真实项目未核验；仅标注用途，不进入跨项目盲测。"
+    }
+  ]
+}

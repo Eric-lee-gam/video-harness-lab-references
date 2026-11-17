@@ -1,0 +1,1311 @@
+{
+  "updated_at": "2026-10-01T13:19:16.182693+08:00",
+  "status": "candidate_unvalidated",
+  "candidates": [
+    {
+      "reference_id": "R01",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\analysis.json",
+      "agent": "文案",
+      "rule": "先以价格与改造范围成句给出钩子，再介绍现场",
+      "example_time": "0-4.8",
+      "condition": "价格和范围经业务核验",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R01",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\analysis.json",
+      "agent": "分镜",
+      "rule": "工艺句使用原砖可见的批刮近景",
+      "example_time": "11.833-13.1",
+      "condition": "原砖、工具动作和覆盖层在同镜可见",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R01",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\analysis.json",
+      "agent": "素材",
+      "rule": "功能句分别检索弯折与擦拭动作，避免成品空镜代替",
+      "example_time": "24.067-27.467",
+      "condition": "同材料且有测试记录",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R01",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\analysis.json",
+      "agent": "剪辑",
+      "rule": "拆砸只可用作明确反例并立即回到正向方案",
+      "example_time": "7.233-8.733",
+      "condition": "否定上下文清楚，需实播核验未造成误解",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R01",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\analysis.json",
+      "agent": "审核",
+      "rule": "同框人物不自动解释为业主，同类成品不自动解释为同户结果",
+      "example_time": "4.8-6.1；27.467-29.633",
+      "condition": "人物关系及项目映射待提供",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R02",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R02\\analysis.json",
+      "agent": "文案",
+      "rule": "预测型开头必须标成表达方式，不能从参考片推出行业趋势",
+      "example_time": "0-2.875",
+      "condition": "新文案中趋势另有数据支持",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R02",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R02\\analysis.json",
+      "agent": "分镜",
+      "rule": "否定拆砸加显式否定标记，再切覆盖动作",
+      "example_time": "3.833-8",
+      "condition": "画面反例不延长到主方案段",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R02",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R02\\analysis.json",
+      "agent": "配音",
+      "rule": "含地名材料名的ASR逐项复核，字幕与声音保留两路证据",
+      "example_time": "1.68-8.98",
+      "condition": "本片声音大量错字，需听辨再定稿",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R02",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R02\\analysis.json",
+      "agent": "审核",
+      "rule": "一次喷水不同时证明防霉和硬度",
+      "example_time": "13.083-14.583",
+      "condition": "分别取得测试条件与结果",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R03",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R03\\analysis.json",
+      "agent": "分镜",
+      "rule": "按语义部位选择墙或地面，不能因同为批刮就互换",
+      "example_time": "10.958-11.958",
+      "condition": "文案出现地板、墙面等明确部位",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R03",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R03\\analysis.json",
+      "agent": "素材",
+      "rule": "材料特写→同动作施工→结果可形成可理解步骤",
+      "example_time": "5.958-12.917",
+      "condition": "材料身份和施工阶段已核验",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R03",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R03\\analysis.json",
+      "agent": "审核",
+      "rule": "喷水演示不能推广成回南天防潮结论",
+      "example_time": "12.917-14.875",
+      "condition": "气候适用需测试或业务资料",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R03",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R03\\analysis.json",
+      "agent": "剪辑",
+      "rule": "首帧封面短到检测漏切时单独记录，不能当完整首镜",
+      "example_time": "0-0.5",
+      "condition": "补逐帧核实可读时长",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R04",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\analysis.json",
+      "agent": "文案",
+      "rule": "业主第一人称须有真实授权与案例主体",
+      "example_time": "0-3.125",
+      "condition": "身份/邻居评价已证，或改为清楚的服务示意",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R04",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\analysis.json",
+      "agent": "分镜",
+      "rule": "底漆→批刮等步骤用对应动作按顺序排列",
+      "example_time": "4.917-7.125",
+      "condition": "原始工序和材料一致",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R04",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\analysis.json",
+      "agent": "素材",
+      "rule": "细节镜头核查边缘线和设备类别，不仅看画面干净",
+      "example_time": "10.917-12.208；14.833-17.25",
+      "condition": "明确踢脚线和扫地机定义",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R04",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\analysis.json",
+      "agent": "审核",
+      "rule": "施工空镜不能证明无甲醛、无VOC、无异味",
+      "example_time": "21.542-24.25",
+      "condition": "取得检测报告和使用条件",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R04",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\analysis.json",
+      "agent": "剪辑",
+      "rule": "结束方式按叙事选择：开门露出成品也可收尾",
+      "example_time": "24.25-26.261",
+      "condition": "结果型生活主题，后续新片检验",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R05",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R05\\analysis.json",
+      "agent": "文案",
+      "rule": "同结构城市文案的工期是变量，不能自动套3天或7天",
+      "example_time": "8.167-10.708",
+      "condition": "实际面积/工序与养护条件核验",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R05",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R05\\analysis.json",
+      "agent": "剪辑",
+      "rule": "对旧砖清洁使用明确反例语义，字幕不得短暂漏“不”",
+      "example_time": "10.708-11.833",
+      "condition": "逐帧字幕和终混ASR复核",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R05",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R05\\analysis.json",
+      "agent": "素材",
+      "rule": "无法辨识的虚焦屏幕淘汰，不作省费证据",
+      "example_time": "13.125-14.125",
+      "condition": "重新寻找真实费用或拆除服务画面",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R05",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R05\\analysis.json",
+      "agent": "审核",
+      "rule": "握手与施工者外貌不能独立证明阿明和客户关系",
+      "example_time": "4.792-5.667",
+      "condition": "准确身份及同事件证据",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R06",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R06\\analysis.json",
+      "agent": "文案",
+      "rule": "开头明确城市和老房人群，结尾明确需报位置及下一步服务",
+      "example_time": "3.667-6.167；21.233-24.821",
+      "condition": "服务范围、入口和免费条件已确认",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R06",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R06\\analysis.json",
+      "agent": "分镜",
+      "rule": "上门服务承诺配实际看房沟通镜头",
+      "example_time": "22.9-24.821",
+      "condition": "人物身份与事件获准",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R06",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R06\\analysis.json",
+      "agent": "剪辑",
+      "rule": "CTA按动作链给足阅读时间，字幕可跨切镜持续",
+      "example_time": "17.62-24.821",
+      "condition": "自然配音分句后审核可读性",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R06",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R06\\analysis.json",
+      "agent": "审核",
+      "rule": "“喜讯”不自动写成政策，居住画面不替代环保与入住检测",
+      "example_time": "0-1.9；14.967-17.62",
+      "condition": "需要外部业务证据再做断言",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R07",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R07\\analysis.json",
+      "agent": "素材",
+      "rule": "跨片检测场景/动作重复，不能靠字幕换城市当新本地素材",
+      "example_time": "1.167-2.6；5-5.967；12.733-13.967",
+      "condition": "需原源身份与地域映射",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R07",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R07\\analysis.json",
+      "agent": "剪辑",
+      "rule": "成品预览→施工不是自动错误，但要清楚是方案展示",
+      "example_time": "5.967-8.567",
+      "condition": "不宣称未证的同户前后对比",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R07",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R07\\analysis.json",
+      "agent": "分镜",
+      "rule": "易清洁句可选刮水器或擦拭动作",
+      "example_time": "11.367-12.733",
+      "condition": "材料身份与动作结果可见",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R07",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R07\\analysis.json",
+      "agent": "配音",
+      "rule": "材料名、阿明、瓷砖等词建立复核项，字幕错字另记",
+      "example_time": "0.84-8.44；13.967-15.867",
+      "condition": "全轨听辨后校准，不能静默以字幕修声",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R07",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R07\\analysis.json",
+      "agent": "审核",
+      "rule": "在不同城市字幕下出现相似服务握手，地域声明单独求证",
+      "example_time": "5-5.967",
+      "condition": "同城拍摄来源未确认前仅服务示意",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R08",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R08\\analysis.json",
+      "agent": "文案",
+      "rule": "案例开头用人物-情境-悬念，随后及时给出改造结果",
+      "example_time": "0-10.7",
+      "condition": "人物身份、年龄、亲属关系、旅游安排及项目真实性已有依据",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R08",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R08\\analysis.json",
+      "agent": "分镜",
+      "rule": "“保护→修墙→涂刷→清洁”逐项配对应动作",
+      "example_time": "13.433-19.333",
+      "condition": "四类动作均有相关同项目或明确示意素材",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R08",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R08\\analysis.json",
+      "agent": "素材",
+      "rule": "故事关系与工地动作分开标注，成品配对以项目ID核查",
+      "example_time": "2.833-4.767；7.533-10.7",
+      "condition": "不凭人物同框或亮堂房间推定同户",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R08",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R08\\analysis.json",
+      "agent": "配音",
+      "rule": "流程句可用连贯一段机器语音时间轴作初步对齐，名字和费用先核听",
+      "example_time": "13.12-19.26",
+      "condition": "完成原轨核听；ASR“老刘、万把块、铲修”不能直接照读",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R08",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R08\\analysis.json",
+      "agent": "剪辑",
+      "rule": "成品预览之后回到完整服务流程，保留各动作理解时间",
+      "example_time": "9.25-19.333",
+      "condition": "面向重省心、服务流程的案例；切点由连续播放再确认",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R08",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R08\\analysis.json",
+      "agent": "审核",
+      "rule": "不拆不砸封面与锤击画面并存时明确其适用范围",
+      "example_time": "0；4.767-6.067",
+      "condition": "确认是厨卫局部拆改、旧台面处理还是反例；无法解释则调整",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R09",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R09\\analysis.json",
+      "agent": "文案",
+      "rule": "第一人称成品体验可用评价作开头，但不得自动编造邻居评价",
+      "example_time": "0-.25；.25-3.125",
+      "condition": "真实体验、主体及授权已有依据",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R09",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R09\\analysis.json",
+      "agent": "分镜",
+      "rule": "细节痛点用旧踢脚线或污缝近景，接对应成品细节",
+      "example_time": "10.917-14.833",
+      "condition": "原始项目同位配对存在，反例身份明确",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R09",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R09\\analysis.json",
+      "agent": "素材",
+      "rule": "无缝、易清洁等分开检索全景与机器人/擦拭动作",
+      "example_time": "8.917-10.917；14.833-17.083",
+      "condition": "素材只能证明出现的具体操作，不外推长期属性",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R09",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R09\\analysis.json",
+      "agent": "配音",
+      "rule": "先人工核验材料名和“7天完工即可入住”再使用转写",
+      "example_time": "23.2-24.76",
+      "condition": "本地ASR末句严重同音误识；不得把字幕当已听验证",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R09",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R09\\analysis.json",
+      "agent": "剪辑",
+      "rule": "同一清洁句跨客厅和厨房两镜承接，不强求每句只配一镜",
+      "example_time": "14.833-17.083",
+      "condition": "两个镜头表达同类生活场景，声音衔接需原轨实播",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R09",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R09\\analysis.json",
+      "agent": "审核",
+      "rule": "不敲砖字幕配拆地面机器时标为明确反例，核对是否误导",
+      "example_time": "3.125-4.917",
+      "condition": "确认画面实际动作与上下文用途",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R10",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R10\\analysis.json",
+      "agent": "文案",
+      "rule": "冲突开头后立刻给出具体材料对象，避免只留争议",
+      "example_time": "0-3.8",
+      "condition": "存在具体真实问题，品牌接受该语气，未声称已验证爆款因果",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R10",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R10\\analysis.json",
+      "agent": "分镜",
+      "rule": "产品准备按材料桶→形态→搅拌→批刮配完整动作链",
+      "example_time": "2.2-8.5",
+      "condition": "同材料身份、桶标签及工艺步骤可核验",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R10",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R10\\analysis.json",
+      "agent": "素材",
+      "rule": "耐刮、韧性、易清洁分别匹配对应演示，留测试条件",
+      "example_time": "8.5-14.267",
+      "condition": "工具、样片和产品一致且测试范围明确",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R10",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R10\\analysis.json",
+      "agent": "配音",
+      "rule": "一条操作句跨准备和施工两镜，配音先按原话核听再给切镜建议",
+      "example_time": "6.12-7.96",
+      "condition": "未核听前只用ASR近似时间，不能生成听感结论",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R10",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R10\\analysis.json",
+      "agent": "剪辑",
+      "rule": "黄底字幕保持同一位置，单句核心词用局部颜色强调",
+      "example_time": "0-26.934",
+      "condition": "手机端可读，关键词与实际镜头对应；不能让字幕遮挡工具动作",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R10",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R10\\analysis.json",
+      "agent": "审核",
+      "rule": "画面只能证明动作发生，化学成分、永久不开裂、即时入住另索证",
+      "example_time": "9.867-12.533；18-21.833",
+      "condition": "检测与施工/养护条件齐全才可用于新片",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R11",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R11\\analysis.json",
+      "agent": "文案",
+      "rule": "行业冲突句后接具体工艺与现场，避免把冲突话术写成行业结论",
+      "example_time": "0-8.2",
+      "condition": "存在真实方案且品牌语气合适，无独立传播效果数据",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R11",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R11\\analysis.json",
+      "agent": "分镜",
+      "rule": "覆盖工艺优先显示旧砖与新覆盖层在同镜交界",
+      "example_time": "6.667-9.75；13.7-15.633",
+      "condition": "可看清原基层、工具和覆盖动作",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R11",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R11\\analysis.json",
+      "agent": "素材",
+      "rule": "旧新对比保存同户同位项目映射，握手仅标交流动作",
+      "example_time": "4.633-6.667；21.7-23.733",
+      "condition": "项目ID和人物关系可核查",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R11",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R11\\analysis.json",
+      "agent": "配音",
+      "rule": "无缝/微陶泥/耐磨等词先核听，原ASR严重误识段不直接作为配音稿",
+      "example_time": "9.56-10.82；18.76-19.6",
+      "condition": "音轨人听校验完成，字幕单独作为可见文本",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R11",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R11\\analysis.json",
+      "agent": "剪辑",
+      "rule": "同一字幕跨旧新两镜后再回人物，形成回顾→互动",
+      "example_time": "21.7-25.309",
+      "condition": "旧新可配对，精确切点与声音衔接经过实播",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R11",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R11\\analysis.json",
+      "agent": "审核",
+      "rule": "工期、金额、几十年寿命分别索证，演示与长期结论分开",
+      "example_time": "11.133-21.7",
+      "condition": "报价比较、完工时间和材料测试依据齐全",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R12",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\analysis.json",
+      "rule": "用旧瓷砖现场先定义问题，再插入材料包装把抽象工法落到可识别对象",
+      "agent": "分镜 Agent",
+      "example_time": "R12 0-6.833秒",
+      "condition": "已有真实旧房和产品包装素材",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R12",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\analysis.json",
+      "rule": "喷水画面只能支持短时水流演示，耐水、防霉、厚度分别要求证据",
+      "agent": "审核 Agent",
+      "example_time": "R12 10.75-12.583秒",
+      "condition": "出现性能类承诺",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R12",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\analysis.json",
+      "rule": "负面拆除插镜要标成方案对照，不能误编入当前不拆施工过程",
+      "agent": "剪辑 Agent",
+      "example_time": "R12 12.583-14.292秒",
+      "condition": "素材混有替代工法",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R12",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\analysis.json",
+      "rule": "人物摸成品后请求点赞适用于互动目标；预约目标需另写真实下一步",
+      "agent": "文案 Agent",
+      "example_time": "R12 17.083-20.432秒",
+      "condition": "当前目标是互动，不能把点赞视作线索转化",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R13",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R13\\analysis.json",
+      "rule": "用旧瓷砖现场先定义问题，再插入材料包装把抽象工法落到可识别对象",
+      "agent": "分镜 Agent",
+      "example_time": "R13 0-6.833秒",
+      "condition": "已有真实旧房和产品包装素材",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R13",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R13\\analysis.json",
+      "rule": "喷水画面只能支持短时水流演示，耐水、防霉、厚度分别要求证据",
+      "agent": "审核 Agent",
+      "example_time": "R13 10.75-12.583秒",
+      "condition": "出现性能类承诺",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R13",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R13\\analysis.json",
+      "rule": "负面拆除插镜要标成方案对照，不能误编入当前不拆施工过程",
+      "agent": "剪辑 Agent",
+      "example_time": "R13 12.583-14.292秒",
+      "condition": "素材混有替代工法",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R13",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R13\\analysis.json",
+      "rule": "人物摸成品后请求点赞适用于互动目标；预约目标需另写真实下一步",
+      "agent": "文案 Agent",
+      "example_time": "R13 17.083-20.432秒",
+      "condition": "当前目标是互动，不能把点赞视作线索转化",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R14",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R14\\analysis.json",
+      "rule": "搬料入户开头与上楼结尾能形成劳动主题闭环",
+      "agent": "分镜 Agent",
+      "example_time": "R14 0-1.083/16.75-18.459秒",
+      "condition": "有同团队搬料素材，身份真实",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R14",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R14\\analysis.json",
+      "rule": "同窗类形的旧新镜头只能作为呈现对照，源工程证明后才标同一空间",
+      "agent": "素材 Agent",
+      "example_time": "R14 14.792-16.75秒",
+      "condition": "原始工程身份尚未确认",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R14",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R14\\analysis.json",
+      "rule": "字幕的不拆工法遇到铺砖/拆墙镜头要强制核对是反例还是错配",
+      "agent": "审核 Agent",
+      "example_time": "R14 3.583-5/12.833-14.792秒",
+      "condition": "混剪包含其他施工方法",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R15",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R15\\analysis.json",
+      "rule": "工法文案先配抹墙和抹地两个动作，避免只给完成效果",
+      "agent": "分镜 Agent",
+      "example_time": "R15 1.708-3.875秒",
+      "condition": "有可追溯覆盖施工素材",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R15",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R15\\analysis.json",
+      "rule": "横画幅插入竖屏要有明确安全区规则，不能统一强制放大截去厨房信息",
+      "agent": "剪辑 Agent",
+      "example_time": "R15 3.875-5.708秒",
+      "condition": "素材比例混合",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R15",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R15\\analysis.json",
+      "rule": "同布局对照要保留原工程来源；多空间混剪须标示示意",
+      "agent": "素材 Agent",
+      "example_time": "R15 7.958-10.167秒",
+      "condition": "做前后效果案例",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R16",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R16\\analysis.json",
+      "rule": "从复杂曲面抹板到手部近景，可突出工法表现力，但先验证材料和工序一致",
+      "agent": "分镜 Agent",
+      "example_time": "R16 0.25-5.375秒",
+      "condition": "有同一工法来源的曲面素材",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R16",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R16\\analysis.json",
+      "rule": "搬纸箱不等于搬垃圾，抽象成本文案要求素材对象精确匹配",
+      "agent": "素材 Agent",
+      "example_time": "R16 12.458-13.75秒",
+      "condition": "文案涉及垃圾清运费用",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R16",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R16\\analysis.json",
+      "rule": "墙面打磨不能作为耐磨耐刮试验，性能用标准测试或明确示意",
+      "agent": "审核 Agent",
+      "example_time": "R16 18.708-19.75秒",
+      "condition": "出现耐磨性能声明",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R16",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R16\\analysis.json",
+      "rule": "费用和入住工期在配音前保留可核验参数，不能借鉴参考片数字",
+      "agent": "文案 Agent",
+      "example_time": "R16 13.75-17.417秒",
+      "condition": "新稿需要成本/交付承诺",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R17",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R17\\analysis.json",
+      "rule": "同镜头滚涂到刮平的工具动作让工法进展可见，可优先保留而非只截工人脸",
+      "agent": "剪辑 Agent",
+      "example_time": "R17 0.25-2.6秒",
+      "condition": "原素材确为同次施工动作",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R17",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R17\\analysis.json",
+      "rule": "功能文案用对应清洁/喷水画面，但短时演示不升级为长期性能证明",
+      "agent": "审核 Agent",
+      "example_time": "R17 11.367-13.967秒",
+      "condition": "出现耐水防霉/维护承诺",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R17",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R17\\analysis.json",
+      "rule": "拿样板结尾可以支持产品身份与互动，不能代替真实客户联系方式",
+      "agent": "分镜 Agent",
+      "example_time": "R17 17.8-19.504秒",
+      "condition": "需要人物收尾且有可追溯产品样板",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R18",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R18\\analysis.json",
+      "rule": "抽象工法句直接配旧砖被覆盖的边缘近景，比纯成品更能解释机制",
+      "agent": "分镜 Agent",
+      "example_time": "R18 7.25-11.417秒",
+      "condition": "有真实旧砖覆盖动作",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R18",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R18\\analysis.json",
+      "rule": "弯折、刮擦各保留测试对象和条件，不把演示结论扩张成耐久保证",
+      "agent": "审核 Agent",
+      "example_time": "R18 16-18.625秒",
+      "condition": "使用样板或现场性能演示",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R18",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R18\\analysis.json",
+      "rule": "环保主张需要产品检测凭证，施工桶画面不能作为化学检测依据",
+      "agent": "审核 Agent",
+      "example_time": "R18 18.625-20.417秒",
+      "condition": "涉及无甲醛无VOC",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R18",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R18\\analysis.json",
+      "rule": "需求结尾可指向真实本地服务人，城市/姓名/咨询路径由任务事实输入",
+      "agent": "文案 Agent",
+      "example_time": "R18 22.083-24.083秒",
+      "condition": "已核验当地服务人",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R19",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R19\\analysis.json",
+      "rule": "问句开头用一个清楚的工具动作抓注意，下一段要补真实服务场景",
+      "agent": "文案 Agent",
+      "example_time": "R19 0.25-3.875秒",
+      "condition": "工具动作与工法确实相关",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R19",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R19\\analysis.json",
+      "rule": "文案说旧工法费时费钱时，应选旧工法或费用证据，避免拿新工法操作作反例",
+      "agent": "素材 Agent",
+      "example_time": "R19 3.875-5.417秒",
+      "condition": "存在负担对照语义",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R19",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R19\\analysis.json",
+      "rule": "叠化可以连两个效果空间，但审核需保持它们是不同示意案例",
+      "agent": "剪辑 Agent",
+      "example_time": "R19 11.458-13.458秒",
+      "condition": "多案例完成效果混剪",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R20",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R20\\analysis.json",
+      "rule": "留资结尾把动作和关键词写清楚，再接真实可交付的服务利益",
+      "agent": "文案 Agent",
+      "example_time": "R20 19.958-23.753秒",
+      "condition": "评论和上门服务已确实接通",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R20",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R20\\analysis.json",
+      "rule": "污渍清洗用前后面积变化的同段动作展示，保留污渍类型/条件",
+      "agent": "剪辑 Agent",
+      "example_time": "R20 13.75-15.083秒",
+      "condition": "原素材含完整可核验清洗动作",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R20",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R20\\analysis.json",
+      "rule": "工法核心动作可比插镜更长，不要机械所有镜头压成一秒",
+      "agent": "剪辑 Agent",
+      "example_time": "R20 5-8.083秒",
+      "condition": "动作需完整展示且同期声音允许",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R20",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R20\\analysis.json",
+      "rule": "免费上门、服务人物、使用二十年分别建立审核证据字段",
+      "agent": "审核 Agent",
+      "example_time": "R20 16.833-23.753秒",
+      "condition": "涉及寿命或服务承诺",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R21",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R21\\analysis.json",
+      "rule": "同批参考共用素材要登记片段级重复，城市卡不同不等于素材不同",
+      "agent": "素材 Agent",
+      "example_time": "R21 0-3.875/10.208-12.208秒，参照R15相似段",
+      "condition": "做跨城分配和去重",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R21",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R21\\analysis.json",
+      "rule": "生活使用镜头可补成品价值，但材料名称优先配桶标/样板而非拖地",
+      "agent": "分镜 Agent",
+      "example_time": "R21 3.875-6.458秒",
+      "condition": "叙事需要材料身份和日常收益",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R21",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R21\\analysis.json",
+      "rule": "字幕工艺词和数字单位在配音前核验，原参考有错字也不能继承",
+      "agent": "配音 Agent",
+      "example_time": "R21 10.208-12.208秒",
+      "condition": "涉及批刮厚度/材料术语",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R22",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\analysis.json",
+      "rule": "旧楼外景与旧卫生间能把地域词落到住房情境，但地点身份必须由素材来源证明",
+      "agent": "素材 Agent",
+      "example_time": "R22 1.033-3.75秒",
+      "condition": "有已核验当地旧社区素材",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R22",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\analysis.json",
+      "rule": "负面拆除插镜用红叉或明白的对照字幕，防止被看成推荐施工",
+      "agent": "剪辑 Agent",
+      "example_time": "R22 12.767-13.633秒",
+      "condition": "出现拆除与覆盖方案对照",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R22",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\analysis.json",
+      "rule": "旧新切换先匹配窗/马桶/门位，再审核源工程身份，不仅凭观感确认",
+      "agent": "审核 Agent",
+      "example_time": "R22 2.667-4.633秒",
+      "condition": "输出真实案例前后对比",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R22",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\analysis.json",
+      "rule": "工期句的地面动作到结果切换可分开，让结果停留有可读性",
+      "agent": "分镜 Agent",
+      "example_time": "R22 8.067-10.467秒",
+      "condition": "有完整地面覆盖和可追溯完成效果",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R23",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R23\\analysis.json",
+      "agent": "文案",
+      "rule": "同城人设钩子要核对是否指向真实改造需求",
+      "example_time": "0-4",
+      "condition": "目标为业主有效线索，婚恋夸张话术须做目标匹配验证",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R23",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R23\\analysis.json",
+      "agent": "分镜",
+      "rule": "量房和报价两环节分别配可见测量动作、桌边方案沟通",
+      "example_time": "6.2-9.767",
+      "condition": "人物关系和服务真实性有依据，免费条件另列",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R23",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R23\\analysis.json",
+      "agent": "素材",
+      "rule": "旧厨房、旧浴室、新浴室、客厅保留不同项目标签",
+      "example_time": "10.733-15.367",
+      "condition": "没有同户映射时只作类别效果示意",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R23",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R23\\analysis.json",
+      "agent": "配音",
+      "rule": "量房与费用词先核听，原ASR粮房和万百块不作最终稿",
+      "example_time": "6.08-13.22",
+      "condition": "ASR与字幕差异独立记录，完成原轨试听",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R23",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R23\\analysis.json",
+      "agent": "剪辑",
+      "rule": "报价后快速呈现旧新，再接生活场景形成服务叙事",
+      "example_time": "8.3-18.567",
+      "condition": "真实结果配对且生活画面获授权，切点需实播",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R23",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R23\\analysis.json",
+      "agent": "审核",
+      "rule": "同行报价、环保与儿童安心入住各索其独立依据",
+      "example_time": "4-6.2；15.367-18.567",
+      "condition": "报价范围及检测/入住条件可追溯",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R24",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R24\\analysis.json",
+      "agent": "文案",
+      "rule": "同族预测框架可比较，城市、人名与工期必须按本案逐项核实",
+      "example_time": "0-7.333；9.583-13.083",
+      "condition": "不把北京张总7天与其他地区人名工期自动互换",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R24",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R24\\analysis.json",
+      "agent": "分镜",
+      "rule": "施工之外保留马桶安装与工具调整，交代交付流程",
+      "example_time": "9.583-13.083",
+      "condition": "确属该项目，且安装动作对用户理解有用",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R24",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R24\\analysis.json",
+      "agent": "素材",
+      "rule": "刮水器、触地动作只标有限操作，性能检测素材另寻",
+      "example_time": "13.083-15.875",
+      "condition": "需耐水、防霉和硬度的正式条件证据",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R24",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R24\\analysis.json",
+      "agent": "配音",
+      "rule": "预测长句可跨完整施工动作，先核对极简风等术语",
+      "example_time": "0-5.1；9.56-13.0",
+      "condition": "原轨核听完成，ASR急减缝不可直接发布",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R24",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R24\\analysis.json",
+      "agent": "剪辑",
+      "rule": "同一施工长镜头不因自动检测变化就切成独立镜头",
+      "example_time": "0.25-5.167",
+      "condition": "由连续播放和准确边界验证，避免照搬场景检测候选",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R24",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R24\\analysis.json",
+      "agent": "审核",
+      "rule": "最快7天、免拆费用、免买砖均限定工程范围",
+      "example_time": "9.583-17.708",
+      "condition": "施工计划、基层情况、材料清单和报价齐全",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R25",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\analysis.json",
+      "agent": "文案",
+      "rule": "一站式服务利益按保护、施工、材料、清洁逐项兑现表达",
+      "example_time": "8.833-14.467",
+      "condition": "真实服务清单和对应过程素材齐全",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R25",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\analysis.json",
+      "agent": "分镜",
+      "rule": "服务流程用不同动作承接，同句可跨扫地和装袋",
+      "example_time": "11.967-13.633",
+      "condition": "确有清洁服务，不把无关旧工地当当前项目",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R25",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\analysis.json",
+      "agent": "素材",
+      "rule": "旧新厨房要登记配对，补原始拍摄角度与项目ID",
+      "example_time": "6.9-8.833",
+      "condition": "没有同项目证明时标示意对照",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R25",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\analysis.json",
+      "agent": "配音",
+      "rule": "地名与服务词核听，ASR寒丹/绑水/全保/一战是不得直接继承",
+      "example_time": "0-19.14",
+      "condition": "原始音轨人工校对后再作为脚本",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R25",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\analysis.json",
+      "agent": "剪辑",
+      "rule": "极短施工镜头用候选中帧补查，但精确动作仍需实播",
+      "example_time": "13.633-14.467",
+      "condition": "0.5秒序列可能漏短镜，不按序列可见帧等同完整播放",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R25",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\analysis.json",
+      "agent": "审核",
+      "rule": "不拆不砸封面与铲顶、开槽、碎屑清理镜头说明工程范围",
+      "example_time": "0；5.833-6.9；9.833-10.633；11.967-13.633",
+      "condition": "局部旧层处理、水电开槽与主体免拆的范围可解释",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R26",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\analysis.json",
+      "agent": "文案",
+      "rule": "材料名、桶重、覆盖面积绑定成同一条需核实规格",
+      "example_time": "5.433-11.1",
+      "condition": "确认金刚泥产品型号、涂覆厚度、基层与耗损条件",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R26",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\analysis.json",
+      "agent": "分镜",
+      "rule": "墙面地面句要分别用对应施工部位，避免只用顶面镜头",
+      "example_time": "13.7-15.067",
+      "condition": "素材分类明确顶面/墙面/地面",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R26",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\analysis.json",
+      "agent": "素材",
+      "rule": "材料桶与取料动作核身份，防水抗冻另取测试素材",
+      "example_time": "7.567-12.567；16.7-17.733",
+      "condition": "品牌型号和测试条件有原始记录",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R26",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\analysis.json",
+      "agent": "配音",
+      "rule": "先核听“金刚泥、高强耐磨、直接刷”等词并核工艺用词",
+      "example_time": "5.28-7.52；12.4-13.6；17.62-18.68",
+      "condition": "不按ASR高墙错字或字幕语义自行断言操作",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R26",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\analysis.json",
+      "agent": "剪辑",
+      "rule": "长动作镜头内部的场景检测误合并要按工具和人物变化复核",
+      "example_time": "0.25-5.433",
+      "condition": "通过连续回放验证黄色工具→红色工具的精确切点",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R26",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\analysis.json",
+      "agent": "审核",
+      "rule": "成品客厅不能给防水抗冻盖证明，打磨施工不当耐磨检测",
+      "example_time": "16.7-18.733",
+      "condition": "确有对应性能原始测试才可发布新片",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R27",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R27\\analysis.json",
+      "agent": "ScriptAgent",
+      "rule": "城市只作为字幕定位，施工动作紧随地域钩子",
+      "example_time": "R27 0.00–3.50",
+      "condition": "有真实服务城市和合法素材定位",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R27",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R27\\analysis.json",
+      "agent": "ShotAgent",
+      "rule": "墙地工艺文案必须选对应部位素材",
+      "example_time": "R27 10.958–11.958",
+      "condition": "字幕写地板，素材不能只展示墙面",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R27",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R27\\analysis.json",
+      "agent": "ReviewAgent",
+      "rule": "短时喷淋不能充当长期防潮证明",
+      "example_time": "R27 12.917–14.875",
+      "condition": "出现回南天/防霉耐久主张",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R28",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R28\\analysis.json",
+      "agent": "ScriptAgent",
+      "rule": "反常识钩子必须标明夸张与未核行业判断",
+      "example_time": "R28 0.00–2.708",
+      "condition": "使用“师傅失业”等行业预测",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R28",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R28\\analysis.json",
+      "agent": "EditAgent",
+      "rule": "成品后插拆除过程形成费用对照",
+      "example_time": "R28 8.917–14.500",
+      "condition": "有真实对应报价才能给金额结论",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R28",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R28\\analysis.json",
+      "agent": "ReviewAgent",
+      "rule": "施工刮料不可作为成品耐刮测试",
+      "example_time": "R28 17.458–18.583",
+      "condition": "性能字幕与动作选择相配",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R29",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R29\\analysis.json",
+      "agent": "ScriptAgent",
+      "rule": "亲情故事中的身份、年龄和旅行情节须保留为参考声称",
+      "example_time": "R29 0.00–4.500",
+      "condition": "缺少客户故事授权与原始证据",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R29",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R29\\analysis.json",
+      "agent": "EditAgent",
+      "rule": "省心文案按保护→铲修→涂刷→清洁排列可见动作",
+      "example_time": "R29 13.533–21.000",
+      "condition": "素材确属对应服务步骤",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R29",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R29\\analysis.json",
+      "agent": "ReviewAgent",
+      "rule": "数字手势仅强化工期字幕，不是工期证明",
+      "example_time": "R29 4.500–6.067",
+      "condition": "片中出现三指与3天",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R30",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\analysis.json",
+      "agent": "ScriptAgent",
+      "rule": "人物夸张开头要检查性别代词与画面一致",
+      "example_time": "R30 0.00–1.700",
+      "condition": "字幕她而画面为男子",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R30",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\analysis.json",
+      "agent": "ReviewAgent",
+      "rule": "模糊现金意象不能充当竞品报价证据",
+      "example_time": "R30 3.800–6.067",
+      "condition": "有竞争报价比较",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R30",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\analysis.json",
+      "agent": "ShotAgent",
+      "rule": "儿童生活镜只作场景，不替代环保材料检测",
+      "example_time": "R30 16.833–18.567",
+      "condition": "涉及儿童可入住/环保声称",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R31",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R31\\analysis.json",
+      "agent": "ReviewAgent",
+      "rule": "不拆不砸标题遇可见敲拆须说明部位与项目范围",
+      "example_time": "R31 4.767–6.200",
+      "condition": "标题整体承诺与局部拆除混剪",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R31",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R31\\analysis.json",
+      "agent": "EditAgent",
+      "rule": "旧空间转亮堂结果应补记自动漏检切换",
+      "example_time": "R31 9.4–9.5",
+      "condition": "同候选里有旧房和卧室",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R31",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R31\\analysis.json",
+      "agent": "ScriptAgent",
+      "rule": "保留字幕阿明与制服新材联的不同层级",
+      "example_time": "R31 6.200–7.533",
+      "condition": "姓名/团队品牌并存",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R32",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\analysis.json",
+      "agent": "EditAgent",
+      "rule": "遮罩前后对照需标记为编辑关联",
+      "example_time": "R32 3.7–3.9",
+      "condition": "无同户原始工程记录",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R32",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\analysis.json",
+      "agent": "ReviewAgent",
+      "rule": "手摸与刮水动作不能验证防霉或硬度",
+      "example_time": "R32 10.467–12.767",
+      "condition": "以性能字幕配生活/触摸镜头",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R32",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\analysis.json",
+      "agent": "ScriptAgent",
+      "rule": "家家户户与未来期限是参考预测而非事实",
+      "example_time": "R32 0.00–2.667",
+      "condition": "趋势类钩子",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R33",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R33\\analysis.json",
+      "agent": "ReviewAgent",
+      "rule": "尾段代表帧前移必须单独核真实尾帧",
+      "example_time": "R33 23.917–24.008",
+      "condition": "短尾候选无按原时刻代表帧",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R33",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R33\\analysis.json",
+      "agent": "EditAgent",
+      "rule": "省心服务在四步流程后增加搬移家具动作",
+      "example_time": "R33 13.250–21.458",
+      "condition": "有真实保护、修墙、涂刷、清洁、移物素材",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R33",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R33\\analysis.json",
+      "agent": "ScriptAgent",
+      "rule": "亲情同模板不同城市姓名保留为不同参考叙事",
+      "example_time": "R33 0.00–1.667",
+      "condition": "与其他阿姨故事同族",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R34",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R34\\analysis.json",
+      "agent": "ScriptAgent",
+      "rule": "地域定位文字与ASR地名须分别记录",
+      "example_time": "R34 0.00–3.533",
+      "condition": "澧县字幕/李县机识冲突",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R34",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R34\\analysis.json",
+      "agent": "EditAgent",
+      "rule": "服务CTA按点赞→免费量房→方案报价依次落镜",
+      "example_time": "R34 16.667–20.804",
+      "condition": "真实服务政策与可兑现范围",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R34",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R34\\analysis.json",
+      "agent": "ReviewAgent",
+      "rule": "3天与当天可用必须标清不同时间定义",
+      "example_time": "R34 6.700–8.800;14.833–16.667",
+      "condition": "总工期/完成后可用并存",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R35",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R35\\analysis.json",
+      "agent": "ReviewAgent",
+      "rule": "不用搬家的字幕避免直接配搬箱车辆镜头",
+      "example_time": "R35 8.833–9.367",
+      "condition": "没有箱子搬运用途解释",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R35",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R35\\analysis.json",
+      "agent": "ScriptAgent",
+      "rule": "免费量房/方案/报价按实际字幕逐项记录",
+      "example_time": "R35 17.567–19.202",
+      "condition": "同系列结尾服务项不同",
+      "evidence_level": "inference"
+    },
+    {
+      "reference_id": "R35",
+      "source_analysis": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R35\\analysis.json",
+      "agent": "ShotAgent",
+      "rule": "即用场景选真实使用动作并保留使用条件缺口",
+      "example_time": "R35 14.500–16.167",
+      "condition": "儿童入镜及当天可用声称",
+      "evidence_level": "inference"
+    }
+  ]
+}

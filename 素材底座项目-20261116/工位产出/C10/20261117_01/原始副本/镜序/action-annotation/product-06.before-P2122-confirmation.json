@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "created": "2026-11-13",
+  "purpose": "施工动作人工标注口径确认；不是训练完成，不是正式选片",
+  "rows": [
+    {
+      "sample_id": "P21",
+      "category": "产品核实",
+      "query": "是否属于基面批刮？材料是否微陶泥，若不是请说明材料名称或保留未知。",
+      "source": {
+        "id": "012256615ba2d3dab89090356da2d6b1",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\10材料\\1.微岩石\\拍摄\\金银湖别墅无机水洗石\\03326_地面_批刮施工.MOV",
+        "rel": "10材料/1.微岩石/拍摄/金银湖别墅无机水洗石/03326_地面_批刮施工.MOV",
+        "root": "baba",
+        "name": "03326_地面_批刮施工.MOV",
+        "start": 2,
+        "end": 5
+      },
+      "project_guess": "来源项目未知（分类库）",
+      "project_confirmed": false,
+      "suggested_label": "待确认",
+      "suggestion_reason": "产品身份与施工动作分别确认，不凭目录名或服装确认",
+      "confirmed_label": null,
+      "status": "待人工确认",
+      "clip": "clips/P21.mp4",
+      "clip_sha256": "3d0bf507480234dfc6180e0fa9425dda3c951da429a6e0048b50d0cc37f53872",
+      "duration": 3.0,
+      "benchmark_eligible": false,
+      "split": "口径确认集，禁止进入盲测",
+      "product_identity": "未核验",
+      "quality_note": "待用户核查画面与动作",
+      "apply_to_directory": false,
+      "label_scope": "仅所列来源时间段",
+      "review_note": "四时间点抽帧检查工具接触基面与移动；材料身份和动作标签待用户确认；分类库来源项目仅为目录线索"
+    },
+    {
+      "sample_id": "P22",
+      "category": "产品核实",
+      "query": "是否属于基面批刮？材料是否微陶泥，若不是请说明材料名称或保留未知。",
+      "source": {
+        "id": "1eef32fcc1c895a6931e9d51d03ba28d",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\10材料\\1.微岩石\\拍摄\\f天下外墙\\02009_墙面_批刮施工.MOV",
+        "rel": "10材料/1.微岩石/拍摄/f天下外墙/02009_墙面_批刮施工.MOV",
+        "root": "baba",
+        "name": "02009_墙面_批刮施工.MOV",
+        "start": 2,
+        "end": 5
+      },
+      "project_guess": "来源项目未知（分类库）",
+      "project_confirmed": false,
+      "suggested_label": "待确认",
+      "suggestion_reason": "产品身份与施工动作分别确认，不凭目录名或服装确认",
+      "confirmed_label": null,
+      "status": "待人工确认",
+      "clip": "clips/P22.mp4",
+      "clip_sha256": "9eddbe0ec430579b1c7de09e93b4d5c801a74615588e7049a7492521fab3be37",
+      "duration": 3.0,
+      "benchmark_eligible": false,
+      "split": "口径确认集，禁止进入盲测",
+      "product_identity": "未核验",
+      "quality_note": "待用户核查画面与动作",
+      "apply_to_directory": false,
+      "label_scope": "仅所列来源时间段",
+      "review_note": "四时间点抽帧检查工具接触基面与移动；材料身份和动作标签待用户确认；分类库来源项目仅为目录线索"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "rows": [
+    {
+      "id": "110f06fdc95419b66ebd79ca43ea1b08",
+      "name": "20568_人物_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "二印小区厨卫/人物出镜/20568_人物_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\二印小区厨卫\\人物出镜\\20568_人物_小区场景.MOV",
+      "duration": 33.145,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\110f06fdc95419b66ebd79ca43ea1b08.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "ccdb51ab3e8100c69ab96a0b5ee94848",
+      "name": "IMG_2801.MOV",
+      "root": "xiaoq",
+      "rel": "1新的未分类/SKP沙湖公寓/上门/IMG_2801.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\1新的未分类\\SKP沙湖公寓\\上门\\IMG_2801.MOV",
+      "duration": 28.673333,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\ccdb51ab3e8100c69ab96a0b5ee94848.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    }
+  ],
+  "errors": []
+}

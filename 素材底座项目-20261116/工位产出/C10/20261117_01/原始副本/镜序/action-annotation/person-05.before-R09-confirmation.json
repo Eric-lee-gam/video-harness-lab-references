@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "created": "2026-11-13",
+  "purpose": "正面单人身份对照候选；等待用户确认，不训练",
+  "rows": [
+    {
+      "sample_id": "R09",
+      "category": "人物核实",
+      "query": "请用户确认画面主体是否阿明；其他人物或看不清保持待核实",
+      "source": {
+        "id": "28e1f1da6707350efc9a7a67776984ea",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\汉阳月印府(6.7全屋)\\美女人设\\21951_人物_小区场景.MOV",
+        "rel": "汉阳月印府(6.7全屋)/美女人设/21951_人物_小区场景.MOV",
+        "root": "xiaoq",
+        "name": "21951_人物_小区场景.MOV",
+        "start": 2,
+        "end": 6
+      },
+      "project_guess": "汉阳月印府(6.7全屋)",
+      "project_confirmed": false,
+      "suggested_label": "待确认",
+      "suggestion_reason": "身份必须由用户逐段确认，不凭服装或目录自动推定",
+      "confirmed_label": null,
+      "status": "人物身份待用户确认",
+      "clip": "clips/R09.mp4",
+      "clip_sha256": "b1188b0e1fa6a6c268a11be632ee9238e3127a31fb1bb95d6275f4e5b5b73e66",
+      "duration": 4.0,
+      "benchmark_eligible": false,
+      "split": "口径确认集，禁止进入盲测",
+      "product_identity": "未核验",
+      "quality_note": "单人正面，三个时间点脸部清楚；完整解码通过",
+      "person_identity": null,
+      "person_targets": [
+        {
+          "description": "室内戴眼镜、浅色上衣的正面讲述者",
+          "identity": null
+        }
+      ],
+      "apply_to_directory": false,
+      "label_scope": "仅所列片段中的指定人物",
+      "review_note": "满足单人正面画面要求，身份及当前文案用途仍待用户确认，不推断姓名或职业"
+    }
+  ]
+}

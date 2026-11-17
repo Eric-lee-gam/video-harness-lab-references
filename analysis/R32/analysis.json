@@ -1,0 +1,1165 @@
+{
+  "id": "R32",
+  "source_name": "625570103.mov",
+  "duration": 17.437,
+  "status": "completed_with_gaps",
+  "coverage": {
+    "visual_sampling_interval_seconds": 0.5,
+    "visual_reviewed": true,
+    "audio_asr": true,
+    "human_full_listening": false,
+    "full_playback": false
+  },
+  "summary": "西安阿明以再过3个月家家户户预测开场，旧卫生间滑动揭示成品；批刮与3天、免清瓷砖缝及耐水防霉硬度声称，结尾免费小爱心。",
+  "opening": {
+    "start": 0,
+    "end": 1.033,
+    "observation": "保护胶带包裹管线前滚涂顶面，首帧叠城市卡",
+    "inference": "地域趋势钩子"
+  },
+  "ending": {
+    "start": 15.867,
+    "end": 17.437,
+    "observation": "黑衣男在卫生间门口面对镜头手势",
+    "inference": "收口"
+  },
+  "shots": [
+    {
+      "index": 1,
+      "start": 0,
+      "end": 1.033,
+      "observation": "保护胶带包裹管线前滚涂顶面，首帧叠城市卡",
+      "visible_text": "西安；西安微陶泥翻新；瓷砖不拆不砸换新家；极简风；再过3个月",
+      "script_relation": "动作可见，3个月为预测期限",
+      "purpose": "地域趋势钩子",
+      "cut": "候选切点1.033秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0001.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0002.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0003.jpg"
+      ]
+    },
+    {
+      "index": 2,
+      "start": 1.033,
+      "end": 2.667,
+      "observation": "手指向老小区多层楼，停车与外机",
+      "visible_text": "你会发现西安家家户户",
+      "script_relation": "外景不能证明家家户户趋势",
+      "purpose": "扩大地域指向",
+      "cut": "候选切点2.667秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0004.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0005.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0006.jpg"
+      ]
+    },
+    {
+      "index": 3,
+      "start": 2.667,
+      "end": 3.8,
+      "observation": "旧卫生间台盆、坐便器、杂物与小砖地面",
+      "visible_text": "卫生间翻新都不会再砸瓷砖了",
+      "script_relation": "旧空间用于对照，行业预测未核",
+      "purpose": "旧态铺垫",
+      "cut": "候选切点3.8秒；人工补漏，精度限0.5秒采样区间",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0007.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0008.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R32-3.700.png"
+      ]
+    },
+    {
+      "index": 4,
+      "start": 3.8,
+      "end": 4.633,
+      "observation": "左右滑动遮罩从旧厕所揭示浅色淋浴空间",
+      "visible_text": "卫生间翻新都不会再砸瓷砖了",
+      "script_relation": "补帧3.7为混合过渡、3.9为成品；并非连续装修实录",
+      "purpose": "旧新视觉对照",
+      "cut": "候选切点4.633秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0009.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0010.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R32-3.900.png"
+      ]
+    },
+    {
+      "index": 5,
+      "start": 4.633,
+      "end": 6.267,
+      "observation": "紫马甲男子蹲在旧卫生间粉色坐便器旁，手持手机",
+      "visible_text": "都在找西安阿明做卫生间",
+      "script_relation": "字幕西安阿明可见，未核实际人物身份",
+      "purpose": "人设引入",
+      "cut": "候选切点6.267秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0011.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0012.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0013.jpg"
+      ]
+    },
+    {
+      "index": 6,
+      "start": 6.267,
+      "end": 8.067,
+      "observation": "紫马甲工人把白料刮到墙面砖基面，桶置下方",
+      "visible_text": "不拆不砸；微陶泥翻新工艺",
+      "script_relation": "覆盖操作相符，底层方案范围未核",
+      "purpose": "墙面工序",
+      "cut": "候选切点8.067秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0014.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0016.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0017.jpg"
+      ]
+    },
+    {
+      "index": 7,
+      "start": 8.067,
+      "end": 9.2,
+      "observation": "手用抹刀覆盖旧砖格地面白料",
+      "visible_text": "3天时间就能打造",
+      "script_relation": "地面工序可见，不能核3天",
+      "purpose": "工期声称配动作",
+      "cut": "候选切点9.2秒；人工补漏，精度限0.5秒采样区间",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0018.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0019.jpg"
+      ]
+    },
+    {
+      "index": 8,
+      "start": 9.2,
+      "end": 10.467,
+      "observation": "完成浅色浴室，台盆、坐便器、窗、浴巾架与灯带",
+      "visible_text": "一个极简风卫生间",
+      "script_relation": "完成空间风格可见，无同户映射",
+      "purpose": "结果揭示",
+      "cut": "候选切点10.467秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0020.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0021.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R32-9.250.png",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R32-9.400.png"
+      ]
+    },
+    {
+      "index": 9,
+      "start": 10.467,
+      "end": 11.5,
+      "observation": "粉色刮水工具清理浅地面，地漏两处",
+      "visible_text": "不用打扫瓷砖缝",
+      "script_relation": "可见刮水动作，画面仍需打理，不能解释成免清洁",
+      "purpose": "使用便利",
+      "cut": "候选切点11.5秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0022.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0023.jpg"
+      ]
+    },
+    {
+      "index": 10,
+      "start": 11.5,
+      "end": 12.767,
+      "observation": "紫马甲男在淋浴地面跪下用手擦摸",
+      "visible_text": "耐水防霉硬度高",
+      "script_relation": "触摸不证明防霉或硬度检测",
+      "purpose": "性能声称",
+      "cut": "候选切点12.767秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0024.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0025.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0026.jpg"
+      ]
+    },
+    {
+      "index": 11,
+      "start": 12.767,
+      "end": 13.633,
+      "observation": "戴红帽工人在碎砖现场用电动工具敲墙，叠红叉",
+      "visible_text": "省了拆砸费",
+      "script_relation": "否定拆砸视觉相符，但费用需具体报价",
+      "purpose": "成本对照",
+      "cut": "候选切点13.633秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0027.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0028.jpg"
+      ]
+    },
+    {
+      "index": 12,
+      "start": 13.633,
+      "end": 14.467,
+      "observation": "墙面暗底被白料刮盖近景",
+      "visible_text": "还不用买瓷砖",
+      "script_relation": "批刮动作支持方案意象，不证采购费用",
+      "purpose": "覆盖工艺补镜",
+      "cut": "候选切点14.467秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0029.jpg"
+      ]
+    },
+    {
+      "index": 13,
+      "start": 14.467,
+      "end": 15.867,
+      "observation": "浅色完成餐区，圆桌黑椅和柜体、窗帘",
+      "visible_text": "如果你也喜欢这种工艺",
+      "script_relation": "成品空间从浴室跳到餐区，不连续漫游",
+      "purpose": "转邀请",
+      "cut": "候选切点15.867秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0030.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0031.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0032.jpg"
+      ]
+    },
+    {
+      "index": 14,
+      "start": 15.867,
+      "end": 17.437,
+      "observation": "黑衣男在卫生间门口面对镜头手势",
+      "visible_text": "请帮我点个免费的小爱心",
+      "script_relation": "点赞明确，无咨询表单",
+      "purpose": "收口",
+      "cut": "候选切点17.437秒；未逐帧核验，镜内变化可能形成伪切点",
+      "continuity": "独立镜头语义承接；未用连续播放验证动作连续性或同户空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0033.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0034.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\timeline\\frame_0035.jpg"
+      ]
+    }
+  ],
+  "structure": "趋势3个月→西安旧楼→旧厕滑动成品→阿明→墙地覆盖3天→成品→刮水/触摸→红叉拆砸/省砖→餐区→人物点赞。按检测候选加3.8/9.2两个漏分，滑动过渡不是同户验证。",
+  "comparison": {
+    "observation": "旧厕到成品用遮罩转场制造前后感；卫浴窗、布局和基面不具可核同户映射，不确认真实前后。",
+    "verified_same_space": false,
+    "uncertainty": "未取得原始同户项目映射；成品与施工画面不能证明同一空间或施工周期。"
+  },
+  "sound": {
+    "asr_path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\asr.json",
+    "observation": null,
+    "uncertainty": "本地机器识别，未人工全轨试听；声音类别、曲名、BPM及声画卡点未经听辨，不作结论。",
+    "asr_caption_discrepancies": [
+      "ASR阿民/圍桃泥/防煤，字幕阿明/微陶泥/防霉；音轨未试听。",
+      "ASR不用打掃瓷磚，字幕不用打扫瓷砖缝，末字差异保留。"
+    ],
+    "machine_alignment_evidence": [
+      {
+        "candidate_cut": 1.033,
+        "segment_start": 0.82,
+        "segment_end": 2.62,
+        "raw_asr_text": "你會發現西安家家戶戶"
+      },
+      {
+        "candidate_cut": 2.667,
+        "segment_start": 2.62,
+        "segment_end": 4.54,
+        "raw_asr_text": "衛生間翻新都不會再砸瓷磚了"
+      },
+      {
+        "candidate_cut": 3.8,
+        "segment_start": 2.62,
+        "segment_end": 4.54,
+        "raw_asr_text": "衛生間翻新都不會再砸瓷磚了"
+      },
+      {
+        "candidate_cut": 4.633,
+        "segment_start": 4.54,
+        "segment_end": 6.12,
+        "raw_asr_text": "都在找西安阿民做衛生間"
+      },
+      {
+        "candidate_cut": 6.267,
+        "segment_start": 6.12,
+        "segment_end": 8.0,
+        "raw_asr_text": "不拆不砸圍桃泥翻新工藝"
+      },
+      {
+        "candidate_cut": 8.067,
+        "segment_start": 8.0,
+        "segment_end": 10.36,
+        "raw_asr_text": "三天時間就能打造一個極簡風衛生間"
+      },
+      {
+        "candidate_cut": 9.2,
+        "segment_start": 8.0,
+        "segment_end": 10.36,
+        "raw_asr_text": "三天時間就能打造一個極簡風衛生間"
+      },
+      {
+        "candidate_cut": 10.467,
+        "segment_start": 10.36,
+        "segment_end": 11.26,
+        "raw_asr_text": "不用打掃瓷磚"
+      },
+      {
+        "candidate_cut": 11.5,
+        "segment_start": 11.26,
+        "segment_end": 12.62,
+        "raw_asr_text": "耐水防煤硬度高"
+      },
+      {
+        "candidate_cut": 12.767,
+        "segment_start": 12.62,
+        "segment_end": 13.52,
+        "raw_asr_text": "省了拆砸費"
+      },
+      {
+        "candidate_cut": 13.633,
+        "segment_start": 13.52,
+        "segment_end": 14.38,
+        "raw_asr_text": "還不用買瓷磚"
+      },
+      {
+        "candidate_cut": 14.467,
+        "segment_start": 14.38,
+        "segment_end": 15.8,
+        "raw_asr_text": "如果你也喜歡這種工藝"
+      },
+      {
+        "candidate_cut": 15.867,
+        "segment_start": 15.8,
+        "segment_end": 17.26,
+        "raw_asr_text": "請幫我點個免費的小愛心"
+      }
+    ],
+    "alignment_note": "只比较机器ASR句段与候选画面切点的时间重合，不证明无停顿、声音桥接自然、节拍卡点或音效同步。"
+  },
+  "applicability": [
+    "同城旧房翻新工艺介绍；仅借鉴叙事与取景，不照搬未核实的性能、报价或工期"
+  ],
+  "uncertainties": [
+    "机器ASR有材料名、地名和同音字误识；保留原文，可见字幕另记，不把字幕当听到的声音。",
+    "0.5秒采样可能遗漏短镜头、动作和字幕；切点为候选或约值，非全片实播逐帧审核。",
+    "价格、工期、性能和占比仅为参考片表达，未核实业务适用性。",
+    "无平台原始效果数据，不能证明这些特征导致爆款。",
+    "补帧使用select>=请求时刻的第一源帧；请求时间不是逐帧测定切点。"
+  ],
+  "rule_candidates": [
+    {
+      "agent": "EditAgent",
+      "rule": "遮罩前后对照需标记为编辑关联",
+      "example_time": "R32 3.7–3.9",
+      "condition": "无同户原始工程记录",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "ReviewAgent",
+      "rule": "手摸与刮水动作不能验证防霉或硬度",
+      "example_time": "R32 10.467–12.767",
+      "condition": "以性能字幕配生活/触摸镜头",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "ScriptAgent",
+      "rule": "家家户户与未来期限是参考预测而非事实",
+      "example_time": "R32 0.00–2.667",
+      "condition": "趋势类钩子",
+      "evidence_level": "inference"
+    }
+  ],
+  "visual_review_receipt": {
+    "all_contact_pages_reviewed": [
+      "contacts-01.jpg",
+      "contacts-02.jpg",
+      "contacts-03.jpg"
+    ],
+    "shots_contact_reviewed": true,
+    "continuous_playback_verified": false
+  },
+  "supplemental_visual_evidence": [
+    {
+      "id": "R32",
+      "requested_time": 3.7,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R32-3.700.png",
+      "exists": true,
+      "note": "select选择>=请求时间的第一解码帧；边界仍为近似"
+    },
+    {
+      "id": "R32",
+      "requested_time": 3.9,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R32-3.900.png",
+      "exists": true,
+      "note": "select选择>=请求时间的第一解码帧；边界仍为近似"
+    },
+    {
+      "id": "R32",
+      "requested_time": 9.25,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R32-9.250.png",
+      "exists": true,
+      "note": "select选择>=请求时间的第一解码帧；边界仍为近似"
+    },
+    {
+      "id": "R32",
+      "requested_time": 9.4,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\new-visual-supplement\\R32-9.400.png",
+      "exists": true,
+      "note": "select选择>=请求时间的第一解码帧；边界仍为近似"
+    }
+  ],
+  "asr_segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 0.82,
+      "text": "再過三個月",
+      "avg_logprob": -0.12800714727491141,
+      "no_speech_prob": 0.5548160076141357,
+      "compression_ratio": 1.3373493975903614,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.22,
+          "word": "再",
+          "probability": 0.8898242115974426
+        },
+        {
+          "start": 0.22,
+          "end": 0.4,
+          "word": "過",
+          "probability": 0.6070876717567444
+        },
+        {
+          "start": 0.4,
+          "end": 0.58,
+          "word": "三",
+          "probability": 0.9221940636634827
+        },
+        {
+          "start": 0.58,
+          "end": 0.68,
+          "word": "個",
+          "probability": 0.996825098991394
+        },
+        {
+          "start": 0.68,
+          "end": 0.82,
+          "word": "月",
+          "probability": 0.9992808699607849
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 0.82,
+      "end": 2.62,
+      "text": "你會發現西安家家戶戶",
+      "avg_logprob": -0.12800714727491141,
+      "no_speech_prob": 0.5548160076141357,
+      "compression_ratio": 1.3373493975903614,
+      "words": [
+        {
+          "start": 0.82,
+          "end": 1.12,
+          "word": "你",
+          "probability": 0.7562434673309326
+        },
+        {
+          "start": 1.12,
+          "end": 1.24,
+          "word": "會",
+          "probability": 0.9974459409713745
+        },
+        {
+          "start": 1.24,
+          "end": 1.46,
+          "word": "發現",
+          "probability": 0.9958141446113586
+        },
+        {
+          "start": 1.46,
+          "end": 1.7,
+          "word": "西",
+          "probability": 0.9308043718338013
+        },
+        {
+          "start": 1.7,
+          "end": 1.8,
+          "word": "安",
+          "probability": 0.9900626540184021
+        },
+        {
+          "start": 1.8,
+          "end": 2.0,
+          "word": "家",
+          "probability": 0.9292145371437073
+        },
+        {
+          "start": 2.0,
+          "end": 2.18,
+          "word": "家",
+          "probability": 0.9915378093719482
+        },
+        {
+          "start": 2.18,
+          "end": 2.38,
+          "word": "戶",
+          "probability": 0.9800401329994202
+        },
+        {
+          "start": 2.38,
+          "end": 2.62,
+          "word": "戶",
+          "probability": 0.995455265045166
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 2.62,
+      "end": 4.54,
+      "text": "衛生間翻新都不會再砸瓷磚了",
+      "avg_logprob": -0.12800714727491141,
+      "no_speech_prob": 0.5548160076141357,
+      "compression_ratio": 1.3373493975903614,
+      "words": [
+        {
+          "start": 2.62,
+          "end": 2.78,
+          "word": "衛",
+          "probability": 0.9719098508358002
+        },
+        {
+          "start": 2.78,
+          "end": 2.92,
+          "word": "生",
+          "probability": 0.9939622282981873
+        },
+        {
+          "start": 2.92,
+          "end": 3.06,
+          "word": "間",
+          "probability": 0.95973140001297
+        },
+        {
+          "start": 3.06,
+          "end": 3.26,
+          "word": "翻",
+          "probability": 0.804728090763092
+        },
+        {
+          "start": 3.26,
+          "end": 3.44,
+          "word": "新",
+          "probability": 0.9282993674278259
+        },
+        {
+          "start": 3.44,
+          "end": 3.58,
+          "word": "都",
+          "probability": 0.9909718036651611
+        },
+        {
+          "start": 3.58,
+          "end": 3.86,
+          "word": "不會",
+          "probability": 0.977172315120697
+        },
+        {
+          "start": 3.86,
+          "end": 4.02,
+          "word": "再",
+          "probability": 0.9070311784744263
+        },
+        {
+          "start": 4.02,
+          "end": 4.18,
+          "word": "砸",
+          "probability": 0.9609586298465729
+        },
+        {
+          "start": 4.18,
+          "end": 4.28,
+          "word": "瓷",
+          "probability": 0.7782662312189738
+        },
+        {
+          "start": 4.28,
+          "end": 4.4,
+          "word": "磚",
+          "probability": 0.8759496013323466
+        },
+        {
+          "start": 4.4,
+          "end": 4.54,
+          "word": "了",
+          "probability": 0.9409320950508118
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 4.54,
+      "end": 6.12,
+      "text": "都在找西安阿民做衛生間",
+      "avg_logprob": -0.12800714727491141,
+      "no_speech_prob": 0.5548160076141357,
+      "compression_ratio": 1.3373493975903614,
+      "words": [
+        {
+          "start": 4.54,
+          "end": 4.72,
+          "word": "都",
+          "probability": 0.9832815527915955
+        },
+        {
+          "start": 4.72,
+          "end": 4.88,
+          "word": "在",
+          "probability": 0.9850026965141296
+        },
+        {
+          "start": 4.88,
+          "end": 5.02,
+          "word": "找",
+          "probability": 0.9980327486991882
+        },
+        {
+          "start": 5.02,
+          "end": 5.26,
+          "word": "西",
+          "probability": 0.9628627896308899
+        },
+        {
+          "start": 5.26,
+          "end": 5.36,
+          "word": "安",
+          "probability": 0.9982309937477112
+        },
+        {
+          "start": 5.36,
+          "end": 5.5,
+          "word": "阿",
+          "probability": 0.921658456325531
+        },
+        {
+          "start": 5.5,
+          "end": 5.62,
+          "word": "民",
+          "probability": 0.6217145323753357
+        },
+        {
+          "start": 5.62,
+          "end": 5.76,
+          "word": "做",
+          "probability": 0.5770054459571838
+        },
+        {
+          "start": 5.76,
+          "end": 5.86,
+          "word": "衛",
+          "probability": 0.9947739541530609
+        },
+        {
+          "start": 5.86,
+          "end": 5.98,
+          "word": "生",
+          "probability": 0.9993751645088196
+        },
+        {
+          "start": 5.98,
+          "end": 6.12,
+          "word": "間",
+          "probability": 0.6419160962104797
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 6.12,
+      "end": 8.0,
+      "text": "不拆不砸圍桃泥翻新工藝",
+      "avg_logprob": -0.12800714727491141,
+      "no_speech_prob": 0.5548160076141357,
+      "compression_ratio": 1.3373493975903614,
+      "words": [
+        {
+          "start": 6.12,
+          "end": 6.38,
+          "word": "不",
+          "probability": 0.9801874756813049
+        },
+        {
+          "start": 6.38,
+          "end": 6.56,
+          "word": "拆",
+          "probability": 0.9907803237438202
+        },
+        {
+          "start": 6.56,
+          "end": 6.74,
+          "word": "不",
+          "probability": 0.901758074760437
+        },
+        {
+          "start": 6.74,
+          "end": 6.88,
+          "word": "砸",
+          "probability": 0.9866147339344025
+        },
+        {
+          "start": 6.88,
+          "end": 7.06,
+          "word": "圍",
+          "probability": 0.6777469217777252
+        },
+        {
+          "start": 7.06,
+          "end": 7.24,
+          "word": "桃",
+          "probability": 0.851091593503952
+        },
+        {
+          "start": 7.24,
+          "end": 7.38,
+          "word": "泥",
+          "probability": 0.9402113556861877
+        },
+        {
+          "start": 7.38,
+          "end": 7.52,
+          "word": "翻",
+          "probability": 0.9132362008094788
+        },
+        {
+          "start": 7.52,
+          "end": 7.68,
+          "word": "新",
+          "probability": 0.997127115726471
+        },
+        {
+          "start": 7.68,
+          "end": 7.82,
+          "word": "工",
+          "probability": 0.8414892554283142
+        },
+        {
+          "start": 7.82,
+          "end": 8.0,
+          "word": "藝",
+          "probability": 0.9887950718402863
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 8.0,
+      "end": 10.36,
+      "text": "三天時間就能打造一個極簡風衛生間",
+      "avg_logprob": -0.12800714727491141,
+      "no_speech_prob": 0.5548160076141357,
+      "compression_ratio": 1.3373493975903614,
+      "words": [
+        {
+          "start": 8.0,
+          "end": 8.24,
+          "word": "三",
+          "probability": 0.977521538734436
+        },
+        {
+          "start": 8.24,
+          "end": 8.38,
+          "word": "天",
+          "probability": 0.9990063309669495
+        },
+        {
+          "start": 8.38,
+          "end": 8.6,
+          "word": "時間",
+          "probability": 0.9870501756668091
+        },
+        {
+          "start": 8.6,
+          "end": 8.8,
+          "word": "就",
+          "probability": 0.9889878630638123
+        },
+        {
+          "start": 8.8,
+          "end": 8.92,
+          "word": "能",
+          "probability": 0.9987412095069885
+        },
+        {
+          "start": 8.92,
+          "end": 9.08,
+          "word": "打",
+          "probability": 0.9952955842018127
+        },
+        {
+          "start": 9.08,
+          "end": 9.22,
+          "word": "造",
+          "probability": 0.9938660264015198
+        },
+        {
+          "start": 9.22,
+          "end": 9.4,
+          "word": "一個",
+          "probability": 0.9884006977081299
+        },
+        {
+          "start": 9.4,
+          "end": 9.62,
+          "word": "極",
+          "probability": 0.9029480814933777
+        },
+        {
+          "start": 9.62,
+          "end": 9.78,
+          "word": "簡",
+          "probability": 0.8563184142112732
+        },
+        {
+          "start": 9.78,
+          "end": 9.92,
+          "word": "風",
+          "probability": 0.9021983742713928
+        },
+        {
+          "start": 9.92,
+          "end": 10.06,
+          "word": "衛",
+          "probability": 0.9831126034259796
+        },
+        {
+          "start": 10.06,
+          "end": 10.18,
+          "word": "生",
+          "probability": 0.9833908081054688
+        },
+        {
+          "start": 10.18,
+          "end": 10.36,
+          "word": "間",
+          "probability": 0.8244248032569885
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 10.36,
+      "end": 11.26,
+      "text": "不用打掃瓷磚",
+      "avg_logprob": -0.12800714727491141,
+      "no_speech_prob": 0.5548160076141357,
+      "compression_ratio": 1.3373493975903614,
+      "words": [
+        {
+          "start": 10.36,
+          "end": 10.58,
+          "word": "不用",
+          "probability": 0.9790146946907043
+        },
+        {
+          "start": 10.58,
+          "end": 10.82,
+          "word": "打",
+          "probability": 0.9930182695388794
+        },
+        {
+          "start": 10.82,
+          "end": 10.96,
+          "word": "掃",
+          "probability": 0.9847540855407715
+        },
+        {
+          "start": 10.96,
+          "end": 11.08,
+          "word": "瓷",
+          "probability": 0.9583051602045695
+        },
+        {
+          "start": 11.08,
+          "end": 11.26,
+          "word": "磚",
+          "probability": 0.9853983918825785
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 11.26,
+      "end": 12.62,
+      "text": "耐水防煤硬度高",
+      "avg_logprob": -0.12800714727491141,
+      "no_speech_prob": 0.5548160076141357,
+      "compression_ratio": 1.3373493975903614,
+      "words": [
+        {
+          "start": 11.26,
+          "end": 11.66,
+          "word": "耐",
+          "probability": 0.5015089930966496
+        },
+        {
+          "start": 11.66,
+          "end": 11.86,
+          "word": "水",
+          "probability": 0.9994751811027527
+        },
+        {
+          "start": 11.86,
+          "end": 12.04,
+          "word": "防",
+          "probability": 0.9339515566825867
+        },
+        {
+          "start": 12.04,
+          "end": 12.22,
+          "word": "煤",
+          "probability": 0.7401803731918335
+        },
+        {
+          "start": 12.22,
+          "end": 12.38,
+          "word": "硬",
+          "probability": 0.8711441457271576
+        },
+        {
+          "start": 12.38,
+          "end": 12.48,
+          "word": "度",
+          "probability": 0.9888709187507629
+        },
+        {
+          "start": 12.48,
+          "end": 12.62,
+          "word": "高",
+          "probability": 0.9901168942451477
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 12.62,
+      "end": 13.52,
+      "text": "省了拆砸費",
+      "avg_logprob": -0.12800714727491141,
+      "no_speech_prob": 0.5548160076141357,
+      "compression_ratio": 1.3373493975903614,
+      "words": [
+        {
+          "start": 12.62,
+          "end": 12.96,
+          "word": "省",
+          "probability": 0.9993387758731842
+        },
+        {
+          "start": 12.96,
+          "end": 13.06,
+          "word": "了",
+          "probability": 0.9978783130645752
+        },
+        {
+          "start": 13.06,
+          "end": 13.22,
+          "word": "拆",
+          "probability": 0.9951844811439514
+        },
+        {
+          "start": 13.22,
+          "end": 13.36,
+          "word": "砸",
+          "probability": 0.973505973815918
+        },
+        {
+          "start": 13.36,
+          "end": 13.52,
+          "word": "費",
+          "probability": 0.7903253436088562
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 13.52,
+      "end": 14.38,
+      "text": "還不用買瓷磚",
+      "avg_logprob": -0.12800714727491141,
+      "no_speech_prob": 0.5548160076141357,
+      "compression_ratio": 1.3373493975903614,
+      "words": [
+        {
+          "start": 13.52,
+          "end": 13.76,
+          "word": "還",
+          "probability": 0.9748445153236389
+        },
+        {
+          "start": 13.76,
+          "end": 13.9,
+          "word": "不用",
+          "probability": 0.9967148303985596
+        },
+        {
+          "start": 13.9,
+          "end": 14.06,
+          "word": "買",
+          "probability": 0.9972919821739197
+        },
+        {
+          "start": 14.06,
+          "end": 14.2,
+          "word": "瓷",
+          "probability": 0.9947722554206848
+        },
+        {
+          "start": 14.2,
+          "end": 14.38,
+          "word": "磚",
+          "probability": 0.998569667339325
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 14.38,
+      "end": 15.8,
+      "text": "如果你也喜歡這種工藝",
+      "avg_logprob": -0.12800714727491141,
+      "no_speech_prob": 0.5548160076141357,
+      "compression_ratio": 1.3373493975903614,
+      "words": [
+        {
+          "start": 14.38,
+          "end": 14.7,
+          "word": "如果你",
+          "probability": 0.8792165517807007
+        },
+        {
+          "start": 14.7,
+          "end": 14.96,
+          "word": "也",
+          "probability": 0.9639015793800354
+        },
+        {
+          "start": 14.96,
+          "end": 15.16,
+          "word": "喜歡",
+          "probability": 0.9982107877731323
+        },
+        {
+          "start": 15.16,
+          "end": 15.36,
+          "word": "這種",
+          "probability": 0.9978460073471069
+        },
+        {
+          "start": 15.36,
+          "end": 15.58,
+          "word": "工",
+          "probability": 0.9952967762947083
+        },
+        {
+          "start": 15.58,
+          "end": 15.8,
+          "word": "藝",
+          "probability": 0.9997148811817169
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 15.8,
+      "end": 17.26,
+      "text": "請幫我點個免費的小愛心",
+      "avg_logprob": -0.12800714727491141,
+      "no_speech_prob": 0.5548160076141357,
+      "compression_ratio": 1.3373493975903614,
+      "words": [
+        {
+          "start": 15.8,
+          "end": 15.98,
+          "word": "請",
+          "probability": 0.9948170781135559
+        },
+        {
+          "start": 15.98,
+          "end": 16.1,
+          "word": "幫",
+          "probability": 0.9955698847770691
+        },
+        {
+          "start": 16.1,
+          "end": 16.22,
+          "word": "我",
+          "probability": 0.9989738464355469
+        },
+        {
+          "start": 16.22,
+          "end": 16.34,
+          "word": "點",
+          "probability": 0.9994155168533325
+        },
+        {
+          "start": 16.34,
+          "end": 16.44,
+          "word": "個",
+          "probability": 0.9909232258796692
+        },
+        {
+          "start": 16.44,
+          "end": 16.6,
+          "word": "免",
+          "probability": 0.9983054101467133
+        },
+        {
+          "start": 16.6,
+          "end": 16.78,
+          "word": "費",
+          "probability": 0.9991924166679382
+        },
+        {
+          "start": 16.78,
+          "end": 16.88,
+          "word": "的",
+          "probability": 0.9960301518440247
+        },
+        {
+          "start": 16.88,
+          "end": 16.98,
+          "word": "小",
+          "probability": 0.9892314076423645
+        },
+        {
+          "start": 16.98,
+          "end": 17.1,
+          "word": "愛",
+          "probability": 0.7042101621627808
+        },
+        {
+          "start": 17.1,
+          "end": 17.26,
+          "word": "心",
+          "probability": 0.9967412352561951
+        }
+      ]
+    }
+  ],
+  "timing_summary": {
+    "recorded_segment_count": 14,
+    "median_seconds": 1.2,
+    "min_seconds": 0.833,
+    "max_seconds": 1.8,
+    "boundary_status": "候选检测加采样观察修订，非逐帧实播核验；语义分段不等于镜头数"
+  },
+  "evidence_path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\evidence.json",
+  "updated_at": "2026-10-01T13:19:16.105559+08:00"
+}

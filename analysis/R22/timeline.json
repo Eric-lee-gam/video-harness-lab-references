@@ -1,0 +1,151 @@
+{
+  "interval_seconds": 0.5,
+  "method": "decode all frames; select at least 0.5 seconds since prior selected frame; actual source PTS shown",
+  "frames": [
+    {
+      "time_seconds": 0.0,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0001.jpg"
+    },
+    {
+      "time_seconds": 0.5,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0002.jpg"
+    },
+    {
+      "time_seconds": 1.0,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0003.jpg"
+    },
+    {
+      "time_seconds": 1.5,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0004.jpg"
+    },
+    {
+      "time_seconds": 2.0,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0005.jpg"
+    },
+    {
+      "time_seconds": 2.5,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0006.jpg"
+    },
+    {
+      "time_seconds": 3.0,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0007.jpg"
+    },
+    {
+      "time_seconds": 3.5,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0008.jpg"
+    },
+    {
+      "time_seconds": 4.0,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0009.jpg"
+    },
+    {
+      "time_seconds": 4.5,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0010.jpg"
+    },
+    {
+      "time_seconds": 5.0,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0011.jpg"
+    },
+    {
+      "time_seconds": 5.5,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0012.jpg"
+    },
+    {
+      "time_seconds": 6.0,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0013.jpg"
+    },
+    {
+      "time_seconds": 6.5,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0014.jpg"
+    },
+    {
+      "time_seconds": 7.0,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0015.jpg"
+    },
+    {
+      "time_seconds": 7.5,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0016.jpg"
+    },
+    {
+      "time_seconds": 8.0,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0017.jpg"
+    },
+    {
+      "time_seconds": 8.5,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0018.jpg"
+    },
+    {
+      "time_seconds": 9.0,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0019.jpg"
+    },
+    {
+      "time_seconds": 9.5,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0020.jpg"
+    },
+    {
+      "time_seconds": 10.0,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0021.jpg"
+    },
+    {
+      "time_seconds": 10.5,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0022.jpg"
+    },
+    {
+      "time_seconds": 11.0,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0023.jpg"
+    },
+    {
+      "time_seconds": 11.5,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0024.jpg"
+    },
+    {
+      "time_seconds": 12.0,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0025.jpg"
+    },
+    {
+      "time_seconds": 12.5,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0026.jpg"
+    },
+    {
+      "time_seconds": 13.0,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0027.jpg"
+    },
+    {
+      "time_seconds": 13.5,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0028.jpg"
+    },
+    {
+      "time_seconds": 14.0,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0029.jpg"
+    },
+    {
+      "time_seconds": 14.5,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0030.jpg"
+    },
+    {
+      "time_seconds": 15.0,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0031.jpg"
+    },
+    {
+      "time_seconds": 15.5,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0032.jpg"
+    },
+    {
+      "time_seconds": 16.0,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0033.jpg"
+    },
+    {
+      "time_seconds": 16.5,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0034.jpg"
+    },
+    {
+      "time_seconds": 17.0,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\timeline\\frame_0035.jpg"
+    }
+  ],
+  "contacts": [
+    "contacts-01.jpg",
+    "contacts-02.jpg",
+    "contacts-03.jpg"
+  ]
+}

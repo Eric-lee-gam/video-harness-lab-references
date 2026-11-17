@@ -1,0 +1,150 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\leega\Desktop\爆款视频模板库\3688727764.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    creation_time   : 2026-10-01T03:58:56Z
+    encoder         : Lavf57.71.100
+  Duration: 00:00:26.93, start: 0.000000, bitrate: 996 kb/s
+  Stream #0:0[0x1](eng): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 576x1024, 861 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      creation_time   : 2026-10-01T03:58:56.000000Z
+      handler_name    : VideoHandler
+      vendor_id       : FFMP
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 124 kb/s (default)
+    Metadata:
+      creation_time   : 2026-10-01T03:58:56.000000Z
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[Parsed_showinfo_2 @ 000001d4500c04c0] config in time_base: 1/15360, frame_rate: 30/1
+[Parsed_showinfo_2 @ 000001d4500c04c0] config out time_base: 0/0, frame_rate: 0/0
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:   0 pts:      0 pts_time:0       duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:1 type:I checksum:6F6CD6A0 plane_checksum:[88670234 31477B64 92405908] mean:[126 126 132] stdev:[67.4 6.8 6.2]
+[Parsed_showinfo_2 @ 000001d4500c04c0]   side data - H.26[45] User Data Unregistered SEI message: UUID=54656e63-656e-7427-5320-57656978696e
+[Parsed_showinfo_2 @ 000001d4500c04c0] User Data=2069732048656c70696e6720546f757269736d20616e6420456e7465727461696e6d656e7420496e647573747269657320526573657420616e64205472616e73666f726d2e20545832303233202e2e2e2e2e00
+[Parsed_showinfo_2 @ 000001d4500c04c0] 
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+Output #0, image2, to 'D:\codex-work\codex-company\video-harness-lab\references\analysis\R10\timeline\frame_%04d.jpg':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    encoder         : Lavf62.12.102
+  Stream #0:0(eng): Video: mjpeg, yuv420p(pc, bt709, progressive), 320x568, q=2-31, 200 kb/s, 30 fps, 30 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.102 mjpeg
+      creation_time   : 2026-10-01T03:58:56.000000Z
+      handler_name    : VideoHandler
+      vendor_id       : FFMP
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:   1 pts:   7680 pts_time:0.5     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:967EC102 plane_checksum:[9ADCDFC0 DDAF3006 920CB12D] mean:[143 126 132] stdev:[73.0 14.0 8.2]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:   2 pts:  15360 pts_time:1       duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:4C5D5084 plane_checksum:[289E4394 58997623 FFA196BE] mean:[168 125 131] stdev:[76.7 19.8 9.7]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:   3 pts:  23040 pts_time:1.5     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:4F9B93F6 plane_checksum:[21D786E5 100B1215 4C8EFAED] mean:[173 124 131] stdev:[73.1 19.3 9.1]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:   4 pts:  30720 pts_time:2       duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:1A780BF6 plane_checksum:[8A621015 033B1EF7 9A94DCDB] mean:[172 124 131] stdev:[71.6 19.3 8.9]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:   5 pts:  38400 pts_time:2.5     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:4B46ABA0 plane_checksum:[40A5E7A5 0998D52B 647CEEB2] mean:[194 125 130] stdev:[50.4 15.2 6.4]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:   6 pts:  46080 pts_time:3       duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:E1BBE9D9 plane_checksum:[9E0B0BCA 008FE7A1 A4BFF65F] mean:[193 125 130] stdev:[50.4 15.1 6.5]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:   7 pts:  53760 pts_time:3.5     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:495B2DEB plane_checksum:[87BA63E9 CCE69655 AF93339E] mean:[188 125 130] stdev:[44.3 15.1 6.4]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:   8 pts:  61440 pts_time:4       duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:4C51E5A7 plane_checksum:[461295D1 1EDA9112 073EBEB5] mean:[147 123 131] stdev:[56.2 17.4 10.0]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:   9 pts:  69120 pts_time:4.5     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:B90B7697 plane_checksum:[7ACDEAD4 720B833D 99AF0877] mean:[136 123 131] stdev:[60.8 17.2 10.8]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  10 pts:  76800 pts_time:5       duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:613B5380 plane_checksum:[52039F0F 9CCC8CE4 E862277E] mean:[171 119 133] stdev:[41.9 17.4 5.4]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  11 pts:  84480 pts_time:5.5     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:0C66AEF9 plane_checksum:[F51FF4B9 4EAA824A BF8B37E7] mean:[169 120 132] stdev:[33.6 17.6 4.2]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  12 pts:  92160 pts_time:6       duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:17EC9E4F plane_checksum:[30224C4E 17E07685 69E3DB6D] mean:[170 120 131] stdev:[33.8 17.6 4.1]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  13 pts:  99840 pts_time:6.5     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:BCDBFB00 plane_checksum:[922E7C7F 1053E247 72B69C2B] mean:[180 121 131] stdev:[49.4 18.1 7.2]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  14 pts: 107520 pts_time:7       duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:B08E328E plane_checksum:[2EB2BDF9 42E9B191 42C8C2E6] mean:[178 121 131] stdev:[47.8 18.2 7.3]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  15 pts: 115200 pts_time:7.5     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:ED3DA5E2 plane_checksum:[822A2EE2 A931237D EFB75383] mean:[157 124 130] stdev:[55.6 18.4 7.3]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  16 pts: 122880 pts_time:8       duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:EDD80E6D plane_checksum:[8BDC6727 09E6B531 0A92F1F7] mean:[157 125 130] stdev:[60.0 18.5 7.0]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  17 pts: 130560 pts_time:8.5     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:P checksum:3260CBBC plane_checksum:[8CAECBB9 CDF76B35 235894BF] mean:[185 122 129] stdev:[39.9 13.9 4.8]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  18 pts: 138240 pts_time:9       duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:P checksum:F42AEB2F plane_checksum:[C979CD1F 86799338 AC058AC9] mean:[185 122 129] stdev:[40.5 13.1 4.6]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  19 pts: 145920 pts_time:9.5     duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:2CD70BC8 plane_checksum:[E53CC1C3 C7AE9D8A C1A2AC5D] mean:[169 119 137] stdev:[69.2 12.0 8.6]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  20 pts: 153600 pts_time:10      duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:P checksum:4828D6CD plane_checksum:[85434760 B5630BED D0D98380] mean:[132 107 174] stdev:[48.6 13.4 26.4]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  21 pts: 161280 pts_time:10.5    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:962981B6 plane_checksum:[241937D3 8E8325D9 41DB240A] mean:[135 107 170] stdev:[56.6 16.4 26.9]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  22 pts: 168960 pts_time:11      duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:0A3CCF81 plane_checksum:[FEBD44DC 50E28840 247F0265] mean:[133 106 173] stdev:[49.1 16.3 26.5]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  23 pts: 176640 pts_time:11.5    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:AF23210F plane_checksum:[BBE9222D 07080CE6 BEECF1ED] mean:[158 121 131] stdev:[58.8 16.8 7.7]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  24 pts: 184320 pts_time:12      duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:A1058B24 plane_checksum:[DA488309 FD081D55 07BEEAB7] mean:[159 121 131] stdev:[59.1 16.8 7.8]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  25 pts: 192000 pts_time:12.5    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:P checksum:35D3E425 plane_checksum:[89C115F2 EB4DF8D8 816BD54C] mean:[164 121 131] stdev:[60.1 16.8 7.6]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  26 pts: 199680 pts_time:13      duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:3D3216E2 plane_checksum:[B49A44BC 2B9850DB F13B813C] mean:[170 119 133] stdev:[58.5 17.9 6.4]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  27 pts: 207360 pts_time:13.5    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:6EF8F052 plane_checksum:[72F82962 0F14F199 4320D548] mean:[170 120 134] stdev:[58.4 17.2 7.3]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  28 pts: 215040 pts_time:14      duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:P checksum:22BE4A03 plane_checksum:[C0DA48D4 4845D15A C9752FC6] mean:[172 119 133] stdev:[57.3 17.2 5.3]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  29 pts: 222720 pts_time:14.5    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:P checksum:BC3ADE82 plane_checksum:[A0985B12 5E84DB8A 4581A7D7] mean:[181 119 132] stdev:[45.9 17.7 4.2]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  30 pts: 230400 pts_time:15      duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:13811B17 plane_checksum:[A994631A 39F02B5D 55768C91] mean:[181 120 132] stdev:[45.2 17.8 4.3]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  31 pts: 238080 pts_time:15.5    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:94A5F4C5 plane_checksum:[F98B3A6E 6298766B EE5F43EC] mean:[184 120 132] stdev:[44.7 18.0 4.6]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  32 pts: 245760 pts_time:16      duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:P checksum:745BBF40 plane_checksum:[90F5FEB7 F80F6955 BB825725] mean:[161 122 132] stdev:[50.1 14.6 5.7]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  33 pts: 253440 pts_time:16.5    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:9304466C plane_checksum:[11935908 78CAE066 DCE50CEF] mean:[163 122 131] stdev:[51.9 14.6 5.8]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  34 pts: 261120 pts_time:17      duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:7EE888C9 plane_checksum:[CA822513 B7F344AE 30921F08] mean:[185 126 129] stdev:[44.8 12.4 4.3]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  35 pts: 268800 pts_time:17.5    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:P checksum:BA17021E plane_checksum:[8241A474 62D20BCC 2EBD51CF] mean:[186 124 129] stdev:[44.1 18.6 5.3]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  36 pts: 276480 pts_time:18      duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:P checksum:648D09DA plane_checksum:[9979144C 6238A111 8978546E] mean:[194 121 132] stdev:[37.0 17.7 4.3]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  37 pts: 284160 pts_time:18.5    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:C5749CB3 plane_checksum:[EC08A6EB 5D4E92AC D26D630D] mean:[191 121 132] stdev:[38.8 17.7 4.2]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  38 pts: 291840 pts_time:19      duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:P checksum:483DF6BB plane_checksum:[AF5F895D 4BDA4A5C 5C7E2302] mean:[191 122 131] stdev:[37.5 15.9 5.6]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  39 pts: 299520 pts_time:19.5    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:CB15063A plane_checksum:[0596390A B9CC7295 93785A8C] mean:[151 126 129] stdev:[66.6 16.9 7.4]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  40 pts: 307200 pts_time:20      duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:020EBB51 plane_checksum:[A6CDE98B 96655D0A D1E374AD] mean:[151 126 129] stdev:[66.5 16.9 7.6]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  41 pts: 314880 pts_time:20.5    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:19785538 plane_checksum:[2D2966E5 D9A5A237 6CD34C0D] mean:[156 125 129] stdev:[58.4 16.5 4.5]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  42 pts: 322560 pts_time:21      duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:P checksum:BAB910D7 plane_checksum:[57C02596 769EFA03 9F01F120] mean:[162 125 128] stdev:[54.4 16.6 4.6]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  43 pts: 330240 pts_time:21.5    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:A65CA5E8 plane_checksum:[D8BB7F7F 60A058E1 553DCD79] mean:[161 126 128] stdev:[52.3 16.6 4.6]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  44 pts: 337920 pts_time:22      duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:P checksum:148A79ED plane_checksum:[9CB6316A F44EEB2C F0DB5D48] mean:[135 118 136] stdev:[67.3 17.3 11.5]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  45 pts: 345600 pts_time:22.5    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:P checksum:574527C2 plane_checksum:[5F8F43C4 DDD10B3F 2871D8B0] mean:[134 118 135] stdev:[65.9 17.4 10.9]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  46 pts: 353280 pts_time:23      duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:1 type:I checksum:E761E8A7 plane_checksum:[F72EF04C 840EE594 0E5A12B8] mean:[163 127 127] stdev:[72.5 15.7 7.7]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  47 pts: 360960 pts_time:23.5    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:431E284F plane_checksum:[F2C8BC9C E96E44DE 054826C6] mean:[159 127 129] stdev:[76.0 16.1 9.8]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  48 pts: 368640 pts_time:24      duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:E8C6BC8C plane_checksum:[3B31194A ACDEDA2A 5808C909] mean:[160 128 128] stdev:[78.7 16.4 8.8]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  49 pts: 376320 pts_time:24.5    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:5D7541D4 plane_checksum:[706523E2 EB73B27E 132D6B65] mean:[153 122 135] stdev:[67.5 16.1 10.6]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  50 pts: 384000 pts_time:25      duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:8FE358EE plane_checksum:[C6404219 78E57AFC 8D189BCA] mean:[152 122 135] stdev:[67.6 16.0 10.6]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  51 pts: 391680 pts_time:25.5    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:1 type:I checksum:7EC1FA16 plane_checksum:[56084DCF 508F2E9D B7DB7DAA] mean:[128 121 135] stdev:[75.2 7.7 11.7]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  52 pts: 399360 pts_time:26      duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:2C4A214B plane_checksum:[CF17ED59 C5654413 F1DCEFC1] mean:[132 119 134] stdev:[73.8 18.5 7.3]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 000001d4500c04c0] n:  53 pts: 407040 pts_time:26.5    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:unspecified sar:0/1 s:320x568 i:P iskey:0 type:B checksum:C301C69F plane_checksum:[B7271690 923E8987 42F92688] mean:[133 118 134] stdev:[73.2 18.3 7.4]
+[Parsed_showinfo_2 @ 000001d4500c04c0] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[out#0/image2 @ 000001d44d629440] video:1715KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=   54 fps=0.0 q=2.0 Lsize=N/A time=00:00:26.53 bitrate=N/A speed=97.2x elapsed=0:00:00.27    

@@ -1,0 +1,106 @@
+{
+  "version": 2,
+  "created": "2026-11-13",
+  "purpose": "不同场景人物人工核实，标签待用户确认，不套用目录",
+  "rows": [
+    {
+      "sample_id": "R05",
+      "category": "人物核实",
+      "query": "请用户确认画面主体是否阿明；其他人物或看不清保持待核实",
+      "source": {
+        "id": "c6eb8134b11a584256423d6a036fda71",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\优活城\\人物出镜\\33505_人物_小区场景.MOV",
+        "rel": "优活城/人物出镜/33505_人物_小区场景.MOV",
+        "root": "xiaoq",
+        "name": "33505_人物_小区场景.MOV",
+        "start": 2,
+        "end": 6
+      },
+      "project_guess": "优活城",
+      "project_confirmed": false,
+      "suggested_label": "待确认",
+      "suggestion_reason": "身份必须由用户逐段确认，不凭服装或目录自动推定",
+      "confirmed_label": "用户确认：阿明",
+      "status": "已逐人确认",
+      "clip": "clips/R05.mp4",
+      "clip_sha256": "21ab6e318b705dd107eaa995041cf4fa169044b6ba92e1170c3cec467531a34f",
+      "duration": 4.0,
+      "benchmark_eligible": false,
+      "split": "口径确认集，禁止进入盲测",
+      "product_identity": "未核验",
+      "quality_note": "三时间点检查与完整解码通过；不由服装推断身份",
+      "person_identity": "阿明",
+      "apply_to_directory": false,
+      "label_scope": "仅所列片段中的指定人物",
+      "person_targets": [
+        {
+          "description": "室内黑外套讲述者",
+          "identity": "阿明",
+          "confirmed_by": "当前用户",
+          "confirmed_at": "2026-11-13T11:53:21.958061+08:00"
+        }
+      ],
+      "confirmed_at": "2026-11-13T11:53:21.958061+08:00",
+      "confirmed_by": "当前用户",
+      "confirmation_evidence": "R05是阿明，R06前景紫色马甲是阿明，右后方靠墙的是其他人物。先按这几个人物记录，不要套用整个目录"
+    },
+    {
+      "sample_id": "R06",
+      "category": "人物核实",
+      "query": "请用户确认画面主体是否阿明；其他人物或看不清保持待核实",
+      "source": {
+        "id": "ccdb51ab3e8100c69ab96a0b5ee94848",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\1新的未分类\\SKP沙湖公寓\\上门\\IMG_2801.MOV",
+        "rel": "1新的未分类/SKP沙湖公寓/上门/IMG_2801.MOV",
+        "root": "xiaoq",
+        "name": "IMG_2801.MOV",
+        "start": 2,
+        "end": 6
+      },
+      "project_guess": "1新的未分类",
+      "project_confirmed": false,
+      "suggested_label": "待确认",
+      "suggestion_reason": "身份必须由用户逐段确认，不凭服装或目录自动推定",
+      "confirmed_label": "用户确认：前景紫色马甲阿明；右后方靠墙其他人物",
+      "status": "已逐人确认",
+      "clip": "clips/R06.mp4",
+      "clip_sha256": "4455e44435cd2c45300c5fe32e3035d61cfe9c181ef148eb377382c7ded9d337",
+      "duration": 4.004,
+      "benchmark_eligible": false,
+      "split": "口径确认集，禁止进入盲测",
+      "product_identity": "未核验",
+      "quality_note": "三时间点检查与完整解码通过；不由服装推断身份",
+      "person_identity": null,
+      "apply_to_directory": false,
+      "label_scope": "仅所列片段中的指定人物",
+      "person_targets": [
+        {
+          "description": "前景紫色马甲讲述者",
+          "identity": "阿明",
+          "confirmed_by": "当前用户",
+          "confirmed_at": "2026-11-13T11:53:21.958061+08:00"
+        },
+        {
+          "description": "右后方靠墙人物",
+          "identity": "其他人物",
+          "confirmed_by": "当前用户",
+          "confirmed_at": "2026-11-13T11:53:21.958061+08:00"
+        }
+      ],
+      "confirmed_at": "2026-11-13T11:53:21.958061+08:00",
+      "confirmed_by": "当前用户",
+      "confirmation_evidence": "R05是阿明，R06前景紫色马甲是阿明，右后方靠墙的是其他人物。先按这几个人物记录，不要套用整个目录"
+    }
+  ],
+  "updated": "2026-11-13T11:53:21.958061+08:00",
+  "history": [
+    {
+      "at": "2026-11-13T11:53:21.958061+08:00",
+      "evidence": "R05是阿明，R06前景紫色马甲是阿明，右后方靠墙的是其他人物。先按这几个人物记录，不要套用整个目录",
+      "samples": [
+        "R05",
+        "R06"
+      ]
+    }
+  ]
+}

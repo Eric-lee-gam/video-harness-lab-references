@@ -1,0 +1,29 @@
+{
+  "rows": [
+    {
+      "id": "ec7811dd02f80d607d4ade7683da72c9",
+      "name": "IMG_0949.MOV",
+      "root": "xiaoq",
+      "rel": "翠提春晓/批刮陶泥/IMG_0949.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\翠提春晓\\批刮陶泥\\IMG_0949.MOV",
+      "duration": 17.038333,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\ec7811dd02f80d607d4ade7683da72c9.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "c20a703613be13deddbe8d3f71e8b007",
+      "name": "24224_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "江岸2卫＋厨房/第一遍陶泥/24224_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\江岸2卫＋厨房\\第一遍陶泥\\24224_小区场景.MOV",
+      "duration": 8.08,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\c20a703613be13deddbe8d3f71e8b007.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    }
+  ],
+  "errors": []
+}

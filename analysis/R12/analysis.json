@@ -1,0 +1,1401 @@
+{
+  "id": "R12",
+  "source_name": "sph52pj_1790826200163.mp4",
+  "duration": 20.432,
+  "status": "completed_with_gaps",
+  "coverage": {
+    "visual_sampling_interval_seconds": 0.5,
+    "visual_reviewed": true,
+    "audio_asr": true,
+    "human_full_listening": false,
+    "full_playback": false
+  },
+  "summary": "武汉定位的微陶泥广告：旧卫生间→施工动作→材料桶→成品/性能演示→拆除反例→人物点赞结尾；多个空间混剪。",
+  "opening": {
+    "start": 0,
+    "end": 0.75,
+    "observation": "脏污瓷砖卫生间，工人搬动马桶；左上黄色广告卡、右下抠像人物。",
+    "inference": "建立地域与旧房问题"
+  },
+  "ending": {
+    "start": 19.042,
+    "end": 20.432,
+    "observation": "紫衣男子与女子握手，另一只手向镜头示意。",
+    "inference": "点赞引导收尾"
+  },
+  "shots": [
+    {
+      "index": 1,
+      "start": 0,
+      "end": 0.75,
+      "observation": "脏污瓷砖卫生间，工人搬动马桶；左上黄色广告卡、右下抠像人物。",
+      "visible_text": "坐标：武汉；不拆不砸；7天翻新；墙地一体奶油风；首创微陶泥 极简翻新",
+      "script_relation": "首帧促销卡，不能当作语音转写",
+      "purpose": "建立地域与旧房问题",
+      "cut": "候选0.75秒，首帧卡在0.5秒已消失，卡退出不等于机位切换",
+      "continuity": "旧房视角持续，抠像为图层",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0001.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0002.jpg"
+      ],
+      "asr_segments": [
+        {
+          "start": 0.0,
+          "end": 1.68,
+          "raw_text": "在过一两个月你会发现",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 0.75,
+      "end": 1.75,
+      "observation": "旧瓷砖、窗户、外露管线与地面污渍。",
+      "visible_text": "再过一两个月你会发现",
+      "script_relation": "预期铺垫配旧房现状",
+      "purpose": "明确使用场景",
+      "cut": "1.75秒为人工补漏，实际切点在1.5-2秒间",
+      "continuity": "下一镜头同为卫生间，不确认同空间",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0003.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0004.jpg"
+      ],
+      "asr_segments": [
+        {
+          "start": 0.0,
+          "end": 1.68,
+          "raw_text": "在过一两个月你会发现",
+          "verified": false
+        },
+        {
+          "start": 1.68,
+          "end": 3.82,
+          "raw_text": "武汉越来越多的厨房卫生间翻新",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 1.75,
+      "end": 3.042,
+      "observation": "浅色空间中白衣工人蹲姿抹地，窄竖窗。",
+      "visible_text": "武汉越来越多的厨房",
+      "script_relation": "字幕说厨房而画面形态偏窄湿区，用途不能确认",
+      "purpose": "展示涂抹",
+      "cut": "硬切候选3.042",
+      "continuity": "动作片段内部延续，空间身份不明",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0005.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0006.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0007.jpg"
+      ],
+      "asr_segments": [
+        {
+          "start": 1.68,
+          "end": 3.82,
+          "raw_text": "武汉越来越多的厨房卫生间翻新",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 3.042,
+      "end": 4.417,
+      "observation": "窗下瓷砖墙，工人用抹刀覆盖表面。",
+      "visible_text": "卫生间翻新",
+      "script_relation": "场景词与施工画面直接对应",
+      "purpose": "说明墙面施工",
+      "cut": "硬切候选4.417",
+      "continuity": "不同工人机位，非动作连续证据",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0008.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0009.jpg"
+      ],
+      "asr_segments": [
+        {
+          "start": 1.68,
+          "end": 3.82,
+          "raw_text": "武汉越来越多的厨房卫生间翻新",
+          "verified": false
+        },
+        {
+          "start": 3.82,
+          "end": 5.34,
+          "raw_text": "都流行用这个胃淘腻了",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 4.417,
+      "end": 5.833,
+      "observation": "俯视工人处理瓷砖墙，前景手势指向墙地。",
+      "visible_text": "都流行用这个微陶泥了",
+      "script_relation": "微陶泥是字幕材料命名，画面为施工",
+      "purpose": "动作演示承接产品名",
+      "cut": "5.833秒人工补漏，切点在5.5-6秒",
+      "continuity": "前景指示动作加强指向，产品切换无匹配动作",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0010.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0011.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0012.jpg"
+      ],
+      "asr_segments": [
+        {
+          "start": 3.82,
+          "end": 5.34,
+          "raw_text": "都流行用这个胃淘腻了",
+          "verified": false
+        },
+        {
+          "start": 5.34,
+          "end": 6.62,
+          "raw_text": "也叫金刚淘腻",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 5.833,
+      "end": 6.833,
+      "observation": "红提手白桶近景，可读桶身金钢陶泥、STEEL SAND。",
+      "visible_text": "也叫金刚陶泥",
+      "script_relation": "字幕金刚与桶身金钢字形不同，保留差异",
+      "purpose": "产品身份锚点",
+      "cut": "硬切候选6.833",
+      "continuity": "由施工到材料插镜",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0013.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0014.jpg"
+      ],
+      "asr_segments": [
+        {
+          "start": 5.34,
+          "end": 6.62,
+          "raw_text": "也叫金刚淘腻",
+          "verified": false
+        },
+        {
+          "start": 6.62,
+          "end": 8.42,
+          "raw_text": "不拆不砸整个卫生间改造",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 6.833,
+      "end": 8.25,
+      "observation": "黑衣工人蹲地把白料摊铺在瓷砖上。",
+      "visible_text": "不拆不砸；整个卫生间改造",
+      "script_relation": "覆盖施工支持工法示意，不证明所有项目无需拆除",
+      "purpose": "展示施工负担",
+      "cut": "硬切候选8.25",
+      "continuity": "同一蹲地动作在镜内延续",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0015.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0016.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0017.jpg"
+      ],
+      "asr_segments": [
+        {
+          "start": 6.62,
+          "end": 8.42,
+          "raw_text": "不拆不砸整个卫生间改造",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 8.25,
+      "end": 9.5,
+      "observation": "蓝衣工人抹墙；原瓷砖与白色覆盖面并存。",
+      "visible_text": "整个卫生间改造；只需要3天就可以完成",
+      "script_relation": "施工示意搭配工期承诺，无法从短片核验天数",
+      "purpose": "工法到结果过渡",
+      "cut": "9.5秒人工补漏，画面含叠化双影",
+      "continuity": "墙到成品非同机位前后证明",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0018.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0019.jpg"
+      ],
+      "asr_segments": [
+        {
+          "start": 6.62,
+          "end": 8.42,
+          "raw_text": "不拆不砸整个卫生间改造",
+          "verified": false
+        },
+        {
+          "start": 8.42,
+          "end": 10.18,
+          "raw_text": "只需要三天就可以完成",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 9.5,
+      "end": 10.75,
+      "observation": "暖白成品卫生间，马桶、柜、窄窗、灯带。",
+      "visible_text": "只需要3天就可以完成",
+      "script_relation": "结果展示配工期承诺；首帧7天与此处3天口径不一致",
+      "purpose": "短暂效果奖励",
+      "cut": "硬切候选10.75",
+      "continuity": "空间参照相近但不确认同房",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0020.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0021.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0022.jpg"
+      ],
+      "asr_segments": [
+        {
+          "start": 8.42,
+          "end": 10.18,
+          "raw_text": "只需要三天就可以完成",
+          "verified": false
+        },
+        {
+          "start": 10.54,
+          "end": 12.34,
+          "raw_text": "屁瓜三到五毫可耐水方面",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 10.75,
+      "end": 11.75,
+      "observation": "蓝衣工人蹲地抹白料，接口用蓝胶带保护。",
+      "visible_text": "皮刮3-5毫克耐水防霉",
+      "script_relation": "原视频写毫克，未擅自改为毫米；不证明厚度与防霉性能",
+      "purpose": "性能段施工示意",
+      "cut": "硬切候选11.75",
+      "continuity": "回切施工，时间顺序非完整工序",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0023.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0024.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\visual-second-supplement\\R12-11.000.jpg"
+      ],
+      "asr_segments": [
+        {
+          "start": 10.54,
+          "end": 12.34,
+          "raw_text": "屁瓜三到五毫可耐水方面",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 11.75,
+      "end": 12.583,
+      "observation": "黑色手持端喷出水流落在浅色表面。",
+      "visible_text": "皮刮3-5毫克耐水防霉",
+      "script_relation": "原字幕单位毫克；喷水对应耐水视觉演示，不能证明长期防霉",
+      "purpose": "补充性能演示",
+      "cut": "硬切候选12.583",
+      "continuity": "没有施工到测试的连续记录",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0025.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0026.jpg"
+      ],
+      "asr_segments": [
+        {
+          "start": 10.54,
+          "end": 12.34,
+          "raw_text": "屁瓜三到五毫可耐水方面",
+          "verified": false
+        },
+        {
+          "start": 12.34,
+          "end": 14.0,
+          "raw_text": "还省了一大笔拆除费用",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 12.583,
+      "end": 14.292,
+      "observation": "工人在碎砖堆旁用电动工具拆墙瓷砖。",
+      "visible_text": "还省了一大笔拆除费用",
+      "script_relation": "拆除反例呈现传统负担，不是本项目省钱凭证",
+      "purpose": "建立替代方案对照",
+      "cut": "硬切候选14.292",
+      "continuity": "负面对照插镜，不应认作本方案实际工序",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0027.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0028.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0029.jpg"
+      ],
+      "asr_segments": [
+        {
+          "start": 12.34,
+          "end": 14.0,
+          "raw_text": "还省了一大笔拆除费用",
+          "verified": false
+        },
+        {
+          "start": 14.0,
+          "end": 16.6,
+          "raw_text": "关键是无缝一体效果高级又便宜",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 14.292,
+      "end": 15.583,
+      "observation": "浅灰连续墙面与窗台特写。",
+      "visible_text": "关键是无缝一体；效果高级又便宜",
+      "script_relation": "平面外观可见，价格与无缝工艺需核验",
+      "purpose": "解释外观卖点",
+      "cut": "硬切候选15.583",
+      "continuity": "由负面对照到效果细节",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0030.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0031.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0032.jpg"
+      ],
+      "asr_segments": [
+        {
+          "start": 14.0,
+          "end": 16.6,
+          "raw_text": "关键是无缝一体效果高级又便宜",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 15.583,
+      "end": 17.083,
+      "observation": "成品浴缸、壁龛、淋浴头、灯带与白墙。",
+      "visible_text": "效果高级又便宜",
+      "script_relation": "成品呈现审美，便宜没有价格依据",
+      "purpose": "扩展完成效果想象",
+      "cut": "硬切候选17.083",
+      "continuity": "成品不同设备，不是旧场景逐项对照",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0033.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0034.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0035.jpg"
+      ],
+      "asr_segments": [
+        {
+          "start": 14.0,
+          "end": 16.6,
+          "raw_text": "关键是无缝一体效果高级又便宜",
+          "verified": false
+        },
+        {
+          "start": 16.6,
+          "end": 18.92,
+          "raw_text": "如果你也喜欢这种翻新工艺",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 17.083,
+      "end": 19.042,
+      "observation": "紫衣男子蹲在白色台面/地面，手掌抚摸并面向镜头。",
+      "visible_text": "如果你也喜欢这种翻新工艺",
+      "script_relation": "人物动作使效果可触摸",
+      "purpose": "把产品介绍转为互动",
+      "cut": "硬切候选19.042",
+      "continuity": "同一男子下一镜站立，非姿势连续",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0036.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0037.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0038.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0039.jpg"
+      ],
+      "asr_segments": [
+        {
+          "start": 16.6,
+          "end": 18.92,
+          "raw_text": "如果你也喜欢这种翻新工艺",
+          "verified": false
+        },
+        {
+          "start": 18.92,
+          "end": 20.28,
+          "raw_text": "可以给我点个小爱心吗",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 19.042,
+      "end": 20.432,
+      "observation": "紫衣男子与女子握手，另一只手向镜头示意。",
+      "visible_text": "可以给我点个小爱心吗",
+      "script_relation": "互动指令可见，未出现报价或联系方式",
+      "purpose": "点赞引导收尾",
+      "cut": "片尾截断，无尾卡",
+      "continuity": "握手是社交画面，不证明成交",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0040.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\timeline\\frame_0041.jpg"
+      ],
+      "asr_segments": [
+        {
+          "start": 18.92,
+          "end": 20.28,
+          "raw_text": "可以给我点个小爱心吗",
+          "verified": false
+        }
+      ]
+    }
+  ],
+  "structure": "0-1.75旧房/地域，1.75-9.5工法与材料，9.5-12.583效果/性能，12.583-14.292拆除反例，14.292-17.083完成效果，17.083-20.432人物点赞。13个检测候选区间，人工补出旧房→施工、施工→桶、施工→成品三个边界；节奏以0.75-2.5秒短段为主。",
+  "comparison": {
+    "observation": "旧房、覆盖施工和多种成品连续呈现；拆砖是成本反例，不能与不拆不砸施工混淆。没有逐项同机位前后对比证据。",
+    "verified_same_space": false,
+    "uncertainty": "多个案例混剪或不同机位，缺少原始工程与空间身份信息，不能确认同一空间真实前后对比。"
+  },
+  "sound": {
+    "asr_path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\asr.json",
+    "observation": null,
+    "uncertainty": "本地机器识别，未人工全轨试听；声音类别、曲名、BPM及声画卡点未经听辨，不作结论。",
+    "asr_caption_discrepancies": [
+      "ASR胃淘腻/金刚淘腻，与画面微陶泥/金刚陶泥不一致。",
+      "ASR屁瓜三到五毫可耐水方面，与可见皮刮3-5毫克耐水防霉不一致；画面自身亦有疑似术语/单位错写。"
+    ],
+    "machine_alignment_evidence": [
+      {
+        "candidate_cut": 0.75,
+        "segment_start": 0.0,
+        "segment_end": 1.68,
+        "raw_asr_text": "在过一两个月你会发现"
+      },
+      {
+        "candidate_cut": 1.75,
+        "segment_start": 1.68,
+        "segment_end": 3.82,
+        "raw_asr_text": "武汉越来越多的厨房卫生间翻新"
+      },
+      {
+        "candidate_cut": 3.042,
+        "segment_start": 1.68,
+        "segment_end": 3.82,
+        "raw_asr_text": "武汉越来越多的厨房卫生间翻新"
+      },
+      {
+        "candidate_cut": 4.417,
+        "segment_start": 3.82,
+        "segment_end": 5.34,
+        "raw_asr_text": "都流行用这个胃淘腻了"
+      },
+      {
+        "candidate_cut": 5.833,
+        "segment_start": 5.34,
+        "segment_end": 6.62,
+        "raw_asr_text": "也叫金刚淘腻"
+      },
+      {
+        "candidate_cut": 6.833,
+        "segment_start": 6.62,
+        "segment_end": 8.42,
+        "raw_asr_text": "不拆不砸整个卫生间改造"
+      },
+      {
+        "candidate_cut": 8.25,
+        "segment_start": 6.62,
+        "segment_end": 8.42,
+        "raw_asr_text": "不拆不砸整个卫生间改造"
+      },
+      {
+        "candidate_cut": 9.5,
+        "segment_start": 8.42,
+        "segment_end": 10.18,
+        "raw_asr_text": "只需要三天就可以完成"
+      },
+      {
+        "candidate_cut": 10.75,
+        "segment_start": 10.54,
+        "segment_end": 12.34,
+        "raw_asr_text": "屁瓜三到五毫可耐水方面"
+      },
+      {
+        "candidate_cut": 11.75,
+        "segment_start": 10.54,
+        "segment_end": 12.34,
+        "raw_asr_text": "屁瓜三到五毫可耐水方面"
+      },
+      {
+        "candidate_cut": 12.583,
+        "segment_start": 12.34,
+        "segment_end": 14.0,
+        "raw_asr_text": "还省了一大笔拆除费用"
+      },
+      {
+        "candidate_cut": 14.292,
+        "segment_start": 14.0,
+        "segment_end": 16.6,
+        "raw_asr_text": "关键是无缝一体效果高级又便宜"
+      },
+      {
+        "candidate_cut": 15.583,
+        "segment_start": 14.0,
+        "segment_end": 16.6,
+        "raw_asr_text": "关键是无缝一体效果高级又便宜"
+      },
+      {
+        "candidate_cut": 17.083,
+        "segment_start": 16.6,
+        "segment_end": 18.92,
+        "raw_asr_text": "如果你也喜欢这种翻新工艺"
+      },
+      {
+        "candidate_cut": 19.042,
+        "segment_start": 18.92,
+        "segment_end": 20.28,
+        "raw_asr_text": "可以给我点个小爱心吗"
+      }
+    ],
+    "alignment_note": "只比较机器ASR句段与候选画面切点的时间重合，不证明无停顿、声音桥接自然、节拍卡点或音效同步。"
+  },
+  "applicability": [
+    "适用于湿区墙地覆盖工法介绍，需有原房、覆盖施工、材料标签、效果和性能试验素材。",
+    "首帧7天与正文3天不能直接复用；城市、工期和性能先核验。",
+    "现有共享库未清洗，不能声称对应镜头已可用。"
+  ],
+  "uncertainties": [
+    "画面按0.5秒采样逐页查看，未连续播放；采样间小于0.5秒的动作、字幕和切换可能漏掉。",
+    "自动切点仅为候选；手动补点精度为采样区间，未做逐帧确认。",
+    "尚未人工全片试听，音乐、重音、节拍、声音桥接和环境音均未验证。",
+    "平台爆款效果为用户提供，缺少原始播放及转化数据，不能把剪辑特征当作效果因果。",
+    "片中文字中的工期、价格、厚度及性能是广告主张，画面不独立证明真实可兑现。",
+    "首帧7天翻新与9-10.5秒只需3天存在口径冲突。",
+    "字幕也叫金刚陶泥与桶身金钢陶泥字形不同，需品牌/术语核对。",
+    "11秒原分辨率补帧读为皮刮3-5毫克耐水防霉，术语皮刮及单位毫克需人工核对，不改成标准写法。",
+    "额外补帧按请求seek时间标记，落到临近源帧；补出的短镜头边界仍为近似，不把seek时间当逐帧精确切点。"
+  ],
+  "rule_candidates": [
+    {
+      "rule": "用旧瓷砖现场先定义问题，再插入材料包装把抽象工法落到可识别对象",
+      "agent": "分镜 Agent",
+      "example_time": "R12 0-6.833秒",
+      "condition": "已有真实旧房和产品包装素材",
+      "evidence_level": "inference"
+    },
+    {
+      "rule": "喷水画面只能支持短时水流演示，耐水、防霉、厚度分别要求证据",
+      "agent": "审核 Agent",
+      "example_time": "R12 10.75-12.583秒",
+      "condition": "出现性能类承诺",
+      "evidence_level": "inference"
+    },
+    {
+      "rule": "负面拆除插镜要标成方案对照，不能误编入当前不拆施工过程",
+      "agent": "剪辑 Agent",
+      "example_time": "R12 12.583-14.292秒",
+      "condition": "素材混有替代工法",
+      "evidence_level": "inference"
+    },
+    {
+      "rule": "人物摸成品后请求点赞适用于互动目标；预约目标需另写真实下一步",
+      "agent": "文案 Agent",
+      "example_time": "R12 17.083-20.432秒",
+      "condition": "当前目标是互动，不能把点赞视作线索转化",
+      "evidence_level": "inference"
+    }
+  ],
+  "supplemental_visual_evidence": [
+    {
+      "id": "R12",
+      "requested_time": 11.0,
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\visual-second-supplement\\R12-11.000.jpg"
+    }
+  ],
+  "asr_segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 1.68,
+      "text": "在过一两个月你会发现",
+      "avg_logprob": -0.23964773361978967,
+      "no_speech_prob": 0.006714814342558384,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.18,
+          "word": "在",
+          "probability": 0.7301133871078491
+        },
+        {
+          "start": 0.18,
+          "end": 0.3,
+          "word": "过",
+          "probability": 0.5404808521270752
+        },
+        {
+          "start": 0.3,
+          "end": 0.42,
+          "word": "一",
+          "probability": 0.7231311202049255
+        },
+        {
+          "start": 0.42,
+          "end": 0.56,
+          "word": "两",
+          "probability": 0.9875383377075195
+        },
+        {
+          "start": 0.56,
+          "end": 0.66,
+          "word": "个",
+          "probability": 0.9989957213401794
+        },
+        {
+          "start": 0.66,
+          "end": 0.8,
+          "word": "月",
+          "probability": 0.9980258941650391
+        },
+        {
+          "start": 0.8,
+          "end": 0.94,
+          "word": "你",
+          "probability": 0.8589246869087219
+        },
+        {
+          "start": 0.94,
+          "end": 1.04,
+          "word": "会",
+          "probability": 0.997941792011261
+        },
+        {
+          "start": 1.04,
+          "end": 1.2,
+          "word": "发",
+          "probability": 0.9986754059791565
+        },
+        {
+          "start": 1.2,
+          "end": 1.68,
+          "word": "现",
+          "probability": 0.9972708821296692
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 1.68,
+      "end": 3.82,
+      "text": "武汉越来越多的厨房卫生间翻新",
+      "avg_logprob": -0.23964773361978967,
+      "no_speech_prob": 0.006714814342558384,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 1.68,
+          "end": 1.88,
+          "word": "武",
+          "probability": 0.7355946898460388
+        },
+        {
+          "start": 1.88,
+          "end": 2.02,
+          "word": "汉",
+          "probability": 0.998410552740097
+        },
+        {
+          "start": 2.02,
+          "end": 2.16,
+          "word": "越",
+          "probability": 0.9870001673698425
+        },
+        {
+          "start": 2.16,
+          "end": 2.26,
+          "word": "来",
+          "probability": 0.999415397644043
+        },
+        {
+          "start": 2.26,
+          "end": 2.38,
+          "word": "越",
+          "probability": 0.9992929697036743
+        },
+        {
+          "start": 2.38,
+          "end": 2.52,
+          "word": "多",
+          "probability": 0.9997828602790833
+        },
+        {
+          "start": 2.52,
+          "end": 2.66,
+          "word": "的",
+          "probability": 0.9958779811859131
+        },
+        {
+          "start": 2.66,
+          "end": 2.84,
+          "word": "厨",
+          "probability": 0.987907737493515
+        },
+        {
+          "start": 2.84,
+          "end": 3.02,
+          "word": "房",
+          "probability": 0.9992005228996277
+        },
+        {
+          "start": 3.02,
+          "end": 3.12,
+          "word": "卫",
+          "probability": 0.9974466860294342
+        },
+        {
+          "start": 3.12,
+          "end": 3.26,
+          "word": "生",
+          "probability": 0.9945265650749207
+        },
+        {
+          "start": 3.26,
+          "end": 3.4,
+          "word": "间",
+          "probability": 0.9556286931037903
+        },
+        {
+          "start": 3.4,
+          "end": 3.6,
+          "word": "翻",
+          "probability": 0.6128194332122803
+        },
+        {
+          "start": 3.6,
+          "end": 3.82,
+          "word": "新",
+          "probability": 0.8578246235847473
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 3.82,
+      "end": 5.34,
+      "text": "都流行用这个胃淘腻了",
+      "avg_logprob": -0.23964773361978967,
+      "no_speech_prob": 0.006714814342558384,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 3.82,
+          "end": 4.16,
+          "word": "都",
+          "probability": 0.8299548029899597
+        },
+        {
+          "start": 4.16,
+          "end": 4.3,
+          "word": "流",
+          "probability": 0.986855685710907
+        },
+        {
+          "start": 4.3,
+          "end": 4.42,
+          "word": "行",
+          "probability": 0.9811092615127563
+        },
+        {
+          "start": 4.42,
+          "end": 4.56,
+          "word": "用",
+          "probability": 0.9938434362411499
+        },
+        {
+          "start": 4.56,
+          "end": 4.7,
+          "word": "这个",
+          "probability": 0.978087306022644
+        },
+        {
+          "start": 4.7,
+          "end": 4.88,
+          "word": "胃",
+          "probability": 0.649403989315033
+        },
+        {
+          "start": 4.88,
+          "end": 4.98,
+          "word": "淘",
+          "probability": 0.5775635465979576
+        },
+        {
+          "start": 4.98,
+          "end": 5.16,
+          "word": "腻",
+          "probability": 0.6662373691797256
+        },
+        {
+          "start": 5.16,
+          "end": 5.34,
+          "word": "了",
+          "probability": 0.9158959984779358
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 5.34,
+      "end": 6.62,
+      "text": "也叫金刚淘腻",
+      "avg_logprob": -0.23964773361978967,
+      "no_speech_prob": 0.006714814342558384,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 5.34,
+          "end": 5.84,
+          "word": "也",
+          "probability": 0.8319621682167053
+        },
+        {
+          "start": 5.84,
+          "end": 5.96,
+          "word": "叫",
+          "probability": 0.894461989402771
+        },
+        {
+          "start": 5.96,
+          "end": 6.12,
+          "word": "金",
+          "probability": 0.9265605211257935
+        },
+        {
+          "start": 6.12,
+          "end": 6.26,
+          "word": "刚",
+          "probability": 0.803368866443634
+        },
+        {
+          "start": 6.26,
+          "end": 6.42,
+          "word": "淘",
+          "probability": 0.9963862895965576
+        },
+        {
+          "start": 6.42,
+          "end": 6.62,
+          "word": "腻",
+          "probability": 0.9803944826126099
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 6.62,
+      "end": 8.42,
+      "text": "不拆不砸整个卫生间改造",
+      "avg_logprob": -0.23964773361978967,
+      "no_speech_prob": 0.006714814342558384,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 6.62,
+          "end": 6.92,
+          "word": "不",
+          "probability": 0.7345696091651917
+        },
+        {
+          "start": 6.92,
+          "end": 7.06,
+          "word": "拆",
+          "probability": 0.989919513463974
+        },
+        {
+          "start": 7.06,
+          "end": 7.22,
+          "word": "不",
+          "probability": 0.9716704487800598
+        },
+        {
+          "start": 7.22,
+          "end": 7.34,
+          "word": "砸",
+          "probability": 0.7651822865009308
+        },
+        {
+          "start": 7.34,
+          "end": 7.52,
+          "word": "整",
+          "probability": 0.8810662627220154
+        },
+        {
+          "start": 7.52,
+          "end": 7.64,
+          "word": "个",
+          "probability": 0.9982220530509949
+        },
+        {
+          "start": 7.64,
+          "end": 7.76,
+          "word": "卫",
+          "probability": 0.9978402554988861
+        },
+        {
+          "start": 7.76,
+          "end": 7.9,
+          "word": "生",
+          "probability": 0.9997782111167908
+        },
+        {
+          "start": 7.9,
+          "end": 8.06,
+          "word": "间",
+          "probability": 0.9765920042991638
+        },
+        {
+          "start": 8.06,
+          "end": 8.22,
+          "word": "改",
+          "probability": 0.9987412095069885
+        },
+        {
+          "start": 8.22,
+          "end": 8.42,
+          "word": "造",
+          "probability": 0.9949253797531128
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 8.42,
+      "end": 10.18,
+      "text": "只需要三天就可以完成",
+      "avg_logprob": -0.23964773361978967,
+      "no_speech_prob": 0.006714814342558384,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 8.42,
+          "end": 8.94,
+          "word": "只",
+          "probability": 0.9777625203132629
+        },
+        {
+          "start": 8.94,
+          "end": 9.16,
+          "word": "需要",
+          "probability": 0.9915109276771545
+        },
+        {
+          "start": 9.16,
+          "end": 9.36,
+          "word": "三",
+          "probability": 0.9008144736289978
+        },
+        {
+          "start": 9.36,
+          "end": 9.56,
+          "word": "天",
+          "probability": 0.9995757937431335
+        },
+        {
+          "start": 9.56,
+          "end": 9.8,
+          "word": "就可以",
+          "probability": 0.9920451641082764
+        },
+        {
+          "start": 9.8,
+          "end": 10.18,
+          "word": "完成",
+          "probability": 0.999259889125824
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 10.54,
+      "end": 12.34,
+      "text": "屁瓜三到五毫可耐水方面",
+      "avg_logprob": -0.23964773361978967,
+      "no_speech_prob": 0.006714814342558384,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 10.54,
+          "end": 10.86,
+          "word": "屁",
+          "probability": 0.5711682513356209
+        },
+        {
+          "start": 10.86,
+          "end": 11.0,
+          "word": "瓜",
+          "probability": 0.5519050359725952
+        },
+        {
+          "start": 11.0,
+          "end": 11.18,
+          "word": "三",
+          "probability": 0.553412139415741
+        },
+        {
+          "start": 11.18,
+          "end": 11.32,
+          "word": "到",
+          "probability": 0.4982278645038605
+        },
+        {
+          "start": 11.32,
+          "end": 11.5,
+          "word": "五",
+          "probability": 0.9616913795471191
+        },
+        {
+          "start": 11.5,
+          "end": 11.66,
+          "word": "毫",
+          "probability": 0.9808711409568787
+        },
+        {
+          "start": 11.66,
+          "end": 11.84,
+          "word": "可",
+          "probability": 0.6934083104133606
+        },
+        {
+          "start": 11.84,
+          "end": 11.94,
+          "word": "耐",
+          "probability": 0.9105820655822754
+        },
+        {
+          "start": 11.94,
+          "end": 12.08,
+          "word": "水",
+          "probability": 0.9995243549346924
+        },
+        {
+          "start": 12.08,
+          "end": 12.34,
+          "word": "方面",
+          "probability": 0.6215531229972839
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 12.34,
+      "end": 14.0,
+      "text": "还省了一大笔拆除费用",
+      "avg_logprob": -0.23964773361978967,
+      "no_speech_prob": 0.006714814342558384,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 12.34,
+          "end": 12.72,
+          "word": "还",
+          "probability": 0.9801251888275146
+        },
+        {
+          "start": 12.72,
+          "end": 12.88,
+          "word": "省",
+          "probability": 0.9018121957778931
+        },
+        {
+          "start": 12.88,
+          "end": 12.96,
+          "word": "了",
+          "probability": 0.8855666518211365
+        },
+        {
+          "start": 12.96,
+          "end": 13.04,
+          "word": "一",
+          "probability": 0.9926321506500244
+        },
+        {
+          "start": 13.04,
+          "end": 13.16,
+          "word": "大",
+          "probability": 0.9978671073913574
+        },
+        {
+          "start": 13.16,
+          "end": 13.28,
+          "word": "笔",
+          "probability": 0.9947521090507507
+        },
+        {
+          "start": 13.28,
+          "end": 13.44,
+          "word": "拆",
+          "probability": 0.9971308410167694
+        },
+        {
+          "start": 13.44,
+          "end": 13.6,
+          "word": "除",
+          "probability": 0.5703373551368713
+        },
+        {
+          "start": 13.6,
+          "end": 13.78,
+          "word": "费",
+          "probability": 0.9974710047245026
+        },
+        {
+          "start": 13.78,
+          "end": 14.0,
+          "word": "用",
+          "probability": 0.9990378618240356
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 14.0,
+      "end": 16.6,
+      "text": "关键是无缝一体效果高级又便宜",
+      "avg_logprob": -0.23964773361978967,
+      "no_speech_prob": 0.006714814342558384,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 14.0,
+          "end": 14.42,
+          "word": "关",
+          "probability": 0.9761836528778076
+        },
+        {
+          "start": 14.42,
+          "end": 14.56,
+          "word": "键",
+          "probability": 0.99808269739151
+        },
+        {
+          "start": 14.56,
+          "end": 14.68,
+          "word": "是",
+          "probability": 0.9942545294761658
+        },
+        {
+          "start": 14.68,
+          "end": 14.84,
+          "word": "无",
+          "probability": 0.979596734046936
+        },
+        {
+          "start": 14.84,
+          "end": 14.98,
+          "word": "缝",
+          "probability": 0.9950603246688843
+        },
+        {
+          "start": 14.98,
+          "end": 15.12,
+          "word": "一",
+          "probability": 0.793906569480896
+        },
+        {
+          "start": 15.12,
+          "end": 15.2,
+          "word": "体",
+          "probability": 0.8446105122566223
+        },
+        {
+          "start": 15.2,
+          "end": 15.4,
+          "word": "效",
+          "probability": 0.9978297352790833
+        },
+        {
+          "start": 15.4,
+          "end": 15.64,
+          "word": "果",
+          "probability": 0.9992857575416565
+        },
+        {
+          "start": 15.64,
+          "end": 15.84,
+          "word": "高",
+          "probability": 0.8944055438041687
+        },
+        {
+          "start": 15.84,
+          "end": 16.02,
+          "word": "级",
+          "probability": 0.9717012345790863
+        },
+        {
+          "start": 16.02,
+          "end": 16.1,
+          "word": "又",
+          "probability": 0.4069109559059143
+        },
+        {
+          "start": 16.1,
+          "end": 16.32,
+          "word": "便",
+          "probability": 0.9995430707931519
+        },
+        {
+          "start": 16.32,
+          "end": 16.6,
+          "word": "宜",
+          "probability": 0.999656617641449
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 16.6,
+      "end": 18.92,
+      "text": "如果你也喜欢这种翻新工艺",
+      "avg_logprob": -0.23964773361978967,
+      "no_speech_prob": 0.006714814342558384,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 16.6,
+          "end": 17.24,
+          "word": "如果你",
+          "probability": 0.741546630859375
+        },
+        {
+          "start": 17.24,
+          "end": 17.42,
+          "word": "也",
+          "probability": 0.5784545540809631
+        },
+        {
+          "start": 17.42,
+          "end": 17.62,
+          "word": "喜欢",
+          "probability": 0.9995604157447815
+        },
+        {
+          "start": 17.62,
+          "end": 17.8,
+          "word": "这",
+          "probability": 0.9981837868690491
+        },
+        {
+          "start": 17.8,
+          "end": 17.92,
+          "word": "种",
+          "probability": 0.999440610408783
+        },
+        {
+          "start": 17.92,
+          "end": 18.08,
+          "word": "翻",
+          "probability": 0.9762343764305115
+        },
+        {
+          "start": 18.08,
+          "end": 18.26,
+          "word": "新",
+          "probability": 0.9736118912696838
+        },
+        {
+          "start": 18.26,
+          "end": 18.42,
+          "word": "工",
+          "probability": 0.9018984436988831
+        },
+        {
+          "start": 18.42,
+          "end": 18.92,
+          "word": "艺",
+          "probability": 0.9952253103256226
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 18.92,
+      "end": 20.28,
+      "text": "可以给我点个小爱心吗",
+      "avg_logprob": -0.23964773361978967,
+      "no_speech_prob": 0.006714814342558384,
+      "compression_ratio": 1.2508833922261484,
+      "words": [
+        {
+          "start": 18.92,
+          "end": 19.26,
+          "word": "可以",
+          "probability": 0.9163686633110046
+        },
+        {
+          "start": 19.26,
+          "end": 19.46,
+          "word": "给我",
+          "probability": 0.9973331689834595
+        },
+        {
+          "start": 19.46,
+          "end": 19.6,
+          "word": "点",
+          "probability": 0.9990147352218628
+        },
+        {
+          "start": 19.6,
+          "end": 19.68,
+          "word": "个",
+          "probability": 0.9884549379348755
+        },
+        {
+          "start": 19.68,
+          "end": 19.82,
+          "word": "小",
+          "probability": 0.9989017248153687
+        },
+        {
+          "start": 19.82,
+          "end": 19.98,
+          "word": "爱",
+          "probability": 0.8533613085746765
+        },
+        {
+          "start": 19.98,
+          "end": 20.14,
+          "word": "心",
+          "probability": 0.9985792636871338
+        },
+        {
+          "start": 20.14,
+          "end": 20.28,
+          "word": "吗",
+          "probability": 0.7105340361595154
+        }
+      ]
+    }
+  ],
+  "timing_summary": {
+    "recorded_segment_count": 16,
+    "median_seconds": 1.292,
+    "min_seconds": 0.75,
+    "max_seconds": 1.959,
+    "boundary_status": "候选检测加采样观察修订，非逐帧实播核验；语义分段不等于镜头数"
+  },
+  "evidence_path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\evidence.json",
+  "updated_at": "2026-10-01T13:19:15.965220+08:00"
+}

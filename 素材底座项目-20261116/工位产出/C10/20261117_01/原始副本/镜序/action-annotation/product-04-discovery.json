@@ -1,0 +1,29 @@
+{
+  "rows": [
+    {
+      "id": "986f57f8e85fe933b092a1a7e5d9dfe2",
+      "name": "23540_小区_批刮施工.MOV",
+      "root": "xiaoq",
+      "rel": "嘉贝乐-厨卫换新视频素材/厨卫焕新视频素材/04.批刮G200/23540_小区_批刮施工.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\嘉贝乐-厨卫换新视频素材\\厨卫焕新视频素材\\04.批刮G200\\23540_小区_批刮施工.MOV",
+      "duration": 41.135,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\986f57f8e85fe933b092a1a7e5d9dfe2.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "0131657ceb69c229c36b92b9285aa255",
+      "name": "33906_小区_批刮施工.MP4",
+      "root": "xiaoq",
+      "rel": "展厅/墙面批刮/33906_小区_批刮施工.MP4",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\展厅\\墙面批刮\\33906_小区_批刮施工.MP4",
+      "duration": 14.746667,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\0131657ceb69c229c36b92b9285aa255.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    }
+  ],
+  "errors": []
+}

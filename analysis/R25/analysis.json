@@ -1,0 +1,1334 @@
+{
+  "id": "R25",
+  "source_name": "1797253221.mov",
+  "duration": 19.202,
+  "status": "completed_with_gaps",
+  "coverage": {
+    "visual_sampling_interval_seconds": 0.5,
+    "visual_reviewed": true,
+    "audio_asr": true,
+    "human_full_listening": false,
+    "full_playback": false
+  },
+  "summary": "邯郸新房卖不出去冲突→团队入户→低价开工/3天旧新呈现→保护、涂刷、水电及包工包料→清洁一站式→当天使用→点赞换免费量房方案。多步骤服务强，拆改镜头与不拆不砸封面需要范围解释。",
+  "opening": {
+    "start": 0,
+    "end": 2.533,
+    "observation": "邯郸定位与城市建筑全景，卖不出去大字强化房地产冲突",
+    "inference": "城市指向为可见字幕，航拍位置和新房趋势不由画面确认"
+  },
+  "ending": {
+    "start": 16.133,
+    "end": 19.202,
+    "observation": "运输人物请求点赞，再接楼道同行和免费量房方案字幕",
+    "inference": "将互动与服务利益连接，需明确点赞是否真为服务条件及预约路径"
+  },
+  "shots": [
+    {
+      "index": 1,
+      "start": 0,
+      "end": 2.533,
+      "observation": "城市建筑全景，叠邯郸定位及红黄色卖不出去大字",
+      "visible_text": "首帧邯郸旧房翻新／瓷砖不拆不砸换新家；恐怕以后邯郸的新房子都要卖不出去了",
+      "script_relation": "ASR寒丹误识；航拍图未证明拍摄于邯郸，房地产预测无独立依据",
+      "purpose": "城市冲突钩子",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0001.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0004.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0006.jpg"
+      ]
+    },
+    {
+      "index": 2,
+      "start": 2.533,
+      "end": 3.5,
+      "observation": "黑羽绒男子与紫马甲男子在旧式楼外向镜头前行",
+      "visible_text": "邯郸来了一支",
+      "script_relation": "ASR2.44-5.76团队长句；人物身份待核验",
+      "purpose": "团队出现",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0007.jpg"
+      ]
+    },
+    {
+      "index": 3,
+      "start": 3.5,
+      "end": 4.767,
+      "observation": "紫衣男子提多桶材料入户，旁有年长女子",
+      "visible_text": "最省心省钱的",
+      "script_relation": "同句跨镜，入户运输具体可见",
+      "purpose": "服务进入现场",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0008.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0009.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0010.jpg"
+      ]
+    },
+    {
+      "index": 4,
+      "start": 4.767,
+      "end": 5.833,
+      "observation": "两名黑衣男子与黑衣女子在旧厨房沟通",
+      "visible_text": "旧房改造团队",
+      "script_relation": "ASR同句；同框不证明成交或客户关系",
+      "purpose": "现场沟通",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0011.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0012.jpg"
+      ]
+    },
+    {
+      "index": 5,
+      "start": 5.833,
+      "end": 6.9,
+      "observation": "工人站脚手架铲除屋顶旧表层，部分旧层脱落",
+      "visible_text": "几千块就能开工",
+      "script_relation": "ASR5.76-7.32；操作不是报价依据",
+      "purpose": "开工动作",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0013.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0014.jpg"
+      ]
+    },
+    {
+      "index": 6,
+      "start": 6.9,
+      "end": 8.3,
+      "observation": "老旧厨房，旧柜、砖面与蓝色窗面",
+      "visible_text": "3天时间让老房子焕然一新",
+      "script_relation": "ASR7.32-8.74；旧状态呈现",
+      "purpose": "旧厨房",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0015.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0016.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0017.jpg"
+      ]
+    },
+    {
+      "index": 7,
+      "start": 8.3,
+      "end": 8.833,
+      "observation": "浅色成品厨房，白色柜门、黑烟机与灶台",
+      "visible_text": "3天时间让老房子焕然一新",
+      "script_relation": "同句旧新对照；无原始同户与工期证据",
+      "purpose": "新厨房",
+      "cut": "约8.3秒补候选，8.0旧厨房、8.5新厨房；自动检测合并",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0018.jpg"
+      ]
+    },
+    {
+      "index": 8,
+      "start": 8.833,
+      "end": 9.367,
+      "observation": "紫马甲男子在红色地面铺带印字的保护膜",
+      "visible_text": "不用搬家",
+      "script_relation": "ASR8.74-9.78；可见保护动作，不证明一直入住",
+      "purpose": "省心服务一",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0019.jpg"
+      ]
+    },
+    {
+      "index": 9,
+      "start": 9.367,
+      "end": 9.833,
+      "observation": "紫马甲男子在已铺保护膜室内持长柄工具涂刷",
+      "visible_text": "不用操心",
+      "script_relation": "同句承接，涂刷服务",
+      "purpose": "省心服务二",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0020.jpg"
+      ]
+    },
+    {
+      "index": 10,
+      "start": 9.833,
+      "end": 10.633,
+      "observation": "戴帽工人在墙面持圆盘切割工具，切槽与墙线可见",
+      "visible_text": "水电防水",
+      "script_relation": "ASR水电/绑水；画面更接近开槽，未直接展示防水",
+      "purpose": "工序范围提示",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0021.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0022.jpg"
+      ]
+    },
+    {
+      "index": 11,
+      "start": 10.633,
+      "end": 11.967,
+      "observation": "紫衣男子从汽车后备箱搬取材料桶",
+      "visible_text": "人工材料我们全包",
+      "script_relation": "ASR10.58-11.88“全保”误识；搬材料仅证明该动作",
+      "purpose": "材料交付",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0023.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0024.jpg"
+      ]
+    },
+    {
+      "index": 12,
+      "start": 11.967,
+      "end": 12.633,
+      "observation": "红围裙清洁人员在室内用扫帚扫碎屑",
+      "visible_text": "连最后的卫生",
+      "script_relation": "ASR11.88-13.54",
+      "purpose": "清洁服务一",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0025.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0026.jpg"
+      ]
+    },
+    {
+      "index": 13,
+      "start": 12.633,
+      "end": 13.633,
+      "observation": "两名清洁人员将碎屑装入大袋",
+      "visible_text": "都不用你操心",
+      "script_relation": "同句跨镜；可见装袋动作",
+      "purpose": "清洁服务二",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0027.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0028.jpg"
+      ]
+    },
+    {
+      "index": 14,
+      "start": 13.633,
+      "end": 14.033,
+      "observation": "深衣男子室内向门框/墙面伸手，房间有施工保护层",
+      "visible_text": "我们一站式服务",
+      "script_relation": "ASR“一战是服务”",
+      "purpose": "整合服务提示",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0029.jpg"
+      ]
+    },
+    {
+      "index": 15,
+      "start": 14.033,
+      "end": 14.467,
+      "observation": "戴口罩工人在旧顶棚下持长工具操作，取自候选中帧",
+      "visible_text": "我们一站式服务",
+      "script_relation": "同句承接；0.5秒序列未覆盖此短镜，已查候选图",
+      "purpose": "补充施工短镜",
+      "cut": "自动候选14.033-14.467；已查中帧，准确动作和切点仍需实播",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": []
+    },
+    {
+      "index": 16,
+      "start": 14.467,
+      "end": 16.133,
+      "observation": "成品客厅长景，灯带、沙发、电视与浅色地面",
+      "visible_text": "当天改完／当天就可以使用",
+      "script_relation": "ASR14.4-16.08；画面无完工日期和养护时序",
+      "purpose": "结果交付说法",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0030.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0032.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0033.jpg"
+      ]
+    },
+    {
+      "index": 17,
+      "start": 16.133,
+      "end": 17.567,
+      "observation": "白衣男子在旧式楼道持纸箱与材料桶向镜头讲话",
+      "visible_text": "只要你给这条视频点个赞",
+      "script_relation": "ASR16.08-17.5",
+      "purpose": "点赞行动",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0034.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0035.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0036.jpg"
+      ]
+    },
+    {
+      "index": 18,
+      "start": 17.567,
+      "end": 19.202,
+      "observation": "紫衣男子与年长女子沿旧楼道背向镜头前行",
+      "visible_text": "我们免费上门量房出方案",
+      "script_relation": "ASR17.5-19.14；人物同行不证明免费条件已兑现",
+      "purpose": "服务利益收尾",
+      "cut": "边界按候选检测并结合0.5秒序列修订；逐帧准确切点待核验",
+      "continuity": "语义承接判断；动作、运镜与声音连续性未由连续播放验证",
+      "evidence_frames": [
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0037.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0038.jpg",
+        "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\timeline\\frame_0039.jpg"
+      ]
+    }
+  ],
+  "structure": "新房冲突→团队入户→低价开工→3天旧新→保护/涂刷/开槽/材料→清洁/施工→当天使用→点赞/免费量房方案。",
+  "comparison": {
+    "observation": "6.9-8.833旧厨房接新厨房，未取得同户同位映射；14.467成品客厅也不自动属于同一工程。",
+    "verified_same_space": false,
+    "uncertainty": "未取得原始同户项目映射；成品与施工画面不能证明同一空间或施工周期。"
+  },
+  "sound": {
+    "asr_path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\asr.json",
+    "observation": null,
+    "uncertainty": "本地机器识别，未人工全轨试听；声音类别、曲名、BPM及声画卡点未经听辨，不作结论。",
+    "machine_alignment_evidence": [
+      {
+        "candidate_cut": 2.533,
+        "segment_start": 2.44,
+        "segment_end": 5.76,
+        "raw_asr_text": "寒丹来了一支最省心省钱的旧房改造团队"
+      },
+      {
+        "candidate_cut": 3.5,
+        "segment_start": 2.44,
+        "segment_end": 5.76,
+        "raw_asr_text": "寒丹来了一支最省心省钱的旧房改造团队"
+      },
+      {
+        "candidate_cut": 4.767,
+        "segment_start": 2.44,
+        "segment_end": 5.76,
+        "raw_asr_text": "寒丹来了一支最省心省钱的旧房改造团队"
+      },
+      {
+        "candidate_cut": 5.833,
+        "segment_start": 5.76,
+        "segment_end": 7.32,
+        "raw_asr_text": "几千块就能开工三天时间"
+      },
+      {
+        "candidate_cut": 6.9,
+        "segment_start": 5.76,
+        "segment_end": 7.32,
+        "raw_asr_text": "几千块就能开工三天时间"
+      },
+      {
+        "candidate_cut": 8.3,
+        "segment_start": 7.32,
+        "segment_end": 8.74,
+        "raw_asr_text": "让老房子幻然一新"
+      },
+      {
+        "candidate_cut": 8.833,
+        "segment_start": 8.74,
+        "segment_end": 9.78,
+        "raw_asr_text": "不用搬家不用操心"
+      },
+      {
+        "candidate_cut": 9.367,
+        "segment_start": 8.74,
+        "segment_end": 9.78,
+        "raw_asr_text": "不用搬家不用操心"
+      },
+      {
+        "candidate_cut": 9.833,
+        "segment_start": 9.78,
+        "segment_end": 10.2,
+        "raw_asr_text": "水电"
+      },
+      {
+        "candidate_cut": 10.633,
+        "segment_start": 10.58,
+        "segment_end": 11.36,
+        "raw_asr_text": "人工材料"
+      },
+      {
+        "candidate_cut": 11.967,
+        "segment_start": 11.88,
+        "segment_end": 13.54,
+        "raw_asr_text": "连最后的卫生都不用你操心"
+      },
+      {
+        "candidate_cut": 12.633,
+        "segment_start": 11.88,
+        "segment_end": 13.54,
+        "raw_asr_text": "连最后的卫生都不用你操心"
+      },
+      {
+        "candidate_cut": 13.633,
+        "segment_start": 13.54,
+        "segment_end": 14.4,
+        "raw_asr_text": "我们一战是服务"
+      },
+      {
+        "candidate_cut": 14.033,
+        "segment_start": 13.54,
+        "segment_end": 14.4,
+        "raw_asr_text": "我们一战是服务"
+      },
+      {
+        "candidate_cut": 14.467,
+        "segment_start": 14.4,
+        "segment_end": 16.08,
+        "raw_asr_text": "当天改完当天就可以使用"
+      },
+      {
+        "candidate_cut": 16.133,
+        "segment_start": 16.08,
+        "segment_end": 17.5,
+        "raw_asr_text": "只要你给这条视频点个赞"
+      },
+      {
+        "candidate_cut": 17.567,
+        "segment_start": 17.5,
+        "segment_end": 19.14,
+        "raw_asr_text": "我们免费上门量房出方案"
+      }
+    ],
+    "alignment_note": "只比较机器ASR句段与候选画面切点的时间重合，不证明无停顿、声音桥接自然、节拍卡点或音效同步。"
+  },
+  "applicability": [
+    "适用于可真实交付保护、工序、材料和清洁的一站式服务。",
+    "3天、几千块、当天使用、免费方案必须核定工程范围和条件。",
+    "与文案库可能同结构但不是逐字或同项目映射，邯郸和本片措辞独立保留。"
+  ],
+  "uncertainties": [
+    "机器ASR有材料名、地名和同音字误识；保留原文，可见字幕另记，不把字幕当听到的声音。",
+    "0.5秒采样可能遗漏短镜头、动作和字幕；切点为候选或约值，非全片实播逐帧审核。",
+    "价格、工期、性能和占比仅为参考片表达，未核实业务适用性。",
+    "无平台原始效果数据，不能证明这些特征导致爆款。"
+  ],
+  "rule_candidates": [
+    {
+      "agent": "文案",
+      "rule": "一站式服务利益按保护、施工、材料、清洁逐项兑现表达",
+      "example_time": "8.833-14.467",
+      "condition": "真实服务清单和对应过程素材齐全",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "分镜",
+      "rule": "服务流程用不同动作承接，同句可跨扫地和装袋",
+      "example_time": "11.967-13.633",
+      "condition": "确有清洁服务，不把无关旧工地当当前项目",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "素材",
+      "rule": "旧新厨房要登记配对，补原始拍摄角度与项目ID",
+      "example_time": "6.9-8.833",
+      "condition": "没有同项目证明时标示意对照",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "配音",
+      "rule": "地名与服务词核听，ASR寒丹/绑水/全保/一战是不得直接继承",
+      "example_time": "0-19.14",
+      "condition": "原始音轨人工校对后再作为脚本",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "剪辑",
+      "rule": "极短施工镜头用候选中帧补查，但精确动作仍需实播",
+      "example_time": "13.633-14.467",
+      "condition": "0.5秒序列可能漏短镜，不按序列可见帧等同完整播放",
+      "evidence_level": "inference"
+    },
+    {
+      "agent": "审核",
+      "rule": "不拆不砸封面与铲顶、开槽、碎屑清理镜头说明工程范围",
+      "example_time": "0；5.833-6.9；9.833-10.633；11.967-13.633",
+      "condition": "局部旧层处理、水电开槽与主体免拆的范围可解释",
+      "evidence_level": "inference"
+    }
+  ],
+  "asr_review": {
+    "reliability": "low_for_exact_wording",
+    "human_verified": false,
+    "visible_subtitle_disagreements": [
+      "寒丹→字幕邯郸",
+      "幻然一新→字幕焕然一新",
+      "绑水→字幕防水",
+      "全保→字幕全包",
+      "一战是→字幕一站式"
+    ],
+    "note": "地名和业务术语多处同音误识，字幕另存未覆盖ASR。"
+  },
+  "asr_segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 2.44,
+      "text": "恐怕以后寒丹的新房子都要卖不出去了",
+      "avg_logprob": -0.15720413069753253,
+      "no_speech_prob": 0.6105135679244995,
+      "compression_ratio": 1.3079584775086506,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.18,
+          "word": "恐",
+          "probability": 0.83253413438797
+        },
+        {
+          "start": 0.18,
+          "end": 0.38,
+          "word": "怕",
+          "probability": 0.9989786148071289
+        },
+        {
+          "start": 0.38,
+          "end": 0.5,
+          "word": "以",
+          "probability": 0.9860433340072632
+        },
+        {
+          "start": 0.5,
+          "end": 0.6,
+          "word": "后",
+          "probability": 0.5919299125671387
+        },
+        {
+          "start": 0.6,
+          "end": 0.84,
+          "word": "寒",
+          "probability": 0.6562554091215134
+        },
+        {
+          "start": 0.84,
+          "end": 0.96,
+          "word": "丹",
+          "probability": 0.8115546703338623
+        },
+        {
+          "start": 0.96,
+          "end": 1.06,
+          "word": "的",
+          "probability": 0.9650380611419678
+        },
+        {
+          "start": 1.06,
+          "end": 1.24,
+          "word": "新",
+          "probability": 0.996118426322937
+        },
+        {
+          "start": 1.24,
+          "end": 1.44,
+          "word": "房",
+          "probability": 0.9969474673271179
+        },
+        {
+          "start": 1.44,
+          "end": 1.68,
+          "word": "子",
+          "probability": 0.9983996748924255
+        },
+        {
+          "start": 1.68,
+          "end": 1.78,
+          "word": "都",
+          "probability": 0.9671682119369507
+        },
+        {
+          "start": 1.78,
+          "end": 1.86,
+          "word": "要",
+          "probability": 0.9498607516288757
+        },
+        {
+          "start": 1.86,
+          "end": 1.98,
+          "word": "卖",
+          "probability": 0.9695406854152679
+        },
+        {
+          "start": 1.98,
+          "end": 2.08,
+          "word": "不",
+          "probability": 0.996954083442688
+        },
+        {
+          "start": 2.08,
+          "end": 2.2,
+          "word": "出",
+          "probability": 0.9817334413528442
+        },
+        {
+          "start": 2.2,
+          "end": 2.44,
+          "word": "去了",
+          "probability": 0.9986153841018677
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 2.44,
+      "end": 5.76,
+      "text": "寒丹来了一支最省心省钱的旧房改造团队",
+      "avg_logprob": -0.15720413069753253,
+      "no_speech_prob": 0.6105135679244995,
+      "compression_ratio": 1.3079584775086506,
+      "words": [
+        {
+          "start": 2.44,
+          "end": 2.62,
+          "word": "寒",
+          "probability": 0.9764975309371948
+        },
+        {
+          "start": 2.62,
+          "end": 2.84,
+          "word": "丹",
+          "probability": 0.9999024868011475
+        },
+        {
+          "start": 2.84,
+          "end": 2.98,
+          "word": "来了",
+          "probability": 0.9565512537956238
+        },
+        {
+          "start": 2.98,
+          "end": 3.22,
+          "word": "一",
+          "probability": 0.9946630001068115
+        },
+        {
+          "start": 3.22,
+          "end": 3.36,
+          "word": "支",
+          "probability": 0.4745214581489563
+        },
+        {
+          "start": 3.36,
+          "end": 3.66,
+          "word": "最",
+          "probability": 0.9897632598876953
+        },
+        {
+          "start": 3.66,
+          "end": 3.9,
+          "word": "省",
+          "probability": 0.999653160572052
+        },
+        {
+          "start": 3.9,
+          "end": 4.08,
+          "word": "心",
+          "probability": 0.7624801397323608
+        },
+        {
+          "start": 4.08,
+          "end": 4.36,
+          "word": "省",
+          "probability": 0.9992285370826721
+        },
+        {
+          "start": 4.36,
+          "end": 4.56,
+          "word": "钱",
+          "probability": 0.9859697818756104
+        },
+        {
+          "start": 4.56,
+          "end": 4.72,
+          "word": "的",
+          "probability": 0.998763918876648
+        },
+        {
+          "start": 4.72,
+          "end": 4.98,
+          "word": "旧",
+          "probability": 0.8982046842575073
+        },
+        {
+          "start": 4.98,
+          "end": 5.16,
+          "word": "房",
+          "probability": 0.9853595495223999
+        },
+        {
+          "start": 5.16,
+          "end": 5.32,
+          "word": "改",
+          "probability": 0.9981902241706848
+        },
+        {
+          "start": 5.32,
+          "end": 5.46,
+          "word": "造",
+          "probability": 0.9969471096992493
+        },
+        {
+          "start": 5.46,
+          "end": 5.62,
+          "word": "团",
+          "probability": 0.9975675940513611
+        },
+        {
+          "start": 5.62,
+          "end": 5.76,
+          "word": "队",
+          "probability": 0.9996574223041534
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 5.76,
+      "end": 7.32,
+      "text": "几千块就能开工三天时间",
+      "avg_logprob": -0.15720413069753253,
+      "no_speech_prob": 0.6105135679244995,
+      "compression_ratio": 1.3079584775086506,
+      "words": [
+        {
+          "start": 5.76,
+          "end": 5.92,
+          "word": "几",
+          "probability": 0.9835121631622314
+        },
+        {
+          "start": 5.92,
+          "end": 6.12,
+          "word": "千",
+          "probability": 0.9990841150283813
+        },
+        {
+          "start": 6.12,
+          "end": 6.28,
+          "word": "块",
+          "probability": 0.9822251200675964
+        },
+        {
+          "start": 6.28,
+          "end": 6.4,
+          "word": "就",
+          "probability": 0.9952101111412048
+        },
+        {
+          "start": 6.4,
+          "end": 6.5,
+          "word": "能",
+          "probability": 0.9979654550552368
+        },
+        {
+          "start": 6.5,
+          "end": 6.66,
+          "word": "开",
+          "probability": 0.9950082302093506
+        },
+        {
+          "start": 6.66,
+          "end": 6.78,
+          "word": "工",
+          "probability": 0.9858781099319458
+        },
+        {
+          "start": 6.78,
+          "end": 6.96,
+          "word": "三",
+          "probability": 0.9532260894775391
+        },
+        {
+          "start": 6.96,
+          "end": 7.1,
+          "word": "天",
+          "probability": 0.9945699572563171
+        },
+        {
+          "start": 7.1,
+          "end": 7.32,
+          "word": "时间",
+          "probability": 0.9466601014137268
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 7.32,
+      "end": 8.74,
+      "text": "让老房子幻然一新",
+      "avg_logprob": -0.15720413069753253,
+      "no_speech_prob": 0.6105135679244995,
+      "compression_ratio": 1.3079584775086506,
+      "words": [
+        {
+          "start": 7.32,
+          "end": 7.52,
+          "word": "让",
+          "probability": 0.9071118235588074
+        },
+        {
+          "start": 7.52,
+          "end": 7.7,
+          "word": "老",
+          "probability": 0.9986960291862488
+        },
+        {
+          "start": 7.7,
+          "end": 7.86,
+          "word": "房",
+          "probability": 0.9987633228302002
+        },
+        {
+          "start": 7.86,
+          "end": 8.08,
+          "word": "子",
+          "probability": 0.9995989203453064
+        },
+        {
+          "start": 8.08,
+          "end": 8.28,
+          "word": "幻",
+          "probability": 0.6064697355031967
+        },
+        {
+          "start": 8.28,
+          "end": 8.44,
+          "word": "然",
+          "probability": 0.744259774684906
+        },
+        {
+          "start": 8.44,
+          "end": 8.62,
+          "word": "一",
+          "probability": 0.949294924736023
+        },
+        {
+          "start": 8.62,
+          "end": 8.74,
+          "word": "新",
+          "probability": 0.7969838976860046
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 8.74,
+      "end": 9.78,
+      "text": "不用搬家不用操心",
+      "avg_logprob": -0.15720413069753253,
+      "no_speech_prob": 0.6105135679244995,
+      "compression_ratio": 1.3079584775086506,
+      "words": [
+        {
+          "start": 8.74,
+          "end": 8.94,
+          "word": "不用",
+          "probability": 0.9583640098571777
+        },
+        {
+          "start": 8.94,
+          "end": 9.14,
+          "word": "搬",
+          "probability": 0.9632487595081329
+        },
+        {
+          "start": 9.14,
+          "end": 9.28,
+          "word": "家",
+          "probability": 0.9983311295509338
+        },
+        {
+          "start": 9.28,
+          "end": 9.4,
+          "word": "不用",
+          "probability": 0.802771270275116
+        },
+        {
+          "start": 9.4,
+          "end": 9.6,
+          "word": "操",
+          "probability": 0.9898421168327332
+        },
+        {
+          "start": 9.6,
+          "end": 9.78,
+          "word": "心",
+          "probability": 0.9983459711074829
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 9.78,
+      "end": 10.2,
+      "text": "水电",
+      "avg_logprob": -0.15720413069753253,
+      "no_speech_prob": 0.6105135679244995,
+      "compression_ratio": 1.3079584775086506,
+      "words": [
+        {
+          "start": 9.78,
+          "end": 9.98,
+          "word": "水",
+          "probability": 0.8406454920768738
+        },
+        {
+          "start": 9.98,
+          "end": 10.2,
+          "word": "电",
+          "probability": 0.503210186958313
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 10.2,
+      "end": 10.58,
+      "text": "绑水",
+      "avg_logprob": -0.15720413069753253,
+      "no_speech_prob": 0.6105135679244995,
+      "compression_ratio": 1.3079584775086506,
+      "words": [
+        {
+          "start": 10.2,
+          "end": 10.36,
+          "word": "绑",
+          "probability": 0.5819917917251587
+        },
+        {
+          "start": 10.36,
+          "end": 10.58,
+          "word": "水",
+          "probability": 0.974898636341095
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 10.58,
+      "end": 11.36,
+      "text": "人工材料",
+      "avg_logprob": -0.15720413069753253,
+      "no_speech_prob": 0.6105135679244995,
+      "compression_ratio": 1.3079584775086506,
+      "words": [
+        {
+          "start": 10.58,
+          "end": 10.74,
+          "word": "人",
+          "probability": 0.7646609544754028
+        },
+        {
+          "start": 10.74,
+          "end": 10.96,
+          "word": "工",
+          "probability": 0.998073935508728
+        },
+        {
+          "start": 10.96,
+          "end": 11.2,
+          "word": "材",
+          "probability": 0.9980561137199402
+        },
+        {
+          "start": 11.2,
+          "end": 11.36,
+          "word": "料",
+          "probability": 0.9997878670692444
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 11.36,
+      "end": 11.88,
+      "text": "我们全保",
+      "avg_logprob": -0.15720413069753253,
+      "no_speech_prob": 0.6105135679244995,
+      "compression_ratio": 1.3079584775086506,
+      "words": [
+        {
+          "start": 11.36,
+          "end": 11.54,
+          "word": "我们",
+          "probability": 0.9890990257263184
+        },
+        {
+          "start": 11.54,
+          "end": 11.7,
+          "word": "全",
+          "probability": 0.654209554195404
+        },
+        {
+          "start": 11.7,
+          "end": 11.88,
+          "word": "保",
+          "probability": 0.7726729512214661
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 11.88,
+      "end": 13.54,
+      "text": "连最后的卫生都不用你操心",
+      "avg_logprob": -0.15720413069753253,
+      "no_speech_prob": 0.6105135679244995,
+      "compression_ratio": 1.3079584775086506,
+      "words": [
+        {
+          "start": 11.88,
+          "end": 12.06,
+          "word": "连",
+          "probability": 0.9888525903224945
+        },
+        {
+          "start": 12.06,
+          "end": 12.26,
+          "word": "最",
+          "probability": 0.9893242716789246
+        },
+        {
+          "start": 12.26,
+          "end": 12.42,
+          "word": "后",
+          "probability": 0.9992843270301819
+        },
+        {
+          "start": 12.42,
+          "end": 12.52,
+          "word": "的",
+          "probability": 0.9969658255577087
+        },
+        {
+          "start": 12.52,
+          "end": 12.64,
+          "word": "卫",
+          "probability": 0.9856952428817749
+        },
+        {
+          "start": 12.64,
+          "end": 12.84,
+          "word": "生",
+          "probability": 0.9970398545265198
+        },
+        {
+          "start": 12.84,
+          "end": 12.96,
+          "word": "都",
+          "probability": 0.9984909296035767
+        },
+        {
+          "start": 12.96,
+          "end": 13.12,
+          "word": "不用",
+          "probability": 0.9975214600563049
+        },
+        {
+          "start": 13.12,
+          "end": 13.24,
+          "word": "你",
+          "probability": 0.969660222530365
+        },
+        {
+          "start": 13.24,
+          "end": 13.38,
+          "word": "操",
+          "probability": 0.9980551600456238
+        },
+        {
+          "start": 13.38,
+          "end": 13.54,
+          "word": "心",
+          "probability": 0.9996743202209473
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 13.54,
+      "end": 14.4,
+      "text": "我们一战是服务",
+      "avg_logprob": -0.15720413069753253,
+      "no_speech_prob": 0.6105135679244995,
+      "compression_ratio": 1.3079584775086506,
+      "words": [
+        {
+          "start": 13.54,
+          "end": 13.74,
+          "word": "我们",
+          "probability": 0.9942183494567871
+        },
+        {
+          "start": 13.74,
+          "end": 13.9,
+          "word": "一",
+          "probability": 0.9920616149902344
+        },
+        {
+          "start": 13.9,
+          "end": 14.02,
+          "word": "战",
+          "probability": 0.7766651511192322
+        },
+        {
+          "start": 14.02,
+          "end": 14.16,
+          "word": "是",
+          "probability": 0.31844887137413025
+        },
+        {
+          "start": 14.16,
+          "end": 14.3,
+          "word": "服",
+          "probability": 0.9911701679229736
+        },
+        {
+          "start": 14.3,
+          "end": 14.4,
+          "word": "务",
+          "probability": 0.9994595050811768
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 14.4,
+      "end": 16.08,
+      "text": "当天改完当天就可以使用",
+      "avg_logprob": -0.15720413069753253,
+      "no_speech_prob": 0.6105135679244995,
+      "compression_ratio": 1.3079584775086506,
+      "words": [
+        {
+          "start": 14.4,
+          "end": 14.52,
+          "word": "当",
+          "probability": 0.9548649787902832
+        },
+        {
+          "start": 14.52,
+          "end": 14.7,
+          "word": "天",
+          "probability": 0.9988934397697449
+        },
+        {
+          "start": 14.7,
+          "end": 14.88,
+          "word": "改",
+          "probability": 0.994218111038208
+        },
+        {
+          "start": 14.88,
+          "end": 15.04,
+          "word": "完",
+          "probability": 0.9818418025970459
+        },
+        {
+          "start": 15.04,
+          "end": 15.24,
+          "word": "当",
+          "probability": 0.903790295124054
+        },
+        {
+          "start": 15.24,
+          "end": 15.48,
+          "word": "天",
+          "probability": 0.9985809326171875
+        },
+        {
+          "start": 15.48,
+          "end": 15.7,
+          "word": "就可以",
+          "probability": 0.9929694533348083
+        },
+        {
+          "start": 15.7,
+          "end": 15.98,
+          "word": "使",
+          "probability": 0.9981739521026611
+        },
+        {
+          "start": 15.98,
+          "end": 16.08,
+          "word": "用",
+          "probability": 0.9999417066574097
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 16.08,
+      "end": 17.5,
+      "text": "只要你给这条视频点个赞",
+      "avg_logprob": -0.15720413069753253,
+      "no_speech_prob": 0.6105135679244995,
+      "compression_ratio": 1.3079584775086506,
+      "words": [
+        {
+          "start": 16.08,
+          "end": 16.16,
+          "word": "只",
+          "probability": 0.9910340905189514
+        },
+        {
+          "start": 16.16,
+          "end": 16.3,
+          "word": "要",
+          "probability": 0.9992803931236267
+        },
+        {
+          "start": 16.3,
+          "end": 16.4,
+          "word": "你",
+          "probability": 0.9955620765686035
+        },
+        {
+          "start": 16.4,
+          "end": 16.5,
+          "word": "给",
+          "probability": 0.9974797368049622
+        },
+        {
+          "start": 16.5,
+          "end": 16.66,
+          "word": "这",
+          "probability": 0.9955497980117798
+        },
+        {
+          "start": 16.66,
+          "end": 16.76,
+          "word": "条",
+          "probability": 0.9900856018066406
+        },
+        {
+          "start": 16.76,
+          "end": 16.9,
+          "word": "视",
+          "probability": 0.9978085160255432
+        },
+        {
+          "start": 16.9,
+          "end": 17.06,
+          "word": "频",
+          "probability": 0.9991747736930847
+        },
+        {
+          "start": 17.06,
+          "end": 17.24,
+          "word": "点",
+          "probability": 0.989310622215271
+        },
+        {
+          "start": 17.24,
+          "end": 17.38,
+          "word": "个",
+          "probability": 0.9872503280639648
+        },
+        {
+          "start": 17.38,
+          "end": 17.5,
+          "word": "赞",
+          "probability": 0.9998123049736023
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 17.5,
+      "end": 19.14,
+      "text": "我们免费上门量房出方案",
+      "avg_logprob": -0.15720413069753253,
+      "no_speech_prob": 0.6105135679244995,
+      "compression_ratio": 1.3079584775086506,
+      "words": [
+        {
+          "start": 17.5,
+          "end": 17.68,
+          "word": "我们",
+          "probability": 0.987761378288269
+        },
+        {
+          "start": 17.68,
+          "end": 17.9,
+          "word": "免",
+          "probability": 0.9987217783927917
+        },
+        {
+          "start": 17.9,
+          "end": 18.16,
+          "word": "费",
+          "probability": 0.998824805021286
+        },
+        {
+          "start": 18.16,
+          "end": 18.28,
+          "word": "上",
+          "probability": 0.9976366758346558
+        },
+        {
+          "start": 18.28,
+          "end": 18.44,
+          "word": "门",
+          "probability": 0.9958639740943909
+        },
+        {
+          "start": 18.44,
+          "end": 18.56,
+          "word": "量",
+          "probability": 0.3117911219596863
+        },
+        {
+          "start": 18.56,
+          "end": 18.74,
+          "word": "房",
+          "probability": 0.9980936646461487
+        },
+        {
+          "start": 18.74,
+          "end": 18.9,
+          "word": "出",
+          "probability": 0.9592660665512085
+        },
+        {
+          "start": 18.9,
+          "end": 19.02,
+          "word": "方",
+          "probability": 0.44112372398376465
+        },
+        {
+          "start": 19.02,
+          "end": 19.14,
+          "word": "案",
+          "probability": 0.9930486679077148
+        }
+      ]
+    }
+  ],
+  "timing_summary": {
+    "recorded_segment_count": 18,
+    "median_seconds": 1.033,
+    "min_seconds": 0.4,
+    "max_seconds": 2.533,
+    "boundary_status": "候选检测加采样观察修订，非逐帧实播核验；语义分段不等于镜头数"
+  },
+  "evidence_path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\evidence.json",
+  "updated_at": "2026-10-01T13:19:16.056913+08:00"
+}

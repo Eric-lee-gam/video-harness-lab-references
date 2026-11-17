@@ -1,0 +1,40 @@
+{
+  "item": 5,
+  "official_csv_exists": false,
+  "official_csv_path": "C:\\Users\\leega\\AppData\\Local\\Temp\\share-video-inventory-20261114\\36-gongxiang.csv",
+  "catalog_root_mapping_checks": [
+    {
+      "root": "xiaoq",
+      "id": "4937e1133bca19103d01ea5ee85e36d5",
+      "rel": "1新的未分类/SKP沙湖公寓/上门/IMG_2800.MOV",
+      "mapped_主库相对路径": "史上最完整共享\\拍摄\\小区\\1新的未分类\\SKP沙湖公寓\\上门\\IMG_2800.MOV",
+      "unc": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\1新的未分类\\SKP沙湖公寓\\上门\\IMG_2800.MOV",
+      "exists": true,
+      "ok": true
+    },
+    {
+      "root": "baba",
+      "id": "122cb231a0f49e03222dcabd1ffcb161",
+      "rel": "0微陶泥/全屋型微陶泥批刮/00001_地面_铺瓷砖.mp4",
+      "mapped_主库相对路径": "史上最完整共享\\扒扒\\0微陶泥\\全屋型微陶泥批刮\\00001_地面_铺瓷砖.mp4",
+      "unc": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\0微陶泥\\全屋型微陶泥批刮\\00001_地面_铺瓷砖.mp4",
+      "exists": true,
+      "ok": true
+    }
+  ],
+  "facts_n": 493,
+  "share_exists_n": 493,
+  "share_missing_n": 0,
+  "share_missing": [],
+  "catalog_mismatch_n": 0,
+  "catalog_mismatch": [],
+  "catalog_unknown_root_n": 0,
+  "catalog_unknown_root": [],
+  "no_jingxu_id_n": 70,
+  "id_not_in_catalog_n": 0,
+  "id_not_in_catalog": [],
+  "t10_reported_missing": [],
+  "t10_reported_missing_n": 0,
+  "pass": true,
+  "notes": "官方 36-gongxiang.csv 在约定位置不存在，与 T10 回报一致，本项按共享盘实存 + 镜序登记表路径对照。chengdu/suzhou 没有在本批输入里写明主库目录，若事实层出现这两类 root 只记录、不按前缀强行对照。"
+}

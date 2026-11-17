@@ -1,0 +1,53 @@
+{
+  "rows": [
+    {
+      "id": "07feba1ee96f7889601c46bece05306b",
+      "name": "IMG_0955.MOV",
+      "root": "xiaoq",
+      "rel": "翠提春晓/批刮陶泥/IMG_0955.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\翠提春晓\\批刮陶泥\\IMG_0955.MOV",
+      "duration": 8.101667,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\07feba1ee96f7889601c46bece05306b.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "53884cd9824914abc76b953c227f205a",
+      "name": "IMG_0970.MOV",
+      "root": "xiaoq",
+      "rel": "翠提春晓/批刮陶泥/IMG_0970.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\翠提春晓\\批刮陶泥\\IMG_0970.MOV",
+      "duration": 10.303333,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\53884cd9824914abc76b953c227f205a.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "7f99011a804a2e6935d516c4aac47acc",
+      "name": "23548_小区_批刮施工.MOV",
+      "root": "xiaoq",
+      "rel": "嘉贝乐-厨卫换新视频素材/厨卫焕新视频素材/04.批刮G200/23548_小区_批刮施工.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\嘉贝乐-厨卫换新视频素材\\厨卫焕新视频素材\\04.批刮G200\\23548_小区_批刮施工.MOV",
+      "duration": 68.058333,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\7f99011a804a2e6935d516c4aac47acc.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    },
+    {
+      "id": "fb10d7a935387a8bb4617a1e0109f459",
+      "name": "19761_人物_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "常青花园四小区/人物出镜/19761_人物_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\常青花园四小区\\人物出镜\\19761_人物_小区场景.MOV",
+      "duration": 17.533333,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\fb10d7a935387a8bb4617a1e0109f459.jpg",
+      "start": 2,
+      "end": 6,
+      "ratio": 0.5625
+    }
+  ],
+  "errors": []
+}

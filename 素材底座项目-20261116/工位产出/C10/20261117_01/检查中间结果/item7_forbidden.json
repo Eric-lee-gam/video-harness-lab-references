@@ -1,0 +1,56 @@
+{
+  "item": 7,
+  "official_sample_ids": 68,
+  "before_discovery_sample_ids": 65,
+  "only_in_before_discovery_ids_n": 0,
+  "only_in_before_discovery_ids_sample": [],
+  "bad_source_files": [],
+  "leaked_ids": [],
+  "leaked_hashes": [],
+  "source_files_seen": [
+    "local/action-annotation/P24-boundary-proposal.json",
+    "local/action-annotation/aming-source-rule-index.json",
+    "local/action-annotation/batch-01.json",
+    "local/action-annotation/batch-02.json",
+    "local/action-annotation/batch-03.json",
+    "local/action-annotation/batch-04.json",
+    "local/action-annotation/person-usage-restrictions.json",
+    "local/cutframe/ai/learning.sqlite3#adoptions",
+    "local/cutframe/ai/learning.sqlite3#feedback",
+    "local/cutframe/ai/learning.sqlite3#rules",
+    "出镜文件夹确认图/对照表.md",
+    "出镜文件夹确认图/对照表.md#明细",
+    "小区全库/数据/AI剪辑检索索引.jsonl#indexed_segments",
+    "小区全库/数据/AI剪辑检索索引.jsonl#timeline",
+    "小区全库/数据/AI剪辑检索索引.jsonl#人工确认片段",
+    "小区全库/数据/按用途检索.jsonl",
+    "小区全库/数据/本轮看片精标.jsonl",
+    "小区全库/数据/目视纠正.jsonl",
+    "微陶泥施工/施工镜头.jsonl",
+    "测试阿明搅拌/数据/AI剪辑检索索引.jsonl#indexed_segments",
+    "测试阿明搅拌/数据/AI剪辑检索索引.jsonl#timeline",
+    "测试阿明搅拌/数据/AI剪辑检索索引.jsonl#人工确认片段",
+    "试标50段/审核结果_李康_20261116.json+_对应表.csv"
+  ],
+  "gpt_pilot_mentions": [
+    {
+      "file": "脚本\\t10_write_report.py",
+      "line": 170,
+      "text": "- 输入表里的每个文件都处理了，或者在回报里写明为什么没处理：**达到**。split-policy 只说明、不入库；机器片段复核只读结构、不进事实层；P16/P18 未确认，未进事实层。没有打开 `local\\gpt-pilot\\`。"
+    }
+  ],
+  "gpt_pilot_read_evidence": [],
+  "secret_hits_total": 1,
+  "secret_hits_benign_n": 0,
+  "secret_hits_review_n": 1,
+  "secret_hits_review": [
+    {
+      "where": "T10/回报.md",
+      "line": 62,
+      "word": "key",
+      "context": "| 小区全库\\数据\\机器片段复核.jsonl | key、code、description | 13,576（code：A 1,619、B 4,824、C 918、D 6,215） | 已读结构。看不出确认人，描述像机器复核，**没有**当作人工核对进事实层 |"
+    }
+  ],
+  "has_real_secret_values": false,
+  "pass": true
+}

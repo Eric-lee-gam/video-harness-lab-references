@@ -1,0 +1,77 @@
+{
+  "rows": [
+    {
+      "id": "cb4899d0a9e5eee34933d459560ccb85",
+      "name": "30546_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "万科城（卫生间陶泥）/施工中/30546_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\万科城（卫生间陶泥）\\施工中\\30546_小区场景.MOV",
+      "duration": 46.733333,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\cb4899d0a9e5eee34933d459560ccb85.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "bb4e94fb087a08be8c2be335136395e0",
+      "name": "17807_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "白沙洲梅花苑小区（厨卫陶泥）/施工/17807_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\白沙洲梅花苑小区（厨卫陶泥）\\施工\\17807_小区场景.MOV",
+      "duration": 5.0,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\bb4e94fb087a08be8c2be335136395e0.jpg",
+      "start": 1.25,
+      "end": 4.25,
+      "ratio": 0.5625
+    },
+    {
+      "id": "eef0d4e719b28bc2875bfeb6c5c81f7b",
+      "name": "18115_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "博学仕府（地面液态陶泥）/施工/18115_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\博学仕府（地面液态陶泥）\\施工\\18115_小区场景.MOV",
+      "duration": 14.51,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\eef0d4e719b28bc2875bfeb6c5c81f7b.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "cb7f3af4f44a0ee9621d214c630400f8",
+      "name": "23154_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "洪山纺机社区（卫液态陶泥）/施工/23154_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\洪山纺机社区（卫液态陶泥）\\施工\\23154_小区场景.MOV",
+      "duration": 10.145,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\cb7f3af4f44a0ee9621d214c630400f8.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "56966c1966071ad0c20cfaa561cb07b2",
+      "name": "IMG_0964.MOV",
+      "root": "xiaoq",
+      "rel": "翠提春晓/批刮陶泥/IMG_0964.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\翠提春晓\\批刮陶泥\\IMG_0964.MOV",
+      "duration": 12.436667,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\56966c1966071ad0c20cfaa561cb07b2.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "0f939c041c39388ba3db921eaef312d2",
+      "name": "24226_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "江岸2卫＋厨房/第一遍陶泥/24226_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\江岸2卫＋厨房\\第一遍陶泥\\24226_小区场景.MOV",
+      "duration": 3.705,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\0f939c041c39388ba3db921eaef312d2.jpg",
+      "start": 0.92625,
+      "end": 3.705,
+      "ratio": 0.5625
+    }
+  ],
+  "errors": []
+}

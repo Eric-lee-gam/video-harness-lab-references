@@ -1,0 +1,431 @@
+
+## SQLite learning tables: ['adoptions', 'feedback', 'rule_events', 'rules', 'runs']
+### adoptions rows=240
+  cols: [('id', 'TEXT'), ('created', 'TEXT'), ('project_id', 'TEXT'), ('task_id', 'TEXT'), ('run_id', 'TEXT'), ('candidate_id', 'TEXT'), ('action', 'TEXT'), ('payload', 'TEXT')]
+  sample: {"id": "ea1abaff96fc46f9916b8eba8bd542fa", "created": "2026-11-11T08:30:48.098779+00:00", "project_id": "c620044f2a804044b575aabe6f47517d", "task_id": "c9406700-9a85-4565-ad76-8a148651bee9", "run_id": "ffe0540386df40228993956e39a0ae7c", "candidate_id": "23e2aee054f9bd66123cf75b", "action": "adopted", "payload": "{\"asset_id\": \"caab17912fe6ce21192d83acf06204b6\", \"name\": \"20630_人物_口播.mp4\", \"rel\": \"7老人/20630_人物_口播.mp4\", \"root\": \"baba\", \"path\": \"\\\\\\\\192.168.110.36\\\\共享本公司\\\\史上最完整共享\\\\扒扒\\\\7老人\\\\20630_人物_口播.mp4\", \"start\": 11.46, \"end\": 13.66, \"source_duration\": 23.035, \"reason\": \"中文图文模型匹配抽帧；相似度不是正确率，需看完整选段确认\", \"ai_run_id\": \"ffe0540386df40228993956e39a0ae7c\", \"ai_candidate_id\": \"23e2aee054f9bd66123cf75b\", \"ai_project..."}
+### feedback rows=127
+  cols: [('id', 'TEXT'), ('created', 'TEXT'), ('run_id', 'TEXT'), ('candidate_id', 'TEXT'), ('reviewer', 'TEXT'), ('verdict', 'TEXT'), ('reason_code', 'TEXT'), ('reason', 'TEXT')]
+  sample: {"id": "43f9a7b321d04f52b908f27b5f1f4448", "created": "2026-11-11T08:48:24.190937+00:00", "run_id": "93e2c495d5b94f6ca88eb93b8f1f4e57", "candidate_id": "b3b470f00f3c046f4a3cb7e0", "reviewer": "小山", "verdict": "unsuitable", "reason_code": "semantic", "reason": "说厨房，这里面啥都没有"}
+### rule_events rows=40
+  cols: [('id', 'TEXT'), ('created', 'TEXT'), ('rule_id', 'TEXT'), ('status', 'TEXT'), ('reviewer', 'TEXT'), ('before_payload', 'TEXT'), ('after_payload', 'TEXT')]
+  sample: {"id": "a0a43b7f1da2455eac862330a4d9cc24", "created": "2026-11-11T08:56:30.795411+00:00", "rule_id": "25a3252a97b149a7806cbb6771d09190", "status": "approved", "reviewer": "小山", "before_payload": "{\"text\": \"而且不管你是厨房翻新\", \"context\": \"全屋墙面7天就可以搞定，而且不管你是厨房翻新，还是卫生间翻新\", \"asset_id\": \"d05554bcdfc0a1d67f68e781810691a4\", \"start\": 9.467, \"end\": 11.707, \"scope\": \"project\", \"project_id\": \"c620044f2a804044b575aabe6f47517d\", \"action\": \"prefer\", \"reason\": \"\", \"reason_code\": \"\", \"description\": \"相似字幕优先推荐该源片段\"}", "after_payload": "{\"text\": \"而且不管你是厨房翻新\", \"context\": \"全屋墙面7天就可以搞定，而且不管你是厨房翻新，还是卫生间翻新\", \"asset_id\": \"d05554bcdfc0a1d67f68e781810691a4\", \"start\": 9.467, \"end\": 11.707, \"scope\": \"project\", \"project_id\": \"c620044f2a804044b575aabe6f47517d\", \"action\": \"prefer\", \"reason\": \"\", \"reason_code\": \"\", \"description\": \"相似字幕优先推荐该源片段\"}"}
+### rules rows=54
+  cols: [('id', 'TEXT'), ('created', 'TEXT'), ('feedback_id', 'TEXT'), ('status', 'TEXT'), ('reviewer', 'TEXT'), ('payload', 'TEXT')]
+  sample: {"id": "a0859e91cf704dddad925c3016848583", "created": "2026-11-11T08:48:31.996587+00:00", "feedback_id": "43f9a7b321d04f52b908f27b5f1f4448", "status": "pending", "reviewer": "", "payload": "{\"text\": \"而且不管你是厨房翻新\", \"context\": \"全屋墙面7天就可以搞定，而且不管你是厨房翻新，还是卫生间翻新\", \"asset_id\": \"e35e76a321f87bd4cd8a516b0fbf5f1b\", \"start\": 0, \"end\": 2.24, \"scope\": \"project\", \"project_id\": \"c620044f2a804044b575aabe6f47517d\", \"action\": \"avoid\", \"reason\": \"说厨房，这里面啥都没有\", \"reason_code\": \"semantic\", \"description\": \"相似字幕排除该源片段\"}"}
+### runs rows=253
+  cols: [('id', 'TEXT'), ('created', 'TEXT'), ('payload', 'TEXT'), ('result', 'TEXT')]
+  sample: {"id": "ffe0540386df40228993956e39a0ae7c", "created": "2026-11-11T08:12:49.325794+00:00", "payload": "{\"need\": \"\", \"board_context\": \"{\\\"text\\\":\\\"武汉家里有老人的注意了，我们在武汉搞了一个本地人的旧房翻新团队，几千到万把块钱就可以把你家从这样改造成这样，全屋墙面7天就可以搞定。而且不管你是厨房翻新，还是卫生间翻新，我们都能安排的明明白白，从设计到拆除再到安装，垃圾清理我们一站式全包，最主要的是有质保不得跑路，如果你刷到这条视频，可以点个小红心，然后在评论区留言，省得以后想用却找不到了。\\\",\\\"voice\\\":\\\"a1c5b8802c2049a78bdcc9a4a853dd4e\\\",\\\"subtitle\\\":\\\"ccbb23b764b14c97b72d43b7d4253db0\\\",\\\"cues\\\":[{\\\"end\\\":2.2,\\\"start\\\":0,\\\"text\\\":\\\"武汉家里有老人的注意了\\\"},{\\\"end\\\":3.7199999999999...", "result": "{\"items\": [{\"asset_id\": \"17b0607cad047e01e01617da14633dd8\", \"name\": \"IMG_5490.MOV\", \"root\": \"xiaoq\", \"rel\": \"二印小区厨卫/二印小区施工前处理/IMG_5490.MOV\", \"path\": \"\\\\\\\\192.168.110.36\\\\共享本公司\\\\史上最完整共享\\\\拍摄\\\\小区\\\\二印小区厨卫\\\\二印小区施工前处理\\\\IMG_5490.MOV\", \"duration\": 3.633333, \"center\": 3.5833, \"image\": \"C:\\\\Users\\\\OS\\\\Documents\\\\ChatGPT\\\\视频剪辑及测试数据复盘\\\\local\\\\cutframe\\\\jobs\\\\d2dd25def2c04535bc2518de57e51b89\\\\frames\\\\17b0607ca..."}
+
+## learning extra counts
+rules cols ['id', 'created', 'feedback_id', 'status', 'reviewer', 'payload']
+  rules.id top: [('150217a7eb3042899faa9bc264244c65', 1), ('1bd51ad20a9c47e2b0329bb11a215277', 1), ('20395fbdf14e40478ce055d554d01d37', 1), ('234fa0e64af248a28d778c542697aa49', 1), ('25a3252a97b149a7806cbb6771d09190', 1), ('2c77647d47fd47f2b9c013c6e63ddf2c', 1), ('3042a556a2a44690a1d6546d9b79537c', 1), ('3399ae18a63e43cf8bc8c08e791560ec', 1), ('3f700d8648ff473092c7536bc00a259e', 1), ('7c4a877afc794bc095b50153976f723a', 1), ('7e1f9c3b15084d9cadd0b2dec65cd047', 1), ('a036fc9d545c47b4a591396e13d25058', 1), ('a0859e91cf704dddad925c3016848583', 1), ('b09fde00c48e4345845d586cd05ae471', 1), ('bb7807bc98e841eeb8f4e0a3e6573cb5', 1), ('bef2985cf16c4f72a957e1d4881b19f6', 1), ('cd27070dcd9746519b1bfc9d0d9c2dc0', 1), ('confirmed-P1', 1), ('confirmed-P10', 1), ('confirmed-P11', 1), ('confirmed-P12', 1), ('confirmed-P13', 1), ('confirmed-P14', 1), ('confirmed-P15', 1), ('confirmed-P17', 1), ('confirmed-P19', 1), ('confirmed-P2', 1), ('confirmed-P20', 1), ('confirmed-P21', 1), ('confirmed-P22', 1)]
+  rules.feedback_id top: [('historical:V3', 1), ('historical:V2', 1), ('historical:V1', 1), ('historical:R09', 1), ('historical:R08', 1), ('historical:R07', 1), ('historical:R06', 1), ('historical:R05', 1), ('historical:R04', 1), ('historical:R03', 1), ('historical:R02', 1), ('historical:R01', 1), ('historical:P9', 1), ('historical:P8', 1), ('historical:P7', 1), ('historical:P6', 1), ('historical:P5', 1), ('historical:P4', 1), ('historical:P3', 1), ('historical:P26', 1), ('historical:P25', 1), ('historical:P24', 1), ('historical:P23', 1), ('historical:P22', 1), ('historical:P21', 1), ('historical:P20', 1), ('historical:P2', 1), ('historical:P19', 1), ('historical:P17', 1), ('historical:P15', 1)]
+  rules.status top: [('approved', 37), ('pending', 17)]
+feedback cols ['id', 'created', 'run_id', 'candidate_id', 'reviewer', 'verdict', 'reason_code', 'reason']
+adoptions cols ['id', 'created', 'project_id', 'task_id', 'run_id', 'candidate_id', 'action', 'payload']
+runs cols ['id', 'created', 'payload', 'result']
+
+## SQLite catalog tables: ['assets', 'categories', 'clips', 'events', 'imports', 'jobs', 'projects']
+### assets rows=43295
+  cols: [('id', 'TEXT'), ('root', 'TEXT'), ('rel', 'TEXT'), ('name', 'TEXT'), ('size', 'INTEGER'), ('stamp', 'TEXT'), ('meta', 'TEXT'), ('error', 'TEXT'), ('available', 'INTEGER')]
+  sample: {"id": "4937e1133bca19103d01ea5ee85e36d5", "root": "xiaoq", "rel": "1新的未分类/SKP沙湖公寓/上门/IMG_2800.MOV", "name": "IMG_2800.MOV", "size": 8416072, "stamp": "1786346938000000000", "meta": "{\"duration\": 5.268333, \"width\": 1920, \"height\": 1080, \"codec\": \"hevc\", \"video_index\": 0, \"audio_index\": 1, \"pixel\": \"yuv420p\", \"transfer\": \"bt709\", \"fps\": \"31600/527\", \"audio\": true, \"audio_codec\": \"aac\", \"rotation\": -90}", "error": null, "available": 1}
+### categories rows=2
+  cols: [('name', 'TEXT')]
+  sample: {"name": "未分类"}
+### clips rows=6
+  cols: [('id', 'TEXT'), ('asset_id', 'TEXT'), ('path', 'TEXT'), ('data', 'TEXT'), ('created', 'TEXT')]
+  sample: {"id": "8345332b476d4cef9fc34a9465346477", "asset_id": "34f4dfbf3952d9c6413854acab92009b", "path": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\cutframe\\smoke-outputs\\未分类\\16199_小区场景_01.mp4", "data": "{\"schema_version\": 1, \"clip_id\": \"8345332b476d4cef9fc34a9465346477\", \"asset_id\": \"34f4dfbf3952d9c6413854acab92009b\", \"root_alias\": \"xiaoq\", \"relative_path\": \"2其他/同城上门素材/硚口区建乐小区/16199_小区场景.mp4\", \"source_size\": 2452689, \"source_mtime_ns\": 1780466972253836900, \"requested_start\": 0.3, \"requested_end\": 2.3, \"actual_source_boundaries\": null, \"boundary_status\": \"未核验，尤其无损切割受关键帧约束\", \"mode\": \"copy\", \"source...", "created": "2026-11-07T03:30:31.163175+00:00"}
+### events rows=48
+  cols: [('id', 'TEXT'), ('created', 'TEXT'), ('payload', 'TEXT')]
+  sample: {"id": "50cf1a4ccf8c468baa2eebba4365e4da", "created": "2026-11-07T03:30:31.169884+00:00", "payload": "{\"action\": \"export_success\", \"clip_id\": \"8345332b476d4cef9fc34a9465346477\", \"asset_id\": \"34f4dfbf3952d9c6413854acab92009b\", \"rating\": \"未评价\"}"}
+### imports rows=110
+  cols: [('id', 'TEXT'), ('name', 'TEXT'), ('path', 'TEXT'), ('kind', 'TEXT'), ('meta', 'TEXT')]
+  sample: {"id": "338254eb91894d3faa180ab44013440a", "name": "voice-test.wav", "path": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\cutframe\\imports\\338254eb91894d3faa180ab44013440a.wav", "kind": "voice", "meta": "{\"duration\": 3.0, \"width\": null, \"height\": null, \"codec\": null, \"pixel\": null, \"transfer\": null, \"fps\": null, \"audio\": true, \"audio_codec\": \"pcm_s16le\", \"rotation\": 0, \"sha256\": \"a14af8ba67df87750382d8d3e8c2f19a396f7abde3cfcf5d3c463bf3a23c6d12\"}"}
+### jobs rows=366
+  cols: [('id', 'TEXT'), ('kind', 'TEXT'), ('status', 'TEXT'), ('progress', 'REAL'), ('message', 'TEXT'), ('result', 'TEXT'), ('created', 'TEXT')]
+  sample: {"id": "811a769637ed468cbb23778404bedf6c", "kind": "精裁导出", "status": "done", "progress": 100.0, "message": "完成", "result": "{\"path\": \"C:\\\\Users\\\\OS\\\\Documents\\\\ChatGPT\\\\视频剪辑及测试数据复盘\\\\local\\\\cutframe\\\\smoke-outputs\\\\未分类\\\\16199_小区场景_01.mp4\", \"clip_id\": \"8345332b476d4cef9fc34a9465346477\", \"duration\": 2.434, \"warning\": \"未核验，尤其无损切割受关键帧约束\"}", "created": "2026-11-07T03:30:30.139383+00:00"}
+### projects rows=24
+  cols: [('id', 'TEXT'), ('name', 'TEXT'), ('data', 'TEXT'), ('updated', 'TEXT')]
+  sample: {"id": "3380236db76b411183f98f5c66cbf3ec", "name": "技术测试非业务成片", "data": "{\"id\": \"3380236db76b411183f98f5c66cbf3ec\", \"name\": \"技术测试非业务成片\", \"shots\": [{\"asset_id\": \"34f4dfbf3952d9c6413854acab92009b\", \"end\": 2.3, \"name\": \"16199_小区场景.mp4\", \"start\": 0.3}, {\"asset_id\": \"34f4dfbf3952d9c6413854acab92009b\", \"end\": 5, \"name\": \"16199_小区场景.mp4\", \"start\": 3}], \"imports\": {\"music\": \"3f01e6427dc64d61b3ed68806958f3f8\", \"subtitle\": \"368b910e0b684965b06fdc1d792161d0\", \"voice\": \"338254eb91...", "updated": "2026-11-07T03:35:25.130695+00:00"}
+catalog.assets cols ['id', 'root', 'rel', 'name', 'size', 'stamp', 'meta', 'error', 'available']
+catalog.events cols ['id', 'created', 'payload']
+catalog.jobs cols ['id', 'kind', 'status', 'progress', 'message', 'result', 'created']
+catalog.clips cols ['id', 'asset_id', 'path', 'data', 'created']
+catalog.projects cols ['id', 'name', 'data', 'updated']
+catalog.imports cols ['id', 'name', 'path', 'kind', 'meta']
+catalog.categories cols ['name']
+
+## JSON batch-01.json
+  type: dict size_bytes= 19970
+  keys: ['version', 'created', 'purpose', 'rows', 'history', 'updated']
+  version: 5
+  created: '2026-11-12'
+  purpose: '施工动作人工标注口径确认；不是训练完成，不是正式选片'
+  rows: list len=12
+    item0 keys: dict
+    item0 keys: ['sample_id', 'category', 'query', 'source', 'project_guess', 'project_confirmed', 'suggested_label', 'suggestion_reason', 'confirmed_label', 'status', 'clip', 'clip_sha256', 'duration', 'benchmark_eligible', 'split', 'product_identity', 'quality_note', 'confirmed_by', 'confirmed_at', 'confirmation_evidence']
+    item0: {"sample_id": "A1", "category": "覆膜保护", "query": "正在给厨房台面或水槽覆盖保护膜", "source": {"id": "ba887994997ad086099eae97a342d2b2", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\二印小区厨卫\\人物出镜\\20585_人物_小区场景.MOV", "rel": "二印小区厨卫/人物出镜/20585_人物_小区场景.MOV", "root": "xiaoq", "name": "20585_人物_小区场景.MOV", "start": 5.208, "end": 7.448}, "project_guess": "二印小区厨卫", "project_confirmed": false, "suggested_label": "正例", "suggestion_reason": "能看到展开并覆盖保护膜的动作", "confirmed_label": "正例", "status": "用户已确认", "clip": "clips/A1.mp4", "clip_sha256": "5878893ec132542d9d32677f36df7657105b4749468267845361bfffaeee525e", "duration": 2.253, "benchmark_eligible": false, "split": "口径确认集，禁止进入盲测", "product_identity": "未核验", "quality_note": "待用户核查画面与动作", "confirmed_by": "当前用户", "confirmed_at": "2026-11-12T17:45:05+08:00", "confirmation_evidence": "确认，A1正例，A2反例。记录这一组，继续带我看滚涂和批刮的对照，等我确认后再记录，流程图同步更新。"}
+  history: list len=12
+    item0 keys: dict
+    item0 keys: ['time', 'sample_id', 'before_label', 'after_label', 'evidence']
+    item0: {"time": "2026-11-12T17:45:05+08:00", "sample_id": "A1", "before_label": null, "after_label": "正例", "evidence": "确认，A1正例，A2反例。记录这一组，继续带我看滚涂和批刮的对照，等我确认后再记录，流程图同步更新。"}
+  updated: '2026-11-12T17:52:44+08:00'
+
+## JSON batch-02.json
+  type: dict size_bytes= 10158
+  keys: ['version', 'created', 'purpose', 'rows', 'visual_review', 'history', 'updated']
+  version: 3
+  created: '2026-11-12'
+  purpose: '施工动作人工标注口径确认；不是训练完成，不是正式选片'
+  rows: list len=6
+    item0 keys: dict
+    item0 keys: ['sample_id', 'category', 'query', 'source', 'project_guess', 'project_confirmed', 'suggested_label', 'suggestion_reason', 'confirmed_label', 'status', 'clip', 'clip_sha256', 'duration', 'benchmark_eligible', 'split', 'product_identity', 'quality_note', 'user_judgment', 'judgment_certainty', 'reviewed_by', 'reviewed_at', 'review_evidence', 'gold_label_eligible']
+    item0: {"sample_id": "A3", "category": "覆膜保护", "query": "正在给厨房台面或水槽覆盖保护膜", "source": {"id": "f55c5670bdf089234e526125c5edfe75", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\天顺园十团小区（嘉贝乐）\\施工视频\\施工准备工作\\29795_小区场景.MOV", "rel": "天顺园十团小区（嘉贝乐）/施工视频/施工准备工作/29795_小区场景.MOV", "root": "xiaoq", "name": "29795_小区场景.MOV", "start": 1.70833325, "end": 4.70833325}, "project_guess": "天顺园十团小区（嘉贝乐）", "project_confirmed": false, "suggested_label": "反例", "suggestion_reason": "连续抽帧显示手提装物塑料袋，不能仅凭有塑料薄膜就认定正在覆膜；最终待用户确认", "confirmed_label": null, "status": "用户倾向反例，未定案", "clip": "clips/A3.mp4", "clip_sha256": "4a990a71811f0de2298318a5438214de5676a6cf357d3e2e8e61c13d498c4975", "duration": 3.0, "benchmark_eligible": false, "split": "口径确认集，禁止进入盲测", "product_identity": "未核验", "quality_note": "待用户核查画面与动作", "user_judgment": "倾向反例", "judgment_certainty": "暂定", "reviewed_by": "当前用户", "reviewed_at": "2026-11-12T18:07:58+08:00", "review_evidence": "两段都偏反例", "gold_label_eligible": false}
+  visual_review: '6段各检查起中末3帧并完整解码；不是用户验收。覆膜组两段均初判反例，未找到新增明确正例，不凑数。'
+  history: list len=6
+    item0 keys: dict
+    item0 keys: ['time', 'sample_id', 'before_status', 'after_status', 'evidence']
+    item0: {"time": "2026-11-12T18:07:58+08:00", "sample_id": "A3", "before_status": "待人工确认", "after_status": "用户倾向反例，未定案", "evidence": "两段都偏反例"}
+  updated: '2026-11-12T18:11:46+08:00'
+
+## JSON batch-03.json
+  type: dict size_bytes= 16335
+  keys: ['version', 'created', 'purpose', 'rows', 'history', 'updated']
+  version: 5
+  created: '2026-11-12'
+  purpose: '施工动作人工标注口径确认；不是训练完成，不是正式选片'
+  rows: list len=8
+    item0 keys: dict
+    item0 keys: ['sample_id', 'category', 'query', 'source', 'project_guess', 'project_confirmed', 'suggested_label', 'suggestion_reason', 'confirmed_label', 'status', 'clip', 'clip_sha256', 'duration', 'benchmark_eligible', 'split', 'product_identity', 'quality_note', 'visual_review', 'confirmed_by', 'confirmed_at', 'confirmation_evidence', 'confirmed_action', 'label_scope']
+    item0: {"sample_id": "A5", "category": "覆膜保护", "query": "正在给家具覆盖或固定保护膜", "source": {"id": "8bed842eb6b40a97b514bbcfad6d75af", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\武昌江景房\\武汉江景房铲墙皮\\2025-04-10 140352.mov", "rel": "武昌江景房/武汉江景房铲墙皮/2025-04-10 140352.mov", "root": "xiaoq", "name": "2025-04-10 140352.mov", "start": 0.5, "end": 2.0}, "project_guess": "武昌江景房", "project_confirmed": false, "suggested_label": "待确认", "suggestion_reason": "检查是否有实际铺覆、拉展或固定薄膜的动作；对象是家具，不是厨房台面", "confirmed_label": "正例", "status": "用户已确认", "clip": "clips/A5.mp4", "clip_sha256": "21d6cf846a1dd1769b1204c8da10a011f663d90801f217c7f20337d0a3230ff9", "duration": 1.5, "benchmark_eligible": false, "split": "口径确认集，禁止进入盲测", "product_identity": "未核验", "quality_note": "仅动作标注；产品身份未核验；真实项目待核验", "visual_review": "完整解码及起中末抽帧核对；A6/F3另截取连续动作，避开源视频内插入的产品或其他场景", "confirmed_by": "当前用户", "confirmed_at": "2026-11-12T18:22:35+08:00", "confirmation_evidence": "A5、A6都是正例，按家具覆膜记录，不算厨房台面覆膜。继续带我看打磨的对照，等我确认后再记录，流程图同步更新。", "confirmed_action": "家具覆膜", "label_scope": "仅家具覆膜，不计入厨房台面覆膜"}
+  history: list len=8
+    item0 keys: dict
+    item0 keys: ['time', 'sample_id', 'before_label', 'after_label', 'evidence', 'scope']
+    item0: {"time": "2026-11-12T18:22:35+08:00", "sample_id": "A5", "before_label": null, "after_label": "正例", "evidence": "A5、A6都是正例，按家具覆膜记录，不算厨房台面覆膜。继续带我看打磨的对照，等我确认后再记录，流程图同步更新。", "scope": "家具覆膜，不计入厨房台面覆膜"}
+  updated: '2026-11-13T10:09:14+08:00'
+
+## JSON batch-04.json
+  type: dict size_bytes= 3750
+  keys: ['version', 'created', 'purpose', 'rows', 'history', 'updated']
+  version: 3
+  created: '2026-11-12'
+  purpose: '施工动作人工标注口径确认；不是训练完成，不是正式选片'
+  rows: list len=2
+    item0 keys: dict
+    item0 keys: ['sample_id', 'category', 'query', 'source', 'project_guess', 'project_confirmed', 'suggested_label', 'suggestion_reason', 'confirmed_label', 'status', 'clip', 'clip_sha256', 'duration', 'benchmark_eligible', 'split', 'product_identity', 'quality_note', 'confirmed_by', 'confirmed_at', 'confirmation_evidence', 'confirmed_action', 'label_scope']
+    item0: {"sample_id": "F5", "category": "清洁", "query": "正在用抹布擦拭地面清洁", "source": {"id": "8272401b8a761588aeb17a96a07b47f7", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\9清洁\\20975_地面_批刮施工.mp4", "rel": "9清洁/20975_地面_批刮施工.mp4", "root": "baba", "name": "20975_地面_批刮施工.mp4", "start": 0.2, "end": 2.2}, "project_guess": "来源项目未知（分类库）", "project_confirmed": false, "suggested_label": "待确认", "suggestion_reason": "核查手持抹布实际擦拭地面的连续动作；真实项目未知", "confirmed_label": "正例", "status": "用户已确认", "clip": "clips/F5.mp4", "clip_sha256": "2c75d8bf5ea33426407afbb0e540a661f4874a897cf35c7ed5b5503e37ca86fa", "duration": 2.0, "benchmark_eligible": false, "split": "口径确认集，禁止进入盲测", "product_identity": "未核验", "quality_note": "分类库来源，真实项目未核验；仅标注用途，不进入跨项目盲测。", "confirmed_by": "当前用户", "confirmed_at": "2026-11-13T10:15:42+08:00", "confirmation_evidence": "F5：正例", "confirmed_action": "抹布擦地面", "label_scope": "仅抹布擦地面；真实项目尚未核实"}
+  history: list len=2
+    item0 keys: dict
+    item0 keys: ['time', 'sample_id', 'before_label', 'after_label', 'evidence']
+    item0: {"time": "2026-11-13T10:15:42+08:00", "sample_id": "F5", "before_label": null, "after_label": "正例", "evidence": "F5：正例"}
+  updated: '2026-11-13T10:18:41+08:00'
+
+## JSON product-01.json
+  type: dict size_bytes= 15492
+  keys: ['version', 'created', 'purpose', 'rows', 'history', 'updated']
+  version: 4
+  created: '2026-11-12'
+  purpose: '施工动作人工标注口径确认；不是训练完成，不是正式选片'
+  rows: list len=6
+    item0 keys: dict
+    item0 keys: ['sample_id', 'category', 'query', 'source', 'project_guess', 'project_confirmed', 'suggested_label', 'suggestion_reason', 'confirmed_label', 'status', 'clip', 'clip_sha256', 'duration', 'benchmark_eligible', 'split', 'product_identity', 'quality_note', 'project_product_confirmed', 'visible_product_application', 'project_product', 'confirmed_by', 'confirmed_at', 'confirmation_evidence', 'confirmed_action', 'apply_to_directory', 'user_process_order']
+    item0: {"sample_id": "P1", "category": "产品核实", "query": "该项目是否使用微陶泥，以及此片段是否直接展示微陶泥施工", "source": {"id": "cb4899d0a9e5eee34933d459560ccb85", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\万科城（卫生间陶泥）\\施工中\\30546_小区场景.MOV", "rel": "万科城（卫生间陶泥）/施工中/30546_小区场景.MOV", "root": "xiaoq", "name": "30546_小区场景.MOV", "start": 2, "end": 5}, "project_guess": "万科城（卫生间陶泥）", "project_confirmed": false, "suggested_label": "待确认", "suggestion_reason": "产品身份与施工动作分别确认，不凭目录名或服装确认", "confirmed_label": "用户已确认项目与片段工序", "status": "用户已确认", "clip": "clips/P1.mp4", "clip_sha256": "4e10dc438d59824e2729ef8c14e53c51b44474f6b138980007c590ac6bd6cd34", "duration": 3.003, "benchmark_eligible": false, "split": "口径确认集，禁止进入盲测", "product_identity": "项目使用微陶泥（用户确认）；当前工序单独记录", "quality_note": "待用户核查画面与动作", "project_product_confirmed": true, "visible_product_application": "滚涂罩面，不作为直接微陶泥施工画面", "project_product": "微陶泥", "confirmed_by": "当前用户", "confirmed_at": "2026-11-13T10:25:04+08:00", "confirmation_evidence": "P1、P2项目都是施工微陶泥，但是p1是滚涂罩面属于第一道工序，篇画面才是微陶泥施工。先按这两段记录，不要直接套到整个目录，继续带我看P3、P4，等我确认后再记录，流程图同步更新。", "confirmed_action": "滚涂罩面", "apply_to_directory": false, "user_process_order": "第一道工序（按用户原话记录，未独立核验）"}
+  history: list len=6
+    item0 keys: dict
+    item0 keys: ['time', 'sample_id', 'before_product', 'after_project_product', 'action', 'evidence', 'scope']
+    item0: {"time": "2026-11-13T10:25:04+08:00", "sample_id": "P1", "before_product": "待用户确认", "after_project_product": "微陶泥", "action": "滚涂罩面", "evidence": "P1、P2项目都是施工微陶泥，但是p1是滚涂罩面属于第一道工序，篇画面才是微陶泥施工。先按这两段记录，不要直接套到整个目录，继续带我看P3、P4，等我确认后再记录，流程图同步更新。", "scope": "仅当前两段，不推广整个目录"}
+  updated: '2026-11-13T10:37:52+08:00'
+
+## JSON product-02.json
+  type: dict size_bytes= 15082
+  keys: ['version', 'created', 'purpose', 'rows', 'history', 'updated']
+  version: 4
+  created: '2026-11-13'
+  purpose: '施工动作人工标注口径确认；不是训练完成，不是正式选片'
+  rows: list len=6
+    item0 keys: dict
+    item0 keys: ['sample_id', 'category', 'query', 'source', 'project_guess', 'project_confirmed', 'suggested_label', 'suggestion_reason', 'confirmed_label', 'status', 'clip', 'clip_sha256', 'duration', 'benchmark_eligible', 'split', 'product_identity', 'quality_note', 'project_product_confirmed', 'visible_product_application', 'active_construction_visible', 'apply_to_directory', 'confirmed_by', 'confirmed_at', 'confirmation_evidence', 'confirmed_action', 'micro_clay_application_visible', 'label_scope']
+    item0: {"sample_id": "P7", "category": "产品核实", "query": "该项目是否使用微陶泥，以及此片段是否直接展示微陶泥施工", "source": {"id": "62c387ebe0f7aaf27fbaa0cae30acddf", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\万科城（卫生间陶泥）\\施工中\\30474_小区场景.MOV", "rel": "万科城（卫生间陶泥）/施工中/30474_小区场景.MOV", "root": "xiaoq", "name": "30474_小区场景.MOV", "start": 0.23375, "end": 0.935}, "project_guess": "万科城（卫生间陶泥）", "project_confirmed": false, "suggested_label": "待确认", "suggestion_reason": "产品身份与施工动作分别确认，不凭目录名或服装确认", "confirmed_label": "用户确认：铲除，不算微陶泥施工", "status": "用户已确认", "clip": "clips/P7.mp4", "clip_sha256": "6ff60b05fc57dc3c582d11086d96a5e53201898ca8493cdcd1a6bba6ac46a418", "duration": 0.701, "benchmark_eligible": false, "split": "口径确认集，禁止进入盲测", "product_identity": "当前片段不证明微陶泥产品身份", "quality_note": "待用户核查画面与动作", "project_product_confirmed": false, "visible_product_application": "铲除，不是微陶泥施工画面", "active_construction_visible": true, "apply_to_directory": false, "confirmed_by": "当前用户", "confirmed_at": "2026-11-13T10:44:40+08:00", "confirmation_evidence": "P7是铲除，不算微陶泥施工；P8是微陶泥施工，动作是批刮覆盖。先按这两段记录，不要套用整个目录，继续带我看P9、P10，等我确认后再记录，流程图同步更新。", "confirmed_action": "铲除", "micro_clay_application_visible": false, "label_scope": "仅片段铲除动作；不作为微陶泥施工正例，不否定整个项目是否使用微陶泥"}
+  history: list len=6
+    item0 keys: dict
+    item0 keys: ['time', 'sample_id', 'before', 'after_label', 'after_action', 'evidence', 'scope']
+    item0: {"time": "2026-11-13T10:44:40+08:00", "sample_id": "P7", "before": {"product_identity": "待用户确认", "visible_product_application": "待用户确认", "confirmed_label": null}, "after_label": "用户确认：铲除，不算微陶泥施工", "after_action": "铲除", "evidence": "P7是铲除，不算微陶泥施工；P8是微陶泥施工，动作是批刮覆盖。先按这两段记录，不要套用整个目录，继续带我看P9、P10，等我确认后再记录，流程图同步更新。", "scope": "仅当前片段"}
+  updated: '2026-11-13T10:49:04+08:00'
+
+## JSON product-03.json
+  type: dict size_bytes= 6149
+  keys: ['version', 'created', 'purpose', 'rows', 'updated', 'history']
+  version: 3
+  created: '2026-11-13'
+  purpose: '施工动作人工标注口径确认；不是训练完成，不是正式选片'
+  rows: list len=3
+    item0 keys: dict
+    item0 keys: ['sample_id', 'category', 'query', 'source', 'project_guess', 'project_confirmed', 'suggested_label', 'suggestion_reason', 'confirmed_label', 'status', 'clip', 'clip_sha256', 'duration', 'benchmark_eligible', 'split', 'product_identity', 'quality_note', 'apply_to_directory', 'label_scope', 'confirmed_at', 'confirmed_by', 'confirmation_evidence', 'micro_clay_scraping_application_visible', 'label_note']
+    item0: {"sample_id": "P13", "category": "产品核实", "query": "该项目是否使用微陶泥，以及此片段是否直接展示微陶泥施工", "source": {"id": "1a240d931daed37bb85e8a7cbbf4ab67", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\万科城（卫生间陶泥）\\施工中\\30396_小区场景.MOV", "rel": "万科城（卫生间陶泥）/施工中/30396_小区场景.MOV", "root": "xiaoq", "name": "30396_小区场景.MOV", "start": 2, "end": 5}, "project_guess": "万科城（卫生间陶泥）", "project_confirmed": false, "suggested_label": "待确认", "suggestion_reason": "产品身份与施工动作分别确认，不凭目录名或服装确认", "confirmed_label": "用户确认：不是微陶泥批刮施工", "status": "已人工确认", "clip": "clips/P13.mp4", "clip_sha256": "0cbc1b104c98951721b3b5b6d27b53a281865d7029fb35ed423b292b06758eee", "duration": 3.003, "benchmark_eligible": false, "split": "口径确认集，禁止进入盲测", "product_identity": "未核验", "quality_note": "待用户核查画面与动作", "apply_to_directory": false, "label_scope": "仅所列来源时间段", "confirmed_at": "2026-11-13T10:54:35.212143+08:00", "confirmed_by": "当前用户", "confirmation_evidence": "P13、P14都不算微陶泥批刮施工，先按这两段记录，不要套用整个目录。", "micro_clay_scraping_application_visible": false, "label_note": "仅否定微陶泥批刮施工；其他具体动作、产品身份及其他工序未确认。"}
+  updated: '2026-11-13T10:56:39.331432+08:00'
+  history: list len=2
+    item0 keys: dict
+    item0 keys: ['at', 'samples', 'evidence']
+    item0: {"at": "2026-11-13T10:54:35.212143+08:00", "samples": ["P13", "P14"], "evidence": "P13、P14都不算微陶泥批刮施工，先按这两段记录，不要套用整个目录。"}
+
+## JSON product-04.json
+  type: dict size_bytes= 3885
+  keys: ['version', 'created', 'purpose', 'rows', 'updated', 'history']
+  version: 2
+  created: '2026-11-13'
+  purpose: '施工动作人工标注口径确认；不是训练完成，不是正式选片'
+  rows: list len=2
+    item0 keys: dict
+    item0 keys: ['sample_id', 'category', 'query', 'source', 'project_guess', 'project_confirmed', 'suggested_label', 'suggestion_reason', 'confirmed_label', 'status', 'clip', 'clip_sha256', 'duration', 'benchmark_eligible', 'split', 'product_identity', 'quality_note', 'apply_to_directory', 'label_scope']
+    item0: {"sample_id": "P16", "category": "产品核实", "query": "该项目是否使用微陶泥，以及此片段是否直接展示微陶泥施工", "source": {"id": "986f57f8e85fe933b092a1a7e5d9dfe2", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\嘉贝乐-厨卫换新视频素材\\厨卫焕新视频素材\\04.批刮G200\\23540_小区_批刮施工.MOV", "rel": "嘉贝乐-厨卫换新视频素材/厨卫焕新视频素材/04.批刮G200/23540_小区_批刮施工.MOV", "root": "xiaoq", "name": "23540_小区_批刮施工.MOV", "start": 2, "end": 5}, "project_guess": "嘉贝乐-厨卫换新视频素材", "project_confirmed": false, "suggested_label": "待确认", "suggestion_reason": "产品身份与施工动作分别确认，不凭目录名或服装确认", "confirmed_label": null, "status": "暂不展示：抽帧为桶内材料，未满足批刮对照筛选要求", "clip": "clips/P16.mp4", "clip_sha256": "686b23c8398bf841de8a344eb9b609d9b55da6642765c7ffce3b9d93283cba88", "duration": 3.003, "benchmark_eligible": false, "split": "口径确认集，禁止进入盲测", "product_identity": "未核验", "quality_note": "待用户核查画面与动作", "apply_to_directory": false, "label_scope": "仅所列来源时间段"}
+  updated: '2026-11-13T11:03:04.584671+08:00'
+  history: list len=1
+    item0 keys: dict
+    item0 keys: ['at', 'samples', 'evidence']
+    item0: {"at": "2026-11-13T11:03:04.584671+08:00", "samples": ["P17"], "evidence": "P17第一确实的微陶泥，第二但不是在批刮，批刮指的是在墙面地面基础上的批刮的动作"}
+
+## JSON product-05.json
+  type: dict size_bytes= 6127
+  keys: ['version', 'created', 'purpose', 'rows', 'updated', 'history']
+  version: 2
+  created: '2026-11-13'
+  purpose: '施工动作人工标注口径确认；不是训练完成，不是正式选片'
+  rows: list len=3
+    item0 keys: dict
+    item0 keys: ['sample_id', 'category', 'query', 'source', 'project_guess', 'project_confirmed', 'suggested_label', 'suggestion_reason', 'confirmed_label', 'status', 'clip', 'clip_sha256', 'duration', 'benchmark_eligible', 'split', 'product_identity', 'quality_note', 'apply_to_directory', 'label_scope', 'review_note']
+    item0: {"sample_id": "P18", "category": "产品核实", "query": "是否实际批刮墙面？材料是微陶泥还是其他材料？", "source": {"id": "a360192e938408e9e9697dee5f086848", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\嘉贝乐-厨卫换新视频素材\\厨卫焕新视频素材\\04.批刮G200\\23546_小区_批刮施工.MOV", "rel": "嘉贝乐-厨卫换新视频素材/厨卫焕新视频素材/04.批刮G200/23546_小区_批刮施工.MOV", "root": "xiaoq", "name": "23546_小区_批刮施工.MOV", "start": 2, "end": 5}, "project_guess": "嘉贝乐-厨卫换新视频素材", "project_confirmed": false, "suggested_label": "待确认", "suggestion_reason": "产品身份与施工动作分别确认，不凭目录名或服装确认", "confirmed_label": null, "status": "待人工确认", "clip": "clips/P18.mp4", "clip_sha256": "ce98776bbed09fa328323a1c766a47850f65e9caacfa3ece977f0e63486b26ec", "duration": 3.003, "benchmark_eligible": false, "split": "口径确认集，禁止进入盲测", "product_identity": "未核验", "quality_note": "待用户核查画面与动作", "apply_to_directory": false, "label_scope": "仅所列来源时间段", "review_note": "四个时间点抽帧显示工具在墙面移动，材料与动作最终标签待用户确认；同一来源组，不计不同项目"}
+  updated: '2026-11-13T11:09:01.419775+08:00'
+  history: list len=1
+    item0 keys: dict
+    item0 keys: ['at', 'samples', 'evidence']
+    item0: {"at": "2026-11-13T11:09:01.419775+08:00", "samples": ["P19", "P20"], "evidence": "都符合，材料也是微陶泥"}
+
+## JSON product-06.json
+  type: dict size_bytes= 5036
+  keys: ['version', 'created', 'purpose', 'rows', 'updated', 'history']
+  version: 2
+  created: '2026-11-13'
+  purpose: '施工动作人工标注口径确认；不是训练完成，不是正式选片'
+  rows: list len=2
+    item0 keys: dict
+    item0 keys: ['sample_id', 'category', 'query', 'source', 'project_guess', 'project_confirmed', 'suggested_label', 'suggestion_reason', 'confirmed_label', 'status', 'clip', 'clip_sha256', 'duration', 'benchmark_eligible', 'split', 'product_identity', 'quality_note', 'apply_to_directory', 'label_scope', 'review_note', 'confirmed_action', 'micro_clay_scraping_application_visible', 'confirmed_at', 'confirmed_by', 'confirmation_evidence', 'business_relevance', 'eligible_for_current_video', 'record_use']
+    item0: {"sample_id": "P21", "category": "产品核实", "query": "是否属于基面批刮？材料是否微陶泥，若不是请说明材料名称或保留未知。", "source": {"id": "012256615ba2d3dab89090356da2d6b1", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\10材料\\1.微岩石\\拍摄\\金银湖别墅无机水洗石\\03326_地面_批刮施工.MOV", "rel": "10材料/1.微岩石/拍摄/金银湖别墅无机水洗石/03326_地面_批刮施工.MOV", "root": "baba", "name": "03326_地面_批刮施工.MOV", "start": 2, "end": 5}, "project_guess": "来源项目未知（分类库）", "project_confirmed": false, "suggested_label": "待确认", "suggestion_reason": "产品身份与施工动作分别确认，不凭目录名或服装确认", "confirmed_label": "用户确认：水洗石批刮，与当前视频业务无关", "status": "已人工确认：业务不适用", "clip": "clips/P21.mp4", "clip_sha256": "3d0bf507480234dfc6180e0fa9425dda3c951da429a6e0048b50d0cc37f53872", "duration": 3.0, "benchmark_eligible": false, "split": "口径确认集，禁止进入盲测", "product_identity": "水洗石", "quality_note": "用户已确认材料与业务不适用；来源目录不推广标签", "apply_to_directory": false, "label_scope": "仅所列来源时间段", "review_note": "四时间点抽帧检查工具接触基面与移动；材料身份和动作标签待用户确认；分类库来源项目仅为目录线索", "confirmed_action": "基面批刮", "micro_clay_scraping_application_visible": false, "confirmed_at": "2026-11-13T11:14:31.646916+08:00", "confirmed_by": "当前用户", "confirmation_evidence": ["是属于批刮动作？材料不是微陶泥，是其他材料叫水洗石", "我们是用不到这个材料的", "跟我们现在视频是无关的"], "business_relevance": "当前视频不适用", "eligible_for_current_video": false, "record_use": "仅作排除参考，不作为当前成片候选；不自动加入训练"}
+  updated: '2026-11-13T11:14:31.646916+08:00'
+  history: list len=1
+    item0 keys: dict
+    item0 keys: ['at', 'samples', 'change']
+    item0: {"at": "2026-11-13T11:14:31.646916+08:00", "samples": ["P21", "P22"], "change": "确认水洗石批刮，同时按最新反馈标记当前业务不适用，仅排除参考"}
+
+## JSON product-07.json
+  type: dict size_bytes= 5093
+  keys: ['version', 'created', 'purpose', 'rows', 'updated', 'history']
+  version: 3
+  created: '2026-11-13'
+  purpose: '施工动作人工标注口径确认；不是训练完成，不是正式选片'
+  rows: list len=2
+    item0 keys: dict
+    item0 keys: ['sample_id', 'category', 'query', 'source', 'project_guess', 'project_confirmed', 'suggested_label', 'suggestion_reason', 'confirmed_label', 'status', 'clip', 'clip_sha256', 'duration', 'benchmark_eligible', 'split', 'product_identity', 'quality_note', 'apply_to_directory', 'label_scope', 'review_note', 'confirmed_action', 'confirmed_actions', 'mixed_actions', 'micro_clay_scraping_application_visible', 'confirmed_at', 'confirmed_by', 'confirmation_evidence']
+    item0: {"sample_id": "P23", "category": "产品核实", "query": "请确认微陶泥身份及实际动作；若取料与批刮混合，请标混合，不能强行当纯取料反例。", "source": {"id": "ec7811dd02f80d607d4ade7683da72c9", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\翠提春晓\\批刮陶泥\\IMG_0949.MOV", "rel": "翠提春晓/批刮陶泥/IMG_0949.MOV", "root": "xiaoq", "name": "IMG_0949.MOV", "start": 2, "end": 5}, "project_guess": "翠提春晓", "project_confirmed": false, "suggested_label": "待确认", "suggestion_reason": "产品身份与施工动作分别确认，不凭目录名或服装确认", "confirmed_label": "用户确认：微陶泥批刮", "status": "已人工确认", "clip": "clips/P23.mp4", "clip_sha256": "c3eb6ca6d35f5200d78f2cdc6d75ca8870fee4164b7ef7704031055c44bfa2ce", "duration": 3.003, "benchmark_eligible": false, "split": "口径确认集，禁止进入盲测", "product_identity": "微陶泥（用户确认，仅本段）", "quality_note": "用户已确认材料与动作", "apply_to_directory": false, "label_scope": "仅所列来源时间段", "review_note": "四时间点抽查，P23工具在墙面移动；P24桶旁操作后伸向基面，可能混合动作，待用户判断", "confirmed_action": "批刮", "confirmed_actions": ["批刮"], "mixed_actions": false, "micro_clay_scraping_application_visible": true, "confirmed_at": "2026-11-13T11:20:29.137799+08:00", "confirmed_by": "当前用户", "confirmation_evidence": "都是微陶泥，P23是批刮，P24是批刮、取料都有"}
+  updated: '2026-11-13T11:24:45.822110+08:00'
+  history: list len=2
+    item0 keys: dict
+    item0 keys: ['at', 'samples', 'evidence']
+    item0: {"at": "2026-11-13T11:20:29.137799+08:00", "samples": ["P23", "P24"], "evidence": "都是微陶泥，P23是批刮，P24是批刮、取料都有"}
+
+## JSON product-08.json
+  type: dict size_bytes= 3131
+  keys: ['version', 'purpose', 'rows', 'updated', 'history']
+  version: 2
+  purpose: '较长取料与罩面人工确认样本，非训练完成'
+  rows: list len=2
+    item0 keys: dict
+    item0 keys: ['sample_id', 'source', 'clip', 'clip_sha256', 'suggested_action', 'confirmed_label', 'status', 'product_identity', 'apply_to_directory', 'benchmark_eligible', 'label_scope', 'related_sample', 'confirmed_action', 'confirmed_at', 'confirmed_by', 'confirmation_evidence', 'full_range_confirmed']
+    item0: {"sample_id": "P25", "source": {"id": "4ccc65df7eeac0bb2297a1cecacea261", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\博学仕府（地面液态陶泥）\\施工\\18092_小区场景.MOV", "rel": "博学仕府（地面液态陶泥）/施工/18092_小区场景.MOV", "root": "xiaoq", "name": "18092_小区场景.MOV", "start": 0, "end": 4.5}, "clip": "clips/P25.mp4", "clip_sha256": "a0f4dd010a6523f1a3640f100fc6c21b74c36fad2a548929b4c4a8bac78cbc9c", "suggested_action": "取料", "confirmed_label": "用户确认：微陶泥纯取料", "status": "已人工确认", "product_identity": "微陶泥（用户确认，仅本段）", "apply_to_directory": false, "benchmark_eligible": false, "label_scope": "仅所列完整时间范围", "related_sample": "P9同原片延长范围，不算新独立来源", "confirmed_action": "纯取料", "confirmed_at": "2026-11-13T11:39:18.010177+08:00", "confirmed_by": "当前用户", "confirmation_evidence": "P25是微陶泥纯取料，P26是微陶泥罩面，整段都可以。先按这两段记录，不要套用整个目录", "full_range_confirmed": true}
+  updated: '2026-11-13T11:39:18.010177+08:00'
+  history: list len=1
+    item0 keys: dict
+    item0 keys: ['at', 'samples', 'evidence']
+    item0: {"at": "2026-11-13T11:39:18.010177+08:00", "samples": ["P25", "P26"], "evidence": "P25是微陶泥纯取料，P26是微陶泥罩面，整段都可以。先按这两段记录，不要套用整个目录"}
+
+## JSON person-01.json
+  type: dict size_bytes= 3729
+  keys: ['version', 'created', 'purpose', 'rows', 'updated', 'history']
+  version: 2
+  created: '2026-11-13'
+  purpose: '人物身份人工核实，不是模型人脸识别结论，不自动进入训练'
+  rows: list len=2
+    item0 keys: dict
+    item0 keys: ['sample_id', 'category', 'query', 'source', 'project_guess', 'project_confirmed', 'suggested_label', 'suggestion_reason', 'confirmed_label', 'status', 'clip', 'clip_sha256', 'duration', 'benchmark_eligible', 'split', 'product_identity', 'quality_note', 'person_identity', 'apply_to_directory', 'label_scope', 'related_sample', 'confirmed_by', 'confirmed_at', 'confirmation_evidence']
+    item0: {"sample_id": "R01", "category": "人物核实", "query": "请用户确认画面主体是否阿明；其他人物或看不清保持待核实", "source": {"id": "8dbee2c08ff99cb523c79d1ff43ff386", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\二印小区厨卫\\人物出镜\\20573_人物_小区场景.MOV", "rel": "二印小区厨卫/人物出镜/20573_人物_小区场景.MOV", "root": "xiaoq", "name": "20573_人物_小区场景.MOV", "start": 2, "end": 6}, "project_guess": "二印小区厨卫", "project_confirmed": false, "suggested_label": "待确认", "suggestion_reason": "身份必须由用户逐段确认，不凭服装或目录自动推定", "confirmed_label": "用户确认：阿明", "status": "已人工确认", "clip": "clips/R01.mp4", "clip_sha256": "260925c34d298fd167bdb3b4bc64597886cb437eb59d5e1f2a78f21d420086c5", "duration": 4.004, "benchmark_eligible": false, "split": "口径确认集，禁止进入盲测", "product_identity": "未核验", "quality_note": "正面讲述", "person_identity": "阿明", "apply_to_directory": false, "label_scope": "仅所列时间段内的画面主体", "related_sample": null, "confirmed_by": "当前用户", "confirmed_at": "2026-11-13T11:47:44.771755+08:00", "confirmation_evidence": "R01是阿明，R02是其他人物。先按这两段记录，不要套用整个目录"}
+  updated: '2026-11-13T11:47:44.771755+08:00'
+  history: list len=1
+    item0 keys: dict
+    item0 keys: ['at', 'evidence', 'samples']
+    item0: {"at": "2026-11-13T11:47:44.771755+08:00", "evidence": "R01是阿明，R02是其他人物", "samples": ["R01", "R02"]}
+
+## JSON person-02.json
+  type: dict size_bytes= 4297
+  keys: ['version', 'created', 'purpose', 'rows', 'updated', 'history']
+  version: 2
+  created: '2026-11-13'
+  purpose: '不同场景人物人工核实；多人同框分别标注，不由目录推断身份'
+  rows: list len=2
+    item0 keys: dict
+    item0 keys: ['sample_id', 'category', 'query', 'source', 'project_guess', 'project_confirmed', 'suggested_label', 'suggestion_reason', 'confirmed_label', 'status', 'clip', 'clip_sha256', 'duration', 'benchmark_eligible', 'split', 'product_identity', 'quality_note', 'person_identity', 'apply_to_directory', 'label_scope', 'person_targets', 'confirmed_at', 'confirmed_by', 'confirmation_evidence']
+    item0: {"sample_id": "R03", "category": "人物核实", "query": "请用户确认画面主体是否阿明；其他人物或看不清保持待核实", "source": {"id": "c50fce1d7c874f30a0008fb4b419fbd0", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\长鑫家园（上门谈单）\\34187_小区场景.MOV", "rel": "长鑫家园（上门谈单）/34187_小区场景.MOV", "root": "xiaoq", "name": "34187_小区场景.MOV", "start": 2, "end": 6}, "project_guess": "长鑫家园（上门谈单）", "project_confirmed": false, "suggested_label": "待确认", "suggestion_reason": "身份必须由用户逐段确认，不凭服装或目录自动推定", "confirmed_label": "用户确认：阿明", "status": "已逐人确认", "clip": "clips/R03.mp4", "clip_sha256": "a37a6f693b05af23c65ff79d497789b0beeba9b17ce9f246eef29ea23a21d05a", "duration": 4.004, "benchmark_eligible": false, "split": "口径确认集，禁止进入盲测", "product_identity": "未核验", "quality_note": "三时间点检查、完整解码通过；身份不由助手推断", "person_identity": "阿明", "apply_to_directory": false, "label_scope": "仅所列时间段内指定人物，不推广同框其他人", "person_targets": [{"description": "室外白衣讲述者", "identity": "阿明", "confirmed_by": "当前用户"}], "confirmed_at": "2026-11-13T11:50:39.405858+08:00", "confirmed_by": "当前用户", "confirmation_evidence": "R03是阿明，R04前景紫衣是阿明，后方没穿上衣的是其他人物"}
+  updated: '2026-11-13T11:50:39.405858+08:00'
+  history: list len=1
+    item0 keys: dict
+    item0 keys: ['at', 'evidence']
+    item0: {"at": "2026-11-13T11:50:39.405858+08:00", "evidence": "R03是阿明，R04前景紫衣是阿明，后方没穿上衣的是其他人物"}
+
+## JSON person-03.json
+  type: dict size_bytes= 4608
+  keys: ['version', 'created', 'purpose', 'rows', 'updated', 'history']
+  version: 2
+  created: '2026-11-13'
+  purpose: '不同场景人物人工核实，标签待用户确认，不套用目录'
+  rows: list len=2
+    item0 keys: dict
+    item0 keys: ['sample_id', 'category', 'query', 'source', 'project_guess', 'project_confirmed', 'suggested_label', 'suggestion_reason', 'confirmed_label', 'status', 'clip', 'clip_sha256', 'duration', 'benchmark_eligible', 'split', 'product_identity', 'quality_note', 'person_identity', 'apply_to_directory', 'label_scope', 'person_targets', 'confirmed_at', 'confirmed_by', 'confirmation_evidence']
+    item0: {"sample_id": "R05", "category": "人物核实", "query": "请用户确认画面主体是否阿明；其他人物或看不清保持待核实", "source": {"id": "c6eb8134b11a584256423d6a036fda71", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\优活城\\人物出镜\\33505_人物_小区场景.MOV", "rel": "优活城/人物出镜/33505_人物_小区场景.MOV", "root": "xiaoq", "name": "33505_人物_小区场景.MOV", "start": 2, "end": 6}, "project_guess": "优活城", "project_confirmed": false, "suggested_label": "待确认", "suggestion_reason": "身份必须由用户逐段确认，不凭服装或目录自动推定", "confirmed_label": "用户确认：阿明", "status": "已逐人确认", "clip": "clips/R05.mp4", "clip_sha256": "21ab6e318b705dd107eaa995041cf4fa169044b6ba92e1170c3cec467531a34f", "duration": 4.0, "benchmark_eligible": false, "split": "口径确认集，禁止进入盲测", "product_identity": "未核验", "quality_note": "三时间点检查与完整解码通过；不由服装推断身份", "person_identity": "阿明", "apply_to_directory": false, "label_scope": "仅所列片段中的指定人物", "person_targets": [{"description": "室内黑外套讲述者", "identity": "阿明", "confirmed_by": "当前用户", "confirmed_at": "2026-11-13T11:53:21.958061+08:00"}], "confirmed_at": "2026-11-13T11:53:21.958061+08:00", "confirmed_by": "当前用户", "confirmation_evidence": "R05是阿明，R06前景紫色马甲是阿明，右后方靠墙的是其他人物。先按这几个人物记录，不要套用整个目录"}
+  updated: '2026-11-13T11:53:21.958061+08:00'
+  history: list len=1
+    item0 keys: dict
+    item0 keys: ['at', 'evidence', 'samples']
+    item0: {"at": "2026-11-13T11:53:21.958061+08:00", "evidence": "R05是阿明，R06前景紫色马甲是阿明，右后方靠墙的是其他人物。先按这几个人物记录，不要套用整个目录", "samples": ["R05", "R06"]}
+
+## JSON person-04.json
+  type: dict size_bytes= 4465
+  keys: ['version', 'created', 'purpose', 'rows', 'updated', 'history']
+  version: 2
+  created: '2026-11-13'
+  purpose: '人物角度与无法判断边界核实，身份未推断'
+  rows: list len=2
+    item0 keys: dict
+    item0 keys: ['sample_id', 'category', 'query', 'source', 'project_guess', 'project_confirmed', 'suggested_label', 'suggestion_reason', 'confirmed_label', 'status', 'clip', 'clip_sha256', 'duration', 'benchmark_eligible', 'split', 'product_identity', 'quality_note', 'person_identity', 'apply_to_directory', 'label_scope', 'person_targets', 'review_note', 'person_role', 'confirmed_at', 'confirmed_by', 'confirmation_evidence']
+    item0: {"sample_id": "R07", "category": "人物核实", "query": "请用户确认画面主体是否阿明；其他人物或看不清保持待核实", "source": {"id": "1c3742d1e5fd0e1d51ffd7ddc2b052b9", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\常青花园四小区\\人物出镜\\19910_人物_小区场景.MOV", "rel": "常青花园四小区/人物出镜/19910_人物_小区场景.MOV", "root": "xiaoq", "name": "19910_人物_小区场景.MOV", "start": 2, "end": 6}, "project_guess": "常青花园四小区", "project_confirmed": false, "suggested_label": "待确认", "suggestion_reason": "身份必须由用户逐段确认，不凭服装或目录自动推定", "confirmed_label": "用户确认：阿明", "status": "已逐人确认", "clip": "clips/R07.mp4", "clip_sha256": "addd258a7166237ed0a21f313ed5ddb5d6e1c38afac3f64edf8329ce9f5815d2", "duration": 4.004, "benchmark_eligible": false, "split": "口径确认集，禁止进入盲测", "product_identity": "未核验", "quality_note": "蹲着讲述的人物，较远景、低头转向镜头", "person_identity": "阿明", "apply_to_directory": false, "label_scope": "仅所列片段中的指定人物", "person_targets": [{"description": "蹲着讲述的人物，较远景、低头转向镜头", "identity": "阿明", "role": null, "confirmed_by": "当前用户", "confirmed_at": "2026-11-13T13:36:34.059022+08:00"}], "review_note": "本组用于角度/可辨认性边界，不计为清晰正面其他人物缺口已补齐", "person_role": null, "confirmed_at": "2026-11-13T13:36:34.059022+08:00", "confirmed_by": "当前用户", "confirmation_evidence": "R07是阿明，R08不是阿明，是师傅"}
+  updated: '2026-11-13T13:36:34.059022+08:00'
+  history: list len=1
+    item0 keys: dict
+    item0 keys: ['at', 'samples', 'evidence']
+    item0: {"at": "2026-11-13T13:36:34.059022+08:00", "samples": ["R07", "R08"], "evidence": "R07是阿明，R08不是阿明，是师傅"}
+
+## JSON person-05.json
+  type: dict size_bytes= 2884
+  keys: ['version', 'created', 'purpose', 'rows', 'updated', 'history']
+  version: 2
+  created: '2026-11-13'
+  purpose: '正面单人身份对照候选；等待用户确认，不训练'
+  rows: list len=1
+    item0 keys: dict
+    item0 keys: ['sample_id', 'category', 'query', 'source', 'project_guess', 'project_confirmed', 'suggested_label', 'suggestion_reason', 'confirmed_label', 'status', 'clip', 'clip_sha256', 'duration', 'benchmark_eligible', 'split', 'product_identity', 'quality_note', 'person_identity', 'person_targets', 'apply_to_directory', 'label_scope', 'review_note', 'confirmed_at', 'confirmed_by', 'confirmation_evidence', 'eligible_for_production', 'training_eligible', 'usage_restriction', 'restriction_scope']
+    item0: {"sample_id": "R09", "category": "人物核实", "query": "请用户确认画面主体是否阿明；其他人物或看不清保持待核实", "source": {"id": "28e1f1da6707350efc9a7a67776984ea", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\汉阳月印府(6.7全屋)\\美女人设\\21951_人物_小区场景.MOV", "rel": "汉阳月印府(6.7全屋)/美女人设/21951_人物_小区场景.MOV", "root": "xiaoq", "name": "21951_人物_小区场景.MOV", "start": 2, "end": 6}, "project_guess": "汉阳月印府(6.7全屋)", "project_confirmed": false, "suggested_label": "待确认", "suggestion_reason": "身份必须由用户逐段确认，不凭服装或目录自动推定", "confirmed_label": "用户确认：非阿明；该人物出镜素材禁用", "status": "已确认：出镜禁用", "clip": "clips/R09.mp4", "clip_sha256": "b1188b0e1fa6a6c268a11be632ee9238e3127a31fb1bb95d6275f4e5b5b73e66", "duration": 4.0, "benchmark_eligible": false, "split": "口径确认集，禁止进入盲测", "product_identity": "未核验", "quality_note": "单人正面，三个时间点脸部清楚；完整解码通过", "person_identity": "其他人物", "person_targets": [{"description": "室内戴眼镜、浅色上衣的正面讲述者", "identity": "其他人物", "production_use": "禁止", "confirmed_by": "当前用户"}], "apply_to_directory": false, "label_scope": "仅所列片段中的指定人物", "review_note": "满足单人正面画面要求，身份及当前文案用途仍待用户确认，不推断姓名或职业", "confirmed_at": "2026-11-13T13:43:01.435239+08:00", "confirmed_by": "当前用户", "confirmation_evidence": "R09不是阿明，另外说一点这个女生离职了不能使用他出境的素材", "eligible_for_production": false, "training_eligible": false, "usage_restriction": "用户明确禁止使用R09所指人物出镜素材；不再作为可用候选推荐，保留排除依据", "restriction_scope": "该人物出现的素材；其他来源须核实对应人物，不自动禁用整个目录"}
+  updated: '2026-11-13T13:43:01.435239+08:00'
+  history: list len=1
+    item0 keys: dict
+    item0 keys: ['at', 'evidence', 'change']
+    item0: {"at": "2026-11-13T13:43:01.435239+08:00", "evidence": "R09不是阿明，另外说一点这个女生离职了不能使用他出境的素材", "change": "记录非阿明及人物出镜禁用要求"}
+
+## JSON person-07.json
+  type: dict size_bytes= 3650
+  keys: ['version', 'purpose', 'rows']
+  version: 1
+  purpose: '用户确认人物检索方向，仅具体预览片段'
+  rows: list len=3
+    item0 keys: dict
+    item0 keys: ['sample_id', 'source', 'person_identity', 'person_targets', 'confirmed_label', 'confirmed_by', 'confirmed_at', 'confirmation_evidence', 'apply_to_directory', 'product_identity', 'label_note', 'current_copy', 'current_copy_suitable', 'adopted']
+    item0: {"sample_id": "V1", "source": {"id": "08df39f7e2833ba59b9fa50e7beecc74", "root": "xiaoq", "rel": "武汉理工大学/人物出镜/32523_人物_小区场景.MOV", "name": "32523_人物_小区场景.MOV", "start": 0, "end": 8}, "person_identity": "阿明", "person_targets": [{"description": "本预览片段的主要人物；不包含其他同框人物", "identity": "阿明", "confirmed_by": "当前用户"}], "confirmed_label": "用户确认适合当前文案", "confirmed_by": "当前用户", "confirmed_at": "2026-11-16T16:29:12.292417+08:00", "confirmation_evidence": "V1和v3适合，主要人物是阿明 v2不是", "apply_to_directory": false, "product_identity": "未核验", "label_note": "仅0–8秒主要人物。V2不认定全体同框人物均不是阿明，也不作全库禁用。", "current_copy": "他就是全武汉女人都想嫁的旧房改造大王", "current_copy_suitable": true, "adopted": false}
+
+## JSON P24-boundary-proposal.json
+  type: dict size_bytes= 3369
+  keys: ['version', 'purpose', 'method', 'rows', 'transition_excluded', 'parent_confirmed_label_unchanged', 'updated', 'history']
+  version: 2
+  purpose: 'P24混合动作分段提案，非新增独立项目样本'
+  method: '每0.25秒抽帧核查后提出保守区间，未声称精确动作转换帧'
+  rows: list len=2
+    item0 keys: dict
+    item0 keys: ['sample_id', 'parent_sample', 'source', 'parent_clip_start', 'parent_clip_end', 'suggested_action', 'confirmed_label', 'status', 'clip', 'clip_sha256', 'duration', 'benchmark_eligible', 'apply_to_directory', 'confirmed_action', 'product_identity', 'confirmed_at', 'confirmed_by', 'confirmation_evidence', 'confirmation_context', 'label_scope', 'independent_source_sample']
+    item0: {"sample_id": "P24-A", "parent_sample": "P24", "source": {"id": "c20a703613be13deddbe8d3f71e8b007", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\江岸2卫＋厨房\\第一遍陶泥\\24224_小区场景.MOV", "rel": "江岸2卫＋厨房/第一遍陶泥/24224_小区场景.MOV", "root": "xiaoq", "name": "24224_小区场景.MOV", "start": 2, "end": 2.9}, "parent_clip_start": 0, "parent_clip_end": 0.9, "suggested_action": "取料", "confirmed_label": "用户确认：微陶泥取料", "status": "分段与动作已人工确认", "clip": "clips/P24-A-boundary-preview.mp4", "clip_sha256": "77da210f2624dad160ecff91cc85b0cd37419a814c91ce2f01aee391c63e2db1", "duration": 0.901, "benchmark_eligible": false, "apply_to_directory": false, "confirmed_action": "取料", "product_identity": "微陶泥（P24已确认）", "confirmed_at": "2026-11-13T11:24:45.822110+08:00", "confirmed_by": "当前用户", "confirmation_evidence": "都能", "confirmation_context": "针对P24-A取料原片2.00—2.90秒、P24-B批刮原片3.50—5.00秒的预览确认", "label_scope": "仅所列来源时间段", "independent_source_sample": false}
+  transition_excluded: dict keys=['parent_clip_start', 'parent_clip_end'] n=2
+  parent_confirmed_label_unchanged: True
+  updated: '2026-11-13T11:24:45.822110+08:00'
+  history: list len=1
+    item0 keys: dict
+    item0 keys: ['at', 'event', 'evidence']
+    item0: {"at": "2026-11-13T11:24:45.822110+08:00", "event": "用户确认两段均能作为所示动作片段", "evidence": "都能"}
+
+## JSON aming-source-rule-index.json
+  type: dict size_bytes= 1202786
+  keys: ['updated', 'rows', 'scope']
+  updated: '2026-11-13T10:19:47.493851+08:00'
+  rows: list len=2098
+    item0 keys: dict
+    item0 keys: ['id', 'root', 'rel', 'name', 'source_rule', 'principal_speaker_identity', 'clip_person_visible', 'other_people_identity', 'product_identity', 'basis']
+    item0: {"id": "110f06fdc95419b66ebd79ca43ea1b08", "root": "xiaoq", "rel": "二印小区厨卫/人物出镜/20568_人物_小区场景.MOV", "name": "20568_人物_小区场景.MOV", "source_rule": "用户确认：该类目录里的主要讲解者是阿明", "principal_speaker_identity": "阿明（来源规则）", "clip_person_visible": "未逐片核实", "other_people_identity": "待核实", "product_identity": "未核实", "basis": "用户本次确认沿用来源规则；非人脸识别"}
+  scope: '仅目录主要讲解者；不表示每片一定有阿明或所有人都是阿明'
+
+## JSON identity-evidence.json
+  type: dict size_bytes= 41376
+  keys: ['source', 'segments']
+  source: 'learning.sqlite3的已审核事实快照；正式检索每轮读数据库，停用立即影响下一轮'
+  segments: list len=33
+    item0 keys: dict
+    item0 keys: ['kind', 'scope', 'project_id', 'text', 'asset_id', 'start', 'end', 'identities', 'confirmed_by', 'evidence', 'sample_id', 'person_targets', 'person_identity', 'product_identity', 'confirmed_action', 'action_segments', 'description', 'reason', 'reason_code', 'source_record', 'source_record_hash', 'apply_to_directory', 'usable', 'context', 'id', 'reviewed_by']
+    item0: {"kind": "fact", "scope": "similar", "project_id": "", "text": "", "asset_id": "cb4899d0a9e5eee34933d459560ccb85", "start": 2.0, "end": 5.0, "identities": ["微陶泥"], "confirmed_by": "当前用户", "evidence": "P1、P2项目都是施工微陶泥，但是p1是滚涂罩面属于第一道工序，篇画面才是微陶泥施工。先按这两段记录，不要直接套到整个目录，继续带我看P3、P4，等我确认后再记录，流程图同步更新。", "sample_id": "P1", "person_targets": [], "person_identity": null, "product_identity": "项目使用微陶泥（用户确认）；当前工序单独记录", "confirmed_action": "滚涂罩面", "action_segments": [], "description": "用户已确认项目与片段工序", "reason": "", "reason_code": "confirmed", "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\product-01.json", "source_record_hash": "0a2858ef23a7d20ed86f7a613ab3e90ea68505f010df57e8e76db48ee96c473f", "apply_to_directory": false, "usable": true, "context": "滚涂罩面，不作为直接微陶泥施工画面", "id": "confirmed-P1", "reviewed_by": "当前用户"}
+
+## JSON 审核结果_李康_20261116.json
+  type: dict size_bytes= 6141
+  keys: ['规则版本', '导出时间', '结果']
+  规则版本: '总纲v0.1/任务说明v0.1'
+  导出时间: '2026/11/16 16:05:38'
+  结果: list len=50
+    item0 keys: dict
+    item0 keys: ['seg', '机器画面类型', 'other', 'note', 'verdict', 'reason']
+    item0: {"seg": "seg_01", "机器画面类型": "V05", "other": ["空间", "主动作"], "note": "空间是卫生间，主动做是阿明第一视角，在看师傅施工。", "verdict": "对", "reason": "T1"}
+
+## CSV 试标50段/_对应表.csv
+  rows 50 fields ['seg', '抽样层', '原片', '原片时长秒', '起始秒', '结束秒', '出图']
+  sample0 {"seg": "seg_01", "抽样层": "施工", "原片": "史上最完整共享\\拍摄\\小区\\常青花园4栋一个卫生间\\施工视频\\19505_小区场景.MOV", "原片时长秒": "13.4", "起始秒": "2.1", "结束秒": "6.1", "出图": "1"}
+
+## JSONL D:\codex-work\codex-company\video-harness-lab\references\素材底座项目-20261116\工位产出\T10\20261117_01\标注库副本\小区全库\数据\AI剪辑检索索引.jsonl
+  rows=20507
+  field_counts: {'id': 20507, 'source_path': 20507, 'project': 20507, 'source_folder': 20507, 'duration_seconds': 20507, 'description': 20507, 'description_evidence': 20507, 'representative_frames': 20507, 'directory_limits': 20507, 'existing_selection_eligible': 20507, 'existing_state': 20507, 'usage_limits': 20507, 'privacy': 20507, 'indexed_segments': 20507, 'unverified_segments': 20507, 'whole_video_intent': 20507, 'intent_evidence': 20507, 'audio_status': 20507, 'speech_evidence': 20507, 'timeline': 20507, 'material': 20507, '小区材料质感复核': 19754, '微陶泥施工标注': 2904, '人工确认片段': 5, '画质排除区间': 14}
+  sample0: {"id": "c9533ca4e18976d8", "source_path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\1新的未分类\\SKP沙湖公寓\\上门\\IMG_2800.MOV", "project": "1新的未分类", "source_folder": "1新的未分类\\SKP沙湖公寓\\上门", "duration_seconds": 5.268, "description": "男子在户外行走，穿好马甲，背景建筑清晰，动作自然。", "description_evidence": "全时段画面与可辨同期声机器归纳", "representative_frames": "小区全库/数据/代表帧/c9/c9533ca4e18976d8.jpg", "directory_limits": [], "existing_selection_eligible": null, "existing_state": null, "usage_limits": null, "privacy": null, "indexed_segments": [], "unverified_segments": [], "whole_video_intent": "男子在户外行走，穿好马甲，背景建筑清晰，动作自然。", "intent_evidence": "全时段画面与可辨同期声机器归纳", "audio_status": "机器转写", "speech_evidence": "list(len=2) first={\"start\": 0.6, \"end\": 2.94, \"text\": \"不挂了。\"}", "timeline": "list(len=1) first={\"start\": 0.0, \"end\": 5.268, \"description\": \"男子在户外行走，从背对镜头到侧身，动作自然，背景建筑清晰。\", \"frame_times\": [0, 0.933, 1.868, 2.802, 3.737, 4.67], \"evidence\": \"小区全库/数据/整段证据/c9/c9533ca4e18976d8-0000.jpg\", \"basis\": \"连续时序抽样，模型候选\", \"speech_indices\": [0, 1]}", "material": {"category": null, "status": "未辨明", "candidates": [], "evidence": [], "frame_review": {"sampled_windows_screened": 1, "sampled_frames_screened": 6, "ocr_candidates": [], "source_frame_ocr_candidates": [], "verified_shots": []}}, "小区材料质感复核": {"状态": "未检出用料动作", "质感选段": [], "待核区间": []}}
+  sample1: {"id": "55e7bff05a817dc7", "source_path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\1新的未分类\\SKP沙湖公寓\\上门\\IMG_2801.MOV", "project": "1新的未分类", "source_folder": "1新的未分类\\SKP沙湖公寓\\上门", "duration_seconds": 28.673, "description": "人物在楼外面向镜头介绍此次上门，指向楼栋；同伴汇合后，两人进楼并上楼。同期声提到小区及厨卫，适合上门案例的开场。", "description_evidence": "逐时段目视复核，结合本机语音转写；未确认姓名或具体业务结果", "representative_frames": "小区全库/数据/代表帧/55/55e7bff05a817dc7.jpg", "directory_limits": [], "existing_selection_eligible": null, "existing_state": null, "usage_limits": null, "privacy": null, "indexed_segments": [], "unverified_segments": [], "whole_video_intent": "人物在楼外面向镜头介绍此次上门，指向楼栋；同伴汇合后，两人进楼并上楼。同期声提到小区及厨卫，适合上门案例的开场。", "intent_evidence": "逐时段目视复核，结合本机语音转写；未确认姓名或具体业务结果", "audio_status": "机器转写", "speech_evidence": "list(len=2) first={\"start\": 0.28, \"end\": 11.04, \"text\": \"哎呀，开始了，给你买这个资料，今天在那个SKP旁边这个沙湖公寓，我不知道有没有沙湖公艺的叔叔阿姨啊，刚好我们今天在。\"}", "timeline": "list(len=3) first={\"start\": 0.0, \"end\": 9.558, \"description\": \"紫背心人物在楼外整理衣物并面对镜头，抬手指向楼栋。\", \"frame_times\": [0, 0.935, 1.868, 2.803, 3.738, 4.673, 5.607, 6.542, 7.477, 8.41, 9.345], \"evidence\": \"小区全库/数据/整段证据/55/55e7bff05a817dc7-0000.jpg\", \"basis\": \"已目视核对\", \"explicit_edit_cues\": {\"工序与现场动作\": [\"指向\"], \"可见人物转场动作\": [\"抬手\"]}, \"speech_indices\": [0]}", "material": {"category": null, "status": "未辨明", "candidates": [], "evidence": [], "frame_review": {"sampled_windows_screened": 3, "sampled_frames_screened": 31, "ocr_candidates": [], "source_frame_ocr_candidates": [], "verified_shots": []}}, "小区材料质感复核": {"状态": "未检出用料动作", "质感选段": [], "待核区间": []}}
+
+## JSONL D:\codex-work\codex-company\video-harness-lab\references\素材底座项目-20261116\工位产出\T10\20261117_01\标注库副本\测试阿明搅拌\数据\AI剪辑检索索引.jsonl
+  rows=643
+  field_counts: {'id': 643, 'source_path': 643, 'project': 643, 'source_folder': 643, 'kind': 643, 'duration_seconds': 643, 'usage_limits': 643, 'note': 643, 'description': 643, 'whole_video_intent': 635, 'intent_evidence': 635, 'audio_status': 635, 'speech_evidence': 635, 'timeline': 635, 'indexed_segments': 635, 'unverified_segments': 635, 'material': 643, 'preview': 6, '人工确认片段': 7, '微陶泥施工标注': 34}
+  sample0: {"id": "4c20afa5ec65ced4", "source_path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\测试\\3.23拍摄\\00241_拍摄.MOV", "project": "测试", "source_folder": "测试\\3.23拍摄", "kind": "视频", "duration_seconds": 10.302, "usage_limits": "list(len=1) first=\"呈现样板在镜头内的演示条件及可见变化。耐水、硬度、防霉和长效性能需对应依据。\"", "note": "测试阿明搅拌/分册/测试-01#^src-4c20afa5ec65ced4", "description": "手部擦拭墙面，从左上角向右下角移动，清洁过程持续进行。", "whole_video_intent": "手部擦拭墙面，从左上角向右下角移动，清洁过程持续进行。", "intent_evidence": "全时段画面与可辨同期声机器归纳", "audio_status": "机器转写", "speech_evidence": "list(len=3) first={\"start\": 0.18, \"end\": 1.4, \"text\": \"还吃的吗？\"}", "timeline": "list(len=1) first={\"start\": 0.0, \"end\": 10.302, \"description\": \"手部擦拭墙面，从左上角开始，逐步向右下角移动，画面呈现清洁过程。\", \"frame_times\": [0, 0.933, 1.867, 2.8, 3.733, 4.668, 5.602, 6.535, 7.468, 8.402, 9.335, 10.268], \"evidence\": \"测试阿明搅拌/数据/整段证据/4c/4c20afa5ec65ced4-0000.jpg\", \"basis\": \"连续时序抽样，模型候选\", \"speech_indices\": [0, 1, 2]}", "indexed_segments": [], "unverified_segments": [], "material": {"category": null, "status": "未辨明", "candidates": [], "evidence": [], "frame_review": {"sampled_windows_screened": 1, "sampled_frames_screened": 12, "ocr_candidates": [], "source_frame_ocr_candidates": [], "verified_shots": []}}}
+  sample1: {"id": "aeccad81a233406b", "source_path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\测试\\3.23拍摄\\00242_拍摄.MOV", "project": "测试", "source_folder": "测试\\3.23拍摄", "kind": "视频", "duration_seconds": 7.067, "usage_limits": "list(len=1) first=\"呈现样板在镜头内的演示条件及可见变化。耐水、硬度、防霉和长效性能需对应依据。\"", "note": "测试阿明搅拌/分册/测试-01#^src-aeccad81a233406b", "description": "人物在白色背景前靠近并接触画面中央，镜头固定，同步语音出现“麻一下嗯你”“看那什么”等词。", "whole_video_intent": "人物在白色背景前靠近并接触画面中央，镜头固定，同步语音出现“麻一下嗯你”“看那什么”等词。", "intent_evidence": "全时段画面与可辨同期声机器归纳", "audio_status": "机器转写", "speech_evidence": "list(len=2) first={\"start\": 0.53, \"end\": 2.01, \"text\": \"麻一下嗯你。\"}", "timeline": "list(len=1) first={\"start\": 0.0, \"end\": 7.067, \"description\": \"人物在白色背景前，逐渐靠近并接触画面中央，镜头保持固定。\", \"frame_times\": [0, 0.933, 1.867, 2.8, 3.767, 5.602, 6.535], \"evidence\": \"测试阿明搅拌/数据/整段证据/ae/aeccad81a233406b-0000.jpg\", \"basis\": \"连续时序抽样，模型候选\", \"speech_indices\": [0, 1]}", "indexed_segments": [], "unverified_segments": [], "material": {"category": null, "status": "未辨明", "candidates": [], "evidence": [], "frame_review": {"sampled_windows_screened": 1, "sampled_frames_screened": 7, "ocr_candidates": [], "source_frame_ocr_candidates": [], "verified_shots": []}}}
+
+## JSONL D:\codex-work\codex-company\video-harness-lab\references\素材底座项目-20261116\工位产出\T10\20261117_01\标注库副本\微陶泥施工\施工镜头.jsonl
+  rows=21652
+  field_counts: {'id': 21652, 'source_path': 21652, '材料依据': 21652, 'start': 21652, 'end': 21652, '工序': 21652, '画面': 21652, '状态': 21652, '证据': 21652, '可按微陶泥选用': 21652, '工序复核': 4136, '材料类目': 4209, '镜头精确描述': 4136, '工具': 65, '基层': 65, '基层材料': 322, '罩面材料品名': 65, '可按微陶泥批刮选用': 322, '场景': 270, '画质排除': 2, '复核编号': 465, '质感复核': 83, '选镜结论': 401, '具名桶内搅拌证据': 1}
+  sample0: {"id": "982542760fa7c648", "source_path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\2其他\\其他材料\\瓷釉\\改色\\13914_材料_小区场景.MP4", "材料依据": "未辨明", "start": 24.0, "end": 36.0, "工序": "批刮摊料", "画面": "男子在墙面上涂抹涂料，从左至右，从上至下，逐步完成墙面处理。", "状态": "排除微陶泥：滚筒施工", "证据": "小区全库/数据/整段证据/98/982542760fa7c648-0002.jpg", "可按微陶泥选用": false, "工序复核": "滚涂", "材料类目": "瓷釉改色或底漆", "镜头精确描述": "滚筒施工；瓷釉改色或底漆待分辨。"}
+  sample1: {"id": "80a7fc031e8e4b56", "source_path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\2其他\\其他材料\\瓷釉\\改色\\13915_材料_小区场景.MP4", "材料依据": "未辨明", "start": 0.0, "end": 10.05, "工序": "批刮摊料", "画面": "工人在木板上涂抹涂料，画面呈现施工过程。", "状态": "排除微陶泥：滚筒施工", "证据": "小区全库/数据/整段证据/80/80a7fc031e8e4b56-0000.jpg", "可按微陶泥选用": false, "工序复核": "滚涂", "材料类目": "瓷釉改色或底漆", "镜头精确描述": "滚筒施工；瓷釉改色或底漆待分辨。"}
+
+## JSONL D:\codex-work\codex-company\video-harness-lab\references\素材底座项目-20261116\工位产出\T10\20261117_01\标注库副本\小区全库\数据\按用途检索.jsonl
+  rows=3211
+  field_counts: {'id': 3211, 'path': 3211, 'project': 177, 'category': 3211, 'start': 3211, 'end': 3211, 'action': 3211, 'basis': 177, 'preview': 177, 'limits': 3211, 'privacy': 3211, 'source_state': 3211, 'tags': 3211, 'tier': 3211, 'source_relative': 3211, 'whole_video_intent': 3211, 'intent_evidence': 3211, 'evidence': 3034}
+  sample0: {"id": "c10f3eef195b6b8a", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\珞珈山花园小区\\人物出镜2\\25971_人物_小区场景.MOV", "project": "珞珈山花园小区", "category": "人物与动作转场", "start": 8.9, "end": 10.5, "action": "紫衣人物从窗边转向镜头，手掌从半身景别迅速靠近，约 10 秒遮满画面后移开。可借遮挡接下一镜。", "basis": "末段每秒四帧目视复核，附标注区间原速无声预览", "preview": "\\\\192.168.110.36\\obsidian\\素材标注\\小区全库\\用途\\动作预览\\c10f3eef195b6b8a.mp4", "limits": "list(len=1) first=\"人物身份待确认，未审听同期声\"", "privacy": null, "source_state": null, "tags": {"主体/运镜方向": ["遮满画面"], "景别线索": [], "动作线索": []}, "tier": "片段索引", "source_relative": "珞珈山花园小区\\人物出镜2\\25971_人物_小区场景.MOV", "whole_video_intent": "男子在卫生间内转身，画面由远及近，同步语音提及“影料有”。", "intent_evidence": "全时段画面与可辨同期声机器归纳"}
+  sample1: {"id": "ddf2b42a4557cb0f", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\优活城\\人物出镜\\33537_人物_小区场景.MOV", "project": "优活城", "category": "人物与动作转场", "start": 12.21, "end": 15.02, "action": "人物转向画面右侧，双手向右侧墙面示意后撤手。可接被指向的墙面特写。", "basis": "本轮相邻八帧目视复核", "preview": "\\\\192.168.110.36\\obsidian\\素材标注\\小区全库\\用途\\动作预览\\ddf2b42a4557cb0f_1221_1502.mp4", "limits": "list(len=1) first=\"身份、工艺材料和同期声按用途核验\"", "privacy": "", "source_state": null, "tags": {"主体/运镜方向": ["向右"], "景别线索": ["特写"], "动作线索": ["指向"]}, "tier": "片段索引", "source_relative": "优活城\\人物出镜\\33537_人物_小区场景.MOV", "whole_video_intent": "男子在走廊和室内展示卫生间翻新改造，从低头到挥手，讲解瓷砖发黑发霉、漏水问题，强调低成本修复。", "intent_evidence": "全时段画面与可辨同期声机器归纳"}
+
+## JSONL D:\codex-work\codex-company\video-harness-lab\references\素材底座项目-20261116\工位产出\T10\20261117_01\标注库副本\小区全库\数据\本轮看片精标.jsonl
+  rows=34
+  field_counts: {'id': 34, 'path': 34, 'project': 34, 'category': 34, 'start': 34, 'end': 34, 'action': 34, 'basis': 34, 'preview': 34, 'limits': 34, 'privacy': 34, 'source_state': 34}
+  sample0: {"id": "c10f3eef195b6b8a", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\珞珈山花园小区\\人物出镜2\\25971_人物_小区场景.MOV", "project": "珞珈山花园小区", "category": "人物与动作转场", "start": 8.9, "end": 10.5, "action": "紫衣人物从窗边转向镜头，手掌从半身景别迅速靠近，约 10 秒遮满画面后移开。可借遮挡接下一镜。", "basis": "末段每秒四帧目视复核，附标注区间原速无声预览", "preview": "\\\\192.168.110.36\\obsidian\\素材标注\\小区全库\\用途\\动作预览\\c10f3eef195b6b8a.mp4", "limits": "list(len=1) first=\"人物身份待确认，未审听同期声\"", "privacy": null, "source_state": null}
+  sample1: {"id": "101396d62f640c00", "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\武昌江景房\\人物出镜\\30868_人物_小区场景.mov", "project": "武昌江景房", "category": "收尾候选", "start": 21.1, "end": 23.05, "action": "黑衣人物正对镜头，手部示意后收至腰前，结尾构图稳定。可承接一句口播的句末。", "basis": "末段每秒四帧目视复核，附标注区间原速无声预览", "preview": "\\\\192.168.110.36\\obsidian\\素材标注\\小区全库\\用途\\动作预览\\101396d62f640c00.mp4", "limits": "list(len=1) first=\"人物身份待确认，未审听同期声\"", "privacy": null, "source_state": null}
+
+## JSONL D:\codex-work\codex-company\video-harness-lab\references\素材底座项目-20261116\工位产出\T10\20261117_01\标注库副本\小区全库\数据\机器片段复核.jsonl
+  rows=13576
+  field_counts: {'key': 13576, 'code': 13576, 'description': 13576}
+  sample0: {"key": "0002d1de6831bffb_15_295", "code": "B", "description": "画面中人物在移动，从左向右，从静止到动作，最后是挥手。"}
+  sample1: {"key": "0002d1de6831bffb_847_1127", "code": "B", "description": "图中人物从站立到转身，最后双手合十，身体前倾，动作从左向右，从静止到动态。"}
+
+## JSONL D:\codex-work\codex-company\video-harness-lab\references\素材底座项目-20261116\工位产出\T10\20261117_01\标注库副本\小区全库\数据\目视纠正.jsonl
+  rows=41
+  field_counts: {'id': 41, 'description': 41, 'basis': 41}
+  sample0: {"id": "9cbfec64f209a7f8", "description": "较暗的卧室，床、衣柜与窗户依次入画。", "basis": "本轮目视复核四帧"}
+  sample1: {"id": "e7a29188945845aa", "description": "向下拍浅色表面，有影子与人物衣物局部，另有一帧室外栏杆。施工动作辨识不足。", "basis": "本轮目视复核四帧"}

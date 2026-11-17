@@ -1,0 +1,708 @@
+{
+  "schema_version": 1,
+  "reference_id": "R19",
+  "status": "local_asr_complete_unverified",
+  "source_audio": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R19\\audio.wav",
+  "model": "C:\\Users\\leega\\.cache\\huggingface\\hub\\models--Systran--faster-whisper-small\\snapshots\\536b0662742c02347bc0e980a01041f333bce120",
+  "device": "cpu",
+  "compute_type": "int8",
+  "language": "zh",
+  "language_probability": 1,
+  "duration": 18.4351875,
+  "vad_filter": false,
+  "word_timestamps": true,
+  "human_listening_verified": false,
+  "elapsed_seconds": 4.347,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 2.4,
+      "text": "为什么现在上海越来越多的卫生间厨房",
+      "avg_logprob": -0.13821188819735017,
+      "no_speech_prob": 0.009666841477155685,
+      "compression_ratio": 1.2346153846153847,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.28,
+          "word": "为什么",
+          "probability": 0.6009140610694885
+        },
+        {
+          "start": 0.28,
+          "end": 0.54,
+          "word": "现在",
+          "probability": 0.995032548904419
+        },
+        {
+          "start": 0.54,
+          "end": 0.78,
+          "word": "上",
+          "probability": 0.9977789521217346
+        },
+        {
+          "start": 0.78,
+          "end": 0.98,
+          "word": "海",
+          "probability": 0.9997417330741882
+        },
+        {
+          "start": 0.98,
+          "end": 1.12,
+          "word": "越",
+          "probability": 0.9914432168006897
+        },
+        {
+          "start": 1.12,
+          "end": 1.22,
+          "word": "来",
+          "probability": 0.999523401260376
+        },
+        {
+          "start": 1.22,
+          "end": 1.34,
+          "word": "越",
+          "probability": 0.9993994235992432
+        },
+        {
+          "start": 1.34,
+          "end": 1.46,
+          "word": "多",
+          "probability": 0.9997813105583191
+        },
+        {
+          "start": 1.46,
+          "end": 1.54,
+          "word": "的",
+          "probability": 0.9974812865257263
+        },
+        {
+          "start": 1.54,
+          "end": 1.66,
+          "word": "卫",
+          "probability": 0.9962692558765411
+        },
+        {
+          "start": 1.66,
+          "end": 1.82,
+          "word": "生",
+          "probability": 0.9948446750640869
+        },
+        {
+          "start": 1.82,
+          "end": 1.98,
+          "word": "间",
+          "probability": 0.9510805010795593
+        },
+        {
+          "start": 1.98,
+          "end": 2.18,
+          "word": "厨",
+          "probability": 0.9919717311859131
+        },
+        {
+          "start": 2.18,
+          "end": 2.4,
+          "word": "房",
+          "probability": 0.9992258548736572
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 2.4,
+      "end": 3.7,
+      "text": "翻新改造不用磁砖",
+      "avg_logprob": -0.13821188819735017,
+      "no_speech_prob": 0.009666841477155685,
+      "compression_ratio": 1.2346153846153847,
+      "words": [
+        {
+          "start": 2.4,
+          "end": 2.6,
+          "word": "翻",
+          "probability": 0.7841432094573975
+        },
+        {
+          "start": 2.6,
+          "end": 2.74,
+          "word": "新",
+          "probability": 0.9097340106964111
+        },
+        {
+          "start": 2.74,
+          "end": 2.88,
+          "word": "改",
+          "probability": 0.9974275231361389
+        },
+        {
+          "start": 2.88,
+          "end": 3.02,
+          "word": "造",
+          "probability": 0.9976739287376404
+        },
+        {
+          "start": 3.02,
+          "end": 3.26,
+          "word": "不用",
+          "probability": 0.9879152774810791
+        },
+        {
+          "start": 3.26,
+          "end": 3.48,
+          "word": "磁",
+          "probability": 0.9700023134549459
+        },
+        {
+          "start": 3.48,
+          "end": 3.7,
+          "word": "砖",
+          "probability": 0.9732470512390137
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 3.7,
+      "end": 5.22,
+      "text": "因为费是费力又费钱",
+      "avg_logprob": -0.13821188819735017,
+      "no_speech_prob": 0.009666841477155685,
+      "compression_ratio": 1.2346153846153847,
+      "words": [
+        {
+          "start": 3.7,
+          "end": 4.06,
+          "word": "因为",
+          "probability": 0.8978604674339294
+        },
+        {
+          "start": 4.06,
+          "end": 4.3,
+          "word": "费",
+          "probability": 0.957091748714447
+        },
+        {
+          "start": 4.3,
+          "end": 4.42,
+          "word": "是",
+          "probability": 0.6127496957778931
+        },
+        {
+          "start": 4.42,
+          "end": 4.6,
+          "word": "费",
+          "probability": 0.9960582256317139
+        },
+        {
+          "start": 4.6,
+          "end": 4.7,
+          "word": "力",
+          "probability": 0.610752284526825
+        },
+        {
+          "start": 4.7,
+          "end": 4.8,
+          "word": "又",
+          "probability": 0.963958203792572
+        },
+        {
+          "start": 4.8,
+          "end": 5.02,
+          "word": "费",
+          "probability": 0.9983951151371002
+        },
+        {
+          "start": 5.02,
+          "end": 5.22,
+          "word": "钱",
+          "probability": 0.9912835359573364
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 5.22,
+      "end": 6.08,
+      "text": "大家注意看",
+      "avg_logprob": -0.13821188819735017,
+      "no_speech_prob": 0.009666841477155685,
+      "compression_ratio": 1.2346153846153847,
+      "words": [
+        {
+          "start": 5.22,
+          "end": 5.62,
+          "word": "大家",
+          "probability": 0.9227069020271301
+        },
+        {
+          "start": 5.62,
+          "end": 5.8,
+          "word": "注意",
+          "probability": 0.9927076697349548
+        },
+        {
+          "start": 5.8,
+          "end": 6.08,
+          "word": "看",
+          "probability": 0.9984356760978699
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 6.08,
+      "end": 7.22,
+      "text": "使这款微陶泥",
+      "avg_logprob": -0.13821188819735017,
+      "no_speech_prob": 0.009666841477155685,
+      "compression_ratio": 1.2346153846153847,
+      "words": [
+        {
+          "start": 6.08,
+          "end": 6.44,
+          "word": "使",
+          "probability": 0.2288091629743576
+        },
+        {
+          "start": 6.44,
+          "end": 6.58,
+          "word": "这",
+          "probability": 0.9314877390861511
+        },
+        {
+          "start": 6.58,
+          "end": 6.7,
+          "word": "款",
+          "probability": 0.9984914064407349
+        },
+        {
+          "start": 6.7,
+          "end": 6.82,
+          "word": "微",
+          "probability": 0.35720717906951904
+        },
+        {
+          "start": 6.82,
+          "end": 7.02,
+          "word": "陶",
+          "probability": 0.7352285534143448
+        },
+        {
+          "start": 7.02,
+          "end": 7.22,
+          "word": "泥",
+          "probability": 0.9883434772491455
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 7.22,
+      "end": 8.64,
+      "text": "高硬度耐磨擦",
+      "avg_logprob": -0.13821188819735017,
+      "no_speech_prob": 0.009666841477155685,
+      "compression_ratio": 1.2346153846153847,
+      "words": [
+        {
+          "start": 7.22,
+          "end": 7.6,
+          "word": "高",
+          "probability": 0.7913172245025635
+        },
+        {
+          "start": 7.6,
+          "end": 7.8,
+          "word": "硬",
+          "probability": 0.9142711758613586
+        },
+        {
+          "start": 7.8,
+          "end": 7.94,
+          "word": "度",
+          "probability": 0.9912015199661255
+        },
+        {
+          "start": 7.94,
+          "end": 8.1,
+          "word": "耐",
+          "probability": 0.9602445960044861
+        },
+        {
+          "start": 8.1,
+          "end": 8.28,
+          "word": "磨",
+          "probability": 0.8826538920402527
+        },
+        {
+          "start": 8.28,
+          "end": 8.64,
+          "word": "擦",
+          "probability": 0.9293594062328339
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 8.64,
+      "end": 9.42,
+      "text": "不拆不砸",
+      "avg_logprob": -0.13821188819735017,
+      "no_speech_prob": 0.009666841477155685,
+      "compression_ratio": 1.2346153846153847,
+      "words": [
+        {
+          "start": 8.64,
+          "end": 8.96,
+          "word": "不",
+          "probability": 0.7872289419174194
+        },
+        {
+          "start": 8.96,
+          "end": 9.1,
+          "word": "拆",
+          "probability": 0.9858627021312714
+        },
+        {
+          "start": 9.1,
+          "end": 9.24,
+          "word": "不",
+          "probability": 0.9912462830543518
+        },
+        {
+          "start": 9.24,
+          "end": 9.42,
+          "word": "砸",
+          "probability": 0.7544121146202087
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 9.42,
+      "end": 11.3,
+      "text": "磁砖地板上直接批挂",
+      "avg_logprob": -0.13821188819735017,
+      "no_speech_prob": 0.009666841477155685,
+      "compression_ratio": 1.2346153846153847,
+      "words": [
+        {
+          "start": 9.42,
+          "end": 9.82,
+          "word": "磁",
+          "probability": 0.9965307116508484
+        },
+        {
+          "start": 9.82,
+          "end": 10.0,
+          "word": "砖",
+          "probability": 0.9986149668693542
+        },
+        {
+          "start": 10.0,
+          "end": 10.14,
+          "word": "地",
+          "probability": 0.9933351278305054
+        },
+        {
+          "start": 10.14,
+          "end": 10.3,
+          "word": "板",
+          "probability": 0.9987976551055908
+        },
+        {
+          "start": 10.3,
+          "end": 10.48,
+          "word": "上",
+          "probability": 0.9989093542098999
+        },
+        {
+          "start": 10.48,
+          "end": 10.76,
+          "word": "直接",
+          "probability": 0.9968234300613403
+        },
+        {
+          "start": 10.76,
+          "end": 11.04,
+          "word": "批",
+          "probability": 0.650177925825119
+        },
+        {
+          "start": 11.04,
+          "end": 11.3,
+          "word": "挂",
+          "probability": 0.9540217816829681
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 11.3,
+      "end": 13.24,
+      "text": "没有磁砖缝毁南天也不用怕",
+      "avg_logprob": -0.13821188819735017,
+      "no_speech_prob": 0.009666841477155685,
+      "compression_ratio": 1.2346153846153847,
+      "words": [
+        {
+          "start": 11.3,
+          "end": 11.66,
+          "word": "没有",
+          "probability": 0.9773980975151062
+        },
+        {
+          "start": 11.66,
+          "end": 11.88,
+          "word": "磁",
+          "probability": 0.9997864365577698
+        },
+        {
+          "start": 11.88,
+          "end": 12.06,
+          "word": "砖",
+          "probability": 0.9966866374015808
+        },
+        {
+          "start": 12.06,
+          "end": 12.18,
+          "word": "缝",
+          "probability": 0.7966657876968384
+        },
+        {
+          "start": 12.18,
+          "end": 12.36,
+          "word": "毁",
+          "probability": 0.7246471643447876
+        },
+        {
+          "start": 12.36,
+          "end": 12.48,
+          "word": "南",
+          "probability": 0.36618971824645996
+        },
+        {
+          "start": 12.48,
+          "end": 12.66,
+          "word": "天",
+          "probability": 0.9868922829627991
+        },
+        {
+          "start": 12.66,
+          "end": 12.8,
+          "word": "也",
+          "probability": 0.9972810745239258
+        },
+        {
+          "start": 12.8,
+          "end": 12.96,
+          "word": "不用",
+          "probability": 0.99924635887146
+        },
+        {
+          "start": 12.96,
+          "end": 13.24,
+          "word": "怕",
+          "probability": 0.9928709864616394
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 13.24,
+      "end": 14.98,
+      "text": "最主要的是高级又便宜",
+      "avg_logprob": -0.13821188819735017,
+      "no_speech_prob": 0.009666841477155685,
+      "compression_ratio": 1.2346153846153847,
+      "words": [
+        {
+          "start": 13.24,
+          "end": 13.66,
+          "word": "最",
+          "probability": 0.9837332367897034
+        },
+        {
+          "start": 13.66,
+          "end": 13.82,
+          "word": "主",
+          "probability": 0.998056948184967
+        },
+        {
+          "start": 13.82,
+          "end": 13.92,
+          "word": "要",
+          "probability": 0.9996687173843384
+        },
+        {
+          "start": 13.92,
+          "end": 14.08,
+          "word": "的是",
+          "probability": 0.9763637781143188
+        },
+        {
+          "start": 14.08,
+          "end": 14.28,
+          "word": "高",
+          "probability": 0.9941495656967163
+        },
+        {
+          "start": 14.28,
+          "end": 14.46,
+          "word": "级",
+          "probability": 0.9864067137241364
+        },
+        {
+          "start": 14.46,
+          "end": 14.54,
+          "word": "又",
+          "probability": 0.9490353465080261
+        },
+        {
+          "start": 14.54,
+          "end": 14.76,
+          "word": "便",
+          "probability": 0.9995645880699158
+        },
+        {
+          "start": 14.76,
+          "end": 14.98,
+          "word": "宜",
+          "probability": 0.9998299777507782
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 14.98,
+      "end": 16.78,
+      "text": "如果您喜欢这种翻新工艺",
+      "avg_logprob": -0.13821188819735017,
+      "no_speech_prob": 0.009666841477155685,
+      "compression_ratio": 1.2346153846153847,
+      "words": [
+        {
+          "start": 14.98,
+          "end": 15.3,
+          "word": "如果",
+          "probability": 0.5067270994186401
+        },
+        {
+          "start": 15.3,
+          "end": 15.44,
+          "word": "您",
+          "probability": 0.7227149605751038
+        },
+        {
+          "start": 15.44,
+          "end": 15.68,
+          "word": "喜欢",
+          "probability": 0.9736366271972656
+        },
+        {
+          "start": 15.68,
+          "end": 15.9,
+          "word": "这",
+          "probability": 0.9975553154945374
+        },
+        {
+          "start": 15.9,
+          "end": 16.0,
+          "word": "种",
+          "probability": 0.9996675252914429
+        },
+        {
+          "start": 16.0,
+          "end": 16.2,
+          "word": "翻",
+          "probability": 0.9879980087280273
+        },
+        {
+          "start": 16.2,
+          "end": 16.36,
+          "word": "新",
+          "probability": 0.994767427444458
+        },
+        {
+          "start": 16.36,
+          "end": 16.52,
+          "word": "工",
+          "probability": 0.9423707127571106
+        },
+        {
+          "start": 16.52,
+          "end": 16.78,
+          "word": "艺",
+          "probability": 0.989090234041214
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 16.78,
+      "end": 18.2,
+      "text": "可以给我点个小爱心吗",
+      "avg_logprob": -0.13821188819735017,
+      "no_speech_prob": 0.009666841477155685,
+      "compression_ratio": 1.2346153846153847,
+      "words": [
+        {
+          "start": 16.78,
+          "end": 17.08,
+          "word": "可以",
+          "probability": 0.9577195644378662
+        },
+        {
+          "start": 17.08,
+          "end": 17.3,
+          "word": "给我",
+          "probability": 0.9945076107978821
+        },
+        {
+          "start": 17.3,
+          "end": 17.44,
+          "word": "点",
+          "probability": 0.998454213142395
+        },
+        {
+          "start": 17.44,
+          "end": 17.52,
+          "word": "个",
+          "probability": 0.9719659090042114
+        },
+        {
+          "start": 17.52,
+          "end": 17.68,
+          "word": "小",
+          "probability": 0.9960600733757019
+        },
+        {
+          "start": 17.68,
+          "end": 17.82,
+          "word": "爱",
+          "probability": 0.8352487087249756
+        },
+        {
+          "start": 17.82,
+          "end": 18.02,
+          "word": "心",
+          "probability": 0.997568666934967
+        },
+        {
+          "start": 18.02,
+          "end": 18.2,
+          "word": "吗",
+          "probability": 0.8588956594467163
+        }
+      ]
+    }
+  ],
+  "raw_text": "为什么现在上海越来越多的卫生间厨房翻新改造不用磁砖因为费是费力又费钱大家注意看使这款微陶泥高硬度耐磨擦不拆不砸磁砖地板上直接批挂没有磁砖缝毁南天也不用怕最主要的是高级又便宜如果您喜欢这种翻新工艺可以给我点个小爱心吗",
+  "limitations": [
+    "Raw machine transcription, not a verified transcript.",
+    "Mixed speech/music, accents, place names and prices can be wrong.",
+    "ASR timestamps are approximate and are not edit points."
+  ]
+}

@@ -1,0 +1,752 @@
+{
+  "status": "candidate_unvalidated",
+  "created_at": "2026-10-01T13:19:16.182693+08:00",
+  "file_count": 35,
+  "unique_content_count": 34,
+  "rules": [
+    {
+      "agent": "文案",
+      "rule": "按目标选择开头：成本范围、同城疑问、人物故事、生活体验、行业冲突各成一类，不固定一套开头。",
+      "condition": "受众问题和业务信息明确；人物身份及案例真实；预测和行业判断不得无依据复刻。",
+      "examples": [
+        {
+          "id": "R01",
+          "start": 0,
+          "end": 4.8,
+          "note": "价格+厨卫范围"
+        },
+        {
+          "id": "R03",
+          "start": 0,
+          "end": 4.25,
+          "note": "同城疑问"
+        },
+        {
+          "id": "R04",
+          "start": 0,
+          "end": 3.125,
+          "note": "第一人称生活体验"
+        },
+        {
+          "id": "R08",
+          "start": 0,
+          "end": 4.767,
+          "note": "亲情案例"
+        },
+        {
+          "id": "R10",
+          "start": 0,
+          "end": 2.6,
+          "note": "行业冲突候选"
+        },
+        {
+          "id": "R23",
+          "start": 0,
+          "end": 4,
+          "note": "新增人物夸张钩子，受众适用性待检验"
+        },
+        {
+          "id": "R25",
+          "start": 0,
+          "end": 2.533,
+          "note": "同城行业冲突进入团队服务"
+        }
+      ],
+      "counterexamples": [],
+      "missing_inputs": [
+        "新片目标与核实后的业务主张；人物案例身份"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC01"
+    },
+    {
+      "agent": "文案",
+      "rule": "把服务范围、工期、价格、环保与性能拆成逐项需证主张，不从模板继承数字。",
+      "condition": "按实际面积、工序、养护和服务条件核实。",
+      "examples": [
+        {
+          "id": "R01",
+          "start": 16.667,
+          "end": 21.133,
+          "note": "卫生间3天、厨房2天表达"
+        },
+        {
+          "id": "R05",
+          "start": 8.167,
+          "end": 10.708,
+          "note": "卫生间7天表达"
+        },
+        {
+          "id": "R06",
+          "start": 8.967,
+          "end": 12.967,
+          "note": "1到2万元、7天表达"
+        }
+      ],
+      "counterexamples": [],
+      "missing_inputs": [
+        "价格构成、工期条件、检测报告、入住/使用条件"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC02"
+    },
+    {
+      "agent": "文案",
+      "rule": "结尾按动作目标选择点赞、咨询或结果收尾；咨询明确入口、所需信息与后续服务。",
+      "condition": "平台入口有效且服务可履行；效果需新片验证。",
+      "examples": [
+        {
+          "id": "R01",
+          "start": 29.633,
+          "end": 30.881,
+          "note": "点赞"
+        },
+        {
+          "id": "R06",
+          "start": 20.167,
+          "end": 24.821,
+          "note": "头像→位置→免费上门方案"
+        },
+        {
+          "id": "R18",
+          "start": 22.083,
+          "end": 24.083,
+          "note": "有需要请直接找武汉阿明"
+        },
+        {
+          "id": "R20",
+          "start": 19.958,
+          "end": 23.753,
+          "note": "评论旧房翻新→免费上门出方案"
+        },
+        {
+          "id": "R25",
+          "start": 16.133,
+          "end": 19.202,
+          "note": "点赞→免费量房方案，两种目标要区分"
+        }
+      ],
+      "counterexamples": [
+        {
+          "id": "R04",
+          "start": 24.25,
+          "end": 26.261,
+          "note": "开门成品收尾，不强加点赞"
+        }
+      ],
+      "missing_inputs": [
+        "目标行动、平台入口、服务承诺的真实条件"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC03"
+    },
+    {
+      "agent": "分镜",
+      "rule": "按自然语义单元匹配动作与对象，工艺词优先使用原砖、工具、覆盖层同镜可见的画面。",
+      "condition": "明确墙/地、施工阶段与正负方向；通用工艺不能证明材料身份。",
+      "examples": [
+        {
+          "id": "R01",
+          "start": 11.833,
+          "end": 13.1,
+          "note": "原砖覆盖同镜"
+        },
+        {
+          "id": "R07",
+          "start": 3.633,
+          "end": 5,
+          "note": "原砖与摊开料同镜"
+        }
+      ],
+      "counterexamples": [
+        {
+          "id": "R03",
+          "start": 10.958,
+          "end": 11.958,
+          "note": "地板字幕配墙面作业"
+        },
+        {
+          "id": "R27",
+          "start": 10.958,
+          "end": 11.958,
+          "note": "新增九江版地板字幕仍配墙面操作"
+        }
+      ],
+      "missing_inputs": [
+        "共享素材语义索引、准确材料身份"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC04"
+    },
+    {
+      "agent": "分镜",
+      "rule": "明确使用反例、方案、结果三种镜头用途，再决定顺序；成品预览可在施工前，但不冒充同户时间线。",
+      "condition": "反例有否定上下文；真实案例需同空间锚点和来源关系。",
+      "examples": [
+        {
+          "id": "R02",
+          "start": 3.833,
+          "end": 8,
+          "note": "红叉拆砸→正向工艺"
+        },
+        {
+          "id": "R04",
+          "start": 3.125,
+          "end": 7.125,
+          "note": "拆改反例→滚涂→批刮"
+        }
+      ],
+      "counterexamples": [
+        {
+          "id": "R07",
+          "start": 5.967,
+          "end": 8.567,
+          "note": "成品后又回施工，仅方案展示"
+        }
+      ],
+      "missing_inputs": [
+        "项目/房间映射和固定结构锚点"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC05"
+    },
+    {
+      "agent": "分镜",
+      "rule": "性能句分别找对应操作和可见结果；弯折、擦污、喷水、刮擦不能互相代替。",
+      "condition": "材料身份与测试条件明确；短时演示不等于长期性能或通用承诺。",
+      "examples": [
+        {
+          "id": "R01",
+          "start": 24.067,
+          "end": 27.467,
+          "note": "样板弯折与擦污分开"
+        },
+        {
+          "id": "R04",
+          "start": 17.25,
+          "end": 19.833,
+          "note": "擦污、墙面摩擦分别呈现"
+        }
+      ],
+      "counterexamples": [
+        {
+          "id": "R16",
+          "start": 18.708,
+          "end": 19.75,
+          "note": "施工打磨配耐磨，不是性能测试"
+        }
+      ],
+      "missing_inputs": [
+        "测试条件、真实结果、材料记录"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC06"
+    },
+    {
+      "agent": "素材",
+      "rule": "按人/空间/阶段/动作/语义方向建立检索需求，来源身份优先于文件名和城市字幕。",
+      "condition": "只读检索和实际画面复核；地域、身份与关系独立核验。",
+      "examples": [
+        {
+          "id": "R06",
+          "start": 22.9,
+          "end": 24.821,
+          "note": "现场看房沟通需要事件证据"
+        },
+        {
+          "id": "R08",
+          "start": 2.833,
+          "end": 4.767,
+          "note": "亲属故事不能只靠同框"
+        },
+        {
+          "id": "R29",
+          "start": 0,
+          "end": 4.9,
+          "note": "荆门亲情案例人物身份不能由同框推定"
+        }
+      ],
+      "counterexamples": [
+        {
+          "id": "R07",
+          "start": 5,
+          "end": 5.967,
+          "note": "与其他同城片类似握手，字幕不能证明城市"
+        }
+      ],
+      "missing_inputs": [
+        "原素材库索引、人物审批位置、案例项目映射"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC07"
+    },
+    {
+      "agent": "素材",
+      "rule": "完全重复先按内容哈希归并；近似重复再按场景、动作、构图与源区间检查。",
+      "condition": "保留原记录与来源，不把换名、字幕、城市、裁切当新素材。",
+      "examples": [
+        {
+          "id": "R12",
+          "start": 0,
+          "end": 20.417,
+          "note": "与R13逐字节相同，仅算1个独立内容"
+        },
+        {
+          "id": "R03",
+          "start": 0.5,
+          "end": 4.25,
+          "note": "灰面工艺动作"
+        },
+        {
+          "id": "R07",
+          "start": 0.5,
+          "end": 2.6,
+          "note": "与R03相似灰面动作，近似重复仍需源映射"
+        },
+        {
+          "id": "R23",
+          "start": 0,
+          "end": 4,
+          "note": "与R30同族人物花束钩子，字节不同不等于素材没有复用"
+        }
+      ],
+      "counterexamples": [],
+      "missing_inputs": [
+        "共享库原源ID、跨片使用历史"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC08"
+    },
+    {
+      "agent": "素材",
+      "rule": "费用句需要成本/拆改/清运证据；看不清的屏幕或普通成品不能充作凭据。",
+      "condition": "费用主张先经业务核实；清运不能仅用拆墙替代。",
+      "examples": [
+        {
+          "id": "R18",
+          "start": 12.75,
+          "end": 13.792,
+          "note": "运垃圾句使用拆墙画面，运输过程未见"
+        }
+      ],
+      "counterexamples": [
+        {
+          "id": "R05",
+          "start": 13.125,
+          "end": 14.125,
+          "note": "虚焦屏幕无法辨读成本"
+        },
+        {
+          "id": "R11",
+          "start": 12.333,
+          "end": 13.7,
+          "note": "成品配清运费用"
+        }
+      ],
+      "missing_inputs": [
+        "报价构成与清运现场资料"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC09"
+    },
+    {
+      "agent": "配音",
+      "rule": "保留原始ASR与可见字幕两路文本，材料名、地名、人名、数字另列待听辨项。",
+      "condition": "本轮本地small ASR未人工全轨试听；不可静默用字幕替换成已验证听稿。",
+      "examples": [
+        {
+          "id": "R02",
+          "start": 0,
+          "end": 20.897,
+          "note": "大量同音识别错误"
+        },
+        {
+          "id": "R01",
+          "start": 4.68,
+          "end": 13.82,
+          "note": "宜昌、微陶泥、瓷砖等误识"
+        },
+        {
+          "id": "R11",
+          "start": 9.75,
+          "end": 11.133,
+          "note": "整句识别与字幕差异"
+        }
+      ],
+      "counterexamples": [],
+      "missing_inputs": [
+        "全轨试听及术语校准"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC10"
+    },
+    {
+      "agent": "配音",
+      "rule": "先按完整句意断句，再与画面切点对齐；字幕换页和切镜不强制制造口播停顿。",
+      "condition": "声音自然度、重音、语速及BGM须试听验证，不能从画面推定。",
+      "examples": [
+        {
+          "id": "R01",
+          "start": 6.76,
+          "end": 10.14,
+          "note": "一段ASR跨多个切镜"
+        },
+        {
+          "id": "R06",
+          "start": 17.62,
+          "end": 21.38,
+          "note": "CTA长句跨人物场景"
+        }
+      ],
+      "counterexamples": [],
+      "missing_inputs": [
+        "声音实听复核、配音授权与新片准确文案"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC11"
+    },
+    {
+      "agent": "剪辑",
+      "rule": "切点服从动作完成、信息完成与语义转折；每片用实际段长检查，不能机械全设1秒。",
+      "condition": "本轮切点为检测候选和采样修订；需代表样片逐帧实播核验。",
+      "examples": [
+        {
+          "id": "R01",
+          "start": 0,
+          "end": 4.8,
+          "note": "真人钩子停留较长"
+        },
+        {
+          "id": "R02",
+          "start": 3.833,
+          "end": 11.75,
+          "note": "工艺多段快速切换"
+        },
+        {
+          "id": "R06",
+          "start": 17.62,
+          "end": 24.821,
+          "note": "咨询链需要更长完整表达"
+        }
+      ],
+      "counterexamples": [],
+      "missing_inputs": [
+        "准确镜头边界、动作与声音试听"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC12"
+    },
+    {
+      "agent": "剪辑",
+      "rule": "自然直切与短叠化按空间/动作关系选择，检测漏切时以时间序列补段；不把检测器输出当最终镜头表。",
+      "condition": "转场重影和短镜头要回看；不存在未试听的节拍卡点结论。",
+      "examples": [
+        {
+          "id": "R01",
+          "start": 4.8,
+          "end": 6.1,
+          "note": "场景检测漏户外到室内切换"
+        },
+        {
+          "id": "R01",
+          "start": 17.8,
+          "end": 19.5,
+          "note": "施工到成品有叠影"
+        },
+        {
+          "id": "R06",
+          "start": 18.4,
+          "end": 20.167,
+          "note": "人物叠影过渡"
+        }
+      ],
+      "counterexamples": [],
+      "missing_inputs": [
+        "转场逐帧校验、实际声音切点"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC13"
+    },
+    {
+      "agent": "剪辑",
+      "rule": "字幕按完整语义跨切镜显示，保留重点但逐帧检查否定词、术语与阅读时长。",
+      "condition": "参考片字样是观察，不代表品牌规范已批准；0.5秒采样可能漏短暂错字。",
+      "examples": [
+        {
+          "id": "R06",
+          "start": 17.62,
+          "end": 24.821,
+          "note": "多步骤CTA分句"
+        },
+        {
+          "id": "R01",
+          "start": 27.467,
+          "end": 29.633,
+          "note": "一句CTA跨旧/新画面"
+        }
+      ],
+      "counterexamples": [
+        {
+          "id": "R05",
+          "start": 10.708,
+          "end": 11.833,
+          "note": "用打扫→不用打扫变化"
+        },
+        {
+          "id": "R07",
+          "start": 9.233,
+          "end": 11.367,
+          "note": "卫生间换行拆词"
+        }
+      ],
+      "missing_inputs": [
+        "最终字号规范、终混ASR、全帧字幕核对"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC14"
+    },
+    {
+      "agent": "审核",
+      "rule": "人物身份、亲属/业主关系、城市归属和同户前后关系必须有独立来源证据。",
+      "condition": "同框、握手、城市字幕与类似房间不够证明关系；缺证改成服务示意。",
+      "examples": [
+        {
+          "id": "R01",
+          "start": 4.8,
+          "end": 6.1,
+          "note": "男子与年长女子同框"
+        },
+        {
+          "id": "R08",
+          "start": 0,
+          "end": 4.767,
+          "note": "年龄和亲属故事"
+        },
+        {
+          "id": "R01",
+          "start": 27.467,
+          "end": 29.633,
+          "note": "旧/新卫生间相邻"
+        }
+      ],
+      "counterexamples": [],
+      "missing_inputs": [
+        "人物授权、同事件记录、固定锚点与项目映射"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC15"
+    },
+    {
+      "agent": "审核",
+      "rule": "长期防霉防潮、不开裂、环保、工期和费用，按声明对象分别验，不允许成品/工艺空镜替代证据。",
+      "condition": "检测报告须对应材料与条件；参考片已发布是用户信息，不是这些承诺的验证。",
+      "examples": [
+        {
+          "id": "R04",
+          "start": 21.542,
+          "end": 24.25,
+          "note": "无甲醛/VOC/异味配普通施工"
+        },
+        {
+          "id": "R18",
+          "start": 16,
+          "end": 20.417,
+          "note": "弯折/刮擦/环保三个证据层级"
+        },
+        {
+          "id": "R11",
+          "start": 16.667,
+          "end": 18.833,
+          "note": "7天入住与防潮配生活场景"
+        }
+      ],
+      "counterexamples": [],
+      "missing_inputs": [
+        "材料检测、项目工期记录、费用明细"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC16"
+    },
+    {
+      "agent": "审核",
+      "rule": "把“已发布且爆款”与“特征导致效果”分开；规则保持候选，按同题代表样片和真实线索结果再校准。",
+      "condition": "没有平台原始数据，本轮不出播放/转化成绩、不预设生产合格。",
+      "examples": [
+        {
+          "id": "R01",
+          "start": 0,
+          "end": 30.881,
+          "note": "编辑结构可以观察，效果因果未验证"
+        },
+        {
+          "id": "R04",
+          "start": 0,
+          "end": 26.261,
+          "note": "不同结尾结构提供反例而非输赢"
+        }
+      ],
+      "counterexamples": [],
+      "missing_inputs": [
+        "后续代表样片、独立人审、同题对照与真实业务指标"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC17"
+    },
+    {
+      "agent": "文案",
+      "rule": "先判断钩子吸引的是待改造业主、材料学习者还是泛兴趣人群，再让主体和结尾持续服务同一目标。",
+      "condition": "本轮只是受众匹配判断，不能从开头强度断言有效线索；待同题实际需求结果校准。",
+      "examples": [
+        {
+          "id": "R23",
+          "start": 0,
+          "end": 3,
+          "note": "女人想嫁的人物钩子"
+        },
+        {
+          "id": "R30",
+          "start": 0,
+          "end": 3,
+          "note": "同族钩子换城市"
+        },
+        {
+          "id": "R26",
+          "start": 0,
+          "end": 3,
+          "note": "城市趋势进入材料说明"
+        }
+      ],
+      "counterexamples": [],
+      "missing_inputs": [
+        "目标业主场景、有效线索判定和后续响应"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC18"
+    },
+    {
+      "agent": "配音",
+      "rule": "整理后的文案、原视频可见字幕、原始ASR分开存；文档中的合理术语不得自动替换成已听辨的音轨。",
+      "condition": "先明确版本与段落，完成听辨才冻结配音原稿。",
+      "examples": [
+        {
+          "id": "R12",
+          "start": 10.5,
+          "end": 12,
+          "note": "字幕单位与DOCX三到五毫米有差异"
+        },
+        {
+          "id": "R24",
+          "start": 0,
+          "end": 3,
+          "note": "预测同族但城市/人物/工期不同"
+        }
+      ],
+      "counterexamples": [],
+      "missing_inputs": [
+        "音轨全听、DOCX段落到视频版本映射"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC19"
+    },
+    {
+      "agent": "素材",
+      "rule": "不同材料名、桶重、施工道数、基层与覆盖面积逐项绑定；同族口播或相似批刮镜头不证明同款产品。",
+      "condition": "材料包装和项目使用记录需能对应；文案资料只提供主张。",
+      "examples": [
+        {
+          "id": "R26",
+          "start": 5.5,
+          "end": 11.5,
+          "note": "金刚泥与25公斤/15–20平方口径独立记录"
+        },
+        {
+          "id": "R12",
+          "start": 0,
+          "end": 3,
+          "note": "微陶泥/金刚陶泥命名不能自动归同款"
+        }
+      ],
+      "counterexamples": [],
+      "missing_inputs": [
+        "产品型号、实际厚度与基层、使用记录"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC20"
+    },
+    {
+      "agent": "文案",
+      "rule": "同一主体文案的结尾可以做点赞留存与需求咨询两种候选；其他条件一致后再比较有效需求。",
+      "condition": "补全版P058/P070主体相同而CTA不同，尚未发布对照；不能据此宣布咨询版一定胜出。",
+      "examples": [
+        {
+          "id": "R06",
+          "start": 20.167,
+          "end": 24.821,
+          "note": "咨询入口与位置/上门服务"
+        },
+        {
+          "id": "R21",
+          "start": 17,
+          "end": 19.5,
+          "note": "价格/结果系列收口观察"
+        }
+      ],
+      "counterexamples": [],
+      "missing_inputs": [
+        "平台入口、服务半径、真实响应能力、同题发布对照"
+      ],
+      "evidence_level": "editing_inference",
+      "validation": "待代表样片验证",
+      "execution_readiness": "规则可用于设计；共享素材尚未索引，具体素材可执行性未验证",
+      "id": "RC21"
+    }
+  ],
+  "source_rule_count": 145,
+  "unique_source_rule_count": 141,
+  "source_rule_count_note": "逐片候选条目数含重复片R13，不是独立验证次数",
+  "source_rule_path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\source-rule-candidates.json",
+  "performance_evidence": "user_reported_only",
+  "production_started": false,
+  "shared_footage_execution_verified": false,
+  "copy_analysis_path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\copy-library\\analysis.json"
+}

@@ -1,0 +1,69 @@
+{
+  "updated": "2026-11-13T13:43:01.435239+08:00",
+  "confirmed": 26,
+  "tentative": 2,
+  "counts": [
+    {
+      "category": "覆膜保护",
+      "positive": 3,
+      "negative": 1,
+      "tentative": 2,
+      "positive_gap_to_10": 7,
+      "negative_gap_to_10": 9
+    },
+    {
+      "category": "滚涂",
+      "positive": 2,
+      "negative": 2,
+      "tentative": 0,
+      "positive_gap_to_10": 8,
+      "negative_gap_to_10": 8
+    },
+    {
+      "category": "批刮",
+      "positive": 2,
+      "negative": 2,
+      "tentative": 0,
+      "positive_gap_to_10": 8,
+      "negative_gap_to_10": 8
+    },
+    {
+      "category": "打磨",
+      "positive": 2,
+      "negative": 2,
+      "tentative": 0,
+      "positive_gap_to_10": 8,
+      "negative_gap_to_10": 8
+    },
+    {
+      "category": "拆除",
+      "positive": 3,
+      "negative": 1,
+      "tentative": 0,
+      "positive_gap_to_10": 7,
+      "negative_gap_to_10": 9
+    },
+    {
+      "category": "清洁",
+      "positive": 4,
+      "negative": 2,
+      "tentative": 0,
+      "positive_gap_to_10": 6,
+      "negative_gap_to_10": 8
+    }
+  ],
+  "note": "10正10负仅按大类的初步扩样目标，不代表各对象已覆盖；不同对象标签不可互换。项目目录未全部核验，不能宣称已完成跨项目独立测试。",
+  "blind_test_started": false,
+  "production_model_changed": false,
+  "product_phase_confirmed": 24,
+  "product_phase_note": "与动作口径集分开统计；P13/P14仅确认非微陶泥批刮施工；P15材料桶展示。F6拖地仅是抹布擦地面需求的反例，不是所有清洁需求的反例。",
+  "latest_correction": "P25纯取料0—4.5秒、P26罩面2—8秒整段确认。P25与P9同原片，不计新增独立来源；子片段另计，不重复计为来源。",
+  "product_phase_business_excluded": 2,
+  "confirmed_derived_action_segments": 2,
+  "derived_segment_note": "P24-A/P24-B来自同一P24，不增加独立来源数量",
+  "person_confirmed_clips": 9,
+  "person_pending_clips": 0,
+  "person_note": "9段11条出现记录：阿明6、其他人物5；R09人物禁用，不能计作可用素材缺口已补齐。正式工具拦截未实现。",
+  "person_confirmed_subject_observations": 11,
+  "person_business_prohibited_clips": 1
+}

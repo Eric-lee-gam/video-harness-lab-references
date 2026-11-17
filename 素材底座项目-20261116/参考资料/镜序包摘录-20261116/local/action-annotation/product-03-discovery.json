@@ -1,0 +1,46 @@
+{
+  "rows": [
+    {
+      "id": "1a240d931daed37bb85e8a7cbbf4ab67",
+      "name": "30396_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "万科城（卫生间陶泥）/施工中/30396_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\万科城（卫生间陶泥）\\施工中\\30396_小区场景.MOV",
+      "duration": 63.131667,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\1a240d931daed37bb85e8a7cbbf4ab67.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "19d3d6830cd40e61264f9df7f874bfdc",
+      "name": "30673_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "万科城（卫生间陶泥）/施工中/30673_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\万科城（卫生间陶泥）\\施工中\\30673_小区场景.MOV",
+      "duration": 26.276667,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\19d3d6830cd40e61264f9df7f874bfdc.jpg",
+      "start": 2,
+      "end": 5,
+      "ratio": 0.5625
+    },
+    {
+      "id": "45adfaf57617e007dee31e5ab3600eb4",
+      "name": "23124_小区场景.MOV",
+      "root": "xiaoq",
+      "rel": "洪山纺机社区（卫液态陶泥）/施工/23124_小区场景.MOV",
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区\\洪山纺机社区（卫液态陶泥）\\施工\\23124_小区场景.MOV",
+      "duration": 6.623333,
+      "image": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\45adfaf57617e007dee31e5ab3600eb4.jpg",
+      "start": 1.65583325,
+      "end": 4.65583325,
+      "ratio": 0.5625
+    }
+  ],
+  "errors": [
+    {
+      "id": "d5cbe9498898b44cc0a05fa962eb4a9d",
+      "reason": "非9:16"
+    }
+  ]
+}

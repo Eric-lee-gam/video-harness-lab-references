@@ -1,0 +1,195 @@
+{
+  "item": 3,
+  "pass": true,
+  "failed": [],
+  "checks": [
+    {
+      "name": "二印小区厨卫\\人物出镜 一段主要人物不是阿明",
+      "ok": true,
+      "detail": {
+        "facts": [
+          "F0035"
+        ],
+        "path": "史上最完整共享\\拍摄\\小区\\二印小区厨卫\\人物出镜\\20577_人物_小区场景.MOV",
+        "times": [
+          0.0,
+          8.0
+        ],
+        "src_times": [
+          0.0,
+          8.0
+        ],
+        "evidence": "V1和v3适合，主要人物是阿明 v2不是",
+        "asset": "844dec0c826dc1e0870a4f6c15f21050",
+        "是否反例": true,
+        "checks": {
+          "path_ok": true,
+          "text_ok": true,
+          "in_limit": true,
+          "times_ok": true,
+          "neg_ok": true,
+          "asset_ok": true
+        }
+      }
+    },
+    {
+      "name": "两条“这是水洗石”的记录",
+      "ok": true,
+      "detail": {
+        "说明": "原文没有一字不差的“这是水洗石”，而是 product_identity=水洗石，evidence 写“材料不是微陶泥，是其他材料叫水洗石”。事实层保留了这两条（P21、P22）。",
+        "P21": {
+          "事实编号": "F0012",
+          "path": "史上最完整共享\\扒扒\\10材料\\1.微岩石\\拍摄\\金银湖别墅无机水洗石\\03326_地面_批刮施工.MOV",
+          "product_identity": "水洗石",
+          "evidence": [
+            "是属于批刮动作？材料不是微陶泥，是其他材料叫水洗石",
+            "我们是用不到这个材料的",
+            "跟我们现在视频是无关的"
+          ],
+          "times": [
+            2.0,
+            5.0,
+            2.0,
+            5.0
+          ],
+          "phrase_这是水洗石_in_source": false,
+          "has_water": true,
+          "times_ok": true,
+          "asset_ok": true,
+          "preserved": true
+        },
+        "P22": {
+          "事实编号": "F0013",
+          "path": "史上最完整共享\\扒扒\\10材料\\1.微岩石\\拍摄\\f天下外墙\\02009_墙面_批刮施工.MOV",
+          "product_identity": "水洗石",
+          "evidence": [
+            "是属于批刮动作？材料不是微陶泥，是其他材料叫水洗石",
+            "我们是用不到这个材料的",
+            "跟我们现在视频是无关的"
+          ],
+          "times": [
+            2.0,
+            5.0,
+            2.0,
+            5.0
+          ],
+          "phrase_这是水洗石_in_source": false,
+          "has_water": true,
+          "times_ok": true,
+          "asset_ok": true,
+          "preserved": true
+        }
+      }
+    },
+    {
+      "name": "一条“本片段不是微陶泥”的记录",
+      "ok": true,
+      "detail": {
+        "事实编号": "F0018",
+        "path": "史上最完整共享\\拍摄\\小区\\博学仕府（地面液态陶泥）\\施工\\18115_小区场景.MOV",
+        "phrase_in_source": true,
+        "phrase_in_output": true,
+        "product_identity": "本片段不是微陶泥（用户确认）",
+        "evidence": "P3不是微陶泥，也不是工序，p4是微陶泥，展示施工了一半的卫生间，这里师傅在弄别的东西没有施工",
+        "context": "不是微陶泥，也不是施工工序",
+        "times": [
+          2.0,
+          5.0
+        ],
+        "是否反例": false,
+        "note_是否反例": "原文明确“本片段不是微陶泥”，事实层 是否反例=false，作为另外发现的问题记录，不作为本条点名“找不到”失败。"
+      }
+    },
+    {
+      "name": "P24 一段里先取料后批刮、分成两个区间",
+      "ok": true,
+      "detail": {
+        "P24-A": {
+          "事实编号": "F0065",
+          "action": "取料",
+          "src_times": [
+            2,
+            2.9
+          ],
+          "out_times": [
+            2,
+            2.9
+          ],
+          "path": "史上最完整共享\\拍摄\\小区\\江岸2卫＋厨房\\第一遍陶泥\\24224_小区场景.MOV",
+          "times_ok": true,
+          "action_in": true,
+          "confirmed_label": "用户确认：微陶泥取料"
+        },
+        "P24-B": {
+          "事实编号": "F0066",
+          "action": "批刮",
+          "src_times": [
+            3.5,
+            5
+          ],
+          "out_times": [
+            3.5,
+            5
+          ],
+          "path": "史上最完整共享\\拍摄\\小区\\江岸2卫＋厨房\\第一遍陶泥\\24224_小区场景.MOV",
+          "times_ok": true,
+          "action_in": true,
+          "confirmed_label": "用户确认：微陶泥批刮"
+        },
+        "order_ok": true
+      }
+    },
+    {
+      "name": "汉阳月印府(6.7全屋)\\美女人设 出镜人禁用",
+      "ok": true,
+      "detail": {
+        "ban_ids": [
+          "R09-person-no-production"
+        ],
+        "path": "史上最完整共享\\拍摄\\小区\\汉阳月印府(6.7全屋)\\美女人设\\21951_人物_小区场景.MOV",
+        "禁用原文": "R09不是阿明，另外说一点这个女生离职了不能使用他出境的素材",
+        "source_evidence": "R09不是阿明，另外说一点这个女生离职了不能使用他出境的素材",
+        "source_decision": "禁止使用该人物出镜素材",
+        "times": [
+          2,
+          6,
+          2,
+          6
+        ],
+        "拦截说明": "镜序自己还没把它接进拦截。未接入正式工具；不得声称已全库拦截",
+        "also_in_facts": [
+          "F0033"
+        ],
+        "ev_ok": true,
+        "path_ok": true,
+        "times_ok": true,
+        "intercept_note": true
+      }
+    },
+    {
+      "name": "P17 是微陶泥但不是批刮（批刮定义来自用户纠正）",
+      "ok": true,
+      "detail": {
+        "事实编号": "F0008",
+        "path": "史上最完整共享\\拍摄\\小区\\展厅\\墙面批刮\\33906_小区_批刮施工.MP4",
+        "evidence": "P17第一确实的微陶泥，第二但不是在批刮，批刮指的是在墙面地面基础上的批刮的动作",
+        "product_identity": "微陶泥（用户确认，仅本段）",
+        "context": "",
+        "times": [
+          2.0,
+          5.0
+        ],
+        "scraping_label_rule_source": "用户对P17的纠正",
+        "scraping_definition": "批刮指工具在墙面或地面基面上实际进行批刮的动作。",
+        "是否反例": false,
+        "ev_ok": true,
+        "ev_in": true,
+        "times_ok": true,
+        "content_ok": true,
+        "rule_src_ok": true
+      }
+    }
+  ],
+  "need_report_likang": false,
+  "need_report_reason": ""
+}

@@ -1,0 +1,149 @@
+rules status:
+  approved=37
+  pending=17
+reviewer:
+  ''=17
+  '小山'=1
+  '当前用户'=36
+
+ALL RULES
+id=a0859e91cf704dddad925c3016848583 | status=pending | reviewer=- | action=avoid | scope=project | asset=e35e76a321f87bd4cd8a516b0fbf5f1b | start=0 | end=2.24 | description=相似字幕排除该源片段 | text=而且不管你是厨房翻新 | reason=说厨房，这里面啥都没有
+id=2c77647d47fd47f2b9c013c6e63ddf2c | status=pending | reviewer=- | action=prefer | scope=project | asset=ba887994997ad086099eae97a342d2b2 | start=5.208 | end=7.448 | description=相似字幕优先推荐该源片段 | text=而且不管你是厨房翻新
+id=1bd51ad20a9c47e2b0329bb11a215277 | status=pending | reviewer=- | action=prefer | scope=project | asset=107a8147cee07d524683fb8bfc4b9ac9 | start=63.213 | end=65.453 | description=相似字幕优先推荐该源片段 | text=而且不管你是厨房翻新
+id=25a3252a97b149a7806cbb6771d09190 | status=approved | reviewer=小山 | action=prefer | scope=project | asset=d05554bcdfc0a1d67f68e781810691a4 | start=9.467 | end=11.707 | description=相似字幕优先推荐该源片段 | text=而且不管你是厨房翻新
+id=cd27070dcd9746519b1bfc9d0d9c2dc0 | status=pending | reviewer=- | action=prefer | scope=project | asset=17b0607cad047e01e01617da14633dd8 | start=0 | end=1.54 | description=相似字幕优先推荐该源片段 | text=还是卫生间翻新
+id=b09fde00c48e4345845d586cd05ae471 | status=pending | reviewer=- | action=prefer | scope=project | asset=e35e76a321f87bd4cd8a516b0fbf5f1b | start=9.343 | end=10.883 | description=相似字幕优先推荐该源片段 | text=还是卫生间翻新 | reason=有卫生间、施工俩个属性吧
+id=3399ae18a63e43cf8bc8c08e791560ec | status=pending | reviewer=- | action=avoid | scope=project | asset=ba22c94afb793e09c8e1760a478f98c8 | start=8.031 | end=10.031 | description=相似字幕排除该源片段 | text=我们都能安排的明明白白 | reason=重复重新在候选镜头里，不能一直拿这条素材充数
+id=3042a556a2a44690a1d6546d9b79537c | status=pending | reviewer=- | action=avoid | scope=project | asset=ba22c94afb793e09c8e1760a478f98c8 | start=8.031 | end=10.031 | description=相似字幕排除该源片段 | text=我们都能安排的明明白白 | reason=人物出境的
+id=7c4a877afc794bc095b50153976f723a | status=pending | reviewer=- | action=avoid | scope=project | asset=7cfdb030ff9a1f9cc0a5ebdf0cf3da17 | start=1.313 | end=3.313 | description=相似字幕排除该源片段 | text=我们都能安排的明明白白 | reason=人物出境的
+id=3f700d8648ff473092c7536bc00a259e | status=pending | reviewer=- | action=avoid | scope=project | asset=1c3f33896fa4188c5167c9bab065731f | start=5.232 | end=7.232 | description=相似字幕排除该源片段 | text=我们都能安排的明明白白 | reason=人物出境的
+id=bb7807bc98e841eeb8f4e0a3e6573cb5 | status=pending | reviewer=- | action=avoid | scope=project | asset=30a4342a7f6c9bf3e4ce51b91e30f8e2 | start=0 | end=2.0 | description=相似字幕排除该源片段 | text=我们都能安排的明明白白 | reason=人物出境的
+id=bef2985cf16c4f72a957e1d4881b19f6 | status=pending | reviewer=- | action=prefer | scope=project | asset=c50fce1d7c874f30a0008fb4b419fbd0 | start=15.459 | end=16.919 | description=相似字幕优先推荐该源片段 | text=如果你刷到这条视频
+id=7e1f9c3b15084d9cadd0b2dec65cd047 | status=pending | reviewer=- | action=prefer | scope=project | asset=ac3543de14f805a2c8f642ed1ec50eab | start=5.849 | end=7.309 | description=相似字幕优先推荐该源片段 | text=如果你刷到这条视频
+id=20395fbdf14e40478ce055d554d01d37 | status=pending | reviewer=- | action=avoid | scope=project | asset=caab17912fe6ce21192d83acf06204b6 | start=20.17 | end=21.63 | description=相似字幕排除该源片段 | text=如果你刷到这条视频
+id=e07999d52334433e86fe53fb1a36313e | status=pending | reviewer=- | action=prefer | scope=project | asset=c50fce1d7c874f30a0008fb4b419fbd0 | start=15.459 | end=16.919 | description=相似字幕优先推荐该源片段 | text=如果你刷到这条视频 | reason=有动作
+id=234fa0e64af248a28d778c542697aa49 | status=pending | reviewer=- | action=avoid | scope=project | asset=1cf29932b8c7de0544be01092fc60fa1 | start=52.632 | end=54.072 | description=相似字幕排除该源片段 | text=可以点个小红心 | reason=镜头都挡完了
+id=a036fc9d545c47b4a591396e13d25058 | status=pending | reviewer=- | action=prefer | scope=project | asset=6d72f438f45b70c541dc5f3ff5ef2e30 | start=33.146 | end=34.226 | description=相似字幕优先推荐该源片段 | text=不拆不砸
+id=150217a7eb3042899faa9bc264244c65 | status=pending | reviewer=- | action=avoid | scope=project | asset=c5a160a3dbbf167fcefb3632197cefa1 | start=21.934 | end=23.734 | description=相似字幕排除该源片段 | text=翻新1000多家卫生间的 | reason=没人人物出境
+id=confirmed-R01 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=8dbee2c08ff99cb523c79d1ff43ff386 | start=2.0 | end=6.0 | kind=fact | sample_id=R01 | description=用户确认：阿明 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-R02 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=ec7811dd02f80d607d4ade7683da72c9 | start=2.0 | end=6.0 | kind=fact | sample_id=R02 | description=用户确认：其他人物 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-R03 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=c50fce1d7c874f30a0008fb4b419fbd0 | start=2.0 | end=6.0 | kind=fact | sample_id=R03 | description=用户确认：阿明 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-R04 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=0e994a1d2837bd1069fd397553b62816 | start=2.0 | end=6.0 | kind=fact | sample_id=R04 | description=用户确认：前景紫衣阿明；后方未穿上衣其他人物 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-R05 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=c6eb8134b11a584256423d6a036fda71 | start=2.0 | end=6.0 | kind=fact | sample_id=R05 | description=用户确认：阿明 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-R06 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=ccdb51ab3e8100c69ab96a0b5ee94848 | start=2.0 | end=6.0 | kind=fact | sample_id=R06 | description=用户确认：前景紫色马甲阿明；右后方靠墙其他人物 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-R07 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=1c3742d1e5fd0e1d51ffd7ddc2b052b9 | start=2.0 | end=6.0 | kind=fact | sample_id=R07 | description=用户确认：阿明 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-R08 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=c0989918dfc4340174e9ede6d31cf89e | start=2.0 | end=6.0 | kind=fact | sample_id=R08 | description=用户确认：不是阿明，是师傅（具体姓名未知） | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-R09 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=28e1f1da6707350efc9a7a67776984ea | start=2.0 | end=6.0 | kind=fact | sample_id=R09 | description=用户确认：非阿明；该人物出镜素材禁用 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P1 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=cb4899d0a9e5eee34933d459560ccb85 | start=2.0 | end=5.0 | kind=fact | sample_id=P1 | description=用户已确认项目与片段工序 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P2 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=bb4e94fb087a08be8c2be335136395e0 | start=1.25 | end=4.25 | kind=fact | sample_id=P2 | description=用户已确认项目与片段工序 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P3 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=eef0d4e719b28bc2875bfeb6c5c81f7b | start=2.0 | end=5.0 | kind=fact | sample_id=P3 | description=用户已确认产品与画面状态 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P4 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=cb7f3af4f44a0ee9621d214c630400f8 | start=2.0 | end=5.0 | kind=fact | sample_id=P4 | description=用户已确认产品与画面状态 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P5 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=56966c1966071ad0c20cfaa561cb07b2 | start=2.0 | end=5.0 | kind=fact | sample_id=P5 | description=用户已确认微陶泥施工正例 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P6 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=0f939c041c39388ba3db921eaef312d2 | start=0.92625 | end=3.705 | kind=fact | sample_id=P6 | description=用户已确认微陶泥施工正例 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P7 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=62c387ebe0f7aaf27fbaa0cae30acddf | start=0.23375 | end=0.935 | kind=fact | sample_id=P7 | description=用户确认：铲除，不算微陶泥施工 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P8 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=5f612578dab814de8b291302c4331813 | start=2.0 | end=5.0 | kind=fact | sample_id=P8 | description=用户确认：微陶泥施工正例 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P9 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=4ccc65df7eeac0bb2297a1cecacea261 | start=2.0 | end=5.0 | kind=fact | sample_id=P9 | description=用户确认：微陶泥取料 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P10 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=00112a93268fec08a946d0f600927b01 | start=2.0 | end=5.0 | kind=fact | sample_id=P10 | description=用户确认：微陶泥批刮覆盖 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P11 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=e240f56322363b6d299b0bcf6b81368c | start=2.0 | end=5.0 | kind=fact | sample_id=P11 | description=用户确认：微陶泥批刮覆盖 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P12 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=d6bf362c5e4016e2807bd10c94a59799 | start=2.0 | end=5.0 | kind=fact | sample_id=P12 | description=用户确认：微陶泥批刮覆盖 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P13 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=1a240d931daed37bb85e8a7cbbf4ab67 | start=2.0 | end=5.0 | kind=fact | sample_id=P13 | description=用户确认：不是微陶泥批刮施工 | reason=仅否定微陶泥批刮施工；其他具体动作、产品身份及其他工序未确认。 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P14 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=19d3d6830cd40e61264f9df7f874bfdc | start=2.0 | end=5.0 | kind=fact | sample_id=P14 | description=用户确认：不是微陶泥批刮施工 | reason=仅否定微陶泥批刮施工；其他具体动作、产品身份及其他工序未确认。 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P15 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=45adfaf57617e007dee31e5ab3600eb4 | start=1.65583325 | end=4.65583325 | kind=fact | sample_id=P15 | description=用户确认：微陶泥材料桶展示，不算批刮施工 | reason=材料展示不能作为批刮施工的动作正例 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P17 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=0131657ceb69c229c36b92b9285aa255 | start=2.0 | end=5.0 | kind=fact | sample_id=P17 | description=用户确认：微陶泥，非批刮动作 | reason=微陶泥材料正例、批刮动作反例；不能作为非微陶泥材料反例 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P19 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=4642f6f545d374686fcdc4ce3d09f29a | start=2.0 | end=5.0 | kind=fact | sample_id=P19 | description=用户确认：微陶泥墙面批刮 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P20 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=dd6bb5b40938ab256cdb37571afe7c05 | start=2.0 | end=5.0 | kind=fact | sample_id=P20 | description=用户确认：微陶泥墙面批刮 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P21 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=012256615ba2d3dab89090356da2d6b1 | start=2.0 | end=5.0 | kind=fact | sample_id=P21 | description=用户确认：水洗石批刮，与当前视频业务无关 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P22 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=1eef32fcc1c895a6931e9d51d03ba28d | start=2.0 | end=5.0 | kind=fact | sample_id=P22 | description=用户确认：水洗石批刮，与当前视频业务无关 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P23 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=ec7811dd02f80d607d4ade7683da72c9 | start=2.0 | end=5.0 | kind=fact | sample_id=P23 | description=用户确认：微陶泥批刮 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P24 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=c20a703613be13deddbe8d3f71e8b007 | start=2.0 | end=5.0 | kind=fact | sample_id=P24 | description=用户确认：微陶泥批刮＋取料（混合动作） | reason=整段保留批刮＋取料混合标签；已确认两段动作区间，中间过渡不纳入；不计新增独立来源 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P25 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=4ccc65df7eeac0bb2297a1cecacea261 | start=0.0 | end=4.5 | kind=fact | sample_id=P25 | description=用户确认：微陶泥纯取料 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-P26 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=f29ecd7161dff8c5d9328f678b2228db | start=2.0 | end=8.0 | kind=fact | sample_id=P26 | description=用户确认：微陶泥罩面 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-V1 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=08df39f7e2833ba59b9fa50e7beecc74 | start=0.0 | end=8.0 | kind=fact | sample_id=V1 | description=用户确认适合当前文案 | reason=仅0–8秒主要人物。V2不认定全体同框人物均不是阿明，也不作全库禁用。 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-V2 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=844dec0c826dc1e0870a4f6c15f21050 | start=0.0 | end=8.0 | kind=fact | sample_id=V2 | description=用户确认主要人物不是阿明；不作为阿明出镜候选 | reason=仅0–8秒主要人物。V2不认定全体同框人物均不是阿明，也不作全库禁用。 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+id=confirmed-V3 | status=approved | reviewer=当前用户 | action=None | scope=similar | asset=cccbc086c8b2fea531fb0dd2bd034fb2 | start=0.0 | end=8.0 | kind=fact | sample_id=V3 | description=用户确认适合当前文案 | reason=仅0–8秒主要人物。V2不认定全体同框人物均不是阿明，也不作全库禁用。 | extra_keys=identities,confirmed_by,evidence,person_targets,person_identity,product_identity,confirmed_action,action_segments,source_record,source_record_hash,apply_to_directory,usable | HAS_CONFIRMED_MARKER
+
+confirmed-marker rules: 36
+  confirmed-R01
+  confirmed-R02
+  confirmed-R03
+  confirmed-R04
+  confirmed-R05
+  confirmed-R06
+  confirmed-R07
+  confirmed-R08
+  confirmed-R09
+  confirmed-P1
+  confirmed-P2
+  confirmed-P3
+  confirmed-P4
+  confirmed-P5
+  confirmed-P6
+  confirmed-P7
+  confirmed-P8
+  confirmed-P9
+  confirmed-P10
+  confirmed-P11
+  confirmed-P12
+  confirmed-P13
+  confirmed-P14
+  confirmed-P15
+  confirmed-P17
+  confirmed-P19
+  confirmed-P20
+  confirmed-P21
+  confirmed-P22
+  confirmed-P23
+  confirmed-P24
+  confirmed-P25
+  confirmed-P26
+  confirmed-V1
+  confirmed-V2
+  confirmed-V3
+approved-like rules: 37
+payload key union: {"text": 54, "context": 54, "asset_id": 54, "start": 54, "end": 54, "scope": 54, "project_id": 54, "action": 18, "reason": 54, "reason_code": 54, "description": 54, "kind": 36, "identities": 36, "confirmed_by": 36, "evidence": 36, "sample_id": 36, "person_targets": 36, "person_identity": 36, "product_identity": 36, "confirmed_action": 36, "action_segments": 36, "source_record": 36, "source_record_hash": 36, "apply_to_directory": 36, "usable": 36}
+action: {"avoid": 9, "prefer": 9, "null": 36}
+scope: {"project": 18, "similar": 36}
+
+RUNS
+n=253
+payload0 keys: ['need', 'board_context', 'text', 'context', 'duration', 'project_id', 'task_id', 'exclude_assets', 'use_experience', 'index_job', 'rules']
+  payload.need str=
+  payload.board_context str={"text":"武汉家里有老人的注意了，我们在武汉搞了一个本地人的旧房翻新团队，几千到万把块钱就可以把你家从这样改造成这样，全屋墙面7天就可以搞定。而且不管你是厨房翻新，还是卫生间翻新，我们都能安排的明明白白，从设计到拆除再到安装，垃圾清
+  payload.text str=武汉家里有老人的注意了
+  payload.context str=武汉家里有老人的注意了，我们在武汉搞了一个
+  payload.duration float=2.2
+  payload.project_id str=c620044f2a804044b575aabe6f47517d
+  payload.task_id str=c9406700-9a85-4565-ad76-8a148651bee9
+  payload.exclude_assets list n=0
+  payload.use_experience bool=True
+  payload.index_job str=1a9246f30d29474baafae6a6fe466ffd
+  payload.rules list n=0
+result0 type: dict
+result0 keys: ['items', 'model', 'device', 'threshold', 'semantic_gate', 'indexed_assets', 'indexed_frames', 'gap', 'query', 'context', 'rules_considered', 'limits', 'run_id', 'task_id', 'duration']
+  result.items list n=10
+    item keys: ['asset_id', 'name', 'root', 'rel', 'path', 'duration', 'center', 'image', 'phash', 'size', 'mtime', 'sample_step', 'start', 'end', 'base_score', 'score', 'rule_ids', 'reason', 'match_type', 'fallback', 'id']
+  result.model str=OFA-Sys/chinese-clip-vit-base-patch16@36e679e65c2a2fead755ae21162091293ad37834
+  result.device str=cuda
+  result.threshold float=0.40819665431976315
+  result.semantic_gate str=通用语义，无专用粗筛
+  result.indexed_assets int=51
+  result.indexed_frames int=777
+  result.gap int=0
+  result.query str=武汉家里有老人的注意了
+  result.context str=武汉家里有老人的注意了，我们在武汉搞了一个
+  result.rules_considered list n=0
+  result.limits str=每约2秒抽一帧，每个源最多60帧；无连续动作证明、无自动分镜保证
+  result.run_id str=ffe0540386df40228993956e39a0ae7c
+  result.task_id str=c9406700-9a85-4565-ad76-8a148651bee9
+  result.duration float=2.2
+runs with some list in result: 242
+found list fields: {'items': 241, 'errors': 22}
+total listed items: 2399
+candidate key-sets:
+  n=169 keys=['asset_id', 'base_score', 'center', 'duration', 'end', 'fallback', 'id', 'image', 'match_type', 'mtime', 'name', 'path', 'phash', 'reason', 'rel', 'root', 'rule_ids', 'scene_group', 'score', 'size', 'start']
+  n=46 keys=['asset_id', 'base_score', 'center', 'duration', 'end', 'fallback', 'id', 'image', 'match_type', 'mtime', 'name', 'path', 'phash', 'reason', 'rel', 'root', 'rule_ids', 'score', 'size', 'start']
+  n=23 keys=['asset_id', 'base_score', 'center', 'duration', 'end', 'fallback', 'id', 'image', 'match_type', 'mtime', 'name', 'path', 'phash', 'reason', 'rel', 'root', 'rule_ids', 'sample_step', 'score', 'size', 'start']
+  n=21 keys=['asset_id', 'error']
+  n=3 keys=['asset_id', 'base_score', 'duration', 'end', 'fallback', 'id', 'identity_evidence', 'image', 'match_type', 'mtime', 'name', 'path', 'reason', 'rel', 'root', 'rule_ids', 'scene_group', 'score', 'size', 'start']
+  n=1 keys=['asset_id', 'billing_status', 'call_id', 'end', 'error', 'phase', 'request_id', 'rule_hash', 'run_id', 'seconds', 'start']
+feedback missing run: 0 / 127

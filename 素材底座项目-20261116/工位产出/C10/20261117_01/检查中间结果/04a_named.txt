@@ -1,0 +1,119 @@
+==== named hits in 事实层/禁用表 ====
+
+NEEDLE '二印小区厨卫': facts=12 bans=0
+  FACT F0025 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-R01 sid=R01 path=史上最完整共享\拍摄\小区\二印小区厨卫\人物出镜\20573_人物_小区场景.MOV 2.0-6.0 反例=False
+    限定语=R01是阿明，R02是其他人物。先按这两段记录，不要套用整个目录；未核验；apply_to_directory=false 不套用到目录
+  FACT F0035 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-V2 sid=V2 path=史上最完整共享\拍摄\小区\二印小区厨卫\人物出镜\20577_人物_小区场景.MOV 0.0-8.0 反例=True
+    限定语=V1和v3适合，主要人物是阿明 v2不是；仅0–8秒主要人物。V2不认定全体同框人物均不是阿明，也不作全库禁用。；未核验；apply_to_directory=false 不套用到目录
+  FACT F0037 src=local/action-annotation/batch-01.json id=A1 sid=None path=史上最完整共享\拍摄\小区\二印小区厨卫\人物出镜\20585_人物_小区场景.MOV 5.208-7.448 反例=False
+    限定语=待用户核查画面与动作；确认，A1正例，A2反例。记录这一组，继续带我看滚涂和批刮的对照，等我确认后再记录，流程图同步更新。；未核验
+  FACT F0039 src=local/action-annotation/batch-01.json id=B1 sid=None path=史上最完整共享\拍摄\小区\二印小区厨卫\施工\20804_小区场景.MOV 8.031-10.031 反例=False
+    限定语=待用户核查画面与动作；B1正例、B2反例。C1正例，C2反例。；未核验
+  FACT F0042 src=local/action-annotation/batch-01.json id=C2 sid=None path=史上最完整共享\拍摄\小区\二印小区厨卫\二印小区施工前处理\IMG_1344.MOV 5.192-7.272 反例=True
+    限定语=待用户核查画面与动作；B1正例、B2反例。C1正例，C2反例。；未核验
+  FACT F0088 src=试标50段/审核结果_李康_20261116.json+_对应表.csv id=seg_22 sid=None path=史上最完整共享\拍摄\小区\二印小区厨卫\施工\20718_小区场景.MOV 0.9-4.9 反例=False
+    限定语=T1
+  FACT F0131 src=出镜文件夹确认图/对照表.md id=sheet_15.jpg:拍摄\小区\二印小区厨卫\人物出镜 sid=None path=史上最完整共享\拍摄\小区\二印小区厨卫\人物出镜 None-None 反例=False
+    限定语=**是阿明**（李康看完全部拼图后统一确认“其他都是阿明”，2026-11-16）。依据是抽到的这些帧，文件夹里其余视频没有逐条看。
+  FACT F0236 src=小区全库/数据/AI剪辑检索索引.jsonl#indexed_segments id=b8e3fb2aa0887b92:2.2-4.433333333333334:0 sid=None path=史上最完整共享\拍摄\小区\二印小区厨卫\二印小区施工前处理\IMG_0659.MOV 2.2-4.433333333333334 反例=False
+    限定语=既有片段核验；["打磨不是擦洗，不证明全部基层完成", "仅独立审核并正式发布的精确片段可用；整条源未逐帧审核", "不证明同户前后、人物身份、产品、工期或性能"]
+
+NEEDLE '主要人物不是阿明': facts=1 bans=0
+  FACT F0035 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-V2 sid=V2 path=史上最完整共享\拍摄\小区\二印小区厨卫\人物出镜\20577_人物_小区场景.MOV 0.0-8.0 反例=True
+    限定语=V1和v3适合，主要人物是阿明 v2不是；仅0–8秒主要人物。V2不认定全体同框人物均不是阿明，也不作全库禁用。；未核验；apply_to_directory=false 不套用到目录
+
+NEEDLE '不是阿明': facts=30 bans=2
+  FACT F0031 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-R07 sid=R07 path=史上最完整共享\拍摄\小区\常青花园四小区\人物出镜\19910_人物_小区场景.MOV 2.0-6.0 反例=False
+    限定语=R07是阿明，R08不是阿明，是师傅；未核验；apply_to_directory=false 不套用到目录
+  FACT F0032 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-R08 sid=R08 path=史上最完整共享\拍摄\小区\翠提春晓\批刮陶泥\IMG_0996.MOV 2.0-6.0 反例=True
+    限定语=R07是阿明，R08不是阿明，是师傅；未核验；apply_to_directory=false 不套用到目录
+  FACT F0033 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-R09 sid=R09 path=史上最完整共享\拍摄\小区\汉阳月印府(6.7全屋)\美女人设\21951_人物_小区场景.MOV 2.0-6.0 反例=False
+    限定语=R09不是阿明，另外说一点这个女生离职了不能使用他出境的素材；未核验；apply_to_directory=false 不套用到目录
+  FACT F0034 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-V1 sid=V1 path=史上最完整共享\拍摄\小区\武汉理工大学\人物出镜\32523_人物_小区场景.MOV 0.0-8.0 反例=False
+    限定语=V1和v3适合，主要人物是阿明 v2不是；仅0–8秒主要人物。V2不认定全体同框人物均不是阿明，也不作全库禁用。；未核验；apply_to_directory=false 不套用到目录
+  FACT F0035 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-V2 sid=V2 path=史上最完整共享\拍摄\小区\二印小区厨卫\人物出镜\20577_人物_小区场景.MOV 0.0-8.0 反例=True
+    限定语=V1和v3适合，主要人物是阿明 v2不是；仅0–8秒主要人物。V2不认定全体同框人物均不是阿明，也不作全库禁用。；未核验；apply_to_directory=false 不套用到目录
+  FACT F0036 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-V3 sid=V3 path=史上最完整共享\拍摄\小区\博学仕府（地面液态陶泥）\人物出镜\17887_人物_小区场景.MOV 0.0-8.0 反例=False
+    限定语=V1和v3适合，主要人物是阿明 v2不是；仅0–8秒主要人物。V2不认定全体同框人物均不是阿明，也不作全库禁用。；未核验；apply_to_directory=false 不套用到目录
+  FACT F0118 src=出镜文件夹确认图/对照表.md id=sheet_02.jpg:拍摄\小区\武汉理工大学\人物出镜 sid=None path=史上最完整共享\拍摄\小区\武汉理工大学\人物出镜 None-None 反例=True
+    限定语=**男性是阿明**，画面里另有女性不是阿明（李康看图确认，2026-11-16）
+  FACT F0121 src=出镜文件夹确认图/对照表.md id=sheet_05.jpg:拍摄\招商\嘉贝乐工厂\口播 sid=None path=史上最完整共享\拍摄\招商\嘉贝乐工厂\口播 None-None 反例=True
+    限定语=**全部不是阿明，而且这张图里出现的人物不能用**（李康看图确认，2026-11-16）。已作为禁用写入《专有词表》第四节
+  BAN R09-person-no-production 史上最完整共享\拍摄\小区\汉阳月印府(6.7全屋)\美女人设\21951_人物_小区场景.MOV 原文=R09不是阿明，另外说一点这个女生离职了不能使用他出境的素材
+  BAN sheet_05.jpg:拍摄\招商\嘉贝乐工厂\口播 史上最完整共享\拍摄\招商\嘉贝乐工厂\口播 原文=**全部不是阿明，而且这张图里出现的人物不能用**（李康看图确认，2026-11-16）。已作为禁用写入《专有词表》第四节
+
+NEEDLE '水洗石': facts=3 bans=0
+  FACT F0012 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-P21 sid=P21 path=史上最完整共享\扒扒\10材料\1.微岩石\拍摄\金银湖别墅无机水洗石\03326_地面_批刮施工.MOV 2.0-5.0 反例=False
+    限定语=["是属于批刮动作？材料不是微陶泥，是其他材料叫水洗石", "我们是用不到这个材料的", "跟我们现在视频是无关的"]；水洗石；apply_to_directory=false 不套用到目录
+  FACT F0013 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-P22 sid=P22 path=史上最完整共享\扒扒\10材料\1.微岩石\拍摄\f天下外墙\02009_墙面_批刮施工.MOV 2.0-5.0 反例=False
+    限定语=["是属于批刮动作？材料不是微陶泥，是其他材料叫水洗石", "我们是用不到这个材料的", "跟我们现在视频是无关的"]；水洗石；apply_to_directory=false 不套用到目录
+  FACT F0132 src=出镜文件夹确认图/对照表.md id=sheet_16.jpg:拍摄\展厅\展厅装修\水洗石施工\出境 sid=None path=史上最完整共享\拍摄\展厅\展厅装修\水洗石施工\出境 None-None 反例=False
+    限定语=**是阿明**（李康看完全部拼图后统一确认“其他都是阿明”，2026-11-16）。依据是抽到的这些帧，文件夹里其余视频没有逐条看。
+
+NEEDLE '这是水洗石': facts=0 bans=0
+
+NEEDLE '不是微陶泥': facts=7 bans=0
+  FACT F0005 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-P13 sid=P13 path=史上最完整共享\拍摄\小区\万科城（卫生间陶泥）\施工中\30396_小区场景.MOV 2.0-5.0 反例=True
+    限定语=P13、P14都不算微陶泥批刮施工，先按这两段记录，不要套用整个目录。；仅否定微陶泥批刮施工；其他具体动作、产品身份及其他工序未确认。；未核验；apply_to_directory=false 不套用到目录
+  FACT F0006 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-P14 sid=P14 path=史上最完整共享\拍摄\小区\万科城（卫生间陶泥）\施工中\30673_小区场景.MOV 2.0-5.0 反例=True
+    限定语=P13、P14都不算微陶泥批刮施工，先按这两段记录，不要套用整个目录。；仅否定微陶泥批刮施工；其他具体动作、产品身份及其他工序未确认。；未核验；apply_to_directory=false 不套用到目录
+  FACT F0012 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-P21 sid=P21 path=史上最完整共享\扒扒\10材料\1.微岩石\拍摄\金银湖别墅无机水洗石\03326_地面_批刮施工.MOV 2.0-5.0 反例=False
+    限定语=["是属于批刮动作？材料不是微陶泥，是其他材料叫水洗石", "我们是用不到这个材料的", "跟我们现在视频是无关的"]；水洗石；apply_to_directory=false 不套用到目录
+  FACT F0013 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-P22 sid=P22 path=史上最完整共享\扒扒\10材料\1.微岩石\拍摄\f天下外墙\02009_墙面_批刮施工.MOV 2.0-5.0 反例=False
+    限定语=["是属于批刮动作？材料不是微陶泥，是其他材料叫水洗石", "我们是用不到这个材料的", "跟我们现在视频是无关的"]；水洗石；apply_to_directory=false 不套用到目录
+  FACT F0018 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-P3 sid=P3 path=史上最完整共享\拍摄\小区\博学仕府（地面液态陶泥）\施工\18115_小区场景.MOV 2.0-5.0 反例=False
+    限定语=P3不是微陶泥，也不是工序，p4是微陶泥，展示施工了一半的卫生间，这里师傅在弄别的东西没有施工；不是微陶泥，也不是施工工序；本片段不是微陶泥（用户确认）；apply_to_directory=false 不套用到目录
+  FACT F0019 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-P4 sid=P4 path=史上最完整共享\拍摄\小区\洪山纺机社区（卫液态陶泥）\施工\23154_小区场景.MOV 2.0-5.0 反例=False
+    限定语=P3不是微陶泥，也不是工序，p4是微陶泥，展示施工了一半的卫生间，这里师傅在弄别的东西没有施工；施工了一半的卫生间现场；师傅在弄别的东西，当前没有施工；微陶泥（用户确认）；apply_to_directory=false 不套用到目录
+  FACT F0022 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-P7 sid=P7 path=史上最完整共享\拍摄\小区\万科城（卫生间陶泥）\施工中\30474_小区场景.MOV 0.23375-0.935 反例=False
+    限定语=P7是铲除，不算微陶泥施工；P8是微陶泥施工，动作是批刮覆盖。先按这两段记录，不要套用整个目录，继续带我看P9、P10，等我确认后再记录，流程图同步更新。；铲除，不是微陶泥施工画面；当前片段不证明微陶泥产品身份；apply_to_directory=false 不套用到目录
+
+NEEDLE '本片段不是微陶泥': facts=1 bans=0
+  FACT F0018 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-P3 sid=P3 path=史上最完整共享\拍摄\小区\博学仕府（地面液态陶泥）\施工\18115_小区场景.MOV 2.0-5.0 反例=False
+    限定语=P3不是微陶泥，也不是工序，p4是微陶泥，展示施工了一半的卫生间，这里师傅在弄别的东西没有施工；不是微陶泥，也不是施工工序；本片段不是微陶泥（用户确认）；apply_to_directory=false 不套用到目录
+
+NEEDLE 'P24': facts=4 bans=0
+  FACT F0014 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-P23 sid=P23 path=史上最完整共享\拍摄\小区\翠提春晓\批刮陶泥\IMG_0949.MOV 2.0-5.0 反例=False
+    限定语=都是微陶泥，P23是批刮，P24是批刮、取料都有；微陶泥（用户确认，仅本段）；apply_to_directory=false 不套用到目录
+  FACT F0015 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-P24 sid=P24 path=史上最完整共享\拍摄\小区\江岸2卫＋厨房\第一遍陶泥\24224_小区场景.MOV 2.0-5.0 反例=False
+    限定语=都是微陶泥，P23是批刮，P24是批刮、取料都有；整段保留批刮＋取料混合标签；已确认两段动作区间，中间过渡不纳入；不计新增独立来源；微陶泥（用户确认，仅本段）；apply_to_directory=false 不套用到目录
+  FACT F0065 src=local/action-annotation/P24-boundary-proposal.json id=P24-A sid=None path=史上最完整共享\拍摄\小区\江岸2卫＋厨房\第一遍陶泥\24224_小区场景.MOV 2-2.9 反例=False
+    限定语=仅所列来源时间段；都能；来自同一P24，不增加独立来源数量
+  FACT F0066 src=local/action-annotation/P24-boundary-proposal.json id=P24-B sid=None path=史上最完整共享\拍摄\小区\江岸2卫＋厨房\第一遍陶泥\24224_小区场景.MOV 3.5-5 反例=False
+    限定语=仅所列来源时间段；都能；来自同一P24，不增加独立来源数量
+
+NEEDLE 'P17': facts=1 bans=0
+  FACT F0008 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-P17 sid=P17 path=史上最完整共享\拍摄\小区\展厅\墙面批刮\33906_小区_批刮施工.MP4 2.0-5.0 反例=False
+    限定语=P17第一确实的微陶泥，第二但不是在批刮，批刮指的是在墙面地面基础上的批刮的动作；微陶泥材料正例、批刮动作反例；不能作为非微陶泥材料反例；微陶泥（用户确认，仅本段）；apply_to_directory=false 不套用到目录
+
+NEEDLE '汉阳月印府': facts=7 bans=1
+  FACT F0033 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-R09 sid=R09 path=史上最完整共享\拍摄\小区\汉阳月印府(6.7全屋)\美女人设\21951_人物_小区场景.MOV 2.0-6.0 反例=False
+    限定语=R09不是阿明，另外说一点这个女生离职了不能使用他出境的素材；未核验；apply_to_directory=false 不套用到目录
+  FACT F0076 src=试标50段/审核结果_李康_20261116.json+_对应表.csv id=seg_10 sid=None path=史上最完整共享\拍摄\小区\汉阳月印府(6.7全屋)\汉阳月印府微陶泥\21848_微陶泥_小区场景.mp4 0.0-4.0 反例=False
+    限定语=T3
+  FACT F0106 src=试标50段/审核结果_李康_20261116.json+_对应表.csv id=seg_40 sid=None path=史上最完整共享\拍摄\小区\汉阳月印府(6.7全屋)\完工展示+人设\22042_小区_全屋展示.MOV 0.0-4.0 反例=False
+    限定语=T3
+  FACT F0114 src=试标50段/审核结果_李康_20261116.json+_对应表.csv id=seg_48 sid=None path=史上最完整共享\拍摄\小区\汉阳月印府(6.7全屋)\续2\22595_小区场景.MOV 0.0-4.0 反例=False
+    限定语=T1
+  FACT F0125 src=出镜文件夹确认图/对照表.md id=sheet_09.jpg:拍摄\小区\汉阳月印府(6.7全屋)\完工展示+人设 sid=None path=史上最完整共享\拍摄\小区\汉阳月印府(6.7全屋)\完工展示+人设 None-None 反例=False
+    限定语=**是阿明**（李康看完全部拼图后统一确认“其他都是阿明”，2026-11-16）。依据是抽到的这些帧，文件夹里其余视频没有逐条看。
+  FACT F0326 src=小区全库/数据/AI剪辑检索索引.jsonl#indexed_segments id=969d8d1d32fbc977:42.0-44.8:0 sid=None path=史上最完整共享\拍摄\小区\汉阳月印府(6.7全屋)\完工展示+人设\22016_小区_全屋展示.MOV 42.0-44.8 反例=False
+    限定语=本轮相邻八帧目视复核；["人物身份待确认，未审听同期声"]
+  FACT F0444 src=小区全库/数据/本轮看片精标.jsonl id=969d8d1d32fbc977 sid=None path=史上最完整共享\拍摄\小区\汉阳月印府(6.7全屋)\完工展示+人设\22016_小区_全屋展示.MOV 42.0-44.8 反例=False
+    限定语=本轮相邻八帧目视复核；["人物身份待确认，未审听同期声"]
+  BAN R09-person-no-production 史上最完整共享\拍摄\小区\汉阳月印府(6.7全屋)\美女人设\21951_人物_小区场景.MOV 原文=R09不是阿明，另外说一点这个女生离职了不能使用他出境的素材
+
+NEEDLE '美女人设': facts=1 bans=1
+  FACT F0033 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-R09 sid=R09 path=史上最完整共享\拍摄\小区\汉阳月印府(6.7全屋)\美女人设\21951_人物_小区场景.MOV 2.0-6.0 反例=False
+    限定语=R09不是阿明，另外说一点这个女生离职了不能使用他出境的素材；未核验；apply_to_directory=false 不套用到目录
+  BAN R09-person-no-production 史上最完整共享\拍摄\小区\汉阳月印府(6.7全屋)\美女人设\21951_人物_小区场景.MOV 原文=R09不是阿明，另外说一点这个女生离职了不能使用他出境的素材
+
+NEEDLE '离职': facts=1 bans=1
+  FACT F0033 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-R09 sid=R09 path=史上最完整共享\拍摄\小区\汉阳月印府(6.7全屋)\美女人设\21951_人物_小区场景.MOV 2.0-6.0 反例=False
+    限定语=R09不是阿明，另外说一点这个女生离职了不能使用他出境的素材；未核验；apply_to_directory=false 不套用到目录
+  BAN R09-person-no-production 史上最完整共享\拍摄\小区\汉阳月印府(6.7全屋)\美女人设\21951_人物_小区场景.MOV 原文=R09不是阿明，另外说一点这个女生离职了不能使用他出境的素材
+
+NEEDLE '不能使用': facts=1 bans=1
+  FACT F0033 src=local/cutframe/ai/learning.sqlite3#rules id=confirmed-R09 sid=R09 path=史上最完整共享\拍摄\小区\汉阳月印府(6.7全屋)\美女人设\21951_人物_小区场景.MOV 2.0-6.0 反例=False
+    限定语=R09不是阿明，另外说一点这个女生离职了不能使用他出境的素材；未核验；apply_to_directory=false 不套用到目录
+  BAN R09-person-no-production 史上最完整共享\拍摄\小区\汉阳月印府(6.7全屋)\美女人设\21951_人物_小区场景.MOV 原文=R09不是阿明，另外说一点这个女生离职了不能使用他出境的素材

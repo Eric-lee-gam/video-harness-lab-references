@@ -1,0 +1,972 @@
+{
+  "schema_version": 1,
+  "reference_id": "R04",
+  "status": "local_asr_complete_unverified",
+  "source_audio": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\audio.wav",
+  "model": "C:\\Users\\leega\\.cache\\huggingface\\hub\\models--Systran--faster-whisper-small\\snapshots\\536b0662742c02347bc0e980a01041f333bce120",
+  "device": "cpu",
+  "compute_type": "int8",
+  "language": "zh",
+  "language_probability": 1,
+  "duration": 26.2603125,
+  "vad_filter": false,
+  "word_timestamps": true,
+  "human_listening_verified": false,
+  "elapsed_seconds": 8.624,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 1.48,
+      "text": "我好像在我家小去火了",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.22,
+          "word": "我",
+          "probability": 0.7660902142524719
+        },
+        {
+          "start": 0.22,
+          "end": 0.44,
+          "word": "好像",
+          "probability": 0.9866742491722107
+        },
+        {
+          "start": 0.44,
+          "end": 0.66,
+          "word": "在",
+          "probability": 0.9864034652709961
+        },
+        {
+          "start": 0.66,
+          "end": 0.74,
+          "word": "我",
+          "probability": 0.9892176389694214
+        },
+        {
+          "start": 0.74,
+          "end": 0.86,
+          "word": "家",
+          "probability": 0.9989620447158813
+        },
+        {
+          "start": 0.86,
+          "end": 1.02,
+          "word": "小",
+          "probability": 0.9767182469367981
+        },
+        {
+          "start": 1.02,
+          "end": 1.16,
+          "word": "去",
+          "probability": 0.3857690393924713
+        },
+        {
+          "start": 1.16,
+          "end": 1.34,
+          "word": "火",
+          "probability": 0.28779059648513794
+        },
+        {
+          "start": 1.34,
+          "end": 1.48,
+          "word": "了",
+          "probability": 0.9145867824554443
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 1.48,
+      "end": 2.96,
+      "text": "鄰居說我真會裝",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 1.48,
+          "end": 1.66,
+          "word": "鄰",
+          "probability": 0.8562123477458954
+        },
+        {
+          "start": 1.66,
+          "end": 1.84,
+          "word": "居",
+          "probability": 0.9995523989200592
+        },
+        {
+          "start": 1.84,
+          "end": 2.08,
+          "word": "說",
+          "probability": 0.5258479714393616
+        },
+        {
+          "start": 2.08,
+          "end": 2.44,
+          "word": "我",
+          "probability": 0.766566812992096
+        },
+        {
+          "start": 2.44,
+          "end": 2.58,
+          "word": "真",
+          "probability": 0.324756920337677
+        },
+        {
+          "start": 2.58,
+          "end": 2.72,
+          "word": "會",
+          "probability": 0.9587850570678711
+        },
+        {
+          "start": 2.72,
+          "end": 2.96,
+          "word": "裝",
+          "probability": 0.9738338589668274
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 2.96,
+      "end": 4.76,
+      "text": "地面磁磚不用敲了",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 2.96,
+          "end": 3.2,
+          "word": "地",
+          "probability": 0.5485337972640991
+        },
+        {
+          "start": 3.2,
+          "end": 3.42,
+          "word": "面",
+          "probability": 0.9970853924751282
+        },
+        {
+          "start": 3.42,
+          "end": 3.62,
+          "word": "磁",
+          "probability": 0.8694696426391602
+        },
+        {
+          "start": 3.62,
+          "end": 3.82,
+          "word": "磚",
+          "probability": 0.997420052687327
+        },
+        {
+          "start": 3.82,
+          "end": 4.18,
+          "word": "不用",
+          "probability": 0.9763249158859253
+        },
+        {
+          "start": 4.18,
+          "end": 4.52,
+          "word": "敲",
+          "probability": 0.9891882836818695
+        },
+        {
+          "start": 4.52,
+          "end": 4.76,
+          "word": "了",
+          "probability": 0.9437474608421326
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 4.76,
+      "end": 5.94,
+      "text": "先滾土底漆",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 4.76,
+          "end": 5.04,
+          "word": "先",
+          "probability": 0.4903024435043335
+        },
+        {
+          "start": 5.04,
+          "end": 5.28,
+          "word": "滾",
+          "probability": 0.9986867904663086
+        },
+        {
+          "start": 5.28,
+          "end": 5.46,
+          "word": "土",
+          "probability": 0.47861993312835693
+        },
+        {
+          "start": 5.46,
+          "end": 5.64,
+          "word": "底",
+          "probability": 0.6743322610855103
+        },
+        {
+          "start": 5.64,
+          "end": 5.94,
+          "word": "漆",
+          "probability": 0.8561641871929169
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 5.94,
+      "end": 7.06,
+      "text": "然後直接披刮",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 5.94,
+          "end": 6.24,
+          "word": "然後",
+          "probability": 0.955220103263855
+        },
+        {
+          "start": 6.24,
+          "end": 6.6,
+          "word": "直接",
+          "probability": 0.9934149980545044
+        },
+        {
+          "start": 6.6,
+          "end": 6.84,
+          "word": "披",
+          "probability": 0.6175496280193329
+        },
+        {
+          "start": 6.84,
+          "end": 7.06,
+          "word": "刮",
+          "probability": 0.7922593951225281
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 7.06,
+      "end": 8.76,
+      "text": "我們不會開裂的微陶泥",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 7.06,
+          "end": 7.34,
+          "word": "我們",
+          "probability": 0.9792107939720154
+        },
+        {
+          "start": 7.34,
+          "end": 7.62,
+          "word": "不會",
+          "probability": 0.9950284361839294
+        },
+        {
+          "start": 7.62,
+          "end": 7.84,
+          "word": "開",
+          "probability": 0.9869726300239563
+        },
+        {
+          "start": 7.84,
+          "end": 8.0,
+          "word": "裂",
+          "probability": 0.9168940186500549
+        },
+        {
+          "start": 8.0,
+          "end": 8.1,
+          "word": "的",
+          "probability": 0.9488185048103333
+        },
+        {
+          "start": 8.1,
+          "end": 8.24,
+          "word": "微",
+          "probability": 0.5970234274864197
+        },
+        {
+          "start": 8.24,
+          "end": 8.46,
+          "word": "陶",
+          "probability": 0.8133277297019958
+        },
+        {
+          "start": 8.46,
+          "end": 8.76,
+          "word": "泥",
+          "probability": 0.9934625625610352
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 8.76,
+      "end": 10.7,
+      "text": "液體無縫的效果太好看了",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 8.76,
+          "end": 9.0,
+          "word": "液",
+          "probability": 0.7279229164123535
+        },
+        {
+          "start": 9.0,
+          "end": 9.14,
+          "word": "體",
+          "probability": 0.9974864721298218
+        },
+        {
+          "start": 9.14,
+          "end": 9.28,
+          "word": "無",
+          "probability": 0.8576036691665649
+        },
+        {
+          "start": 9.28,
+          "end": 9.4,
+          "word": "縫",
+          "probability": 0.991064727306366
+        },
+        {
+          "start": 9.4,
+          "end": 9.5,
+          "word": "的",
+          "probability": 0.9914959669113159
+        },
+        {
+          "start": 9.5,
+          "end": 9.68,
+          "word": "效",
+          "probability": 0.9991757273674011
+        },
+        {
+          "start": 9.68,
+          "end": 9.88,
+          "word": "果",
+          "probability": 0.999829888343811
+        },
+        {
+          "start": 9.88,
+          "end": 10.08,
+          "word": "太",
+          "probability": 0.9860120415687561
+        },
+        {
+          "start": 10.08,
+          "end": 10.24,
+          "word": "好",
+          "probability": 0.9898129105567932
+        },
+        {
+          "start": 10.24,
+          "end": 10.48,
+          "word": "看",
+          "probability": 0.9990731477737427
+        },
+        {
+          "start": 10.48,
+          "end": 10.7,
+          "word": "了",
+          "probability": 0.9970645308494568
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 10.7,
+      "end": 12.1,
+      "text": "醜陋的踢腳鮮眉了",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 10.7,
+          "end": 11.04,
+          "word": "醜",
+          "probability": 0.9733425974845886
+        },
+        {
+          "start": 11.04,
+          "end": 11.18,
+          "word": "陋",
+          "probability": 0.9818408191204071
+        },
+        {
+          "start": 11.18,
+          "end": 11.28,
+          "word": "的",
+          "probability": 0.926018476486206
+        },
+        {
+          "start": 11.28,
+          "end": 11.44,
+          "word": "踢",
+          "probability": 0.9259685277938843
+        },
+        {
+          "start": 11.44,
+          "end": 11.58,
+          "word": "腳",
+          "probability": 0.9319541454315186
+        },
+        {
+          "start": 11.58,
+          "end": 11.74,
+          "word": "鮮",
+          "probability": 0.6954614818096161
+        },
+        {
+          "start": 11.74,
+          "end": 11.92,
+          "word": "眉",
+          "probability": 0.7078803926706314
+        },
+        {
+          "start": 11.92,
+          "end": 12.1,
+          "word": "了",
+          "probability": 0.9868736863136292
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 12.1,
+      "end": 13.34,
+      "text": "我的洗手間再也沒有",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 12.1,
+          "end": 12.32,
+          "word": "我的",
+          "probability": 0.9845643043518066
+        },
+        {
+          "start": 12.32,
+          "end": 12.5,
+          "word": "洗",
+          "probability": 0.9808195233345032
+        },
+        {
+          "start": 12.5,
+          "end": 12.64,
+          "word": "手",
+          "probability": 0.999693751335144
+        },
+        {
+          "start": 12.64,
+          "end": 12.82,
+          "word": "間",
+          "probability": 0.9986762404441833
+        },
+        {
+          "start": 12.82,
+          "end": 13.08,
+          "word": "再",
+          "probability": 0.9745030403137207
+        },
+        {
+          "start": 13.08,
+          "end": 13.22,
+          "word": "也",
+          "probability": 0.9974777102470398
+        },
+        {
+          "start": 13.22,
+          "end": 13.34,
+          "word": "沒有",
+          "probability": 0.9906082153320312
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 13.34,
+      "end": 14.64,
+      "text": "發黃發眉的磁磚",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 13.34,
+          "end": 13.66,
+          "word": "發",
+          "probability": 0.9720245599746704
+        },
+        {
+          "start": 13.66,
+          "end": 13.84,
+          "word": "黃",
+          "probability": 0.9133421182632446
+        },
+        {
+          "start": 13.84,
+          "end": 13.98,
+          "word": "發",
+          "probability": 0.9776899218559265
+        },
+        {
+          "start": 13.98,
+          "end": 14.12,
+          "word": "眉",
+          "probability": 0.6573556810617447
+        },
+        {
+          "start": 14.12,
+          "end": 14.22,
+          "word": "的",
+          "probability": 0.9929739236831665
+        },
+        {
+          "start": 14.22,
+          "end": 14.42,
+          "word": "磁",
+          "probability": 0.9990508357683817
+        },
+        {
+          "start": 14.42,
+          "end": 14.64,
+          "word": "磚",
+          "probability": 0.9996264576911926
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 14.64,
+      "end": 16.1,
+      "text": "日常打掃掃地機",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 14.64,
+          "end": 14.98,
+          "word": "日",
+          "probability": 0.9520613551139832
+        },
+        {
+          "start": 14.98,
+          "end": 15.14,
+          "word": "常",
+          "probability": 0.9981527924537659
+        },
+        {
+          "start": 15.14,
+          "end": 15.3,
+          "word": "打",
+          "probability": 0.9400280117988586
+        },
+        {
+          "start": 15.3,
+          "end": 15.46,
+          "word": "掃",
+          "probability": 0.9823451340198517
+        },
+        {
+          "start": 15.46,
+          "end": 15.64,
+          "word": "掃",
+          "probability": 0.7536164820194244
+        },
+        {
+          "start": 15.64,
+          "end": 15.8,
+          "word": "地",
+          "probability": 0.9321200847625732
+        },
+        {
+          "start": 15.8,
+          "end": 16.1,
+          "word": "機",
+          "probability": 0.6327627301216125
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 16.1,
+      "end": 17.12,
+      "text": "有個彎就行",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 16.1,
+          "end": 16.44,
+          "word": "有",
+          "probability": 0.9043727517127991
+        },
+        {
+          "start": 16.44,
+          "end": 16.56,
+          "word": "個",
+          "probability": 0.9941943287849426
+        },
+        {
+          "start": 16.56,
+          "end": 16.7,
+          "word": "彎",
+          "probability": 0.9598705768585205
+        },
+        {
+          "start": 16.7,
+          "end": 16.84,
+          "word": "就",
+          "probability": 0.9885364770889282
+        },
+        {
+          "start": 16.84,
+          "end": 17.12,
+          "word": "行",
+          "probability": 0.9927003979682922
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 17.12,
+      "end": 18.5,
+      "text": "物質輕鬆解決",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 17.12,
+          "end": 17.4,
+          "word": "物",
+          "probability": 0.06376466155052185
+        },
+        {
+          "start": 17.4,
+          "end": 17.58,
+          "word": "質",
+          "probability": 0.6814138293266296
+        },
+        {
+          "start": 17.58,
+          "end": 17.82,
+          "word": "輕",
+          "probability": 0.9920006990432739
+        },
+        {
+          "start": 17.82,
+          "end": 18.0,
+          "word": "鬆",
+          "probability": 0.9962445795536041
+        },
+        {
+          "start": 18.0,
+          "end": 18.2,
+          "word": "解",
+          "probability": 0.9960294961929321
+        },
+        {
+          "start": 18.2,
+          "end": 18.5,
+          "word": "決",
+          "probability": 0.9480043649673462
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 18.5,
+      "end": 19.62,
+      "text": "耐擦耐磨",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 18.5,
+          "end": 19.02,
+          "word": "耐",
+          "probability": 0.8988624215126038
+        },
+        {
+          "start": 19.02,
+          "end": 19.18,
+          "word": "擦",
+          "probability": 0.9957126080989838
+        },
+        {
+          "start": 19.18,
+          "end": 19.38,
+          "word": "耐",
+          "probability": 0.9926347136497498
+        },
+        {
+          "start": 19.38,
+          "end": 19.62,
+          "word": "磨",
+          "probability": 0.9742652475833893
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 19.62,
+      "end": 21.38,
+      "text": "強力液體無縫更顯大",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 19.62,
+          "end": 19.98,
+          "word": "強",
+          "probability": 0.9711847305297852
+        },
+        {
+          "start": 19.98,
+          "end": 20.18,
+          "word": "力",
+          "probability": 0.8006963133811951
+        },
+        {
+          "start": 20.18,
+          "end": 20.3,
+          "word": "液",
+          "probability": 0.9892330765724182
+        },
+        {
+          "start": 20.3,
+          "end": 20.44,
+          "word": "體",
+          "probability": 0.9987475872039795
+        },
+        {
+          "start": 20.44,
+          "end": 20.62,
+          "word": "無",
+          "probability": 0.9967897534370422
+        },
+        {
+          "start": 20.62,
+          "end": 20.76,
+          "word": "縫",
+          "probability": 0.999773383140564
+        },
+        {
+          "start": 20.76,
+          "end": 20.9,
+          "word": "更",
+          "probability": 0.9973700046539307
+        },
+        {
+          "start": 20.9,
+          "end": 21.14,
+          "word": "顯",
+          "probability": 0.9257819056510925
+        },
+        {
+          "start": 21.14,
+          "end": 21.38,
+          "word": "大",
+          "probability": 0.9512064456939697
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": 21.38,
+      "end": 22.58,
+      "text": "無甲泉無VOC",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 21.38,
+          "end": 21.62,
+          "word": "無",
+          "probability": 0.687376856803894
+        },
+        {
+          "start": 21.62,
+          "end": 21.78,
+          "word": "甲",
+          "probability": 0.9342641234397888
+        },
+        {
+          "start": 21.78,
+          "end": 21.98,
+          "word": "泉",
+          "probability": 0.7973329722881317
+        },
+        {
+          "start": 21.98,
+          "end": 22.14,
+          "word": "無",
+          "probability": 0.9836320877075195
+        },
+        {
+          "start": 22.14,
+          "end": 22.26,
+          "word": "V",
+          "probability": 0.35112088918685913
+        },
+        {
+          "start": 22.26,
+          "end": 22.58,
+          "word": "OC",
+          "probability": 0.6190559267997742
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": 22.58,
+      "end": 24.08,
+      "text": "施工全程無異味",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 22.58,
+          "end": 22.98,
+          "word": "施",
+          "probability": 0.9243362843990326
+        },
+        {
+          "start": 22.98,
+          "end": 23.12,
+          "word": "工",
+          "probability": 0.9832994341850281
+        },
+        {
+          "start": 23.12,
+          "end": 23.34,
+          "word": "全",
+          "probability": 0.9700945019721985
+        },
+        {
+          "start": 23.34,
+          "end": 23.52,
+          "word": "程",
+          "probability": 0.9287440180778503
+        },
+        {
+          "start": 23.52,
+          "end": 23.7,
+          "word": "無",
+          "probability": 0.9935137033462524
+        },
+        {
+          "start": 23.7,
+          "end": 23.88,
+          "word": "異",
+          "probability": 0.9718945324420929
+        },
+        {
+          "start": 23.88,
+          "end": 24.08,
+          "word": "味",
+          "probability": 0.558702826499939
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start": 24.08,
+      "end": 25.64,
+      "text": "七天廊工即可入住",
+      "avg_logprob": -0.23253238434885062,
+      "no_speech_prob": 0.2754330635070801,
+      "compression_ratio": 1.249211356466877,
+      "words": [
+        {
+          "start": 24.08,
+          "end": 24.34,
+          "word": "七",
+          "probability": 0.16779568791389465
+        },
+        {
+          "start": 24.34,
+          "end": 24.46,
+          "word": "天",
+          "probability": 0.9908705353736877
+        },
+        {
+          "start": 24.46,
+          "end": 24.62,
+          "word": "廊",
+          "probability": 0.41843073815107346
+        },
+        {
+          "start": 24.62,
+          "end": 24.84,
+          "word": "工",
+          "probability": 0.802668035030365
+        },
+        {
+          "start": 24.84,
+          "end": 25.12,
+          "word": "即",
+          "probability": 0.9283457398414612
+        },
+        {
+          "start": 25.12,
+          "end": 25.28,
+          "word": "可",
+          "probability": 0.9993341565132141
+        },
+        {
+          "start": 25.28,
+          "end": 25.46,
+          "word": "入",
+          "probability": 0.9988239407539368
+        },
+        {
+          "start": 25.46,
+          "end": 25.64,
+          "word": "住",
+          "probability": 0.6302000284194946
+        }
+      ]
+    }
+  ],
+  "raw_text": "我好像在我家小去火了鄰居說我真會裝地面磁磚不用敲了先滾土底漆然後直接披刮我們不會開裂的微陶泥液體無縫的效果太好看了醜陋的踢腳鮮眉了我的洗手間再也沒有發黃發眉的磁磚日常打掃掃地機有個彎就行物質輕鬆解決耐擦耐磨強力液體無縫更顯大無甲泉無VOC施工全程無異味七天廊工即可入住",
+  "limitations": [
+    "Raw machine transcription, not a verified transcript.",
+    "Mixed speech/music, accents, place names and prices can be wrong.",
+    "ASR timestamps are approximate and are not edit points."
+  ]
+}

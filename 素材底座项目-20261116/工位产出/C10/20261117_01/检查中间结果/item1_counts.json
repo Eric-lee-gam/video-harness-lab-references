@@ -1,0 +1,1001 @@
+{
+  "item": 1,
+  "source_counts": {
+    "rules_total": 54,
+    "rules_approved": 37,
+    "confirmed_facts": 36,
+    "confirmed_ids": [
+      "confirmed-R01",
+      "confirmed-R02",
+      "confirmed-R03",
+      "confirmed-R04",
+      "confirmed-R05",
+      "confirmed-R06",
+      "confirmed-R07",
+      "confirmed-R08",
+      "confirmed-R09",
+      "confirmed-P1",
+      "confirmed-P2",
+      "confirmed-P3",
+      "confirmed-P4",
+      "confirmed-P5",
+      "confirmed-P6",
+      "confirmed-P7",
+      "confirmed-P8",
+      "confirmed-P9",
+      "confirmed-P10",
+      "confirmed-P11",
+      "confirmed-P12",
+      "confirmed-P13",
+      "confirmed-P14",
+      "confirmed-P15",
+      "confirmed-P17",
+      "confirmed-P19",
+      "confirmed-P20",
+      "confirmed-P21",
+      "confirmed-P22",
+      "confirmed-P23",
+      "confirmed-P24",
+      "confirmed-P25",
+      "confirmed-P26",
+      "confirmed-V1",
+      "confirmed-V2",
+      "confirmed-V3"
+    ],
+    "feedback": 127,
+    "adoptions": 240,
+    "adoptions_by_action": {
+      "adopted": 75,
+      "adjusted": 149,
+      "removed": 16
+    },
+    "runs": 253,
+    "identity_evidence_segments": 33,
+    "identity_evidence_ids": [
+      "confirmed-P1",
+      "confirmed-P10",
+      "confirmed-P11",
+      "confirmed-P12",
+      "confirmed-P13",
+      "confirmed-P14",
+      "confirmed-P15",
+      "confirmed-P17",
+      "confirmed-P19",
+      "confirmed-P2",
+      "confirmed-P20",
+      "confirmed-P21",
+      "confirmed-P22",
+      "confirmed-P23",
+      "confirmed-P24",
+      "confirmed-P25",
+      "confirmed-P26",
+      "confirmed-P3",
+      "confirmed-P4",
+      "confirmed-P5",
+      "confirmed-P6",
+      "confirmed-P7",
+      "confirmed-P8",
+      "confirmed-P9",
+      "confirmed-R01",
+      "confirmed-R02",
+      "confirmed-R03",
+      "confirmed-R04",
+      "confirmed-R05",
+      "confirmed-R06",
+      "confirmed-R07",
+      "confirmed-R08",
+      "confirmed-R09"
+    ],
+    "confirmed_missing_from_snapshot": [
+      "confirmed-V1",
+      "confirmed-V2",
+      "confirmed-V3"
+    ],
+    "snapshot_gap_meta": [
+      {
+        "id": "confirmed-V1",
+        "created": "2026-11-16T08:29:12.304996+00:00",
+        "sample_id": "V1",
+        "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-07.json",
+        "asset_id": "08df39f7e2833ba59b9fa50e7beecc74",
+        "start": 0.0,
+        "end": 8.0,
+        "evidence": "V1和v3适合，主要人物是阿明 v2不是"
+      },
+      {
+        "id": "confirmed-V2",
+        "created": "2026-11-16T08:29:12.304996+00:00",
+        "sample_id": "V2",
+        "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-07.json",
+        "asset_id": "844dec0c826dc1e0870a4f6c15f21050",
+        "start": 0.0,
+        "end": 8.0,
+        "evidence": "V1和v3适合，主要人物是阿明 v2不是"
+      },
+      {
+        "id": "confirmed-V3",
+        "created": "2026-11-16T08:29:12.304996+00:00",
+        "sample_id": "V3",
+        "source_record": "C:\\Users\\OS\\Documents\\ChatGPT\\视频剪辑及测试数据复盘\\local\\action-annotation\\person-07.json",
+        "asset_id": "cccbc086c8b2fea531fb0dd2bd034fb2",
+        "start": 0.0,
+        "end": 8.0,
+        "evidence": "V1和v3适合，主要人物是阿明 v2不是"
+      }
+    ],
+    "catalog_assets": 43295,
+    "catalog_roots": {
+      "baba": 22622,
+      "chengdu": 104,
+      "suzhou": 54,
+      "xiaoq": 20515
+    },
+    "action_batches": {
+      "files": [
+        "batch-01.json",
+        "batch-02.json",
+        "batch-03.json",
+        "batch-04.json"
+      ],
+      "total_rows": 28,
+      "by_bucket": {
+        "confirmed": 26,
+        "tentative": 2
+      },
+      "ids": [
+        {
+          "file": "batch-01.json",
+          "sample_id": "A1",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-01.json",
+          "sample_id": "A2",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-01.json",
+          "sample_id": "B1",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-01.json",
+          "sample_id": "B2",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-01.json",
+          "sample_id": "C1",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-01.json",
+          "sample_id": "C2",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-01.json",
+          "sample_id": "D1",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-01.json",
+          "sample_id": "D2",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-01.json",
+          "sample_id": "E1",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-01.json",
+          "sample_id": "E2",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-01.json",
+          "sample_id": "F1",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-01.json",
+          "sample_id": "F2",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-02.json",
+          "sample_id": "A3",
+          "status": "用户倾向反例，未定案",
+          "bucket": "tentative"
+        },
+        {
+          "file": "batch-02.json",
+          "sample_id": "A4",
+          "status": "用户倾向反例，未定案",
+          "bucket": "tentative"
+        },
+        {
+          "file": "batch-02.json",
+          "sample_id": "B3",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-02.json",
+          "sample_id": "B4",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-02.json",
+          "sample_id": "C3",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-02.json",
+          "sample_id": "C4",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-03.json",
+          "sample_id": "A5",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-03.json",
+          "sample_id": "A6",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-03.json",
+          "sample_id": "D5",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-03.json",
+          "sample_id": "D6",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-03.json",
+          "sample_id": "E3",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-03.json",
+          "sample_id": "E4",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-03.json",
+          "sample_id": "F3",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-03.json",
+          "sample_id": "F4",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-04.json",
+          "sample_id": "F5",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "batch-04.json",
+          "sample_id": "F6",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        }
+      ]
+    },
+    "products": {
+      "files": [
+        "product-01.json",
+        "product-02.json",
+        "product-03.json",
+        "product-04.json",
+        "product-05.json",
+        "product-06.json",
+        "product-07.json",
+        "product-08.json"
+      ],
+      "total_rows": 26,
+      "by_bucket": {
+        "confirmed": 24,
+        "not_confirmed": 2
+      },
+      "ids": [
+        {
+          "file": "product-01.json",
+          "sample_id": "P1",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-01.json",
+          "sample_id": "P2",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-01.json",
+          "sample_id": "P3",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-01.json",
+          "sample_id": "P4",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-01.json",
+          "sample_id": "P5",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-01.json",
+          "sample_id": "P6",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-02.json",
+          "sample_id": "P7",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-02.json",
+          "sample_id": "P8",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-02.json",
+          "sample_id": "P9",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-02.json",
+          "sample_id": "P10",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-02.json",
+          "sample_id": "P11",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-02.json",
+          "sample_id": "P12",
+          "status": "用户已确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-03.json",
+          "sample_id": "P13",
+          "status": "已人工确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-03.json",
+          "sample_id": "P14",
+          "status": "已人工确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-03.json",
+          "sample_id": "P15",
+          "status": "已人工确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-04.json",
+          "sample_id": "P16",
+          "status": "暂不展示：抽帧为桶内材料，未满足批刮对照筛选要求",
+          "bucket": "not_confirmed"
+        },
+        {
+          "file": "product-04.json",
+          "sample_id": "P17",
+          "status": "已人工确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-05.json",
+          "sample_id": "P18",
+          "status": "待人工确认",
+          "bucket": "not_confirmed"
+        },
+        {
+          "file": "product-05.json",
+          "sample_id": "P19",
+          "status": "已人工确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-05.json",
+          "sample_id": "P20",
+          "status": "已人工确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-06.json",
+          "sample_id": "P21",
+          "status": "已人工确认：业务不适用",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-06.json",
+          "sample_id": "P22",
+          "status": "已人工确认：业务不适用",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-07.json",
+          "sample_id": "P23",
+          "status": "已人工确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-07.json",
+          "sample_id": "P24",
+          "status": "已人工确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-08.json",
+          "sample_id": "P25",
+          "status": "已人工确认",
+          "bucket": "confirmed"
+        },
+        {
+          "file": "product-08.json",
+          "sample_id": "P26",
+          "status": "已人工确认",
+          "bucket": "confirmed"
+        }
+      ]
+    },
+    "persons": {
+      "files": [
+        "person-01.json",
+        "person-02.json",
+        "person-03.json",
+        "person-04.json",
+        "person-05.json",
+        "person-07.json"
+      ],
+      "total_rows": 12,
+      "ids": [
+        {
+          "file": "person-01.json",
+          "sample_id": "R01",
+          "status": "已人工确认"
+        },
+        {
+          "file": "person-01.json",
+          "sample_id": "R02",
+          "status": "已人工确认"
+        },
+        {
+          "file": "person-02.json",
+          "sample_id": "R03",
+          "status": "已逐人确认"
+        },
+        {
+          "file": "person-02.json",
+          "sample_id": "R04",
+          "status": "已逐人确认"
+        },
+        {
+          "file": "person-03.json",
+          "sample_id": "R05",
+          "status": "已逐人确认"
+        },
+        {
+          "file": "person-03.json",
+          "sample_id": "R06",
+          "status": "已逐人确认"
+        },
+        {
+          "file": "person-04.json",
+          "sample_id": "R07",
+          "status": "已逐人确认"
+        },
+        {
+          "file": "person-04.json",
+          "sample_id": "R08",
+          "status": "已逐人确认"
+        },
+        {
+          "file": "person-05.json",
+          "sample_id": "R09",
+          "status": "已确认：出镜禁用"
+        },
+        {
+          "file": "person-07.json",
+          "sample_id": "V1",
+          "status": null
+        },
+        {
+          "file": "person-07.json",
+          "sample_id": "V2",
+          "status": null
+        },
+        {
+          "file": "person-07.json",
+          "sample_id": "V3",
+          "status": null
+        }
+      ]
+    },
+    "P24_rows": 2,
+    "P24_ids": [
+      "P24-A",
+      "P24-B"
+    ],
+    "P24_actions": [
+      {
+        "id": "P24-A",
+        "action": "取料",
+        "start": 2,
+        "end": 2.9
+      },
+      {
+        "id": "P24-B",
+        "action": "批刮",
+        "start": 3.5,
+        "end": 5
+      }
+    ],
+    "usage_restriction_rules": 1,
+    "aming_source_rules": 2098,
+    "split_policy_groups": 35,
+    "sample_coverage_excerpt": {
+      "updated": "2026-11-13T13:43:01.435239+08:00",
+      "confirmed": 26,
+      "tentative": 2,
+      "product_phase_confirmed": 24,
+      "product_phase_business_excluded": 2,
+      "confirmed_derived_action_segments": 2,
+      "person_confirmed_clips": 9,
+      "person_confirmed_subject_observations": 11,
+      "person_business_prohibited_clips": 1
+    },
+    "person_coverage": {
+      "updated": "2026-11-13T13:43:01.435239+08:00",
+      "keys": [
+        "updated",
+        "confirmed_clips",
+        "confirmed_source_files",
+        "confirmed_subject_observations",
+        "aming_observations",
+        "other_person_observations",
+        "note",
+        "observations",
+        "remaining_gaps",
+        "training_started",
+        "blind_test_started",
+        "production_model_changed",
+        "latest_confirmation",
+        "production_prohibited_clips"
+      ],
+      "summary": {
+        "updated": "2026-11-13T13:43:01.435239+08:00",
+        "confirmed_clips": 9,
+        "confirmed_source_files": 9,
+        "confirmed_subject_observations": 11,
+        "aming_observations": 6,
+        "other_person_observations": 5,
+        "note": "人物出现记录不等于不同身份人数；其他人物未进一步区分身份，来源项目未逐一核实。",
+        "training_started": false,
+        "blind_test_started": false,
+        "production_model_changed": false,
+        "latest_confirmation": "R09非阿明，人物出镜禁用，仅保留排除记录；正式工具未接入拦截，其他出现片段待核实",
+        "production_prohibited_clips": 1
+      }
+    },
+    "trial50_json": 50,
+    "trial50_csv": 50,
+    "trial50_seg_match": true,
+    "duizhao_folders": 37,
+    "duizhao_folder_sheets": [
+      "sheet_01.jpg",
+      "sheet_02.jpg",
+      "sheet_03.jpg",
+      "sheet_04.jpg",
+      "sheet_05.jpg",
+      "sheet_06.jpg",
+      "sheet_07.jpg",
+      "sheet_08.jpg",
+      "sheet_09.jpg",
+      "sheet_10.jpg",
+      "sheet_11.jpg",
+      "sheet_12.jpg",
+      "sheet_13.jpg",
+      "sheet_14.jpg",
+      "sheet_15.jpg",
+      "sheet_16.jpg",
+      "sheet_17.jpg",
+      "sheet_18.jpg",
+      "sheet_19.jpg",
+      "sheet_20.jpg",
+      "sheet_21.jpg",
+      "sheet_22.jpg",
+      "sheet_23.jpg",
+      "sheet_24.jpg",
+      "sheet_25.jpg",
+      "sheet_26.jpg",
+      "sheet_27.jpg",
+      "sheet_28.jpg",
+      "sheet_29.jpg",
+      "sheet_30.jpg",
+      "sheet_31.jpg",
+      "sheet_32.jpg",
+      "sheet_33.jpg",
+      "sheet_34.jpg",
+      "sheet_35.jpg",
+      "sheet_36.jpg",
+      "sheet_37.jpg"
+    ],
+    "duizhao_detail_rows": 60,
+    "duizhao_detail_17881": [
+      {
+        "sheet": "sheet_07.jpg",
+        "folder": "博学仕府（地面液态陶泥）\\人物出镜",
+        "格": "01",
+        "原片": "17881_人物_小区场景.MOV",
+        "李康的判断": "两个人都有：穿紫色衣服的不是阿明，穿白色衣服的是阿明（李康看逐秒拼图 `check_07_01.jpg` 确认，2026-11-16）。逐秒图里前 5 秒画面主体是紫衣人，白衣人约第 6 秒起入镜。身份要按秒段记，不能整条记"
+      }
+    ],
+    "ann_xiaoqu_index": {
+      "rows": 20507,
+      "timeline": 39756,
+      "indexed_segments": 177,
+      "human_files": 5,
+      "human_segs": 6,
+      "kinds": {
+        "": 20507
+      },
+      "no_timeline": 0
+    },
+    "ann_test_index": {
+      "rows": 643,
+      "timeline": 1352,
+      "indexed_segments": 13,
+      "human_files": 7,
+      "human_segs": 8,
+      "kinds": {
+        "视频": 635,
+        "照片": 6,
+        "读取异常": 2
+      },
+      "no_timeline": 8
+    },
+    "ann_construction": 21652,
+    "ann_usage": 3211,
+    "ann_fine": 34,
+    "ann_machine_review": 13576,
+    "ann_visual_corr": 41
+  },
+  "output_counts": {
+    "事实层": 493,
+    "粗标层": 65971,
+    "评价与采用": 367,
+    "评价": 127,
+    "采用": 240,
+    "禁用表": 3,
+    "线索": 2098,
+    "事实层_by_来源": {
+      "local/cutframe/ai/learning.sqlite3#rules": 36,
+      "local/action-annotation/batch-01.json": 12,
+      "local/action-annotation/batch-02.json": 6,
+      "local/action-annotation/batch-03.json": 8,
+      "local/action-annotation/batch-04.json": 2,
+      "local/action-annotation/P24-boundary-proposal.json": 2,
+      "试标50段/审核结果_李康_20261116.json+_对应表.csv": 50,
+      "出镜文件夹确认图/对照表.md": 37,
+      "出镜文件夹确认图/对照表.md#明细": 61,
+      "小区全库/数据/AI剪辑检索索引.jsonl#indexed_segments": 177,
+      "小区全库/数据/AI剪辑检索索引.jsonl#人工确认片段": 6,
+      "测试阿明搅拌/数据/AI剪辑检索索引.jsonl#indexed_segments": 13,
+      "测试阿明搅拌/数据/AI剪辑检索索引.jsonl#人工确认片段": 8,
+      "小区全库/数据/本轮看片精标.jsonl": 34,
+      "小区全库/数据/目视纠正.jsonl": 41
+    },
+    "事实层_by_类别": {
+      "逐段事实": 36,
+      "施工动作": 28,
+      "两动作分段": 2,
+      "试标50段": 50,
+      "李康按文件夹确认": 37,
+      "李康按文件夹确认-逐格": 61,
+      "标注库精标indexed_segments": 190,
+      "标注库人工确认片段": 14,
+      "本轮看片精标": 34,
+      "目视纠正": 41
+    },
+    "评价转出成功": {
+      "True": 367
+    },
+    "线索来源": {
+      "local/action-annotation/aming-source-rule-index.json": 2098
+    },
+    "禁用来源": [
+      {
+        "来源文件": "local/action-annotation/person-usage-restrictions.json",
+        "来源条目标识": "R09-person-no-production",
+        "规则ID": "R09-person-no-production"
+      },
+      {
+        "来源文件": "出镜文件夹确认图/对照表.md",
+        "来源条目标识": "sheet_05.jpg",
+        "规则ID": "sheet_05.jpg:拍摄\\招商\\嘉贝乐工厂\\口播"
+      },
+      {
+        "来源文件": "出镜文件夹确认图/对照表.md",
+        "来源条目标识": "sheet_10.jpg",
+        "规则ID": "sheet_10.jpg:拍摄\\小区\\汉黄社区(阿姨不要用)\\人物出镜"
+      }
+    ],
+    "missing_feedback_in_output": [],
+    "missing_adoption_in_output": [],
+    "extra_note_eval_id_fields": {
+      "评价来源条目标识_hit": 127,
+      "评价ID_hit": 127,
+      "采用来源条目标识_hit": 240,
+      "采用ID_hit": 240
+    },
+    "confirmed_missing_in_facts": [],
+    "batch_missing_in_facts": [],
+    "P24_missing_in_facts": [],
+    "product_confirmed_missing": [],
+    "product_not_confirmed": [
+      {
+        "file": "product-04.json",
+        "sample_id": "P16",
+        "status": "暂不展示：抽帧为桶内材料，未满足批刮对照筛选要求",
+        "bucket": "not_confirmed"
+      },
+      {
+        "file": "product-05.json",
+        "sample_id": "P18",
+        "status": "待人工确认",
+        "bucket": "not_confirmed"
+      }
+    ],
+    "person_missing_in_facts": [],
+    "trial_missing": [],
+    "duizhao_folder_missing": [],
+    "duizhao_detail_facts": 61,
+    "clues_missing": [],
+    "clues_missing_n": 0,
+    "aming_rules_in_facts": []
+  },
+  "comparisons": [
+    {
+      "name": "逐段事实 confirmed-*",
+      "source_n": 36,
+      "output_n": 36,
+      "known_n": 36,
+      "t10_claim": 36,
+      "equal_or_explained": true,
+      "detail": "源 36 条，事实层含 36 条，缺失 []"
+    },
+    {
+      "name": "快照 identity-evidence vs 36",
+      "source_n": 33,
+      "output_n": 36,
+      "known_n": 33,
+      "t10_claim": "33，差 3 条为快照之后写入的 V1-V3",
+      "equal_or_explained": true,
+      "detail": "快照 33，库中 36，快照没有的：['confirmed-V1', 'confirmed-V2', 'confirmed-V3'] meta=[{'id': 'confirmed-V1', 'created': '2026-11-16T08:29:12.304996+00:00', 'sample_id': 'V1', 'source_record': 'C:\\\\Users\\\\OS\\\\Documents\\\\ChatGPT\\\\视频剪辑及测试数据复盘\\\\local\\\\action-annotation\\\\person-07.json', 'asset_id': '08df39f7e2833ba59b9fa50e7beecc74', 'start': 0.0, 'end': 8.0, 'evidence': 'V1和v3适合，主要人物是阿明 v2不是'}, {'id': 'confirmed-V2', 'created': '2026-11-16T08:29:12.304996+00:00', 'sample_id': 'V2', 'source_record': 'C:\\\\Users\\\\OS\\\\Documents\\\\ChatGPT\\\\视频剪辑及测试数据复盘\\\\local\\\\action-annotation\\\\person-07.json', 'asset_id': '844dec0c826dc1e0870a4f6c15f21050', 'start': 0.0, 'end': 8.0, 'evidence': 'V1和v3适合，主要人物是阿明 v2不是'}, {'id': 'confirmed-V3', 'created': '2026-11-16T08:29:12.304996+00:00', 'sample_id': 'V3', 'source_record': 'C:\\\\Users\\\\OS\\\\Documents\\\\ChatGPT\\\\视频剪辑及测试数据复盘\\\\local\\\\action-annotation\\\\person-07.json', 'asset_id': 'cccbc086c8b2fea531fb0dd2bd034fb2', 'start': 0.0, 'end': 8.0, 'evidence': 'V1和v3适合，主要人物是阿明 v2不是'}]"
+    },
+    {
+      "name": "动作样例 batch 确认+暂定",
+      "source_n": 28,
+      "output_n": 28,
+      "known_n": "确认26+暂定2",
+      "t10_claim": "28 全部进事实层（暂定单独标）",
+      "equal_or_explained": true,
+      "detail": "bucket={'confirmed': 26, 'tentative': 2} missing=[]"
+    },
+    {
+      "name": "产品样例确认",
+      "source_n": 24,
+      "output_n": 24,
+      "known_n": 24,
+      "t10_claim": "24，已在 confirmed-P*，P16/P18 未确认未转",
+      "equal_or_explained": true,
+      "detail": "bucket={'confirmed': 24, 'not_confirmed': 2} missing=[] not_confirmed=[{'file': 'product-04.json', 'sample_id': 'P16', 'status': '暂不展示：抽帧为桶内材料，未满足批刮对照筛选要求', 'bucket': 'not_confirmed'}, {'file': 'product-05.json', 'sample_id': 'P18', 'status': '待人工确认', 'bucket': 'not_confirmed'}]"
+    },
+    {
+      "name": "人物样例 person-01..05,07",
+      "source_n": 12,
+      "output_n": 12,
+      "known_n": "9段11次+后补V1-V3",
+      "t10_claim": "R01-R09 + V1-V3 已在 36 条逐段事实中",
+      "equal_or_explained": true,
+      "detail": "rows=12 missing=[]"
+    },
+    {
+      "name": "P24 两动作分段",
+      "source_n": 2,
+      "output_n": 2,
+      "known_n": 2,
+      "t10_claim": 2,
+      "equal_or_explained": true,
+      "detail": "missing=[]"
+    },
+    {
+      "name": "评价 feedback",
+      "source_n": 127,
+      "output_n": 127,
+      "known_n": 127,
+      "t10_claim": 127,
+      "equal_or_explained": true,
+      "detail": "missing=[] field_hits={'评价来源条目标识_hit': 127, '评价ID_hit': 127, '采用来源条目标识_hit': 240, '采用ID_hit': 240}"
+    },
+    {
+      "name": "采用 adoptions",
+      "source_n": 240,
+      "output_n": 240,
+      "known_n": 240,
+      "t10_claim": 240,
+      "equal_or_explained": true,
+      "detail": "missing=[]"
+    },
+    {
+      "name": "禁用 person-usage-restrictions",
+      "source_n": 1,
+      "output_n": 1,
+      "known_n": 1,
+      "t10_claim": "禁用表 3 条（R09 原文 + 对照表两处限制）",
+      "equal_or_explained": true,
+      "detail": "禁用表共 3 条"
+    },
+    {
+      "name": "阿明来源规则/线索",
+      "source_n": 2098,
+      "output_n": 2098,
+      "known_n": 2098,
+      "t10_claim": 2098,
+      "equal_or_explained": true,
+      "detail": "missing_n=0"
+    },
+    {
+      "name": "试标50段",
+      "source_n": 50,
+      "output_n": 50,
+      "known_n": 50,
+      "t10_claim": 50,
+      "equal_or_explained": true,
+      "detail": "json=50 csv=50 missing=[]"
+    },
+    {
+      "name": "对照表文件夹级",
+      "source_n": 37,
+      "output_n": 37,
+      "known_n": 37,
+      "t10_claim": 37,
+      "equal_or_explained": true,
+      "detail": "folders=37 missing=[]"
+    },
+    {
+      "name": "对照表逐格明细",
+      "source_n": 60,
+      "output_n": 61,
+      "known_n": "文末逐格（T10称60条明细拆17881为两段）",
+      "t10_claim": "61（17881 拆成前5秒/约第6秒）",
+      "equal_or_explained": true,
+      "detail": "源明细行 60，事实层 61；17881 源行=[{'sheet': 'sheet_07.jpg', 'folder': '博学仕府（地面液态陶泥）\\\\人物出镜', '格': '01', '原片': '17881_人物_小区场景.MOV', '李康的判断': '两个人都有：穿紫色衣服的不是阿明，穿白色衣服的是阿明（李康看逐秒拼图 `check_07_01.jpg` 确认，2026-11-16）。逐秒图里前 5 秒画面主体是紫衣人，白衣人约第 6 秒起入镜。身份要按秒段记，不能整条记'}]"
+    },
+    {
+      "name": "目视纠正",
+      "source_n": 41,
+      "output_n": 41,
+      "known_n": 41,
+      "t10_claim": 41,
+      "equal_or_explained": true,
+      "detail": ""
+    },
+    {
+      "name": "本轮看片精标",
+      "source_n": 34,
+      "output_n": 34,
+      "known_n": 34,
+      "t10_claim": 34,
+      "equal_or_explained": true,
+      "detail": ""
+    },
+    {
+      "name": "indexed_segments 进事实层",
+      "source_n": 190,
+      "output_n": 190,
+      "known_n": "177+13",
+      "t10_claim": "177+13=190",
+      "equal_or_explained": true,
+      "detail": ""
+    },
+    {
+      "name": "人工确认片段进事实层",
+      "source_n": 14,
+      "output_n": 14,
+      "known_n": "6+8",
+      "t10_claim": "6+8=14",
+      "equal_or_explained": true,
+      "detail": ""
+    },
+    {
+      "name": "粗标层条数（timeline+施工镜头+用途）",
+      "source_n": 65971,
+      "output_n": 65971,
+      "known_n": 65971,
+      "t10_claim": 65971,
+      "equal_or_explained": true,
+      "detail": "xq_tl=39756 test_tl=1352 施工=21652 用途=3211 coarse=65971"
+    },
+    {
+      "name": "机器片段复核未进事实层",
+      "source_n": 13576,
+      "output_n": 0,
+      "known_n": 13576,
+      "t10_claim": "只读结构、不进事实层",
+      "equal_or_explained": true,
+      "detail": "源 13576 条，事实层 0 条，与回报一致"
+    },
+    {
+      "name": "split-policy 未入库",
+      "source_n": 35,
+      "output_n": 0,
+      "known_n": 35,
+      "t10_claim": "只在回报说明，不入库",
+      "equal_or_explained": true,
+      "detail": "政策文件，不是片段事实"
+    },
+    {
+      "name": "登记表行数",
+      "source_n": 43295,
+      "output_n": 43295,
+      "known_n": 43295,
+      "t10_claim": 43295,
+      "equal_or_explained": true,
+      "detail": "roots={'baba': 22622, 'chengdu': 104, 'suzhou': 54, 'xiaoq': 20515}"
+    }
+  ],
+  "notes": [],
+  "pass": true,
+  "failed": []
+}

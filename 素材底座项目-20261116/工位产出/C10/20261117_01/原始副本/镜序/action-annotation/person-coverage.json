@@ -1,0 +1,94 @@
+{
+  "updated": "2026-11-13T13:43:01.435239+08:00",
+  "confirmed_clips": 9,
+  "confirmed_source_files": 9,
+  "confirmed_subject_observations": 11,
+  "aming_observations": 6,
+  "other_person_observations": 5,
+  "note": "人物出现记录不等于不同身份人数；其他人物未进一步区分身份，来源项目未逐一核实。",
+  "observations": [
+    {
+      "sample_id": "R01",
+      "description": "画面主体",
+      "identity": "阿明"
+    },
+    {
+      "sample_id": "R02",
+      "description": "画面主体",
+      "identity": "其他人物"
+    },
+    {
+      "sample_id": "R03",
+      "description": "室外白衣讲述者",
+      "identity": "阿明",
+      "confirmed_by": "当前用户"
+    },
+    {
+      "sample_id": "R04",
+      "description": "前景紫衣人物",
+      "identity": "阿明",
+      "confirmed_by": "当前用户"
+    },
+    {
+      "sample_id": "R04",
+      "description": "后方未穿上衣的人物",
+      "identity": "其他人物",
+      "confirmed_by": "当前用户"
+    },
+    {
+      "sample_id": "R05",
+      "description": "室内黑外套讲述者",
+      "identity": "阿明",
+      "confirmed_by": "当前用户",
+      "confirmed_at": "2026-11-13T11:53:21.958061+08:00"
+    },
+    {
+      "sample_id": "R06",
+      "description": "前景紫色马甲讲述者",
+      "identity": "阿明",
+      "confirmed_by": "当前用户",
+      "confirmed_at": "2026-11-13T11:53:21.958061+08:00"
+    },
+    {
+      "sample_id": "R06",
+      "description": "右后方靠墙人物",
+      "identity": "其他人物",
+      "confirmed_by": "当前用户",
+      "confirmed_at": "2026-11-13T11:53:21.958061+08:00"
+    },
+    {
+      "sample_id": "R07",
+      "description": "蹲着讲述的人物，较远景、低头转向镜头",
+      "identity": "阿明",
+      "role": null,
+      "confirmed_by": "当前用户",
+      "confirmed_at": "2026-11-13T13:36:34.059022+08:00"
+    },
+    {
+      "sample_id": "R08",
+      "description": "弯腰施工的人物，主要为侧脸与低头",
+      "identity": "其他人物",
+      "role": "师傅",
+      "confirmed_by": "当前用户",
+      "confirmed_at": "2026-11-13T13:36:34.059022+08:00"
+    },
+    {
+      "sample_id": "R09",
+      "description": "室内戴眼镜、浅色上衣的正面讲述者",
+      "identity": "其他人物",
+      "production_use": "禁止"
+    }
+  ],
+  "remaining_gaps": [
+    "其他人物清晰正面、单人画面（现有主要是侧面施工或同框后景）",
+    "阿明侧脸、低头、遮挡和较远景，须允许无法判断",
+    "多人位置变化或交叉，逐人标签不能只绑定前后位置",
+    "人物用途：讲述/施工/沟通需与身份分开确认",
+    "独立项目评估样本尚未准备；已展示内容仅用于口径集"
+  ],
+  "training_started": false,
+  "blind_test_started": false,
+  "production_model_changed": false,
+  "latest_confirmation": "R09非阿明，人物出镜禁用，仅保留排除记录；正式工具未接入拦截，其他出现片段待核实",
+  "production_prohibited_clips": 1
+}

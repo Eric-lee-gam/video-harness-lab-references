@@ -1,0 +1,79 @@
+{
+  "非视频": [
+    {
+      "标注库名": "测试阿明搅拌",
+      "标注库ID": "b8761e7cf2b26462",
+      "source_path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\测试\\3.23拍摄\\IMG_0305.HEIC",
+      "共享相对路径": "拍摄/测试/3.23拍摄/IMG_0305.HEIC",
+      "project": "测试",
+      "kind": "照片",
+      "duration_seconds": null,
+      "audio_status": null,
+      "directory_limits": null,
+      "是视频": false
+    },
+    {
+      "标注库名": "测试阿明搅拌",
+      "标注库ID": "aca68f63f0d8bc9e",
+      "source_path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\测试\\3.23拍摄\\IMG_0313.HEIC",
+      "共享相对路径": "拍摄/测试/3.23拍摄/IMG_0313.HEIC",
+      "project": "测试",
+      "kind": "照片",
+      "duration_seconds": null,
+      "audio_status": null,
+      "directory_limits": null,
+      "是视频": false
+    },
+    {
+      "标注库名": "测试阿明搅拌",
+      "标注库ID": "397adc081737b8b5",
+      "source_path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\测试\\3.23拍摄\\IMG_0369.HEIC",
+      "共享相对路径": "拍摄/测试/3.23拍摄/IMG_0369.HEIC",
+      "project": "测试",
+      "kind": "照片",
+      "duration_seconds": null,
+      "audio_status": null,
+      "directory_limits": null,
+      "是视频": false
+    },
+    {
+      "标注库名": "测试阿明搅拌",
+      "标注库ID": "afc2e6776aaf723b",
+      "source_path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\测试\\3.23拍摄\\Screenshot_20260323_164844322.jpg",
+      "共享相对路径": "拍摄/测试/3.23拍摄/Screenshot_20260323_164844322.jpg",
+      "project": "测试",
+      "kind": "照片",
+      "duration_seconds": null,
+      "audio_status": null,
+      "directory_limits": null,
+      "是视频": false
+    },
+    {
+      "标注库名": "测试阿明搅拌",
+      "标注库ID": "03ffe83f9601bcc0",
+      "source_path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\阿明\\口播人设视频\\11.11\\IMG_2281.JPG",
+      "共享相对路径": "拍摄/阿明/口播人设视频/11.11/IMG_2281.JPG",
+      "project": "阿明",
+      "kind": "照片",
+      "duration_seconds": null,
+      "audio_status": null,
+      "directory_limits": null,
+      "是视频": false
+    },
+    {
+      "标注库名": "测试阿明搅拌",
+      "标注库ID": "471507f3988f52e4",
+      "source_path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\阿明\\口播人设视频\\1127\\IMG_2644.HEIC",
+      "共享相对路径": "拍摄/阿明/口播人设视频/1127/IMG_2644.HEIC",
+      "project": "阿明",
+      "kind": "照片",
+      "duration_seconds": null,
+      "audio_status": null,
+      "directory_limits": null,
+      "是视频": false
+    }
+  ],
+  "无路径": [],
+  "重复路径": [],
+  "第二轮说明": "标注库索引记录不含字节数、修改时间字段，第二轮（字节数+修改时间）无法执行。"
+}

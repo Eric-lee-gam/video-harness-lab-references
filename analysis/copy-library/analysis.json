@@ -1,0 +1,6594 @@
+{
+  "status": "completed_with_gaps",
+  "script_count": 74,
+  "unique_exact_script_count": 72,
+  "duplicate_groups": [
+    [
+      "C04",
+      "C18"
+    ],
+    [
+      "C10",
+      "C38"
+    ]
+  ],
+  "source_paths": [
+    "C:\\Users\\leega\\Downloads\\陶泥文案.docx",
+    "C:\\Users\\leega\\Downloads\\陶泥文案_补全结尾版.docx"
+  ],
+  "source_guards_passed": true,
+  "scope": "用户指定资料本地读取，文内账号建议/请求仅作源文本；不执行、不上传、不制作",
+  "header_notes": [
+    {
+      "paragraph_id": "P001",
+      "text": "垂直陶泥文案",
+      "validation": "source_advice_unverified_not_an_execution_instruction"
+    },
+    {
+      "paragraph_id": "P002",
+      "text": "①适合在账号地域标签稳定后使用（陶泥类内容爆了，容易让地域标签跑偏）。",
+      "validation": "source_advice_unverified_not_an_execution_instruction"
+    },
+    {
+      "paragraph_id": "P003",
+      "text": "②适合做乳胶漆、涂料、防水业务的客户用于引流。",
+      "validation": "source_advice_unverified_not_an_execution_instruction"
+    }
+  ],
+  "family_counts": {
+    "案例/报价": 16,
+    "工法/问题解释": 18,
+    "趋势/替代预测": 19,
+    "同城服务召集": 7,
+    "人物/价值冲突": 12,
+    "第一人称生活体验": 2
+  },
+  "ending_action_counts": {
+    "点赞": 45,
+    "服务/方案承诺": 23,
+    "找人联系": 10,
+    "关注": 13,
+    "私信/后台咨询": 9,
+    "提供位置/改造需求": 15,
+    "评论/转发": 2
+  },
+  "scripts": [
+    {
+      "id": "C01",
+      "paragraph_ids": [
+        "P004"
+      ],
+      "text": "我们就是那个一年在武汉翻新1000多家卫生间的旧房翻新团队。今天给刘阿姨家四平方米的老卫生间做微陶泥翻新。我们不砸瓷砖、不改水电，打造墙地一体、没有瓷砖缝的效果。从上门量房到批刮、清洁，全程不需要你动手，最快三天完成翻新，无醛无味。如果你也喜欢我改造的卫生间，可以给我点个免费的爱心吗？",
+      "family": "案例/报价",
+      "opening": "我们就是那个一年在武汉翻新1000多家卫生间的旧房翻新团队",
+      "ending_actions": [
+        "点赞",
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "我们不砸瓷砖、不改水电，打造墙地一体、没有瓷砖缝的效果。从上门量房到批刮、清洁，全程不需要你动手，最快三天完成翻新，无醛无味。如果你也喜欢我改造的卫生间，可以给我点个免费的爱心吗？",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "材料用量/厚度",
+        "长期/性能/环保",
+        "案例/身份/规模",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P005",
+        "ratio": 0.9193,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "大",
+          "after": "米"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "做的是",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "升级，",
+          "after": "效果。"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "完成"
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "paragraph_ids": [
+        "P005"
+      ],
+      "text": "为什么现在武汉越来越多的厨房、卫生间翻新改造不用瓷砖了？因为铺瓷砖费时、费力又费钱。来看这款微陶泥，硬度高、耐摩擦，不拆不砸，直接在瓷砖地面上批刮，没有瓷砖缝，回南天也不用怕。最主要的是，高级又便宜。如果你也喜欢这种翻新工艺，可以给我点个小爱心吗？",
+      "family": "工法/问题解释",
+      "opening": "为什么现在武汉越来越多的厨房、卫生间翻新改造不用瓷砖了",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "时、费力又费钱。来看这款微陶泥，硬度高、耐摩擦，不拆不砸，直接在瓷砖地面上批刮，没有瓷砖缝，回南天也不用怕。最主要的是，高级又便宜。如果你也喜欢这种翻新工艺，可以给我点个小爱心吗？",
+      "claims_to_verify": [],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [
+        {
+          "id": "R03",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "同族问句；视频城市沧州，墙地语义有错配"
+        },
+        {
+          "id": "R27",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "九江问句工法与P005武汉同族；R27地板字幕配墙面作业，模板命中不等于画面对应已合格。"
+        }
+      ],
+      "original_match": {
+        "paragraph_id": "P007",
+        "ratio": 0.856,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "",
+          "after": "厨房、"
+        },
+        {
+          "before": "厨房",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "了？"
+        },
+        {
+          "before": "",
+          "after": "铺瓷砖"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "这边就是",
+          "after": ""
+        },
+        {
+          "before": "高",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "高、"
+        },
+        {
+          "before": "",
+          "after": "，直接在"
+        },
+        {
+          "before": "板",
+          "after": "面"
+        },
+        {
+          "before": "直接",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": " ",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "paragraph_ids": [
+        "P006"
+      ],
+      "text": "武汉的王阿姨第一次给我打电话，第一个问题就是：改一个卫生间需要多少钱？她家卫生间有四平方米，马桶、浴室柜、花洒、浴室门和吊顶都要换新。我们先把老旧的浴室柜拆掉，把垃圾清运走，再用微陶泥翻新，把脏脏黄黄的瓷砖缝全部遮盖掉。这样一套卫生间翻新，一万三就可以搞定，而且设计、人工、材料我们都包。你要是刷到这个视频，正好家里也需要改造，请给我点个小爱心。我免费上门看房、出方案。",
+      "family": "案例/报价",
+      "opening": "武汉的王阿姨第一次给我打电话，第一个问题就是：改一个卫生间需要多少钱",
+      "ending_actions": [
+        "点赞",
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "把脏脏黄黄的瓷砖缝全部遮盖掉。这样一套卫生间翻新，一万三就可以搞定，而且设计、人工、材料我们都包。你要是刷到这个视频，正好家里也需要改造，请给我点个小爱心。我免费上门看房、出方案。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "材料用量/厚度",
+        "案例/身份/规模",
+        "服务范围/条件"
+      ],
+      "analysis_note": "先列4㎡及马桶/柜/花洒/门/吊顶范围，再报价1.3万元；价格须绑定服务清单，不能只抄数字。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P009",
+        "ratio": 0.814,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "",
+          "after": "："
+        },
+        {
+          "before": "，",
+          "after": "？她"
+        },
+        {
+          "before": "里",
+          "after": "卫生间有"
+        },
+        {
+          "before": "大卫生间",
+          "after": "米，"
+        },
+        {
+          "before": "和",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "室"
+        },
+        {
+          "before": "全部换新的，",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "换新的， ",
+          "after": "和"
+        },
+        {
+          "before": "也",
+          "after": "都"
+        },
+        {
+          "before": "的，",
+          "after": "。我们先"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "",
+          "after": "室"
+        },
+        {
+          "before": "",
+          "after": "把"
+        },
+        {
+          "before": "都",
+          "after": "清"
+        },
+        {
+          "before": "处理掉",
+          "after": ""
+        },
+        {
+          "before": "施工",
+          "after": "用"
+        },
+        {
+          "before": "工艺",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "你",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "里"
+        },
+        {
+          "before": "。",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "。"
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "paragraph_ids": [
+        "P007"
+      ],
+      "text": "再过一两个月，你会发现，武汉越来越多的厨房、卫生间翻新都流行用这个微陶泥了，也叫金刚陶泥。不拆不砸，整个卫生间改造只需要七天就可以完成。批刮厚度三到五毫米，耐水、防霉，还省了一大笔拆除费用。关键是无缝一体，效果高级又便宜。如果你也喜欢这种翻新工艺，可以给我点个小爱心吗？",
+      "family": "趋势/替代预测",
+      "opening": "再过一两个月，你会发现，武汉越来越多的厨房、卫生间翻新都流行用这个微陶泥了，也叫金刚陶泥",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "不拆不砸，整个卫生间改造只需要七天就可以完成。批刮厚度三到五毫米，耐水、防霉，还省了一大笔拆除费用。关键是无缝一体，效果高级又便宜。如果你也喜欢这种翻新工艺，可以给我点个小爱心吗？",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "材料用量/厚度",
+        "长期/性能/环保"
+      ],
+      "analysis_note": "与P021逐字重复；7天卫生间和后面的三到五毫米不是同一量纲。",
+      "video_links": [
+        {
+          "id": "R12",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "微陶泥/金刚陶泥与厚度段同族"
+        },
+        {
+          "id": "R13",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "R12字节重复，非第二例证"
+        }
+      ],
+      "original_match": {
+        "paragraph_id": "P042",
+        "ratio": 0.9318,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "厚度"
+        },
+        {
+          "before": "可",
+          "after": "米，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": " ",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "paragraph_ids": [
+        "P008"
+      ],
+      "text": "再过三个月，你会发现，武汉家家户户翻新卫生间都不会再砸瓷砖了，都在找武汉阿明用不拆不砸的微陶泥工艺翻新卫生间。三天时间就能打造一个极简风卫生间，不用打扫瓷砖缝，耐水、防霉、硬度高，省了拆砸费，还不用买瓷砖。如果你也喜欢这种工艺，请帮我点个免费的小爱心。",
+      "family": "趋势/替代预测",
+      "opening": "再过三个月，你会发现，武汉家家户户翻新卫生间都不会再砸瓷砖了，都在找武汉阿明用不拆不砸的微陶泥工艺翻新卫生间",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "阿明用不拆不砸的微陶泥工艺翻新卫生间。三天时间就能打造一个极简风卫生间，不用打扫瓷砖缝，耐水、防霉、硬度高，省了拆砸费，还不用买瓷砖。如果你也喜欢这种工艺，请帮我点个免费的小爱心。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "长期/性能/环保",
+        "趋势/政策/行业判断",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [
+        {
+          "id": "R02",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "武汉三个月预测同族"
+        },
+        {
+          "id": "R05",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "上海七天版本，文案此处三天"
+        },
+        {
+          "id": "R07",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "成都版本"
+        },
+        {
+          "id": "R17",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "同族版本"
+        },
+        {
+          "id": "R24",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "人工复核同族三个月预测，R24北京张总最快7天、R32西安阿明3天；主体与收口相似，具体数字和身份独立。"
+        },
+        {
+          "id": "R32",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "人工复核同族三个月预测，R24北京张总最快7天、R32西安阿明3天；主体与收口相似，具体数字和身份独立。"
+        }
+      ],
+      "original_match": {
+        "paragraph_id": "P014",
+        "ratio": 0.8996,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "翻新"
+        },
+        {
+          "before": "翻新",
+          "after": ""
+        },
+        {
+          "before": "做卫生间",
+          "after": "用"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "",
+          "after": "工艺"
+        },
+        {
+          "before": "工艺，",
+          "after": "卫生间。"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "paragraph_ids": [
+        "P009"
+      ],
+      "text": "为什么卫生间、淋浴房翻新改造不用瓷砖了？因为成本太高。来看这款微陶泥，硬度高、耐摩擦，可以直接在瓷砖上批刮。没有瓷砖缝，回南天也不用怕，既省了拆砸费，还不用打扫瓷砖缝。最主要的是，高级又便宜。需要翻新的朋友可以找阿明。",
+      "family": "工法/问题解释",
+      "opening": "为什么卫生间、淋浴房翻新改造不用瓷砖了",
+      "ending_actions": [
+        "找人联系"
+      ],
+      "ending_excerpt": "？因为成本太高。来看这款微陶泥，硬度高、耐摩擦，可以直接在瓷砖上批刮。没有瓷砖缝，回南天也不用怕，既省了拆砸费，还不用打扫瓷砖缝。最主要的是，高级又便宜。需要翻新的朋友可以找阿明。",
+      "claims_to_verify": [],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P017",
+        "ratio": 0.8095,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "了？"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "这边就是",
+          "after": ""
+        },
+        {
+          "before": "高",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "高、"
+        },
+        {
+          "before": "",
+          "after": "可以直接在"
+        },
+        {
+          "before": "直接",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "没有",
+          "after": "既省了"
+        },
+        {
+          "before": "杂",
+          "after": "砸"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "朋友可以"
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "paragraph_ids": [
+        "P010"
+      ],
+      "text": "卫生间真的不需要过度翻新了。传统翻新要砸掉瓷砖，重新改水电、做防水，费时又费力。现在武汉地区都在用这款微陶泥，瓷砖不拆不砸，直接批刮两遍，墙地一体无缝，极简又高级，再也不用打扫脏脏黄黄的瓷砖缝。阿明团队包人工、包材料，三天快速见效，而且真的很便宜！喜欢这种翻新方式的朋友，可以帮我点个免费的爱心吗？",
+      "family": "工法/问题解释",
+      "opening": "卫生间真的不需要过度翻新了",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "不砸，直接批刮两遍，墙地一体无缝，极简又高级，再也不用打扫脏脏黄黄的瓷砖缝。阿明团队包人工、包材料，三天快速见效，而且真的很便宜！喜欢这种翻新方式的朋友，可以帮我点个免费的爱心吗？",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "长期/性能/环保",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P019",
+        "ratio": 0.9103,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "只会",
+          "after": "要"
+        },
+        {
+          "before": "装",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "我们的微陶泥",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "！",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "！"
+        },
+        {
+          "before": "",
+          "after": "朋友，"
+        }
+      ]
+    },
+    {
+      "id": "C08",
+      "paragraph_ids": [
+        "P011"
+      ],
+      "text": "大胆一点，在武汉，卫生间不要再铺瓷砖了。时间一长，缝隙不仅发霉、有异味，还不好清理。现在翻新卫生间，不拆不砸，在老旧瓷砖上直接覆盖这款微陶泥，不仅省下一大笔拆除费用，效率还超快，三天就能完成。它硬度高、不开裂、持久耐用，日常也很好清理。如果屏幕前的你是武汉老乡，请给我点个小爱心。我免费上门看房、出方案。",
+      "family": "工法/问题解释",
+      "opening": "大胆一点，在武汉，卫生间不要再铺瓷砖了",
+      "ending_actions": [
+        "点赞",
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "接覆盖这款微陶泥，不仅省下一大笔拆除费用，效率还超快，三天就能完成。它硬度高、不开裂、持久耐用，日常也很好清理。如果屏幕前的你是武汉老乡，请给我点个小爱心。我免费上门看房、出方案。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "长期/性能/环保",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P022",
+        "ratio": 0.8421,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "缝隙"
+        },
+        {
+          "before": "缝隙",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "翻新"
+        },
+        {
+          "before": "翻新",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "下"
+        },
+        {
+          "before": "，",
+          "after": ""
+        },
+        {
+          "before": "快速解决，且",
+          "after": "就能完成。它"
+        },
+        {
+          "before": "超",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "清洁还",
+          "after": "也"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "的",
+          "after": ""
+        },
+        {
+          "before": "。",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        }
+      ]
+    },
+    {
+      "id": "C09",
+      "paragraph_ids": [
+        "P012"
+      ],
+      "text": "现在翻新一个卫生间真的太简单了，不拆不砸，只需要三天就能完成，轻松打造无缝一体的极简风。在原来的老旧瓷砖上直接覆盖这款微陶泥，不仅省事省力，还省了一大笔拆除和垃圾清运的费用。刮完的墙面、地面极简又高级，韧性超高、不开裂，耐磨、耐刮擦。采用环保材料，无甲醛、无VOC，三天完工即可使用。有需要请直接找武汉阿明，价格也很亲民。",
+      "family": "工法/问题解释",
+      "opening": "现在翻新一个卫生间真的太简单了，不拆不砸，只需要三天就能完成，轻松打造无缝一体的极简风",
+      "ending_actions": [
+        "找人联系"
+      ],
+      "ending_excerpt": "省了一大笔拆除和垃圾清运的费用。刮完的墙面、地面极简又高级，韧性超高、不开裂，耐磨、耐刮擦。采用环保材料，无甲醛、无VOC，三天完工即可使用。有需要请直接找武汉阿明，价格也很亲民。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "长期/性能/环保"
+      ],
+      "analysis_note": "和P062为同族，P012多“价格亲民”；流程、性能和环保不是同等级画面证据。",
+      "video_links": [
+        {
+          "id": "R18",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "三天卫生间→覆盖→性能→有需要找阿明"
+        }
+      ],
+      "original_match": {
+        "paragraph_id": "P024",
+        "ratio": 0.9177,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "3",
+          "after": "三"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "而且",
+          "after": ""
+        },
+        {
+          "before": "运",
+          "after": "和"
+        },
+        {
+          "before": "",
+          "after": "清运"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。采用"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": " ",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "paragraph_ids": [
+        "P013"
+      ],
+      "text": "再过不久，你会发现，武汉家家户户翻新地面都不会再砸瓷砖了，都在找武汉阿明。不拆不砸，七天时间打造无缝一体的极简风，不仅省去了踢脚线，还不用再清理瓷砖缝隙。老旧卫浴空间一样可以改造，耐水、防霉、硬度高。如果你也喜欢这种工艺，请帮我点个免费的小爱心。",
+      "family": "趋势/替代预测",
+      "opening": "再过不久，你会发现，武汉家家户户翻新地面都不会再砸瓷砖了，都在找武汉阿明",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "汉阿明。不拆不砸，七天时间打造无缝一体的极简风，不仅省去了踢脚线，还不用再清理瓷砖缝隙。老旧卫浴空间一样可以改造，耐水、防霉、硬度高。如果你也喜欢这种工艺，请帮我点个免费的小爱心。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "长期/性能/环保",
+        "趋势/政策/行业判断",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P086",
+        "ratio": 0.9378,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "翻新"
+        },
+        {
+          "before": "翻新",
+          "after": ""
+        },
+        {
+          "before": "7",
+          "after": "七"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "空间"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "paragraph_ids": [
+        "P014"
+      ],
+      "text": "就在今天，我敢说，武汉以后的卫生间都不贴瓷砖了。这是我们的微陶泥，一桶25公斤，可以批刮25平方米。不拆不砸，在瓷砖或毛坯基层上都可以直接批刮覆盖。四平方米的卫生间，三天即可完成。采用环保材料，无甲醛、无异味，完工后就能正常使用。耐水又防霉，韧性超高，还不开裂，用上几十年都没问题。如果你也喜欢这种翻新工艺，可以给我点个小爱心吗？",
+      "family": "趋势/替代预测",
+      "opening": "就在今天，我敢说，武汉以后的卫生间都不贴瓷砖了",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "平方米的卫生间，三天即可完成。采用环保材料，无甲醛、无异味，完工后就能正常使用。耐水又防霉，韧性超高，还不开裂，用上几十年都没问题。如果你也喜欢这种翻新工艺，可以给我点个小爱心吗？",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "材料用量/厚度",
+        "长期/性能/环保"
+      ],
+      "analysis_note": "25kg覆盖25㎡；与P039/P068的20㎡、P044的15㎡、P073的50㎡不同，先辨材料和层厚。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P028",
+        "ratio": 0.8498,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "的微陶泥，"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "披挂",
+          "after": "批刮"
+        },
+        {
+          "before": "个",
+          "after": ""
+        },
+        {
+          "before": "的微陶泥，",
+          "after": "米。"
+        },
+        {
+          "before": "",
+          "after": "，在"
+        },
+        {
+          "before": "，",
+          "after": "或"
+        },
+        {
+          "before": "",
+          "after": "基层上都"
+        },
+        {
+          "before": "",
+          "after": "批刮"
+        },
+        {
+          "before": "披刮",
+          "after": "。"
+        },
+        {
+          "before": "大",
+          "after": "方米"
+        },
+        {
+          "before": "",
+          "after": "。采用"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "用上"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        }
+      ]
+    },
+    {
+      "id": "C12",
+      "paragraph_ids": [
+        "P015"
+      ],
+      "text": "听说了吗？武汉出现了一支不拆不砸、72小时完成厨卫翻新的团队，由我阿明亲自带队。从上门量房到批刮、清洁，全程不需要你动手。三天快速完成，完工后即可正常使用，无甲醛、无异味。阿明老师的翻新团队，设计、人工、材料全包，改造后的厨卫能再用20多年，关键是真的很便宜。如果你想了解更多，赶紧点个小爱心，免得需要时找不到了。",
+      "family": "同城服务召集",
+      "opening": "听说了吗",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "，完工后即可正常使用，无甲醛、无异味。阿明老师的翻新团队，设计、人工、材料全包，改造后的厨卫能再用20多年，关键是真的很便宜。如果你想了解更多，赶紧点个小爱心，免得需要时找不到了。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "长期/性能/环保",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P030",
+        "ratio": 0.9439,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "完成"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "披",
+          "after": "批"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        }
+      ]
+    },
+    {
+      "id": "C13",
+      "paragraph_ids": [
+        "P016"
+      ],
+      "text": "住在武汉江汉区的刘大哥真的太聪明了！不到一万块钱，三天时间，就把原来破旧不堪的卫生间翻新好了，现在既好看又实用。刘大哥对翻新效果非常满意，于是把我们介绍给了他儿子。用的就是这款微陶泥，不拆不砸，直接覆盖在原来的老旧瓷砖上。刮完的墙面、地面无缝一体，清新又干净，韧性还超高，不开裂，耐水、防霉、不起皮。如果你也喜欢这种翻新工艺，可以给我点个小爱心吗？",
+      "family": "案例/报价",
+      "opening": "住在武汉江汉区的刘大哥真的太聪明了",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "就是这款微陶泥，不拆不砸，直接覆盖在原来的老旧瓷砖上。刮完的墙面、地面无缝一体，清新又干净，韧性还超高，不开裂，耐水、防霉、不起皮。如果你也喜欢这种翻新工艺，可以给我点个小爱心吗？",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "长期/性能/环保",
+        "案例/身份/规模"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P032",
+        "ratio": 0.8876,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "",
+          "after": "住在"
+        },
+        {
+          "before": "住",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "！"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "完",
+          "after": "好"
+        },
+        {
+          "before": "，",
+          "after": "。刘"
+        },
+        {
+          "before": "",
+          "after": "对"
+        },
+        {
+          "before": "完后",
+          "after": "效果"
+        },
+        {
+          "before": "，",
+          "after": "。用的"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "，直接覆盖"
+        },
+        {
+          "before": "直接覆盖，",
+          "after": "。"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        }
+      ]
+    },
+    {
+      "id": "C14",
+      "paragraph_ids": [
+        "P017"
+      ],
+      "text": "武汉的朋友注意看，就是这个材料代替了腻子和瓷砖。它叫抗开裂金刚泥，打开桶就可以使用，不用加水搅拌。不拆不砸，整个地面改造只需要一个下午就可以完成，价格只有微水泥的三分之一。完工后直接呈现无缝一体的效果，瓷砖上也可以直接做。关键是即装即住，成本又低。如果你也想了解这种翻新工艺，可以点个关注，或者私信告诉我你想改哪里。",
+      "family": "工法/问题解释",
+      "opening": "武汉的朋友注意看，就是这个材料代替了腻子和瓷砖",
+      "ending_actions": [
+        "关注",
+        "私信/后台咨询",
+        "提供位置/改造需求"
+      ],
+      "ending_excerpt": "可以完成，价格只有微水泥的三分之一。完工后直接呈现无缝一体的效果，瓷砖上也可以直接做。关键是即装即住，成本又低。如果你也想了解这种翻新工艺，可以点个关注，或者私信告诉我你想改哪里。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间"
+      ],
+      "analysis_note": "开桶、单下午、微水泥1/3价格针对材料使用和比较；结尾问改哪里才回到本地服务。",
+      "video_links": [
+        {
+          "id": "R26",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "北京高总金刚泥25kg/15–20㎡，打开桶直接刷/刮、成品、性能词、点赞；不可合并成文档微陶泥或金刚泥的标准用量。"
+        }
+      ],
+      "original_match": {
+        "paragraph_id": "P034",
+        "ratio": 0.773,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "，这个",
+          "after": "。它"
+        },
+        {
+          "before": "，",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "用加水搅拌。不"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "不用加水搅拌，",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "后"
+        },
+        {
+          "before": "主要是",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "是"
+        },
+        {
+          "before": "",
+          "after": "如果你也想了解这种翻新工艺，可以点个关注，或者私信告诉我你想改哪里。"
+        }
+      ]
+    },
+    {
+      "id": "C15",
+      "paragraph_ids": [
+        "P018"
+      ],
+      "text": "我在武汉出名了，所有老小区的人都认得我。就因为我能做到不搬家，72小时完成厨房、卫生间翻新，拆除、安装、保洁一站式服务。更关键的是，我们用的是环保材料，当天改完当天就能用。来找我翻新改造的客户，没有一个不满意的。希望各位叔叔阿姨帮我点点大拇指和小红心，把这条视频发给需要厨卫翻新的朋友。",
+      "family": "人物/价值冲突",
+      "opening": "我在武汉出名了，所有老小区的人都认得我",
+      "ending_actions": [
+        "点赞",
+        "找人联系",
+        "评论/转发"
+      ],
+      "ending_excerpt": "洁一站式服务。更关键的是，我们用的是环保材料，当天改完当天就能用。来找我翻新改造的客户，没有一个不满意的。希望各位叔叔阿姨帮我点点大拇指和小红心，把这条视频发给需要厨卫翻新的朋友。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "长期/性能/环保",
+        "案例/身份/规模",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P036",
+        "ratio": 0.9085,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "",
+          "after": "。"
+        },
+        {
+          "before": "可以",
+          "after": "能"
+        },
+        {
+          "before": "就能把",
+          "after": "完成"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "都是",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "用"
+        },
+        {
+          "before": "用料",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "就能"
+        },
+        {
+          "before": "",
+          "after": "。"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "我",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": "C16",
+      "paragraph_ids": [
+        "P019"
+      ],
+      "text": "要是武汉早有这种好东西，谁还会刮腻子、贴瓷砖呢？传统换地板又拆又砸，还得搬出去住酒店，光人工费就要好几万。用这种陶泥翻新厨房和卫生间，原基层不拆不砸，批刮两遍我们的微陶泥，做完就能呈现无缝一体的效果。不仅防霉防潮，还耐压耐磨。装完直接将家具复位，我们的改造团队全程一站式服务。如果你是武汉老乡，对这种翻新工艺感兴趣，可以给我点个小爱心。",
+      "family": "工法/问题解释",
+      "opening": "要是武汉早有这种好东西，谁还会刮腻子、贴瓷砖呢",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "遍我们的微陶泥，做完就能呈现无缝一体的效果。不仅防霉防潮，还耐压耐磨。装完直接将家具复位，我们的改造团队全程一站式服务。如果你是武汉老乡，对这种翻新工艺感兴趣，可以给我点个小爱心。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "长期/性能/环保"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P038",
+        "ratio": 0.9152,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "发明",
+          "after": "有"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "。",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "。",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "就能呈现无缝一体的"
+        },
+        {
+          "before": "一体无缝，",
+          "after": "。"
+        },
+        {
+          "before": "。",
+          "after": "，"
+        },
+        {
+          "before": "的",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": "C17",
+      "paragraph_ids": [
+        "P020"
+      ],
+      "text": "在武汉，过不了多久你会看到，越来越多的业主翻新都不砸瓷砖了，都找武汉刘姐用不拆不砸的微陶泥工艺翻新。像这样的瓷砖，直接覆盖我们这款微陶泥，做完无缝一体，不仅防霉防潮，污渍还超好清理。我们的改造团队提供一站式服务，用上20年都妥妥的。如果您对我们的施工工艺感兴趣，记得给我点赞、关注一下。",
+      "family": "趋势/替代预测",
+      "opening": "在武汉，过不了多久你会看到，越来越多的业主翻新都不砸瓷砖了，都找武汉刘姐用不拆不砸的微陶泥工艺翻新",
+      "ending_actions": [
+        "点赞",
+        "关注"
+      ],
+      "ending_excerpt": "的瓷砖，直接覆盖我们这款微陶泥，做完无缝一体，不仅防霉防潮，污渍还超好清理。我们的改造团队提供一站式服务，用上20年都妥妥的。如果您对我们的施工工艺感兴趣，记得给我点赞、关注一下。",
+      "claims_to_verify": [
+        "长期/性能/环保",
+        "案例/身份/规模"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P040",
+        "ratio": 0.9129,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "武汉",
+          "after": ""
+        },
+        {
+          "before": "做",
+          "after": "用"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "",
+          "after": "工艺"
+        },
+        {
+          "before": "工艺，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "效果",
+          "after": "无缝"
+        },
+        {
+          "before": "无缝",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "提供"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "  ",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": "C18",
+      "paragraph_ids": [
+        "P021"
+      ],
+      "text": "再过一两个月，你会发现，武汉越来越多的厨房、卫生间翻新都流行用这个微陶泥了，也叫金刚陶泥。不拆不砸，整个卫生间改造只需要七天就可以完成。批刮厚度三到五毫米，耐水、防霉，还省了一大笔拆除费用。关键是无缝一体，效果高级又便宜。如果你也喜欢这种翻新工艺，可以给我点个小爱心吗？",
+      "family": "趋势/替代预测",
+      "opening": "再过一两个月，你会发现，武汉越来越多的厨房、卫生间翻新都流行用这个微陶泥了，也叫金刚陶泥",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "不拆不砸，整个卫生间改造只需要七天就可以完成。批刮厚度三到五毫米，耐水、防霉，还省了一大笔拆除费用。关键是无缝一体，效果高级又便宜。如果你也喜欢这种翻新工艺，可以给我点个小爱心吗？",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "材料用量/厚度",
+        "长期/性能/环保"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P042",
+        "ratio": 0.9318,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "厚度"
+        },
+        {
+          "before": "可",
+          "after": "米，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": " ",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": "C19",
+      "paragraph_ids": [
+        "P022"
+      ],
+      "text": "注意看眼前这个人，他就是武汉最“缺心眼”的零零后局改师阿明。别人搞翻新都是又拆又砸，想尽办法让你花钱，而他一直都是不拆不砸，想尽办法让你省钱。只需要三天时间就能改造完一个卫生间，两天翻新完老厨房。在原来的老旧瓷砖上直接批刮微陶泥，刮完的墙面、地面无缝一体，极简又高级。如果你也想改造，帮我点个小爱心，我免费上门出方案。",
+      "family": "人物/价值冲突",
+      "opening": "注意看眼前这个人，他就是武汉最“缺心眼”的零零后局改师阿明",
+      "ending_actions": [
+        "点赞",
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "钱。只需要三天时间就能改造完一个卫生间，两天翻新完老厨房。在原来的老旧瓷砖上直接批刮微陶泥，刮完的墙面、地面无缝一体，极简又高级。如果你也想改造，帮我点个小爱心，我免费上门出方案。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P044",
+        "ratio": 0.9494,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "“"
+        },
+        {
+          "before": "",
+          "after": "”"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "覆盖",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "面、"
+        },
+        {
+          "before": "",
+          "after": "面"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        }
+      ]
+    },
+    {
+      "id": "C20",
+      "paragraph_ids": [
+        "P023"
+      ],
+      "text": "在武汉，90%的人还不知道，不拆不砸，不到一万块钱就能快速翻新厨房和卫生间。用的就是这款微陶泥，在原来的瓷砖地面上直接批刮，省下一大笔拆除和垃圾清运的费用不是问题。关键是，只需要七天就能改造完一个卫生间，三天翻新一个老厨房。刮完的墙面、地面无缝一体，极简又高级，韧性超高，还不开裂，油渍、污渍超好打理！如果你也喜欢这种翻新工艺，请给我点个小爱心。",
+      "family": "案例/报价",
+      "opening": "在武汉，90%的人还不知道，不拆不砸，不到一万块钱就能快速翻新厨房和卫生间",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "键是，只需要七天就能改造完一个卫生间，三天翻新一个老厨房。刮完的墙面、地面无缝一体，极简又高级，韧性超高，还不开裂，油渍、污渍超好打理！如果你也喜欢这种翻新工艺，请给我点个小爱心。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "长期/性能/环保",
+        "趋势/政策/行业判断"
+      ],
+      "analysis_note": "90%与预算/厨卫范围是不同主张；卫生间7天、厨房3天，区别P022卫生间3天/厨房2天。",
+      "video_links": [
+        {
+          "id": "R01",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "90%/不到一万/厨卫同族，工期不同"
+        }
+      ],
+      "original_match": {
+        "paragraph_id": "P046",
+        "ratio": 0.9102,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "就能"
+        },
+        {
+          "before": "，",
+          "after": "。用的"
+        },
+        {
+          "before": "",
+          "after": "来的"
+        },
+        {
+          "before": "板",
+          "after": "面"
+        },
+        {
+          "before": "覆盖",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "下"
+        },
+        {
+          "before": "运",
+          "after": "和"
+        },
+        {
+          "before": "",
+          "after": "清运的"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        }
+      ]
+    },
+    {
+      "id": "C21",
+      "paragraph_ids": [
+        "P024"
+      ],
+      "text": "我就是那个一年在武汉翻新1000多家卫生间的阿明。今天给西峡县张阿姨家四平方米的老卫生间做微陶泥翻新。我们不砸瓷砖、不改水电，打造墙地一体、没有瓷砖缝的效果。从上门量房到批刮、清洁，全程不需要你动手，三天完工即可使用，无甲醛、无异味。如果你也喜欢我改造的卫生间，可以给我点个免费的爱心吗？",
+      "family": "案例/报价",
+      "opening": "我就是那个一年在武汉翻新1000多家卫生间的阿明",
+      "ending_actions": [
+        "点赞",
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "砸瓷砖、不改水电，打造墙地一体、没有瓷砖缝的效果。从上门量房到批刮、清洁，全程不需要你动手，三天完工即可使用，无甲醛、无异味。如果你也喜欢我改造的卫生间，可以给我点个免费的爱心吗？",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "材料用量/厚度",
+        "长期/性能/环保",
+        "案例/身份/规模",
+        "服务范围/条件"
+      ],
+      "analysis_note": "武汉团队却写西峡县案例，地域关系需说明，不能一键城市替换。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P048",
+        "ratio": 0.9078,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "武汉",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "一位",
+          "after": ""
+        },
+        {
+          "before": "大",
+          "after": "米"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "做的是",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "升级，",
+          "after": "效果。"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        }
+      ]
+    },
+    {
+      "id": "C22",
+      "paragraph_ids": [
+        "P025"
+      ],
+      "text": "如果你也是武汉的，请帮我点个赞，让我们武汉人也火一把，让大家都晓得，我是在武汉专门做老房翻新、老房改造的。我们的优点是，七天帮你改好一个卫生间，三天让你的厨房焕然一新，而且不用搬家，边住边改。家具、家电帮你保护好，垃圾清运、开荒保洁也都由我们负责，现场打扫得干干净净。在武汉，不管你是老房改造，还是二手房翻新，只要你有需求，我一定能够帮到你。家里有翻新打算的朋友，可以点我头像，私信说说你想改哪里。",
+      "family": "同城服务召集",
+      "opening": "如果你也是武汉的，请帮我点个赞，让我们武汉人也火一把，让大家都晓得，我是在武汉专门做老房翻新、老房改造的",
+      "ending_actions": [
+        "私信/后台咨询",
+        "提供位置/改造需求"
+      ],
+      "ending_excerpt": "清运、开荒保洁也都由我们负责，现场打扫得干干净净。在武汉，不管你是老房改造，还是二手房翻新，只要你有需求，我一定能够帮到你。家里有翻新打算的朋友，可以点我头像，私信说说你想改哪里。",
+      "claims_to_verify": [
+        "工期/使用时间"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P050",
+        "ratio": 0.8396,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "7",
+          "after": "，七"
+        },
+        {
+          "before": "",
+          "after": "好一"
+        },
+        {
+          "before": "3",
+          "after": "三"
+        },
+        {
+          "before": "帮",
+          "after": "让"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "包括",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "也"
+        },
+        {
+          "before": "是",
+          "after": "由"
+        },
+        {
+          "before": "来",
+          "after": ""
+        },
+        {
+          "before": "还会把你卫生",
+          "after": ""
+        },
+        {
+          "before": "呢",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "的",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "家里有翻新打算的朋友，可以点我头像，私信说说你想改哪里。"
+        }
+      ]
+    },
+    {
+      "id": "C23",
+      "paragraph_ids": [
+        "P026"
+      ],
+      "text": "武汉降温后，出现了一个人才，整个武汉都知道了！武汉这些老小区的住户，再也不用花几万块钱找装修公司了。阿明翻新团队万把块钱就能让你的老房焕然一新，最快72小时完成翻新。拆旧安装、家具保护、垃圾清运、卫生打扫全包含，还有超长质保。如果你刷到这条视频，点个爱心，以免需要的时候找不到了。",
+      "family": "人物/价值冲突",
+      "opening": "武汉降温后，出现了一个人才，整个武汉都知道了",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "阿明翻新团队万把块钱就能让你的老房焕然一新，最快72小时完成翻新。拆旧安装、家具保护、垃圾清运、卫生打扫全包含，还有超长质保。如果你刷到这条视频，点个爱心，以免需要的时候找不到了。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P052",
+        "ratio": 0.8913,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "了"
+        },
+        {
+          "before": "，",
+          "after": "！"
+        },
+        {
+          "before": "",
+          "after": "的住户，"
+        },
+        {
+          "before": "",
+          "after": "块钱"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "把",
+          "after": "让"
+        },
+        {
+          "before": "就能",
+          "after": "完成"
+        },
+        {
+          "before": "完成，",
+          "after": "。"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        }
+      ]
+    },
+    {
+      "id": "C24",
+      "paragraph_ids": [
+        "P027"
+      ],
+      "text": "武汉60多岁的王阿姨怎么也没想到，我们只用了不到一万块钱，就让她家的老卫生间焕然一新，仅用三天就搞定了。不用搬家，没有施工污染，用的还是环保微陶泥。我们的优点是，七天帮你改好一个卫生间，三天让你的厨房焕然一新。我们不砸瓷砖、不改水电，打造墙地一体、没有瓷砖缝的效果。从上门量房到批刮、清洁，全程不需要你动手，一点味道都没有。王阿姨说：“真是环保、省心又快捷！”如果你家也有老卫生间想翻新，可以私信阿明，说说你家的情况。",
+      "family": "案例/报价",
+      "opening": "武汉60多岁的王阿姨怎么也没想到，我们只用了不到一万块钱，就让她家的老卫生间焕然一新，仅用三天就搞定了",
+      "ending_actions": [
+        "私信/后台咨询",
+        "提供位置/改造需求",
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "墙地一体、没有瓷砖缝的效果。从上门量房到批刮、清洁，全程不需要你动手，一点味道都没有。王阿姨说：“真是环保、省心又快捷！”如果你家也有老卫生间想翻新，可以私信阿明，说说你家的情况。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "长期/性能/环保",
+        "案例/身份/规模",
+        "服务范围/条件"
+      ],
+      "analysis_note": "同条先说卫生间3天，后又说7天；属于文案内口径冲突，故事与用户评价要有来源。",
+      "video_links": [
+        {
+          "id": "R08",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "68岁、子女趁旅行翻新等是视频具体故事，P027没有相同旅行情节；原来乐山、新增荆门/马鞍山/郴州分别记录，不强认同一案例。"
+        },
+        {
+          "id": "R29",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "68岁、子女趁旅行翻新等是视频具体故事，P027没有相同旅行情节；原来乐山、新增荆门/马鞍山/郴州分别记录，不强认同一案例。"
+        },
+        {
+          "id": "R31",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "68岁、子女趁旅行翻新等是视频具体故事，P027没有相同旅行情节；原来乐山、新增荆门/马鞍山/郴州分别记录，不强认同一案例。"
+        },
+        {
+          "id": "R33",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "68岁、子女趁旅行翻新等是视频具体故事，P027没有相同旅行情节；原来乐山、新增荆门/马鞍山/郴州分别记录，不强认同一案例。"
+        }
+      ],
+      "original_match": {
+        "paragraph_id": "P054",
+        "ratio": 0.7629,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "做梦",
+          "after": "怎么"
+        },
+        {
+          "before": "明白",
+          "after": "到"
+        },
+        {
+          "before": "把",
+          "after": "让"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "仅只",
+          "after": ""
+        },
+        {
+          "before": "了",
+          "after": ""
+        },
+        {
+          "before": "时间",
+          "after": "就"
+        },
+        {
+          "before": "，没有",
+          "after": "了。不用"
+        },
+        {
+          "before": "",
+          "after": "用的"
+        },
+        {
+          "before": "给她使用了",
+          "after": "是"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "7",
+          "after": "，七"
+        },
+        {
+          "before": "",
+          "after": "好一"
+        },
+        {
+          "before": "3",
+          "after": "三"
+        },
+        {
+          "before": "帮",
+          "after": "让"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "做的是",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "升级，",
+          "after": "效果。"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "：“"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "”如果你家也有老卫生间想翻新，可以私信阿明，说说你家的情况。"
+        }
+      ]
+    },
+    {
+      "id": "C25",
+      "paragraph_ids": [
+        "P028"
+      ],
+      "text": "武汉2月26号宣布了重磅消息，家里有退休老人的一定要注意听。在武汉，就认准这个人，他叫阿明，带着一支公认省心省力的老房改造团队。三天翻新墙面，五天改造厨房，一站式服务，包人工、包材料，就连卫生都给你打扫得干干净净，全程不用搬家。如果你刷到了，就点个小爱心，以后肯定能用到。",
+      "family": "同城服务召集",
+      "opening": "武汉2月26号宣布了重磅消息，家里有退休老人的一定要注意听",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "带着一支公认省心省力的老房改造团队。三天翻新墙面，五天改造厨房，一站式服务，包人工、包材料，就连卫生都给你打扫得干干净净，全程不用搬家。如果你刷到了，就点个小爱心，以后肯定能用到。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "趋势/政策/行业判断"
+      ],
+      "analysis_note": "“2月26号宣布重磅消息”无机构、年份和来源；不能从文件继承官方背书。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P056",
+        "ratio": 0.8906,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "是",
+          "after": "带着一支"
+        },
+        {
+          "before": "最",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "翻新"
+        },
+        {
+          "before": "翻新",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "改造"
+        },
+        {
+          "before": "改造",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "的",
+          "after": "得"
+        },
+        {
+          "before": "",
+          "after": "用"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "那",
+          "after": "了，"
+        }
+      ]
+    },
+    {
+      "id": "C26",
+      "paragraph_ids": [
+        "P029"
+      ],
+      "text": "恐怕以后武汉的瓷砖师傅就要失业了。现在越来越多的武汉业主都在找阿明做微陶泥翻新，瓷砖不拆不砸，直接覆盖微陶泥。做完无缝一体，还省下了一大笔拆除和垃圾清运的费用，光人工费就省下好几万。关键是，七天完工就能入住，不仅防霉防潮，还耐磨、耐刮，用上几十年都没问题。如果你也喜欢这种翻新方式，可以给我点个小爱心吗？",
+      "family": "趋势/替代预测",
+      "opening": "恐怕以后武汉的瓷砖师傅就要失业了",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "还省下了一大笔拆除和垃圾清运的费用，光人工费就省下好几万。关键是，七天完工就能入住，不仅防霉防潮，还耐磨、耐刮，用上几十年都没问题。如果你也喜欢这种翻新方式，可以给我点个小爱心吗？",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "长期/性能/环保",
+        "案例/身份/规模",
+        "趋势/政策/行业判断"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [
+        {
+          "id": "R11",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "瓷砖师傅失业/不拆覆盖/七天入住同族"
+        },
+        {
+          "id": "R28",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "苏州老胡瓷砖师傅失业同族，覆盖/成品/费用/7天/性能→点赞；DOCX另有免费方案版本。"
+        }
+      ],
+      "original_match": {
+        "paragraph_id": "P058",
+        "ratio": 0.9474,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "工艺",
+          "after": ""
+        },
+        {
+          "before": "效果",
+          "after": "无缝"
+        },
+        {
+          "before": "无缝",
+          "after": ""
+        },
+        {
+          "before": "搬运",
+          "after": "和"
+        },
+        {
+          "before": "",
+          "after": "清运"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        }
+      ]
+    },
+    {
+      "id": "C27",
+      "paragraph_ids": [
+        "P030"
+      ],
+      "text": "我们在武汉花一万块钱，用三天时间，把老厨房和老卫生间从这样改成这样。叔叔阿姨看到我们的视频后，都在问是不是真的，我们在这里实名承诺：是真的！在我这儿，一万出头就能翻新厨房和卫生间，马桶、花洒、浴室柜、吊顶、墙面、地面全部包含，而且只要48小时，还不用您搬家，边住边改。如果您不相信，帮忙点个小爱心，留下您的需求，我们免费过去帮您看看。",
+      "family": "案例/报价",
+      "opening": "我们在武汉花一万块钱，用三天时间，把老厨房和老卫生间从这样改成这样",
+      "ending_actions": [
+        "点赞",
+        "提供位置/改造需求"
+      ],
+      "ending_excerpt": "出头就能翻新厨房和卫生间，马桶、花洒、浴室柜、吊顶、墙面、地面全部包含，而且只要48小时，还不用您搬家，边住边改。如果您不相信，帮忙点个小爱心，留下您的需求，我们免费过去帮您看看。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "案例/身份/规模",
+        "服务范围/条件"
+      ],
+      "analysis_note": "同条开头3天，主体48小时；厨卫/洁具全包范围与预算要一起确认。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P060",
+        "ratio": 0.8836,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "",
+          "after": "用"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "咱们的",
+          "after": ""
+        },
+        {
+          "before": "还有",
+          "after": "和"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "我们",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "："
+        },
+        {
+          "before": "，",
+          "after": "！"
+        },
+        {
+          "before": "",
+          "after": "儿，"
+        },
+        {
+          "before": "，",
+          "after": "和"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "在里面",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "家"
+        },
+        {
+          "before": "家",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        }
+      ]
+    },
+    {
+      "id": "C28",
+      "paragraph_ids": [
+        "P031"
+      ],
+      "text": "在武汉，没有一个人相信，大家都觉得这是一件不可能完成的事情。我们一位武汉客户100平方米的房子，全屋翻新只花了三天时间，包工包料，一口价，绝不加价。用的材料还是零甲醛、无异味的微陶泥，不需要客户搬家，也不需要客户动手，全程施工没有噪音。我们免费上门量房、出方案。如果您家里也有老房需要翻新，不论大小，我们都免费上门给您看看。",
+      "family": "案例/报价",
+      "opening": "在武汉，没有一个人相信，大家都觉得这是一件不可能完成的事情",
+      "ending_actions": [
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "价。用的材料还是零甲醛、无异味的微陶泥，不需要客户搬家，也不需要客户动手，全程施工没有噪音。我们免费上门量房、出方案。如果您家里也有老房需要翻新，不论大小，我们都免费上门给您看看。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "材料用量/厚度",
+        "长期/性能/环保",
+        "案例/身份/规模",
+        "服务范围/条件"
+      ],
+      "analysis_note": "100㎡全屋3天和无噪音/绝不加价均为个案主张，不是普通成品可证明。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P062",
+        "ratio": 0.8924,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": "在"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "大家都"
+        },
+        {
+          "before": "的",
+          "after": ""
+        },
+        {
+          "before": "个",
+          "after": "位"
+        },
+        {
+          "before": "",
+          "after": "方米"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": ""
+        },
+        {
+          "before": "的",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "免费",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "也"
+        },
+        {
+          "before": "也",
+          "after": ""
+        },
+        {
+          "before": "。",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "，我们"
+        }
+      ]
+    },
+    {
+      "id": "C29",
+      "paragraph_ids": [
+        "P032"
+      ],
+      "text": "再过三个月，你会发现，武汉越来越多的人翻新厨房、卫生间，都在用这个微陶泥了，也叫金刚陶泥。厨卫翻新别再花冤枉钱，不拆不砸，整个卫生间改造只需要三天就可以完成。批刮厚度三到五毫米，耐水、防霉，还省了一大笔拆除费用。关键是无缝一体，效果高级又便宜。如果你也喜欢这种翻新工艺，可以给我点个小爱心吗？",
+      "family": "趋势/替代预测",
+      "opening": "再过三个月，你会发现，武汉越来越多的人翻新厨房、卫生间，都在用这个微陶泥了，也叫金刚陶泥",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "不拆不砸，整个卫生间改造只需要三天就可以完成。批刮厚度三到五毫米，耐水、防霉，还省了一大笔拆除费用。关键是无缝一体，效果高级又便宜。如果你也喜欢这种翻新工艺，可以给我点个小爱心吗？",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "材料用量/厚度",
+        "长期/性能/环保"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [
+        {
+          "id": "R12",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "三个月/工期版本与文档7天条目要分别记"
+        }
+      ],
+      "original_match": {
+        "paragraph_id": "P042",
+        "ratio": 0.8509,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "一两",
+          "after": "三"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "人翻新"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "翻新",
+          "after": "，"
+        },
+        {
+          "before": "流行",
+          "after": "在"
+        },
+        {
+          "before": "",
+          "after": "。厨卫翻新别再花冤枉钱"
+        },
+        {
+          "before": "七",
+          "after": "三"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "厚度"
+        },
+        {
+          "before": "可",
+          "after": "米，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": " ",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": "C30",
+      "paragraph_ids": [
+        "P033"
+      ],
+      "text": "苏州宣布重大计划！2026年，只要家里的老房房龄超过十年，这下就爽了。苏州阿明本地翻新团队带来了新技术，不搬家、不动手、不麻烦子女，全部使用环保材料，翻新完就能入住。施工产生的垃圾全部打包带走，七天时间换新家。只要你顺手给视频点个小爱心，我们的改造团队就免费上门给你出方案。",
+      "family": "同城服务召集",
+      "opening": "苏州宣布重大计划",
+      "ending_actions": [
+        "点赞",
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "了新技术，不搬家、不动手、不麻烦子女，全部使用环保材料，翻新完就能入住。施工产生的垃圾全部打包带走，七天时间换新家。只要你顺手给视频点个小爱心，我们的改造团队就免费上门给你出方案。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "长期/性能/环保",
+        "趋势/政策/行业判断",
+        "服务范围/条件"
+      ],
+      "analysis_note": "“苏州宣布重大计划！2026年”没有原始政策来源，团队服务不是政策证据。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P068",
+        "ratio": 0.9254,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "，",
+          "after": "！"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "",
+          "after": "房龄"
+        },
+        {
+          "before": "的",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "就"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "",
+          "after": "就"
+        }
+      ]
+    },
+    {
+      "id": "C31",
+      "paragraph_ids": [
+        "P034"
+      ],
+      "text": "在武汉，过不了多久，你会看到越来越多的业主翻新都不砸瓷砖了，都在找武汉阿明用不拆不砸的微陶泥工艺翻新。像这样的瓷砖，直接覆盖这款微陶泥，做完无缝一体，不仅防霉防潮，还耐压耐磨。阿明老师的团队提供一站式服务，设计、人工、材料全包。如果您对我们的施工工艺感兴趣，记得给阿明点赞、关注一下。",
+      "family": "趋势/替代预测",
+      "opening": "在武汉，过不了多久，你会看到越来越多的业主翻新都不砸瓷砖了，都在找武汉阿明用不拆不砸的微陶泥工艺翻新",
+      "ending_actions": [
+        "点赞",
+        "关注"
+      ],
+      "ending_excerpt": "这样的瓷砖，直接覆盖这款微陶泥，做完无缝一体，不仅防霉防潮，还耐压耐磨。阿明老师的团队提供一站式服务，设计、人工、材料全包。如果您对我们的施工工艺感兴趣，记得给阿明点赞、关注一下。",
+      "claims_to_verify": [
+        "长期/性能/环保",
+        "案例/身份/规模",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P071",
+        "ratio": 0.9143,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "武汉",
+          "after": ""
+        },
+        {
+          "before": "做",
+          "after": "用"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "",
+          "after": "工艺"
+        },
+        {
+          "before": "工艺",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "效果",
+          "after": "无缝"
+        },
+        {
+          "before": "无缝",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "",
+          "after": "提供"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        }
+      ]
+    },
+    {
+      "id": "C32",
+      "paragraph_ids": [
+        "P035"
+      ],
+      "text": "如果你是武汉的，一定要关注这个人，可能以后对你有用。他是专门在武汉做翻新的，什么翻新需求都能帮你解决。不拆不砸、不搬家、不扰民，用的还是环保材料。在老旧瓷砖上直接覆盖微陶泥，最重要的是，全屋只需要七天，局改只需要三天。如果你也喜欢这种翻新工艺，记得给阿明点赞、关注一下。",
+      "family": "同城服务召集",
+      "opening": "如果你是武汉的，一定要关注这个人，可能以后对你有用",
+      "ending_actions": [
+        "点赞",
+        "关注"
+      ],
+      "ending_excerpt": "能帮你解决。不拆不砸、不搬家、不扰民，用的还是环保材料。在老旧瓷砖上直接覆盖微陶泥，最重要的是，全屋只需要七天，局改只需要三天。如果你也喜欢这种翻新工艺，记得给阿明点赞、关注一下。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "长期/性能/环保",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P073",
+        "ratio": 0.9308,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "你"
+        },
+        {
+          "before": "",
+          "after": "需求"
+        },
+        {
+          "before": "换新",
+          "after": "解决"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "用的还是"
+        },
+        {
+          "before": "",
+          "after": "在"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        }
+      ]
+    },
+    {
+      "id": "C33",
+      "paragraph_ids": [
+        "P036"
+      ],
+      "text": "武汉的朋友们注意看，就是这款材料的出现，改变了整个武汉翻新市场。传统翻新要拆掉瓷砖、地板，重新改水电，费时、费力又费钱。而这款微陶泥，不拆不砸，在老旧瓷砖上直接批刮，墙地一体无缝，效果又高级，再也不用打扫脏兮兮的瓷砖缝。阿明老师的翻新团队，设计、人工、材料全包，三天快速完成，而且真的很便宜。如果你也喜欢这种翻新工艺，可以给我点个小爱心吗？",
+      "family": "工法/问题解释",
+      "opening": "武汉的朋友们注意看，就是这款材料的出现，改变了整个武汉翻新市场",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "批刮，墙地一体无缝，效果又高级，再也不用打扫脏兮兮的瓷砖缝。阿明老师的翻新团队，设计、人工、材料全包，三天快速完成，而且真的很便宜。如果你也喜欢这种翻新工艺，可以给我点个小爱心吗？",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P076",
+        "ratio": 0.9464,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "世",
+          "after": "现"
+        },
+        {
+          "before": "只会",
+          "after": "要"
+        },
+        {
+          "before": "装",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "覆盖",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，效果"
+        },
+        {
+          "before": "",
+          "after": "缝"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        }
+      ]
+    },
+    {
+      "id": "C34",
+      "paragraph_ids": [
+        "P037"
+      ],
+      "text": "再过两个月，你会看到，越来越多的武汉业主都不铺瓷砖了，都在找武汉阿明用这款材料翻新地面。别人家做翻新都是拆瓷砖、砸地板，费用非常高，工期非常长。而他做翻新，不拆不砸、不扰民，直接在瓷砖上批刮两遍微陶泥，三天就能完工。如果你也喜欢阿明的翻新方式，帮我点个免费的小爱心。",
+      "family": "趋势/替代预测",
+      "opening": "再过两个月，你会看到，越来越多的武汉业主都不铺瓷砖了，都在找武汉阿明用这款材料翻新地面",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "。别人家做翻新都是拆瓷砖、砸地板，费用非常高，工期非常长。而他做翻新，不拆不砸、不扰民，直接在瓷砖上批刮两遍微陶泥，三天就能完工。如果你也喜欢阿明的翻新方式，帮我点个免费的小爱心。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "案例/身份/规模",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P078",
+        "ratio": 0.9621,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "直接在"
+        },
+        {
+          "before": "直接",
+          "after": ""
+        },
+        {
+          "before": "一",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": "C35",
+      "paragraph_ids": [
+        "P038"
+      ],
+      "text": "我可能是在武汉被骂得最惨的局改师了，就因为我们不拆不砸，花个几千块钱就能把老旧卫生间从这样改造成这样。很多装修公司都喷我们。其实，我们做这种低价改造，是想让老百姓都能享受到这份便利。三天就能完成厨房、卫生间改造，全程静音不扰民，省了一大笔拆除费，还不用改水电、做防水。微陶泥韧性超高、不开裂，使用20多年都没有问题。点我头像，我来安排。",
+      "family": "人物/价值冲突",
+      "opening": "我可能是在武汉被骂得最惨的局改师了，就因为我们不拆不砸，花个几千块钱就能把老旧卫生间从这样改造成这样",
+      "ending_actions": [
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "老百姓都能享受到这份便利。三天就能完成厨房、卫生间改造，全程静音不扰民，省了一大笔拆除费，还不用改水电、做防水。微陶泥韧性超高、不开裂，使用20多年都没有问题。点我头像，我来安排。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "长期/性能/环保",
+        "服务范围/条件"
+      ],
+      "analysis_note": "含不用改水电、做防水；基层/渗漏适用条件未提供，不能由不拆砸推导。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P080",
+        "ratio": 0.9091,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "的",
+          "after": "得"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "我们带来的",
+          "after": "这份"
+        },
+        {
+          "before": "3",
+          "after": "三"
+        },
+        {
+          "before": "改造一个",
+          "after": "完成"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "改造"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "微陶泥"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "，"
+        }
+      ]
+    },
+    {
+      "id": "C36",
+      "paragraph_ids": [
+        "P039"
+      ],
+      "text": "我估计，以后武汉家家户户都没人找装修公司了。你没有听错，我们的团队最快三天就能完成厨卫改造。这是我们的微陶泥，一桶25公斤，可以批刮20平方米。不拆不砸，瓷砖或毛坯基层上都可以直接批刮。不用搬家，边住边改造。我们已经服务了武汉上千家客户，从量房到完工，一站式服务，关键是材料无甲醛、无异味。如果你刚好有需要，后台联系我，我亲自为你安排。",
+      "family": "趋势/替代预测",
+      "opening": "我估计，以后武汉家家户户都没人找装修公司了",
+      "ending_actions": [
+        "私信/后台咨询"
+      ],
+      "ending_excerpt": "砖或毛坯基层上都可以直接批刮。不用搬家，边住边改造。我们已经服务了武汉上千家客户，从量房到完工，一站式服务，关键是材料无甲醛、无异味。如果你刚好有需要，后台联系我，我亲自为你安排。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "材料用量/厚度",
+        "长期/性能/环保",
+        "案例/身份/规模",
+        "趋势/政策/行业判断"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P082",
+        "ratio": 0.9202,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "的",
+          "after": ""
+        },
+        {
+          "before": "3",
+          "after": "三"
+        },
+        {
+          "before": "",
+          "after": "我们的微陶泥，"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "个",
+          "after": ""
+        },
+        {
+          "before": "的微陶泥，",
+          "after": "米。"
+        },
+        {
+          "before": "",
+          "after": "或"
+        },
+        {
+          "before": "",
+          "after": "基层上都"
+        },
+        {
+          "before": "",
+          "after": "，"
+        }
+      ]
+    },
+    {
+      "id": "C37",
+      "paragraph_ids": [
+        "P040"
+      ],
+      "text": "瓷砖改造，不用铲掉旧瓷砖。这是可以找平瓷砖缝隙的材料，叫金刚陶泥。在武汉，它主要用于旧房改造和卫生间翻新，不拆不砸，直接批刮两遍就能成型。绿色环保、无甲醛，三天旧貌换新颜，最主要的是省钱又省心。需要翻新的朋友可以找武汉阿明。",
+      "family": "工法/问题解释",
+      "opening": "瓷砖改造，不用铲掉旧瓷砖",
+      "ending_actions": [
+        "找人联系"
+      ],
+      "ending_excerpt": "隙的材料，叫金刚陶泥。在武汉，它主要用于旧房改造和卫生间翻新，不拆不砸，直接批刮两遍就能成型。绿色环保、无甲醛，三天旧貌换新颜，最主要的是省钱又省心。需要翻新的朋友可以找武汉阿明。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "长期/性能/环保"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P084",
+        "ratio": 0.9266,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "旧瓷砖"
+        },
+        {
+          "before": "",
+          "after": "叫"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "可以",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "就能"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "3",
+          "after": "三"
+        }
+      ]
+    },
+    {
+      "id": "C38",
+      "paragraph_ids": [
+        "P041"
+      ],
+      "text": "再过不久，你会发现，武汉家家户户翻新地面都不会再砸瓷砖了，都在找武汉阿明。不拆不砸，七天时间打造无缝一体的极简风，不仅省去了踢脚线，还不用再清理瓷砖缝隙。老旧卫浴空间一样可以改造，耐水、防霉、硬度高。如果你也喜欢这种工艺，请帮我点个免费的小爱心。",
+      "family": "趋势/替代预测",
+      "opening": "再过不久，你会发现，武汉家家户户翻新地面都不会再砸瓷砖了，都在找武汉阿明",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "汉阿明。不拆不砸，七天时间打造无缝一体的极简风，不仅省去了踢脚线，还不用再清理瓷砖缝隙。老旧卫浴空间一样可以改造，耐水、防霉、硬度高。如果你也喜欢这种工艺，请帮我点个免费的小爱心。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "长期/性能/环保",
+        "趋势/政策/行业判断",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P086",
+        "ratio": 0.9378,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "翻新"
+        },
+        {
+          "before": "翻新",
+          "after": ""
+        },
+        {
+          "before": "7",
+          "after": "七"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "空间"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        }
+      ]
+    },
+    {
+      "id": "C39",
+      "paragraph_ids": [
+        "P042"
+      ],
+      "text": "为了在翻新时省下几万块钱，我全屋都用了微陶泥。现在武汉翻新不拆不砸，在老旧瓷砖上直接覆盖这款微陶泥，不仅省下一大笔钱，效率还超快，三天就能完成。它硬度高、不开裂、持久耐用，日常也很好清理。我是武汉阿明，留下你的地址，交给我来完成。",
+      "family": "人物/价值冲突",
+      "opening": "为了在翻新时省下几万块钱，我全屋都用了微陶泥",
+      "ending_actions": [
+        "提供位置/改造需求",
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "武汉翻新不拆不砸，在老旧瓷砖上直接覆盖这款微陶泥，不仅省下一大笔钱，效率还超快，三天就能完成。它硬度高、不开裂、持久耐用，日常也很好清理。我是武汉阿明，留下你的地址，交给我来完成。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "长期/性能/环保"
+      ],
+      "analysis_note": "以业主全屋亲历开头，落到“我是武汉阿明”；需明确口播主体和案例来源。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P088",
+        "ratio": 0.8435,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": "为了在"
+        },
+        {
+          "before": "为了",
+          "after": "时"
+        },
+        {
+          "before": "",
+          "after": "钱"
+        },
+        {
+          "before": "通刷",
+          "after": "都用"
+        },
+        {
+          "before": "",
+          "after": "下"
+        },
+        {
+          "before": "3",
+          "after": "三"
+        },
+        {
+          "before": "快速解决，且",
+          "after": "就能完成。它"
+        },
+        {
+          "before": "超",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "清洁还",
+          "after": "也"
+        }
+      ]
+    },
+    {
+      "id": "C40",
+      "paragraph_ids": [
+        "P043"
+      ],
+      "text": "现在在武汉，墙面、地面翻新都不刷乳胶漆、不铺地砖了，都找武汉阿明做微陶泥翻新。做出来的效果墙地一体无缝，不仅防霉防潮，还耐压耐磨，您家的老旧卫浴空间一样可以翻新覆盖。阿明老师的团队提供一站式服务，用上20年都妥妥的。如果您对我们的施工工艺感兴趣，记得给阿明点赞、关注一下。",
+      "family": "趋势/替代预测",
+      "opening": "现在在武汉，墙面、地面翻新都不刷乳胶漆、不铺地砖了，都找武汉阿明做微陶泥翻新",
+      "ending_actions": [
+        "点赞",
+        "关注"
+      ],
+      "ending_excerpt": "地一体无缝，不仅防霉防潮，还耐压耐磨，您家的老旧卫浴空间一样可以翻新覆盖。阿明老师的团队提供一站式服务，用上20年都妥妥的。如果您对我们的施工工艺感兴趣，记得给阿明点赞、关注一下。",
+      "claims_to_verify": [
+        "长期/性能/环保"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P090",
+        "ratio": 0.9167,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "面、"
+        },
+        {
+          "before": "",
+          "after": "不"
+        },
+        {
+          "before": "工艺，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "的效果"
+        },
+        {
+          "before": "的效果",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "空间"
+        },
+        {
+          "before": "",
+          "after": "翻新"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "",
+          "after": "提供"
+        },
+        {
+          "before": "",
+          "after": "、"
+        }
+      ]
+    },
+    {
+      "id": "C41",
+      "paragraph_ids": [
+        "P044"
+      ],
+      "text": "现在没人买几十块钱一片的瓷砖了，都在用这种微陶泥，一桶五十斤，可以批刮十五平方米。不管是新房装修，还是旧房翻新，只需要滚涂一遍底漆，再批刮两遍微陶泥即可。刮完墙地一体同色，没有卫生死角，怎么刮擦都没有问题，最重要的是抗开裂。如果您对我们的施工工艺感兴趣，记得给阿明点赞、关注一下！",
+      "family": "趋势/替代预测",
+      "opening": "现在没人买几十块钱一片的瓷砖了，都在用这种微陶泥，一桶五十斤，可以批刮十五平方米",
+      "ending_actions": [
+        "点赞",
+        "关注"
+      ],
+      "ending_excerpt": "是旧房翻新，只需要滚涂一遍底漆，再批刮两遍微陶泥即可。刮完墙地一体同色，没有卫生死角，怎么刮擦都没有问题，最重要的是抗开裂。如果您对我们的施工工艺感兴趣，记得给阿明点赞、关注一下！",
+      "claims_to_verify": [
+        "材料用量/厚度",
+        "趋势/政策/行业判断"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P092",
+        "ratio": 0.9091,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "钱"
+        },
+        {
+          "before": "个",
+          "after": "种微陶泥，"
+        },
+        {
+          "before": "",
+          "after": "批"
+        },
+        {
+          "before": "的微陶泥",
+          "after": "方米"
+        },
+        {
+          "before": "",
+          "after": "是"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "披",
+          "after": "再批"
+        },
+        {
+          "before": "并且",
+          "after": ""
+        },
+        {
+          "before": "。",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        }
+      ]
+    },
+    {
+      "id": "C42",
+      "paragraph_ids": [
+        "P045"
+      ],
+      "text": "年前在武汉买了个老破小，听了我老婆的话，全屋都用了微陶泥，我后悔了吗？邻居家有这样的，还有这样的，武汉的老表们，再来看看我家的效果：极简无缝，高级显大。这个叫微陶泥，没有了丑陋的踢脚线，厕所也没有脏脏黄黄的砖缝。打扫轻松又便捷，防滑耐磨，拖地也没有鱼腥味。完工七天就能入住，这你顶得住吗？喜欢这种改造效果的，可以点个赞，也欢迎在评论区聊聊你家的翻新想法。",
+      "family": "第一人称生活体验",
+      "opening": "年前在武汉买了个老破小，听了我老婆的话，全屋都用了微陶泥，我后悔了吗",
+      "ending_actions": [
+        "点赞",
+        "评论/转发"
+      ],
+      "ending_excerpt": "陋的踢脚线，厕所也没有脏脏黄黄的砖缝。打扫轻松又便捷，防滑耐磨，拖地也没有鱼腥味。完工七天就能入住，这你顶得住吗？喜欢这种改造效果的，可以点个赞，也欢迎在评论区聊聊你家的翻新想法。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "长期/性能/环保"
+      ],
+      "analysis_note": "生活体验展示无缝/打扫/入住，以评论想法结尾；不必统一贴强咨询尾巴。",
+      "video_links": [
+        {
+          "id": "R04",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "同为业主生活体验结构，非此条逐字音稿"
+        },
+        {
+          "id": "R09",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "相似生活结构"
+        }
+      ],
+      "original_match": {
+        "paragraph_id": "P094",
+        "ratio": 0.8385,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "通刷",
+          "after": "都用了"
+        },
+        {
+          "before": "当",
+          "after": ""
+        },
+        {
+          "before": "都是",
+          "after": "有"
+        },
+        {
+          "before": "而各位",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "",
+          "after": "们，再"
+        },
+        {
+          "before": "。",
+          "after": "："
+        },
+        {
+          "before": "",
+          "after": "喜欢这种改造效果的，可以点个赞，也欢迎在评论区聊聊你家的翻新想法。"
+        }
+      ]
+    },
+    {
+      "id": "C43",
+      "paragraph_ids": [
+        "P046"
+      ],
+      "text": "说出来不怕你们笑话，我在武汉都快混不下去了。同行都在骂我，就因为我做翻新不需要拆砸。全屋花个两三万，就能把老房子从这样变成这样，完工后无缝一体，耐压又耐磨。厨卫一批一刮，三天焕然一新。采用环保材料，没有科技狠活，有质保、有保障。如果感兴趣，点我头像，留下你的地址，我来安排。",
+      "family": "人物/价值冲突",
+      "opening": "说出来不怕你们笑话，我在武汉都快混不下去了",
+      "ending_actions": [
+        "提供位置/改造需求",
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "三万，就能把老房子从这样变成这样，完工后无缝一体，耐压又耐磨。厨卫一批一刮，三天焕然一新。采用环保材料，没有科技狠活，有质保、有保障。如果感兴趣，点我头像，留下你的地址，我来安排。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "长期/性能/环保",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P096",
+        "ratio": 0.9213,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "  ",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "只是",
+          "after": "就"
+        },
+        {
+          "before": "",
+          "after": "我做翻新"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "后无缝"
+        },
+        {
+          "before": "无缝",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "采用"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        }
+      ]
+    },
+    {
+      "id": "C44",
+      "paragraph_ids": [
+        "P047"
+      ],
+      "text": "他就是武汉翻新界的怪人。别人都是请人来做翻新，而他带着自己的团队亲力亲为，和客户沟通，为客户解决问题。别人想尽办法让你拆砸，哪里能赚钱就拆哪里，而他坚持为客户着想，不拆不砸，三天改好一个卫生间，七天让全屋无缝一体，不让你乱花一笔冤枉钱。他就是武汉做旧房翻新的阿明。有旧房翻新需求的朋友，可以点个关注，需要时再联系阿明。",
+      "family": "人物/价值冲突",
+      "opening": "他就是武汉翻新界的怪人",
+      "ending_actions": [
+        "关注",
+        "找人联系"
+      ],
+      "ending_excerpt": "哪里，而他坚持为客户着想，不拆不砸，三天改好一个卫生间，七天让全屋无缝一体，不让你乱花一笔冤枉钱。他就是武汉做旧房翻新的阿明。有旧房翻新需求的朋友，可以点个关注，需要时再联系阿明。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "案例/身份/规模"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P098",
+        "ratio": 0.8611,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "做"
+        },
+        {
+          "before": "",
+          "after": "钱就"
+        },
+        {
+          "before": "3",
+          "after": "三"
+        },
+        {
+          "before": "套",
+          "after": "个"
+        },
+        {
+          "before": "7",
+          "after": "七"
+        },
+        {
+          "before": "",
+          "after": "让"
+        },
+        {
+          "before": "",
+          "after": "有旧房翻新需求的朋友，可以点个关注，需要时再联系阿明。"
+        }
+      ]
+    },
+    {
+      "id": "C45",
+      "paragraph_ids": [
+        "P048"
+      ],
+      "text": "今天来到黄陂区一位阿姨家做改造，全屋翻新，带上我们的秘密武器——微陶泥。地面瓷砖不拆不砸，用微陶泥直接覆盖，省下一大笔拆除和垃圾清运的费用不是问题。墙地无缝一体，极简又高级，韧性超高，还不开裂，三天就能完成。我是武汉阿明，留下你的地址，现场交给我来安排。",
+      "family": "案例/报价",
+      "opening": "今天来到黄陂区一位阿姨家做改造，全屋翻新，带上我们的秘密武器——微陶泥",
+      "ending_actions": [
+        "提供位置/改造需求",
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "面瓷砖不拆不砸，用微陶泥直接覆盖，省下一大笔拆除和垃圾清运的费用不是问题。墙地无缝一体，极简又高级，韧性超高，还不开裂，三天就能完成。我是武汉阿明，留下你的地址，现场交给我来安排。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "长期/性能/环保",
+        "案例/身份/规模"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P100",
+        "ratio": 0.864,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "了",
+          "after": ""
+        },
+        {
+          "before": "里",
+          "after": "做"
+        },
+        {
+          "before": "直接",
+          "after": "翻新，"
+        },
+        {
+          "before": "黑",
+          "after": "秘密"
+        },
+        {
+          "before": "",
+          "after": "——"
+        },
+        {
+          "before": "上场",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "下"
+        },
+        {
+          "before": "出运",
+          "after": "除和"
+        },
+        {
+          "before": "",
+          "after": "清运的"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "。",
+          "after": "，"
+        },
+        {
+          "before": "快速",
+          "after": "就能"
+        },
+        {
+          "before": "战",
+          "after": "现"
+        },
+        {
+          "before": "请",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": "C46",
+      "paragraph_ids": [
+        "P049"
+      ],
+      "text": "一位在武汉陪女儿读书的女士，买了一套二手学区房，只花了不到五万块钱就爆改了全屋。进门是过时的瓷砖，卫生间发黄，厨房也脏乱不堪。她不想又拆又砸，于是委托阿明老师帮她用微陶泥翻新。没想到，做出来的效果太好看了，无缝一体，美观又实用。油渍、污渍一擦就掉，不仅防霉防潮，还无醛无味，用上20年都妥妥的。从完工到入住，只需要七天。如果你家需要改造，欢迎找阿明。",
+      "family": "案例/报价",
+      "opening": "一位在武汉陪女儿读书的女士，买了一套二手学区房，只花了不到五万块钱就爆改了全屋",
+      "ending_actions": [
+        "找人联系"
+      ],
+      "ending_excerpt": "翻新。没想到，做出来的效果太好看了，无缝一体，美观又实用。油渍、污渍一擦就掉，不仅防霉防潮，还无醛无味，用上20年都妥妥的。从完工到入住，只需要七天。如果你家需要改造，欢迎找阿明。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "长期/性能/环保",
+        "案例/身份/规模"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P102",
+        "ratio": 0.8863,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": "一位"
+        },
+        {
+          "before": "带",
+          "after": "陪"
+        },
+        {
+          "before": "一位",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "一套"
+        },
+        {
+          "before": "",
+          "after": "块钱就"
+        },
+        {
+          "before": "",
+          "after": "了"
+        },
+        {
+          "before": "",
+          "after": "是"
+        },
+        {
+          "before": "发黄的",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "发黄"
+        },
+        {
+          "before": "是",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "她"
+        },
+        {
+          "before": "做",
+          "after": "用"
+        },
+        {
+          "before": "工艺",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "无缝"
+        },
+        {
+          "before": "无缝",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "并且",
+          "after": "还"
+        },
+        {
+          "before": "",
+          "after": "从"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "7",
+          "after": "七"
+        }
+      ]
+    },
+    {
+      "id": "C47",
+      "paragraph_ids": [
+        "P050",
+        "P051"
+      ],
+      "text": "在武汉有老房的朋友注意了，武汉出现了一支最省心的旧房翻新团队，几千到几万块钱就能改造，最快72小时完成翻新，全屋翻新七天完成。墙面翻新、地面翻新、橱柜翻新、家具保护、拆旧安装、垃圾清运全包，不花冤枉钱。\n如果你刷到这条视频并且感兴趣，点我头像，留下你的地址，我来安排。",
+      "family": "同城服务召集",
+      "opening": "在武汉有老房的朋友注意了，武汉出现了一支最省心的旧房翻新团队，几千到几万块钱就能改造，最快72小时完成翻新，全屋翻新七天完成",
+      "ending_actions": [
+        "提供位置/改造需求",
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "快72小时完成翻新，全屋翻新七天完成。墙面翻新、地面翻新、橱柜翻新、家具保护、拆旧安装、垃圾清运全包，不花冤枉钱。\n如果你刷到这条视频并且感兴趣，点我头像，留下你的地址，我来安排。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "服务范围/条件"
+      ],
+      "analysis_note": "P051是此条结尾而非新文案；同条72小时与全屋7天通过范围区分，制作也要保持范围。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P104",
+        "ratio": 0.7556,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "朋友"
+        },
+        {
+          "before": "冒",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "现"
+        },
+        {
+          "before": "",
+          "after": "到"
+        },
+        {
+          "before": "",
+          "after": "块钱"
+        },
+        {
+          "before": "",
+          "after": "完成翻新"
+        },
+        {
+          "before": "7天",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "七天完成。"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "\n如果你刷到这条视频并且感兴趣，点我头像，留下你的地址，我来安排。"
+        }
+      ]
+    },
+    {
+      "id": "C48",
+      "paragraph_ids": [
+        "P052"
+      ],
+      "text": "难道武汉人都发现良心局改师阿明了吗？厨卫改造都找他。听说他在武汉一年改造上千个卫生间，施工细节那是没话说。最重要的是，不拆不砸、不搬家，全程静音不扰民。整个卫生间改造只需要三天就能完成，从上门量房到搬运家具、批刮清洁、垃圾打包，全程不用你动手，而且设计、人工、材料全包，一站式服务。翻新完的卫生间极简又高级，而且真的很便宜。如果你也喜欢这种翻新工艺，请给阿明点个免费的小爱心。",
+      "family": "人物/价值冲突",
+      "opening": "难道武汉人都发现良心局改师阿明了吗",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "到搬运家具、批刮清洁、垃圾打包，全程不用你动手，而且设计、人工、材料全包，一站式服务。翻新完的卫生间极简又高级，而且真的很便宜。如果你也喜欢这种翻新工艺，请给阿明点个免费的小爱心。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "案例/身份/规模",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P107",
+        "ratio": 0.9681,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "  ",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "3",
+          "after": "三"
+        },
+        {
+          "before": "",
+          "after": "你"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "全程",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": "C49",
+      "paragraph_ids": [
+        "P053"
+      ],
+      "text": "为什么劝大家装修不要找熟人？其实翻新也是一样的。最近武汉出现了一支快速翻新的改造团队，从进门、拆除、施工到最后完工，全程一站式服务，省时又省心。怎么省钱就怎么装。像厨房、卫生间的瓷砖，都不需要拆砸，直接批刮两遍微陶泥，三天就能完工。如果你也喜欢这种快装材料，又不想找熟人，可以找阿明。",
+      "family": "工法/问题解释",
+      "opening": "为什么劝大家装修不要找熟人",
+      "ending_actions": [
+        "找人联系"
+      ],
+      "ending_excerpt": "到最后完工，全程一站式服务，省时又省心。怎么省钱就怎么装。像厨房、卫生间的瓷砖，都不需要拆砸，直接批刮两遍微陶泥，三天就能完工。如果你也喜欢这种快装材料，又不想找熟人，可以找阿明。",
+      "claims_to_verify": [
+        "工期/使用时间"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P110",
+        "ratio": 0.9541,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "到",
+          "after": "、"
+        },
+        {
+          "before": "到",
+          "after": "、"
+        },
+        {
+          "before": "的",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "就"
+        },
+        {
+          "before": "？",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "3",
+          "after": "三"
+        }
+      ]
+    },
+    {
+      "id": "C50",
+      "paragraph_ids": [
+        "P054"
+      ],
+      "text": "恐怕以后武汉的瓷砖师傅要失业了。现在越来越多的武汉业主都在找阿明做微陶泥翻新。瓷砖不拆不砸，直接覆盖微陶泥，做完无缝一体，还省下了一大笔拆除和垃圾清运的费用。关键是，七天完工就能入住，不仅防霉、防潮，还耐磨、耐压，用上几十年都没有问题。如果你也喜欢这种翻新工艺，阿明免费帮您出方案。",
+      "family": "趋势/替代预测",
+      "opening": "恐怕以后武汉的瓷砖师傅要失业了",
+      "ending_actions": [
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "陶泥，做完无缝一体，还省下了一大笔拆除和垃圾清运的费用。关键是，七天完工就能入住，不仅防霉、防潮，还耐磨、耐压，用上几十年都没有问题。如果你也喜欢这种翻新工艺，阿明免费帮您出方案。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "长期/性能/环保",
+        "案例/身份/规模",
+        "趋势/政策/行业判断",
+        "服务范围/条件"
+      ],
+      "analysis_note": "与P029/P064同开头，但结尾从点赞改成免费出方案，说明收口可按目标替换。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P112",
+        "ratio": 0.9504,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": ""
+        },
+        {
+          "before": "效果",
+          "after": "无缝"
+        },
+        {
+          "before": "无缝",
+          "after": ""
+        },
+        {
+          "before": "运",
+          "after": "和"
+        },
+        {
+          "before": "",
+          "after": "清运"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "，"
+        }
+      ]
+    },
+    {
+      "id": "C51",
+      "paragraph_ids": [
+        "P055"
+      ],
+      "text": "他就是武汉最抠门的局改师，在武汉组建了一支人人都能消费得起的旧房改造团队。别人做旧房翻新，都是想尽办法让你花钱，但他却想尽办法让你省钱。比如地面老旧，或是不喜欢浴室的瓷砖，他都会选用微陶泥翻新技术，省去拆除及相应的人工费用，绝不让你花一分冤枉钱。最重要的是，全屋只需要七天，局改只需要三天。做完不仅耐压耐磨，而且油渍、污渍一擦就掉，无醛无味，还防霉，边住边施工都没问题。我们阿明团队提供一站式服务，不让你乱花一笔冤枉钱。如果你也想省心翻新，可以点我头像，私信告诉我你想改造的地方。",
+      "family": "人物/价值冲突",
+      "opening": "他就是武汉最抠门的局改师，在武汉组建了一支人人都能消费得起的旧房改造团队",
+      "ending_actions": [
+        "私信/后台咨询",
+        "提供位置/改造需求"
+      ],
+      "ending_excerpt": "压耐磨，而且油渍、污渍一擦就掉，无醛无味，还防霉，边住边施工都没问题。我们阿明团队提供一站式服务，不让你乱花一笔冤枉钱。如果你也想省心翻新，可以点我头像，私信告诉我你想改造的地方。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "长期/性能/环保"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P114",
+        "ratio": 0.8462,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "。",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "、浴室瓷砖",
+          "after": "，或是"
+        },
+        {
+          "before": "",
+          "after": "浴室的瓷砖"
+        },
+        {
+          "before": "不需要",
+          "after": "省去"
+        },
+        {
+          "before": "以",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "相应的"
+        },
+        {
+          "before": "",
+          "after": "让你"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "的效果",
+          "after": ""
+        },
+        {
+          "before": "并",
+          "after": "而"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "提供"
+        },
+        {
+          "before": "",
+          "after": "如果你也想省心翻新，可以点我头像，私信告诉我你想改造的地方。"
+        }
+      ]
+    },
+    {
+      "id": "C52",
+      "paragraph_ids": [
+        "P056"
+      ],
+      "text": "今天在硚口区，花不到两万块钱，帮粉丝家的卫生间从这样变成这样，你们觉得值不值？为什么我劝你别找熟人装修，我就不多说了。现在武汉出现了一支专业的翻新团队，不需要砸瓷砖，也不用久等工期，直接在老旧瓷砖上批刮两遍微陶泥。不仅省下一大笔拆除费，效率还超快，一个星期就能完成。它硬度高、不开裂、持久耐用，日常也很好清理。我是武汉阿明，留下你的地址，交给我来完成。",
+      "family": "案例/报价",
+      "opening": "今天在硚口区，花不到两万块钱，帮粉丝家的卫生间从这样变成这样，你们觉得值不值",
+      "ending_actions": [
+        "提供位置/改造需求",
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "久等工期，直接在老旧瓷砖上批刮两遍微陶泥。不仅省下一大笔拆除费，效率还超快，一个星期就能完成。它硬度高、不开裂、持久耐用，日常也很好清理。我是武汉阿明，留下你的地址，交给我来完成。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "长期/性能/环保"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P118",
+        "ratio": 0.906,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "？"
+        },
+        {
+          "before": "了",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "久"
+        },
+        {
+          "before": "",
+          "after": "直接"
+        },
+        {
+          "before": "直接",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "微陶泥。"
+        },
+        {
+          "before": "",
+          "after": "下"
+        },
+        {
+          "before": "解决，而且",
+          "after": "完成。它"
+        },
+        {
+          "before": "超",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "清洁还",
+          "after": "也"
+        }
+      ]
+    },
+    {
+      "id": "C53",
+      "paragraph_ids": [
+        "P057"
+      ],
+      "text": "不到两万块钱，翻新一个厨房和一个卫生间。大家好，我叫阿明。在武汉，如果想做快改，就来找我阿明老师的团队。两天可以改造一个老厨房，三天可以换新一个卫生间。设计、人工、材料全包，不拆不砸、不扰民，不仅价格亲民，改完还很漂亮。带你们看看改好的案例，有需要找我阿明，我火速到达。",
+      "family": "案例/报价",
+      "opening": "不到两万块钱，翻新一个厨房和一个卫生间",
+      "ending_actions": [
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "明老师的团队。两天可以改造一个老厨房，三天可以换新一个卫生间。设计、人工、材料全包，不拆不砸、不扰民，不仅价格亲民，改完还很漂亮。带你们看看改好的案例，有需要找我阿明，我火速到达。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P121",
+        "ratio": 0.9071,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "一个"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "请",
+          "after": ""
+        },
+        {
+          "before": "，因为",
+          "after": "。"
+        },
+        {
+          "before": "时间",
+          "after": ""
+        },
+        {
+          "before": "3",
+          "after": "三"
+        },
+        {
+          "before": "时间",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "一个"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "而且",
+          "after": "改完"
+        }
+      ]
+    },
+    {
+      "id": "C54",
+      "paragraph_ids": [
+        "P058"
+      ],
+      "text": "在武汉，用七天时间、两万元的预算，把业主的家从这样变成这样。老旧的瓷砖、发霉的墙面，只需要覆盖上这款微陶泥，不拆不砸，就可以打造墙面、地面无缝一体的效果。不仅防霉防潮，还耐压耐磨。如果你也喜欢这种工艺，点击头像，告诉我你在哪个小区，阿明马上安排。",
+      "family": "案例/报价",
+      "opening": "在武汉，用七天时间、两万元的预算，把业主的家从这样变成这样",
+      "ending_actions": [
+        "提供位置/改造需求",
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "瓷砖、发霉的墙面，只需要覆盖上这款微陶泥，不拆不砸，就可以打造墙面、地面无缝一体的效果。不仅防霉防潮，还耐压耐磨。如果你也喜欢这种工艺，点击头像，告诉我你在哪个小区，阿明马上安排。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "长期/性能/环保",
+        "案例/身份/规模"
+      ],
+      "analysis_note": "与P070主体完全相同，结尾分别头像/小区/安排和点赞，适合明确同主体结尾对照。",
+      "video_links": [
+        {
+          "id": "R15",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "绵阳价格/效果呈现同族"
+        },
+        {
+          "id": "R21",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "武汉同族"
+        }
+      ],
+      "original_match": {
+        "paragraph_id": "P124",
+        "ratio": 0.918,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "7",
+          "after": "，用七"
+        },
+        {
+          "before": "的",
+          "after": ""
+        },
+        {
+          "before": "，2",
+          "after": "、两"
+        },
+        {
+          "before": "",
+          "after": "元"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "淘",
+          "after": "陶"
+        },
+        {
+          "before": "做到",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "一体"
+        }
+      ]
+    },
+    {
+      "id": "C55",
+      "paragraph_ids": [
+        "P059"
+      ],
+      "text": "我可能是在武汉被骂得最惨的局改师了，就因为我们不拆不砸，花几万块钱就能把老旧卫生间从这样改造成这样。很多装修公司都喷我们，说这样的活也去接。其实，我们做这种低价改造，是想让老百姓都能享受到这份便利。三天就能完成厨房、卫生间改造，全程静音不扰民，省了一大笔拆除费。微陶泥韧性超高、不开裂，使用二十多年都没有问题。点我头像，我来安排。",
+      "family": "人物/价值冲突",
+      "opening": "我可能是在武汉被骂得最惨的局改师了，就因为我们不拆不砸，花几万块钱就能把老旧卫生间从这样改造成这样",
+      "ending_actions": [
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "做这种低价改造，是想让老百姓都能享受到这份便利。三天就能完成厨房、卫生间改造，全程静音不扰民，省了一大笔拆除费。微陶泥韧性超高、不开裂，使用二十多年都没有问题。点我头像，我来安排。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "长期/性能/环保",
+        "服务范围/条件"
+      ],
+      "analysis_note": "与P038为冲突同族，但低价写几万而P038几千；删去了不用做防水，不能合并成标准口径。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P127",
+        "ratio": 0.9235,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "的",
+          "after": "得"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "我们带来的",
+          "after": "这份"
+        },
+        {
+          "before": "改造一个",
+          "after": "完成"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "改造"
+        },
+        {
+          "before": "",
+          "after": "微陶泥"
+        },
+        {
+          "before": "",
+          "after": "、"
+        }
+      ]
+    },
+    {
+      "id": "C56",
+      "paragraph_ids": [
+        "P060"
+      ],
+      "text": "卫生间真的不要过度翻新了，否则会浪费很多钱。如果想省钱，又想效果高级，那就找我武汉阿明。四平方米的卫生间翻新，不到一万块钱，省了拆砸费，还不用买新瓷砖，直接在老旧瓷砖上批刮不会开裂的微陶泥。三天翻新一个极简风卫生间，耐水、防霉、硬度高，再也不用打扫脏脏黄黄的瓷砖缝。武汉翻新找阿明，不拆不砸、不扰民。留下你的地址，我来安排。",
+      "family": "工法/问题解释",
+      "opening": "卫生间真的不要过度翻新了，否则会浪费很多钱",
+      "ending_actions": [
+        "提供位置/改造需求",
+        "服务/方案承诺",
+        "找人联系"
+      ],
+      "ending_excerpt": "新瓷砖，直接在老旧瓷砖上批刮不会开裂的微陶泥。三天翻新一个极简风卫生间，耐水、防霉、硬度高，再也不用打扫脏脏黄黄的瓷砖缝。武汉翻新找阿明，不拆不砸、不扰民。留下你的地址，我来安排。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "材料用量/厚度",
+        "长期/性能/环保",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P129",
+        "ratio": 0.9245,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "真的",
+          "after": ""
+        },
+        {
+          "before": "还要",
+          "after": "，又想效果"
+        },
+        {
+          "before": "4",
+          "after": "四"
+        },
+        {
+          "before": "",
+          "after": "米"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "钱"
+        },
+        {
+          "before": "的",
+          "after": ""
+        },
+        {
+          "before": "3",
+          "after": "三"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        }
+      ]
+    },
+    {
+      "id": "C57",
+      "paragraph_ids": [
+        "P061"
+      ],
+      "text": "为什么卫生间、淋浴房翻新改造不用瓷砖了？因为费时、费力又费钱。来看这款微陶泥，直接在瓷砖上批刮两遍，再也不用打扫脏脏黄黄的瓷砖缝。瓷砖不拆不砸，覆盖两遍微陶泥，三天打造极简风。最主要的是，阿明全程提供一站式服务，省事、省钱又省心。如果喜欢我的翻新方式，请帮我点个免费的小爱心。",
+      "family": "工法/问题解释",
+      "opening": "为什么卫生间、淋浴房翻新改造不用瓷砖了",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "遍，再也不用打扫脏脏黄黄的瓷砖缝。瓷砖不拆不砸，覆盖两遍微陶泥，三天打造极简风。最主要的是，阿明全程提供一站式服务，省事、省钱又省心。如果喜欢我的翻新方式，请帮我点个免费的小爱心。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P131",
+        "ratio": 0.9309,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "  ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "了"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "边就是这",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "直接在"
+        },
+        {
+          "before": "了",
+          "after": ""
+        },
+        {
+          "before": "直接",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "提供"
+        },
+        {
+          "before": "",
+          "after": "、"
+        }
+      ]
+    },
+    {
+      "id": "C58",
+      "paragraph_ids": [
+        "P062"
+      ],
+      "text": "现在在武汉，翻新一个卫生间真的太简单了。不拆不砸，只需要三天就能完成。在原来的老旧瓷砖上直接覆盖这款微陶泥，不仅省时省力，还省了一大笔拆除和垃圾清运的费用。刮完的墙面、地面高级又整洁，韧性超高、不开裂，耐磨、耐刮擦。采用环保材料，无甲醛、无VOC，三天完工即可使用。有需要请直接找武汉阿明。",
+      "family": "工法/问题解释",
+      "opening": "现在在武汉，翻新一个卫生间真的太简单了",
+      "ending_actions": [
+        "找人联系"
+      ],
+      "ending_excerpt": "仅省时省力，还省了一大笔拆除和垃圾清运的费用。刮完的墙面、地面高级又整洁，韧性超高、不开裂，耐磨、耐刮擦。采用环保材料，无甲醛、无VOC，三天完工即可使用。有需要请直接找武汉阿明。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "长期/性能/环保"
+      ],
+      "analysis_note": "P012的缩短版本，咨询仍指向阿明；文案完整不代表音轨已核实。",
+      "video_links": [
+        {
+          "id": "R18",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "完整过程和找阿明结尾同族，P012/P062不同版本"
+        }
+      ],
+      "original_match": {
+        "paragraph_id": "P134",
+        "ratio": 0.8711,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "  ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "在"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "快速翻新",
+          "after": "完成"
+        },
+        {
+          "before": "而且",
+          "after": ""
+        },
+        {
+          "before": "堆",
+          "after": "笔"
+        },
+        {
+          "before": "扔",
+          "after": "和"
+        },
+        {
+          "before": "",
+          "after": "清运"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "、",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。采用"
+        },
+        {
+          "before": "voc。",
+          "after": "VOC，"
+        }
+      ]
+    },
+    {
+      "id": "C59",
+      "paragraph_ids": [
+        "P063"
+      ],
+      "text": "要是武汉早有这种好东西，谁还会刮腻子、贴瓷砖？传统换地板又拆又砸，还得搬出去住酒店，光人工费就要好几万。如今，武汉业主都找阿明用这种陶泥翻新厨房、卫生间。原基层不拆不砸，批刮两遍我们的微陶泥，做完无缝一体，不仅防霉防潮，还耐压耐磨。装完直接将家具复位，阿明老师的团队提供一站式服务。如果您对我们的施工工艺感兴趣，记得给阿明点赞、关注一下。",
+      "family": "工法/问题解释",
+      "opening": "要是武汉早有这种好东西，谁还会刮腻子、贴瓷砖",
+      "ending_actions": [
+        "点赞",
+        "关注"
+      ],
+      "ending_excerpt": "层不拆不砸，批刮两遍我们的微陶泥，做完无缝一体，不仅防霉防潮，还耐压耐磨。装完直接将家具复位，阿明老师的团队提供一站式服务。如果您对我们的施工工艺感兴趣，记得给阿明点赞、关注一下。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "长期/性能/环保",
+        "案例/身份/规模"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P136",
+        "ratio": 0.9313,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "发明",
+          "after": "有"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "效果",
+          "after": "无缝"
+        },
+        {
+          "before": "无缝",
+          "after": ""
+        },
+        {
+          "before": "。",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "",
+          "after": "提供"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "、"
+        }
+      ]
+    },
+    {
+      "id": "C60",
+      "paragraph_ids": [
+        "P064"
+      ],
+      "text": "恐怕以后武汉的瓷砖师傅就要失业了。现在越来越多的武汉业主都在找阿明做微陶泥翻新，瓷砖不拆不砸，直接覆盖微陶泥。做完无缝一体，还省下了一大笔拆除和垃圾清运的费用。关键是，七天完工就能入住，不仅防霉防潮，还耐磨、耐刮，用上几十年都没问题。如果你也喜欢这种翻新工艺，可以给阿明点个小爱心吗？",
+      "family": "趋势/替代预测",
+      "opening": "恐怕以后武汉的瓷砖师傅就要失业了",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "陶泥。做完无缝一体，还省下了一大笔拆除和垃圾清运的费用。关键是，七天完工就能入住，不仅防霉防潮，还耐磨、耐刮，用上几十年都没问题。如果你也喜欢这种翻新工艺，可以给阿明点个小爱心吗？",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "长期/性能/环保",
+        "案例/身份/规模",
+        "趋势/政策/行业判断"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [
+        {
+          "id": "R11",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "行业冲突同族，文案另有免费方案版本"
+        }
+      ],
+      "original_match": {
+        "paragraph_id": "P138",
+        "ratio": 0.9404,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "工艺",
+          "after": ""
+        },
+        {
+          "before": "效果",
+          "after": "无缝"
+        },
+        {
+          "before": "无缝",
+          "after": ""
+        },
+        {
+          "before": "运",
+          "after": "和"
+        },
+        {
+          "before": "",
+          "after": "清运"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "、",
+          "after": "，"
+        }
+      ]
+    },
+    {
+      "id": "C61",
+      "paragraph_ids": [
+        "P065"
+      ],
+      "text": "注意看眼前这个人，他就是武汉最“缺心眼”的零零后局改师阿明。别人搞装修都是又拆又砸，想尽办法让你花钱，而他一直都是不拆不砸，想尽办法让你省钱。只需要三天时间就能改造完一个卫生间，七天让全屋无缝一体。在原来的老旧瓷砖上直接批刮微陶泥，刮完的墙面、地面无缝一体，高级又便宜，耐压又耐磨。如果你也喜欢这种翻新工艺，麻烦帮我点个小爱心，我免费帮你出方案。",
+      "family": "人物/价值冲突",
+      "opening": "注意看眼前这个人，他就是武汉最“缺心眼”的零零后局改师阿明",
+      "ending_actions": [
+        "点赞",
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "一个卫生间，七天让全屋无缝一体。在原来的老旧瓷砖上直接批刮微陶泥，刮完的墙面、地面无缝一体，高级又便宜，耐压又耐磨。如果你也喜欢这种翻新工艺，麻烦帮我点个小爱心，我免费帮你出方案。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "长期/性能/环保",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P140",
+        "ratio": 0.9054,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "\"",
+          "after": "“"
+        },
+        {
+          "before": "\"",
+          "after": "”"
+        },
+        {
+          "before": "00",
+          "after": "零零"
+        },
+        {
+          "before": "武汉",
+          "after": ""
+        },
+        {
+          "before": "3",
+          "after": "三"
+        },
+        {
+          "before": "成",
+          "after": ""
+        },
+        {
+          "before": "7",
+          "after": "七"
+        },
+        {
+          "before": "",
+          "after": "让"
+        },
+        {
+          "before": "",
+          "after": "无缝"
+        },
+        {
+          "before": "无缝",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "覆盖",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "面、"
+        },
+        {
+          "before": "",
+          "after": "无缝"
+        },
+        {
+          "before": "无缝",
+          "after": ""
+        },
+        {
+          "before": "完工",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "我"
+        }
+      ]
+    },
+    {
+      "id": "C62",
+      "paragraph_ids": [
+        "P066"
+      ],
+      "text": "在武汉，过不了多久你会看到，越来越多的业主翻新都不砸瓷砖了，都在找武汉阿明用不拆不砸的微陶泥工艺翻新。三天可以翻新一个卫生间，两天可以改造一个老厨房，做完无缝一体。阿明老师的团队提供一站式服务，设计、人工、材料我们全包。如果您对我们的施工工艺感兴趣，记得给阿明点赞、关注一下。",
+      "family": "趋势/替代预测",
+      "opening": "在武汉，过不了多久你会看到，越来越多的业主翻新都不砸瓷砖了，都在找武汉阿明用不拆不砸的微陶泥工艺翻新",
+      "ending_actions": [
+        "点赞",
+        "关注"
+      ],
+      "ending_excerpt": "翻新。三天可以翻新一个卫生间，两天可以改造一个老厨房，做完无缝一体。阿明老师的团队提供一站式服务，设计、人工、材料我们全包。如果您对我们的施工工艺感兴趣，记得给阿明点赞、关注一下。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "案例/身份/规模",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P142",
+        "ratio": 0.8881,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "武汉",
+          "after": ""
+        },
+        {
+          "before": "做",
+          "after": "用"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "",
+          "after": "工艺"
+        },
+        {
+          "before": "工艺",
+          "after": ""
+        },
+        {
+          "before": "3",
+          "after": "三"
+        },
+        {
+          "before": "时间",
+          "after": ""
+        },
+        {
+          "before": "2",
+          "after": "两"
+        },
+        {
+          "before": "时间",
+          "after": ""
+        },
+        {
+          "before": "效果",
+          "after": "无缝"
+        },
+        {
+          "before": "无缝",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "",
+          "after": "提供"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        }
+      ]
+    },
+    {
+      "id": "C63",
+      "paragraph_ids": [
+        "P067"
+      ],
+      "text": "其实，旧房翻新不需要花很多时间和钱，也没有大家想象中那么难。以前做旧房翻新，不仅要拆除，还要重新装修、改水电、更换材料，支付高额的人工费用。现在只用花买材料的钱，就能改造墙面、地面。瓷砖不拆不砸，直接覆盖微陶泥，再更换老旧家具，整体呈现无缝一体的效果。不看外观，真不知道这是一套住了二十年的老房子。最主要的是，材料安全环保。在武汉，我们已经翻新了1000套这样的老房子。如果你也喜欢这种翻新工艺，记得给阿明点赞、关注一下。",
+      "family": "工法/问题解释",
+      "opening": "其实，旧房翻新不需要花很多时间和钱，也没有大家想象中那么难",
+      "ending_actions": [
+        "点赞",
+        "关注"
+      ],
+      "ending_excerpt": "体的效果。不看外观，真不知道这是一套住了二十年的老房子。最主要的是，材料安全环保。在武汉，我们已经翻新了1000套这样的老房子。如果你也喜欢这种翻新工艺，记得给阿明点赞、关注一下。",
+      "claims_to_verify": [
+        "长期/性能/环保",
+        "案例/身份/规模",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P144",
+        "ratio": 0.7972,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "大家",
+          "after": ""
+        },
+        {
+          "before": "的",
+          "after": ""
+        },
+        {
+          "before": "跟很多的",
+          "after": "和"
+        },
+        {
+          "before": "而且",
+          "after": "也"
+        },
+        {
+          "before": "的",
+          "after": ""
+        },
+        {
+          "before": "而且",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "和",
+          "after": "，支付"
+        },
+        {
+          "before": "",
+          "after": "，就能"
+        },
+        {
+          "before": "一下",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "面、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "一下",
+          "after": ""
+        },
+        {
+          "before": "的",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "呈现无缝一体的"
+        },
+        {
+          "before": "一体无缝，",
+          "after": "。"
+        },
+        {
+          "before": "面",
+          "after": "观，"
+        },
+        {
+          "before": "是",
+          "after": ""
+        },
+        {
+          "before": "个",
+          "after": "套"
+        },
+        {
+          "before": "而且",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "像",
+          "after": "，我们已经翻新了1000套"
+        },
+        {
+          "before": "已经做了1000家，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "你"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        }
+      ]
+    },
+    {
+      "id": "C64",
+      "paragraph_ids": [
+        "P068"
+      ],
+      "text": "我就是第一个在武汉做微陶泥翻新的局改师阿明。以后武汉所有的卫生间都不用贴瓷砖了。这是我们的微陶泥，一桶二十五千克，可以批刮二十平方米。不拆不砸，瓷砖或毛坯基层上都可以直接批刮覆盖。四平方米的卫生间，三天即可完成。采用环保材料，无毒无味，完工后就能正常使用。防水又防霉，韧性超高，还不开裂，用上几十年都没问题。如果你也喜欢这种翻新工艺，请给我点个小爱心，我免费上门出方案。",
+      "family": "趋势/替代预测",
+      "opening": "我就是第一个在武汉做微陶泥翻新的局改师阿明",
+      "ending_actions": [
+        "点赞",
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "卫生间，三天即可完成。采用环保材料，无毒无味，完工后就能正常使用。防水又防霉，韧性超高，还不开裂，用上几十年都没问题。如果你也喜欢这种翻新工艺，请给我点个小爱心，我免费上门出方案。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "材料用量/厚度",
+        "长期/性能/环保",
+        "案例/身份/规模",
+        "趋势/政策/行业判断",
+        "服务范围/条件"
+      ],
+      "analysis_note": "25kg/20㎡与P014的25㎡不同，“第一位”也需原始证据。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P146",
+        "ratio": 0.9111,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "我们的微陶泥，"
+        },
+        {
+          "before": "个",
+          "after": ""
+        },
+        {
+          "before": "的微陶泥，",
+          "after": "米。"
+        },
+        {
+          "before": "",
+          "after": "或"
+        },
+        {
+          "before": "",
+          "after": "基层上都"
+        },
+        {
+          "before": "",
+          "after": "批刮"
+        },
+        {
+          "before": "批刮",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "采用"
+        },
+        {
+          "before": "。",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        }
+      ]
+    },
+    {
+      "id": "C65",
+      "paragraph_ids": [
+        "P069"
+      ],
+      "text": "以前在苏州翻新老房子，都是敲瓷砖、铲墙皮，不仅噪音大、扰民，施工时还灰尘满天飞，工期长，预算也一再翻倍。现在苏州出现了一支专业翻新团队，不拆不砸、不搬家，只需把基层清理干净，就能直接在老旧瓷砖上批刮我们的微陶泥。施工厚度三毫米，不影响房门和空间。这样做出来的地面，防水、防滑又耐磨。墙面、地面都能做，无缝一体，高级显大，颜色可以随意定制。厨卫翻新五天就能搞定，无醛、无异味，干透就能入住。苏州有厨卫翻新需求的朋友，可以私信说说你家的情况，我们一起看看怎么改。",
+      "family": "工法/问题解释",
+      "opening": "以前在苏州翻新老房子，都是敲瓷砖、铲墙皮，不仅噪音大、扰民，施工时还灰尘满天飞，工期长，预算也一再翻倍",
+      "ending_actions": [
+        "私信/后台咨询",
+        "提供位置/改造需求"
+      ],
+      "ending_excerpt": "磨。墙面、地面都能做，无缝一体，高级显大，颜色可以随意定制。厨卫翻新五天就能搞定，无醛、无异味，干透就能入住。苏州有厨卫翻新需求的朋友，可以私信说说你家的情况，我们一起看看怎么改。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "材料用量/厚度",
+        "长期/性能/环保",
+        "服务范围/条件"
+      ],
+      "analysis_note": "苏州5天厨卫、3mm/不影响门，区别其他3或7天；材料厚度和门缝不是旁白一说就成立。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P149",
+        "ratio": 0.8107,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "",
+          "after": "在"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "还",
+          "after": "、"
+        },
+        {
+          "before": "起来",
+          "after": "时还"
+        },
+        {
+          "before": "还",
+          "after": ""
+        },
+        {
+          "before": "是",
+          "after": ""
+        },
+        {
+          "before": "翻",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "倍"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "打扫",
+          "after": "把基层清理"
+        },
+        {
+          "before": "卫生",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "就能"
+        },
+        {
+          "before": "3",
+          "after": "三"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "面、"
+        },
+        {
+          "before": "通刷",
+          "after": "都能做"
+        },
+        {
+          "before": "",
+          "after": "可以"
+        },
+        {
+          "before": "便",
+          "after": "意"
+        },
+        {
+          "before": "5",
+          "after": "五"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "苏州有厨卫翻新需求的朋友，可以私信说说你家的情况，我们一起看看怎么改。"
+        }
+      ]
+    },
+    {
+      "id": "C66",
+      "paragraph_ids": [
+        "P070"
+      ],
+      "text": "在武汉，用七天时间、两万元的预算，把业主的家从这样变成这样。老旧的瓷砖、发霉的墙面，只需要覆盖上这款微陶泥，不拆不砸，就可以打造墙面、地面无缝一体的效果。不仅防霉防潮，还耐压耐磨。如果你也喜欢这种工艺，请帮武汉阿明点个免费的小爱心。",
+      "family": "案例/报价",
+      "opening": "在武汉，用七天时间、两万元的预算，把业主的家从这样变成这样",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "成这样。老旧的瓷砖、发霉的墙面，只需要覆盖上这款微陶泥，不拆不砸，就可以打造墙面、地面无缝一体的效果。不仅防霉防潮，还耐压耐磨。如果你也喜欢这种工艺，请帮武汉阿明点个免费的小爱心。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "工期/使用时间",
+        "长期/性能/环保",
+        "案例/身份/规模",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [
+        {
+          "id": "R21",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "同族主体，结尾与P058不同"
+        }
+      ],
+      "original_match": {
+        "paragraph_id": "P153",
+        "ratio": 0.9043,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "7",
+          "after": "，用七"
+        },
+        {
+          "before": "的",
+          "after": ""
+        },
+        {
+          "before": "，2",
+          "after": "、两"
+        },
+        {
+          "before": "",
+          "after": "元"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "做到",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "一体"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": " ",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": "C67",
+      "paragraph_ids": [
+        "P071"
+      ],
+      "text": "不到一万块钱，翻新一个厨房和一个卫生间。大家好，我是在武汉做旧房翻新的阿明。用了多年的旧瓷砖，如何在不拆不砸的基础上翻新改造？看过来，可以用这款新材料——微陶泥。不拆不砸，直接在瓷砖表面批刮两遍，整体无缝，防水防潮，还有多种颜色可选，最适合做卫生间翻新。如果你家的卫生间也想翻新，可以私信阿明，聊聊你的改造需求。",
+      "family": "案例/报价",
+      "opening": "不到一万块钱，翻新一个厨房和一个卫生间",
+      "ending_actions": [
+        "私信/后台咨询",
+        "提供位置/改造需求"
+      ],
+      "ending_excerpt": "，可以用这款新材料——微陶泥。不拆不砸，直接在瓷砖表面批刮两遍，整体无缝，防水防潮，还有多种颜色可选，最适合做卫生间翻新。如果你家的卫生间也想翻新，可以私信阿明，聊聊你的改造需求。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "长期/性能/环保",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [
+        {
+          "id": "R01",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "价格开头同族，主体内容不同"
+        }
+      ],
+      "original_match": {
+        "paragraph_id": "P155",
+        "ratio": 0.7973,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "1",
+          "after": "一"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "一个"
+        },
+        {
+          "before": "旧瓷砖如何改造？像这样",
+          "after": ""
+        },
+        {
+          "before": "来",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "——"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "上",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "还有多种"
+        },
+        {
+          "before": "也多样",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "如果你家的卫生间也想翻新，可以私信阿明，聊聊你的改造需求。"
+        }
+      ]
+    },
+    {
+      "id": "C68",
+      "paragraph_ids": [
+        "P072"
+      ],
+      "text": "其实大多数人都错了，旧房翻新可以不拆不砸，但是得选对产品。像发黄、发霉的瓷砖，可以选用微陶泥工艺直接翻新，完工后无缝一体，耐压又耐磨，而且环保无异味，边住边施工都没问题。三天局改焕然一新，七天全屋轻松搞定。阿明团队提供一站式服务，不让你乱花一笔冤枉钱。有翻新打算的朋友，可以先点个关注，想改哪里就私信告诉阿明。",
+      "family": "工法/问题解释",
+      "opening": "其实大多数人都错了，旧房翻新可以不拆不砸，但是得选对产品",
+      "ending_actions": [
+        "关注",
+        "私信/后台咨询",
+        "提供位置/改造需求"
+      ],
+      "ending_excerpt": "磨，而且环保无异味，边住边施工都没问题。三天局改焕然一新，七天全屋轻松搞定。阿明团队提供一站式服务，不让你乱花一笔冤枉钱。有翻新打算的朋友，可以先点个关注，想改哪里就私信告诉阿明。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "长期/性能/环保"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P157",
+        "ratio": 0.8129,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "直接改造",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "可以"
+        },
+        {
+          "before": "",
+          "after": "工艺直接"
+        },
+        {
+          "before": "工艺",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "后无缝"
+        },
+        {
+          "before": "无缝",
+          "after": ""
+        },
+        {
+          "before": "并",
+          "after": "而"
+        },
+        {
+          "before": "",
+          "after": "提供"
+        },
+        {
+          "before": "",
+          "after": "有翻新打算的朋友，可以先点个关注，想改哪里就私信告诉阿明。"
+        }
+      ]
+    },
+    {
+      "id": "C69",
+      "paragraph_ids": [
+        "P073"
+      ],
+      "text": "现在没人买几十块钱一片的瓷砖了，都在用这种金刚泥，一桶五十斤，可以批刮五十平方米。不管是新房装修，还是旧房翻新，只需要滚涂一遍底漆，再批刮两遍金刚泥即可。批刮完的墙壁同色一体，没有卫生死角，怎么刮擦都没有问题，最重要的是抗开裂。如果你对这种材料感兴趣，可以点个关注，想了解怎么用，也可以私信咨询。",
+      "family": "趋势/替代预测",
+      "opening": "现在没人买几十块钱一片的瓷砖了，都在用这种金刚泥，一桶五十斤，可以批刮五十平方米",
+      "ending_actions": [
+        "关注",
+        "私信/后台咨询"
+      ],
+      "ending_excerpt": "要滚涂一遍底漆，再批刮两遍金刚泥即可。批刮完的墙壁同色一体，没有卫生死角，怎么刮擦都没有问题，最重要的是抗开裂。如果你对这种材料感兴趣，可以点个关注，想了解怎么用，也可以私信咨询。",
+      "claims_to_verify": [
+        "材料用量/厚度",
+        "趋势/政策/行业判断"
+      ],
+      "analysis_note": "金刚泥50斤50㎡，区别P044微陶泥50斤15㎡；两者身份未知，不能当同一产品规范。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P159",
+        "ratio": 0.7645,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": "  ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "钱"
+        },
+        {
+          "before": "个",
+          "after": "种金刚泥，"
+        },
+        {
+          "before": "的金刚泥",
+          "after": "方米"
+        },
+        {
+          "before": "",
+          "after": "是"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "再"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "",
+          "after": "同色"
+        },
+        {
+          "before": "同色",
+          "after": ""
+        },
+        {
+          "before": "并且",
+          "after": ""
+        },
+        {
+          "before": "。",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "如果你对这种材料感兴趣，可以点个关注，想了解怎么用，也可以私信咨询。"
+        }
+      ]
+    },
+    {
+      "id": "C70",
+      "paragraph_ids": [
+        "P074",
+        "P075"
+      ],
+      "text": "在武汉，不到8000块钱就可以翻新一个卫生间。传统翻新卫生间又拆又砸，还要改水电。现在武汉业主都找阿明，用这种陶泥翻新厨房、卫生间。原基层不拆不砸，批刮两遍微陶泥，做完无缝一体，不仅防霉防潮，还耐压耐磨，用上20年都妥妥的。\n如果您对我们的施工工艺感兴趣，记得给阿明点赞、关注一下。",
+      "family": "案例/报价",
+      "opening": "在武汉，不到8000块钱就可以翻新一个卫生间",
+      "ending_actions": [
+        "点赞",
+        "关注"
+      ],
+      "ending_excerpt": "，用这种陶泥翻新厨房、卫生间。原基层不拆不砸，批刮两遍微陶泥，做完无缝一体，不仅防霉防潮，还耐压耐磨，用上20年都妥妥的。\n如果您对我们的施工工艺感兴趣，记得给阿明点赞、关注一下。",
+      "claims_to_verify": [
+        "价格/省钱数额",
+        "长期/性能/环保",
+        "案例/身份/规模",
+        "服务范围/条件"
+      ],
+      "analysis_note": "P075是此条结尾；不到8000限定单卫生间，不能替换成厨卫或全屋。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P161",
+        "ratio": 0.8583,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "武汉",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "\n如果您对我们的施工工艺感兴趣，记得给阿明点赞、关注一下。"
+        }
+      ]
+    },
+    {
+      "id": "C71",
+      "paragraph_ids": [
+        "P076"
+      ],
+      "text": "我好像在武汉火了，只花了七天，不拆不砸，就把卫生间改好了。墙面、地面的瓷砖不用敲，先滚涂一遍底漆，再直接批刮不会开裂的微陶泥，无缝一体的效果太好看了。洗手间再也没有发黑、发霉的瓷砖缝，不仅防霉防潮，还耐压耐磨。装完直接将家具复位，阿明老师的团队提供一站式服务。如果你家的卫生间、客厅也需要翻新，欢迎找阿明。",
+      "family": "第一人称生活体验",
+      "opening": "我好像在武汉火了，只花了七天，不拆不砸，就把卫生间改好了",
+      "ending_actions": [
+        "找人联系"
+      ],
+      "ending_excerpt": "无缝一体的效果太好看了。洗手间再也没有发黑、发霉的瓷砖缝，不仅防霉防潮，还耐压耐磨。装完直接将家具复位，阿明老师的团队提供一站式服务。如果你家的卫生间、客厅也需要翻新，欢迎找阿明。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "长期/性能/环保"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P164",
+        "ratio": 0.9396,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "7",
+          "after": "七"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "面、"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "",
+          "after": "提供"
+        },
+        {
+          "before": "也有",
+          "after": "家的"
+        },
+        {
+          "before": "",
+          "after": "也"
+        },
+        {
+          "before": " ",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": "C72",
+      "paragraph_ids": [
+        "P077"
+      ],
+      "text": "反正以后苏州家家户户都不会去找装修公司了。是的，你没听错，苏州新材联旧房改造团队，48小时让墙面焕然一新，七个工作日让厨卫大变样。最贴心的是，全程不用搬家，住在家里就能把房子装好。从拆到装，我们一站式全包，连卫生都不用你动手打扫，当天装完当天就能用。在苏州找我们翻新的客户都很满意。现在，只要你给这个视频点个小红心和大拇指，我就免费送您改造方案。",
+      "family": "同城服务召集",
+      "opening": "反正以后苏州家家户户都不会去找装修公司了",
+      "ending_actions": [
+        "点赞",
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "能把房子装好。从拆到装，我们一站式全包，连卫生都不用你动手打扫，当天装完当天就能用。在苏州找我们翻新的客户都很满意。现在，只要你给这个视频点个小红心和大拇指，我就免费送您改造方案。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "案例/身份/规模",
+        "趋势/政策/行业判断",
+        "服务范围/条件"
+      ],
+      "analysis_note": "新材联苏州48小时墙面/7个工作日厨卫；当天可用的对象与养护条件未明确。",
+      "video_links": [
+        {
+          "id": "R25",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "邯郸/澧县/沭阳（R35首卡宿迁）“新房卖不出去”系列→旧新→费用工期→保护/施工/清洁→点赞/上门量房方案；文档苏州48小时墙面/7工作日厨卫是不同版本。"
+        },
+        {
+          "id": "R34",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "邯郸/澧县/沭阳（R35首卡宿迁）“新房卖不出去”系列→旧新→费用工期→保护/施工/清洁→点赞/上门量房方案；文档苏州48小时墙面/7工作日厨卫是不同版本。"
+        },
+        {
+          "id": "R35",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "邯郸/澧县/沭阳（R35首卡宿迁）“新房卖不出去”系列→旧新→费用工期→保护/施工/清洁→点赞/上门量房方案；文档苏州48小时墙面/7工作日厨卫是不同版本。"
+        }
+      ],
+      "original_match": {
+        "paragraph_id": "P166",
+        "ratio": 0.9,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "的",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "。",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "让"
+        },
+        {
+          "before": "直接",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "面",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "能"
+        },
+        {
+          "before": "了，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "。在"
+        },
+        {
+          "before": "装完",
+          "after": "找我们翻新"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "一",
+          "after": "点"
+        },
+        {
+          "before": "",
+          "after": "就"
+        }
+      ]
+    },
+    {
+      "id": "C73",
+      "paragraph_ids": [
+        "P078"
+      ],
+      "text": "不砸墙、不砸地，挑战只用三天改好一个卫生间，拆旧、施工、保洁全部包含，而且装完马上就能用。老旧的瓷砖、发霉的墙面，只需要覆盖上这款微陶泥，不拆不砸，就可以打造墙面、地面无缝一体的效果。不仅防霉防潮，还耐压耐磨。如果你也喜欢这种工艺，请帮武汉阿明点个免费的小爱心。",
+      "family": "工法/问题解释",
+      "opening": "不砸墙、不砸地，挑战只用三天改好一个卫生间，拆旧、施工、保洁全部包含，而且装完马上就能用",
+      "ending_actions": [
+        "点赞"
+      ],
+      "ending_excerpt": "就能用。老旧的瓷砖、发霉的墙面，只需要覆盖上这款微陶泥，不拆不砸，就可以打造墙面、地面无缝一体的效果。不仅防霉防潮，还耐压耐磨。如果你也喜欢这种工艺，请帮武汉阿明点个免费的小爱心。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "长期/性能/环保",
+        "服务范围/条件"
+      ],
+      "analysis_note": "开头限定受众，主体用不拆砸/覆盖解释方案；结尾动作须与目标和本地实际服务条件一致。",
+      "video_links": [],
+      "original_match": {
+        "paragraph_id": "P168",
+        "ratio": 0.9119,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "还能",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "就能"
+        },
+        {
+          "before": "  ",
+          "after": "。"
+        },
+        {
+          "before": "，",
+          "after": "、"
+        },
+        {
+          "before": "做到",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "，"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "",
+          "after": "一体"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": " ",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": "C74",
+      "paragraph_ids": [
+        "P079"
+      ],
+      "text": "别再他妈忽悠成都老百姓了！现在几十块钱一片的瓷砖，成都业主早就没人用了，大家都在用这个开桶即用的环保微陶泥。不用加水搅拌，也不用担心甲醛问题，最主要的是高级又便宜。阿明翻新团队包人工、包材料，七天快速见效。如果你也喜欢这种翻新工艺，请给阿明点个免费的小爱心，阿明免费上门给你出方案。",
+      "family": "人物/价值冲突",
+      "opening": "别再他妈忽悠成都老百姓了",
+      "ending_actions": [
+        "点赞",
+        "服务/方案承诺"
+      ],
+      "ending_excerpt": "陶泥。不用加水搅拌，也不用担心甲醛问题，最主要的是高级又便宜。阿明翻新团队包人工、包材料，七天快速见效。如果你也喜欢这种翻新工艺，请给阿明点个免费的小爱心，阿明免费上门给你出方案。",
+      "claims_to_verify": [
+        "工期/使用时间",
+        "长期/性能/环保",
+        "案例/身份/规模",
+        "服务范围/条件"
+      ],
+      "analysis_note": "成都行业冲突表达同族R10济南；强烈语气有辨识度，但不是事实和转化证明。",
+      "video_links": [
+        {
+          "id": "R10",
+          "relation": "analyst_reviewed_same_family_not_exact_transcript",
+          "note": "视频济南，文档成都；冲突句和开桶材料演示同族"
+        }
+      ],
+      "original_match": {
+        "paragraph_id": "P170",
+        "ratio": 0.9007,
+        "method": "closest paragraph text similarity; candidate version relation, not edit history"
+      },
+      "version_differences": [
+        {
+          "before": " ",
+          "after": ""
+        },
+        {
+          "before": "，",
+          "after": "！"
+        },
+        {
+          "before": "成都",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "钱"
+        },
+        {
+          "before": "",
+          "after": "就"
+        },
+        {
+          "before": "现",
+          "after": "大家都"
+        },
+        {
+          "before": "都",
+          "after": ""
+        },
+        {
+          "before": "糖",
+          "after": "陶"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "的"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "",
+          "after": "、"
+        },
+        {
+          "before": "，",
+          "after": "。"
+        },
+        {
+          "before": "我们",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "上门"
+        },
+        {
+          "before": "上门",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "video_exact_transcripts_verified": false,
+  "full_listening_verified": false,
+  "summary": "74条文案（72条逐字唯一）围绕少拆砸、少操心、可见效果组织；开头按报价/工法/趋势/人物/同城/生活分族，结尾按点赞留存与需求咨询分目标。文案和视频相似不等于逐字音稿或业务承诺已验证。",
+  "video_family_relations": [
+    {
+      "paragraph_ids": "P008",
+      "video_ids": [
+        "R24",
+        "R32"
+      ],
+      "note": "人工复核同族三个月预测，R24北京张总最快7天、R32西安阿明3天；主体与收口相似，具体数字和身份独立。"
+    },
+    {
+      "paragraph_ids": "P005",
+      "video_ids": [
+        "R27"
+      ],
+      "note": "九江问句工法与P005武汉同族；R27地板字幕配墙面作业，模板命中不等于画面对应已合格。"
+    },
+    {
+      "paragraph_ids": "P029/P054/P064",
+      "video_ids": [
+        "R28"
+      ],
+      "note": "苏州老胡瓷砖师傅失业同族，覆盖/成品/费用/7天/性能→点赞；DOCX另有免费方案版本。"
+    },
+    {
+      "paragraph_ids": "P027（仅亲情/个案结构）",
+      "video_ids": [
+        "R08",
+        "R29",
+        "R31",
+        "R33"
+      ],
+      "note": "68岁、子女趁旅行翻新等是视频具体故事，P027没有相同旅行情节；原来乐山、新增荆门/马鞍山/郴州分别记录，不强认同一案例。"
+    },
+    {
+      "paragraph_ids": "无逐字对应；与P047/P055仅人物价值结构相近",
+      "video_ids": [
+        "R23",
+        "R30"
+      ],
+      "note": "重庆/兰州“全城女人都想嫁”系列以人物吸引→报价对照→旧新→环保→点赞记住；钩子吸引者与真实改造业主的重合待有效需求检验。"
+    },
+    {
+      "paragraph_ids": "P077仅同城团队服务结构相近",
+      "video_ids": [
+        "R25",
+        "R34",
+        "R35"
+      ],
+      "note": "邯郸/澧县/沭阳（R35首卡宿迁）“新房卖不出去”系列→旧新→费用工期→保护/施工/清洁→点赞/上门量房方案；文档苏州48小时墙面/7工作日厨卫是不同版本。"
+    },
+    {
+      "paragraph_ids": "P017/P073仅材料说明结构相近",
+      "video_ids": [
+        "R26"
+      ],
+      "note": "北京高总金刚泥25kg/15–20㎡，打开桶直接刷/刮、成品、性能词、点赞；不可合并成文档微陶泥或金刚泥的标准用量。"
+    }
+  ],
+  "video_reference_count": 35,
+  "new_video_ids": [
+    "R23",
+    "R24",
+    "R25",
+    "R26",
+    "R27",
+    "R28",
+    "R29",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35"
+  ],
+  "video_analysis_links": [
+    {
+      "id": "R01",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R01\\analysis.json",
+      "sha256": "9de49d88776ebf9fb83fd23d670082ab7c5f769391eefe1a69e7d311b6db080a"
+    },
+    {
+      "id": "R02",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R02\\analysis.json",
+      "sha256": "c0eadb4335edf65c241baf413acc78bb20eb5a2c9887acc87dedf4a57b52352a"
+    },
+    {
+      "id": "R03",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R03\\analysis.json",
+      "sha256": "d3968b7a117fb3efabcd39f08414f40a794ce253ff8482150c8db0b675a19d8c"
+    },
+    {
+      "id": "R04",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R04\\analysis.json",
+      "sha256": "0c272b6a7b70d216502c18fc018a0c30d1aabd5129a3222b17e8278671a55396"
+    },
+    {
+      "id": "R05",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R05\\analysis.json",
+      "sha256": "eecea95d02bb03f593a72e2f0da58d0e8c1f61e2d88a3ef23e29c0d46d57abba"
+    },
+    {
+      "id": "R06",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R06\\analysis.json",
+      "sha256": "777a0fde6f1e7092597820d491d0e873635b1c8a4fe8aea8af3f5241ca5a2277"
+    },
+    {
+      "id": "R07",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R07\\analysis.json",
+      "sha256": "d5a83e1a1f90fc0a26f7c273e22a1332d3da6f1269e269224b98fc57c575d78e"
+    },
+    {
+      "id": "R08",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R08\\analysis.json",
+      "sha256": "46e3f71a3e037008029bd1b5f7a8d07c1bf8adf1213f6675200acd3229cafcfa"
+    },
+    {
+      "id": "R09",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R09\\analysis.json",
+      "sha256": "64b9eb558913d45c2d9b02b043e794b294c8eeb653f6a20cd1fb18c45525706b"
+    },
+    {
+      "id": "R10",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R10\\analysis.json",
+      "sha256": "30516bf3cd3a71e18b55febe06f00e2e45c0a54491cd3906ab1b4a2065d54d44"
+    },
+    {
+      "id": "R11",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R11\\analysis.json",
+      "sha256": "829ed790ec40c000be5fbd9dc00a3dccbdd29a4053f4bdd2532059b8f46c9f90"
+    },
+    {
+      "id": "R12",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R12\\analysis.json",
+      "sha256": "515233d8bbd610a01444c3e6e96bb228e4116d2feffdacc4aa287a26b4de97e4"
+    },
+    {
+      "id": "R13",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R13\\analysis.json",
+      "sha256": "fbc80b93570bb30947a420fe1c6b9a2f7d1e5d96c009208542c75eed2fa9e13d"
+    },
+    {
+      "id": "R14",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R14\\analysis.json",
+      "sha256": "2e438fc65830c7b72b4066c5dfb45a584010f2737140aae13ae27c66e57dd5ef"
+    },
+    {
+      "id": "R15",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R15\\analysis.json",
+      "sha256": "594e76c3c035454b9ad731e02463f073d591dd8300b694d8b7c52ba2a9c9b152"
+    },
+    {
+      "id": "R16",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R16\\analysis.json",
+      "sha256": "73a8525a1dc0a705be8ee482ff180e042feeeef89a6b626d1476c513dcf73dcc"
+    },
+    {
+      "id": "R17",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R17\\analysis.json",
+      "sha256": "c812a489c8e3670251e24647bcd23546bb0fd79c52e9080e4c375a9f359e636b"
+    },
+    {
+      "id": "R18",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R18\\analysis.json",
+      "sha256": "833a358d0291350d2e1c03423d04bf65ac128751c7239df3c0addceb893dc0d2"
+    },
+    {
+      "id": "R19",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R19\\analysis.json",
+      "sha256": "45c95062d5bb9f46e6008b8e2c1e5b42ac93e3b6badb22986fed700598ca26c6"
+    },
+    {
+      "id": "R20",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R20\\analysis.json",
+      "sha256": "af81a784ca0a1f3530a53b93b6f2324c269854da5f5eb575502e415a7af4b480"
+    },
+    {
+      "id": "R21",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R21\\analysis.json",
+      "sha256": "c8e9f22527a69ae5a3fb3e5ce6e0047be5922c41e841020075f3b3904ae6b7db"
+    },
+    {
+      "id": "R22",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R22\\analysis.json",
+      "sha256": "111a3cbc7b242aa0688aa9f6fee5794ab4f73c17967559a2478181c5972ceb8f"
+    },
+    {
+      "id": "R23",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R23\\analysis.json",
+      "sha256": "798a15d8624d9c7620987081f8dd1a1455684f6c64e5baba650e77a2838560aa"
+    },
+    {
+      "id": "R24",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R24\\analysis.json",
+      "sha256": "d7630ac7fbb6bfd1d91fb726a80a7a1d5cbac410fdbe8a4123ce43b667d2b524"
+    },
+    {
+      "id": "R25",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R25\\analysis.json",
+      "sha256": "7ee5e9cbb341a6d1a4b531344fdfdcb9959135557ca126968c4a1f5659cecd84"
+    },
+    {
+      "id": "R26",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R26\\analysis.json",
+      "sha256": "af8ef15306a85fce2aec9151fd028efb1f1d1e1ae16d388fd21fd9c44a65be05"
+    },
+    {
+      "id": "R27",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R27\\analysis.json",
+      "sha256": "ced734321dbeb44e1d687882a4bbab049178365aac497f4444798655f1fe71ee"
+    },
+    {
+      "id": "R28",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R28\\analysis.json",
+      "sha256": "0799fc039e4415846d9a7941b38a6c82cf6d7f47976122cbb3c55c8612720fdd"
+    },
+    {
+      "id": "R29",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R29\\analysis.json",
+      "sha256": "08faba77d837ceb600f2176e597d232cf54f2e1faa14ecbf87a31f5a006736c7"
+    },
+    {
+      "id": "R30",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R30\\analysis.json",
+      "sha256": "d3b4685eeaf284fd6166e9f0a8d536bef049d77de0a5fe9e51e0f7de7ecba28a"
+    },
+    {
+      "id": "R31",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R31\\analysis.json",
+      "sha256": "e557fed2282902d20ae8ab7d25189b17169bb6cb6f0a7e089a3aca5eb9f7a1e9"
+    },
+    {
+      "id": "R32",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R32\\analysis.json",
+      "sha256": "379929df14705b8e8fbc2cb1dca7862d3e160074bc0d85f41833547071cb7617"
+    },
+    {
+      "id": "R33",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R33\\analysis.json",
+      "sha256": "850308b7948e1b0586eb7fe316877e0dee437caf1112808f2fe6c0b7875095b6"
+    },
+    {
+      "id": "R34",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R34\\analysis.json",
+      "sha256": "853cab6709ce2ae5ddf516fdde042686feea7969b0d1f4dcfac177ed0fb0b62b"
+    },
+    {
+      "id": "R35",
+      "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\analysis\\R35\\analysis.json",
+      "sha256": "b425680fd73ecbfc1dd9904480017b6c8f3b48bcf92f616f909d902cfad65cce"
+    }
+  ]
+}

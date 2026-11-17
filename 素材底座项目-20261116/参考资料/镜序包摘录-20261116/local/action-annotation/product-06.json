@@ -1,0 +1,102 @@
+{
+  "version": 2,
+  "created": "2026-11-13",
+  "purpose": "施工动作人工标注口径确认；不是训练完成，不是正式选片",
+  "rows": [
+    {
+      "sample_id": "P21",
+      "category": "产品核实",
+      "query": "是否属于基面批刮？材料是否微陶泥，若不是请说明材料名称或保留未知。",
+      "source": {
+        "id": "012256615ba2d3dab89090356da2d6b1",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\10材料\\1.微岩石\\拍摄\\金银湖别墅无机水洗石\\03326_地面_批刮施工.MOV",
+        "rel": "10材料/1.微岩石/拍摄/金银湖别墅无机水洗石/03326_地面_批刮施工.MOV",
+        "root": "baba",
+        "name": "03326_地面_批刮施工.MOV",
+        "start": 2,
+        "end": 5
+      },
+      "project_guess": "来源项目未知（分类库）",
+      "project_confirmed": false,
+      "suggested_label": "待确认",
+      "suggestion_reason": "产品身份与施工动作分别确认，不凭目录名或服装确认",
+      "confirmed_label": "用户确认：水洗石批刮，与当前视频业务无关",
+      "status": "已人工确认：业务不适用",
+      "clip": "clips/P21.mp4",
+      "clip_sha256": "3d0bf507480234dfc6180e0fa9425dda3c951da429a6e0048b50d0cc37f53872",
+      "duration": 3.0,
+      "benchmark_eligible": false,
+      "split": "口径确认集，禁止进入盲测",
+      "product_identity": "水洗石",
+      "quality_note": "用户已确认材料与业务不适用；来源目录不推广标签",
+      "apply_to_directory": false,
+      "label_scope": "仅所列来源时间段",
+      "review_note": "四时间点抽帧检查工具接触基面与移动；材料身份和动作标签待用户确认；分类库来源项目仅为目录线索",
+      "confirmed_action": "基面批刮",
+      "micro_clay_scraping_application_visible": false,
+      "confirmed_at": "2026-11-13T11:14:31.646916+08:00",
+      "confirmed_by": "当前用户",
+      "confirmation_evidence": [
+        "是属于批刮动作？材料不是微陶泥，是其他材料叫水洗石",
+        "我们是用不到这个材料的",
+        "跟我们现在视频是无关的"
+      ],
+      "business_relevance": "当前视频不适用",
+      "eligible_for_current_video": false,
+      "record_use": "仅作排除参考，不作为当前成片候选；不自动加入训练"
+    },
+    {
+      "sample_id": "P22",
+      "category": "产品核实",
+      "query": "是否属于基面批刮？材料是否微陶泥，若不是请说明材料名称或保留未知。",
+      "source": {
+        "id": "1eef32fcc1c895a6931e9d51d03ba28d",
+        "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\扒扒\\10材料\\1.微岩石\\拍摄\\f天下外墙\\02009_墙面_批刮施工.MOV",
+        "rel": "10材料/1.微岩石/拍摄/f天下外墙/02009_墙面_批刮施工.MOV",
+        "root": "baba",
+        "name": "02009_墙面_批刮施工.MOV",
+        "start": 2,
+        "end": 5
+      },
+      "project_guess": "来源项目未知（分类库）",
+      "project_confirmed": false,
+      "suggested_label": "待确认",
+      "suggestion_reason": "产品身份与施工动作分别确认，不凭目录名或服装确认",
+      "confirmed_label": "用户确认：水洗石批刮，与当前视频业务无关",
+      "status": "已人工确认：业务不适用",
+      "clip": "clips/P22.mp4",
+      "clip_sha256": "9eddbe0ec430579b1c7de09e93b4d5c801a74615588e7049a7492521fab3be37",
+      "duration": 3.0,
+      "benchmark_eligible": false,
+      "split": "口径确认集，禁止进入盲测",
+      "product_identity": "水洗石",
+      "quality_note": "用户已确认材料与业务不适用；来源目录不推广标签",
+      "apply_to_directory": false,
+      "label_scope": "仅所列来源时间段",
+      "review_note": "四时间点抽帧检查工具接触基面与移动；材料身份和动作标签待用户确认；分类库来源项目仅为目录线索",
+      "confirmed_action": "基面批刮",
+      "micro_clay_scraping_application_visible": false,
+      "confirmed_at": "2026-11-13T11:14:31.646916+08:00",
+      "confirmed_by": "当前用户",
+      "confirmation_evidence": [
+        "是属于批刮动作？材料不是微陶泥，是其他材料叫水洗石",
+        "我们是用不到这个材料的",
+        "跟我们现在视频是无关的"
+      ],
+      "business_relevance": "当前视频不适用",
+      "eligible_for_current_video": false,
+      "record_use": "仅作排除参考，不作为当前成片候选；不自动加入训练"
+    }
+  ],
+  "updated": "2026-11-13T11:14:31.646916+08:00",
+  "history": [
+    {
+      "at": "2026-11-13T11:14:31.646916+08:00",
+      "samples": [
+        "P21",
+        "P22"
+      ],
+      "change": "确认水洗石批刮，同时按最新反馈标记当前业务不适用，仅排除参考"
+    }
+  ]
+}
