@@ -1,0 +1,100 @@
+{
+  "项": 7,
+  "名称": "配置",
+  "通过": true,
+  "脚本里写死的共享盘地址": [],
+  "没有写死地址": true,
+  "脚本里库别名字面量": [
+    {
+      "文件": "01_write_config.py",
+      "行号": 25,
+      "内容": "\"库ID\": \"xiaoq\","
+    },
+    {
+      "文件": "01_write_config.py",
+      "行号": 29,
+      "内容": "\"镜序库别名\": \"xiaoq\","
+    },
+    {
+      "文件": "01_write_config.py",
+      "行号": 34,
+      "内容": "\"库ID\": \"ceshi\","
+    },
+    {
+      "文件": "01_write_config.py",
+      "行号": 43,
+      "内容": "\"库ID\": \"aming\","
+    },
+    {
+      "文件": "01_write_config.py",
+      "行号": 52,
+      "内容": "\"库ID\": \"jiaoban\","
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 34,
+      "内容": "EXPECTED_COUNTS = {\"xiaoq\": 20515, \"ceshi\": 330, \"aming\": 238, \"jiaoban\": 69}"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 158,
+      "内容": "xiaoq_assets = [a for a in assets if a[\"root\"] == \"xiaoq\"]"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 185,
+      "内容": "scan_xiaoq = [r for r in scan_videos if r[\"库ID\"] == \"xiaoq\"]"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 215,
+      "内容": "computed = jingxu_id(\"xiaoq\", rel)"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 216,
+      "内容": "computed_reg = jingxu_id(\"xiaoq\", to_posix(a[\"rel\"]))"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 404,
+      "内容": "jx = scan_match.get(r[\"库内相对路径\"]) if r[\"库ID\"] == \"xiaoq\" else None"
+    }
+  ],
+  "库别名字面量条数": 11,
+  "配置副本": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116\\工位产出\\C01\\20261117_01\\统计\\素材库_不存在路径测试.json",
+  "改之前的根路径": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区",
+  "改成的根路径": "D:\\path-does-not-exist-c01-20261117\\not-a-real-library",
+  "改的是哪个库": "小区",
+  "T01脚本": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116\\工位产出\\T01\\20261117_01\\脚本\\02_scan.py",
+  "退出码": 2,
+  "输出含有路径不存在": true,
+  "是否扫描到了别的地方": false,
+  "标准输出": "开始扫描 2026-11-17T13:27:20+08:00\n扫描 小区 ...\n路径不存在: 库=小区\n路径不存在\n",
+  "标准错误": "",
+  "用时秒": 0.07,
+  "原配置运行前": {
+    "路径": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116\\片段库\\配置\\素材库.json",
+    "字节数": 1987,
+    "修改时间": "2026-11-17T11:12:00+08:00",
+    "sha256": "fe17a1696e0894887bcaf61a707635b8b886313b600bd5af3b698eb6d0a8f10f"
+  },
+  "原配置运行后": {
+    "路径": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116\\片段库\\配置\\素材库.json",
+    "字节数": 1987,
+    "修改时间": "2026-11-17T11:12:00+08:00",
+    "sha256": "fe17a1696e0894887bcaf61a707635b8b886313b600bd5af3b698eb6d0a8f10f"
+  },
+  "原配置保持原样": true,
+  "搜索的脚本": [
+    "01_write_config.py",
+    "02_scan.py",
+    "03_build_table.py",
+    "04_ffprobe_trial.py",
+    "04b_ffprobe_rest.py",
+    "05_dedup.py",
+    "06_audit.py",
+    "07_missing_path_test.py",
+    "common.py"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "时间": "2026-11-17T13:09:46+08:00",
+  "项目": [
+    {
+      "path": "D:\\CutFrame项目完整整理_20261116\\local\\cutframe\\catalog.sqlite3",
+      "exists": true,
+      "size": 14934016,
+      "mtime": "2026-11-16T16:24:11+08:00",
+      "mtime_ts": 1794817451.1236403,
+      "size_changed": false,
+      "mtime_changed": false
+    },
+    {
+      "path": "\\\\192.168.110.36\\obsidian\\素材标注\\小区全库\\数据\\AI剪辑检索索引.jsonl",
+      "exists": true,
+      "size": 55868403,
+      "mtime": "2026-11-14T18:00:07+08:00",
+      "mtime_ts": 1794650407.2493937,
+      "size_changed": false,
+      "mtime_changed": false
+    },
+    {
+      "path": "\\\\192.168.110.36\\obsidian\\素材标注\\测试阿明搅拌\\数据\\AI剪辑检索索引.jsonl",
+      "exists": true,
+      "size": 1529988,
+      "mtime": "2026-11-14T16:28:37+08:00",
+      "mtime_ts": 1794644917.8765726,
+      "size_changed": false,
+      "mtime_changed": false
+    },
+    {
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\小区",
+      "exists": true,
+      "size": 12288,
+      "mtime": "2026-11-09T14:37:34+08:00",
+      "mtime_ts": 1794206254.6050465,
+      "size_changed": true,
+      "mtime_changed": false
+    },
+    {
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\测试",
+      "exists": true,
+      "size": 4096,
+      "mtime": "2026-11-11T11:39:29+08:00",
+      "mtime_ts": 1794368369.3754852,
+      "size_changed": false,
+      "mtime_changed": false
+    },
+    {
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\阿明",
+      "exists": true,
+      "size": 0,
+      "mtime": "2026-11-09T14:28:20+08:00",
+      "mtime_ts": 1794205700.464016,
+      "size_changed": false,
+      "mtime_changed": false
+    },
+    {
+      "path": "\\\\192.168.110.36\\共享本公司\\史上最完整共享\\拍摄\\搅拌",
+      "exists": true,
+      "size": 8192,
+      "mtime": "2026-11-11T16:17:48+08:00",
+      "mtime_ts": 1794385068.0141728,
+      "size_changed": false,
+      "mtime_changed": false
+    }
+  ]
+}

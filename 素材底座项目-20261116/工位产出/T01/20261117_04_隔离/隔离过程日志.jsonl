@@ -1,0 +1,32 @@
+{"event": "copy", "原片ID": "d16495d56b2d8915", "status": "成功", "size": 141859018, "sha256": "104887289b7da1e462e90cc683d655c9d16fc5c645c7cc7d1ebea349cba47a46", "elapsed_sec": 13.548}
+{"event": "copy", "原片ID": "b569f566ec4278c5", "status": "成功", "size": 33591098, "sha256": "ca2c4574d6b2326cbba5ceee6a139713b06b7fd8cf2b895f29bb6ec710bc2e25", "elapsed_sec": 3.176}
+{"event": "copy", "原片ID": "N4a5dc3c46ad36818", "status": "成功", "size": 24849153, "sha256": "b770e6f268185267d9fe9662f1ffd3800ef137797ae72c7e9eff6468450ad6c2", "elapsed_sec": 2.381}
+{"event": "copy", "原片ID": "N993f2bbb51b5dc1c", "status": "成功", "size": 0, "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "elapsed_sec": 0.014}
+{"event": "copy", "原片ID": "N254d58a2438c5a44", "status": "成功", "size": 16805785, "sha256": "b58beada91b891960361179e3a994e92e51a62e57a8a52c7fe8f089aa0eaa432", "elapsed_sec": 2.858}
+{"event": "copy", "原片ID": "N4089cd244ad373bf", "status": "成功", "size": 17753839, "sha256": "f7b50ccfc2196ba854fa86a6f8c089200c9df0324272bebaa844e0da8c310eb6", "elapsed_sec": 1.706}
+{"event": "copy", "原片ID": "N4f63cef2b0232101", "status": "成功", "size": 12927367, "sha256": "7218f0fc41e45322632bd09aa077d720aefd1e6a4fbbc41143252e3ab832620e", "elapsed_sec": 1.297}
+{"event": "copy", "原片ID": "N54e3b6217b596aba", "status": "成功", "size": 9466195, "sha256": "0bce91310d0cd40daa9b8f306fbb100f946ada41b94614dd21093c359b53bca3", "elapsed_sec": 0.946}
+{"event": "copy", "原片ID": "N8374aa7665dc1e8d", "status": "成功", "size": 7643868, "sha256": "57936dd8d751a620090a42dec5b17d8d7c2b9d6a2c46202ca89a7c19dbaf2f6a", "elapsed_sec": 0.771}
+{"event": "copy", "原片ID": "N7aef349da1fb5473", "status": "成功", "size": 13046722, "sha256": "80750bd14456e80b425ec3437cd74e6e8363611c0da6d63410a9fb700f5ff52b", "elapsed_sec": 1.25}
+{"event": "skip_excluded", "原片ID": "25a4ad80490d5c2b", "逻辑路径": "@shared/拍摄/小区/南湖一厨一卫/26916_小区场景.MOV"}
+{"event": "copy", "原片ID": "Nf634c2832625e43e", "status": "成功", "size": 222672289, "sha256": "35bf339ac0ccb6161e9106c866909cab94ce5c9ed3c3b581322ee4e362e33597", "elapsed_sec": 23.676}
+{"event": "copy", "原片ID": "Ne03b7be6f0b591f5", "status": "成功", "size": 201661695, "sha256": "2b2673070fd61275bd953b601ef4c39e7700a0418537d00a9d97df680028c504", "elapsed_sec": 18.403}
+{"event": "skip_excluded", "原片ID": "2ae8d45b0f4efe92", "逻辑路径": "@shared/拍摄/小区/武昌沙湖小区 看房量尺/32303_小区场景.MOV"}
+{"event": "copy", "原片ID": "N61d880caa95accc2", "status": "成功", "size": 39712989, "sha256": "0481120d01399bb8a3edf29a14cc3fb5260efca7d007dc8c8bef56fd4d8b9606", "elapsed_sec": 3.642}
+{"event": "copy", "原片ID": "N1b8bedba4d1ce35a", "status": "成功", "size": 52428925, "sha256": "00c0bc13dd8b7d53ad6579dc38747736d518020a5cae4b3c763763ff71c09c41", "elapsed_sec": 4.96}
+{"event": "copy", "原片ID": "N961b850b747a935b", "status": "成功", "size": 43763530, "sha256": "0a1da9e4317724042c3ad0081bb3c42b531fdf804f9f6de096ea98bd65fff856", "elapsed_sec": 4.073}
+{"event": "copy", "原片ID": "Ne91c02b40470a987", "status": "成功", "size": 7383080, "sha256": "9a314cc1cc5a9da0d2ccb5ff9b7ec9a73e4b0a10722ac0146c73c65c2784ea2a", "elapsed_sec": 0.745}
+{"event": "copy", "原片ID": "Nec9b1437940eb08e", "status": "成功", "size": 5927, "sha256": "1b0a6feb37cba129fd8e86ca2599f5e29dd573d7eba44ff8a47f5dbc2b54e5d1", "elapsed_sec": 0.047}
+{"event": "copy", "原片ID": "Na1a79a8121e2fe94", "status": "成功", "size": 5896, "sha256": "43de594606d6b72d1e03c02618b9bb82e39cd206b3d7d9ca7f242829c4e4e121", "elapsed_sec": 0.047}
+{"event": "copy", "原片ID": "Ndb7256539a598ae6", "status": "成功", "size": 5092, "sha256": "b540f8b612fee8b663a31ce37511c9045d1aef8627ffa526c0e7677084d6ac6a", "elapsed_sec": 0.05}
+{"event": "copy", "原片ID": "N7c7d354d64ff82c6", "status": "成功", "size": 4572, "sha256": "f2cdbf6cc511d29189f1e81786dda297fa8e56af33c30912efbeaa3523611f7f", "elapsed_sec": 0.041}
+{"event": "copy", "原片ID": "N4133ab356596afd0", "status": "成功", "size": 7145, "sha256": "6a1f59a5600ee99a298304a262115355484522ab7818dfe7cfaabe6c6f88e790", "elapsed_sec": 0.054}
+{"event": "copy", "原片ID": "Nf07ba14ace4fc8dd", "status": "成功", "size": 6934, "sha256": "5be9127d48db6d6738e9dc0e81dd420aff87cce874e6bd7d86287a0f2c3ecb4c", "elapsed_sec": 0.084}
+{"event": "copy", "原片ID": "N12ef993def879959", "status": "成功", "size": 7396, "sha256": "16ed39d69b48868872c1afdb50941b5e26ae6aa6d2756da874cff7106376676d", "elapsed_sec": 0.046}
+{"event": "copy", "原片ID": "Nfb5ba8dbfe028fe5", "status": "成功", "size": 7533, "sha256": "3af6a17cc6b74ef6b72445c5480ecd7939323a472823880526d15141b7bd4805", "elapsed_sec": 0.042}
+{"event": "copy", "原片ID": "N17357d88d5a562f3", "status": "成功", "size": 8015372, "sha256": "17929233e15baf2b640aac8e3e40dacb382ffdc4df44f772c4bdd95b8d886976", "elapsed_sec": 0.765}
+{"event": "copy", "原片ID": "N31dfd88ada0f26f7", "status": "成功", "size": 3465, "sha256": "f540bb52ac4ccca076d114f05a658959f338a92b5be80cfacacaa6ce0fc7a9df", "elapsed_sec": 0.039}
+{"event": "copy", "原片ID": "Nd49512f117ab9065", "status": "成功", "size": 5294, "sha256": "4d699c94174bc96202758222d650eb0eda3b98062c347426be2ee21c475fc706", "elapsed_sec": 0.045}
+{"event": "copy", "原片ID": "Neb3b407da842b7cf", "status": "成功", "size": 70254604, "sha256": "721a2c9ca0e06628d93edc2646f45001db05dcc2d4fdf55b2dcf895723e5a636", "elapsed_sec": 6.404}
+{"event": "copy", "原片ID": "N3cc349f5e6c3876e", "status": "成功", "size": 51435459, "sha256": "08d4f3a73a1da5053b9c9e4f81f1af808f5356cead9147c05067735be20cff7e", "elapsed_sec": 4.844}
+{"event": "copy", "原片ID": "N0390d9d7c8a36472", "status": "成功", "size": 60871004, "sha256": "cc20fb5fae8f8b50801959da5e36c0c2f6f5afefbea346630520ce6859771a09", "elapsed_sec": 5.598}

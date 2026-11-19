@@ -7,3 +7,11 @@ __pycache__/
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# Local media that should stay on nmu, not this public repo:
+# T12 transcoded upload copies / concat clips, and T01 isolated originals.
+素材底座项目-20261116/工位产出/T12/**/副本/
+素材底座项目-20261116/工位产出/T12/**/短片合成/
+素材底座项目-20261116/工位产出/T12/**/短片合成_重编码/
+素材底座项目-20261116/工位产出/T01/**隔离*/**/拍摄/
+*.lock

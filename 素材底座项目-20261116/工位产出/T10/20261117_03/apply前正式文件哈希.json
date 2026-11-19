@@ -1,0 +1,21 @@
+{
+  "粗标层": {
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116\\片段库\\粗标层.jsonl",
+    "size": 113340513,
+    "sha256": "2e6908b03f13e85d37eddf97813ba6c5a56e301dd474e969b46bc59c04d3f06f",
+    "lines": 65971,
+    "mtime": 1794886999.7350512
+  },
+  "事实层.jsonl": {
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116\\片段库\\事实层.jsonl",
+    "size": 841597,
+    "sha256": "6a3deb63c154e52cb55b7529000b3737be1b76e9e330f77ce1160dba1169506f",
+    "mtime": 1794886998.016964
+  },
+  "禁用表.jsonl": {
+    "path": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116\\片段库\\禁用表.jsonl",
+    "size": 4331,
+    "sha256": "a2c776129a21bac141ef384b17f50a178d92985b45e42ad43158b8d6b6b42894",
+    "mtime": 1794885571.7963357
+  }
+}

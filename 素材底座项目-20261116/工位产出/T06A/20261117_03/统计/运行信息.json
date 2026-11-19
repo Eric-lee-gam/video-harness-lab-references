@@ -1,0 +1,14 @@
+{
+  "started": "2026-11-17 15:45:50（Asia/Shanghai）",
+  "ended": "2026-11-17 15:45:55（Asia/Shanghai）",
+  "elapsed_sec": 4.384239435195923,
+  "out_dir": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116\\工位产出\\T06A\\20261117_03",
+  "sha256": "3891213ba53acf3dbff89dd594ff195a887ad4639b661c872e4be582a2813da4",
+  "sha_ok": true,
+  "issues": [
+    "20261117_T06A_T10工序映射漏了上罩面等取值.md",
+    "20261117_T06A_T10工序与复核冲突时两个画面类型都挂上.md"
+  ],
+  "alloc_total": 2000,
+  "samples": 60
+}

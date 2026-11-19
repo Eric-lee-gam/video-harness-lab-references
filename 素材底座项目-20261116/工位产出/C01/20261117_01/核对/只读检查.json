@@ -1,0 +1,518 @@
+{
+  "项": 8,
+  "名称": "只读",
+  "通过": true,
+  "写入或删除调用": [
+    {
+      "文件": "01_write_config.py",
+      "行号": 79,
+      "种类": "write_json",
+      "代码": "write_json(out, cfg)",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "01_write_config.py",
+      "行号": 81,
+      "种类": "write_json",
+      "代码": "write_json(this_output_dir() / \"统计\" / \"素材库.json\", cfg)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "02_scan.py",
+      "行号": 259,
+      "种类": "write_json",
+      "代码": "write_json(summary_path, summary)",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "02_scan.py",
+      "行号": 199,
+      "种类": "write_json",
+      "代码": "write_json(summary_path, {",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "02_scan.py",
+      "行号": 227,
+      "种类": "正则补漏",
+      "代码": "with scan_path.open(\"w\", encoding=\"utf-8\", newline=\"\\n\") as f:",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "02_scan.py",
+      "行号": 234,
+      "种类": "正则补漏",
+      "代码": "with err_path.open(\"w\", encoding=\"utf-8\", newline=\"\\n\") as f:",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 56,
+      "种类": "replace",
+      "代码": "marker = Path(share_root).name.replace(\"\\\\\", \"/\")",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 505,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(out_table, records)",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 506,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(stat_dir / \"原片表副本.jsonl\", records)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 509,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(check_dir / \"镜序_登记表未在扫描中.jsonl\", leftover_catalog)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 510,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(check_dir / \"镜序_扫描未在登记表中.jsonl\", [",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 514,
+      "种类": "write_json",
+      "代码": "write_json(check_dir / \"镜序_路径大小写不同.json\", path_case_diffs)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 515,
+      "种类": "write_json",
+      "代码": "write_json(check_dir / \"镜序_编号不一致.json\", id_mismatch)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 516,
+      "种类": "write_json",
+      "代码": "write_json(check_dir / \"镜序_字节数修改时间补对.json\", size_time_matches)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 517,
+      "种类": "write_json",
+      "代码": "write_json(check_dir / \"航天花园拍摄对照.json\", hangtian_report)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 519,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(check_dir / \"标注库_扫描未对上.jsonl\", [",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 523,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(check_dir / \"标注库_索引有扫描没有.jsonl\", unmatched_ann)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 524,
+      "种类": "write_json",
+      "代码": "write_json(check_dir / \"标注库_非视频或无路径.json\", {",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 530,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(check_dir / \"待ffprobe.jsonl\", need_probe)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 541,
+      "种类": "write_json",
+      "代码": "write_json(check_dir / \"主库清单对照.json\", inventory_note)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "03_build_table.py",
+      "行号": 582,
+      "种类": "write_json",
+      "代码": "write_json(stat_dir / \"对照摘要.json\", summary)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "04_ffprobe_trial.py",
+      "行号": 177,
+      "种类": "write_json",
+      "代码": "write_json(trial_path, report)",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "04_ffprobe_trial.py",
+      "行号": 182,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(results_path, existing + trial_results)",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "04_ffprobe_trial.py",
+      "行号": 186,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(table_path, new_rows)",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "04_ffprobe_trial.py",
+      "行号": 187,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(out_dir / \"统计\" / \"原片表副本.jsonl\", new_rows)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "04_ffprobe_trial.py",
+      "行号": 216,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(results_path, existing + trial_results + rest_results)",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "04_ffprobe_trial.py",
+      "行号": 217,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(table_path, [by_id[r[\"原片ID\"]] for r in records])",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "04_ffprobe_trial.py",
+      "行号": 218,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(out_dir / \"统计\" / \"原片表副本.jsonl\", [by_id[r[\"原片ID\"]] for r in records])",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "04_ffprobe_trial.py",
+      "行号": 125,
+      "种类": "write_json",
+      "代码": "write_json(trial_path, {\"时间\": now_iso(), \"待探测\": 0, \"说明\": \"无需ffprobe\"})",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "04_ffprobe_trial.py",
+      "行号": 78,
+      "种类": "replace",
+      "代码": "return Path(join_unc(lib[\"根路径\"], rec[\"库内相对路径\"].replace(\"/\", \"\\\\\")))",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "04_ffprobe_trial.py",
+      "行号": 214,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(table_path, [by_id[r[\"原片ID\"]] for r in records])",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "04_ffprobe_trial.py",
+      "行号": 215,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(results_path, existing + trial_results + rest_results)",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "04b_ffprobe_rest.py",
+      "行号": 71,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(results_path, list(done.values()) + new_results)",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "04b_ffprobe_rest.py",
+      "行号": 72,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(table_path, [by_id[r[\"原片ID\"]] for r in records])",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "04b_ffprobe_rest.py",
+      "行号": 73,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(out_dir / \"统计\" / \"原片表副本.jsonl\", [by_id[r[\"原片ID\"]] for r in records])",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "04b_ffprobe_rest.py",
+      "行号": 81,
+      "种类": "write_json",
+      "代码": "write_json(out_dir / \"统计\" / \"ffprobe全量续跑.json\", summary)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "04b_ffprobe_rest.py",
+      "行号": 65,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(table_path, [by_id[r[\"原片ID\"]] for r in records])",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "04b_ffprobe_rest.py",
+      "行号": 67,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(results_path, existing + new_results)",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "04b_ffprobe_rest.py",
+      "行号": 68,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(out_dir / \"统计\" / \"原片表副本.jsonl\", [by_id[r[\"原片ID\"]] for r in records])",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "05_dedup.py",
+      "行号": 147,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(table_path, records)",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "05_dedup.py",
+      "行号": 148,
+      "种类": "write_jsonl",
+      "代码": "write_jsonl(out_dir / \"统计\" / \"原片表副本.jsonl\", records)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "05_dedup.py",
+      "行号": 163,
+      "种类": "write_json",
+      "代码": "write_json(out_dir / \"统计\" / \"重复组摘要.json\", summary)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "05_dedup.py",
+      "行号": 164,
+      "种类": "write_json",
+      "代码": "write_json(out_dir / \"核对\" / \"重复组.json\", confirmed)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "05_dedup.py",
+      "行号": 165,
+      "种类": "write_json",
+      "代码": "write_json(out_dir / \"核对\" / \"疑似重复但哈希不同.json\", rejected)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "05_dedup.py",
+      "行号": 166,
+      "种类": "write_json",
+      "代码": "write_json(out_dir / \"核对\" / \"重复组哈希失败.json\", errors)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "05_dedup.py",
+      "行号": 29,
+      "种类": "replace",
+      "代码": "return Path(join_unc(lib[\"根路径\"], rec[\"库内相对路径\"].replace(\"/\", \"\\\\\")))",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "06_audit.py",
+      "行号": 107,
+      "种类": "write_json",
+      "代码": "write_json(out_dir / \"核对\" / \"随机抽检50条.json\", report)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "06_audit.py",
+      "行号": 29,
+      "种类": "replace",
+      "代码": "return Path(join_unc(lib[\"根路径\"], rec[\"库内相对路径\"].replace(\"/\", \"\\\\\")))",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "07_missing_path_test.py",
+      "行号": 25,
+      "种类": "write_text",
+      "代码": "tmp_cfg.write_text(json.dumps(fake, ensure_ascii=False, indent=2) + \"\\n\", encoding=\"utf-8\")",
+      "目标推断": "与正式产出同目录的临时文件（随后 replace）",
+      "范围": "随正式目标"
+    },
+    {
+      "文件": "07_missing_path_test.py",
+      "行号": 48,
+      "种类": "write_json",
+      "代码": "write_json(out_dir / \"核对\" / \"不存在路径测试.json\", report)",
+      "目标推断": "工位产出/T01（由 this_output_dir / --out-dir 决定）",
+      "范围": "项目文件夹内（默认）"
+    },
+    {
+      "文件": "common.py",
+      "行号": 127,
+      "种类": "write_text",
+      "代码": "tmp.write_text(json.dumps(obj, ensure_ascii=False, indent=indent) + \"\\n\", encoding=\"utf-8\")",
+      "目标推断": "与正式产出同目录的临时文件（随后 replace）",
+      "范围": "随正式目标"
+    },
+    {
+      "文件": "common.py",
+      "行号": 128,
+      "种类": "replace",
+      "代码": "tmp.replace(path)",
+      "目标推断": "与正式产出同目录的临时文件（随后 replace）",
+      "范围": "随正式目标"
+    },
+    {
+      "文件": "common.py",
+      "行号": 137,
+      "种类": "replace",
+      "代码": "tmp.replace(path)",
+      "目标推断": "与正式产出同目录的临时文件（随后 replace）",
+      "范围": "随正式目标"
+    },
+    {
+      "文件": "common.py",
+      "行号": 102,
+      "种类": "replace",
+      "代码": "cleaned = [str(p).replace(\"/\", \"\\\\\") for p in parts if p is not None and str(p) != \"\"]",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "common.py",
+      "行号": 97,
+      "种类": "replace",
+      "代码": "return s.replace(\"\\\\\", \"/\").strip(\"/\")",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "common.py",
+      "行号": 124,
+      "种类": "正则补漏",
+      "代码": "def write_json(path: Path, obj, indent: int = 2) -> None:",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "common.py",
+      "行号": 131,
+      "种类": "正则补漏",
+      "代码": "def write_jsonl(path: Path, rows) -> None:",
+      "目标推断": "未直接写出字面路径，需结合辅助函数判断",
+      "范围": "待确认"
+    },
+    {
+      "文件": "common.py",
+      "行号": 134,
+      "种类": "正则补漏",
+      "代码": "with tmp.open(\"w\", encoding=\"utf-8\", newline=\"\\n\") as f:",
+      "目标推断": "与正式产出同目录的临时文件（随后 replace）",
+      "范围": "随正式目标"
+    }
+  ],
+  "调用条数": 58,
+  "疑似写到共享盘或镜序完整包": [],
+  "已知目标归纳": [
+    {
+      "脚本": "common.py",
+      "函数": "write_json / write_jsonl",
+      "目标": "由调用方传入的 Path；自身不写死外部路径",
+      "范围内": true
+    },
+    {
+      "脚本": "01_write_config.py",
+      "目标": "默认 fragment_dir()/配置/素材库.json，以及 this_output_dir()/统计/素材库.json",
+      "范围内": true
+    },
+    {
+      "脚本": "02_scan.py",
+      "目标": "--out-dir 下 输入副本/扫描清单.jsonl、统计/扫描摘要.json、核对/扫描异常.jsonl；根路径不存在时也只写 out-dir 摘要",
+      "范围内": true
+    },
+    {
+      "脚本": "03_build_table.py",
+      "目标": "片段库/原片表.jsonl 与 --out-dir 下统计、核对清单",
+      "范围内": true
+    },
+    {
+      "脚本": "04_ffprobe_trial.py / 04b_ffprobe_rest.py",
+      "目标": "片段库/原片表.jsonl 与 --out-dir 下统计；ffprobe 只读文件头；读共享盘用 rb 打开",
+      "范围内": true
+    },
+    {
+      "脚本": "05_dedup.py",
+      "目标": "片段库/原片表.jsonl 与 --out-dir 下统计、核对；读共享盘用 rb 算前1MB哈希",
+      "范围内": true
+    },
+    {
+      "脚本": "06_audit.py",
+      "目标": "--out-dir/核对/随机抽检50条.json；共享盘只做 is_file/stat",
+      "范围内": true
+    },
+    {
+      "脚本": "07_missing_path_test.py",
+      "目标": "this_output_dir()/统计 与 核对/不存在路径测试.json，再调用 02_scan.py --out-dir",
+      "范围内": true
+    }
+  ],
+  "全部落在项目文件夹": true,
+  "项目文件夹": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116"
+}

@@ -1,0 +1,27 @@
+{
+  "时间": "2026-11-18 13:38:47 Asia/Shanghai",
+  "用量探测": {
+    "/usage": {
+      "http_status": 403,
+      "error": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n</body>\r\n</html>\r\n",
+      "note": "无法读取，不猜测额度"
+    },
+    "/billing": {
+      "http_status": 403,
+      "error": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n</body>\r\n</html>\r\n",
+      "note": "无法读取，不猜测额度"
+    },
+    "/billing/usage": {
+      "http_status": 403,
+      "error": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n</body>\r\n</html>\r\n",
+      "note": "无法读取，不猜测额度"
+    },
+    "/account": {
+      "http_status": 403,
+      "error": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n</body>\r\n</html>\r\n",
+      "note": "无法读取，不猜测额度"
+    }
+  },
+  "已有索引数": 0,
+  "已有索引名": []
+}

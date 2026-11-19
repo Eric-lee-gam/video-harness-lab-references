@@ -1,0 +1,22 @@
+{
+  "index_id": "6afd3b33371b8643c700ba73",
+  "index_name": "t12-20261118-01",
+  "创建时间": "2026-11-18 13:44:21 Asia/Shanghai",
+  "http_status": 201,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "raw": {
+    "_id": "6afd3b33371b8643c700ba73"
+  },
+  "models": [
+    {
+      "model_name": "marengo3.0",
+      "model_options": [
+        "visual",
+        "audio"
+      ]
+    }
+  ],
+  "addons": "无"
+}

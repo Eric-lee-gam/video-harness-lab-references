@@ -1,0 +1,53 @@
+{
+  "sentence_records": 99,
+  "paragraphs": 9,
+  "sets_counted_as_8": [
+    "A第50段",
+    "B第46段",
+    "C第71段",
+    "D第30段",
+    "E第63/74段",
+    "F第54段",
+    "G第62段",
+    "H第65段"
+  ],
+  "categories_78": 78,
+  "top20": [
+    "价格与预算",
+    "工期与效率",
+    "点赞关注收藏",
+    "需求条件与兴趣",
+    "保留基层不拆砸",
+    "地域与受众",
+    "无缝同色与踢脚线",
+    "人物身份与团队",
+    "开场提问与转折",
+    "材料展示与选品",
+    "环保与无异味",
+    "联系与头像",
+    "覆盖批刮工艺",
+    "传统拆砸与返工",
+    "留言地址与需求",
+    "耐磨与耐刮",
+    "防潮与防霉",
+    "旧瓷砖与砖缝病害",
+    "短承接词",
+    "量房勘察"
+  ],
+  "review_page": "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116\\工位产出\\T07\\20261117_02\\抽审页_第50段和第30段.md",
+  "line1_示意句数": 42,
+  "report_sentences": 7,
+  "validation": [],
+  "files": [
+    "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116\\工位产出\\T07\\20261117_02\\第一条线_逐句对照表.tsv",
+    "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116\\工位产出\\T07\\20261117_02\\第一条线_逐句对照表.md",
+    "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116\\工位产出\\T07\\20261117_02\\第一条线_规律表.md",
+    "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116\\工位产出\\T07\\20261117_02\\第一条线_画面清单.md",
+    "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116\\工位产出\\T07\\20261117_02\\抽审页_第50段和第30段.md",
+    "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116\\工位产出\\T07\\20261117_02\\78类_观点画面对照表.md",
+    "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116\\工位产出\\T07\\20261117_02\\78类_观点画面对照表.tsv",
+    "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116\\工位产出\\T07\\20261117_02\\肯否定分套条件.md",
+    "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116\\工位产出\\T07\\20261117_02\\与旧句意画面对照表_冲突清单.md",
+    "D:\\codex-work\\codex-company\\video-harness-lab\\references\\素材底座项目-20261116\\工位产出\\T07\\20261117_02\\缺口清单.md"
+  ]
+}

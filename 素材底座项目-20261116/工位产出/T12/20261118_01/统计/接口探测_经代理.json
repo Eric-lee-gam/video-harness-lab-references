@@ -1,0 +1,32 @@
+{
+  "时间": "2026-11-18 13:44:08 Asia/Shanghai",
+  "用量探测": {
+    "/usage": {
+      "http_status": 404,
+      "error": "The endpoint '/usage' does not exist. Please check the documents (https://docs.twelvelabs.io/).",
+      "note": "无法读取，不猜测额度"
+    },
+    "/billing": {
+      "http_status": 404,
+      "error": "The endpoint '/billing' does not exist. Please check the documents (https://docs.twelvelabs.io/).",
+      "note": "无法读取，不猜测额度"
+    },
+    "/billing/usage": {
+      "http_status": 404,
+      "error": "The endpoint '/billing/usage' does not exist. Please check the documents (https://docs.twelvelabs.io/).",
+      "note": "无法读取，不猜测额度"
+    },
+    "/account": {
+      "http_status": 404,
+      "error": "The endpoint '/account' does not exist. Please check the documents (https://docs.twelvelabs.io/).",
+      "note": "无法读取，不猜测额度"
+    }
+  },
+  "已有索引数": 1,
+  "已有索引名": [
+    {
+      "index_id": "6afd1275caaa0d814a2c6256",
+      "index_name": "My Index (Default)"
+    }
+  ]
+}
